@@ -3,8 +3,6 @@ subitems:
     url: /index.html
   - title: About
     subitems:
-      - title: About
-        url: /about.html
       - title: Community
         subitems:
           - title: Contributors

@@ -2,7 +2,7 @@
 <header>
     <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
     <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
-    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5 bg-light navbar-light border-bottom shadow-sm">
+    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5 bg-light navbar-light border-bottom shadow">
         <div class="container">
             <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img class="me-2" src="{{'assets/img/by-covid-condensed.svg' | relative_url }}" alt="BY-COVID logo">{% if site.topnav_title %}{{site.topnav_title}}{% endif %}</a>
             <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0 d-flex">
-                        <a class="nav-link ps-2 me-2" href="https://github.com/elixir-europe/infectious-diseases-toolkit"><i class="fab fa-github"></i></a>
+                        <a class="nav-link ps-2 me-2" href="https://github.com/elixir-europe/infectious-diseases-toolkit"><i class="fab fa-github me-2"></i>GitHub</a>
                     </li>
                     <!-- navigation entries -->
                     {%- assign topnav = site.data[page.topnav] -%}

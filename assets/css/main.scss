@@ -20,6 +20,7 @@ $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+$box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 @import "bootstrap/bootstrap";
 
@@ -94,12 +95,15 @@ hr {
 ::-moz-selection {
     /* Code for Firefox */
     color: $white;
-    background: $primary;
+    background: $secondary;
+    -moz-text-fill-color: $white;
+    
 }
 
 ::selection {
     color: $white;
-    background: $primary;
+    background: $secondary;
+    -webkit-text-fill-color: $white; 
 }
 
 /* End - Selection color */
@@ -312,14 +316,15 @@ pre code {
 }
 
 .menu li.active:not(.parent) > a {
-    background-color: $primary !important;
-    color: $white;
+    background-color: $light !important;
+    color: $primary !important;
+    box-shadow: $box-shadow;
 }
 
-.menu li.parent.active li.parent.active>a {
-    background-color: tint-color($component-active-bg, 70%);
-    color:var(--main-text-color);
-}
+// .menu li.parent.active li.parent.active>a {
+//     background-color: tint-color($component-active-bg, 70%);
+//     color:var(--main-text-color);
+// }
 
 .menu li > a > span {
     float: right;
@@ -497,10 +502,6 @@ h2.card-title {
 }
 
 /*-----Contributors cards-----*/
-
-.contributor-cards .card {
-    background-color: $light;
-}
 
 .contributor-cards .badge {
     background-color: $primary;
