@@ -15,7 +15,7 @@ $component-active-bg: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $navbar-brand-font-size: 1.7rem;
 $card-border-width: 0;
-$link-color: $blue;
+$link-color: $blue!default;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
@@ -38,6 +38,12 @@ h1 {
     }
 }
 
+.anchorjs-link {
+    color: $link-color;
+    -webkit-text-fill-color: $link-color; 
+    -moz-text-fill-color: $link-color;
+}
+
 main h2 {
     font-weight: 700;
     background-color: $primary;
@@ -49,6 +55,7 @@ main h2 {
     -moz-text-fill-color: transparent;
     display: inline-block;
 }
+
 
 main h3 {
     font-weight: 700;
