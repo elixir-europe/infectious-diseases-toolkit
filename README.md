@@ -4,8 +4,8 @@ The website is build on GitHub using Jekyll, a simple, static site generator bas
 
 Make sure you have cloned the infectious-diseases-toolkit repo:
 
-    git clone git@github.com:USERNAME/infectious-diseases-toolkit.git
-    cd jekyll-bootstrap-theme
+    git clone git@github.com:elixir-europe/infectious-diseases-toolkit.git
+    cd infectious-diseases-toolkit
 
 
 To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
