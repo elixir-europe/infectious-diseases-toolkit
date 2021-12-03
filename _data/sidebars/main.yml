@@ -1,0 +1,42 @@
+subitems:
+  - title: Home
+    url: /index.html
+  - title: About
+    subitems:
+      - title: About
+        url: /about.html
+      - title: Community
+        subitems:
+          - title: Contributors
+            url: /contributors.html
+          - title: Editorial board
+            url: /editorial_board.html
+          - title: Support
+            url: /support.html
+      - title: News
+        url: /news.html
+      - title: Events
+        url: /events.html
+      - title: Accessibility
+        url: /accessibility.html
+      - title: Privacy
+        url: /privacy.html
+  - title: Contribute
+    subitems:
+      - title: How to contribute
+        url: /how_to_contribute.html
+        subitems:
+          - title: GitHub way
+            url: /github_way.html
+          - title: Google doc way
+            url: /google_doc_way.html
+          - title: Git way (advanced)
+            url: /working_with_git.html
+      - title: Style guide
+        url: /style_guide.html
+      - title: Copyright guidelines
+        url: /copyright.html
+      - title: Markdown cheat sheet
+        url: /markdown_cheat_sheet.html
+      - title: Code of Conduct
+        url: /CODE_OF_CONDUCT.html

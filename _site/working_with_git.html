@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find the answers to your Research Data Management questions in Life Sciences.">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="Infectious Diseases Toolkit" />
+    <meta property="og:description" content="Find the answers to your Research Data Management questions in Life Sciences." />
+    <meta property="og:image" content="https://by-covid.org/og-home.jpg" />
+    <meta name="apple-mobile-web-app-title" content="Infectious Diseases Toolkit">
+    <meta name="msapplication-TileColor" content="#da366e">
+    <meta name="theme-color" content="#da366e">
+    <title>Working with git | Infectious Diseases Toolkit</title>
+    <!-- Syntax highlighting  -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Country flags  -->
+    <link rel="stylesheet" href="/assets/css/flag-icon.min.css">
+    <!-- Font Awesome 5 Icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
+    <!-- Main css file -->
+    <link rel="stylesheet" href="/main.css">
+    <!-- Main font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- JavaScript  -->
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/lunr.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/jquery.navgoco.js"></script>
+    <script src="/assets/js/jquery.cookie.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#da366e">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Infectious Diseases Toolkit",
+            "url": "http://localhost:4000",
+            "about": "Find the answers to your Research Data Management questions in Life Sciences.",
+        }
+    </script>
+    <!-- Google analytics -->
+    
+
+    
+
+</head>
+
+<body>
+    <!-- Navigation -->
+<header>
+    <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
+    <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
+    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5 bg-light navbar-light border-bottom shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img class="me-2" src="/assets/img/by-covid-condensed.svg" alt="BY-COVID logo">Infectious Diseases Toolkit</a>
+            <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i title="navbar-toggler" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0 d-flex">
+                        <a class="nav-link ps-2 me-2" href="https://github.com/elixir-europe/infectious-diseases-toolkit"><i class="fab fa-github"></i></a>
+                    </li>
+                    <!-- navigation entries -->
+                    <!--start search-->
+                    <li class="nav-item ms-0 ms-lg-3 my-2 my-lg-0">
+                        <div class="search position-relative">
+                            <form role="search" class="d-flex">
+                                <i class="fa fa-search fa-lg"></i> <input type="search" id="search-input" class="ps-5 search-input form-control" tabindex="0" placeholder="Search Infectious Diseases Toolkit" aria-label="Search Infectious Diseases Toolkit" autocomplete="off">
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                    </li>
+                    <!--end search-->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+
+    <!-- Page Content -->
+    <div class="container min-vh-100">
+        <!-- Content Row -->
+        <div class="row gx-0 gx-lg-5">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3">
+                
+<button class="btn bg-light text-start d-lg-none collapsed sidebar-collapse btn w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
+    Main menu <i title="navbar-toggler" class="fa fa-bars ms-2"></i>
+</button>
+<nav class="collapse" id="side-nav" aria-label="Side navigation">
+    <ul id="menu" class="menu list-unstyled mb-4 mb-lg-0">
+        
+        <li>    
+            <a class="btn bg-light hover-primary text-start d-block mt-1" href="/index.html">Home</a>
+        </li>
+        <li>    
+            <a class="btn bg-light hover-primary text-start d-block mt-1" href="">About</a>
+            <ul class="list-unstyled">
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/about.html">About</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="">Community</a>
+                    <ul class="list-unstyled">
+                        <li>    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/contributors.html">Contributors</a>
+                        </li>
+                        <li>    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/editorial_board.html">Editorial board</a>
+                        </li>
+                        <li>    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/support.html">Support</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/news.html">News</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/events.html">Events</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/accessibility.html">Accessibility</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/privacy.html">Privacy</a>
+                </li>
+            </ul>
+        </li>
+        <li>    
+            <a class="btn bg-light hover-primary text-start d-block mt-1" href="">Contribute</a>
+            <ul class="list-unstyled">
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/how_to_contribute.html">How to contribute</a>
+                    <ul class="list-unstyled">
+                        <li>    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/github_way.html">GitHub way</a>
+                        </li>
+                        <li>    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/google_doc_way.html">Google doc way</a>
+                        </li>
+                        <li class="active">    
+                            <a class="btn hover-primary text-start d-block mt-1" href="/working_with_git.html">Git way (advanced)</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/style_guide.html">Style guide</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/copyright.html">Copyright guidelines</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/markdown_cheat_sheet.html">Markdown cheat sheet</a>
+                </li>
+                <li>    
+                    <a class="btn hover-primary text-start d-block mt-1" href="/CODE_OF_CONDUCT.html">Code of Conduct</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <script>$("li.active").parents('li').toggleClass("active parent");</script>
+</nav>
+
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9">
+                <main id="main" class="mb-5">
+    <h1>Working with git
+        <a role="button" href="https://github.com/elixir-europe/rdmkit/blob/master/pages/contribute/working_with_git.md" class="btn hover-primary text-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit me</a>
+    </h1>
+    <h2 id="forking---branching---changing---pushing---pr">Forking - branching - changing - pushing - PR</h2>
+
+<p>This is a general workflow in how to work on your own fork (copy) of the Infectious Diseases Toolkit repo and request changes through a pull request:
+NOTE: if you already did these steps in the past, start from the <code class="language-plaintext highlighter-rouge">git fetch upstream</code> command.</p>
+
+<ul>
+  <li>Make a fork of this repository, using the fork button.</li>
+  <li>Open a terminal and clone your fork using:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git clone git@github.com:USERNAME/infectious-diseases-toolkit.git
+  cd infectious-diseases-toolkit
+</code></pre></div>    </div>
+    <p>NOTE: Make sure you clone the fork and not the original elixir-europe/infectious-diseases-toolkit one.</p>
+  </li>
+  <li>Keep your fork up to date (IMPORTANT!).
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git remote add upstream https://github.com/elixir-europe/infectious-diseases-toolkit.git
+  git fetch upstream
+  git checkout master (if you are not already on the master branch, check with `git branch`)
+  git pull upstream master
+</code></pre></div>    </div>
+  </li>
+  <li>Create a new branch named after your feature/edit.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git checkout -b 'FEATURE_NAME'
+</code></pre></div>    </div>
+  </li>
+  <li>Make the changes you want to make using an editor of choice</li>
+  <li>Save.</li>
+  <li>Open terminal and stage your changes:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git add .
+</code></pre></div>    </div>
+  </li>
+  <li>Committing changes
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git commit -m "Changing the tool-resource file"
+</code></pre></div>    </div>
+  </li>
+  <li>Pushing you changes to your fork
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git push origin 'FEATURE_NAME'
+</code></pre></div>    </div>
+  </li>
+  <li>Go to <a href="https://github.com/elixir-europe/infectious-diseases-toolkit">https://github.com/elixir-europe/infectious-diseases-toolkit</a> and click on <em>Compare &amp; pull request</em></li>
+  <li>Open the pull request an describe your changes.</li>
+  <li>Wait for review by other editors. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically.</li>
+</ul>
+
+<h2 id="the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser">The advantage of working locally: previewing your changes through your web browser</h2>
+
+<p>The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub Infectious Diseases Toolkit repo. Follow these steps to deploy the website based on your local clone (copy) of the Infectious Diseases Toolkit repo:</p>
+
+<p>Make sure you have cloned the Infectious Diseases Toolkit repo:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:USERNAME/infectious-diseases-toolkit.git
+cd Infectious Diseases Toolkit
+</code></pre></div></div>
+
+<p>To run the website locally, you can either use <a href="https://www.docker.com/">Docker</a> or use Jekyll directly after installing various dependencies.</p>
+
+<h3 id="run-using-docker">Run using Docker</h3>
+
+<ol>
+  <li>If not already installed on your machine, install Docker. From the root of the <code class="language-plaintext highlighter-rouge">infectious-diseases-toolkit</code> directory, run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock &amp;&amp; chmod 777 /srv/jekyll &amp;&amp; jekyll serve -w"
+</code></pre></div>    </div>
+    <p>This will start the docker container and serve the website locally.</p>
+  </li>
+</ol>
+
+<h3 id="run-using-jekyll-directly">Run using Jekyll directly</h3>
+
+<ol>
+  <li>
+    <p>If not already present on your machine, install ruby. Note that incompatibility issues may arise with ruby 3.0.0 (released 25.12.20) or newer versions.</p>
+  </li>
+  <li>Install Jekyll
+If you have never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+    <ul>
+      <li>Install Jekyll on MacOS/Ubuntu/Other_Linux/Windows: <a href="https://jekyllrb.com/docs/installation/">https://jekyllrb.com/docs/installation/</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>Install Bundler and Jekyll</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> gem install jekyll bundler
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Install dependencies</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bundle install
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>deploy website</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bundle exec jekyll serve
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Additional information can be found at the following link: <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll">https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll</a></p>
+
+    
+
+</main>
+
+
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="bg-dark text-white">
+    <div class="container py-1 py-4">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <img class="company-image" width="120px;" src="/assets/img/by-covid.svg" alt="ELIXIR converge logo"/>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <ul>
+                    <li><a href="/contributors.html">Contributors</a></li>
+                    <li><a href="/support.html">Institutes, projects and funders</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <ul>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/accessibility.html">Accessibility</a></li>
+                    <li><a href="/privacy.html">Privacy</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <img class="europe-flag" src="/assets/img/Flag_of_Europe.svg" alt="European flag"/>
+                <img class="company-logo" src="/assets/img/by-covid-condensed.svg" alt="infectious-diseases-toolkit logo condensed" width="88px">
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
+        width="70px" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+        <span
+        xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Infectious Diseases Toolkit</span> by <a
+        xmlns:cc="http://creativecommons.org/ns#"
+        href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge"
+        property="cc:attributionName" rel="cc:attributionURL">BY-COVID</a> is licensed under a <a
+        rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+        Attribution 4.0 International License</a>, except where otherwise noted.
+    </div>
+</footer>
+
+    
+
+</body>
+</html>

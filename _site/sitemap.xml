@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://http://localhost:4000/about.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/accessibility.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/contributors.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/copyright.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/editorial_board.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/events.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/github_way.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/google_doc_way.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/how_to_contribute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/media_kit.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/news.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/outreach.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/privacy.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/style_guide.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/support.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://http://localhost:4000/working_with_git.html</loc>
+  </url>
+  </urlset>

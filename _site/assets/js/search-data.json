@@ -1,0 +1,243 @@
+{"0": {
+      "doc": "About",
+      "title": "About",
+      "content": " ",
+      "url": "/about.html",
+      "relUrl": "/about.html"
+    },"1": {
+      "doc": "Accessibility",
+      "title": "How to report problems",
+      "content": "If you have any difficulties or annoyances using the site, or feel that we are not meeting accessibility requirements, then please contact us (rdm-editors@elixir-europe.org). We will do our best to make the site easier to use. ",
+      "url": "/accessibility.html#how-to-report-problems",
+      "relUrl": "/accessibility.html#how-to-report-problems"
+    },"2": {
+      "doc": "Accessibility",
+      "title": "How we assess the accessibility of the site",
+      "content": "The website is a community effort, so unfortunately we do not have the resources to hire an accessibility expert. However, our community includes professional web developers, who assess the accessibility of the site using: . The W3C Web Accessibility Initiative checklist The British government accessibility checklist The Web Content Accessibility Guidelines AccessibilityTest.org, which runs several online accessibility checkers at once. The website was last tested on 17 May 2021. ",
+      "url": "/accessibility.html#how-we-assess-the-accessibility-of-the-site",
+      "relUrl": "/accessibility.html#how-we-assess-the-accessibility-of-the-site"
+    },"3": {
+      "doc": "Accessibility",
+      "title": "Level of compliance",
+      "content": "As far as we can ascertain, this website is compliant with the Web Content Accessibility Guidelines version 2.1 AA standard. If you feel there are issues to address, however, then please email rdm-editors@elixir-europe.org. This statement was prepared on 30 March 2021. ",
+      "url": "/accessibility.html#level-of-compliance",
+      "relUrl": "/accessibility.html#level-of-compliance"
+    },"4": {
+      "doc": "Accessibility",
+      "title": "Accessibility",
+      "content": "We appreciate people have different preferences and abilities when using websites. We have tried to make the site easy to use and understand, no matter what technology or browsing method you are using. For example, you should be able to: . | change colours, contrast levels and fonts | zoom in up to 300% without the text spilling off the screen | navigate the website using just a keyboard | listen to most of the website using a screen reader. | . We aim to conform to the to the ‘AA’ standard of the Web Content Accessibility Guidelines (WCAG) 2.1. This is not just a legal requirement in the European Union, but a best practice that will enable as many people as possible to use the site. ",
+      "url": "/accessibility.html",
+      "relUrl": "/accessibility.html"
+    },"5": {
+      "doc": "Contributors",
+      "title": "Contributors",
+      "content": "This project would not be possible without the many amazing community contributors. Infectious Diseases Toolkit is an open community project, and you are welcome to join us! . Editor Bert Droesbeke . VIB-UGent / ELIXIR-BE . ",
+      "url": "/contributors.html",
+      "relUrl": "/contributors.html"
+    },"6": {
+      "doc": "Copyright guidelines",
+      "title": "Quoting from other resources",
+      "content": "If you do need to quote from another resource, like a website or publication: . Enclose the quote within quotation marks Keep the exact words Link to the resource Give clear credit by naming the author (if known) and the resource Give the full citation for a publication. Please do not copy the text and tweak the wording slightly. If you are not giving the exact quote, then you must express the concept in your own words. Avoid using long quotations from other resources. ",
+      "url": "/copyright.html#quoting-from-other-resources",
+      "relUrl": "/copyright.html#quoting-from-other-resources"
+    },"7": {
+      "doc": "Copyright guidelines",
+      "title": "Images",
+      "content": "It is your responsibility to make sure you have permission to use the images you put on the website. The great majority of images on the web are copyrighted. This includes images on social media, even if they have been reposted or shared. Please make sure you have permission to use them before including them on the website, ideally in writing. If you are not sure whether you can use them, assume that you do not have permission, and contact the copyright owner. If you are using an image with a Creative Commons license, remember you still need to attribute the creator in accordance with the license. If you are using a stock image you have bought, or a royalty-free image, check the image license to make sure that you can use it on the Infectious Diseases Toolkit website. If you are using images provided by your institute or organisation, please also check that you can use them on this site. You are welcome to create the images yourself, but please follow the site style guide, and bear in mind the image may be modified to better suite the style of the site. The content of the site is published under the Creative Commons 4 license. If you think an image would be helpful to explain your content but you cannot find the right one, then create a new issue to suggest a new image. ",
+      "url": "/copyright.html#images",
+      "relUrl": "/copyright.html#images"
+    },"8": {
+      "doc": "Copyright guidelines",
+      "title": "Copyright guidelines",
+      "content": "This website aims to be unique and authoritative, but do feel free to include quotes and images from other resources if they add value to the page. Please follow the guidelines below if you do so and respect copyright. ",
+      "url": "/copyright.html",
+      "relUrl": "/copyright.html"
+    },"9": {
+      "doc": "Editorial board",
+      "title": "Meet the editorial board members",
+      "content": "Bert Droesbeke . VIB-UGent / ELIXIR-BE . Carole Goble . Daniel Faria . Flora D'Anna . Frederik Coppens . Korbinian Bösl . Laura Portell Silva . Martin Cook . Mijke Jetten . Munazah Andrabi . Niclas Jareborg . Pinar Alper . Rob Hooft . Ulrike Wittig . Previous Next ",
+      "url": "/editorial_board.html#meet-the-editorial-board-members",
+      "relUrl": "/editorial_board.html#meet-the-editorial-board-members"
+    },"10": {
+      "doc": "Editorial board",
+      "title": "Join as editorial board member",
+      "content": "Being on the editorial board of Infectious Diseases Toolkit entails shaping how RDM best practices, written by experts, are communicated to the readers who are interested in applying those best practices in their everyday work. As an editor you contribute to the vision of how this information is presented to the life science community at large. Advantages of being an Infectious Diseases Toolkit editor . You will be up-to-date with numerous RDM topics while reviewing proposed content. This work helps to increase your visibility as expert in RDM. You will be able to suggest thematic gaps that should be added to the Infectious Diseases Toolkit, of which you can take ownership as part of the team. You will expand your professional network. You will make an impact in improving RDM in Life Sciences by developing effective ways to communicate best practices to stakeholders. Responsibilities . Careful consideration and examination of topics proposed by contributors, to make sure it is relevant for the Infectious Diseases Toolkit. Work together with contributors how and where their specific contribution fits best in Infectious Diseases Toolkit. Provide timely feedback for improving the quality of the content, according to the Infectious Diseases Toolkit style guide. Formatting content according to Infectious Diseases Toolkit templates. Join the biweekly editorial meeting. Manage a Github repository. Call for joining us . Infectious Diseases Toolkit is receiving lot of attention from policy makers, funders and RDM infrastructure providers, therefore editorial board members should be professionals and experts in RDM, with an interest for effective digital communication, who can help in keeping high quality content. We want to keep the editorial board manageable in numbers, therefore we are looking for complementary expertise to the current members. Requirements . The applicant must have experience in RDM. The applicant must be interested in effective digital communication of best practices and guidelines. The applicant should be willing to spend some time on evaluation of content. The applicant should be open to discuss topics with other editorial board members and to accept feedback. The applicant should have basic knowledge of Github. Application . To become part of the editorial team, please provide: . A short motivation letter (a couple of paragraphs) describing why you would like to join the Infectious Diseases Toolkit editorial board. A summary of your experience in RDM. List of the Infectious Diseases Toolkit sections that you are most interested in (or feel are missing). Please, send your application to rdm-editors@elixir-europe.org. ",
+      "url": "/editorial_board.html#join-as-editorial-board-member",
+      "relUrl": "/editorial_board.html#join-as-editorial-board-member"
+    },"11": {
+      "doc": "Editorial board",
+      "title": "Editorial board",
+      "content": " ",
+      "url": "/editorial_board.html",
+      "relUrl": "/editorial_board.html"
+    },"12": {
+      "doc": "Events",
+      "title": "Upcoming events",
+      "content": ". Contentathon 23 June 2021 9:00 - 24 June 2021 13:30 CET . Online . We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). Sign up here. BioHackathon Europe 08 November 2021 - 12 November 2021 . Barcelona . Highlight your data management tool assembly in the RDMkit! Sign up here. ",
+      "url": "/events.html",
+      "relUrl": "/events.html"
+    },"13": {
+      "doc": "Events",
+      "title": "Past events",
+      "content": ". Contentathon 23 June 2021 9:00 - 24 June 2021 13:30 CET . Online . We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). Sign up here. BioHackathon Europe 08 November 2021 - 12 November 2021 . Barcelona . Highlight your data management tool assembly in the RDMkit! Sign up here. ",
+      "url": "/events.html",
+      "relUrl": "/events.html"
+    },"14": {
+      "doc": "Events",
+      "title": "Events",
+      "content": " ",
+      "url": "/events.html",
+      "relUrl": "/events.html"
+    },"15": {
+      "doc": "GitHub way",
+      "title": "Announce and discuss your proposal through GitHub “issues”",
+      "content": ". Go to the Infectious Diseases Toolkit repo on GitHub. Click on “Issues” in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed. If an issue exists, add your comments. If you want to edit the content discussed, let people know through the comments. If no relevant issue exists, create a new issue by clicking on the green “New issue” button on the right, and choose one of the issues templates. You can find more information on creating issues in the GitHub documentation. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers in the “Leave a comment” box and click on the green “Comment” button on the right. You can always return to your opened issue by going to the issues section of our GitHub repo. Tip: You can also get to the Infectious Diseases Toolkit pages on GitHub using the ‘GitHub’ link in the header of this site ",
+      "url": "/github_way.html#announce-and-discuss-your-proposal-through-github-issues",
+      "relUrl": "/github_way.html#announce-and-discuss-your-proposal-through-github-issues"
+    },"16": {
+      "doc": "GitHub way",
+      "title": "Write your content and make a pull request",
+      "content": ". When you and the editors have agreed on what you will do, go to the page you want to edit on the website. Click on “Edit me” pencil icon :pencil:, shown next to the page title. If you want to add a new page, the editors will give you the link to the page via comments in the issue you created. The page will come with a predefined template, based on the kind of content you want to contribute. The “Edit me” pencil icon will take you to the GitHub repository, where you again click on the pencil icon, shown on the right, and start editing. You can now edit or add new text and images according to the provided template. GitHub provide a guide for writing and formatting in GitHub. We also provide a markdown cheat sheet to show you how to write in this webpage. Make sure to read our style guide before start writing. In general, try to avoid manual interlinking of Infectious Diseases Toolkit pages. If you have mentioned tools or resources in your text, make sure to add them to the tool and resource list. If you want to list training material in your page, add it to the metadata of the page, according to the training matadata fields provided in the page template. When you are happy with your first draft of the content, go to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes. Click on “Propose changes”. You are now redirected to the Pull Request (PR) page. A “pull request” is a request to “pull” your changes into the website. Click on the “Create Pull Request” green button. Here you can choose to: . “Create draft pull request”: choose this if you have not finished writing. Later on you can always click on “Ready for review” to switch to a normal pull request. You can find more information about draft pull requests in the GitHub documentation. “Create pull request”: choose this if you have finished your text. Editors will then review your request. In the description of your pull request you can link to the issue that relates to this change by typing a hashtag # and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might have been discussed beforehand. You can return to your pull request by going to the pull request section of our GitHub repo. If you change your mind about anything in your pull request and the request is not closed, or if the editor tells you to edit your request during the review process, you have to: . Go to your pull request Click on “Files changed” in the top menu bar. Click on the icon with 3 dots “…” of the file you want to edit and then click on “Edit file”. Make your changes. Click on “Commit changes”. Note: Anyone can comment on your issue or pull request and you can reply. For more information on this, please visit the GitHub documentation ",
+      "url": "/github_way.html#write-your-content-and-make-a-pull-request",
+      "relUrl": "/github_way.html#write-your-content-and-make-a-pull-request"
+    },"17": {
+      "doc": "GitHub way",
+      "title": "Request a review",
+      "content": "If you open a normal pull request then a review is automatically requested. The relevant editors will check your changes. If your request is still in draft, click on “Ready for review” to request a review. You can find more information about draft pull requests in the GitHub documentation. ",
+      "url": "/github_way.html#request-a-review",
+      "relUrl": "/github_way.html#request-a-review"
+    },"18": {
+      "doc": "GitHub way",
+      "title": "Address editors’ comments",
+      "content": ". When editors add comments or add a review of your pull request, you will be notified. You need to address editors’ comments and requests by editing your pull request as in step 7 (see above). Go to your pull request Click on “Files changed” in the top menu bar. * Click on the icon with 3 dots \"...\" of the file you want to edit and then click on \"Edit file\". * Make your changes. * Click on “Commit changes”. When all the requests have been addressed, the editors will mark the conversation as “Resolved” and the proposed changes as “Approved”. You content is ready to be merged and published in the main website. Editors publish your content. ",
+      "url": "/github_way.html#address-editors-comments",
+      "relUrl": "/github_way.html#address-editors-comments"
+    },"19": {
+      "doc": "GitHub way",
+      "title": "GitHub way",
+      "content": "This guide tells you how you can easily request and edit a page on this website. You do this using GitHub. For other ways of contributing, see How to contribute. Prerequisite: create a GitHub account before you start. It’s easy and free. ",
+      "url": "/github_way.html",
+      "relUrl": "/github_way.html"
+    },"20": {
+      "doc": "Google doc way",
+      "title": "Contribution process",
+      "content": "Infectious Diseases Toolkit is hosted on GitHub. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing. The steps are as follows: . Email the editorial team at rdm-editors@elixir-europe.org to propose a new page or a new section in an existing page. Make sure you keep other contributors in the CC of your email. The editors will create an issue in our GitHub repository to announce your contribution to others. Use our google doc template to write the page and notify the editorial team when you are finished. The editors will assign reviewers to your page, who will provide feedback as comments on the shared google doc. Address the reviewers’ comments and let the editorial team know, again by mail, that you’re finished with revisions. The editors will transfer your page to GitHub and let you know when it is published on the website. ",
+      "url": "/google_doc_way.html#contribution-process",
+      "relUrl": "/google_doc_way.html#contribution-process"
+    },"21": {
+      "doc": "Google doc way",
+      "title": "Google doc way",
+      "content": " ",
+      "url": "/google_doc_way.html",
+      "relUrl": "/google_doc_way.html"
+    },"22": {
+      "doc": "How to contribute to the Infectious Diseases Toolkit website",
+      "title": "Ways of contributing",
+      "content": "Everyone is welcome to contribute to this site, and we’ve tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so: . If you are not familiar with Git but want to give it a try on GitHub: follow our step-by-step instructions (no technical knowledge required!). If you are happier using Google Docs: follow the Google Doc way. If you are familiar with Git: fork the repo and create a pull request (see our instructions). If you just want to make a quick suggestion: submit your comments/suggestions using the form below. ",
+      "url": "/how_to_contribute.html#ways-of-contributing",
+      "relUrl": "/how_to_contribute.html#ways-of-contributing"
+    },"23": {
+      "doc": "How to contribute to the Infectious Diseases Toolkit website",
+      "title": "Contributor responsibilities",
+      "content": "When writing for this website keep in mind the following: . For the sake of consistency, please follow our style guide. We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the contributors’ section of your page. ",
+      "url": "/how_to_contribute.html#contributor-responsibilities",
+      "relUrl": "/how_to_contribute.html#contributor-responsibilities"
+    },"24": {
+      "doc": "How to contribute to the Infectious Diseases Toolkit website",
+      "title": "Attribution of the contributors",
+      "content": "Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the contributors page. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the CONTRIBUTORS file. ",
+      "url": "/how_to_contribute.html#attribution-of-the-contributors",
+      "relUrl": "/how_to_contribute.html#attribution-of-the-contributors"
+    },"25": {
+      "doc": "How to contribute to the Infectious Diseases Toolkit website",
+      "title": "Making a quick suggestion",
+      "content": "Loading… ",
+      "url": "/how_to_contribute.html#making-a-quick-suggestion",
+      "relUrl": "/how_to_contribute.html#making-a-quick-suggestion"
+    },"26": {
+      "doc": "How to contribute to the Infectious Diseases Toolkit website",
+      "title": "How to contribute to the Infectious Diseases Toolkit website",
+      "content": " ",
+      "url": "/how_to_contribute.html",
+      "relUrl": "/how_to_contribute.html"
+    },"27": {
+      "doc": "Media kit",
+      "title": "Media kit",
+      "content": " ",
+      "url": "/media_kit.html",
+      "relUrl": "/media_kit.html"
+    },"28": {
+      "doc": "News",
+      "title": "News",
+      "content": ". | RDMkit nominated for NFDI4Ing Community Award 27 September 2021 . RDMkit was nominated for the NFDI4Ing Community Award beside other tools at the German NFDI4Ing conference. | BioData.pt TALKS: RDM Toolkit 20 September 2021 . BioData.pt talks comprise a series of monthly webinars given by BioData.pt collaborators and guest experts. The webinar on 2nd November 2021 aims to provide an introduction on the use and features of RDMkit. More information about the event . | Open Science FAIR 20 September 2021 . 3rd Open Science FAIR Conference, an international event for all topics related to Open Science OS Fair 2021 aims to bring together and empower open science communities and services; to identify common practices related to open science; to see what are the best synergies to deliver and operate services that work for many; and to bring experiences from all around the world and learn from each other. - Program zoom links for panel sessions - Plenaries on youtube . | . For more news please visit our news page. ",
+      "url": "/news.html",
+      "relUrl": "/news.html"
+    },"29": {
+      "doc": "Outreach",
+      "title": "Outreach",
+      "content": " ",
+      "url": "/outreach.html",
+      "relUrl": "/outreach.html"
+    },"30": {
+      "doc": "Privacy",
+      "title": "What data we collect",
+      "content": "We collect data about your activity on the site, such as: . which pages you have visited how long you spent on each page which browsers and devices you have used to view the site which country you view the site from. The information is collected anonymously and aggregated. We cannot identify you from the information gathered, or track your web browsing outside of this site. ",
+      "url": "/privacy.html#what-data-we-collect",
+      "relUrl": "/privacy.html#what-data-we-collect"
+    },"31": {
+      "doc": "Privacy",
+      "title": "How we collect the data",
+      "content": "We use Google Analytics to collect this data. When you visit this site the Google Analytics program puts a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites. ",
+      "url": "/privacy.html#how-we-collect-the-data",
+      "relUrl": "/privacy.html#how-we-collect-the-data"
+    },"32": {
+      "doc": "Privacy",
+      "title": "Why we collect the data",
+      "content": "We collect the data so that we can then generate reports about the site for our funders. We also collect the date to help us improve the site, and ensure we design the site for the browsers and devices that most people are using. ",
+      "url": "/privacy.html#why-we-collect-the-data",
+      "relUrl": "/privacy.html#why-we-collect-the-data"
+    },"33": {
+      "doc": "Privacy",
+      "title": "Who has access to the data",
+      "content": "The data collected from you visit to the site is sent to Google but aggregated and anonymised. We do not have access to personally identifiable information, but Google records and stores your IP address in order to generate the site statistics. See Google Analytics cookies information and Google’s Safeguarding your data article. ",
+      "url": "/privacy.html#who-has-access-to-the-data",
+      "relUrl": "/privacy.html#who-has-access-to-the-data"
+    },"34": {
+      "doc": "Privacy",
+      "title": "If you have concerns about your data",
+      "content": "We ask for your permission to set the cookie when you visit the site, but if you change your mind you can: . Remove the cookie manually. See the Norton Security website for detailed instructions. Use a browser extension to stop the cookie, such as Google’s Opt-out Browser Add-on. Please contact rdm-editors@elixir-europe.org if you have any queries concerning the data we may have. ",
+      "url": "/privacy.html#if-you-have-concerns-about-your-data",
+      "relUrl": "/privacy.html#if-you-have-concerns-about-your-data"
+    },"35": {
+      "doc": "Privacy",
+      "title": "Your GitHub information",
+      "content": "If you are a contributor to the site then you will be automatically listed as a contributor, with your profile picture (if you have one) and a link to your GitHub pages. If you would like to be removed from the contributor list then please contact rdm-editors@elixir-europe.org. You may also want to see the GitHub Privacy Statement. ",
+      "url": "/privacy.html#your-github-information",
+      "relUrl": "/privacy.html#your-github-information"
+    },"36": {
+      "doc": "Privacy",
+      "title": "Privacy",
+      "content": "This Privacy Policy explains what personal data is collected by the Research Data Management (RDM) Toolkit website. ",
+      "url": "/privacy.html",
+      "relUrl": "/privacy.html"
+    },"37": {
+      "doc": "Style guide",
+      "title": "Style guide",
+      "content": "In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines). Below are the points that you might find most useful, though, and that relate particularly to the Infectious Diseases Toolkit. ## General style and tone * Keep the tone friendly rather than formal, and use \"you\". Imagine you were explaining something verbally to someone - how would you say it? * Use short, active sentences and short paragraphs (3-4 sentences). * Make use of headings and bullet points to break text up so it is easy to scan. * Remember that the site is there to help people, so make it clear to the readers how the information can benefit them. * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms. ## Text * **Acronyms:** spell them out the first time. * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space. * **Capitals:** do not use all capitals for emphasis or in headings. * **Data:** treat as singular (\"Data is...\"). (Whether \"data\" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).) * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations). * **Datasets:** not \"data sets\". * **Email:** not \"e-mail\". * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like \"contact us\". * **Gender:** avoid using gender-specific words like \"he\" or \"she\". * **Headings:** * Only the first word is capitalised, unless other words are proper nouns. * Headings must be hierarchical. They must go down in order (level one, level two, level three), and not skip a level. It is fine to skip levels when moving back up e.g. you can skip from level four to level two. * **-ise/-ize:** use the \"-ise\" form. * **Life cycle:** two separate words. * **Links:** make the link text say where the link goes e.g. \"the Contribute page\", not \"click here\". Avoid using the url as the link text. * **Lists:** every line of a list starts with a capital and ends with a full stop. * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc). * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes. * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use \"*et al.*\" for more than five authors. * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016). * Lam, J. Data Management. (John Wiley & Sons, Inc., 2019). * **That/which:** use \"that\" when you are defining something and \"which\" when you are adding extra information about it e.g.: * \"The cat that was on the table suddenly got up\" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table. * \"The cat, which was sitting on the table, suddenly got up\" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with \"which\" usually begin with a comma. * **Titles:** only the first word and acronyms are capitalised. * **Tool assembly:** there are multiple tools in **one** assembly. The plural is \"tool assemblies\". * **Training:** training is an uncountable noun and cannot have a plural. You can write \"training courses\" and \"training materials\" but not \"trainings\". ## Graphic design * **White space:** make sure there is plenty of space space so that the main elements stand out and the text does not appear overwhelming. * **Colours:** * The headings, links and text will automatically appear in the right colour if you use the site page templates. * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram. * | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour | | #376AC3 | Blue | Link colour | | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer | | #83858e | Gray | Gray text, Fourth level heading (h4) | | #f3f1f2 | Light gray | Box backgrounds | * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text. * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). We have a Pro license and so the right to publish them without attribution. * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)). * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). * **Images:** * Do not use images to display text. * Include an 'alt' attribute in images. ## Naming of files, tags, keywords, and navigation titles * **Markdown file names:** * Do not contain spaces or special characters like &, %, #, (, ), è, é, ê, ë, ... * Are unique among the website. * Are lowercase, except for acronyms. * **Tags for tools, resources and pages:** * Do not contain special characters like &, %, #, (, ), è, é, ê, ë, ... * Are lowercase, except for acronyms. * Are short if possible, but distinguishable from existing tags. * Can contain spaces. * **Keywords:** * Are lowercase. * Can contain spaces. * **Titles in the navigation side panel:** * First word and acronyms capitalised. * Should contain the same words as the filename where this title points to. ## How to suggest amendments or additions to this style guide [Open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](how_to_contribute). ",
+      "url": "/style_guide.html",
+      "relUrl": "/style_guide.html"
+    },"38": {
+      "doc": "Support",
+      "title": "Support",
+      "content": "## Funders {% include logo-page.html data= \"FUNDERS\"%} ",
+      "url": "/support.html",
+      "relUrl": "/support.html"
+    },"39": {
+      "doc": "Working with git",
+      "title": "Working with git",
+      "content": "## Forking - branching - changing - pushing - PR This is a general workflow in how to work on your own fork (copy) of the Infectious Diseases Toolkit repo and request changes through a pull request: NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. - Make a fork of this repository, using the fork button. - Open a terminal and clone your fork using: ``` git clone git@github.com:USERNAME/infectious-diseases-toolkit.git cd infectious-diseases-toolkit ``` NOTE: Make sure you clone the fork and not the original elixir-europe/infectious-diseases-toolkit one. - Keep your fork up to date (IMPORTANT!). ``` git remote add upstream https://github.com/elixir-europe/infectious-diseases-toolkit.git git fetch upstream git checkout master (if you are not already on the master branch, check with `git branch`) git pull upstream master ``` - Create a new branch named after your feature/edit. ``` git checkout -b 'FEATURE_NAME' ``` - Make the changes you want to make using an editor of choice - Save. - Open terminal and stage your changes: ``` git add . ``` - Committing changes ``` git commit -m \"Changing the tool-resource file\" ``` - Pushing you changes to your fork ``` git push origin 'FEATURE_NAME' ``` - Go to [https://github.com/elixir-europe/infectious-diseases-toolkit](https://github.com/elixir-europe/infectious-diseases-toolkit) and click on *Compare & pull request* - Open the pull request an describe your changes. - Wait for review by other editors. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically. ## The advantage of working locally: previewing your changes through your web browser The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub Infectious Diseases Toolkit repo. Follow these steps to deploy the website based on your local clone (copy) of the Infectious Diseases Toolkit repo: Make sure you have cloned the Infectious Diseases Toolkit repo: git clone git@github.com:USERNAME/infectious-diseases-toolkit.git cd Infectious Diseases Toolkit To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies. ### Run using Docker 1. If not already installed on your machine, install Docker. From the root of the ``infectious-diseases-toolkit`` directory, run: ``` docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c \"chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll serve -w\" ``` This will start the docker container and serve the website locally. ### Run using Jekyll directly 1. If not already present on your machine, install ruby. Note that incompatibility issues may arise with ruby 3.0.0 (released 25.12.20) or newer versions. 1. Install Jekyll If you have never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll: * Install Jekyll on MacOS/Ubuntu/Other_Linux/Windows: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/) 1. Install Bundler and Jekyll ``` gem install jekyll bundler ``` 1. Install dependencies ``` bundle install ``` 1. deploy website ``` bundle exec jekyll serve ``` Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll) ",
+      "url": "/working_with_git.html",
+      "relUrl": "/working_with_git.html"
+    }
+  }
+  
