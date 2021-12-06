@@ -15,6 +15,8 @@ $component-active-bg: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $navbar-brand-font-size: 1.7rem;
 $card-border-width: 0;
+$card-cap-bg: $light;
+$input-group-addon-bg: $light;
 $link-color: $blue!default;
 $link-decoration: none;
 $body-bg: $white;
@@ -161,29 +163,11 @@ pre code {
 
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item a.active {
-    color: $white;
-    background-color: $primary;
-    border-radius: $border-radius;
-}
-
 .navbar-brand img {
     height: 40px;
 }
 
 /*-----Search box top navigation-----*/
-
-.search {
-    position: relative;
-    z-index: 2;
-}
-
-.search .fa-search {
-    position: absolute;
-    color: $primary;
-    top: 12px;
-    left: 15px;
-}
 
 .search-results {
     position: absolute;
@@ -196,6 +180,7 @@ pre code {
     background-color: $white;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    z-index: $zindex-dropdown;
 }
 
 @media (max-width: 992px) {
