@@ -1,23 +1,14 @@
-url: infectious-diseases-toolkit.org
-repository: infectious-diseases-toolkit
-
-topnav_title: Infectious Diseases Toolkit
-# this appears on the top navigation bar next to the home button
-
 title: Infectious Diseases Toolkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-git_editme_path: https://github.com/elixir-europe/infectious-diseases-toolkit/blob/master/
-
-git_history_path: https://github.com/elixir-europe/infectious-diseases-toolkit/commits/master/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+topnav_title: Infectious Diseases Toolkit
+# this appears on the top navigation bar next to the home button
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
 # gtag: G-RXQ55EFTTH
 # Google analytics tag
-
 
 exclude:
   - .gitignore
@@ -50,3 +41,4 @@ defaults:
 
 plugins:
   - jemoji
+  - jekyll-github-metadata
