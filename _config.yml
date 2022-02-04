@@ -10,24 +10,13 @@ description: "Find the answers to your Research Data Management questions in Lif
 # gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-exclude:
-  - .gitignore
-  - var/
-  - README.md
-  - vendor
-  - Gemfile*
-  - LICENSE
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.0.0
 
-markdown: kramdown
-highlighter: rouge
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
+theme_variables:
+  theme_color: da366e
+  fonts:
+    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap
 
-sass:
-  sass_dir: assets/css
-  style: compressed
 
 defaults:
   -
@@ -39,6 +28,3 @@ defaults:
       layout: "page"
       sidebar: main
 
-plugins:
-  - jemoji
-  - jekyll-github-metadata

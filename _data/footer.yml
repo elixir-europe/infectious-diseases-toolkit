@@ -1,0 +1,37 @@
+copyright: Copyright notice
+extra_line: 
+columns:
+  - type: image
+    image_width: 120px
+    width: 2
+    src: 'assets/img/jekyll_theme_question.svg'
+    alt: Logo
+  - type: links
+    width: 3
+    children: 
+      - url_text: Contributors
+        url: /contributors.html
+      - url_text: Institutes, projects and funders
+        url: /support.html
+  - type: links
+    width: 3
+    children: 
+      - url_text: About
+        url: /about.html
+      - url_text: Contact
+        url: /contact.html
+      - url_text: Accessibility
+        url: /accessibility.html
+      - url_text: Privacy
+        url: /privacy.html
+  - type: image
+    image_width: 100px
+    width: 1
+    src: 'assets/img/Flag_of_Europe.svg'
+    alt: European flag
+  - type: image
+    image_width: 88px
+    width: 1
+    src: 'assets/img/main_logo_condesed.svg'
+    alt: Jekyll Bootstrap theme logo
+

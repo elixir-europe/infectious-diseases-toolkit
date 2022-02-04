@@ -1,0 +1,11 @@
+main h2 {
+    font-weight: 700;
+    background-color: $primary;
+    background-image: $color-gradient;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: inline-block;
+}

@@ -1,0 +1,22 @@
+/*-----Theme colors-----*/
+$white: #fff;
+$primary: #da366e;
+$secondary: #5696d0;
+$blue: #277ab9;
+$light: #f3f3f3;
+$dark: #4a4a4a;
+$color-gradient: linear-gradient(90deg,$primary 18%,$secondary);
+
+/*-----Custom bootstrap values-----*/
+$component-active-bg: $primary;
+$navbar-dark-toggler-border-color: transparent;
+$navbar-brand-font-size: 1.7rem;
+$card-border-width: 0;
+$card-cap-bg: $light;
+$input-group-addon-bg: $light;
+$link-color: $blue!default;
+$link-decoration: none;
+$body-bg: $white;
+$body-color: $dark;
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+$box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
