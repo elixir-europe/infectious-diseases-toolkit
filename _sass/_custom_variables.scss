@@ -8,7 +8,7 @@ $btn-primary-color-hover: $white;
 
 /*-----Top navigation-----*/
 $topnav-bg: $light;
-$topnav-title-color: $primary;
+$topnav-title-color: $black;
 
 /*-----Search-----*/
 $search-result-color: $primary;
@@ -16,7 +16,7 @@ $search-result-color: $primary;
 /*-----Sidebar-----*/
 $sidebar-bg: $white;
 $sidebar-color: $dark;
-$sidebar-bg-active: $white;
+$sidebar-bg-active: $primary;
 $sidebar-color-active: $white;
 
 /*-----TOC-----*/
@@ -37,7 +37,7 @@ $info-card-header-bg: $dark;
 $info-card-header-color: $white;
 
 /*-----Contributors-cards-----*/
-$contr-card-bg: $light;
+$contr-card-bg: $white;
 
 /*-----Page contributors-----*/
 $contr-bg: $light;
@@ -58,9 +58,9 @@ $badge-color-hover: $white;
 $badge-bg-hover: $primary;
 
 /*-----Footer-----*/
-$footer-bg: $light;
-$footer-color: $dark;
-$footer-link-color: $dark;
+$footer-bg: $dark;
+$footer-color: $white;
+$footer-link-color: $white;
 $footer-link-color-hover: $primary;
-$footer-copyright-bg: $gray-200;
+$footer-copyright-bg: #00000033;
 

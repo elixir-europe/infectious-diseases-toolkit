@@ -1,11 +1,34 @@
-main h2 {
-    font-weight: 700;
-    background-color: $primary;
-    background-image: $color-gradient;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    display: inline-block;
+main {
+    h1 {
+        margin-bottom: 0.5em;
+        font-weight: 600;
+    }
+    h2 {
+        font-weight: 700;
+        background-color: $primary;
+        background-image: $color-gradient;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        display: inline-block;
+        margin-top: 0;
+    }
+}
+
+::-moz-selection {
+    -moz-text-fill-color: $white;
+}
+
+::selection {
+    -webkit-text-fill-color: $white;
+}
+
+.navbar,
+#toc,
+.contributor-cards .card,
+ul#menu > li > a,
+.sidebar-collapse {
+    box-shadow: $box-shadow;
 }

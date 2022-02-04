@@ -5,5 +5,4 @@ title: Support
 ## Funders
 
 
-
-{% include logo-page.html data= "FUNDERS"%}
+{% include affiliation-tiles-selection.html type="funder"%}

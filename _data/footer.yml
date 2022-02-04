@@ -1,11 +1,11 @@
-copyright: Copyright notice
+copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Infectious Diseases Toolkit by [BY-COVID](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted."
 extra_line: 
 columns:
   - type: image
     image_width: 120px
     width: 2
-    src: 'assets/img/jekyll_theme_question.svg'
-    alt: Logo
+    src: 'assets/img/by-covid-inverted.svg'
+    alt: logo by-covid
   - type: links
     width: 3
     children: 
@@ -27,11 +27,11 @@ columns:
   - type: image
     image_width: 100px
     width: 1
-    src: 'assets/img/Flag_of_Europe.svg'
+    src: 'assets/img/Flag_of_Europe_white.svg'
     alt: European flag
   - type: image
     image_width: 88px
     width: 1
-    src: 'assets/img/main_logo_condesed.svg'
-    alt: Jekyll Bootstrap theme logo
+    src: 'assets/img/by-covid-condensed.svg'
+    alt: Infectious diseases toolkit condensed
 

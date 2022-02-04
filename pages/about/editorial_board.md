@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel.html custom="Bert Droesbeke"%}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke"%}
 
 ## Join as editorial board member
 

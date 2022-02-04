@@ -10,6 +10,8 @@ $color-gradient: linear-gradient(90deg,$primary 18%,$secondary);
 /*-----Custom bootstrap values-----*/
 $component-active-bg: $primary;
 $navbar-dark-toggler-border-color: transparent;
+$nav-link-color: $dark;
+$nav-link-hover-color: $primary;
 $navbar-brand-font-size: 1.7rem;
 $card-border-width: 0;
 $card-cap-bg: $light;
@@ -20,3 +22,8 @@ $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: 'IBM Plex Sans', sans-serif;
 $box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+$h1-font-size: 1rem * 4 !default;
+$h3-font-size: 1rem * 1.5 !default;
+$h4-font-size: 1rem * 1.1 !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 1rem !default;
