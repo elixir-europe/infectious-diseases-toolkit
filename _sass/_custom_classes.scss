@@ -1,3 +1,5 @@
+/*-----General styling-----*/
+
 main {
     h1 {
         margin-bottom: 0.5em;
@@ -17,6 +19,8 @@ main {
     }
 }
 
+/*-----Selection color-----*/
+
 ::-moz-selection {
     -moz-text-fill-color: $white;
 }
@@ -25,6 +29,8 @@ main {
     -webkit-text-fill-color: $white;
 }
 
+/*-----Box shadows-----*/
+
 .navbar,
 #toc,
 .contributor-cards .card,
@@ -32,4 +38,10 @@ ul#menu > li > a,
 .sidebar-collapse,
 #footer {
     box-shadow: $box-shadow;
+}
+
+/*-----Custom primary button-----*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+    color: $white;
 }
