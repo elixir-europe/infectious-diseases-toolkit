@@ -12,7 +12,7 @@
   url: https://www.fwo.be/
 - name: European Union
   image_url: /images/funders/Flag_of_Europe.svg
-  pid: 
+  pid: http://dx.doi.org/10.13039/501100000780
   expose: true
   type: funder
   url: https://ec.europa.eu/
