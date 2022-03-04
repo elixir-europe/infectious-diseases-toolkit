@@ -28,3 +28,5 @@ defaults:
       layout: "page"
       sidebar: main
 
+plugins:
+  - jemoji
