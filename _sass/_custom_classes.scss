@@ -21,12 +21,11 @@ main {
 
 /*-----Sidebar-----*/
 .sidebar-title {
+    border-bottom: 4px solid $primary;
+    font-weight: bold;
     margin-bottom: 17px;
-    a {
-        border-bottom: 4px solid $primary;
-        font-weight: bold;
-    }
 }
+
 /*-----Selection color-----*/
 
 ::-moz-selection {

@@ -10,7 +10,7 @@ description: "Find the answers to your Research Data Management questions in Lif
 # gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.7.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@active-fix
 
 theme_variables:
   theme_color: da366e
