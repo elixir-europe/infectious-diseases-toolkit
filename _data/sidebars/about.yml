@@ -1,0 +1,25 @@
+title: About
+title_url: /about.html
+subitems:
+  - title: Community
+    subitems:
+      - title: Contributors
+        url: /contributors.html
+      - title: Editorial board
+        url: /editorial_board.html
+      - title: Support
+        url: /support.html
+  - title: Contact
+    url: /contact.html
+  - title: News
+    url: /news.html
+  - title: Events
+    url: /events.html
+  - title: Media kit
+    url: /media_kit.html
+  - title: Outreach
+    url: /outreach.html
+  - title: Accessibility
+    url: /accessibility.html
+  - title: Privacy
+    url: /privacy.html

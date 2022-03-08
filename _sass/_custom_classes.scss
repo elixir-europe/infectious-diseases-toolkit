@@ -19,6 +19,17 @@ main {
     }
 }
 
+/*-----Sidebar-----*/
+.sidebar-title {
+    border-bottom: 4px solid $primary;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#side-nav>ul {
+    margin-top: 17px;
+}
+
 /*-----Selection color-----*/
 
 ::-moz-selection {
@@ -34,7 +45,7 @@ main {
 .navbar,
 #toc,
 .contributor-cards .card,
-ul#menu > li > a,
+#side-nav>ul > li > a,
 .sidebar-collapse,
 #footer {
     box-shadow: $box-shadow;
@@ -42,6 +53,16 @@ ul#menu > li > a,
 
 /*-----Custom primary button-----*/
 
-.btn-primary, .btn-primary:hover, .btn-primary:active {
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
     color: $white;
+}
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a.active {
+    color: $white;
+    background-color: $primary;
+    border-radius: $border-radius;
 }
