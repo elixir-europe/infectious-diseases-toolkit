@@ -23,7 +23,10 @@ main {
 .sidebar-title {
     border-bottom: 4px solid $primary;
     font-weight: bold;
-    margin-bottom: 17px;
+}
+
+#side-nav ul {
+    margin-top: 17px;
 }
 
 /*-----Selection color-----*/
