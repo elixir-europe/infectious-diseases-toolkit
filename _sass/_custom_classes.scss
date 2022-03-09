@@ -21,9 +21,10 @@ main {
 
 /*-----Sidebar-----*/
 .sidebar-title {
-    border-bottom: 4px solid $primary;
+    border-bottom: 0.25rem solid $primary;
     font-weight: bold;
     font-size: 1.3rem;
+    padding-bottom: $input-btn-padding-y - 0.25rem;
 }
 
 #side-nav>ul {
