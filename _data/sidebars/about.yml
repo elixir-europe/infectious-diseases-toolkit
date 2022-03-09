@@ -5,8 +5,6 @@ subitems:
     subitems:
       - title: Contributors
         url: /contributors.html
-      - title: Editorial board
-        url: /editorial_board.html
       - title: Support
         url: /support.html
   - title: Contact
