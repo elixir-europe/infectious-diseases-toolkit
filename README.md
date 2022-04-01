@@ -1,3 +1,5 @@
+[![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+
 # Infectious Diseases Toolkit
 
 The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub infectious-diseases-toolkit repo. Follow these steps to deploy the website based on your local clone (copy) of the jekyll-bootstrap-theme repo:
