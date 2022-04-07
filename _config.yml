@@ -10,7 +10,7 @@ description: ""
 # gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.9.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.13.0
 
 theme_variables:
   theme_color: da366e
@@ -24,7 +24,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename:output_ext
+      permalink: /:basename
       layout: "page"
       sidebar: main
   -
@@ -32,14 +32,14 @@ defaults:
       path: "pages/about"
       type: "pages"
     values:
-      permalink: /:basename:output_ext
+      permalink: /:basename
       sidebar: about
   -
     scope:
       path: "pages/contribute"
       type: "pages"
     values:
-      permalink: /:basename:output_ext
+      permalink: /:basename
       sidebar: contribute
 
 plugins:

@@ -1,7 +1,7 @@
 subitems:
   - title: Main
-    url: /index.html
+    url: /index
   - title: About
-    url: /about.html
+    url: /about
   - title: Contribute
-    url: /how_to_contribute.html
+    url: /how_to_contribute
