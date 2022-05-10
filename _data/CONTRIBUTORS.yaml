@@ -15,7 +15,7 @@ Bert Droesbeke:
     email: bedro@psb.ugent.be
     orcid: 0000-0003-0522-5674
     role: editor
-    affiliation: VIB-UGent / ELIXIR-BE  
+    affiliation: VIB-UGent / ELIXIR-BE
 Hedi Peterson:
     git: hedi-ee
     email: hedi.peterson@gmail.com
@@ -28,4 +28,9 @@ Stian Soiland-Reyes:
     orcid: 0000-0001-9842-9718
     role: editor
     affiliation: The University of Manchester / ELIXIR-UK
-
+Patricia Palagi:
+    git: ppalagi
+    email: patricia.palagi@sib.swiss
+    orcid: 0000-0001-9062-6303
+    role: editor
+    affiliation: SIB Swiss Institute of Bioinformatics / ELIXIR-CH
