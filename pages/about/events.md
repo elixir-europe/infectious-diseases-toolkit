@@ -1,5 +1,6 @@
 ---
 title: Events
+custom-editme: _data/events.yaml
 ---
 
 {% include events.html event_type="upcoming_event" title="true" %}
