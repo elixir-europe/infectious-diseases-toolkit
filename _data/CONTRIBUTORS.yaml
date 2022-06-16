@@ -10,6 +10,12 @@
 #    affiliation: affiliation
 #    image_url: absolute path to image (default image from github)
 
+Rudolf Wittner:
+    git: RudoWittner
+    email: rudolf.wittner@bbmri-eric.eu
+    orcid: 0000-0002-0003-2024
+    role: editor
+    affiliation: BBMRI-ERIC
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
