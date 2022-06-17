@@ -32,9 +32,9 @@ We ask for your permission to set the cookie when you visit the site, but if you
 * **Remove the cookie manually.** See the [Norton Security website](https://us.norton.com/internetsecurity-privacy-how-to-clear-cookies.html) for detailed instructions.
 * **Use a browser extension to stop the cookie**, such as [Google's Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
 
-Please contact [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) if you have any queries concerning the data we may have.
+Please contact [idtk-editors@elixir-europe.org.](mailto:idtk-editors@elixir-europe.org.) if you have any queries concerning the data we may have.
 
 ## Your GitHub information
-If you are a contributor to the site then you will be automatically listed as a contributor, with your profile picture (if you have one) and a link to your GitHub pages. If you would like to be removed from the contributor list then please contact [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org).
+If you are a contributor to the site then you will be automatically listed as a contributor, with your profile picture (if you have one) and a link to your GitHub pages. If you would like to be removed from the contributor list then please contact [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org).
 
 You may also want to see the [GitHub Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
