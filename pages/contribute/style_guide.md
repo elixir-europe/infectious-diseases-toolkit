@@ -19,7 +19,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
   * **Datasets:** not "data sets".
   * **Email:** not "e-mail".
-  * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Email addresses:** spell these out and make the email address the link e.g. [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
     * Only the first word is capitalised, unless other words are proper nouns.
@@ -53,7 +53,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
   * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). We have a Pro license and so the right to publish them without attribution.
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
-  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
+  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
@@ -78,4 +78,4 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 
 ## How to suggest amendments or additions to this style guide
-[Open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](how_to_contribute).
+[Open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org). See also the [contribute page](how_to_contribute).
