@@ -101,24 +101,52 @@ note can be replaced with tip, warning, important, depending on the type of mess
 
 ## Images
 
-{% include image.html file="exampleImage.png" caption="Figure 1. Say something about this pic." alt="Servers" %}
+{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="exampleImage.png" caption="Figure 1. Say something about this pic." alt="Servers" %}
+{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
+```
+{% endraw %}
+
+or a smaller image
+
+{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
+
+This image is inserted in the markdown using following snippet:
+
+{% raw %}
+```
+{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
 ```
 {% endraw %}
 
 Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
 
-* `max-width` : an integer between 1 and 50 to define the relative width of the image
 * `click`: if true, the image will be clickable -> the image will be loaded in another tab
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
 * `caption`: Text that will appear under the image
 * `inline`: if true this image can be used in a list
+* `max-width`: Max width in px or em
+
+
+or using following markdown syntax:
+{% raw %}
+```
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+```
+{% endraw %}
+
+gives:
+
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+
+
 
 ## Icons
 
@@ -129,22 +157,22 @@ The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, 
 Here's an example of how to scale up a camera icon:
 
 ```html
-<i class="fas fa-camera-retro"></i> normal size (1x)
-<i class="fas fa-camera-retro fa-lg"></i> fa-lg
-<i class="fas fa-camera-retro fa-2x"></i> fa-2x
-<i class="fas fa-camera-retro fa-3x"></i> fa-3x
-<i class="fas fa-camera-retro fa-4x"></i> fa-4x
-<i class="fas fa-camera-retro fa-5x"></i> fa-5x
+<i class="fa-solid fa-camera-retro"></i> normal size (1x)
+<i class="fa-solid fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa-solid fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa-solid fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa-solid fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa-solid fa-camera-retro fa-5x"></i> fa-5x
 ```
 
 Here's what they render to:
 
-<i class="fas fa-camera-retro"></i> 1x
-<i class="fas fa-camera-retro fa-lg"></i> fa-lg
-<i class="fas fa-camera-retro fa-2x"></i> fa-2x
-<i class="fas fa-camera-retro fa-3x"></i> fa-3x
-<i class="fas fa-camera-retro fa-4x"></i> fa-4x
-<i class="fas fa-camera-retro fa-5x"></i> fa-5x
+<i class="fa-solid fa-camera-retro"></i> 1x
+<i class="fa-solid fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa-solid fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa-solid fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa-solid fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa-solid fa-camera-retro fa-5x"></i> fa-5x
 
 ## Links
 
@@ -292,29 +320,27 @@ Text
 
 If you want pages from the specific sections Your tasks, Your domain and Tool assembly to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
-An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
 
 
 ```yml
 related_pages: 
-   - your_tasks: [page_id1, page_id2]
-   - your_domain: [page_id1, page_id2]
-   - tool_assembly: [page_id1, page_id2]
+   your_tasks: [page_id1, page_id2]
+   your_domain: [page_id1, page_id2]
+   tool_assembly: [page_id1, page_id2]
 ```
 
 ## Listing training material
-You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
 
 ```yml
 training:
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 ```
 
@@ -327,7 +353,7 @@ To have space between two lines of text, simply leave one empty line in between 
 <br>
 ```
 
-## Enforce no space between two lines
+## Enfore line break
 
 When you want to have a line of text.\\
 And another line underneath it without space, use:
