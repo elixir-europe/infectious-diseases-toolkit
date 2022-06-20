@@ -67,3 +67,7 @@ main {
     background-color: $primary;
     border-radius: $border-radius;
 }
+
+nav .navbar-brand {
+    font-size: calc(1rem + .54vw);
+}
