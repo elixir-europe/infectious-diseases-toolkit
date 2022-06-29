@@ -15,5 +15,7 @@ subitems:
     url: /copyright
   - title: Markdown cheat sheet
     url: /markdown_cheat_sheet
+  - title: Page metadata
+    url: /page_metadata
   - title: Code of Conduct
     url: /CODE_OF_CONDUCT
