@@ -27,7 +27,7 @@ columns:
   - type: image
     image_width: 100px
     width: 1
-    src: 'assets/img/Flag_of_Europe.svg'
+    src: 'assets/img/eu-flag-white.svg'
     alt: European flag
   - type: image
     image_width: 88px
