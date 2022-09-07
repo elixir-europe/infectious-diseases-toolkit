@@ -71,3 +71,64 @@ main {
 nav .navbar-brand {
     font-size: calc(1rem + .54vw);
 }
+
+
+/* -----Homepage----- */
+
+.landingpage {
+
+    .h-icon-6 {
+        height: 6em;
+    }
+    .h-icon-5 {
+        height: 5em;
+    }
+    .h-icon-4 {
+        height: 4em;
+    }
+
+    .card {
+        &:hover{
+            box-shadow: $box-shadow;
+        }
+
+        .card-img-top {
+            width: unset;
+            padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
+        }
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-family:  $font-family-theme;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-family:  $font-family-theme;
+    }
+
+}
+
+// Search box
+
+section#search-section {
+    form {
+        max-width: 600px;
+    }
+
+    #search-results {
+        right: unset;
+    }
+    .input-group-text {
+        font-size: 1.5rem;
+    }
+
+    
+}

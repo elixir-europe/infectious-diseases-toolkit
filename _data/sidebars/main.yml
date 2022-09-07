@@ -1,3 +1,42 @@
 title: Main
 title_url: /index
 subitems:
+  - title: Pathogen characterization
+    url: /metadata
+    subitems:
+      - title: Data generation
+        subitems:
+          - title: Metadata
+            url: /
+          - title: Metadata harmonization
+            url: /
+          - title: Quality control
+            url: /
+          - title: Provenance
+            url: /
+      - title: Data analysis 
+
+      - title: Data sharing
+        subitems:
+          - title: Accessibility
+            url: /
+          - title: Findability
+            url: /
+      - title: Data representation
+        subitems:
+          - title: Reporting
+            url: /
+          - title: Dashboards
+            url: /
+
+  - title: Population social / economical aspects
+    url: /
+  - title: Patient level disease
+    url: /
+  - title: Roles
+    url: /
+  - title: Demonstrators
+    url: /
+  - title: National Resources
+    url: /
+
