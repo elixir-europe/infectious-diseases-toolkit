@@ -63,7 +63,7 @@ main {
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a.active {
-    color: $white;
+    color: $white!important;
     background-color: $primary;
     border-radius: $border-radius;
 }
