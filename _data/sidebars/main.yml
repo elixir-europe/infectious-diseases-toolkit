@@ -3,6 +3,7 @@ title_url: /index
 subitems:
   - title: Pathogen characterization
     url: /metadata
+    image_url: /assets/img/section-icons/disease-thin.svg
     subitems:
       - title: Data generation
         subitems:
@@ -14,7 +15,7 @@ subitems:
             url: /
           - title: Provenance
             url: /
-      - title: Data analysis 
+      - title: Data analysis
 
       - title: Data sharing
         subitems:
@@ -30,13 +31,19 @@ subitems:
             url: /
 
   - title: Population social / economical aspects
+    image_url: /assets/img/section-icons/users-viewfinder-thin.svg
     url: /
   - title: Patient level disease
+    image_url: /assets/img/section-icons/hospital-user-thin.svg
     url: /
   - title: Roles
+    image_url: /assets/img/section-icons/address-card-thin.svg
+    hr: true
     url: /
   - title: Demonstrators
+    image_url: /assets/img/section-icons/network-wired-thin.svg
     url: /
   - title: National Resources
+    image_url: /assets/img/section-icons/flag-thin.svg
     url: /
 
