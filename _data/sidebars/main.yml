@@ -5,30 +5,24 @@ subitems:
     url: /metadata
     image_url: /assets/img/section-icons/disease-thin.svg
     subitems:
-      - title: Data generation
-        subitems:
-          - title: Metadata
-            url: /
-          - title: Metadata harmonization
-            url: /
-          - title: Quality control
-            url: /
-          - title: Provenance
-            url: /
+      - title: Standards/Metadata
+        url: /
+      - title: Quality control
+        url: /
+      - title: Regulatory considerations
+        url: /
+      - title: Attribution
+        url: /
       - title: Data analysis
-
-      - title: Data sharing
-        subitems:
-          - title: Accessibility
-            url: /
-          - title: Findability
-            url: /
-      - title: Data representation
-        subitems:
-          - title: Reporting
-            url: /
-          - title: Dashboards
-            url: /
+        url: /
+      - title: Infrastructure resources
+        url: /
+      - title: Reproducibility and provenance 
+        url: /
+      - title: Findability
+        url: /
+      - title: Data communication
+        url: /
 
   - title: Population social / economical aspects
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
