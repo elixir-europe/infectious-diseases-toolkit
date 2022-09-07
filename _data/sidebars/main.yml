@@ -2,11 +2,11 @@ title: Main
 title_url: /index
 subitems:
   - title: Pathogen characterization
-    url: /metadata
+    url: /pathogen_characterization/
     image_url: /assets/img/section-icons/disease-thin.svg
     subitems:
       - title: Standards/Metadata
-        url: /
+        url: /pathogen_characterization/metadata
       - title: Quality control
         url: /
       - title: Regulatory considerations

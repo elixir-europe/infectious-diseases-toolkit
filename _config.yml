@@ -20,13 +20,13 @@ theme_variables:
 exclude:
   - README.md
 
+permalink: /:categories/:year/:month/:day/:title
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename
       layout: "page"
       sidebar: main
   -
@@ -34,14 +34,12 @@ defaults:
       path: "pages/about"
       type: "pages"
     values:
-      permalink: /:basename
       sidebar: about
   -
     scope:
       path: "pages/contribute"
       type: "pages"
     values:
-      permalink: /:basename
       sidebar: contribute
 
 plugins:
