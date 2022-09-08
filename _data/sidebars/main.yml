@@ -85,6 +85,7 @@ subitems:
         url: /human_clinical_and_health_data/regulatory_considerations
 
   - title: Showcase
+    hr: true
     image_url: /assets/img/section-icons/network-wired-thin.svg
     url: /showcase/
     description: Applied examples of handling infectious disease data
