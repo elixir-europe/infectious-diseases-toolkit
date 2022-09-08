@@ -31,16 +31,43 @@ defaults:
       sidebar: main
   -
     scope:
-      path: "pages/about"
+      path: "about"
       type: "pages"
     values:
       sidebar: about
   -
     scope:
-      path: "pages/contribute"
+      path: "contribute"
       type: "pages"
     values:
       sidebar: contribute
+  -
+    scope:
+      path: "pathogen_characterisation"
+      type: "pages"
+    values:
+      type: pathogen_characterisation
+
+  -
+    scope:
+      path: "social_and_economic_impact"
+      type: "pages"
+    values:
+      type: social_and_economic_impact
+    
+  -
+    scope:
+      path: "human_clinical_and_health_data"
+      type: "pages"
+    values:
+      type: human_clinical_and_health_data
+
+  -
+    scope:
+      path: "human_biomolecular_data"
+      type: "pages"
+    values:
+      type: human_biomolecular_data
 
 plugins:
   - jemoji
