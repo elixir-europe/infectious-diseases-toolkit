@@ -2,6 +2,6 @@ subitems:
   - title: Main
     url: /index
   - title: About
-    url: /about
+    url: /about/
   - title: Contribute
-    url: /how_to_contribute
+    url: /contribute/

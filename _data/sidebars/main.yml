@@ -1,43 +1,107 @@
 title: Main
 title_url: /index
 subitems:
-  - title: Pathogen characterization
-    url: /pathogen_characterization/
+  - title: Pathogen characterisation
+    url: /pathogen_characterisation/
     image_url: /assets/img/section-icons/disease-thin.svg
     subitems:
-      - title: Standards/Metadata
-        url: /pathogen_characterization/metadata
-      - title: Quality control
-        url: /
-      - title: Regulatory considerations
-        url: /
-      - title: Attribution
-        url: /
+      - title: Attributing credit
+        url: /pathogen_characterisation/attributing_credit
       - title: Data analysis
-        url: /
-      - title: Infrastructure resources
-        url: /
-      - title: Reproducibility and provenance 
-        url: /
-      - title: Findability
-        url: /
+        url: /pathogen_characterisation/data_analysis
       - title: Data communication
-        url: /
-
-  - title: Population social / economical aspects
+        url: /pathogen_characterisation/data_communication
+      - title: Data description
+        url: /pathogen_characterisation/data_description
+      - title: Data sources
+        url: /pathogen_characterisation/data_sources
+      - title: Provenance
+        url: /pathogen_characterisation/provenance
+      - title: Quality control
+        url: /pathogen_characterisation/quality_control
+      - title: Regulatory considerations
+        url: /pathogen_characterisation/regulatory_considerations
+  - title: Social and economic impact
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
-    url: /
-  - title: Patient level disease
+    url: /social_and_economic_impact/
+    subitems:
+      - title: Attributing credit
+        url: /social_and_economic_impact/attributing_credit
+      - title: Data analysis
+        url: /social_and_economic_impact/data_analysis
+      - title: Data communication
+        url: /social_and_economic_impact/data_communication
+      - title: Data description
+        url: /social_and_economic_impact/data_description
+      - title: Data sources
+        url: /social_and_economic_impact/data_sources
+      - title: Provenance
+        url: /social_and_economic_impact/provenance
+      - title: Quality control
+        url: /social_and_economic_impact/quality_control
+      - title: Regulatory considerations
+        url: /social_and_economic_impact/regulatory_considerations
+
+  - title: Human biomolecular data
+    image_url: /assets/img/section-icons/dna-thin.svg
+    url: /human_biomolecular_data/
+    subitems:
+      - title: Attributing credit
+        url: /human_biomolecular_data/attributing_credit
+      - title: Data analysis
+        url: /human_biomolecular_data/data_analysis
+      - title: Data communication
+        url: /human_biomolecular_data/data_communication
+      - title: Data description
+        url: /human_biomolecular_data/data_description
+      - title: Data sources
+        url: /human_biomolecular_data/data_sources
+      - title: Provenance
+        url: /human_biomolecular_data/provenance
+      - title: Quality control
+        url: /human_biomolecular_data/quality_control
+      - title: Regulatory considerations
+        url: /human_biomolecular_data/regulatory_considerations
+
+  - title: Human clinical and health data
     image_url: /assets/img/section-icons/hospital-user-thin.svg
-    url: /
-  - title: Roles
-    image_url: /assets/img/section-icons/address-card-thin.svg
-    hr: true
-    url: /
-  - title: Demonstrators
+    url: /human_clinical_and_health_data/
+    subitems:
+      - title: Attributing credit
+        url: /human_clinical_and_health_data/attributing_credit
+      - title: Data analysis
+        url: /human_clinical_and_health_data/data_analysis
+      - title: Data communication
+        url: /human_clinical_and_health_data/data_communication
+      - title: Data description
+        url: /human_clinical_and_health_data/data_description
+      - title: Data sources
+        url: /human_clinical_and_health_data/data_sources
+      - title: Provenance
+        url: /human_clinical_and_health_data/provenance
+      - title: Quality control
+        url: /human_clinical_and_health_data/quality_control
+      - title: Regulatory considerations
+        url: /human_clinical_and_health_data/regulatory_considerations
+
+  - title: Showcase
     image_url: /assets/img/section-icons/network-wired-thin.svg
-    url: /
+    url: /showcase/
+    description: Applied examples of handling infectious disease data
+  
   - title: National Resources
     image_url: /assets/img/section-icons/flag-thin.svg
-    url: /
+    url: /national_resources/
+    description: Country specific examples
+
+  - title: Tools and resources list
+    image_url: /assets/img/section-icons/gears-thin.svg
+    url: /tools_and_resources_list/
+    description: Browse all tools and resources mentioned in IDTk
+
+  - title: Training resources list
+    image_url: /assets/img/section-icons/graduation-cap-thin.svg
+    url: /training_resources_list/
+    description: Browse all training resources mentioned in IDTk
+
 

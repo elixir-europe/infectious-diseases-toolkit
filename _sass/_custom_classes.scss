@@ -41,6 +41,26 @@ main {
     -webkit-text-fill-color: $white;
 }
 
+
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
+
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+
 /*-----Box shadows-----*/
 
 .navbar,

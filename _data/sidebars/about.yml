@@ -1,23 +1,23 @@
 title: About
-title_url: /about
+title_url: /about/
 subitems:
   - title: Community
     subitems:
       - title: Contributors
-        url: /contributors
+        url: /about/contributors
       - title: Support
-        url: /support
+        url: /about/support
   - title: Contact
-    url: /contact
+    url: /about/contact
   - title: News
-    url: /news
+    url: /about/news
   - title: Events
-    url: /events
+    url: /about/events
   - title: Media kit
-    url: /media_kit
+    url: /about/media_kit
   - title: Outreach
-    url: /outreach
+    url: /about/outreach
   - title: Accessibility
-    url: /accessibility
+    url: /about/accessibility
   - title: Privacy
-    url: /privacy
+    url: /about/privacy
