@@ -15,3 +15,15 @@ training:
     url:
 ---
 
+## Concrete topic 1 <!-- Example: Metadata harmonisation-->
+
+Short explanation of what this topic is about with an emphasis on infectious diseases.
+
+
+### Solutions <!-- do not delete this heading and write your text below it -->
+
+By using bullet point style as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
+Avoid making long list of links to tools and resources.
+Make sure to add the tools and resources mentioned in the text in the main "tools and resources" table.
+
+
