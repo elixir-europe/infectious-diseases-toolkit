@@ -1,0 +1,101 @@
+---
+search_exclude: true
+layout: none
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include topnav.html search=false %}
+    <div class="landingpage">
+        <section class="container mb-5">
+            <div>
+                <p class="text-center lead">The toolkit helps finding and implementing solutions developed in institutional, national and international projects and provide the context to enable informed decisions for adoption.
+                </p>
+            </div>
+        </section>
+        <section id="search-section" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="no-anchor text-center mb-3">What can we help you find?</h2>
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center">
+                            <form role="search" class="input-group">
+                                <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                            </form>
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light pb-5">
+            <div class="container">
+                <h2 class="no-anchor text-center mb-3">Browse all topics by</h2>
+                {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                    {%- for folder in sidebar.subitems %}
+                    <div class="col">
+                            <div class="card bg-white h-100">
+                                {%- if folder.image_url%}
+                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto" alt="{{folder.title}} icon">
+                                {%- endif %}
+                                <div class="card-body text-center">
+                                    <a href="{{ folder.url | relative_url }}" class="stretched-link">
+                                        <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
+                                    </a>
+                                    <p class="card-text">{{folder.description}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {%- endfor %}
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 my-auto">
+                        <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-thin.svg' | relative_url }}" alt="Contributors icon">
+                    </div>
+                    <div class="col-lg-7">
+                        <h2>We welcome contributors!</h2>
+                        <p>This project would not be possible without the many <a href="{{ '/about/contributors' | relative_url }}"><b>amazing
+                            community contributors</b></a>. The infectious diseases toolkit is an open community project, and you are welcome to join us!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 my-auto">
+                        <a class="btn btn-primary btn-lg rounded-pill" href="{{ '/contribute/' | relative_url }}">Start contributing</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                    {% include news.html caption=true title=true limit=3 %}
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                    {% include events.html caption=true title=true event_type="upcoming_event" %}
+                    </div>
+                </div>
+            </div>
+        </section>
+     </div>
+    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+    <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
+        <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
+    </button>
+    {%- endif %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+
+</html>
+
