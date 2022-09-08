@@ -90,7 +90,7 @@ subitems:
     url: /showcase/
     description: Applied examples of handling infectious disease data
   
-  - title: National Resources
+  - title: National resources
     image_url: /assets/img/section-icons/flag-thin.svg
     url: /national_resources/
     description: Country specific examples
