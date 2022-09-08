@@ -44,3 +44,5 @@ defaults:
 
 plugins:
   - jemoji
+  - jekyll-sitemap
+  - jekyll-github-metadata
