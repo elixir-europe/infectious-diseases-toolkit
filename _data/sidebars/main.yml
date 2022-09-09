@@ -43,7 +43,7 @@ subitems:
         url: /social_and_economic_impact/regulatory_considerations
 
   - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-thin.svg
+    image_url: /assets/img/section-icons/dna-person-thin.svg
     url: /human_biomolecular_data/
     subitems:
       - title: Attributing credit
