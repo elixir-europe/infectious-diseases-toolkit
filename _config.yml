@@ -10,7 +10,7 @@ description: ""
 # gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.19.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.19.1
 
 theme_variables:
   theme_color: da366e
