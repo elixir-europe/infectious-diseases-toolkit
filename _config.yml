@@ -12,6 +12,8 @@ description: ""
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.19.1
 
+gtag: G-TNT17YGXQ4
+
 theme_variables:
   theme_color: da366e
   fonts:
