@@ -17,7 +17,7 @@ training:
 
 ## Concrete topic 1 <!-- Example: Metadata harmonisation-->
 
-Short explanation of what this topic is about with an emphasis on infectious diseases.
+Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases.
 
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
