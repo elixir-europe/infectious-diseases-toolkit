@@ -27,7 +27,7 @@ main {
     padding-bottom: $input-btn-padding-y - 0.25rem;
 }
 
-#side-nav>ul {
+#side-nav > ul {
     margin-top: $spacer;
 }
 
@@ -40,7 +40,6 @@ main {
 ::selection {
     -webkit-text-fill-color: $white;
 }
-
 
 /*-----Section navigation tiles-----*/
 
@@ -59,14 +58,11 @@ main {
     }
 }
 
-
-
 /*-----Box shadows-----*/
 
 .navbar,
 #toc,
-.contributor-cards .card,
-#side-nav>ul > li > a,
+#side-nav > ul > li > a,
 .sidebar-collapse,
 #footer {
     box-shadow: $box-shadow;
@@ -83,20 +79,18 @@ main {
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a.active {
-    color: $white!important;
+    color: $white !important;
     background-color: $primary;
     border-radius: $border-radius;
 }
 
 nav .navbar-brand {
-    font-size: calc(1rem + .54vw);
+    font-size: calc(1rem + 0.54vw);
 }
-
 
 /* -----Homepage----- */
 
 .landingpage {
-
     .h-icon-6 {
         height: 6em;
     }
@@ -108,7 +102,7 @@ nav .navbar-brand {
     }
 
     .card {
-        &:hover{
+        &:hover {
             box-shadow: $box-shadow;
         }
 
@@ -126,14 +120,13 @@ nav .navbar-brand {
 
     h2 {
         font-weight: 700;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
 
     h3 {
         font-weight: 600;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
-
 }
 
 // Search box
@@ -149,6 +142,4 @@ section#search-section {
     .input-group-text {
         font-size: 1.5rem;
     }
-
-    
 }
