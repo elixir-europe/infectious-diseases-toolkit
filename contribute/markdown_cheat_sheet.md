@@ -5,9 +5,9 @@ contributors: [Bert Droesbeke]
 search_exclude: true
 ---
 
-We use Markdown files to manage the content on RDMkit in a structured and easy to edit way. For more information about Markdown, please check the [Markdown guidelines](https://guides.github.com/features/mastering-markdown/). If you want more information about the specific markdown flavor we use, Kramdown, please checkout the [Kramdown documentation](https://kramdown.gettalong.org/parser/kramdown.html).
+We use Markdown files to manage the content on the Infectious Diseases Toolkit in a structured and easy to edit way. For more information about Markdown, please check the [Markdown guidelines](https://guides.github.com/features/mastering-markdown/). If you want more information about the specific markdown flavor we use, Kramdown, please checkout the [Kramdown documentation](https://kramdown.gettalong.org/parser/kramdown.html).
 
-Besides the syntax to describe the main content on which this page focuses, we also make use of metadata fields in the Markdown. If you want to know more about them and how they can unlock certain features on pages, please go to our [page metadata](page_metadata) page
+Besides the syntax to describe the main content on which this page focuses, we also make use of metadata fields in the Markdown. If you want to know more about them and how they can unlock certain features on pages, please go to our [page metadata](/contribute/page_metadata) page
 
 ## Titles
 
@@ -192,7 +192,7 @@ When linking to an external site, use:
 When linking to internal pages, you can manually link to the pages like this:
 
 ```md
-[Planning](planning)
+[Data Analysis](/pathogen_characterisation/data_analysis)
 ```
 Will link to the planning page.
 
@@ -320,20 +320,20 @@ Text
 
 ## Add "Related pages" to a page 
 
-If you want pages from the specific sections Your tasks, Your domain and Tool assembly to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
+If you want pages from specific sections to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
+An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](/contributewebsite_overview).
 
 
 ```yml
 related_pages: 
-   your_tasks: [page_id1, page_id2]
-   your_domain: [page_id1, page_id2]
-   tool_assembly: [page_id1, page_id2]
+   section: [page_id1, page_id2]
+   section: [page_id1, page_id2]
+   section: [page_id1, page_id2]
 ```
 
 ## Listing training material
-You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
+You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](/all_training_resources).
 
 ```yml
 training:

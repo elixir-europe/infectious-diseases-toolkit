@@ -9,13 +9,21 @@ subitems:
         url: /contribute/google_doc_way
       - title: Git way (advanced)
         url: /contribute/working_with_git
+  - title: Add new tool or resource
+    url: /contribute/tool_resource_update
   - title: Style guide
     url: /contribute/style_guide
   - title: Copyright guidelines
     url: /contribute/copyright
   - title: Markdown cheat sheet
     url: /contribute/markdown_cheat_sheet
+  - title: Editorial board guide
+    url: /editorial_board_guide
+  - title: Editors checklist
+    url: /editors_checklist
   - title: Page metadata
     url: /contribute/page_metadata
   - title: Code of Conduct
     url: /contribute/CODE_OF_CONDUCT
+  - title: Website overview
+    url: /contribute/website_overview
