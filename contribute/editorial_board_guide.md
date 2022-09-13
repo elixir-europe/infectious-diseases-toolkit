@@ -197,7 +197,7 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 
 The logos can be added to the [/images/institutions](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/institutions/), [/images/projects](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/funders/) directory.
 
-{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
+{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scalability and file size, if possible." %}
 
 ## Related pages
 
