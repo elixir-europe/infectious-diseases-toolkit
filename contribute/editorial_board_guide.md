@@ -7,7 +7,7 @@ summary: This guide is there to help editors.
 
 ### General rules
 
-As an editor, try to work as much as possible on a different branch than the master branch. This can be on the elixir-europe infectious-diseases-toolkit repo or your own fork. Open a pull request if you want to merge your changes with the master branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the master branch.
+As an editor, try to work as much as possible on a different branch than the master branch. This can be on the elixir-europe infectious-diseases-toolkit repo or your own fork. Open a pull request (PR) if you want to merge your changes with the master branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the master branch.
 
 ### The google doc way of contributing
 This process is sketched below.
