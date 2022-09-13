@@ -177,7 +177,7 @@ Bert Droesbeke:
 
 ## Adding an institution, infrastructure, project or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The information in this file is used on the support page in the about section, but also for the affiliations in showcase pages. Make sure you make use of the same name in those showcase pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
