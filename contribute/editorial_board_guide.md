@@ -203,7 +203,7 @@ The logos can be added to the [/images/institutions](https://github.com/elixir-e
 
 ### Add "Related pages" to a page 
 
-Infectious Diseases Toolkit pages from other the sections can be displayed as "Related Infectious Diseases Toolkit pages" in a page, grouped by section. 
+Infectious Diseases Toolkit pages from other sections can be displayed as "Related Infectious Diseases Toolkit pages" in a page, grouped by section. 
 
 An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [Website overview page](/contribute/website_overview).
 
