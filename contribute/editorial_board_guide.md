@@ -131,7 +131,7 @@ Make sure all pages are accessible from the navigation sidebar. Please, avoid ge
 
 This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
 
-The attributes that define the structure are:
+The attributes that define the sidebar structure are:
 - `title`: This is the text that will show up in the sidebar.
 - `url`: The URL to the internal page you want to link to. This is mostly in the form of: */section/markdown_file_name.html*.
 - `external_url`: Use this instead of URL if you want to link to an external page.
