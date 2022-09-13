@@ -8,7 +8,7 @@ related_pages:
   human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
   human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
   social_and_economic_impact: [<!---REPLACE THIS with the page IDs of the social_and_economic_impact pages that you want to list here as related pages--->]
-  pathogen_characterisation: [<!---REPLACE THIS with the page ID of the pathogen_characterisation pages that you want to list here as related pages--->]
+  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
 training:
   - name:
     registry:
