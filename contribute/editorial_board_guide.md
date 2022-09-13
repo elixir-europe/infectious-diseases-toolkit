@@ -43,7 +43,7 @@ More information about these topics can be found in the GitHub documentation:
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags and keywords, and tools and resources' tags should be checked and assigned according to the established tagging system.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, keywords and tags for the page as well as the tools and resources should be checked and assigned according to the established tagging system.
   
 ## Link a pull request to an issue
 
