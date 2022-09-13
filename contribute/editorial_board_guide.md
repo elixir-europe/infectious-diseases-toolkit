@@ -16,7 +16,7 @@ This process is sketched below.
 
 ### Overview of the file structure in GitHub
 
-The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to there website section (human_biomolecular_data, human_clinical_and_health_data, contribute, social_and_economic_impact, ...).
+The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to the website section (human_biomolecular_data, human_clinical_and_health_data, contribute, social_and_economic_impact, ...).
 
 ### Markdown file naming
 
