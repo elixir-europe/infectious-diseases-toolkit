@@ -3,7 +3,7 @@ title: GitHub way
 ---
 
 
-This guide tells you how you can easily request and edit a page on this website. You do this using GitHub. For other ways of contributing, see [How to contribute](/contribute/how_to_contribute.html).
+This guide tells you how you can easily request and edit a page on this website. You do this using GitHub. For other ways of contributing, see [How to contribute](/contribute/).
 
 
 **Prerequisite:** [create a GitHub account](https://github.com/join) before you start. It's easy and free.
