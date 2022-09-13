@@ -52,7 +52,7 @@ For more information about this topic please visit the [GitHub documentation pag
 
 ## Adding a new event
 
-Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use following attributes to define an event:
+Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use the following attributes to define an event:
 
 
 ```yml
