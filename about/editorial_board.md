@@ -4,13 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke"%}
-
-## Join as editorial board member
-
-
-### Advantages of being an Infectious Diseases Toolkit editor
-
+{% include contributor-carousel-selection.html custom="Bert Droesbeke","Eva Garcia Alvarez","Hedi Peterson","Iris Van Dam","Katharina Lauer","Laura Portell Silva","Liane Hughes","Patricia Palagi","Rafael Andrade Buono","Rudolf Wittner","Shona Cosgrove","Stian Soiland-Reyes"%}
 
 ### Responsibilities
 
@@ -18,15 +12,9 @@ title: Editorial board
 * Work together with contributors how and where their specific contribution fits best in Infectious Diseases Toolkit.
 * Provide timely feedback for improving the quality of the content, according to the Infectious Diseases Toolkit style guide.
 * Formatting content according to Infectious Diseases Toolkit templates.
-* Join the biweekly editorial meeting.
+* Join the editorial meetings.
 * Manage a Github repository.
 
-### Call for joining us
+### Contact
 
-
-**Requirements**
-
-
-**Application**
-
-Please, send your application to idtk-editors@elixir-europe.org.
+Please contact us at idtk-editors@elixir-europe.org.
