@@ -17,7 +17,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `affiliation`
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
-5. Items in the "[Tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/13tqfSbgivokfEkxGXPRFShVhCmO4VuTQRe4uQgJOMbc)" are tagged with already existing (merged) `page_id` from "Your role, Your domain, Your tasks, Tool assembly" and that Bert has been informed of the changes.
+5. Items in the "[Tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/13tqfSbgivokfEkxGXPRFShVhCmO4VuTQRe4uQgJOMbc)" are tagged with already existing (merged) `page_id` from "Pathogen characterisation, Social and economic impact, Human biomolecular data, Human clinical and health data, Showcase" and that Bert has been informed of the changes.
 6. The content is within the scope of the Infectious Diseases Toolkit scope, [style](/contribute/style_guide) and conforms to the appropriate templates.
 7. There are no [copyright](/contribute/copyright) issues related to the content of the page.
 8. The contributors implemented the requested changes.
