@@ -13,7 +13,7 @@ layout: none
         <div class="card border border-primary text-primary text-center">
             <div class="card-body">
                 <h5 class="card-title fs-3">This website is under construction</h5>
-                <p class="card-text">Don't hesitate to <a href="https://github.com/elixir-europe/infectious-diseases-toolkit/issues">open an issue</a> or to contact us through <a href="mailto:idtk-editors@elixir-europe.org">mail</a> to give some early feedback.</p>
+                <p class="card-text">Don't hesitate to <a href="https://github.com/elixir-europe/infectious-diseases-toolkit/issues">open an issue</a> or to contact us by mail using <a href="mailto:idtk-editors@elixir-europe.org">idtk-editors@elixir-europe.org</a> to give some early feedback.</p>
             </div>
         </div>
     </section>
@@ -87,10 +87,10 @@ layout: none
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                    {% include news.html caption=true title=true limit=3 %}
+                    {% include news.html caption=true title=true limit=3 caption_url="/about/news" %}
                     </div>
                     <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html caption=true title=true event_type="upcoming_event" %}
+                    {% include events.html caption=true title=true event_type="upcoming_event" caption_url="/about/events" %}
                     </div>
                 </div>
             </div>
