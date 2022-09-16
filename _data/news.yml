@@ -1,6 +1,5 @@
-- name: News title 1
-  date: 2021-09-20
-  description: Example Description
-- name: News title 2
-  date: 2021-09-20
-  description:  Example Description with [link](about)
+- name: New content structure
+  date: 2021-09-08
+  linked_pr: 27
+  description: Together with a new landing page, new sections where added to IDTk. 
+
