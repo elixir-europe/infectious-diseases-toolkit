@@ -12,7 +12,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
 ## Text
-  * **Acronyms:** spell them out the first time they appear on a page, except for Titles
+  * **Acronyms:** spell them out the first time they appear on a page, except for Titles.
   * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
