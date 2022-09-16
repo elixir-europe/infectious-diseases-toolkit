@@ -28,7 +28,7 @@ Contributors will be shown at the bottom of the page if listed in the metadata o
 
 ## Ownership of content
 
-No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the Infectious Diseases Toolkit (IDTK) is a community effort, with many people contributing. Decisions are driven by consensus among the contributors and editors.
+No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the Infectious Diseases Toolkit (IDTk) is a community effort, with many people contributing. Decisions are driven by consensus among the contributors and editors.
 
 The content is periodically updated, which means that if you create content in an IDTK page, others can change the content without notifying you. However, the IDTK editors ensure that content is only modified for good reasons. The IDTK editors try to ensure that the legitimate concerns and different point of views of all contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
 
