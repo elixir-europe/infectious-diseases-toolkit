@@ -12,7 +12,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
 ## Text
-  * **Acronyms:** spell them out the first time.
+  * **Acronyms:** spell them out the first time they appear on a page, except for Titles
   * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
@@ -27,24 +27,36 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **-ise/-ize:** use the "-ise" form.
   * **Life cycle:** two separate words.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
-  * **Lists:** every line of a list starts with a capital and ends with a full stop.
+  * **Lists:** 
+    * _A list of short items_: introduce with a colon, start each bullet point with a capital and don't use punctuation at the end of each bullet point:
+      * Item 1
+      * Item 2
+    * _A list of longer items following an incomplete introductory sentence (e.g. a sentence ending in a colon)_: each item ends with a semi colon and the final item ends with a full stop. Do not capitalise the first letter of each item e.g. This is the first part of a sentence that includes:
+      * a longer item 1;
+      * a longer item 2;
+      * a longer item 3.
+    * _A list following a complete sentence (with a full stop)_: each item ends with a full stop and each point begins with a capital letter e.g. This a complete sentence.
+      * This is item 1 of the list.
+      * This is item 2 of the list.
+      * This is item 3 of the list.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
     * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
     * Lam, J. <cite>Data Management</cite>. (John Wiley & Sons, Inc., 2019).
+  * **Schema/scheme:** Use "schema" if you mean a pattern for structuring data. The plural is "schemas". 
+  * **Showcase:** there are multiple tools in **one** showcase.
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles:** only the first word and acronyms are capitalised.
-  * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
-  * **White space:** make sure there is plenty of space space so that the main elements stand out and the text does not appear overwhelming.
+  * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
-    * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
+    * Use only the following colours in the design, text and illustrations of the site.
     * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
