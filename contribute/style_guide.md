@@ -57,13 +57,13 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site.
-    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (h4) |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
+    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #d7346b | Pink | Logo, Menu highlight, Second level heading (h2), Main theme colour |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #277ab9 | Blue | Link colour |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #4a4a4a | Dark Gray | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #6c757d | Gray | Gray text, Fourth level heading (h4) |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f3f3 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). We have a Pro license and so the right to publish them without attribution.
+  * **Icons:** the icons used in this site come from the [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org).
   * **Images:**
