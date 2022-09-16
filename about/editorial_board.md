@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke,Eva Garcia Alvarez,Hedi Peterson,Iris Van Dam,Katharina Lauer,Laura Portell Silva,Liane Hughes,Patricia Palagi,Rafael Andrade Buono,Rudolf Wittner,Shona Cosgrove,Stian Soiland-Reyes"%}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke, Eva Garcia Alvarez, Hedi Peterson, Iris Van Dam, Katharina Lauer, Laura Portell Silva, Liane Hughes, Patricia Palagi, Rafael Andrade Buono, Rudolf Wittner, Shona Cosgrove, Stian Soiland-Reyes"%}
 
 ### Responsibilities
 
