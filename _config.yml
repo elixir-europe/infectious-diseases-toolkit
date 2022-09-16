@@ -72,6 +72,20 @@ defaults:
     values:
       type: human_biomolecular_data
 
+  -
+    scope:
+      path: "showcase"
+      type: "pages"
+    values:
+      type: showcase
+
+  -
+    scope:
+      path: "national_resources"
+      type: "pages"
+    values:
+      type: national_resources
+
 plugins:
   - jemoji
   - jekyll-sitemap
