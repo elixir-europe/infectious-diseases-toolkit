@@ -112,7 +112,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 9. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
 
-10. If the markdown file is named *example.md* the page will be rendered at https://www.infectious-diseases-toolkit.org/section/example. This link can be provided to the contributor through the issue.
+10. If the markdown file is named *example.md* and located in the subfolder website section `human_biomolecular_data`, the page will be rendered at https://www.infectious-diseases-toolkit.org/human_biomolecular_data/example. This link can be provided to the contributor through the issue.
 
 {% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
 
