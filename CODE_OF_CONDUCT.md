@@ -33,7 +33,7 @@ To make clear what is expected, we ask all members of the community to conform t
 
 ## 1 Introduction
 
-The Infectious Diseases Toolkit is a community-oriented and -led project under the auspices of the ELIXIR Research Infrastructure.
+The Infectious Diseases Toolkit is a community-oriented and -led project under the auspices of the BY-COVID project.
 We value the involvement of everyone in the community.
 We are committed to creating a friendly and respectful place for learning, teaching and contributing.
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
