@@ -22,7 +22,7 @@ The content of the website is built up using markdown files found in the [root](
 
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
-- If the markdown file is named *example.md*, the page will be found at https://www.infectious-diseases-toolkit.org/.
+- If the markdown file is named *example.md*, and located at in the `human_biomolecular_data` directory, the page will be found at https://www.infectious-diseases-toolkit.org/human_biomolecular_data/example.
 - By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
