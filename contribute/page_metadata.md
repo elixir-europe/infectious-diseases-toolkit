@@ -47,13 +47,15 @@ title: Title of the page
 
 * `related_pages`: List here the `page_id` of {{site.title}} pages that you want to display as Related pages, grouped by section.
 
-  If you want pages from the specific section (Your tasks, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+  If you want pages from the specific section (Pathogen characterisation, Social and economic impact, Human biomolecular data, Human clinical and health data, showcase) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
 
   ```yml
   related_pages: 
-    - your_tasks: [page_id1, page_id2]
-    - your_domain: [page_id1, page_id2]
-    - tool_assembly: [page_id1, page_id2]
+   - pathogen_characterisation: [page_id1, page_id2]
+   - social_and_economic_impact: [page_id1, page_id2]
+   - human_biomolecular_data: [page_id1, page_id2]
+   - human_clinical_and_health_data: [page_id1, page_id2]
+   - showcase: [page_id1, page_id2]
   ``` 
 
 
