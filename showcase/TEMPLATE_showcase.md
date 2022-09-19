@@ -35,6 +35,4 @@ training:
  
  <!--- In this section you should provide a ... --->
  
-### What can you use the SHOWCASE for?
-<!--- Sections within Showcase pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should be used to describe the potential usage of the tool and the Showcase --->
 
