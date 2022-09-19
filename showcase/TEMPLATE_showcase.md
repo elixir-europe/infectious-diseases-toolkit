@@ -20,15 +20,21 @@ training:
 
 ## Introduction 
 
-<!--- In this section you should provide a brief overview of the Showcase, mentioning and putting into context the challenges that are particularly solved by the showcase and define potential users  --->
+<!--- In this section you should provide a brief overview of the context that makes Showcase necessary --->
 
 
-## section 1 title
+## What is the SHOWCASE?
+
+<!--- In this section you should provide a ... --->
+
+## Who is the SHOWCASE intended for?
+
+<!--- In this section you should provide a ... --->
+
+## What can you use the SHOWCASE for?
+ 
+ <!--- In this section you should provide a ... --->
  
 ### What can you use the SHOWCASE for?
 <!--- Sections within Showcase pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should be used to describe the potential usage of the tool and the Showcase --->
 
-
-<!--- ## Section 2 Title --->
-<!--- Add more sections as needed. --->
-...
