@@ -39,4 +39,4 @@ If you find any content unsatisfactory, please feel free to [create an issue](ht
 
 ## Making a quick suggestion
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8MqRtafvw4iq9rLGywF6XObWD52zLZAqt-pFG3DxorGCDtw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="width: 100%;" class="mt-1">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSel-txk2D-c8Uerp5rYTArACsAIVXgKSBCxtgEBrP1XG72nxw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="mt-1 w-100">Loading…</iframe>
