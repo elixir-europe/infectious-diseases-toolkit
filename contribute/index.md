@@ -12,6 +12,8 @@ Everyone is welcome to contribute to this site, and we've tried to make it as ea
 * **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](/contribute/working_with_git)).
 * **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below.
 
+We are also welcoming contributions to our [User Stories spreadsheet](https://docs.google.com/spreadsheets/d/1KTe9Zy9xU9TqhJtNVoBkiLHBXLEqGisitAoxLy6zz58/edit#gid=231577820). Adding your user stories is a good way to help IDTk address your needs.
+
 ## Contributor responsibilities
 
 When writing for this website keep in mind the following:
