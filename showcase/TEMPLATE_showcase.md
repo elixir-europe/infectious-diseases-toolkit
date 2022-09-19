@@ -22,7 +22,6 @@ training:
 
 <!--- In this section you should provide a brief overview of the context that makes Showcase necessary --->
 
-
 ## What is the SHOWCASE?
 
 <!--- In this section you should provide a ... --->
