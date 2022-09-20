@@ -5,5 +5,5 @@
 - name: Added link to User Stories spreadsheet
   date: 2021-09-19
   linked_pr: 58
-  description: A link to the IDTk User Stories spreadsheet was added to the [Contribute page](contribute/).
+  description: A link to the IDTk User Stories spreadsheet was added to the [Contribute page](/contribute/).
 
