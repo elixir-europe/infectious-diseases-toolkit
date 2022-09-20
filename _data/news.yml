@@ -2,4 +2,8 @@
   date: 2021-09-08
   linked_pr: 27
   description: Together with a new landing page, new sections where added to IDTk. 
+- name: Added link to User Stories spreadsheet
+  date: 2021-09-19
+  linked_pr: 58
+  description: A link to the IDTk User Stories spreadsheet was added to the [Contribute page](/contribute/).
 
