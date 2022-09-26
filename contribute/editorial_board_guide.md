@@ -85,9 +85,9 @@ All attributes are mandatory.
 ## Create a new page
 
 ### Simple way: using the GitHub interface
-To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
+To generate a new page it is sufficient to simply copy the TEMPLATE file and rename it. To copy a template you have to:
 
-1. Go to the `page_guide.md` file on the [GitHub repo](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/page_guide.md).
+1. Go to the [`TEMPLATE_page.md`](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/TEMPLATE_guide.md) file in the GitHub repo.
 
 2. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
