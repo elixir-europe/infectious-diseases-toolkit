@@ -28,7 +28,7 @@ training:
 
 ## Who is the SHOWCASE intended for?
 
-<!--- In this section you should provide a ... --->
+<!--- In this section you should provide a brief account of the target audience or intended users for the showcase --->
 
 ## What can you use the SHOWCASE for?
  
