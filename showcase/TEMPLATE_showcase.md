@@ -32,6 +32,6 @@ training:
 
 ## What can you use the SHOWCASE for?
  
- <!--- In this section you should provide a ... --->
+ <!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource --->
  
 
