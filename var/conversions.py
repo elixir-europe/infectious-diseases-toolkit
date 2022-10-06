@@ -145,7 +145,6 @@ pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir, topdown=True):
     dirs[:] = [d for d in dirs if d not in (['.git', '_site'])]
     for file_name in files:
-        print(file_name)
         if os.path.splitext(file_name)[1] == '.md' and dirs and dirs[0] == '.':
             print(f"Opening {os.path.splitext(file_name)[0]}")
             with open(os.path.join(subdir, file_name)) as f:
