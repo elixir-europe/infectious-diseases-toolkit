@@ -134,7 +134,7 @@ def remove_prefix(s, prefix):
 
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
-rootdir = 'pages/'
+rootdir = os.getcwd()
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
 
@@ -142,9 +142,11 @@ allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
 print(f"----> Reading out page_id from each file")
 pages_metadata = {}
-for subdir, dirs, files in os.walk(rootdir):
+for subdir, dirs, files in os.walk(rootdir, topdown=True):
+    dirs[:] = [d for d in dirs if d not in (['.git', '_site'])]
     for file_name in files:
-        if os.path.splitext(file_name)[1] == '.md':
+        print(file_name)
+        if os.path.splitext(file_name)[1] == '.md' and dirs and dirs[0] == '.':
             print(f"Opening {os.path.splitext(file_name)[0]}")
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
