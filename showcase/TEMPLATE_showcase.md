@@ -24,7 +24,7 @@ training:
 
 ## What is the SHOWCASE?
 
-<!--- In this section you should provide a ... --->
+<!--- In this section you should provide a brief description of what the showcase is i.e. what it comprises of and a general description for it.  --->
 
 ## Who is the SHOWCASE intended for?
 
