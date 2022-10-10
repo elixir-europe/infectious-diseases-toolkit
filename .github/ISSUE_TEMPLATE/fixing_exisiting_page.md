@@ -11,7 +11,7 @@ assignees: ''
 https://www.infectious-diseases-toolkit.org/....
 
 
-**Describe what you would change to the page**
+**Describe what you would like to change on the page**
 
 
 **List the tool(s)or resource(s) that are missing on the page (if applicable)**
