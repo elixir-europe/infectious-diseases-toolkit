@@ -25,6 +25,9 @@ training:
 ## What is the SHOWCASE?
 
 <!--- In this section you should provide a brief description of what the showcase is i.e. what it comprises of and a general description for it.  --->
+<!--- Start with a graphical representation of the showcase, with a caption and a alternate text (alt)  --->
+{% include image.html file="" caption="Figure 1. " alt="" %}
+
 
 ## Who is the SHOWCASE intended for?
 
