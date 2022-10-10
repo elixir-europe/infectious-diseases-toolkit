@@ -14,7 +14,7 @@ Please provide a brief description.
 
 
 **Resources**
-If there are there resources that could be utilised for writing the new page, please list them below:
+If there are resources that could be utilised for writing the new page, please list them below:
 
 
 **Context**
