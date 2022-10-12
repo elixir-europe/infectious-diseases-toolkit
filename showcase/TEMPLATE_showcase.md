@@ -20,7 +20,7 @@ training:
 
 ## Introduction 
 
-<!--- In this section you should provide a brief overview of the context that makes Showcase necessary --->
+<!--- In this section you should provide a brief overview of the context that makes Showcase necessary. It is useful to mention the projects under which the showcase was created, the involved research infrastructures, and the disease it is meant to tackle --->
 
 ## What is the SHOWCASE?
 
