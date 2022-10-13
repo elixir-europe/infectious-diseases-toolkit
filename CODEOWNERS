@@ -1,0 +1,29 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# General website
+*       @bedroesb
+
+# Contribute
+/contribute        @rabuono
+
+# Different Sections
+/human_biomolecular_data        @elixir-europe/idtk-editors
+/human_clinical_and_health_data        @elixir-europe/idtk-editors
+/pathogen_characterisation        @elixir-europe/idtk-editors
+/social_and_economic_impact        @elixir-europe/idtk-editors
+/national_resources        @elixir-europe/idtk-editors
+/showcase        @elixir-europe/idtk-editors
+
+#About
+/about        @rabuono @elixir-europe/idtk-editors
+
+#Theme
+/assets        @bedroesb
+
+# Sidebar and other
+/_data      @bedroesb
+
+# Tool and resources
+/_data/tool*     @bedroesb
+
