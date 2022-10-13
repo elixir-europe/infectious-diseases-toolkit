@@ -1,5 +1,5 @@
 ---
-title: Pathogen characterisation data sources
+title: Data sources
 description: Finding and sharing data for pathogen characterisation related data sources.
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
