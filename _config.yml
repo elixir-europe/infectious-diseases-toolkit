@@ -12,7 +12,7 @@ description: ""
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.19.2
 
-gtag: G-TNT17YGXQ4
+# gtag: G-TNT17YGXQ4
 
 theme_variables:
   privacy_statement_url: /about/privacy
