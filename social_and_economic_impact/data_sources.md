@@ -1,6 +1,6 @@
 ---
 title: Data sources
-description: Finding and sharing data for social and economic related data sources.
+description: Finding and sharing data for social and economic impact related data sources.
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
 rdmkit: <!---put the name and URL of the relevant link or links to RDMkit for generic guidelines not specific to infectious diseases--->
@@ -34,11 +34,11 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Standards, schemas, ontologies and vocabularies <!--- (optional) --->
 
-List of standards, schemas, othologies and/or vocabularies that are relevant to the resources in this category. Consider to have links to the "Data description" page.
+List of standards, schemas, othologies and/or vocabularies that are relevant to the resources in this category. Consider having links to the "Data description" page.
 
-### Licences <!--- (optional) --->
+### Licenses <!--- (optional) --->
 
-Under what licences the data sources work?
+Under what licenses do the data sources work?
 
 ### Related data sources
 
