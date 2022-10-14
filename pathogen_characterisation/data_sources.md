@@ -34,11 +34,11 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Standards, schemas, ontologies and vocabularies <!--- (optional) --->
 
-List of standards, schemas, othologies and/or vocabularies that are relevant to the resources in this category. Consider to have links to the "Data description" page.
+List of standards, schemas, othologies and/or vocabularies that are relevant to the resources in this category. Consider having links to the "Data description" page.
 
-### Licences <!--- (optional) --->
+### Licenses <!--- (optional) --->
 
-Under what licences the data sources work?
+Under what licenses do the data sources work?
 
 ### Related data sources
 
