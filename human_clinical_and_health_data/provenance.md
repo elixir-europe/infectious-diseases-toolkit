@@ -5,15 +5,17 @@ description: Tracking data and analysis steps
 
 ## W3C PROV
 
-[W3C PROV](https://www.w3.org/TR/prov-overview/) is a general purpose standard for provenance information. The standard suggest expression of provenance in terms of entities, activities, agents, and their mutual relations. The standard's data model is built on the top of the PROV-O ontology, which can be extended for various domains. 
+[W3C PROV](https://www.w3.org/TR/prov-overview/) is a general purpose standard for provenance information. The standard suggest expression of provenance in terms of entities, activities, agents, and their mutual relations. The standard's data model is realized in different serialization, including the [PROV-O ontology](https://www.w3.org/TR/prov-o/), which have been extended for various domains. 
+
+In addition to the [PROV primer](https://www.w3.org/TR/prov-primer/), the [PROV Book](https://www.provbook.org/) gives a detailed introduction to using PROV. 
 
 ## HL7 FHIR Provenance
 
-HL7 FHIR is an interoperability standard for healthcare information exchange between systems. FHIR aims to define the key entities involved in healthcare information exchange as resources.
+[HL7 FHIR](http://hl7.org/fhir/) is an interoperability standard for healthcare information exchange between systems. FHIR aims to define the key entities involved in healthcare information exchange as resources.
 
 FHIR provides support for [expression of provenance](https://www.hl7.org/fhir/provenance.html) information of resources. Provenance of a resource is "a record that describes entities and processes involved in producing and delivering or otherwise influencing that resource", and "tracks information about the activity that created, revised, deleted, or signed a version of a resource, describing the entities and agents involved".
 
-HL7 FHIR is an extension of W3C PROV. 
+The provenance part of HL7 FHIR extends W3C PROV. 
 
 ## The Common Provenance Model
 
@@ -25,8 +27,8 @@ The CPM forms a conceptual foundation for an ISO standard series _ISO 23494 Prov
 
 ## RO-Crate
 
-[RO-Crate](https://www.researchobject.org/ro-crate) is an implementation of a _FAIR Digital Object_, which is able to pack data together with its metadata into a _Research Object_. [RO-Crate specifications](https://www.researchobject.org/ro-crate/specification.html) can be used to define different [RO-Crate profiles](https://www.researchobject.org/ro-crate/profiles.html), which are suitable for various domains and use cases. 
+[RO-Crate](https://www.researchobject.org/ro-crate) is a lightweight implementation of a _FAIR Digital Object_, which is able to pack data together with its metadata into a _Research Object_. [RO-Crate specifications](https://www.researchobject.org/ro-crate/specification.html) can be used to form different [RO-Crate profiles](https://www.researchobject.org/ro-crate/profiles.html), which are suitable for various domains and use cases. 
 
-RO-Crate is based on Linked Data standards including [schema.org](https://schema.org/) and [JSON-LD](https://json-ld.org/) but can be written and consumed as regular JSON.
+RO-Crate is based on Linked Data standards including [schema.org](https://schema.org/) and [JSON-LD](https://json-ld.org/) but can be written and consumed as regular JSON. 
 
 
