@@ -3,11 +3,11 @@ title: Provenance
 description: Tracking data and analysis steps
 ---
 
-# W3C PROV
+## W3C PROV
 
 [W3C PROV](https://www.w3.org/TR/prov-overview/) is a general purpose standard for provenance information. The standard suggest expression of provenance in terms of entities, activities, agents, and their mutual relations. The standard's data model is built on the top of the PROV-O ontology, which can be extended for various domains. 
 
-# HL7 FHIR Provenance
+## HL7 FHIR Provenance
 
 HL7 FHIR is an interoperability standard for healthcare information exchange between systems. FHIR aims to define the key entities involved in healthcare information exchange as resources.
 
@@ -15,7 +15,7 @@ FHIR provides support for [expression of provenance](https://www.hl7.org/fhir/pr
 
 HL7 FHIR is an extension of W3C PROV. 
 
-# The Common Provenance Model
+## The Common Provenance Model
 
 The aim of the [Common Provenance Model](https://doi.org/10.1038/s41597-022-01537-6) (CPM) is to provide support for integration of provenance information from heterogeneous environments. In particular, it provides guidelines for domain-independent provenance information representation (so called provenance backbone), to which domain specific provenance information can be attach in a prescribed way.
 
@@ -23,7 +23,7 @@ The CPM is an extension of W3C PROV.
 
 The CPM forms a conceptual foundation for an ISO standard series _ISO 23494 Provenance information model for biological specimen and data_. The ISO standard is still in early phases of its development. 
 
-# RO-Crate
+## RO-Crate
 
 [RO-Crate](https://www.researchobject.org/ro-crate) is an implementation of a _FAIR Digital Object_, which is able to pack data together with its metadata into a _Research Object_. [RO-Crate specifications](https://www.researchobject.org/ro-crate/specification.html) can be used to define different [RO-Crate profiles](https://www.researchobject.org/ro-crate/profiles.html), which are suitable for various domains and use cases. 
 
