@@ -1,17 +1,17 @@
 ---
 title: Data sources
 description: Finding and sharing data for pathogen characterisation related data sources.
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
-rdmkit: <!---put the name and URL of the relevant link or links to RDMkit for generic guidelines not specific to infectious diseases--->
-  - name: <!---the name of the RDMkit page--->
-    url: <!---the URL of the RDMkit page--->
+contributors: []
+page_id: 
+rdmkit:
+  - name:
+    url:
 related_pages: 
-  showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
-  human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-  human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-  social_and_economic_impact: [<!---REPLACE THIS with the page IDs of the social_and_economic_impact pages that you want to list here as related pages--->]
-  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
+  showcase: []
+  human_biomolecular_data: []
+  human_clinical_and_health_data: []
+  social_and_economic_impact: []
+  pathogen_characterisation: []
 training:
   - name:
     registry:
