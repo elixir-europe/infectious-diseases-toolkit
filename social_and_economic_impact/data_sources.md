@@ -22,8 +22,7 @@ training:
 
 ## What is considered as social and economic impact data?
 
-## Topic 1
-<!-- Subsection related to a specific topic related to the data sources of the category that you selected.-->
+## Topic 1 <!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
 
 Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected.
 
