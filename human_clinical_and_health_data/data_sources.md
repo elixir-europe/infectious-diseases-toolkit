@@ -20,7 +20,7 @@ training:
 
 ## Introduction
 
-## What is considered as <!--REPLACE THIS with the category that you selected e.g. pathogen characterization--> data?
+## What is considered as human clinical and health data?
 
 ## Topic 1 <!-- Subsection related to a specific topic related to the data sources of the category that you selected.-->
 
