@@ -7,11 +7,11 @@ rdmkit:
   - name: 
     url: 
 related_pages: 
-  showcase: 
-  human_biomolecular_data: 
-  human_clinical_and_health_data: 
-  social_and_economic_impact: 
-  pathogen_characterisation: 
+  showcase: []
+  human_biomolecular_data: []
+  human_clinical_and_health_data: []
+  social_and_economic_impact: []
+  pathogen_characterisation: []
 training:
   - name:
     registry:
