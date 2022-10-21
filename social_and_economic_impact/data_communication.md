@@ -1,6 +1,7 @@
 ---
 title: Data communication
 description: Producing visualisations and reports
+contributors: []
 page_id: sei_data_communication
 rdmkit:
   - name:

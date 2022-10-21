@@ -1,6 +1,7 @@
 ---
 title: Provenance
 description: Tracking data and analysis steps
+contributors: []
 page_id: pc_provenance
 rdmkit:
   - name:

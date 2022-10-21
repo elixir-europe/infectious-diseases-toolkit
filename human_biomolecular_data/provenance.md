@@ -1,6 +1,7 @@
 ---
 title: Provenance
 description: Tracking data and analysis steps
+contributors: []
 page_id: hbd_provenance
 rdmkit:
   - name:

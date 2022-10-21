@@ -1,6 +1,7 @@
 ---
 title: Data description
 description: Finding (meta)data standards and documentation
+contributors: []
 page_id: pc_data_description
 rdmkit:
   - name:

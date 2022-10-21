@@ -1,6 +1,7 @@
 ---
 title: Quality control
 description: Tools and methods to assess quality
+contributors: []
 page_id: sei_quality_control
 rdmkit:
   - name:
