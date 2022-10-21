@@ -3,7 +3,7 @@ title: <!---Page title--->
 description: <!---Short description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
-rdmkit: <!---put the name and URL of the relevant link or links to RDMkit for generic guidelines not specific to infectious diseases--->
+rdmkit:
   - name: <!---the name of the RDMkit page--->
     url: <!---the URL of the RDMkit page--->
 related_pages: 
@@ -16,6 +16,7 @@ training:
   - name:
     registry:
     url:
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
 
 ## Concrete topic 1 <!-- Example: Metadata harmonisation-->
