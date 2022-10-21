@@ -2,7 +2,7 @@
 title: Data sources
 description: Finding and sharing data for social and economic impact related data sources.
 contributors: []
-page_id: 
+page_id: sei_data_sources
 rdmkit:
   - name:
     url:
@@ -16,6 +16,7 @@ training:
   - name:
     registry:
     url:
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
 
 ## Introduction
