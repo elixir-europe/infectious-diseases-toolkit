@@ -1,10 +1,11 @@
 ---
 title: Provenance
 description: Tracking data and analysis steps
-page_id: hchd_provenance
-rdmkit:
-  - name:
-    url:
+contributors: [Rudolf Wittner, Stian Soiland-Reyes]
+page_id: hchd_provenance 
+rdmkit: 
+  - name: 
+    url: 
 related_pages: 
   showcase: []
   human_biomolecular_data: []
