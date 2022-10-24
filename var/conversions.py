@@ -145,7 +145,7 @@ pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir, topdown=True):
     dirs[:] = [d for d in dirs if d not in (['.git', '_site'])]
     for file_name in files:
-        if os.path.splitext(file_name)[1] == '.md' and dirs and dirs[0] == '.':
+        if os.path.splitext(file_name)[1] == '.md':
             print(f"Opening {os.path.splitext(file_name)[0]}")
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
@@ -154,7 +154,7 @@ for subdir, dirs, files in os.walk(rootdir, topdown=True):
                 pages_metadata[metadata['page_id']
                                ]['title'] = metadata['title']
                 pages_metadata[metadata['page_id']]['type'] = remove_prefix(
-                    subdir, 'pages/').replace("_", " ").capitalize()
+                    subdir, os.getcwd()).replace("_", " ").capitalize()
                 pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[
                     0]
                 if 'description' in metadata:
