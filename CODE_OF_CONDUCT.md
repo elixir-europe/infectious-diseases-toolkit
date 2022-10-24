@@ -25,7 +25,7 @@ To make clear what is expected, we ask all members of the community to conform t
   - [3.2 What to do if someone is in physical danger](#32-what-to-do-if-someone-is-in-physical-danger)
   - [3.3 Code of Conduct enforcement](#33-code-of-conduct-enforcement)
 - [4 Enforcement manual](#4-enforcement-manual)
-  - [4.1 The RDM Code of Conduct group](#41-the-rdm-code-of-conduct-group)
+  - [4.1 The Code of Conduct group](#41-the-code-of-conduct-group)
   - [4.2 Urgent situations: acting unilaterally](#42-urgent-situations-acting-unilaterally)
   - [4.3 Less-urgent situations](#43-less-urgent-situations)
   - [4.4 Resolutions](#44-resolutions)
@@ -33,17 +33,17 @@ To make clear what is expected, we ask all members of the community to conform t
 
 ## 1 Introduction
 
-The Infectious Diseases Toolkit is a community-oriented and -led project under the auspices of the ELIXIR Research Infrastructure.
+The Infectious Diseases Toolkit is a community-oriented and -led project under the auspices of the BY-COVID project.
 We value the involvement of everyone in the community.
-We are committed to creating a friendly and respectful place for learning, teaching and contributing.
+We are committed to creating a friendly and respectful place for learning, teaching, and contributing.
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
 To make clear what is expected, everyone participating in activities associated with the Infectious Diseases Toolkit is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the Infectious Diseases Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
 
-For issues around Code of Conduct please contact [rdm-coc@elixir-europe.org](mailto:rdm-coc@elixir-europe.org). 
+For issues around Code of Conduct please contact [idtk-coc@elixir-europe.org](mailto:idtk-coc@elixir-europe.org). 
 
-Reports will be reviewed by the RDM CoC group, unless there is a conflict of interest, and will be kept confidential.
+Reports will be reviewed by the CoC group, unless there is a conflict of interest, and will be kept confidential.
 
 ## 2 Code of Conduct
 
@@ -100,13 +100,13 @@ If a participant engages in behaviour that violates this Code of Conduct, any me
 ### 2.4 Feedback
 
 This Code of Conduct is not intended as a static set of rules by which everyone must abide.
-Rather, you are invited to make suggestions for updates or clarifications by contacting the [RDM CoC Group](mailto:rdm-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
+Rather, you are invited to make suggestions for updates or clarifications by contacting the [CoC Group](mailto:idtk-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
 
 ## 3 Incident reporting guidelines
 
 ### 3.1 Contact points
 
-If you feel able to, please contact the [RDM CoC group](mailto:rdm-coc@elixir-europe.org).
+If you feel able to, please contact the [CoC group](mailto:idtk-coc@elixir-europe.org).
 
 ### 3.2 What to do if someone is in physical danger
 
@@ -122,13 +122,13 @@ This is the enforcement manual followed by the Infectious Diseases Toolkit proje
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-### 4.1 The RDM Code of Conduct group
+### 4.1 The Code of Conduct group
 
-The members of the RDM Code of Conduct group are:
+The members of the Code of Conduct group are:
 
-* Carole Goble
-* Daniel Faria
-* Frederik Coppens
+* 
+* 
+* 
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
@@ -144,7 +144,7 @@ In situations where an individual community member acts unilaterally, they must 
 
 ### 4.3 Less-urgent situations
 
-Upon receiving a report of an incident, the RDM CoC group will review the incident and determine, to the best of their ability:
+Upon receiving a report of an incident, the CoC group will review the incident and determine, to the best of their ability:
 
 - whether this is an ongoing situation
 - whether there is a threat to anyone's physical safety
@@ -153,16 +153,16 @@ Upon receiving a report of an incident, the RDM CoC group will review the incide
 - who, if anyone, was the bad actor
 
 This information will be collected either in person or in writing.
-The RDM CoC group will provide a written summary of the information surrounding the incident.
+The CoC group will provide a written summary of the information surrounding the incident.
 All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1".
 The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
 
-The RDM CoC group will aim to have a resolution agreed upon within one week.
-In the event that a resolution can't be determined in that time, a member of the RDM CoC group will respond to the reporter(s) with an update and projected timeline for resolution.
+The CoC group will aim to have a resolution agreed upon within one week.
+In the event that a resolution can't be determined in that time, a member of the CoC group will respond to the reporter(s) with an update and projected timeline for resolution.
 
 ### 4.4 Resolutions
 
-The RDM CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
+The CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
 If the committee cannot reach consensus within a week, Niklas Blomberg, as Director of ELIXIR, will decide on an appropriate resolution.
 
 Possible responses may include:
@@ -174,7 +174,7 @@ Possible responses may include:
 * A private in-person conversation between a member of the research team and the individual(s) involved.
   In this case, the person who has the conversation will provide a written summary for record keeping.
 * A private written reprimand from a member of the research team to the individual(s) involved.
-  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing the RDM CoC group for record keeping.
+  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing the CoC group for record keeping.
 * A public announcement of an incident, ideally in the same venue that the violation occurred (i.e. on the listserv for a listserv violation; GitHub for a GitHub violation, etc.).
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
@@ -183,11 +183,13 @@ Possible responses may include:
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 
-Once a resolution is agreed upon, but before it is enacted, a member of the RDM CoC group will contact the original reporter and any other affected parties and explain the proposed resolution.
-The RDM CoC group will ask if this resolution is acceptable, and must note feedback for the record.
-However, the RDM CoC group is not required to act on this feedback.
+Once a resolution is agreed upon, but before it is enacted, a member of the CoC group will contact the original reporter and any other affected parties and explain the proposed resolution.
+The CoC group will ask if this resolution is acceptable, and must note feedback for the record.
+However, the CoC group is not required to act on this feedback.
 
 ## 5 Acknowledgements
+
+This Code of Conduct page is based on the [Code of Conduct of RDMkit](https://rdmkit.elixir-europe.org/CODE_OF_CONDUCT).
 
 This code is adapted from the [Turing Way Project Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
 All are used under the creative commons attribution license.

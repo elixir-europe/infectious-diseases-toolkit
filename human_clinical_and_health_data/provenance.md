@@ -1,6 +1,22 @@
 ---
 title: Provenance
 description: Tracking data and analysis steps
+contributors: [Rudolf Wittner, Stian Soiland-Reyes]
+page_id: hchd_provenance 
+rdmkit: 
+  - name: 
+    url: 
+related_pages: 
+  showcase: []
+  human_biomolecular_data: []
+  human_clinical_and_health_data: []
+  social_and_economic_impact: []
+  pathogen_characterisation: []
+training:
+  - name:
+    registry:
+    url:
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
 
 ## W3C PROV
