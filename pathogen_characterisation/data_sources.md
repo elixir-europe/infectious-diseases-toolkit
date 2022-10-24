@@ -62,4 +62,14 @@ Under what licenses do the data sources work?
 
 ### Related data sources
 
-Using bullet point l
+Using bullet point list style as much as possible, describe when, why and for what purpose a specific data source should be used.
+
+Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here.
+
+Avoid making long lists of links to data sources.
+
+The data sources inserted in this section do not have to be considered a 'final' or 'perfect' solution, but should be something that is used by the wider community working in this area or topic.
+
+Make sure to add the data sources mentioned in the text in the main "tools and resources" table.
+
+## Examples of how this data can be used
