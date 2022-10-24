@@ -1,1 +1,3 @@
 name,url,description,registry,related_pages
+BioModels,https://www.ebi.ac.uk/biomodels/,A repository of mathematical models for application in biological sciences,fairsharing:paz6mh,pc_data_sources
+BIONDA,http://bionda.mpc.ruhr-uni-bochum.de/start.php,"BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications",biotools:bionda,pc_data_sources
