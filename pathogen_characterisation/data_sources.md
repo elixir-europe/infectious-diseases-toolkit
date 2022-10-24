@@ -40,6 +40,7 @@ training:
 ## Introduction
 
 ## What is considered as pathogen characterisation data? <!--- General concept explained. --->
+ 
 
 ## Topic 1 <!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
 
@@ -72,4 +73,3 @@ The data sources inserted in this section do not have to be considered a 'final'
 
 Make sure to add the data sources mentioned in the text in the main "tools and resources" table.
 
-## Examples of how this data can be used <!--- A brief list. --->
