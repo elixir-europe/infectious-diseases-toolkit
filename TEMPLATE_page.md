@@ -19,7 +19,9 @@ training:
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
 
-## Concrete topic 1 <!-- Example: Metadata harmonisation-->
+## Concrete topic 1 
+
+<!-- Example: Metadata harmonisation-->
 
 Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected e.g. pathogen characterisation.
 
@@ -29,7 +31,9 @@ Using a bullet point style list format as much as possible, describe the conside
 
 Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. 
 
-### Existing approaches <!-- do not delete this heading and write your text below it -->
+### Existing approaches 
+
+<!-- do not delete this heading and write your text below it -->
 
 Using bullet point list style as much as possible, describe when, why and for what purpose a specific tool or resource should be used.
 
