@@ -39,7 +39,7 @@ We are committed to creating a friendly and respectful place for learning, teach
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
 To make clear what is expected, everyone participating in activities associated with the Infectious Diseases Toolkit is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the Infectious Diseases Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
+This Code of Conduct applies to all spaces managed by the Infectious Diseases Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events, the Infectious Diseases Toolkit team abides by the [ELIXIR Code of Conduct of events](https://elixir-europe.org/events/code-of-conduct).
 
 For issues around Code of Conduct please contact [idtk-coc@elixir-europe.org](mailto:idtk-coc@elixir-europe.org). 
 
