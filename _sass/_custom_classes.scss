@@ -77,6 +77,12 @@ main {
     }
 }
 
+/*-----Contributors tiles -----*/
+
+.contributor-cards .card {
+    border: 1px $card-border-color solid; 
+}
+
 /*-----Box shadows-----*/
 
 .navbar,
