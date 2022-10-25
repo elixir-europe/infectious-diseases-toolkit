@@ -7,7 +7,8 @@ topnav_title: Infectious Diseases Toolkit
 description: ""
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@empty-contributor
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.20.1
+
 gtag: G-TNT17YGXQ4
 
 theme_variables:
