@@ -75,6 +75,10 @@ main {
         }
         
     }
+    .card button {
+        border: 1px $card-border-color solid;
+        background-color: $white;
+    }
 }
 
 /*-----Contributors tiles -----*/
