@@ -41,7 +41,6 @@ training:
 
 ## What is considered as pathogen characterisation data?
 
-## Topic 1 
 
 <!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
 
