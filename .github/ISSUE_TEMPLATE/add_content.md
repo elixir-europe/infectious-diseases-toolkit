@@ -1,6 +1,6 @@
 ---
 name: Add content request
-about: Suggestion of topic to be added to an existing page of the Infectious Diseases Toolkit
+about: Topic suggestion for an existing page of the Infectious Diseases Toolkit
 title: ''
 labels: content addition
 assignees: ''
