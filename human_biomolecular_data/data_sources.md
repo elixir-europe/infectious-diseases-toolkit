@@ -1,6 +1,6 @@
 ---
 title: Data sources
-description: Finding and sharing data for human biomolecular data related data sources.
+description: Finding and sharing data for human biomolecular related data sources.
 contributors: []
 page_id: hbd_data_sources
 rdmkit:
