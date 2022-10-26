@@ -5,17 +5,25 @@ main {
         margin-bottom: 0.5em;
         font-weight: 600;
     }
-    h2 {
-        font-weight: 700;
-        background-color: $primary;
-        background-image: $color-gradient;
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        display: inline-block;
-        margin-top: 2rem;
+    h2, .h2-like {
+        color: $blue;
+    }
+}
+
+/*-----More information tiles-----*/
+
+.info-card {
+    border: 1px $card-border-color solid;
+    .card-header {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    a {
+        border: 1px $card-border-color solid;
+    }
+    ul {
+        margin-bottom: 0;
     }
 }
 
@@ -50,18 +58,29 @@ main {
 /*-----Section navigation tiles-----*/
 
 .navigation-tiles {
+    .card {
+        border-width: 1px;
+    }
     .card:hover {
         box-shadow: $box-shadow;
     }
 
     .card-header {
+        padding-bottom: 0;
         a:hover {
             text-decoration: none;
         }
         h3 {
             font-size: 1.2rem;
         }
+        
     }
+}
+
+/*-----Contributors tiles -----*/
+
+.contributor-cards .card {
+    border: 1px $card-border-color solid; 
 }
 
 /*-----Box shadows-----*/
