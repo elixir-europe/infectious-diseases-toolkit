@@ -16,7 +16,7 @@ National resources pages in which country specific experiences, examples and res
 The IDTk strives to connect users with the appropriate resources. A collection of tools, resources and training is offered, in addition to signposting external resources.
  
  ## Funding acknowledgement
-Please check our Support page for information on funding and contributing projects.
+Please check our [Support page](/about/) for information on funding and contributing projects.
  
 ## How to cite the IDTk
 Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: https://www.infectious-diseases-toolkit.org/
