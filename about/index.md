@@ -15,7 +15,7 @@ A collection of showcases. These are examples that combine and apply multiple re
 National resources pages in which country specific experiences, examples and resources are shared.
 The IDTk strives to connect users with the appropriate resources. A collection of tools, resources and training is offered, in addition to signposting external resources.
  
- ## Funding acknowledgement
+## Funding acknowledgement
 Please check our [Support page](/about/support) for information on funding and contributing projects.
  
 ## How to cite the IDTk
