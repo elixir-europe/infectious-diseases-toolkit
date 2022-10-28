@@ -19,7 +19,13 @@ The IDTk strives to connect users with the appropriate resources. A collection o
 BY-COVID project received funding from the European Union’s Horizon Europe Research and Innovation Programme under grant agreement number 101046203. Please check our [Support page](/about/support) for further information on funding and contributing projects.
  
 ## How to cite the IDTk
-We have not published the story of IDTk yet. Till then, please refer to Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: https://www.infectious-diseases-toolkit.org/. 
+We have not published the story of IDTk yet. Till then, please refer to:
+
+<div class="card border-1 my-4">
+  <div class="card-body">
+    <p class="card-text"><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: https://www.infectious-diseases-toolkit.org/.</a></i></p>
+  </div>
+</div>
 
 The Infectious Diseases Toolkit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
