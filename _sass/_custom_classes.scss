@@ -87,6 +87,13 @@ main {
     border: 1px $card-border-color solid; 
 }
 
+.page-contributors {
+    border: 1px $card-border-color solid;
+    .contributor-link {
+        border: 1px $card-border-color solid;
+    }
+}
+
 /*-----Box shadows-----*/
 
 .navbar,
