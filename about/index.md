@@ -23,7 +23,7 @@ We have not published the story of IDTk yet. Till then, please refer to:
 
 <div class="card border-1 my-4">
   <div class="card-body">
-    <p class="card-text"><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: https://www.infectious-diseases-toolkit.org/.</a></i></p>
+    <p class="card-text"><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: <a href="https://www.infectious-diseases-toolkit.org/">https://www.infectious-diseases-toolkit.org/</a>.</i></p>
   </div>
 </div>
 
