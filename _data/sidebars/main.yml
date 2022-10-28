@@ -96,6 +96,7 @@ subitems:
     description: Country specific examples
 
   - title: Tools and resources list
+    hr: true
     image_url: /assets/img/section-icons/gears-thin.svg
     url: /tools_and_resources_list/
     description: Browse all tools and resources mentioned in IDTk
