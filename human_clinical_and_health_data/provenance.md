@@ -41,6 +41,12 @@ The CPM forms a conceptual foundation for the ISO standard series _ISO 23494 Pro
 
 ## RO-Crate
 
-[RO-Crate](https://www.researchobject.org/ro-crate) is a lightweight implementation of a _FAIR Digital Object_, which is able to pack data together with its metadata into a _Research Object_. [RO-Crate specifications](https://www.researchobject.org/ro-crate/specification.html) can be used to form different [RO-Crate profiles](https://www.researchobject.org/ro-crate/profiles.html), which are suitable for various domains and use cases.
+[RO-Crate](https://www.researchobject.org/ro-crate) is a lightweight implementation of a _FAIR Digital Object_, which is able to pack data together with its metadata into a _Research Object_. It is based on Linked Data standards including [schema.org](https://schema.org/) and [JSON-LD](https://json-ld.org/), but can be written and consumed as regular JSON.
 
-RO-Crate is based on Linked Data standards including [schema.org](https://schema.org/) and [JSON-LD](https://json-ld.org/) but can be written and consumed as regular JSON.
+The [RO-Crate specifications](https://www.researchobject.org/ro-crate/specification.html) can be used to form different [RO-Crate profiles](https://www.researchobject.org/ro-crate/profiles.html), which are suitable for various domains and use cases. While the base specifications already contain some [guidelines on representing the provenance of data entities](https://www.researchobject.org/ro-crate/1.1/provenance.html#software-used-to-create-files) included in the crate, some contexts require a more detailed description to enhance traceability and reproducibility. To meet this demand, several provenance-oriented RO-Crate profiles are being developed:
+
+* The [Workflow Run RO-Crate working group](https://www.researchobject.org/workflow-run-crate/) is developing a collection of [profiles to describe the execution of computational workflows](https://www.researchobject.org/workflow-run-crate/profiles/). The profiles define provenance descriptions at different granularity levels, from "black box" (only workflow-level inputs, outputs and parameters are considered) to step-by-step rundown.
+
+* The CPM team, with the help of the RO-Crate community, is developing an RO-Crate profile for representing CPM-compliant provenance and meta-provenance in an RO-Crate.
+
+Support for RO-Crate provenance reporting is being added or is planned to be added to several workflow engines, including [Galaxy](https://galaxyproject.org/), [CWL](https://www.commonwl.org/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [StreamFlow](https://streamflow.di.unito.it/), [Sapporo WES](https://github.com/sapporo-wes/sapporo), [COMPSs](https://compss-doc.readthedocs.io/en/stable/), [WfExS](https://github.com/inab/WfExS-backend).
