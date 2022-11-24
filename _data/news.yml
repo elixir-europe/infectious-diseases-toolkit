@@ -6,4 +6,8 @@
   date: 2021-09-19
   linked_pr: 58
   description: A link to the IDTk User Stories spreadsheet was added to the [Contribute page](/contribute/).
+- name: New About page
+  date: 2021-10-28
+  linked_pr: 95
+  description: A new About page with information on IDTk was added. [Discover the page here](/about/)
 
