@@ -1,9 +1,6 @@
 title: Infectious Diseases Toolkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Infectious Diseases Toolkit
-# this appears on the top navigation bar next to the home button
-
 description: ""
 # Metadata description of the website
 
@@ -14,6 +11,8 @@ gtag: G-TNT17YGXQ4
 theme_variables:
   privacy_statement_url: /about/privacy
   theme_color: da366e
+  topnav:
+    brand_logo: assets/img/main_logo.png
   fonts:
     - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap
 
