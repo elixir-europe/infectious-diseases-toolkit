@@ -32,6 +32,6 @@ columns:
   - type: image
     image_width: 88px
     width: 1
-    src: 'assets/img/main_logo_square.png'
+    src: 'assets/img/main_logo_condensed.png'
     alt: Infectious diseases toolkit condensed
 
