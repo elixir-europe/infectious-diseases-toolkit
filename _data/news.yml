@@ -1,13 +1,18 @@
 - name: New content structure
-  date: 2021-09-08
+  date: 2022-09-08
   linked_pr: 27
   description: Together with a new landing page, new sections where added to IDTk. 
 - name: Added link to User Stories spreadsheet
-  date: 2021-09-19
+  date: 2022-09-19
   linked_pr: 58
   description: A link to the IDTk User Stories spreadsheet was added to the [Contribute page](/contribute/).
 - name: New About page
-  date: 2021-10-28
+  date: 2022-10-28
   linked_pr: 95
   description: A new About page with information on IDTk was added. [Discover the page here](/about/)
+- name: New content on the Provenance page
+  date: 2022-10-17
+  linked_pr: 77
+  description: Content was added to the Provenance page in the Human clinical and health data section. [Discover the page here](/human_clinical_and_health_data/provenance)
+
 
