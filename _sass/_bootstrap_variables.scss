@@ -4,12 +4,17 @@ $primary: #d7346b;
 $blue: #277ab9;
 $light: #f3f3f3;
 $dark: #4a4a4a;
-$color-gradient: linear-gradient(90deg,$primary 18%,$blue);
+$light-x: #e5e1e1;
 
 /*-----Custom values for Bootstrap variables-----*/
 $component-active-bg: $primary;
 $box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 8px;
 $navbar-light-color: $dark;
+$card-border-width: 0;
+$alert-border-width: 0;
+$navbar-dark-toggler-border-color: transparent;
+$border-radius: 0.5rem;
+$btn-border-radius-sm: $border-radius;
 $navbar-light-hover-color: $primary;
 $nav-link-hover-color: $primary;
 $navbar-brand-font-size: 1.7rem;
@@ -21,6 +26,7 @@ $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: 'IBM Plex Sans', sans-serif;
 $h1-font-size: 1rem * 4 !default;
+$h2-font-size: 1rem * 2 !default;
 $h3-font-size: 1rem * 1.5 !default;
 $h4-font-size: 1rem * 1.1 !default;
 $h5-font-size: 1rem !default;

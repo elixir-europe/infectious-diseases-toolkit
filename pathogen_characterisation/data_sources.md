@@ -23,7 +23,9 @@ training:
 
 ## What is considered as pathogen characterisation data?
 
-## Topic 1 <!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
+## Topic 1 
+
+<!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
 
 Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected.
 
@@ -33,12 +35,16 @@ Using a bullet point style list format as much as possible, describe the conside
 
 Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. 
 
-### Standards, schemas, ontologies and vocabularies <!--- (optional) --->
+### Standards, schemas, ontologies and vocabularies 
+
+<!--- (optional) --->
 
 List of standards, schemas, ontologies and/or vocabularies that are relevant to the resources in this category. Consider having links to the "Data description" page.
 When applicable, consider adding the appropriate FAIRsharing entry to the tools and resources spreadsheet so that they can be listed and appropriately tagged at the end of the page
 
-### Licenses <!--- (optional) --->
+### Licenses 
+
+<!--- (optional) --->
 
 Under what licenses do the data sources work?
 
