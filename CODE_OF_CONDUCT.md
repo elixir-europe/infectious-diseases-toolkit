@@ -163,7 +163,7 @@ In the event that a resolution can't be determined in that time, a member of the
 ### 4.4 Resolutions
 
 The CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
-If the committee cannot reach consensus within a week, Niklas Blomberg, as Director of ELIXIR, will decide on an appropriate resolution.
+If the committee cannot reach consensus within a week, the Director of ELIXIR, will decide on an appropriate resolution.
 
 Possible responses may include:
 
