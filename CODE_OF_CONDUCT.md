@@ -126,9 +126,9 @@ Enforcement of the Code of Conduct should be respectful and not include any hara
 
 The members of the Code of Conduct group are:
 
-* 
-* 
-* 
+* Nina van Goethem
+* Petr Holub
+* Frederik Coppens
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
