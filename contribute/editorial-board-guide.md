@@ -102,7 +102,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file and ren
 6. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
-7. Check the [frontmatter/metadata](/contribute/page_metadata) of the markdown page:
+7. Check the [frontmatter/metadata](/contribute/page-metadata) of the markdown page:
     - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
@@ -205,7 +205,7 @@ The logos can be added to the [/images/institutions](https://github.com/elixir-e
 
 Infectious Diseases Toolkit pages from other sections can be displayed as "Related Infectious Diseases Toolkit pages" in a page, grouped by section. 
 
-An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [Website overview page](/contribute/website_overview).
+An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [Website overview page](/contribute/website-overview).
 
 
 ```yml
@@ -220,5 +220,5 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an Infectious Diseases Toolkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](/contribute/website_overview).
+To find out what the `page_id` of an Infectious Diseases Toolkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](/contribute/website-overview).
 

@@ -16,7 +16,7 @@ training:
   - name:
     registry:
     url:
-# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
 ## W3C PROV

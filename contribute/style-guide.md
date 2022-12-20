@@ -90,4 +90,4 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 
 ## How to suggest amendments or additions to this style guide
-[Open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org). See also the [contribute page](how_to_contribute).
+[Open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org). See also the [contribute page](how-to-contribute).
