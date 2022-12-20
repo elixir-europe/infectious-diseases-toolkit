@@ -43,28 +43,28 @@ defaults:
       sidebar: contribute
   -
     scope:
-      path: "pathogen_characterisation"
+      path: "pathogen-characterisation"
       type: "pages"
     values:
       type: pathogen_characterisation
 
   -
     scope:
-      path: "socioeconomic_data"
+      path: "socioeconomic-data"
       type: "pages"
     values:
       type: socioeconomic_data
     
   -
     scope:
-      path: "human_clinical_and_health_data"
+      path: "human-clinical-and-health-data"
       type: "pages"
     values:
       type: human_clinical_and_health_data
 
   -
     scope:
-      path: "human_biomolecular_data"
+      path: "human-biomolecular-data"
       type: "pages"
     values:
       type: human_biomolecular_data
@@ -78,7 +78,7 @@ defaults:
 
   -
     scope:
-      path: "national_resources"
+      path: "national-resources"
       type: "pages"
     values:
       type: national_resources

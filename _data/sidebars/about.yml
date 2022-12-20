@@ -6,7 +6,7 @@ subitems:
       - title: Contributors
         url: /about/contributors
       - title: Editorial board
-        url: /about/editorial_board
+        url: /about/editorial-board
       - title: Support
         url: /about/support
   - title: Contact
@@ -16,7 +16,7 @@ subitems:
   - title: Events
     url: /about/events
   - title: Media kit
-    url: /about/media_kit
+    url: /about/media-kit
   - title: Outreach
     url: /about/outreach
   - title: Accessibility
