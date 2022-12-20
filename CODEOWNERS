@@ -22,8 +22,8 @@
 /assets        @bedroesb
 
 # Sidebar and other
-/-data      @bedroesb
+/_data      @bedroesb
 
 # Tool and resources
-/-data/tool*     @bedroesb
+/_data/tool*     @bedroesb
 
