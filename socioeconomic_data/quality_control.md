@@ -1,8 +1,8 @@
 ---
-title: Regulatory considerations
-description: Legal and ethical aspects and how to deal with them
+title: Quality control
+description: Tools and methods to assess quality
 contributors: []
-page_id: sei_regulatory_considerations
+page_id: sed_quality_control
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  social_and_economic_impact: []
+  socioeconomic_data: []
   pathogen_characterisation: []
 training:
   - name:

@@ -2,7 +2,7 @@
 title: Data communication
 description: Producing visualisations and reports
 contributors: []
-page_id: sei_data_communication
+page_id: sed_data_communication
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  social_and_economic_impact: []
+  socioeconomic_data: []
   pathogen_characterisation: []
 training:
   - name:
