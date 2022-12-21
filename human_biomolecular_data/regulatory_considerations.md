@@ -1,8 +1,8 @@
 ---
-title: Ethical Legal and Social Issues
+title: Regulatory considerations
 description: Legal and ethical aspects and how to deal with them
 contributors: []
-page_id: sed_elsi
+page_id: hbd_regulatory_considerations
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  socioeconomic_data: []
+  social_and_economic_impact: []
   pathogen_characterisation: []
 training:
   - name:

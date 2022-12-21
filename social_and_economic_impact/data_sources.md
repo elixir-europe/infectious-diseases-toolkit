@@ -2,7 +2,7 @@
 title: Data sources
 description: Finding and sharing data for social and economic impact related data sources.
 contributors: []
-page_id: sed_data_sources
+page_id: sei_data_sources
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  socioeconomic_data: []
+  social_and_economic_impact: []
   pathogen_characterisation: []
 training:
   - name:
