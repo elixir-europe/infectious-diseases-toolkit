@@ -1,8 +1,8 @@
 ---
-title: Regulatory considerations
-description: Legal and ethical aspects and how to deal with them
+title: Data analysis
+description: Generic workflows for different data types
 contributors: []
-page_id: pc_regulatory_considerations
+page_id: sed_data_analysis
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  social_and_economic_impact: []
+  socioeconomic_data: []
   pathogen_characterisation: []
 training:
   - name:

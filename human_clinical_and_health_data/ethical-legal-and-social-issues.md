@@ -1,8 +1,8 @@
 ---
-title: Data communication
-description: Producing visualisations and reports
+title: Ethical Legal and Social Issues
+description: Legal and ethical aspects and how to deal with them
 contributors: []
-page_id: sei_data_communication
+page_id: hchd_elsi
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  social_and_economic_impact: []
+  socioeconomic_data: []
   pathogen_characterisation: []
 training:
   - name:
