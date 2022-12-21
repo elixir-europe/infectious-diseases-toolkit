@@ -15,12 +15,12 @@ subitems:
         url: /pathogen-characterisation/data-description
       - title: Data sources
         url: /pathogen-characterisation/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /pathogen-characterisation/ethical-legal-and-social-issues
       - title: Provenance
         url: /pathogen-characterisation/provenance
       - title: Quality control
         url: /pathogen-characterisation/quality-control
-      - title: Ethical Legal and Social Issues
-        url: /pathogen-characterisation/ethical-legal-and-social-issues
 
   - title: Socioeconomic data
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
@@ -36,12 +36,12 @@ subitems:
         url: /socioeconomic-data/data-description
       - title: Data sources
         url: /socioeconomic-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /socioeconomic-data/ethical-legal-and-social-issues
       - title: Provenance
         url: /socioeconomic-data/provenance
       - title: Quality control
         url: /socioeconomic-data/quality-control
-      - title: Ethical Legal and Social Issues
-        url: /socioeconomic-data/ethical-legal-and-social-issues
 
   - title: Human biomolecular data
     image_url: /assets/img/section-icons/dna-person-thin.svg
@@ -57,12 +57,12 @@ subitems:
         url: /human-biomolecular-data/data-description
       - title: Data sources
         url: /human-biomolecular-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-biomolecular-data/ethical-legal-and-social-issues
       - title: Provenance
         url: /human-biomolecular-data/provenance
       - title: Quality control
         url: /human-biomolecular-data/quality-control
-      - title: Ethical Legal and Social Issues
-        url: /human-biomolecular-data/ethical-legal-and-social-issues
 
   - title: Human clinical and health data
     image_url: /assets/img/section-icons/hospital-user-thin.svg
@@ -78,12 +78,12 @@ subitems:
         url: /human-clinical-and-health-data/data-description
       - title: Data sources
         url: /human-clinical-and-health-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
       - title: Provenance
         url: /human-clinical-and-health-data/provenance
       - title: Quality control
         url: /human-clinical-and-health-data/quality-control
-      - title: Ethical Legal and Social Issues
-        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
 
   - title: Showcase
     hr: true
