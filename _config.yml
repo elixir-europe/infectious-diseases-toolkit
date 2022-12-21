@@ -50,10 +50,10 @@ defaults:
 
   -
     scope:
-      path: "socioeconomic_data"
+      path: "social_and_economic_impact"
       type: "pages"
     values:
-      type: socioeconomic_data
+      type: social_and_economic_impact
     
   -
     scope:

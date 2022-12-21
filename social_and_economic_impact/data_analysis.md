@@ -1,8 +1,8 @@
 ---
-title: Quality control
-description: Tools and methods to assess quality
+title: Data analysis
+description: Generic workflows for different data types
 contributors: []
-page_id: sed_quality_control
+page_id: sei_data_analysis
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  socioeconomic_data: []
+  social_and_economic_impact: []
   pathogen_characterisation: []
 training:
   - name:

@@ -1,8 +1,8 @@
 ---
-title: Attributing credit
-description: Referencing your sources (citations and recognition of contributions)
+title: Quality control
+description: Tools and methods to assess quality
 contributors: []
-page_id: sed_attributing_credit
+page_id: sei_quality_control
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  socioeconomic_data: []
+  social_and_economic_impact: []
   pathogen_characterisation: []
 training:
   - name:
@@ -26,5 +26,4 @@ training:
 This is a community-driven website, so contributions are welcome! You will, of course, be listed as a contributor on the page.
 
 New content is announced on the [home page](/) and [news page](/about/news), so please check for updates there. You can also watch for changes on this page by using a free service like [Visual Ping](https://visualping.io/) or [Distill Web Monitor](https://distill.io/), or by using a [browser add-on](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge?hl=en).
-
 

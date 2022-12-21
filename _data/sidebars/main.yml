@@ -19,29 +19,28 @@ subitems:
         url: /pathogen_characterisation/provenance
       - title: Quality control
         url: /pathogen_characterisation/quality_control
-      - title: Ethical Legal and Social Issues
-        url: /pathogen_characterisation/ethical-legal-and-social-issues
-
-  - title: Socioeconomic data
+      - title: Regulatory considerations
+        url: /pathogen_characterisation/regulatory_considerations
+  - title: Social and economic impact
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
-    url: /socioeconomic_data/
+    url: /social_and_economic_impact/
     subitems:
       - title: Attributing credit
-        url: /socioeconomic_data/attributing_credit
+        url: /social_and_economic_impact/attributing_credit
       - title: Data analysis
-        url: /socioeconomic_data/data_analysis
+        url: /social_and_economic_impact/data_analysis
       - title: Data communication
-        url: /socioeconomic_data/data_communication
+        url: /social_and_economic_impact/data_communication
       - title: Data description
-        url: /socioeconomic_data/data_description
+        url: /social_and_economic_impact/data_description
       - title: Data sources
-        url: /socioeconomic_data/data_sources
+        url: /social_and_economic_impact/data_sources
       - title: Provenance
-        url: /socioeconomic_data/provenance
+        url: /social_and_economic_impact/provenance
       - title: Quality control
-        url: /socioeconomic_data/quality_control
-      - title: Ethical Legal and Social Issues
-        url: /socioeconomic_data/ethical-legal-and-social-issues
+        url: /social_and_economic_impact/quality_control
+      - title: Regulatory considerations
+        url: /social_and_economic_impact/regulatory_considerations
 
   - title: Human biomolecular data
     image_url: /assets/img/section-icons/dna-person-thin.svg
@@ -61,8 +60,8 @@ subitems:
         url: /human_biomolecular_data/provenance
       - title: Quality control
         url: /human_biomolecular_data/quality_control
-      - title: Ethical Legal and Social Issues
-        url: /human_biomolecular_data/ethical-legal-and-social-issues
+      - title: Regulatory considerations
+        url: /human_biomolecular_data/regulatory_considerations
 
   - title: Human clinical and health data
     image_url: /assets/img/section-icons/hospital-user-thin.svg
@@ -82,8 +81,8 @@ subitems:
         url: /human_clinical_and_health_data/provenance
       - title: Quality control
         url: /human_clinical_and_health_data/quality_control
-      - title: Ethical Legal and Social Issues
-        url: /human_clinical_and_health_data/ethical-legal-and-social-issues
+      - title: Regulatory considerations
+        url: /human_clinical_and_health_data/regulatory_considerations
 
   - title: Showcase
     hr: true
