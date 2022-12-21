@@ -1,8 +1,8 @@
 ---
-title: Quality control
-description: Tools and methods to assess quality
+title: Provenance
+description: Tracking data and analysis steps
 contributors: []
-page_id: sei_quality_control
+page_id: sed_provenance
 rdmkit:
   - name:
     url:
@@ -10,7 +10,7 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  social_and_economic_impact: []
+  socioeconomic_data: []
   pathogen_characterisation: []
 training:
   - name:

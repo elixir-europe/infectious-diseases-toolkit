@@ -21,26 +21,27 @@ subitems:
         url: /pathogen_characterisation/quality_control
       - title: Regulatory considerations
         url: /pathogen_characterisation/regulatory_considerations
-  - title: Social and economic impact
+
+  - title: Socioeconomic data
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
-    url: /social_and_economic_impact/
+    url: /socioeconomic_data/
     subitems:
       - title: Attributing credit
-        url: /social_and_economic_impact/attributing_credit
+        url: /socioeconomic_data/attributing_credit
       - title: Data analysis
-        url: /social_and_economic_impact/data_analysis
+        url: /socioeconomic_data/data_analysis
       - title: Data communication
-        url: /social_and_economic_impact/data_communication
+        url: /socioeconomic_data/data_communication
       - title: Data description
-        url: /social_and_economic_impact/data_description
+        url: /socioeconomic_data/data_description
       - title: Data sources
-        url: /social_and_economic_impact/data_sources
+        url: /socioeconomic_data/data_sources
       - title: Provenance
-        url: /social_and_economic_impact/provenance
+        url: /socioeconomic_data/provenance
       - title: Quality control
-        url: /social_and_economic_impact/quality_control
+        url: /socioeconomic_data/quality_control
       - title: Regulatory considerations
-        url: /social_and_economic_impact/regulatory_considerations
+        url: /socioeconomic_data/regulatory_considerations
 
   - title: Human biomolecular data
     image_url: /assets/img/section-icons/dna-person-thin.svg
