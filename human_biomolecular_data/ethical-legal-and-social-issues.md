@@ -1,8 +1,8 @@
 ---
-title: Regulatory considerations
+title: Ethical Legal and Social Issues
 description: Legal and ethical aspects and how to deal with them
 contributors: []
-page_id: sed_regulatory_considerations
+page_id: hbd_elsi
 rdmkit:
   - name:
     url:
