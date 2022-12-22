@@ -1,4 +1,4 @@
-name: Converting to yaml + registry lookup + countrylist update
+name: Validation of the tools and page metadata (optionally registry lookup)
 
 on:
   pull_request:
