@@ -39,7 +39,7 @@ We are committed to creating a friendly and respectful place for learning, teach
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
 To make clear what is expected, everyone participating in activities associated with the Infectious Diseases Toolkit is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the Infectious Diseases Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
+This Code of Conduct applies to all spaces managed by the Infectious Diseases Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events, the Infectious Diseases Toolkit team and contributors abide by the [ELIXIR Code of Conduct of events](https://elixir-europe.org/events/code-of-conduct).
 
 For issues around Code of Conduct please contact [idtk-coc@elixir-europe.org](mailto:idtk-coc@elixir-europe.org). 
 
@@ -126,9 +126,9 @@ Enforcement of the Code of Conduct should be respectful and not include any hara
 
 The members of the Code of Conduct group are:
 
-* 
-* 
-* 
+* Nina van Goethem
+* Petr Holub
+* Frederik Coppens
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
@@ -163,7 +163,7 @@ In the event that a resolution can't be determined in that time, a member of the
 ### 4.4 Resolutions
 
 The CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
-If the committee cannot reach consensus within a week, Niklas Blomberg, as Director of ELIXIR, will decide on an appropriate resolution.
+If the committee cannot reach consensus within a week, the Director of ELIXIR, will decide on an appropriate resolution.
 
 Possible responses may include:
 

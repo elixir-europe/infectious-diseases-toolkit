@@ -6,7 +6,8 @@ main {
         font-weight: 600;
     }
     h2, .h2-like {
-        color: $blue;
+        color: $primary;
+        font-weight: 500;
     }
 }
 
@@ -85,6 +86,13 @@ main {
 
 .contributor-cards .card {
     border: 1px $card-border-color solid; 
+}
+
+.page-contributors {
+    border: 1px $card-border-color solid;
+    .contributor-link {
+        border: 1px $card-border-color solid;
+    }
 }
 
 /*-----Box shadows-----*/

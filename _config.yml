@@ -4,10 +4,10 @@ title: SANDBOX
 topnav_title: Infectious Diseases Toolkit - SANDBOX
 # this appears on the top navigation bar next to the home button
 
-description: ""
+description: "Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.20.1
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.21.0
 
 # gtag: G-TNT17YGXQ4
 
@@ -43,28 +43,28 @@ defaults:
       sidebar: contribute
   -
     scope:
-      path: "pathogen_characterisation"
+      path: "pathogen-characterisation"
       type: "pages"
     values:
       type: pathogen_characterisation
 
   -
     scope:
-      path: "social_and_economic_impact"
+      path: "socioeconomic-data"
       type: "pages"
     values:
-      type: social_and_economic_impact
+      type: socioeconomic_data
     
   -
     scope:
-      path: "human_clinical_and_health_data"
+      path: "human-clinical-and-health-data"
       type: "pages"
     values:
       type: human_clinical_and_health_data
 
   -
     scope:
-      path: "human_biomolecular_data"
+      path: "human-biomolecular-data"
       type: "pages"
     values:
       type: human_biomolecular_data
@@ -78,7 +78,7 @@ defaults:
 
   -
     scope:
-      path: "national_resources"
+      path: "national-resources"
       type: "pages"
     values:
       type: national_resources

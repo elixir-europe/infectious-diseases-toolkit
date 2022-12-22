@@ -8,11 +8,11 @@
 /contribute        @rabuono
 
 # Different Sections
-/human_biomolecular_data        @elixir-europe/idtk-editors
-/human_clinical_and_health_data        @elixir-europe/idtk-editors
-/pathogen_characterisation        @elixir-europe/idtk-editors
-/social_and_economic_impact        @elixir-europe/idtk-editors
-/national_resources        @elixir-europe/idtk-editors
+/human-biomolecular-data        @elixir-europe/idtk-editors
+/human-clinical-and-health-data        @elixir-europe/idtk-editors
+/pathogen-characterisation        @elixir-europe/idtk-editors
+/socioeconomic-data        @elixir-europe/idtk-editors
+/national-resources        @elixir-europe/idtk-editors
 /showcase        @elixir-europe/idtk-editors
 
 #About
