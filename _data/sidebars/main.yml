@@ -2,87 +2,88 @@ title: Main
 title_url: /index
 subitems:
   - title: Pathogen characterisation
-    url: /pathogen_characterisation/
+    url: /pathogen-characterisation/
     image_url: /assets/img/section-icons/disease-thin.svg
     subitems:
       - title: Attributing credit
-        url: /pathogen_characterisation/attributing_credit
+        url: /pathogen-characterisation/attributing-credit
       - title: Data analysis
-        url: /pathogen_characterisation/data_analysis
+        url: /pathogen-characterisation/data-analysis
       - title: Data communication
-        url: /pathogen_characterisation/data_communication
+        url: /pathogen-characterisation/data-communication
       - title: Data description
-        url: /pathogen_characterisation/data_description
+        url: /pathogen-characterisation/data-description
       - title: Data sources
-        url: /pathogen_characterisation/data_sources
+        url: /pathogen-characterisation/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /pathogen-characterisation/ethical-legal-and-social-issues
       - title: Provenance
-        url: /pathogen_characterisation/provenance
+        url: /pathogen-characterisation/provenance
       - title: Quality control
-        url: /pathogen_characterisation/quality_control
-      - title: Regulatory considerations
-        url: /pathogen_characterisation/regulatory_considerations
-  - title: Social and economic impact
+        url: /pathogen-characterisation/quality-control
+
+  - title: Socioeconomic data
     image_url: /assets/img/section-icons/users-viewfinder-thin.svg
-    url: /social_and_economic_impact/
+    url: /socioeconomic-data/
     subitems:
       - title: Attributing credit
-        url: /social_and_economic_impact/attributing_credit
+        url: /socioeconomic-data/attributing-credit
       - title: Data analysis
-        url: /social_and_economic_impact/data_analysis
+        url: /socioeconomic-data/data-analysis
       - title: Data communication
-        url: /social_and_economic_impact/data_communication
+        url: /socioeconomic-data/data-communication
       - title: Data description
-        url: /social_and_economic_impact/data_description
+        url: /socioeconomic-data/data-description
       - title: Data sources
-        url: /social_and_economic_impact/data_sources
+        url: /socioeconomic-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /socioeconomic-data/ethical-legal-and-social-issues
       - title: Provenance
-        url: /social_and_economic_impact/provenance
+        url: /socioeconomic-data/provenance
       - title: Quality control
-        url: /social_and_economic_impact/quality_control
-      - title: Regulatory considerations
-        url: /social_and_economic_impact/regulatory_considerations
+        url: /socioeconomic-data/quality-control
 
   - title: Human biomolecular data
     image_url: /assets/img/section-icons/dna-person-thin.svg
-    url: /human_biomolecular_data/
+    url: /human-biomolecular-data/
     subitems:
       - title: Attributing credit
-        url: /human_biomolecular_data/attributing_credit
+        url: /human-biomolecular-data/attributing-credit
       - title: Data analysis
-        url: /human_biomolecular_data/data_analysis
+        url: /human-biomolecular-data/data-analysis
       - title: Data communication
-        url: /human_biomolecular_data/data_communication
+        url: /human-biomolecular-data/data-communication
       - title: Data description
-        url: /human_biomolecular_data/data_description
+        url: /human-biomolecular-data/data-description
       - title: Data sources
-        url: /human_biomolecular_data/data_sources
+        url: /human-biomolecular-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-biomolecular-data/ethical-legal-and-social-issues
       - title: Provenance
-        url: /human_biomolecular_data/provenance
+        url: /human-biomolecular-data/provenance
       - title: Quality control
-        url: /human_biomolecular_data/quality_control
-      - title: Regulatory considerations
-        url: /human_biomolecular_data/regulatory_considerations
+        url: /human-biomolecular-data/quality-control
 
   - title: Human clinical and health data
     image_url: /assets/img/section-icons/hospital-user-thin.svg
-    url: /human_clinical_and_health_data/
+    url: /human-clinical-and-health-data/
     subitems:
       - title: Attributing credit
-        url: /human_clinical_and_health_data/attributing_credit
+        url: /human-clinical-and-health-data/attributing-credit
       - title: Data analysis
-        url: /human_clinical_and_health_data/data_analysis
+        url: /human-clinical-and-health-data/data-analysis
       - title: Data communication
-        url: /human_clinical_and_health_data/data_communication
+        url: /human-clinical-and-health-data/data-communication
       - title: Data description
-        url: /human_clinical_and_health_data/data_description
+        url: /human-clinical-and-health-data/data-description
       - title: Data sources
-        url: /human_clinical_and_health_data/data_sources
+        url: /human-clinical-and-health-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
       - title: Provenance
-        url: /human_clinical_and_health_data/provenance
+        url: /human-clinical-and-health-data/provenance
       - title: Quality control
-        url: /human_clinical_and_health_data/quality_control
-      - title: Regulatory considerations
-        url: /human_clinical_and_health_data/regulatory_considerations
+        url: /human-clinical-and-health-data/quality-control
 
   - title: Showcase
     hr: true
@@ -92,18 +93,18 @@ subitems:
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-thin.svg
-    url: /national_resources/
+    url: /national-resources/
     description: Country specific examples
 
   - title: Tools and resources list
     hr: true
     image_url: /assets/img/section-icons/gears-thin.svg
-    url: /tools_and_resources_list/
+    url: /tools-and-resources-list/
     description: Browse all tools and resources mentioned in IDTk
 
   - title: Training resources list
     image_url: /assets/img/section-icons/graduation-cap-thin.svg
-    url: /training_resources_list/
+    url: /training-resources-list/
     description: Browse all training resources mentioned in IDTk
 
 
