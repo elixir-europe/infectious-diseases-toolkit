@@ -29,7 +29,7 @@ jobs:
   
   conversion:
     if: |
-        github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
+        github.repository_owner == 'ELIXIR-Belgium' &&  github.event_name != 'pull_request'
   
     runs-on: ubuntu-latest
     strategy:
