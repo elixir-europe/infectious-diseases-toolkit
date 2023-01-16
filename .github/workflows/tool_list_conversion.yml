@@ -1,4 +1,4 @@
-name: Validation of the tools and page metadata (optionally registry lookup)
+name: Validation of the tools and page metadata
 
 on:
   pull_request:
@@ -27,7 +27,7 @@ jobs:
         run: | 
           python var/conversions.py
   
-  conversion:
+  registry-lookup:
     if: |
         github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
   
