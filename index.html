@@ -8,6 +8,7 @@ layout: none
 {% include head.html %}
 
 <body id="main">
+    {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <section class="container mb-5">
         <div class="card border border-primary text-primary text-center">
