@@ -3,4 +3,4 @@ title: National resources
 ---
 
 
-{% include section-navigation-tiles-simple.html type="national_resources" %}
+{% include section-navigation-tiles-simple.html type="national_resources" except="index.md" %}
