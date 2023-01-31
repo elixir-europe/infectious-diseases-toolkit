@@ -30,8 +30,8 @@ columns:
     src: 'assets/img/eu-flag-white.svg'
     alt: European flag
   - type: image
-    image_width: 88px
+    image_width: 140px
     width: 1
-    src: 'assets/img/by-covid-condensed.svg'
+    src: 'assets/img/main_logo_square.png'
     alt: Infectious diseases toolkit condensed
 

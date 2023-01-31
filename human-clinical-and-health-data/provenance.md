@@ -4,8 +4,8 @@ description: Tracking data and analysis steps
 contributors: [Rudolf Wittner, Stian Soiland-Reyes, Simone Leo]
 page_id: hchd_provenance
 rdmkit:
-  - name:
-    url:
+  - name: Data provenance
+    url: https://rdmkit.elixir-europe.org/data_provenance
 related_pages:
   showcase: []
   human_biomolecular_data: []

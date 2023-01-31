@@ -1,3 +1,7 @@
-name,url,description,registry,related_pages
-BioModels,https://www.ebi.ac.uk/biomodels/,A repository of mathematical models for application in biological sciences,fairsharing:paz6mh,pc_data_sources
-BIONDA,http://bionda.mpc.ruhr-uni-bochum.de/start.php,"BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications",biotools:bionda,pc_data_sources
+name,registry,related_pages,url,description,hide
+Galaxy,biotools:galaxy,hchd_provenance,https://galaxyproject.org,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",
+Common Workflow Language (CWL) ,fairsharing:8y5ayx,hchd_provenance,https://www.commonwl.org/,An open standard for describing workflows that are build from command line tools,
+Snakemake,biotools:snakemake,hchd_provenance,https://snakemake.readthedocs.io/en/stable/,Snakemake is a framework for data analysis workflow execution,
+StreamFlow,,hchd_provenance,https://streamflow.di.unito.it/,Container-native workflow manager for hybrid infrastructures,
+Sapporo WES,biotools:sapporo-web,hchd_provenance,https://github.com/sapporo-wes/sapporo,Implementation of Workflow Execution Service (WES) or so-called Workflow-as-a-Service.,
+COMPSs,biotools:compss,hchd_provenance,https://compss-doc.readthedocs.io/en/stable/,"COMP Superscalar (COMPSs) is a task-based programming model which aims to ease the development of applications for distributed infrastructures, such as large High-Performance clusters (HPC), clouds and container managed clusters.",

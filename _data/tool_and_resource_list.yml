@@ -1,16 +1,48 @@
-- description: A repository of mathematical models for application in biological sciences
-  name: BioModels
+- description: Open, web-based platform for data intensive biomedical research. Whether
+    on the free public server or your own instance, you can perform, reproduce, and
+    share complete analyses.
+  name: Galaxy
   registry:
-    fairsharing: paz6mh
+    biotools: galaxy
+    tess: Galaxy
   related_pages:
-  - pc_data_sources
-  url: https://www.ebi.ac.uk/biomodels/
-- description: BIONDA is a free and open-access biomarker database, which employs
-    various text mining methods to extract structured information on biomarkers from
-    abstracts of scientific publications
-  name: BIONDA
+  - hchd_provenance
+  url: https://galaxyproject.org
+- description: An open standard for describing workflows that are build from command
+    line tools
+  name: Common Workflow Language (CWL)
   registry:
-    biotools: bionda
+    fairsharing: 8y5ayx
+    tess: 'Common Workflow Language (CWL) '
   related_pages:
-  - pc_data_sources
-  url: http://bionda.mpc.ruhr-uni-bochum.de/start.php
+  - hchd_provenance
+  url: https://www.commonwl.org/
+- description: Snakemake is a framework for data analysis workflow execution
+  name: Snakemake
+  registry:
+    biotools: snakemake
+    tess: Snakemake
+  related_pages:
+  - hchd_provenance
+  url: https://snakemake.readthedocs.io/en/stable/
+- description: Container-native workflow manager for hybrid infrastructures
+  name: StreamFlow
+  related_pages:
+  - hchd_provenance
+  url: https://streamflow.di.unito.it/
+- description: Implementation of Workflow Execution Service (WES) or so-called Workflow-as-a-Service.
+  name: Sapporo WES
+  registry:
+    biotools: sapporo-web
+  related_pages:
+  - hchd_provenance
+  url: https://github.com/sapporo-wes/sapporo
+- description: COMP Superscalar (COMPSs) is a task-based programming model which aims
+    to ease the development of applications for distributed infrastructures, such
+    as large High-Performance clusters (HPC), clouds and container managed clusters.
+  name: COMPSs
+  registry:
+    biotools: compss
+  related_pages:
+  - hchd_provenance
+  url: https://compss-doc.readthedocs.io/en/stable/
