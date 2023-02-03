@@ -10,8 +10,8 @@ related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
-  socioeconomic_data: [sei_data_sources]
-  pathogen_characterisation: []
+  socioeconomic_data: []
+  pathogen_characterisation: [pc_data_sources]
 faircookbook:
 - name: Link towards a FAIRCOOKBOOK recipe
   url: https://fairplus.github.io/
