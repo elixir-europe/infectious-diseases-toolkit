@@ -102,7 +102,7 @@ defaults:
 
   -
     scope:
-      path: "TEMPLATE-page.md"
+      path: "national-resources/TEMPLATE_resources.md"
       type: "pages"
     values:
       sitemap: false
