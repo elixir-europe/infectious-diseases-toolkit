@@ -1,5 +1,4 @@
 ---
-
 title: <!---REPLACE THIS with full country name in English--->
 search_exclude: true
 country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
@@ -11,18 +10,9 @@ related_pages:
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
 
 training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
-  - name: ELIXIR NODENAME community in Zenodo
-    registry: Zenodo
-    url: <!--- https://zenodo.org/communities/elixir NODENAME --->
-  - name: ELIXIR NODENAME YouTube
-    registry: YouTube
-    url: <!--- URL of the channel --->
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
+  - name: 
+    registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
+    url:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
@@ -48,6 +38,33 @@ national_resources:
       tess: <!--- DELETE ME if not needed --->
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
+
+<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style_guide when writing the content of this page. -->
+
 <!---All the resources added above will appear on the table at the bottom of the page--->
+
 <!---Following information for the page text--->
 <!---If the information is already in another resource, please include the link instead of duplicating information--->
+<!---Please focus on resources that are relevant for the whole country for infectious diseases--->
+
+## Introduction 
+<!---General Infectious diseases data considerations for your country--->
+
+## Health authorities
+<!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
+
+## Disease surveillance initiatives
+
+## Dashboards and visualization platforms
+
+## National data sources
+<!--- A section to list and provide context to national data sources. Data source as defined in BY-COVID --->
+
+## Regulations
+<!--- Ethical and legal regulations in the country, committees etc --->
+
+## Domain-specific infrastructures or resources 
+<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
+
+<!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
+
