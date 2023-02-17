@@ -96,6 +96,8 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
+Mention existing appreaches related to the topic.
+
 ## Existing data sources
 
 Using bullet point list style as much as possible, describe when, why and for what purpose a specific data source should be used.
