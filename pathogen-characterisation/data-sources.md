@@ -31,7 +31,7 @@ New content is announced on the [home page](/) and [news page](/about/news), so 
 
 ## Introduction
 
-## What is pathogen caracterization data, and why is it important for infectious diseases research?
+## What is pathogen characterisation data, and why is it important for infectious diseases research?
 
 ## Topic 1 
 
