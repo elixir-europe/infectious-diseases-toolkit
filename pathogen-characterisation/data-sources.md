@@ -47,6 +47,8 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
+Mention existing appreaches related to the topic.
+
 ## Topic 2 
 
 <!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
@@ -60,6 +62,8 @@ Using a bullet point style list format as much as possible, describe the conside
 Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. 
 
 ### Existing approaches
+
+Mention existing appreaches related to the topic.
 
 ## Standards, schemas, ontologies and vocabularies 
 
@@ -75,6 +79,8 @@ Using a bullet point style list format as much as possible, describe the conside
 Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. 
 
 ### Existing approaches
+
+Mention existing appreaches related to the topic.
 
 Mention existing appreaches related to the topic.
 
