@@ -1,6 +1,6 @@
 ---
 title: <!---REPLACE THIS with full country name in English--->
-search_exclude: true
+search_exclude: true #leave as “true” until the page is complete and ready to be made public
 country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 

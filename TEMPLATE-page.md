@@ -1,7 +1,7 @@
 ---
 title: <!---Page title--->
 description: <!---Short description of the page--->
-search_exclude: true
+search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
 rdmkit:
