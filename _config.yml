@@ -82,6 +82,32 @@ defaults:
     values:
       type: national_resources
 
+  -
+    scope:
+      path: "showcase/TEMPLATE-showcase.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+
+  -
+    scope:
+      path: "TEMPLATE-page.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+
+  -
+    scope:
+      path: "national-resources/TEMPLATE_resources.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
 plugins:
   - jemoji
   - jekyll-sitemap
