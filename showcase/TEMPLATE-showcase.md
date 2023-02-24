@@ -14,10 +14,10 @@ training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
     url:
-faircookbook: <!---put the name and URL of the relevant link or links to FAIR Cookbook for recipes that relate to the specific content of the showcase--->
+faircookbook:
   - name: <!---the title of the FAIR Cookbook recipe--->
     url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
-fairsharing: <!---put the name and URL of the relevant link or links to FAIR Sharing for entries that relate to the specific content of the showcase--->
+fairsharing:
   - name: <!---the title of the FAIR Sharing entry--->
     url: <!---the full URL of the FAIR Sharing entry--->
 
