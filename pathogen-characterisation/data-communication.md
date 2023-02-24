@@ -57,9 +57,9 @@ Et unde enim ea eius libero et velit veritatis est tempore tempore non quibusdam
 ### Considerations <!---This should not be replaced as these are considerations about concrete topic 1--->
 
 Hic exercitationem unde vel suscipit repudiandae hic quod laborum. Aut sunt placeat eos autem perspiciatis ut fugit rerum ea natus iste.
-* Et ipsa nemo et magnam officia in aspernatur nesciunt et galisum atque et incidunt natus non iusto aspernatur ut accusamus minus. Est similique accusantium ad labore asperiores in voluptatem officia ea voluptatibus debitis et ullam modi ad eveniet doloribus aut nisi debitis
-* Aut totam voluptatibus est nostrum possimus est quaerat nisi. Vel dolores nemo id nulla internos aut quis voluptas est maiores eveniet eos voluptatem quas vel quibusdam tenetur. Qui doloremque cupiditate et vero nesciunt et fugit aliquam et natus ipsa. 
-* Rem libero numquam sit omnis quia sit possimus aperiam ex internos maxime qui beatae repellat qui natus ratione ut molestias repellendus. Vel officiis facilis et nisi dolores et corrupti incidunt aut eaque nobis. Ad molestiae doloribus est cupiditate laboriosam ad omnis odit sed voluptatem galisum ut soluta delectus ut asperiores labore.
+* **Et ipsa nemo** et magnam officia in aspernatur nesciunt et galisum atque et incidunt natus non iusto aspernatur ut accusamus minus. Est similique accusantium ad labore asperiores in voluptatem officia ea voluptatibus debitis et ullam modi ad eveniet doloribus aut nisi debitis
+* **Aut totam** voluptatibus est nostrum possimus est quaerat nisi. Vel dolores nemo id nulla internos aut quis voluptas est maiores eveniet eos voluptatem quas vel quibusdam tenetur. Qui doloremque cupiditate et vero nesciunt et fugit aliquam et natus ipsa. 
+* **Rem libero** numquam sit omnis quia sit possimus aperiam ex internos maxime qui beatae repellat qui natus ratione ut molestias repellendus. Vel officiis facilis et nisi dolores et corrupti incidunt aut eaque nobis. Ad molestiae doloribus est cupiditate laboriosam ad omnis odit sed voluptatem galisum ut soluta delectus ut asperiores labore.
 
 ### Existing approaches
 
