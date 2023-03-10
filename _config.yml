@@ -18,6 +18,11 @@ theme_variables:
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 permalink: /:categories/:year/:month/:day/:title
 
