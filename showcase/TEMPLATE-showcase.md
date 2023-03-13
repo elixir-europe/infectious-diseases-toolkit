@@ -14,6 +14,13 @@ training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
     url:
+faircookbook:
+  - name: <!---the title of the FAIR Cookbook recipe--->
+    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
+fairsharing:
+  - name: <!---the title of the FAIR Sharing entry--->
+    url: <!---the full URL of the FAIR Sharing entry--->
+
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
