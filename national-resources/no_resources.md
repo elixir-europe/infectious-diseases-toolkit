@@ -9,7 +9,6 @@ coordinators: [Erin Calhoun, Nazeefa Fatima]
 related_pages:
   showcase: [<!---REPLACE THIS with the page_id of the showcase pages that you want to list here as related pages--->]
   
-  
- 
+## Introduction
 
 
