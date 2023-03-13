@@ -1,50 +1,46 @@
-[![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+[![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) [![Validation of the tools and page metadata](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/tool_list_conversion.yml/badge.svg)](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/tool_list_conversion.yml) [![Jekyll site CI](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/jekyll.yml/badge.svg)](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/jekyll.yml)
 
-# Infectious Diseases Toolkit
+# Infectious Diseases Toolkit (IDTk)
 
-The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub infectious-diseases-toolkit repo. Follow these steps to deploy the website based on your local clone (copy) of the jekyll-bootstrap-theme repo:
+The Infectious Diseases Toolkit (IDTk) is a community effort to expose best practices and showcase solutions to data challenges affecting the response to infectious diseases outbreaks. It was created as part of the [BY-COVID]( https://by-covid.org/) project. More information can be found in the [about](https://www.infectious-diseases-toolkit.org/about/) page.
 
-Make sure you have cloned the infectious-diseases-toolkit repo:
+## Contribute
 
-    git clone git@github.com:elixir-europe/infectious-diseases-toolkit.git
-    cd infectious-diseases-toolkit
+IDTk is an open [community](https://www.infectious-diseases-toolkit.org/about/contributors) project, and you are welcome to join us! The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://www.infectious-diseases-toolkit.org](https://www.infectious-diseases-toolkit.org)).
 
+Do you want to help with this project? Please check out following pages for more information:
 
-To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
+* [Code of Conduct](https://www.infectious-diseases-toolkit.org/CODE_OF_CONDUCT)
+* [How to contribute](https://www.infectious-diseases-toolkit.org/contribute/)
+* [Deploy the website locally](https://www.infectious-diseases-toolkit.org/contribute/working-with-git#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser)
 
-### Run using Docker
+## How to reach us
 
-If not already installed on your machine, install Docker. From the root of the ``infectious-diseases-toolkit`` directory, run:
-```
-docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll serve -w"
-```
-This will start the docker container and serve the website locally.
-
-### Run using Jekyll directly
-
-1. If not already present on your machine, install ruby. Note that incompatibility issues may arise with ruby 3.0.0 (released 25.12.20) or newer versions.
+Do you have any question, a content proposal or see a mistake?
+* Feel free to open a [GitHub issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues)
+* Or contact the editors of this project through [idtk-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
 
-1. Install Jekyll
-If you have never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-   * Install Jekyll on MacOS/Ubuntu/Other_Linux/Windows: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+## IDTk is a BY-COVID project
 
-1. Install Bundler and Jekyll
+The BeYond-COVID project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials.
 
-    ```
-    gem install jekyll bundler
-    ```
+Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone.
 
-1. Install dependencies
 
-    ```
-    bundle install
-    ```
+## License
 
-1. deploy website
+The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
 
-    ```
-    bundle exec jekyll serve
-    ```
+## How to cite the IDTk
+We have not published the story of IDTk yet. Till then, please refer to:
 
-Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+
+<div style="padding:30px;"><p><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: <a href="https://www.infectious-diseases-toolkit.org/">https://www.infectious-diseases-toolkit.org/</a>.</i></p>
+</div>
+
+The Infectious Diseases Toolkit makes all of their materials publicly available under Open Source Initiative licenses. The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. For full details on licensing, please visit our License document.
+
+## Acknowledgements
+
+The Infectious Diseases Toolkit is developed in BY-COVID that received funding from the European Union’s Horizon Europe Research and Innovation Programme under grant agreement number 101046203.It is built based on the experience and ways of working of the [RDMkit](https://rdmkit.elixir-europe.org/) and also makes use of the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/) for deployment.
