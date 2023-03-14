@@ -43,4 +43,4 @@ The Infectious Diseases Toolkit makes all of their materials publicly available 
 
 ## Acknowledgements
 
-The Infectious Diseases Toolkit is developed in BY-COVID that received funding from the European Union’s Horizon Europe Research and Innovation Programme under grant agreement number 101046203.It is built based on the experience and ways of working of the [RDMkit](https://rdmkit.elixir-europe.org/) and also makes use of the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/) for deployment.
+The IDTk is developed as part of the project BY-COVID, which received funding from the European Union’s Horizon Europe Research and Innovation Programme (grant number: 101046203). It is built based on experience and ways of working from the [RDMkit](https://rdmkit.elixir-europe.org/), and makes use of the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/) for deployment.
