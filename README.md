@@ -28,7 +28,7 @@ The BY-COVID project aims to make COVID-19 data accessible not only to researche
 Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone.
 
 
-## License
+## Licence
 
 The documents and data from the IDTk are made available under a CC-BY licence. Software are made available under an MIT license. More information about our licence can be found on our [licence](LICENSE) page.
 
