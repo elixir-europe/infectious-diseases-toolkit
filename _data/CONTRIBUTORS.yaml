@@ -96,3 +96,21 @@ Martin Cook:
     email: martin.cook@elixir-europe.org
     role: editor
     affiliation: ELIXIR Hub
+Aina Jené Cortada:
+    git: ainajene
+    email: aina.jene@crg.eu
+    orcid: 0000-0001-7721-7097
+    role: contributor
+    affiliation: European Genome-phenome Archive (EGA) / CRG
+Marcos Casado Barbero:
+    git: M-casado
+    email: mcasado@ebi.ac.uk
+    orcid: 0000-0002-7747-6256
+    role: contributor
+    affiliation: European Genome-phenome Archive (EGA) / EMBL-EBI
+Arnau Soler Costa:
+    git: solcos
+    email: arnau.soler@crg.eu
+    orcid: 0000-0002-2853-6742
+    role: contributor
+    affiliation: European Genome-phenome Archive (EGA) / CRG
