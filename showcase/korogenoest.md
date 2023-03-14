@@ -21,9 +21,8 @@ Sequencing initiatives in Estonia began in September 2020. The KoroGeno-EST-3 an
 This showcase provides a high-level overview of the full workflow that was used to monitor the SARS-CoV-2 situation in Estonia by sequencing a proportion of positive PCR samples in the country. The showcase could be beneficial for a general overview but also trigger potential contact with research groups or health boards that need to set up their automatic data handling and sequencing pipelines.
 
 
-**(Illustration goes here)**
+{% include image.html file="/KoroGenoEst_graphicalabstract.jpeg" caption="The figure illustrates major analysis steps carried out in Estonia to sequence and analyse SARS-CoV-2 PCR positive samples" alt="In Estonia the SARS-CoV-2 sequencing was carried out in collaboration with the SYNLAB Eesti, Health Board Estonia and University of Tartu. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. The central data storage was at GitLab instance at the University of Tartu. The University of Tartu research groups merged the data, created plate information files for sequencing, collecting the sequencing results, generated custom reports, interactive dashboards and brokered data to ENA. In addition to data sequenced in Estonia, also data from ECDC was analysed in similar manner to provide accurate overview of the situation." %}
 
-**Figure caption:** The figure illustrates major analysis steps carried out in Estonia to sequence and analyse SARS-CoV-2 PCR positive samples.
 
 In Estonia the SARS-CoV-2 sequencing was carried out in collaboration with the SYNLAB Eesti, Health Board Estonia and University of Tartu. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. 
 
@@ -90,6 +89,8 @@ Out of the three different raw sequencing data uploading ways, Estonia used the 
 ## Alternative text for Galaxy ENA uploader. 
 Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as an input. Then human reads are removed from the sequence data and the raw sequences gets uploaded to ENA along with the accompanying metadata. After variation analysis and consensus sequence workflow execution also consensus sequences get uploaded to ENA.
 
+{% include image.html file="/recommended_dataflow.png" caption="An overview of SARS-CoV-2 raw reads and metadata upload steps to ENA enabled by Galaxy." alt="Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as an input. Then human reads are removed from the sequence data and the raw sequences gets uploaded to ENA along with the accompanying metadata. After variation analysis and consensus sequence workflow execution also consensus sequences get uploaded to ENA.
+" %}
 ## Figure caption for Galaxy ENA uploader. 
 An overview of SARS-CoV-2 raw reads and metadata upload steps to ENA enabled by Galaxy.
 
