@@ -86,13 +86,9 @@ To upload data to [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/
 Out of the three different raw sequencing data uploading ways, Estonia used the Galaxy-CLI instance which is a wrapper for the ENA upload tool. The wrapper is [available](https://github.com/usegalaxy-eu/ena-upload-cli) along with the [dedicated guide](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html) that was [published](https://doi.org/10.1093/bioinformatics/btab421) in 2021.
 
 
-## Alternative text for Galaxy ENA uploader. 
-Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as an input. Then human reads are removed from the sequence data and the raw sequences gets uploaded to ENA along with the accompanying metadata. After variation analysis and consensus sequence workflow execution also consensus sequences get uploaded to ENA.
-
-{% include image.html file="/recommended_dataflow.png" caption="An overview of SARS-CoV-2 raw reads and metadata upload steps to ENA enabled by Galaxy." alt="Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as an input. Then human reads are removed from the sequence data and the raw sequences gets uploaded to ENA along with the accompanying metadata. After variation analysis and consensus sequence workflow execution also consensus sequences get uploaded to ENA.
+{% include image.html file="/recommended_dataflow.png" caption="An overview of SARS-CoV-2 raw reads and metadata upload steps (a-d) to ENA enabled by Galaxy. Adapted from [A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive](https://doi.org/10.1093/bioinformatics/btab421) publication" alt="Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as an input. Then human reads are removed from the sequence data and the raw sequences gets uploaded to ENA along with the accompanying metadata. After variation analysis and consensus sequence workflow execution also consensus sequences get uploaded to ENA.
 " %}
-## Figure caption for Galaxy ENA uploader. 
-An overview of SARS-CoV-2 raw reads and metadata upload steps to ENA enabled by Galaxy.
+
 
 All the sequenced raw reads results were uploaded to the University of Tartu Galaxy instance. From there the data manager selected a batch and successfully sequenced samples into a working collection. Forward and reverse sequences were paired up and run through the workflow of dehumanisation of raw sequence reads (uses Metagen-FastQC). 
 
