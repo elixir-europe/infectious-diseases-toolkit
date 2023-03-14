@@ -15,8 +15,6 @@ page_id: korogenoest
 <!--- In this section you should provide a brief overview of the context that makes Showcase necessary. It is useful to mention the projects under which the showcase was created, the involved research infrastructures, and the disease it is meant to tackle --->
 Sequencing initiatives in Estonia began in September 2020. The KoroGeno-EST-3 and KoroGeno-EST-2022 projects took over the sequencing activities in May 2021, and their work concluded at the end of 2022. Here, we describe the workflow of samples and data employed by the [KoroGeno-EST-3 and KoroGeno-EST-2022 projects](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) .
 
-
-
 ## Who is the KoroGeno-Est showcase intended for?
 
 <!--- In this section you should provide a brief account of the target audience or intended users for the showcase --->
@@ -35,7 +33,7 @@ The central data storage was at GitLab instance at the University of Tartu. The 
 #### The aim of KoroGeno-EST
 The aim of KoroGeno-EST-3 and KoroGeno-EST-2022 (hereafter, Study) studies was to sequence and conduct molecular-epidemiology analysis for more than 15 000 SARS-CoV-2 full genomes from 1 May to 31 December 2022 in Estonia. The number of weekly sequenced strains depended directly on the epidemiological situation, including the number of newly diagnosed SARS-CoV-2 cases, as well as the need to monitor clinically, demographically, or mutationally significant strains. 
 
-Based on the sequenced samples, weekly reports were prepared for the Republic of Estonia Health Board (hereafter, Health Board (HB)) and "[European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en)". In collaboration with the HB, SARS-CoV-2 genomic data was used to analyze infection clusters to trace newly infected subjects. 
+Based on the sequenced samples, weekly reports were prepared for the [Republic of Estonia Health Board](https://www.terviseamet.ee/en) (hereafter, Health Board (HB)) and "[European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en)". In collaboration with the HB, SARS-CoV-2 genomic data was used to analyze infection clusters to trace newly infected subjects. 
 
 In addition, the study identified the prevalence of variants associated with higher pathogenicity or infectiousness or corresponding mutations. Based on these data, authorities got a better overview of circulating SARS-CoV-2 strains as well as imported cases. In general, the current study made a significant contribution to the governmental decision-making process and helped more efficiently suppress the spread of the COVID-19 epidemic.
 
@@ -47,7 +45,9 @@ Throughout most of the pandemic, SYNLAB Eesti testing sites in Estonia provided 
 Initially, at the beginning of the pandemic, all persons testing positive were contacted by the Health Board authorities and asked to provide details of their recent travels, family and work situation, in addition to more standard metadata of age, gender and place of living. This type of data collection was ongoing till spring 2022, after which only more general metadata was collected (gender, age, county). Once vaccination was made available to the public in spring 2021, also vaccination information was obtained first from the people themselves, and later data was systematically obtained from the [Health and Welfare Information Systems Centre](https://www.tehik.ee). In addition hospitalisation information was provided by the Health Board.
 
 #### PCR testing
-The laboratory of  SYNLAB Eesti carried out PCR testing. They captured Ct values and  particular mutation sites such as (Y453F) for all positively tested samples. The social security codes that uniquely identify a person in Estonia were shared with the Health Board, who together with the virology experts from the University of Tartu chose samples for sequencing. In general, the samples were carefully selected to ensure representation of the Estonian demographic and geographic subgroups, with additional samples taken from outbreaks that occurred at hospitals, elderly homes or work places. The data at individual level was linked at the Health Board and sample IDs from SySYNLAB Eesti lab and the matching metadata IDs were created. Both the Health Board and SYNLAB Eesti uploaded the data about the samples to an access restricted Gitlab repository.  
+The laboratory of  SYNLAB Eesti carried out PCR testing. They captured Ct values and  particular mutation sites such as (Y453F) for all positively tested samples. The social security codes that uniquely identify a person in Estonia were shared with the Health Board, who together with the virology experts from the University of Tartu chose samples for sequencing. 
+
+In general, the samples were carefully selected to ensure representation of the Estonian demographic and geographic subgroups, with additional samples taken from outbreaks that occurred at hospitals, elderly homes or work places. The data at individual level was linked at the Health Board and sample IDs from SySYNLAB Eesti lab and the matching metadata IDs were created. Both the Health Board and SYNLAB Eesti uploaded the data about the samples to an access restricted Gitlab repository.  
 
 In addition to sequencing carried out in Estonia, samples were also sent to ECDC. The metadata for these samples followed the same pipeline as above. But the sequences were downloaded from dedicated ECDC websites and bioinformatically processed the same manner as the samples sequenced in Estonia.
 
@@ -61,7 +61,9 @@ The samples moved from SYNLAB Eesti and hospitals laboratories directly to the U
 
 The sequencing was carried out using [Arctic3](https://www.protocols.io/view/covid-19-artic-v3-illumina-library-construction-an-j8nlke665l5r/v5) and later [Arctic4](https://www.protocols.io/view/covid-19-artic-v4-1-illumina-library-construction-j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://www.protocols.io/view/nebnext-artic-protocols-collection-rm7vz3rxrgx1/v1T) protocols were tested out. 
 
-The raw sequences were initially analysed by the Illumina Dragen pipeline but was moved soon to the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hosted by the [ETAIS](https://etais.ee/) at the [University of Tartu HPC](https://hpc.ut.ee/). All the identified information on the samples was automatically fetched from the dedicated Galaxy address to the Gitlab repository and merged with the rest of the metadata about the samples.
+The raw sequences were initially analysed by the Illumina Dragen pipeline but was moved soon to the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  
+
+The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hosted by the [ETAIS](https://etais.ee/) at the [University of Tartu HPC](https://hpc.ut.ee/). All the identified information on the samples was automatically fetched from the dedicated Galaxy address to the Gitlab repository and merged with the rest of the metadata about the samples.
 
 ### Generating custom reports
 
@@ -70,7 +72,11 @@ Based on the report templates provided by the ECDC, reports were filled in autom
 ### Dashboards
 
 #### Description of the closed dashboard
-The data table of all the samples was made available at the access restricted website for the Health Board employees and project participants to provide epidemiological and virological consultations. The database included all metadata provided for the samples, sequencing outcomes and was interactive providing filtering and sorting among other customisation options. In addition data could be downloaded for further custom analysis. The closed website of the project dashboard included also different interactive plots that allowed the users to pick the variables to be plotted (e.g. Ct values against vaccination status, county against lineages), but also lineage overview where individual lineages could be included or dismissed, time frame to be selected. In addition,  for each sequenced plate mutation plots and Ct value plots were implemented to carry out visual inspection as part of the quality control of the sequencing outcomes. In all the dashboards, users could select if they wanted to include data only sequenced in Estonia, by ECDC or both. 
+The data table of all the samples was made available at the access restricted website for the Health Board employees and project participants to provide epidemiological and virological consultations. 
+
+The database included all metadata provided for the samples, sequencing outcomes and was interactive providing filtering and sorting among other customisation options. In addition data could be downloaded for further custom analysis. The closed website of the project dashboard included also different interactive plots that allowed the users to pick the variables to be plotted (e.g. Ct values against vaccination status, county against lineages), but also lineage overview where individual lineages could be included or dismissed, time frame to be selected. 
+
+In addition, for each sequenced plate mutation plots and Ct value plots were implemented to carry out visual inspection as part of the quality control of the sequencing outcomes. In all the dashboards, users could select if they wanted to include data only sequenced in Estonia, by ECDC or both. 
 
 #### Public dashboards
 In addition to the access restricted dashboards, public data on the clades, percentage of all positive samples in Estonia been sequenced and clade distribution across counties, regions and age groups were made available and regularly updated at the [Estonian COVID19Dataportal](https://covid19dataportal.ee/genomics_transcriptomics/).  In order to illustrate the virus evolution a public [Nextstrain Auspiece](https://auspice.biit.cs.ut.ee/ncov/est) instance was set up. In regular time intervals, all samples were rerun to obtain the latest lineage annotations.
@@ -88,9 +94,9 @@ Galaxy ENA uploader takes raw reads as fastq files and metadata spreadsheet as a
 ### Figure caption for Galaxy ENA uploader. 
 An overview of SARS-CoV-2 raw reads and metadata upload steps to ENA enabled by Galaxy.
 
-All the sequenced raw reads results were uploaded to the University of Tartu Galaxy instance. From there the data manager selects a batch and successfully sequenced samples into a working collection. Forward and reverse sequences are paired up and run through the workflow of dehumanisation of raw sequence reads (uses Metagen-FastQC). 
+All the sequenced raw reads results were uploaded to the University of Tartu Galaxy instance. From there the data manager selected a batch and successfully sequenced samples into a working collection. Forward and reverse sequences were paired up and run through the workflow of dehumanisation of raw sequence reads (uses Metagen-FastQC). 
 
-In Galaxy ENA uploader we marked the metadata checklist (ERC000033) and uploaded the filled-out template. From there we selected the runs input format from a paired collection (that is human sequence free) and added an affiliation center and run the ENA upload tool.
+In Galaxy ENA uploader metadata checklist (ERC000033) was marked and the filled-out template. The runs input format was selected from a paired collection (that was human sequence free), an affiliation center was added, and the ENA upload tool was run.
 
 As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded to ENA. The majority were sequenced during the KoroGeno-EST studies (14 251), complemented by 9978 successfully sequenced samples from ECDC. 
 
@@ -106,16 +112,16 @@ The KoroGeno-EST studies were conducted in cooperation with the University of Ta
 
 ### External links to resources relevant to the KoroGeno-Est showcase
 
-[Estonian Covid19Dataportal](https://covid19dataportal.ee/en/) 
-[Overview of the SARS-CoV-2 projects (in Estonian)](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) 
-[Information on how to register a study to ENA](https://ena-docs.readthedocs.io/en/latest/submit/study.html)
- [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) 
-[ENA metadata templates](https://github.com/ELIXIR-Belgium/ENA-metadata-templates) 
-[Galaxy wrapper for the ENA upload tool](https://github.com/usegalaxy-eu/ena-upload-cli) 
-[Submission of SARS-Cov-2 raw reads to ENA in Galaxy](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)
-[General Guide On ENA Data Submission by ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
-[European Nucleotide Archive Quick tour by EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/)
-[Example metadata template ERC000033](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx )
+- [Estonian Covid19Dataportal](https://covid19dataportal.ee/en/) 
+- [Overview of the SARS-CoV-2 projects (in Estonian)](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) 
+[- Information on how to register a study to ENA](https://ena-docs.readthedocs.io/en/latest/submit/study.html)
+- [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) 
+- [ENA metadata templates](https://github.com/ELIXIR-Belgium/ENA-metadata-templates) 
+- [Galaxy wrapper for the ENA upload tool](https://github.com/usegalaxy-eu/ena-upload-cli) 
+- [Submission of SARS-Cov-2 raw reads to ENA in Galaxy](https://rdm.elixir-belgium.org/covid-19/sarscov2_submission.html)
+- [General Guide On ENA Data Submission by ENA](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
+- [European Nucleotide Archive Quick tour by EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/)
+- [Example metadata template ERC000033](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx )
 
 
 <!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
