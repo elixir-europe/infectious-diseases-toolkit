@@ -2,7 +2,7 @@
 
 # Infectious Diseases Toolkit (IDTk)
 
-The Infectious Diseases Toolkit (IDTk) is a community effort to expose best practices and showcase solutions to data challenges affecting the response to infectious diseases outbreaks. It was created as part of the [BY-COVID]( https://by-covid.org/) project. More information can be found in the [about](https://www.infectious-diseases-toolkit.org/about/) page.
+The Infectious Diseases Toolkit (IDTk) is a community effort to detail best practices related to infectious disease data management, and showcase solutions that were developed to deal with outbreaks. It was created as part of the [BeYond COVID (BY-COVID) project]( https://by-covid.org/). More information can be found in the [about](https://www.infectious-diseases-toolkit.org/about/) page.
 
 ## Contribute
 
