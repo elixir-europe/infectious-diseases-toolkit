@@ -30,7 +30,7 @@ Going beyond SARS-CoV-2 data, the project will provide a framework for making da
 
 ## License
 
-The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
+The documents and data from the IDTk are made available under a CC-BY licence. Software are made available under an MIT license. More information about our licence can be found on our [licence](LICENSE) page.
 
 ## How to cite the IDTk
 We have not published the story of IDTk yet. Till then, please refer to:
