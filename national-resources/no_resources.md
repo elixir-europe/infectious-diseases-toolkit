@@ -1,6 +1,7 @@
 ---
 title: Norway
 country_code: "NO"
+search_exclude: true <!---leave as “true” until page is ready to be made public--->
 contributors: [Erin Calhoun, Nazeefa Fatima]
 coordinators: [Erin Calhoun, Nazeefa Fatima]
 # Link to other pages in the showcase section on the IDTk by listing the page_id.
