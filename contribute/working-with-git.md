@@ -19,8 +19,8 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
     ```
     git remote add upstream https://github.com/elixir-europe/infectious-diseases-toolkit.git
     git fetch upstream
-    git checkout master (if you are not already on the master branch, check with `git branch`)
-    git pull upstream master
+    git checkout main (if you are not already on the main branch, check with `git branch`)
+    git pull upstream main
     ```
 - Create a new branch named after your feature/edit.
     ```
