@@ -90,11 +90,17 @@ subitems:
     image_url: /assets/img/section-icons/network-wired-thin.svg
     url: /showcase/
     description: Applied examples of handling infectious disease data
+    subitems:
+      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
+        url: /korogenoest
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-thin.svg
     url: /national-resources/
     description: Country specific examples
+    subitems:
+      - title: Sweden
+        url: /Sweden
 
   - title: Tools and resources list
     hr: true
