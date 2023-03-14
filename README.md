@@ -23,7 +23,7 @@ Do you have any question, a content proposal or see a mistake?
 
 ## IDTk is a BY-COVID project
 
-The BeYond-COVID project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials.
+The BY-COVID project aims to make COVID-19 data accessible not only to researchers, but to anyone that to anyone that could benefit from it, such as policy makers or hospital staff.
 
 Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone.
 
