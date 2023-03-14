@@ -18,7 +18,7 @@ Do you want to help with this project? Please check out following pages for more
 
 Do you have any question, a content proposal or see a mistake?
 * Feel free to open a [GitHub issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues)
-* Or contact the editors of this project through [idtk-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
+* Or email the IDTk editors at [idtk-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
 
 ## IDTk is a BY-COVID project
