@@ -11,3 +11,22 @@ The Infectious Diseases Toolkit is built based on the experience and ways of wor
 Additionally we thank the funders that supported some of our contributors.
 
 {% include affiliation-tiles-selection.html type="funder"%}
+
+## Infrastructures
+
+We thank these infrastructures for their efforts:
+
+{% include affiliation-tiles-selection.html type="infrastructure"%}
+
+
+## Institutions
+
+We thank these institutions for their contribution.
+
+{% include affiliation-tiles-selection.html type="institution"%}
+
+## Projects
+
+We thank these projects for their efforts:
+
+{% include affiliation-tiles-selection.html type="project"%}
