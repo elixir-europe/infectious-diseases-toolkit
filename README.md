@@ -33,7 +33,7 @@ Going beyond SARS-CoV-2 data, the project will provide a framework for making da
 The documents and data from the IDTk are made available under a CC-BY licence. Software are made available under an MIT license. More information about our licence can be found on our [licence](LICENSE) page.
 
 ## How to cite the IDTk
-We have not published the story of IDTk yet. Till then, please refer to:
+We have not published the story of IDTk yet. Until then, please refer to:
 
 
 <div style="padding:30px;"><p><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: <a href="https://www.infectious-diseases-toolkit.org/">https://www.infectious-diseases-toolkit.org/</a>.</i></p>
