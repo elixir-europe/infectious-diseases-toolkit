@@ -7,6 +7,7 @@
     tess: Galaxy
   related_pages:
   - hchd_provenance
+  - pc_data_communication
   url: https://galaxyproject.org
 - description: An open standard for describing workflows that are build from command
     line tools
@@ -16,6 +17,7 @@
     tess: 'Common Workflow Language (CWL) '
   related_pages:
   - hchd_provenance
+  - pc_data_communication
   url: https://www.commonwl.org/
 - description: Snakemake is a framework for data analysis workflow execution
   name: Snakemake
@@ -24,6 +26,7 @@
     tess: Snakemake
   related_pages:
   - hchd_provenance
+  - pc_data_communication
   url: https://snakemake.readthedocs.io/en/stable/
 - description: Container-native workflow manager for hybrid infrastructures
   name: StreamFlow
