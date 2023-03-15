@@ -6,13 +6,14 @@ The Infectious Diseases Toolkit (IDTk) is a community effort to detail best prac
 
 ## Contribute
 
-IDTk is an open [community](https://www.infectious-diseases-toolkit.org/about/contributors) project, and you are welcome to join us! The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://www.infectious-diseases-toolkit.org](https://www.infectious-diseases-toolkit.org)).
-
-Do you want to help with this project? Please check out following pages for more information:
+IDTk is an open [community](https://www.infectious-diseases-toolkit.org/about/contributors) project and if you'd like to help with this project, please check out the following pages for more information:
 
 * [Code of Conduct](https://www.infectious-diseases-toolkit.org/CODE_OF_CONDUCT)
 * [How to contribute](https://www.infectious-diseases-toolkit.org/contribute/)
 * [Deploy the website locally](https://www.infectious-diseases-toolkit.org/contribute/working-with-git#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser)
+
+ The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://www.infectious-diseases-toolkit.org](https://www.infectious-diseases-toolkit.org)). However, there are multiple [ways to contribute](https://elixir-belgium.github.io/infectious-diseases-toolkit-sandbox/contribute/#ways-of-contributing), and it is not a requirement that you are able to use these systems in order to contribute!
+
 
 ## How to reach us
 
