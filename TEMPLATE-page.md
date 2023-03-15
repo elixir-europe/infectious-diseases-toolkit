@@ -4,9 +4,6 @@ description: <!---Short description of the page--->
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
-rdmkit:
-  - name: <!---the title of the RDMkit page--->
-    url: <!---the full URL of the RDMkit page--->
 related_pages: 
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
   human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
@@ -17,6 +14,16 @@ training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
     url:
+rdmkit:
+  - name: <!---the title of the RDMkit page--->
+    url: <!---the full URL of the RDMkit page--->
+faircookbook:
+  - name: <!---the title of the FAIR Cookbook recipe--->
+    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
+fairsharing:
+  - name: <!---the title of the FAIR Sharing entry--->
+    url: <!---the full URL of the FAIR Sharing entry--->
+
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
