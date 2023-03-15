@@ -45,6 +45,7 @@ defaults:
       type: "pages"
     values:
       sidebar: contribute
+      search_exclude: true
   -
     scope:
       path: "pathogen-characterisation"
