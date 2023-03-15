@@ -1,6 +1,5 @@
 ---
 title: Sweden
-search_exclude: true <!---leave as “true” until page is ready to be made public--->
 country_code: SE
 contributors: [Anna Asklöf, Katarina Öjefors Stark, Liane Hughes] 
 coordinators: [Liane Hughes]
