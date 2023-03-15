@@ -17,7 +17,7 @@ IDTk is an open [community](https://www.infectious-diseases-toolkit.org/about/co
 
 ## How to reach us
 
-Do you have any question, a content proposal or see a mistake?
+**Have a suggestion or spotted an error?**
 * Feel free to open a [GitHub issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues)
 * Or email the IDTk editors at [idtk-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
