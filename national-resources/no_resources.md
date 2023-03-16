@@ -62,7 +62,7 @@ national_resources:
   - name: Folkehelseinstituttet (FHI)
     description: Norwegian Institute of Public Health (NIPH) portal for infectious disease information
     how_to_access: Open Access
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
