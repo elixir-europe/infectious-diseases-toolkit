@@ -6,7 +6,7 @@ coordinators: [Erin Calhoun, Nazeefa Fatima]
 # Link to other pages in the showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website-overview 
 related_pages:
-  showcase: [<!---REPLACE THIS with the page_id of the showcase pages that you want to list here as related pages--->]
+  showcase:
 
 # List the training resources produced by the  specific country in the following spreadsheet:
 training:
@@ -50,11 +50,11 @@ national_resources:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data: 
+        human_clinical_and_health_data: 
+        socioeconomic_data:
+        pathogen_characterisation: 
+        showcase: 
     url: https://covid19.sfb.uit.no/
     registry:
       fairsharing: 10.25504/FAIRsharing.668458
@@ -65,11 +65,11 @@ national_resources:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data: 
+        socioeconomic_data:
+        pathogen_characterisation: 
+        showcase:
     url: https://www.fhi.no/en/id/infectious-diseases/
     registry:
 
@@ -79,11 +79,11 @@ national_resources:
     instance_of: The European Genome-phenome Archive (EGA)
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://ega.elixir.no/
     registry: 
 
@@ -93,11 +93,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://rdmkit.elixir-europe.org/no_resources
     registry:
 
@@ -107,11 +107,11 @@ national_resources:
     instance_of: Galaxy
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://usegalaxy.no/
     registry:
       tess: https://tess.elixir-europe.org/materials/using-the-norwegian-e-infrastructure-for-life-science-and-usegalaxy-no 
@@ -122,11 +122,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://www.uio.no/english/services/it/research/sensitive-data/index.html
     registry:
 
@@ -136,11 +136,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://rdmkit.elixir-europe.org/tsd_assembly
     registry:
       tess: https://tess.elixir-europe.org/materials/data-management-planning-workshop-for-new-life-science-projects
@@ -151,11 +151,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://nels.bioinfo.no
     registry:
       biotools: biotools:nels
@@ -166,11 +166,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://rdmkit.elixir-europe.org/nels_assembly
     registry:
       tess: https://tess.elixir-europe.org/materials/data-management-planning-workshop-for-new-life-science-projects
@@ -181,11 +181,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://www.helsedirektoratet.no/
     registry:
 
@@ -195,11 +195,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://msis.no/
     registry:
 
@@ -209,11 +209,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://ehealthresearch.no/
     registry:
 
@@ -223,11 +223,11 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+        human_biomolecular_data:
+        human_clinical_and_health_data:
+        socioeconomic_data:
+        pathogen_characterisation:
+        showcase:
     url: https://feide.no
     registry:
 
