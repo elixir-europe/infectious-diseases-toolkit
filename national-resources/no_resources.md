@@ -332,6 +332,6 @@ There are national research projects focused towards pathogenomics to help impro
 In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
 * [OneHealth](https://www.fhi.no/en/id/infectious-diseases/smitte-fra-mat-vann-og-dyr/flere-artikler/the-largest-ever-health-project-funded-from-the-eus-horizon-2020/)
 * [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/)
-* Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022))](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
+* Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
-* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of The Nordic Joint Committee for Agricultural and Food Research
+* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research
