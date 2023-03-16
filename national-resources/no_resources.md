@@ -45,7 +45,6 @@ training:
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 
 national_resources: 
-national_resources: 
   - name: SARS-CoV-2 Database
     description: Norwegian SARS-CoV-2 database
     how_to_access: Open for everyone
@@ -238,7 +237,6 @@ national_resources:
 This page discusses infectious disease research in Norway and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control. While the primary target audience is the scientific community in Norway, you will also find open-access resources (e.g. on Research Data Management (RDM) topics) that could be useful for the wider community.
 
 ## Health Authorities in Norway
-## Health Authorities in Norway
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
 The [Norwegian Directorate of Health](https://www.helsedirektoratet.no/english) (Helsedirektoratet) and the [Norwegian Institute of Public Health](https://www.fhi.no/en/) (Folkehelseinstituttet, referred to as FHI from here onwards) work jointly to provide an effective and coordinated effort towards the prevention and control of infectious diseases. The agencies also ensure that public health data is collected, stored, and shared in compliance with applicable laws and regulations.
 
@@ -247,7 +245,7 @@ The Directorate of Health monitors public health issues to develop national guid
 The FHI advises health authorities on public health issues, including disease prevention, outbreak control, and preparedness for national health emergencies. The institute works with the Directorate of Health to develop vaccination programs, guide infection control measures, and support healthcare providers and related institutions. The [Division of Infection Control](https://www.fhi.no/en/about/this-is-the-norwegian-institute-of-public-health/divisions/infection-control-environmental-health/) within FHI supports infectious disease research, monitors infectious disease outbreaks, and analyses data related to these outbreaks. During the recent pandemic, FHI published a [handbook for medical researchers](https://www.fhi.no/nettpub/overvaking-vurdering-og-handtering-av-covid-19-epidemien-i-kommunen/) to understand the handling of SARS-CoV-2 variants data.
 
 Several governmental organisations collaborate with FHI to monitor pathogenic data and support surveillance initiatives:
-* [The Norwegian Environment Agency](https://www.environmentagency.no) ([Miljødirektoratet](https://www.miljodirektoratet.no)) oversees detection of pathogens in wastewater and tracks occurrences of antimicrobial resistance (AMR) in natural areas and wild species.
+* [The Norwegian Environment Agency](https://www.environmentagency.no) [[Miljødirektoratet](https://www.miljodirektoratet.no)) oversees detection of pathogens in wastewater and tracks occurrences of antimicrobial resistance (AMR) in natural areas and wild species.
 * [The Norwegian Food Safety Authority](https://www.mattilsynet.no/language/english/) (Mattilsynet) works towards ensuring the safety of food and drinking water in Norway.
 * [The Norwegian Medicines Agency](https://legemiddelverket.no/English) (Legemiddelverket) regulates and supervises medicine, medical devices, and clinical trials in Norway.
 In addition to the national-level health authorities and agencies, there are regional/municipality-level efforts taking place across hospitals in Norway to combat infectious diseases:
@@ -256,27 +254,27 @@ In addition to the national-level health authorities and agencies, there are reg
 
 ## Disease surveillance initiatives
 ### Projects
-The FHI maintains a [wastewater monitoring project](https://www.fhi.no/cristin-prosjekter/aktiv/avlopsovervaking-sars-cov-2/) to better understand the spread of SARS-CoV-2 variants. The institute provides the latest results on their [Results from wastewater surveillance](https://www.fhi.no/en/hn/statistics/overvaking-smittsomme-sykdommer-i-avlopsvann/results-from-wastewater-surveillance/) page.
+The FHI maintains a [wastewater monitoring project](https://www.fhi.no/cristin-prosjekter/aktiv/avlopsovervaking-sars-cov-2/) to better understand the spread of SARS-CoV-2 variants, and provides the latest [results from wastewater surveillance](https://www.fhi.no/en/hn/statistics/overvaking-smittsomme-sykdommer-i-avlopsvann/results-from-wastewater-surveillance/) page.
 
-FHI plans to consolidate their Health Emergency Preparedness and Response (HERA) and microbial whole genome sequencing analysis initiatives in a [project to enhance microbial surveillance and preparedness](https://app.cristin.no/projects/show.jsf?id=2571637) (2022-25).
+FHI plans to consolidate their Health Emergency Preparedness and Response (HERA) and microbial whole-genome sequencing analysis initiatives in a [project to enhance microbial surveillance and preparedness](https://app.cristin.no/projects/show.jsf?id=2571637) (2022-25).
 
 You will find information on other surveillance systems and databases under the sections [Dashboards and visualisation platforms](https://www.infectious-diseases-toolkit.org/national-resources/norway#disease-surveillance-initiatives) and [National data sources](https://www.infectious-diseases-toolkit.org/national-resources/norway#national-data-sources)
 
 ### Reports
-* [Weekly reports](https://www.fhi.no/en/publ/2020/weekly-reports-for-coronavirus-og-covid-19/) for COVID-19, influensa, and other respiratory tract infections
-* [National Strategy against Antibiotic Resistance 2015-2020](https://www.regjeringen.no/contentassets/5eaf66ac392143b3b2054aed90b85210/antibiotic-resistance-engelsk-lavopploslig-versjon-for-nett-10-09-15.pdf)
+* [Weekly reports](https://www.fhi.no/en/publ/2020/weekly-reports-for-coronavirus-og-covid-19/) for COVID-19, influenza, and other respiratory tract infections
+* [National Strategy against Antibiotic Resistance 2015-2020](https://www.regjeringen.no/contentassets/5eaf66ac392143b3b2054aed90b85210/antibiotic-resistance-engelsk-lavopploslig-versjon-for-nett-10-09-15.pdf) (in PDF).
 * The renewed (2020) [Norwegian National Strategy against Antimicrobial Resistance](https://doi.org/10.3390%2Fantibiotics9090622)
 * [Overview of Norwegian Environment Agency reports on antimicrobial resistance in nature](https://www.miljodirektoratet.no/aktuelt/nyheter/2018/mars-2018/har-kartlagt-antibiotikaresistens-i-norsk-natur/) (in Norwegian)
-* The latest (2021) [NORM/NORM-VET report](https://unn.no/Documents/Kompetansetjenester,%20-sentre%20og%20fagr%C3%A5d/NORM%20-%20Norsk%20overv%C3%A5kingssystem%20for%20antibiotikaresistens%20hos%20mikrober/Rapporter/NORM%20NORM-VET%202021.pdf) on antimicrobial use and resistance in Norway
+* The [NORM/NORM-VET report on antimicrobial use and resistance in Norway (2012)](https://unn.no/Documents/Kompetansetjenester,%20-sentre%20og%20fagr%C3%A5d/NORM%20-%20Norsk%20overv%C3%A5kingssystem%20for%20antibiotikaresistens%20hos%20mikrober/Rapporter/NORM%20NORM-VET%202021.pdf) (in PDF).
 
 ## Dashboards and visualization platforms
-Several national registries, involved in tracking infectious disease cases, have their own dashboards for viewing data. All these platforms are available in Norwegian only.
+Several national registries, involved in tracking infectious disease cases, have their own dashboards for viewing data. All these platforms are available in Norwegian only:
 
-Norwegian Immunisation Registry (SYSVAK) for [COVID-19](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=COVID_19&fordeltPaa=maaned) and [influensa](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=INFLUENSA&fordeltPaa=maaned) vaccinations.
+* Norwegian Immunisation Registry (SYSVAK) for [COVID-19](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=COVID_19&fordeltPaa=maaned) and [influensa](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=INFLUENSA&fordeltPaa=maaned) vaccinations.
 
-[Norwegian Surveillance System for Communicable Diseases (MSIS)](https://statistikk.fhi.no/msis/sykdomshendelser?etter=diagnose&fordeltPaa=maaned) shows registered cases of infectious diseases in Norway by month, year, age, region, and more. The data is also available in [table format](https://msis.no/).
+* [Norwegian Surveillance System for Communicable Diseases (MSIS)](https://statistikk.fhi.no/msis/sykdomshendelser?etter=diagnose&fordeltPaa=maaned) shows registered cases of infectious diseases in Norway by month, year, age, region, and more. The data is also available in [table format](https://msis.no/).
 
-[Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM) atlas](https://norm-atlas.no/) visualizes NORM database entries over time, divided by regions.
+* [Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM) atlas](https://norm-atlas.no/) visualizes NORM database entries over time, divided by regions.
 
 ## National data sources
 <!--- A section to list and provide context to national data sources. In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
