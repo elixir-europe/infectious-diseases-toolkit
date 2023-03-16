@@ -329,7 +329,9 @@ There are national research projects focused towards pathogenomics to help impro
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
 * [Centre for Epidemic Interventions Research, CEIR](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
 
-In addition to national and municipality-level efforts, Norway is also actively involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
+In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
 * [OneHealth](https://www.fhi.no/en/id/infectious-diseases/smitte-fra-mat-vann-og-dyr/flere-artikler/the-largest-ever-health-project-funded-from-the-eus-horizon-2020/)
-* Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022))](https://www.mdpi.com/2079-6382/11/8/1050)
+* [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/)
+* Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022))](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
+* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of The Nordic Joint Committee for Agricultural and Food Research
