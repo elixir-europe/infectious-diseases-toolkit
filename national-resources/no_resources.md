@@ -327,7 +327,7 @@ There are national research projects focused towards pathogenomics to help impro
 
 ### Institutional initiatives on epidemic/pandemic research
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
-* [Centre for Epidemic Interventions Research, CEIR](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
+* [Centre for Epidemic Interventions Research (CEIR)](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
 
 In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
 * [OneHealth](https://www.fhi.no/en/id/infectious-diseases/smitte-fra-mat-vann-og-dyr/flere-artikler/the-largest-ever-health-project-funded-from-the-eus-horizon-2020/)
