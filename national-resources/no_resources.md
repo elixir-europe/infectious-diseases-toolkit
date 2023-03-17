@@ -6,7 +6,7 @@ coordinators: [Erin Calhoun, Nazeefa Fatima]
 # Link to other pages in the showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website-overview 
 related_pages:
-  showcase:
+  showcase: []
 
 # List the training resources produced by the  specific country in the following spreadsheet:
 training:
