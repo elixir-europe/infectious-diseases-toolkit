@@ -114,7 +114,7 @@ national_resources:
         showcase:
     url: https://usegalaxy.no/
     registry:
-      tess: https://tess.elixir-europe.org/materials/using-the-norwegian-e-infrastructure-for-life-science-and-usegalaxy-no 
+      tess: https://tess.elixir-europe.org/events/using-the-norwegian-e-infrastructure-for-life-science-nels-and-usegalaxy-no
 
   - name: Tjenester for Sensitive Data (TSD)
     description: Services for sensitive data, a platform for researchers to collect, store, and analyze sensitive research data
