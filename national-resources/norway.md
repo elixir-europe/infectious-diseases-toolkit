@@ -251,13 +251,30 @@ In addition to the national-level health authorities and agencies, there are reg
 * [Norwegian National Advisory Unit on Tropical Infectious Diseases](https://helse-bergen.no/nasjonal-kompetansetjeneste-for-tropiske-infeksjonssykdommer/norwegian-national-advisory-unit-on-tropical-infectious-diseases)
 *  [The Influenza Centre: Research, Prevention, and Control of Influenza](https://www.influensasenteret.no/)
 
+Norway has four regional health authorities:
+* [Helse Nord](https://helse-nord.no/)
+* [Helse Midt-Norge](https://helse-midt.no/)
+* [Helse Vest](https://helse-vest.no/)
+* [Helse Sør-øst](https://helse-sorost.no/south-eastern-norway-regional-health-authority)
+
 ## Disease surveillance initiatives
 ### Projects
-The FHI maintains a [wastewater monitoring project](https://www.fhi.no/cristin-prosjekter/aktiv/avlopsovervaking-sars-cov-2/) to better understand the spread of SARS-CoV-2 variants, and provides the latest [results from wastewater surveillance](https://www.fhi.no/en/hn/statistics/overvaking-smittsomme-sykdommer-i-avlopsvann/results-from-wastewater-surveillance/) page.
+The European Joint Programme One Health is a research program across Europe that promotes collaborative actions on foodborne zoonoses, antimicrobial resistance, and emerging threats. FHI and the Norwegian Veterinary Institute lead or contribute to several related projects. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2498657) (2018-22)
+* [NOVA – Novel approaches for design and evaluation of cost-effective surveillance across the food chain.](https://app.cristin.no/projects/show.jsf?id=624907) (2018-2020)
+* [MATRIX: Connecting dimensions in One-Health surveillance](https://app.cristin.no/projects/show.jsf?id=2560129) (2020-2022)
+* [NORSE - Network for One Health Resistome Surveillance](https://app.cristin.no/projects/show.jsf?id=2521986) (2020-2023)
+* [CORNELIA: AMR in One Health Interfaces](https://app.cristin.no/projects/show.jsf?id=2524169) (2021-2024)
 
-FHI plans to consolidate their Health Emergency Preparedness and Response (HERA) and microbial whole-genome sequencing analysis initiatives in a [project to enhance microbial surveillance and preparedness](https://app.cristin.no/projects/show.jsf?id=2571637) (2022-25).
+FHI maintains numerous projects related to infectious diseases both nationally and internationally:
+* [Avløpsovervåking SARS-CoV-2](https://www.fhi.no/cristin-prosjekter/aktiv/avlopsovervaking-sars-cov-2/) is a wastewater monitoring project with [regularly updated results](https://www.fhi.no/en/hn/statistics/overvaking-smittsomme-sykdommer-i-avlopsvann/results-from-wastewater-surveillance/) to better understand the spread of SARS-CoV-2 variants. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2537724) (2022-2023)
+* The Norwegian influenza study (NorFlu) studies effects of influenza vaccination, illness, and treatment during pregnancy. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=560348) (2010-2025)
+* Corona-Reg studies the long-term health effects of Covid-19 and the Covid-19 pandemic on the Norwegian population. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2058809) (2020-2025)
+* Covid-19 utbrudd i Norge- Epidemiologi, bruk av helsetjenester og håndtering i primærhelsetjenesten – CONOPRI investigates handling of the Covid-19 pandemic by primary health care services. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2151826) (2020-2025)
+* Building Stronger Public Health Institutions and Systems (BIS) aims to strengthen public health in Norway and abroad. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2527375) (2021-2025)
+* Consolidation of the HERA-WGS-infrastructure and capacity building at NIPH to enhance microbial surveillance and preparedness. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2571637) (2022-2025)
+* Infeksjonssykdommers epidemiologi i Østfold analyses registry-based information on infectious diseases in Norway, especially Østfold. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=535246) (2016-2026)
 
-You will find information on other surveillance systems and databases under the sections [Dashboards and visualisation platforms](https://www.infectious-diseases-toolkit.org/national-resources/norway#disease-surveillance-initiatives) and [National data sources](https://www.infectious-diseases-toolkit.org/national-resources/norway#national-data-sources)
+You will find information on other surveillance systems and databases under the sections [Dashboards and visualisation platforms](https://www.infectious-diseases-toolkit.org/national-resources/norway#disease-surveillance-initiatives) and [National data sources](https://www.infectious-diseases-toolkit.org/national-resources/norway#national-data-sources).
 
 ### Reports
 * [Weekly reports](https://www.fhi.no/en/publ/2020/weekly-reports-for-coronavirus-og-covid-19/) for COVID-19, influenza, and other respiratory tract infections
@@ -322,15 +339,13 @@ There are national research projects focused towards pathogenomics to help impro
 * [PathoSeq](https://nofima.com/projects/pathoseq/), a project on sequencing pathogenic bacteria for food safety. More information is available on the [University of Oslo PathoSeq page](https://www.jus.uio.no/ifp/english/research/projects/nrccl/pathoseq/).
 * [Interdisciplinary Forum for Research on Antimicrobial resistance (INFRA)](https://www.med.uio.no/she/english/network/INFRA/index.html), University of Oslo
 * [The Antibiotic Centre for Primary Care](https://www.med.uio.no/helsam/english/research/groups/general-practice-medicine/asp/), University of Oslo
-* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance.
+* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=680980)
 
 ### Institutional initiatives on epidemic/pandemic research
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
 * [Centre for Epidemic Interventions Research (CEIR)](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
 
-In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
-* [OneHealth](https://www.fhi.no/en/id/infectious-diseases/smitte-fra-mat-vann-og-dyr/flere-artikler/the-largest-ever-health-project-funded-from-the-eus-horizon-2020/)
-* [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/)
+In addition to national and municipality-level efforts, Norway has also been involved in international initiatives to help address infectious disease control and contribute to research in the field.
 * Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
 * [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research
