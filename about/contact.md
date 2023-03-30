@@ -2,7 +2,7 @@
 title: Contact
 ---
 
-Thank you for your interest in the Infectious Diseases Toolkit. If you have any questions, comments, or feedback, please don't hesitate to get in touch with us.
+Thank you for your interest in the Infectious Diseases Toolkit. If you have questions, comments, or feedback, please don't hesitate to get in touch with us.
 
 ## General enquiries
 If you would like to contact the editorial team, please send an email to [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org).
