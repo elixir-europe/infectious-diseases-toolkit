@@ -47,10 +47,43 @@ national_resources:
 <!---Please focus on resources that are relevant for the whole country for infectious diseases--->
 
 ## Introduction 
-<!---General Infectious diseases data considerations for your country--->
+The responsibility for infectious disease data collection and management in Belgium is divided between several institutes and organizational layers. Belgium is a federated country, with both national and subnational health authorities which have separate responsibilities for infectious diseases. 
+
+The **National Public Health Institute (Sciensano)** is responsible for epidemiology and surveillance of infectious diseases at the national level and transmission of data to the international level (ECDC, WHO). Sciensano coordinates national epidemiological surveillance in collaboration with the **subnational Health Authorities** for Flanders, Brussels, Wallonia and the German-speaking community (see Health Authorities infra). At the subnational level, the federated health authorities are responsible for infection prevention and control. This includes the maintenance of data registries for 1) vaccination and 2) mandatory notification of infectious diseases. This leads to a fragmented system across different communities (Flanders, Wallonia, French-speakers in Brussels, and Dutch-speakers in Brussels), as described below in section ‘National data sources’.
 
 ## Health authorities
-<!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
+* **Sciensano (National Public Health Institute)** has several responsibilities for infectious diseases, split between epidemiological and microbiology directions:
+  * In terms of [epidemiology of infectious disease](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/epidemiology-infectious-diseases), Sciensano is responsible for the evaluation of epidemiology and public health impact of all infectious diseases in Belgium, including:
+    * Providing support to federal entities in case of outbreaks
+    * Transmitting infectious disease epidemiology to international institutes (e.g., ECDC, WHO) 
+    * Performing health threat detection through the risk assessment group (RAG)
+    * Making recommendations to the health authorities regarding the implementation of measures to combat and prevent infectious diseases
+  * The microbiology directions (human and veterinary) are responsible for the  development of expertise in diagnosis and sub-analyses of infectious diseases
+  * Also within Sciensano, [healthdata.be](https://healthdata.sciensano.be/) provides a technical infrastructure for the collection of registries, using a pseudonymised national registry number. The platform also facilitates automated data extraction (e.g., from clinical laboratories) and the linkage of registries. 
+
+* The **Federal Service for Public Health** maintains a registry of [minimal hospital dataset](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) for reimbursement of hospitals. It was also responsible for the hospital surge capacity management plan during the COVID-19 pandemic. The High Council of Health is a group of experts that provide advice (e.g., on vaccination and other health measures such as masks). 
+
+*  The [Risk Assessment Group (RAG)](https://covid-19.sciensano.be/fr/covid-19-informations-scientifiques) is a group with members from different disease units in Sciensano. It is responsible for continuous health threat detection and assessment in order to provide general management advice to the risk management group. Sciensano coordinates the group and invites external experts to provide input when developing risk assessments. 
+
+* The [Risk Management Group (RMG)](https://www.health.belgium.be/nl/node/37374) decides, in the event of a public health threat, the measures to reduce the risk to the Belgian population. It is composed of representatives of Belgium’s health authorities and coordinated by the National Focal Point for the International Health Regulations of the Federal Public Health Service.
+
+* **Sub-national health authorities** are responsible for infectious disease prevention and control (including vaccination):
+  * Flanders: [Vlaams Agentschap Zorg en Gezondheid](https://www.zorg-en-gezondheid.be/) (Flemish Agency for Care and Health)
+  * Brussels: [Gemeenschappelijke Gemeenschapcommissie](https://www.ccc-ggc.brussels/nl) (Common Community Commission) 
+  * Wallonia: [Agence pour une Vie de Qualité](https://plasma.aviq.be/Home/Index?ReturnUrl=PLASMA) (Agency for a Life of Quality) 
+  * German-speaking community: [Hygieneinspektion van Ministerium der Deutschspraghigen Gemeinschaft](https://ostbelgienlive.be/desktopdefault.aspx/tabid-219/753_read-968/) (Hygiene Inspection of the Ministry of the German-speaking Community) 
+
+* [RIZIV-INAMI (Institute for Disease and Disability Insurance)](https://www.riziv.fgov.be/fr/Pages/default.aspx) collects reimbursement data on treatments and diagnostics (e.g., Hep C, HIV). This data can be used for epidemiological purposes. 
+
+* The Interministerial Conference (IMC) brings together 9 Ministers of Health and has the final political decision on proposals given by health authorities. A fragmented public health mandate and policy decision-making process undermines collaborative crisis management and long-term action plans for eradication of infectious diseases. 
+
+* The [Health Care Knowledge Centre (KCE)](https://www.kce.fgov.be/en) provides scientific advice on topics related to healthcare. Topics are generally asked for by public authorities, universities etc. 
+
+* There are approximately 40 [National Reference Centres for Human Microbiology (NRCHMs)](https://www.sciensano.be/nl/nationale-referentiecentra-voor-humane-microbiologie#nrc_nrl-block_1-0) across Belgium, which are reference laboratories with increased expertise and capacity for testing of different pathogens. They usually perform secondary analyses. The network is coordinated by Sciensano. 
+
+* The [Information Security Committee](https://www.ksz-bcss.fgov.be/nl/gegevensbescherming/informatieveiligheidscomite-ivc) has specific tasks in the field of information security, including deliberations for certain types of personal data collection or use. However the ISC is not a supervisory authority under the GDPR (this role is taken by the Data Protection Authority).
+
+* A law to establish a [Health Data Agency (HDA)](https://www.lachambre.be/FLWB/PDF/55/3065/55K3065001.pdf) was approved in March 2023 by the Chamber of Representatives. The aim of the HDA is to facilitate access to health data, in particular for secondary use. 
 
 ## Disease surveillance initiatives
 
