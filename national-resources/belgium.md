@@ -7,19 +7,11 @@ contributors: [Koen Blot, Ruben Brondeel, Shona Cosgrove, Miriam Saso, Nina Van 
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
 related_pages:
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
-
-training:
-name: Master of Biomedical Sciences: Infectious and Tropical Diseases
-    registry: Other
-    url: https://www.uantwerpen.be/en/study/programmes/all-programmes/master-infectious-diseases-research/
-    
-  - name: Valentine Vaccine Symposium - University of Antwerp
-    registry: Other 
-    url: https://www.uantwerpen.be/nl/congressen/valentijn-vaccinatie-symposium/programma-2023/
-    
-  - name: SIMID Annual Course - University of Antwerp
-    registry: Other
-    url: https://www.uantwerpen.be/en/research-groups/chermid/education/simid-course/
+  
+  training:
+  - name:
+    registry:
+    url:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
