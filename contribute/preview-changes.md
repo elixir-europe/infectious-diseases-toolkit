@@ -5,7 +5,7 @@ summary: Use your own fork to preview changes on the website.
 
 ## Introduction
 
-This guide is mainly targetted to editors who have more rights than other contributors. Other contributors who want to preview their changes on their fork can skip towards the GitHub pages section right away.
+This guide is mainly targeted at editors who have more rights than other contributors. Other contributors who want to preview their changes on their fork can skip towards the GitHub pages section right away.
 
 
 ## Make changes on your fork
