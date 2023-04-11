@@ -9,15 +9,15 @@ related_pages:
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
 
 training:
-  - name: Master of Biomedical Sciences: Infectious and Tropical Diseases
+  - name: "Master of Biomedical Sciences: Infectious and Tropical Diseases"
     registry: Other
     url: https://www.uantwerpen.be/en/study/programmes/all-programmes/master-infectious-diseases-research/
     
-  - name: Valentine Vaccine Symposium - University of Antwerp
+  - name: "Valentine Vaccine Symposium - University of Antwerp"
     registry: Other 
     url: https://www.uantwerpen.be/nl/congressen/valentijn-vaccinatie-symposium/programma-2023/
     
-  - name: SIMID Annual Course - University of Antwerp
+  - name: "SIMID Annual Course - University of Antwerp"
     registry: Other
     url: https://www.uantwerpen.be/en/research-groups/chermid/education/simid-course/
 
