@@ -9,9 +9,17 @@ related_pages:
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
 
 training:
-  - name: 
-    registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
-    url:
+  - name: Master of Biomedical Sciences: Infectious and Tropical Diseases
+    registry: Other
+    url: https://www.uantwerpen.be/en/study/programmes/all-programmes/master-infectious-diseases-research/
+    
+  - name: Valentine Vaccine Symposium - University of Antwerp
+    registry: Other 
+    url: https://www.uantwerpen.be/nl/congressen/valentijn-vaccinatie-symposium/programma-2023/
+    
+  - name: SIMID Annual Course - University of Antwerp
+    registry: Other
+    url: https://www.uantwerpen.be/en/research-groups/chermid/education/simid-course/
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
@@ -19,22 +27,56 @@ ref_to_main_resources:
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc., are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
-    related_pages:
-        # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-        showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
-    url:
-    registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
+  - name: Epidemiology of Infectious Diseases (Epistat)
+    description: A web based application for visualising and exploring data on infectious diseases monitored by Sciensano.
+    how_to_access: Open access
+    url: https://epistat.sciensano.be/
+  
+  - name: COVID Epistat
+    description: Dashboard for COVID-19 epidemiological data (vaccination, laboratory testing, wastewater, variants, hospitalised patients, mortality, nursing home patients, mental health indicators, seroprevalence).
+    how_to_access: Open access
+    url: https://lookerstudio.google.com/embed/u/0/reporting/c14a5cfc-cab7-4812-848c-0369173148ab/page/ZwmOB
+      
+  - name: Sciensano R Shiny Apps
+    description: Shiny is an R package that makes it easy to build interactive web apps straight from R. At Sciensano, several Shiny Apps have been developed to process, analyse and visualise data during the COVID-19 crisis. These include the Surge App (monitoring and data quality of COVID-19 hospitalisations), Indicator App (COVID-19 indicators based on test positivity rates per province), Coverage App (coverage of clinical database on hospitalised patients), Hospital Indicators (forecasting and profile of hospitalised patients), and Quality of reporting (quality indicators of reporting by individual hospitals).
+    how_to_access: Restricted access to the specific Shiny Apps developed by Sciensano. Sciensano affiliation needed and added permission (login). 
+    instance_of: R Shiny
+    url: http://rshiny.sciensano.be/shiny/
+    
+  - name: R Markdown
+    description: Tool at Sciensano for generating weekly and daily reports. 
+    how_to_access: Restricted access to specific Sciensano affiliated people 
+      
+  - name: Sciensano LimeSurvey
+    description: Tool for online surveys. 
+    how_to_access: Sciensano affiliation needed. 
+    instance_of: LimeSurvey
+    url: https://surveys.sciensano.be/
+      
+  - name: DMPonline.be
+    description: Tool that provides templates for data management plans.
+    how_to_access: Affiliation to one of the listed institutions needed. 
+    instance_of: DMP online
+    url: https://dmponline.be/
+      
+  - name: Figures on notifiable infectious diseases
+    description: Dashboard for notifiable infectious diseases in Flanders. 
+    how_to_access: Open access
+    url: https://www.zorg-en-gezondheid.be/cijfers-over-meldingsplichtige-infectieziekten-0
+    
+  - name: Galaxy Belgium
+    description: Belgian Galaxy instance.
+    how_to_access: Open access or registered access through LifeScience Login
+    instance_of: Galaxy
+    url: https://usegalaxy.be/
+      
+  - name: ELIXIR Belgium ENA upload tool
+    description: Belgium Galaxy instance
+    how_to_access: Open access or registered access through LifeScience Login
+    instance_of: Galaxy
+    url: https://www.elixir-belgium.org/services/ena-data-submission-toolbox
+      
+      
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
