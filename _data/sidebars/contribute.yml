@@ -17,10 +17,14 @@ subitems:
     url: /contribute/copyright
   - title: Markdown cheat sheet
     url: /contribute/markdown-cheat-sheet
-  - title: Editorial board guide
-    url: /contribute/editorial-board-guide
-  - title: Editors checklist
-    url: /contribute/editors-checklist
+  - title: For editors
+    subitems:
+    - title: Editorial board guide
+      url: /contribute/editorial-board-guide
+    - title: Editors checklist
+      url: /contribute/editors-checklist
+    - title: Preview changes
+      url: /contribute/preview-changes
   - title: Page metadata
     url: /contribute/page-metadata
   - title: Code of Conduct
