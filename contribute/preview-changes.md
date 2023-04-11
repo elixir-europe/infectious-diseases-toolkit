@@ -44,7 +44,7 @@ This step is important. Make sure to commit to a new feature branch which you na
 
 ## Preview your changes using GitHub pages
 
-Go to the Settings tab of your fork -> Pages -> Deploy from branch and select the newly created branch you mad the change on. Save.
+Go to the Settings tab of your fork -> Pages -> Deploy from branch and select the newly created branch you made the change on. Save.
 After a few minutes, you can find the preview at: <https://YOURGITHUBID.github.io/infectious-diseases-toolkit>
 
 {% include image.html file="deploy_using_gh_pages.png" alt="Got to the settings tab in your repo to enable GitHub pages" %}
