@@ -10,7 +10,7 @@ This guide is mainly targeted at editors who have more rights than other contrib
 
 ## Make changes on your fork
 
-As an editor with editing rights on the IDTk, changes made by clicking on the pencil icon will be committed to a branch on the actual IDTk itself. This is not a problem in normal circumstances, but when one wants to preview his changes on his own fork, this is not wanted.
+As an editor with editing rights on the IDTk, changes made by clicking on the pencil icon will be committed to a branch on the actual IDTk itself. This is not a problem in normal circumstances, but when one wants to preview changes on one's own fork, this is not wanted.
 
 ### 1. Make sure you have forked the IDTk
 
