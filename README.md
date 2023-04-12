@@ -40,7 +40,7 @@ We have not published the story of IDTk yet. Until then, please refer to:
 <div style="padding:30px;"><p><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: <a href="https://www.infectious-diseases-toolkit.org/">https://www.infectious-diseases-toolkit.org/</a>.</i></p>
 </div>
 
-All of the material from the IDTk is made publicly available under Open Source Initiative licences. The process documents and data are made available under a CC-BY license. Software is made available under an MIT licence. For full details on licensing, please see our [licence document](link to licence).
+All of the material from the IDTk is made publicly available under Open Source Initiative licences. The process documents and data are made available under a CC-BY license. Software is made available under an MIT licence. For full details on licensing, please see our [licence document](/LICENSE).
 
 ## Acknowledgements
 
