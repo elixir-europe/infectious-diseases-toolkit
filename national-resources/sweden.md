@@ -20,7 +20,7 @@ training:
 national_resources: 
   - name: COVID-19 & Pandemic Preparedness Data Portal Sweden
     description: The Swedish COVID-19 & Pandemic Preparedness Data Portal is a hub for data, tools, services, and other resources centred around COVID-19 and pandemic preparedness in Sweden.
-    how_to_access: Openly accessible for everyone
+    how_to_access: 
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
