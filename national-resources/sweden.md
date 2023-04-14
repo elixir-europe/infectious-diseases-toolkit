@@ -54,7 +54,7 @@ There are multiple authorities in Sweden that determine public health policy and
 
 ## Disease surveillance initiatives
 
-Multiple initiatives have been established for disease surveillance in Sweden. Below we give examples of ongoing initiatives. These initiatives generally monitor a broad range of pathogens.
+Multiple initiatives have been established for disease surveillance in Sweden. Below we give examples of ongoing initiatives, which generally monitor a broad range of pathogens.
 
 ### Wastewater surveillance
 
