@@ -114,7 +114,7 @@ The [National Pandemic Centre (NPC)](https://ki.se/en/mtc/national-pandemic-cent
 
 ### Pandemic Laboratory Preparedness program
 
-The [Pandemic Laboratory Preparedness (PLP) program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/) is a SciLifeLab research program commissioned by the Swedish government. It aims to build laboratory capacity to ensure future laboratory preparedness through the development of research, competence, and technology. Information about the projects (including research and development projects), and collaborations with infrastructure and government agencies can be found on [The Swedish COVID-19 and Pandemic Preparedness Data Portal] (https://pandemicpreparednessportal.se).
+The [Pandemic Laboratory Preparedness (PLP) program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/) is a SciLifeLab research program commissioned by the Swedish government. It aims to build laboratory capacity to ensure future laboratory preparedness through the development of research, competence, and technology. Information about the projects (including research and development projects), and collaborations with infrastructure and government agencies can be found on [The Swedish COVID-19 and Pandemic Preparedness Data Portal](https://pandemicpreparednessportal.se).
 
 ### Chemical Biology Consortium Sweden
 
