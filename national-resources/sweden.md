@@ -83,7 +83,7 @@ The Swedish Public Health Agency coordinates [sentinel monitoring (information o
 
 ## National data sources
 <!--- A section to list and provide context to national data sources. Data source as defined in BY-COVID - those are online resources in which data can be obtained. --->
-- [Resource showing all of the available data from COVID-19 publications involving at least one individual affiliated with a Swedish institution](https://www.covid19dataportal.se/datasets/all/)(data is openly available).
+- [Resource showing all of the available data from COVID-19 publications involving at least one individual affiliated with a Swedish institution](https://www.covid19dataportal.se/datasets/all/) (data is openly available).
 - [COVID-19 data sources from The Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/) (data is openly available).
 - [COVID-19 data sources from The National Board for Health and  Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) (data is openly available).
 - [Infectious diseases data sources published on the SciLifeLab Data Repository](https://figshare.scilifelab.se/categories/Biomedical_and_clinical_sciences/24457?categories=24508) (some data is openly available, otherwise access to data is restricted).
