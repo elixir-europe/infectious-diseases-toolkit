@@ -115,7 +115,9 @@ data analysis at any scale using open-source code.
 
 Thanks to its modular architecture, the showcase and its underlying code and workflows can be easily adopted to the specific needs of your project.
 
-## COVID19 Galaxy Project Team Members
+## Acknowledgments
+
+### COVID19 Galaxy Project Team Members
 
 Wolfgang Maier, Simon Bray, Anton Nekrutenko, Björn Grüning, Marius van den Beek and Dannon Baker from the Galaxy project; Babita Singh, Mauricio Moldes, Jordi Rambla from CRG and the Viral Beacon project; Maximilian Haeussler from the UCSC genome browser team; Sergei Pond (Temple University) developed interactive Observable notebooks.
 
