@@ -36,7 +36,7 @@ to perform routine genome monitoring of virus sequences at non-trivial scale, an
 {% include image.html file="/showcase_covid19_galaxy_overview.png" caption="Figure 1. An automated SARS-CoV-2 sequencing data analysis system built around Galaxy as the analysis engine. Data to process is discovered and pulled into Galaxy from the European Nucleotide Archive (ENA) and processed via versioned releases of Galaxy Workflows published at and downloaded via WorkflowHub and/or Dockstore. Third parties (data stewards) can also suggest their own public samples of interest to be included in analysis runs by opening a pull request on Github. Key files for every analysis run are exported to a publicly accessible archive provided by the Centre of Genomic Regulation (CRG), and can be consumed by downstream visualisations like CRG’s Viral Beacon, the UCSC genome browser, and custom interactive notebooks." alt="Image composed of three connected panels labelled Data Access, Data Analysis and Data Deposition & Visualisation. The first panel shows the European Nucleotide Archive as the source of the data that gets pulled into Data Analysis. That second panel shows the Galaxy Project in the center and connections to the workflow registries Dockstore and WorkflowHub. Github pull requests (created by third-party data stewards) are shown as an alternative input source for Data Analysis. Data Analysis is connected to the rightmost panel via an arrow leading to a schematically depicted FTP server holding key results files of an analysis. From there, data flow to the Viral Beacon, to the UCSC Genome Browser, and to an interactive notebook is shown.
 " %}
 
-## Components used
+## Building blocks
 
 ### European Nucleotide Archive (ENA)
 
@@ -45,11 +45,11 @@ Many large national SARS-CoV-2 sequencing data providers submit their raw data t
   - the [Portuguese network for SARS-CoV-2 genomics](https://insaflu.insa.pt/covid19/) (PRJEB47340)
   - the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html))
 
-In addition, we provide the possibility to request analysis of samples of particular interest via pull requests to a dedicated [Github repo](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
+In addition, we provide the possibility to request analysis of samples of particular interest via pull requests against a dedicated [Github repo](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
 
 ### WorkflowHub
 
-The [WorkflowHub registry](https://workflowhub.eu/) for scientific workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) provided and reviewed by the [IWC](https://github.com/galaxyproject/iwc).
+The [WorkflowHub registry](https://workflowhub.eu/) for scientific workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc).
 
 ### Galaxy Europe
 
