@@ -3,7 +3,7 @@ title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
 contributors: [Wolfgang Maier] 
 description: An automated, modular system for large-scale FAIR analysis of SARS-CoV-2 sequencing data analysis powered by the Galaxy platform.
 affiliations: [DE, European Union]
-page_id: COVID19GalaxyProject
+page_id: covid19-galaxy-project
 related_pages:
   showcase: [korogenoest]
 training:
