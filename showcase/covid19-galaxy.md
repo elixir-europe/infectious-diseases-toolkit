@@ -53,7 +53,7 @@ The [WorkflowHub registry](https://workflowhub.eu/) for scientific workflows pro
 
 ### Galaxy Europe
 
-The [European Galaxy server](https://github.com/galaxyproject/iwc) provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
+The [European Galaxy server](https://usegalaxy.eu) provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
 
 In the showcase we download ENA-hosted sequencing data to the Galaxy server and process it with the workflows from WorkflowHub.
 
