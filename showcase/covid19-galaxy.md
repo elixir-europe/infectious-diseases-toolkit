@@ -122,3 +122,8 @@ Thanks to its modular architecture, the showcase and its underlying code and wor
 Wolfgang Maier, Simon Bray, Anton Nekrutenko, Björn Grüning, Marius van den Beek and Dannon Baker from the Galaxy project; Babita Singh, Mauricio Moldes, Jordi Rambla from CRG and the Viral Beacon project; Maximilian Haeussler from the UCSC genome browser team; Sergei Pond (Temple University) developed interactive Observable notebooks.
 
 Additional people who have helped improve the workflows used for the data analysis: Ulvi Talas (University of Tartu), Peter van Heusden (SANBI)
+
+### Sponsors
+
+Galaxy Europe is supported by de.NBI (the German Network for Bioinformatics Infrastructure) and through associated funding via the BMBF (German Federal Ministry of Education and Research) grants 031L0101C de.NBI-epi and 031 A538A de.NBI-RBC.
+
