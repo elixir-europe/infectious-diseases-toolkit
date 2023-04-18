@@ -180,3 +180,14 @@ section#search-section {
         font-size: 1.5rem;
     }
 }
+
+// Custom coloring
+
+.events > ul > li .title, .news > ul > li .title {
+    background-color: $x-blue;
+    color: $dark;
+}
+
+main ol li::marker, main ul li::marker {
+    color: $red;
+}

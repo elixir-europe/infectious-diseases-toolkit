@@ -1,9 +1,13 @@
+@import "bootstrap/functions";
+
 /*-----Theme colors-----*/
 $white: #fff;
 $primary: #457B9D;
 $blue: #277ab9;
+$x-blue: #A8DADC;
+$red: #D63936;
 $light: #f3f3f3;
-$dark: #4a4a4a;
+$dark: #404b52;
 $light-x: #e5e1e1;
 
 /*-----Custom values for Bootstrap variables-----*/
@@ -31,3 +35,14 @@ $h3-font-size: 1rem * 1.5 !default;
 $h4-font-size: 1rem * 1.1 !default;
 $h5-font-size: 1rem !default;
 $h6-font-size: 1rem !default;
+
+@import "bootstrap/variables";
+
+// Create your own map
+$custom-colors: (
+    "x-blue":$x-blue,
+    "red":$red
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
