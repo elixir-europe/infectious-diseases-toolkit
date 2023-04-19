@@ -14,5 +14,8 @@
   date: 2022-10-17
   linked_pr: 77
   description: Content was added to the Provenance page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/provenance)
-
+- name: "New page: National resources Sweden"
+  date: 2023-04-19
+  linked_pr: 150
+  description: This page gives insight on national resources for infectious diseases in Sweden. [Discover the page here](/national-resources/sweden)
 
