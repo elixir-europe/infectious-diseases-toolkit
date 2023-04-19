@@ -45,7 +45,7 @@ Liane Hughes:
     email: liane.hughes@scilifelab.uu.se
     orcid: 0000-0002-4784-5436
     role: editor
-    affiliation: SciLifeLab/Uppsala University
+    affiliation: SciLifeLab / Uppsala University
 Eva Garcia Alvarez:
     git: EvaGarciaAlvarez
     email: eva.garcia-alvarez@bbmri-eric.eu
@@ -111,3 +111,10 @@ Arnau Soler Costa:
     email: arnau.soler@crg.eu
     orcid: 0000-0002-2853-6742
     affiliation: European Genome-phenome Archive (EGA) / CRG
+Anna Asklöf: 
+    git: annaasklof
+    affiliation: SciLifeLab / Uppsala University 
+Katarina Öjefors Stark:
+    orcid: 0000-0001-7970-7778
+    git: KatarinaOjeforsStark
+    affiliation: SciLifeLab / Uppsala University 
