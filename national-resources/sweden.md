@@ -89,7 +89,7 @@ The [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/the-publi
 - [Infectious diseases data sources published on the SciLifeLab Data Repository](https://figshare.scilifelab.se/categories/Biomedical_and_clinical_sciences/24457?categories=24508) (some data is openly available, otherwise access to data is restricted). The SciLifeLab Data Repository includes multiple different types of data (e.g. image data), the information found at the link shows only the data related to infectious disease, regardless of data type. 
 - [National Patient Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-patient-register/) (access to data is restricted). 
 - [National Prescribed Drug Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-prescribed-drug-register/) (access to data is restricted). This resource provides official statistics related to drugs prescribed in Sweden. It is used to increase patient safety in relation to prescribed drugs.
-- [Quality Registry for SARS-CoV-2](https://covid19register.se/) (only available in Swedish) (access to data is restricted). 
+- [Quality Registry for SARS-CoV-2 data](https://covid19register.se/) (only available in Swedish) (access to data is restricted). This resource provides quality indicators related to SARS-CoV-2 (e.g. the number or PCR tests done overall, and percentage of the population tested).
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
