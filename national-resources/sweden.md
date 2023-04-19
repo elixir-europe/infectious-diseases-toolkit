@@ -88,7 +88,7 @@ The [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/the-publi
 - [COVID-19 data sources from The National Board for Health and  Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) (data is openly available). This resource includes data on post COVID-19 condition (or long COVID), as well as other information on the length of care required after infection with COVID-19.
 - [Infectious diseases data sources published on the SciLifeLab Data Repository](https://figshare.scilifelab.se/categories/Biomedical_and_clinical_sciences/24457?categories=24508) (some data is openly available, otherwise access to data is restricted). The SciLifeLab Data Repository includes multiple different types of data (e.g. image data), the information found at the link shows only the data related to infectious disease, regardless of data type. 
 - [National Patient Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-patient-register/) (access to data is restricted). 
-- [National Prescribed Drug Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-prescribed-drug-register/) (access to data is restricted). 
+- [National Prescribed Drug Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-prescribed-drug-register/) (access to data is restricted). This resource provides official statistics related to drugs prescribed in Sweden. It is used to increase patient safety in relation to prescribed drugs.
 - [Quality Registry for SARS-CoV-2](https://covid19register.se/) (only available in Swedish) (access to data is restricted). 
 
 ## Regulations
