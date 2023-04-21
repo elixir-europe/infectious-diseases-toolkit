@@ -29,8 +29,7 @@ system for FAIR analysis of SARS-CoV-2 sequencing data.
 
 ## Who is this showcase intended for?
 
-Automated Galaxy workflow runs for viral genome surveillance are of interest for any department, institution or organisation that intends
-to perform routine genome monitoring of virus sequences at non-trivial scale, and who care about FAIR large-scale data analysis.
+Automated Galaxy workflow runs for viral genome surveillance are of interest for any department, institution or organisation that intend to perform routine genome monitoring of virus sequences at non-trivial scale, and who care about FAIR large-scale data analysis.
 
 
 {% include image.html file="/showcase_covid19_galaxy_overview.png" caption="Figure 1. An automated SARS-CoV-2 sequencing data analysis system built around Galaxy as the analysis engine. Data to process is discovered and pulled into Galaxy from the European Nucleotide Archive (ENA) and processed via versioned releases of Galaxy Workflows published at and downloaded via WorkflowHub and/or Dockstore. Third parties (data stewards) can also suggest their own public samples of interest to be included in analysis runs by opening a pull request on Github. Key files for every analysis run are exported to a publicly accessible archive provided by the Centre of Genomic Regulation (CRG), and can be consumed by downstream visualisations like CRG’s Viral Beacon, the UCSC genome browser, and custom interactive notebooks." alt="Image composed of three connected panels labelled Data Access, Data Analysis and Data Deposition & Visualisation. The first panel shows the European Nucleotide Archive as the source of the data that gets pulled into Data Analysis. That second panel shows the Galaxy Project in the center and connections to the workflow registries Dockstore and WorkflowHub. Github pull requests (created by third-party data stewards) are shown as an alternative input source for Data Analysis. Data Analysis is connected to the rightmost panel via an arrow leading to a schematically depicted FTP server holding key results files of an analysis. From there, data flow to the Viral Beacon, to the UCSC Genome Browser, and to an interactive notebook is shown.
@@ -49,13 +48,19 @@ In addition, we provide the possibility to request analysis of samples of partic
 
 ### WorkflowHub
 
-The [WorkflowHub registry](https://workflowhub.eu/) for scientific computational workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc).
+The [WorkflowHub registry](https://workflowhub.eu/) for scientific computational workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid).
+
+These are provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc), a subgroup within the Galaxy Community concerned with maintaining high-quality Galaxy Workflows and who collaborates closely with WorkflowHub on FAIR workflow issues.
+
+Most IWC SARS-CoV-2 analysis workflows follow a modular design decision, i.e. there are separate workflows for discovering viral mutations from raw sequencing data obtained from different sequencing platforms and protocols, for reporting and visualising these mutations within and across samples, and for generating viral consensus genomes.
+
+This has the advantage that users can combine analysis modules according to their specific needs.
 
 ### Galaxy Europe
 
 The [European Galaxy server](https://usegalaxy.eu) provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
 
-In the showcase we download ENA-hosted sequencing data to the Galaxy server and process it with the workflows from WorkflowHub.
+In the showcase we download ENA-hosted or user-requested sequencing data to the Galaxy server and process it with the workflows from WorkflowHub.
 
 ### Archive
 
@@ -83,37 +88,52 @@ track populated from the data on the CRG’s archive.
 
 The components are connected using free and open source “glue” code that can be found on [GitHub](https://github.com/usegalaxy-eu/ena-cog-uk-wfs).
 
-The code relies, to a large extent, on built-in Galaxy functionality, which it accesses via the [Galaxy API](https://usegalaxy.eu/api/docs),
-including uploading data via URLs, running workflows in an automated manner, sending result datasets to a remote resource, tagging analysis artefacts
-for easier discovery, publishing analyses for accessibility, etc. This approach allows us to keep the code minimal.
+The code relies, to a large extent, on built-in Galaxy functionality, which it accesses via the [Galaxy API](https://usegalaxy.eu/api/docs). This approach allows us to keep the code minimal.
 
-## How to reuse the components
+The automation code takes care of orchestrating the steps of
 
-An important aspect for reusability is the modular architecture of the showcase. You could for example:
-- Change the Galaxy server instance used to process the data
-
-  All analysis tools used in the Galaxy workflows are publicly available and are easy to install on any Galaxy instance.
-- Get the raw sequencing data from sources other than the ENA
-
-  As long as you can give Galaxy access to the data there is a way to feed it into the system.
-- Build and run modified versions of the workflows
-
-  Galaxy comes with an easy-to-use graphical workflow editor that lets you adapt any of the existing public workflows to your specific needs.
-- Send result files to a different remote file system
-
-  Galaxy has a plugin system through which it can be connected to various remote file systems for data export.
-- Use the data to populate other dashboards of your choice
-
-  The Galaxy project and collaborators have, for example, come up with an [interactive Observable dashboard](https://covid19.galaxyproject.org/dashboard)
-  as an alternative visualisation tool for the showcase.
+- uploading ENA data via URLs
+- running all workflows necessary for an analysis of a given sample batch from the set offered on WorkflowHub in an automated manner
+- sending result datasets to the remote archive
+- tagging analysis artefacts for easier discovery, publishing analyses for accessibility, etc.
 
 ## What can you use this showcase for?
 
-This showcase illustrates how you can combine existing public frameworks, registries, and data repositories, that have all been created or enhanced
-significantly over the course of the COVID-19 pandemic, to conduct automated, reproducible, shareable, transparent, high-quality viral sequencing
-data analysis at any scale using open-source code.
+This showcase illustrates how you can combine existing public frameworks, registries, and data repositories, that have all been created or enhanced significantly over the course of the COVID-19 pandemic, to conduct automated, reproducible, shareable, transparent, high-quality viral sequencing data analysis at any scale using open-source code.
 
-Thanks to its modular architecture, the showcase and its underlying code and workflows can be easily adopted to the specific needs of your project.
+The system was designed with a broad range of users in mind:
+
+- Any researcher can reuse any of the archived result files produced by the showcase project for retrospective downstream analyses.
+- Virologists can use the Github-based analysis on request feature to get a high-quality, reliable analysis of their own samples performed on the Galaxy Europe server.
+- Genome surveillance initiatives can reuse the entire system on-premises or exchange components as they see fit.
+
+### How to reuse the components
+
+An important aspect of the system presented here in terms of reusability is its modular architecture. You could for example:
+- Change the Galaxy server instance used to process the data
+
+  All analysis tools used in the Galaxy workflows are publicly available and are easy to install on any, public or private, Galaxy instance.
+
+  While it is easiest for occasional users to just use the Github-based analysis request feature to have their data processed by Galaxy Europe, larger genome surveillance projects may want to run the system on their own dedicated instance of Galaxy to enjoy shorter queue times and to ensure privacy of the data before its release to public archives.
+
+- Get the raw sequencing data from sources other than the ENA
+
+  As long as you can give Galaxy access to the data there is a way to feed it into the system.
+
+- Build and run modified versions or combinations of the workflows
+
+  Galaxy comes with an easy-to-use graphical workflow editor that lets you adapt any of the existing public workflows to your specific needs, and the modular design of the workflows makes it rather straightforward to build the ideal pipeline for your purpose.
+
+  You can also simply clone the automation glue code and modify its config files to orchestrate your custom pipeline on your Galaxy instance of choice from a local computer or server.
+
+- Send result files to a different remote file system
+
+  Galaxy has a plugin system through which it can be connected to various remote file systems for data export.
+
+- Use the data to populate other dashboards of your choice
+
+  The Galaxy project and collaborators have, for example, come up with an [interactive Observable dashboard](https://covid19.galaxyproject.org/dashboard)
+  as an alternative visualisation tool for the results produced as part of the showcase.
 
 ## Acknowledgments
 
