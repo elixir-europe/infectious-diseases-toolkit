@@ -48,13 +48,13 @@ In addition, we provide the possibility to request analysis of samples of partic
 
 ### WorkflowHub
 
-The [WorkflowHub registry](https://workflowhub.eu/) for scientific computational workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid).
+The [WorkflowHub registry](https://workflowhub.eu/) for scientific computational workflows provides access to hundreds of workflows with defined releases, among them an evolving set of [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid).
 
-These are provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc), a subgroup within the Galaxy Community concerned with maintaining high-quality Galaxy Workflows and who collaborates closely with WorkflowHub on FAIR workflow issues.
+These are provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc), a subgroup within the Galaxy Community concerned with maintaining high-quality Galaxy Workflows and who collaborates closely with WorkflowHub on FAIR workflow matters.
 
 Most IWC SARS-CoV-2 analysis workflows follow a modular design decision, i.e. there are separate workflows for discovering viral mutations from raw sequencing data obtained from different sequencing platforms and protocols, for reporting and visualising these mutations within and across samples, and for generating viral consensus genomes.
 
-This has the advantage that users can combine analysis modules according to their specific needs.
+This design provides users with the advantage of being able to combine analysis modules according to their specific needs.
 
 ### Galaxy Europe
 
@@ -77,7 +77,7 @@ You can access all the data by logging in to: `ftp://xfer13.crg.eu` as User: `FT
 
 ### Viral Beacon project
 
-In the showcase the [Viral Beacon project](https://covid19beacon.crg.eu/) acts as a consumer of the data and provides visualisations.
+In the showcase the [ CRG COVID-19 Viral Beacon](https://covid19beacon.crg.eu/) acts as a consumer of the data and provides visualisations.
 
 ### UCSC genome browser
 
