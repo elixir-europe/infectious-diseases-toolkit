@@ -18,3 +18,10 @@ title: Editorial board
 ### Contact
 
 Please contact us at idtk-editors@elixir-europe.org.
+
+## Alumni
+
+In this section we would like to thank contributions of our past editorial members.
+
+{% include contributor-carousel-selection.html custom="Rafael Andrade Buono"%}
+
