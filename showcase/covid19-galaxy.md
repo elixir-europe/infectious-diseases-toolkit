@@ -23,9 +23,6 @@ Fortunately, investments made in public and open computing and storage infrastru
 frameworks have proven beneficial and could be employed for the required genome monitoring of SARS-CoV-2.
 
 Here, we describe a modular and scalable [system for FAIR analysis of SARS-CoV-2 sequencing data](https://galaxyproject.org/projects/covid19/). This effort shows how the [Galaxy Project](https://galaxyproject.org/) with the help of many additional collaborators repurposed, expanded, and combined public infrastructure and systems for storing and sharing data, and for managing data analysis workflows, to tackle a global health emergency.
-system for FAIR analysis of SARS-CoV-2 sequencing data.
-and combined public infrastructure and systems for storing and sharing data, and for managing data analysis workflows, to form a modular and scalable
-system for FAIR analysis of SARS-CoV-2 sequencing data.
 
 
 ## Who is this showcase intended for?
