@@ -9,14 +9,14 @@ main {
         font-weight: 500;
         &::after {
             content: "";
-            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41.055 42.576'><path style='fill:#e63a47' d='m18.067 22.793-17.21 10a1.73 1.73 0 0 0-.6 2.4l4 6.56a1.73 1.73 0 0 0 2.34.59l33.59-19.58a1.73 1.73 0 0 0 0-3L6.637.233a1.73 1.73 0 0 0-2.34.59l-4 6.56a1.73 1.73 0 0 0 .6 2.4l17.21 10a1.73 1.73 0 0 1-.04 3.01z'/></svg>");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41.055 42.576'%3E%3Cpath style='fill:%23e63a47' d='m18.067 22.793-17.21 10a1.73 1.73 0 0 0-.6 2.4l4 6.56a1.73 1.73 0 0 0 2.34.59l33.59-19.58a1.73 1.73 0 0 0 0-3L6.637.233a1.73 1.73 0 0 0-2.34.59l-4 6.56a1.73 1.73 0 0 0 .6 2.4l17.21 10a1.73 1.73 0 0 1-.04 3.01z'/%3E%3C/svg%3E");
             display: inline-block;
-            width: 1.5em;
-            height: 1.5em;
-            vertical-align: middle;
+            width: 0.5em;
+            height: 0.5em;
+            margin-left: $spacer;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: 100%;
           }
 
     }
@@ -114,7 +114,13 @@ main {
 
 .contributor-cards .card {
     border: 1px $card-border-color solid; 
+
+    .badge {
+        color: $dark;
+        background-color: $x-blue;
+    }
 }
+
 
 .page-contributors {
     border: 1px $card-border-color solid;
