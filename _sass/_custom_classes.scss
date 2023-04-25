@@ -6,24 +6,37 @@ main {
         font-weight: 600;
     }
     h2, .h2-like {
-        color: $primary;
         font-weight: 500;
+        &::after {
+            content: "";
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41.055 42.576'><path style='fill:#e63a47' d='m18.067 22.793-17.21 10a1.73 1.73 0 0 0-.6 2.4l4 6.56a1.73 1.73 0 0 0 2.34.59l33.59-19.58a1.73 1.73 0 0 0 0-3L6.637.233a1.73 1.73 0 0 0-2.34.59l-4 6.56a1.73 1.73 0 0 0 .6 2.4l17.21 10a1.73 1.73 0 0 1-.04 3.01z'/></svg>");
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
     }
 
     h3, .h3-like {
         font-weight: 500;
         margin-top: 2rem;
     }
-    ol li,
-    ul li {
-        &::marker {
-            content: url('data:image/svg+xml;utf8,<svg width="41.054691" height="42.575748" viewBox="0 0 41.054693 42.575748"><path style="fill: #e63a47;" d="m 18.066609,22.792875 -17.21000026,10 a 1.73,1.73 0 0 0 -0.6,2.4 l 3.99999996,6.56 a 1.73,1.73 0 0 0 2.34,0.59 l 33.5900003,-19.58 a 1.73,1.73 0 0 0 0,-3 L 6.6366087,0.23287463 a 1.73,1.73 0 0 0 -2.34,0.59 L 0.29660874,7.3828746 a 1.73,1.73 0 0 0 0.6,2.4 L 18.106609,19.782875 a 1.73,1.73 0 0 1 -0.04,3.01 z" /></svg>');
 
+    ol li, ul li {
+        &::marker {
+        font-size: larger;
         }
     }
 }
 
+#edit-me a {
+    color: $red;
 
+}
 
 
 /*-----More information tiles-----*/
@@ -126,6 +139,11 @@ main {
 .btn-primary:hover,
 .btn-primary:active {
     color: $white;
+}
+
+.btn-primary:hover, .hover-primary:hover {
+    background-color: $red!important;
+    border-color: $red!important;
 }
 
 /*-----Top navigation-----*/
