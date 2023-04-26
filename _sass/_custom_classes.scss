@@ -57,6 +57,10 @@ main {
     margin-top: $spacer;
 }
 
+.sidebar-collapse {
+    background-color: $light;
+}
+
 /*-----Selection color-----*/
 
 ::-moz-selection {
