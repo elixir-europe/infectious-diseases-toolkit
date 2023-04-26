@@ -2,12 +2,12 @@
 
 /*-----Theme colors-----*/
 $white: #fff;
-$primary: #457B9D;
+$primary: #457b9d;
 $blue: #0083d5;
-$x-blue: #A8DADC;
-$red: #D63936;
+$x-blue: #a8dadc;
+$red: #d63936;
 $light: #f3f3f3;
-$dark: #1D3443;
+$dark: #1d3443;
 $light-x: #e5e1e1;
 
 /*-----Custom values for Bootstrap variables-----*/
@@ -28,11 +28,12 @@ $link-color: $blue;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
-$font-family-sans-serif:  'PT Sans', sans-serif;
-$h1-font-size: 1rem * 4 !default;
-$h2-font-size: 1rem * 2 !default;
-$h3-font-size: 1rem * 1.5 !default;
-$h4-font-size: 1rem * 1.1 !default;
+$font-size-base: 1.05rem;
+$font-family-sans-serif: "PT Sans", sans-serif;
+$h1-font-size: 4rem !default;
+$h2-font-size: 2rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1.1rem !default;
 $h5-font-size: 1rem !default;
 $h6-font-size: 1rem !default;
 
@@ -40,8 +41,8 @@ $h6-font-size: 1rem !default;
 
 // Create your own map
 $custom-colors: (
-    "x-blue":$x-blue,
-    "red":$red
+    "x-blue": $x-blue,
+    "red": $red,
 );
 
 // Merge the maps
