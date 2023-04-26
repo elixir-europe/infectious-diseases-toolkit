@@ -49,7 +49,7 @@ layout: none
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                     {%- for folder in sidebar.subitems %}
                     <div class="col">
-                            <div class="card border bg-white h-100">
+                            <div class="card bg-white h-100">
                                 {%- if folder.image_url%}
                                 <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto" alt="{{folder.title}} icon">
                                 {%- endif %}

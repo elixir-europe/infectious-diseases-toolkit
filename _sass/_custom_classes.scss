@@ -35,24 +35,14 @@ main {
 /*-----More information tiles-----*/
 
 .info-card {
-    border: 1px $card-border-color solid;
     .card-header {
         padding-bottom: 0;
         border-bottom: 0;
     }
 
-    a {
-        border: 1px $card-border-color solid;
-    }
     ul {
         margin-bottom: 0;
     }
-}
-
-/*-----------Social icons----------*/
-
-.social-icons {
-    border: 1px solid $card-border-color;
 }
 
 /*-----Sidebar-----*/
@@ -80,9 +70,6 @@ main {
 /*-----Section navigation tiles-----*/
 
 .navigation-tiles {
-    .card {
-        border-width: 1px;
-    }
     .card:hover {
         box-shadow: $box-shadow;
     }
@@ -97,7 +84,6 @@ main {
         }
     }
     .card button {
-        border: 1px $card-border-color solid;
         background-color: $white;
     }
 }
@@ -105,29 +91,10 @@ main {
 /*-----Contributors tiles -----*/
 
 .contributor-cards .card {
-    border: 1px $card-border-color solid;
-
     .badge {
         color: $dark;
         background-color: $x-blue;
     }
-}
-
-.page-contributors {
-    border: 1px $card-border-color solid;
-    .contributor-link {
-        border: 1px $card-border-color solid;
-    }
-}
-
-/*-----Box shadows-----*/
-
-.navbar,
-#toc,
-#side-nav > ul > li > a,
-.sidebar-collapse,
-#footer {
-    box-shadow: $box-shadow;
 }
 
 /*-----Custom primary button-----*/
@@ -154,6 +121,10 @@ main {
 
 nav .navbar-brand {
     font-size: calc(1rem + 0.54vw);
+}
+
+header .navbar {
+    background-color: $white;
 }
 
 /* -----Homepage----- */
