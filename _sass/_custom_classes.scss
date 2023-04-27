@@ -126,7 +126,7 @@ main {
 /*-----TOC-----*/
 
 #toc {
-    padding-left: 2*$spacer!important;
+    padding-left: 2 * $spacer !important;
     li::marker {
         color: $red;
     }
@@ -211,5 +211,30 @@ main ul li::marker {
     color: $red !important;
     &:hover {
         color: $white !important;
+    }
+}
+
+.card-footer {
+    background-color: $blue-x;
+}
+
+.info-card,
+.navigation-tiles {
+    .hover-primary:not(.badge) {
+        border-left: 6px solid transparent;
+        transition: $btn-transition;
+        &:hover {
+            color: $dark !important;
+            border-left: 6px solid $primary;
+            i {
+                color: $dark !important;
+            }
+        }
+        &.bg-white:hover {
+            background-color: $white !important;
+        }
+        &.bg-light:hover {
+            background-color: $light !important;
+        }
     }
 }
