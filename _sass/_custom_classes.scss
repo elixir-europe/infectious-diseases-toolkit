@@ -47,10 +47,9 @@ main {
 
 /*-----Sidebar-----*/
 #side-nav .btn.sidebar-title {
-    border-bottom: 0.25rem solid $primary;
+    background-color: $x-blue;
     font-weight: bold;
     font-size: 1.3rem;
-    padding-bottom: $input-btn-padding-y - 0.25rem;
 }
 
 #side-nav > ul {
@@ -120,6 +119,7 @@ main {
 .navbar-nav .nav-item > a.active {
     background-color: $x-blue;
     border-radius: $border-radius;
+    font-weight: 600;
 }
 
 nav .navbar-brand {
