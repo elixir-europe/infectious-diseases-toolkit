@@ -11,10 +11,10 @@ layout: none
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <section class="container mb-5">
-        <div class="card bg-blue-x text-center">
+        <div class="card bg-red text-center text-white">
             <div class="card-body">
                 <h5 class="card-title fs-3"><b>This website is under construction</h5></b>
-                <p class="card-text">Don't hesitate to <a href="https://github.com/elixir-europe/infectious-diseases-toolkit/issues">open an issue</a> or to contact us by mail using <a href="mailto:idtk-editors@elixir-europe.org">idtk-editors@elixir-europe.org</a> to give some early feedback.</p>
+                <p class="card-text">Don't hesitate to <a class="link-light" href="https://github.com/elixir-europe/infectious-diseases-toolkit/issues"><b>open an issue</b></a> or to contact us by mail using <a class="link-light" href="mailto:idtk-editors@elixir-europe.org"><b>idtk-editors@elixir-europe.org</b></a> to give some early feedback.</p>
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@ layout: none
                                 {%- endif %}
                                 <div class="card-body text-center">
                                     <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                        <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
+                                        <h3 class="card-title no-anchor text-dark">{{folder.title}}</h3>
                                     </a>
                                     <p class="card-text">{{folder.description}}</p>
                                 </div>
@@ -70,7 +70,7 @@ layout: none
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 my-auto">
-                        <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-thin.svg' | relative_url }}" alt="Contributors icon">
+                        <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-duotone.svg' | relative_url }}" alt="Contributors icon">
                     </div>
                     <div class="col-lg-7">
                         <h2>We welcome contributors!</h2>
