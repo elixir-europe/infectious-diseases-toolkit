@@ -46,14 +46,29 @@ main {
 }
 
 /*-----Sidebar-----*/
-#side-nav .btn.sidebar-title {
-    background-color: $x-blue;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
 
-#side-nav > ul {
-    margin-top: $spacer;
+#side-nav {
+    .btn.sidebar-title {
+        background-color: $blue-x;
+        font-weight: bold;
+        font-size: 1.3rem;
+        // border-left: 4px solid $dark;
+        &.active {
+            border-left: 4px solid $primary;
+        }
+    }
+    > ul {
+        margin-top: $spacer;
+        li.active {
+            &.parent > a {
+                // border-left: 4px solid $primary;
+                background-color: $light;
+            }
+            &:not(.parent) > a {
+                border-left: 4px solid $primary;
+            }
+        }
+    }
 }
 
 .sidebar-collapse {
@@ -96,7 +111,7 @@ main {
 .contributor-cards .card {
     .badge {
         color: $dark;
-        background-color: $x-blue;
+        background-color: $blue-x;
     }
 }
 
@@ -108,16 +123,16 @@ main {
     color: $white;
 }
 
-.btn-primary:hover,
-.hover-primary:hover {
-    background-color: $red !important;
-    border-color: $red !important;
-}
+// .btn-primary:hover,
+// .hover-primary:hover {
+//     background-color: $red !important;
+//     border-color: $red !important;
+// }
 
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a.active {
-    background-color: $x-blue;
+    background-color: $blue-x;
     border-radius: $border-radius;
     font-weight: 600;
 }
@@ -186,7 +201,7 @@ section#search-section {
 
 .events > ul > li .title,
 .news > ul > li .title {
-    background-color: $x-blue;
+    background-color: $blue-x;
     color: $dark;
 }
 

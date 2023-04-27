@@ -4,11 +4,10 @@
 $white: #fff;
 $primary: #457b9d;
 $blue: #0083d5;
-$x-blue: #a8dadc;
+$blue-x: #a8dadc;
 $red: #d63936;
 $light: #f5f5f5;
 $dark: #1d3443;
-$light-x: #e5e1e1;
 
 /*-----Custom values for Bootstrap variables-----*/
 // General
@@ -30,7 +29,7 @@ $card-cap-bg: transparent;
 $card-border-width: 0;
 
 // Buttons and inputs
-$input-group-addon-bg: $x-blue;
+$input-group-addon-bg: $blue-x;
 $input-bg: $light;
 $input-border-width: 0;
 $btn-border-radius-sm: $border-radius;
@@ -54,7 +53,7 @@ $h6-font-size: 1rem !default;
 
 // Create your own map
 $custom-colors: (
-    "x-blue": $x-blue,
+    "blue-x": $blue-x,
     "red": $red,
 );
 
