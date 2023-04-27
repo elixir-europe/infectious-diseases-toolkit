@@ -50,7 +50,7 @@ main {
 #side-nav {
     .btn.sidebar-title {
         background-color: $blue-x;
-        font-weight: bold;
+        // font-weight: bold;
         font-size: 1.3rem;
         &.active {
             border-left: 4px solid $primary;
@@ -151,7 +151,7 @@ nav .navbar-brand {
 
 @include media-breakpoint-down(sm) { 
     header .navbar .navbar-brand img {
-        height: 40px;
+        height: 37px;
     }
 }
 
