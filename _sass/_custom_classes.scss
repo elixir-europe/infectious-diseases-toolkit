@@ -115,6 +115,12 @@ main {
     }
 }
 
+// Fix carousel height
+
+.carousel-item {
+    min-height: 20em;
+}
+
 /*-----Custom primary button-----*/
 
 .btn-primary,
