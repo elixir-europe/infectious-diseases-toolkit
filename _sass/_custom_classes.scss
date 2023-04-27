@@ -52,7 +52,6 @@ main {
         background-color: $blue-x;
         font-weight: bold;
         font-size: 1.3rem;
-        // border-left: 4px solid $dark;
         &.active {
             border-left: 4px solid $primary;
         }
@@ -61,7 +60,6 @@ main {
         margin-top: $spacer;
         li.active {
             &.parent > a {
-                // border-left: 4px solid $primary;
                 background-color: $light;
             }
             &:not(.parent) > a {
@@ -91,7 +89,6 @@ main {
     border-left: 6px solid $light;
     transition: $btn-transition;
     &:hover {
-        // box-shadow: $box-shadow;
         border-left: 6px solid $primary;
     }
 
@@ -126,11 +123,11 @@ main {
     color: $white;
 }
 
-// .btn-primary:hover,
-// .hover-primary:hover {
-//     background-color: $red !important;
-//     border-color: $red !important;
-// }
+/*-----TOC-----*/
+
+#toc {
+    padding-left: 2*$spacer!important;
+}
 
 /*-----Top navigation-----*/
 
@@ -162,7 +159,6 @@ nav .navbar-brand {
         border-right: 6px solid $white;
         transition: $btn-transition;
         &:hover {
-            // box-shadow: $box-shadow;
             border-left: 6px solid $primary;
         }
 
@@ -207,8 +203,4 @@ section#search-section {
 main ol li::marker,
 main ul li::marker {
     font-size: larger;
-}
-
-#edit-me a {
-    color: $red;
 }
