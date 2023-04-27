@@ -149,6 +149,12 @@ nav .navbar-brand {
     font-size: calc(1rem + 0.54vw);
 }
 
+@include media-breakpoint-down(sm) { 
+    header .navbar .navbar-brand img {
+        height: 40px;
+    }
+}
+
 /* -----Homepage----- */
 
 .landingpage {
