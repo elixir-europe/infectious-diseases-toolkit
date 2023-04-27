@@ -87,9 +87,12 @@ main {
 
 /*-----Section navigation tiles-----*/
 
-.navigation-tiles {
-    .card:hover {
-        box-shadow: $box-shadow;
+.navigation-tiles .card {
+    border-left: 6px solid $light;
+    transition: $btn-transition;
+    &:hover {
+        // box-shadow: $box-shadow;
+        border-left: 6px solid $primary;
     }
 
     .card-header {
@@ -101,7 +104,7 @@ main {
             font-size: 1.2rem;
         }
     }
-    .card button {
+    button {
         background-color: $white;
     }
 }
@@ -155,8 +158,12 @@ nav .navbar-brand {
     }
 
     .card {
+        border-left: 6px solid $white;
+        border-right: 6px solid $white;
+        transition: $btn-transition;
         &:hover {
-            box-shadow: $box-shadow;
+            // box-shadow: $box-shadow;
+            border-left: 6px solid $primary;
         }
 
         .card-img-top {
@@ -165,20 +172,12 @@ nav .navbar-brand {
         }
     }
 
-    h1 {
-        font-size: 2.2rem;
-        font-weight: 200;
-        text-align: center;
-    }
-
     h2 {
         font-weight: 700;
-        font-family: $font-family-theme;
     }
 
     h3 {
-        font-weight: 600;
-        font-family: $font-family-theme;
+        font-weight: 700;
     }
 }
 
@@ -207,7 +206,6 @@ section#search-section {
 
 main ol li::marker,
 main ul li::marker {
-    color: $red;
     font-size: larger;
 }
 
