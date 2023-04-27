@@ -127,6 +127,9 @@ main {
 
 #toc {
     padding-left: 2*$spacer!important;
+    li::marker {
+        color: $red;
+    }
 }
 
 /*-----Top navigation-----*/
@@ -134,7 +137,6 @@ main {
 .navbar-nav .nav-item > a.active {
     background-color: $blue-x;
     border-radius: $border-radius;
-    font-weight: 600;
 }
 
 nav .navbar-brand {
@@ -203,4 +205,11 @@ section#search-section {
 main ol li::marker,
 main ul li::marker {
     font-size: larger;
+}
+
+#edit-me a {
+    color: $red !important;
+    &:hover {
+        color: $white !important;
+    }
 }
