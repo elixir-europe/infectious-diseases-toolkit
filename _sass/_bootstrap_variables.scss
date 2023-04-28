@@ -1,33 +1,61 @@
+@import "bootstrap/functions";
+
 /*-----Theme colors-----*/
 $white: #fff;
-$primary: #d7346b;
-$blue: #277ab9;
-$light: #f3f3f3;
-$dark: #4a4a4a;
-$light-x: #e5e1e1;
+$primary: #457b9d;
+$blue: #0079c5;
+$blue-x: rgba(#a8dadc, 0.7);
+$red: #d63936;
+$light: #f5f5f5;
+$dark: #1d3443;
 
 /*-----Custom values for Bootstrap variables-----*/
+// General
 $component-active-bg: $primary;
 $box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 8px;
-$navbar-light-color: $dark;
-$card-border-width: 0;
-$alert-border-width: 0;
-$navbar-dark-toggler-border-color: transparent;
+$body-bg: $white;
 $border-radius: 0.5rem;
-$btn-border-radius-sm: $border-radius;
+$alert-border-width: 0;
+
+// Navbar
+$navbar-light-color: $dark;
+$navbar-light-toggler-border-color: transparent;
 $navbar-light-hover-color: $primary;
-$nav-link-hover-color: $primary;
 $navbar-brand-font-size: 1.7rem;
-$card-cap-bg: $light;
-$input-group-addon-bg: $light;
+$nav-link-hover-color: $primary;
+
+// Cards
+$card-cap-bg: transparent;
+$card-border-width: 0;
+
+// Buttons and inputs
+$input-group-addon-bg: $blue-x;
+$input-bg: $light;
+$input-border-width: 0;
+$btn-border-radius-sm: $border-radius;
+
+// Links
 $link-color: $blue;
 $link-decoration: none;
-$body-bg: $white;
+
+// Font changes
 $body-color: $dark;
-$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
-$h1-font-size: 1rem * 4 !default;
-$h2-font-size: 1rem * 2 !default;
-$h3-font-size: 1rem * 1.5 !default;
-$h4-font-size: 1rem * 1.1 !default;
+$font-size-base: 1.05rem;
+$font-family-sans-serif: "PT Sans", sans-serif;
+$h1-font-size: 4rem !default;
+$h2-font-size: 2rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1.1rem !default;
 $h5-font-size: 1rem !default;
 $h6-font-size: 1rem !default;
+
+@import "bootstrap/variables";
+
+// Create your own map
+$custom-colors: (
+    "blue-x": $blue-x,
+    "red": $red,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
