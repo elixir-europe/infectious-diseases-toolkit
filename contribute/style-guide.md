@@ -57,12 +57,12 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site.
-    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #d7346b | Pink | Logo, Menu highlight, Second level heading (h2), Main theme colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #277ab9 | Blue | Link colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #4a4a4a | Dark Gray | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #6c757d | Gray | Gray text, Fourth level heading (h4) |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f3f3 | Light gray | Box backgrounds |
-  * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
+    * | <span style="display: inline-block; width: 20px; height: 20px; background: #457b9d;"></span> | #457b9d | Blue | Primary colour, Logo, Menu highlight, Second level heading (h2) |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #a8dadc;"></span> | #a8dadc | Blue-x | Secondary colour, Section highlight, Icons  |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #d63936;"></span> | #d63936 | Red | Logo, Arrows at second level headings (h2)
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #1d3443;"></span> | #1d3443 | Dark blue | First level headings (h1), Third level heading (h3), Body text, Footer
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #f5f5f5;"></span> | #f5f5f5 | Light gray | Box backgrounds, Panels, Cards |
+  * **Font:** PT Sans is used for headings and main branding font, and for body text.
   * **Icons:** the icons used in this site come from the [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/Infectious Diseases Toolkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues) on GitHub or email [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org).

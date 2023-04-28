@@ -1,0 +1,7 @@
+<script>
+  $(document).ready(function () {
+    $('#toc').toc({ minimumHeaders: {{site.theme_variables.toc.min_headers | default: 2 }}, listType: 'ul', noBackToTopLinks: true, showSpeed: 0, headers: '{{site.theme_variables.toc.headers | default: 'main h2' }}' , title: '', classes:{toc:'p-3 rounded my-4'} });
+  });
+</script>
+<div id="toc"></div>
+
