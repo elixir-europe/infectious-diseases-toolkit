@@ -62,15 +62,17 @@ main {
             a {
                 border-left: 4px solid $sidebar-bg;
                 &:hover {
-                    border-left-color: $primary;
+                    border-left-color: $primary !important;
+                    background-color: $primary;
                 }
             }
             &.active {
                 &.parent > a {
-                    background-color: $light!important;
+                    background-color: $light;
+                    border-left-color: $light;
                 }
                 &:not(.parent) > a {
-                    border-left: 4px solid $primary!important;
+                    border-left-color: $primary;
                 }
             }
         }
@@ -97,7 +99,7 @@ main {
     border-left: 6px solid $light;
     transition: $btn-transition;
     &:hover {
-        border-left: 6px solid $primary;
+        border-left-color: $primary;
     }
 
     .card-header {
@@ -177,7 +179,7 @@ main {
         border-right: 6px solid $white;
         transition: $btn-transition;
         &:hover {
-            border-left: 6px solid $primary;
+            border-left-color: $primary;
         }
 
         .card-img-top {
@@ -241,7 +243,7 @@ main ul li::marker {
         transition: $btn-transition;
         &:hover {
             color: $dark !important;
-            border-left: 6px solid $primary;
+            border-left-color: $primary;
             i {
                 color: $dark !important;
             }
