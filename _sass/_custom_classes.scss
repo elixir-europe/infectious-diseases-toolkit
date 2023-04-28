@@ -58,12 +58,20 @@ main {
     }
     > ul {
         margin-top: $spacer;
-        li.active {
-            &.parent > a {
-                background-color: $light;
+        li {
+            a {
+                border-left: 4px solid $sidebar-bg;
+                &:hover {
+                    border-left-color: $primary;
+                }
             }
-            &:not(.parent) > a {
-                border-left: 4px solid $primary;
+            &.active {
+                &.parent > a {
+                    background-color: $light!important;
+                }
+                &:not(.parent) > a {
+                    border-left: 4px solid $primary!important;
+                }
             }
         }
     }
@@ -145,7 +153,7 @@ main {
     border-radius: $border-radius;
 }
 
-@include media-breakpoint-down(sm) { 
+@include media-breakpoint-down(sm) {
     header .navbar .navbar-brand img {
         height: 37px;
     }
