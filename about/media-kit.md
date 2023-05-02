@@ -24,6 +24,22 @@ For use in presentations, tutorials and all other IDTk related activities the ID
     [<a href="{{ 'assets/img/main_logo_inverted.png' | relative_url }}">png</a>]
 </p>
 
+### IDTk logo vertical
+
+<p>
+  <img src="{{ 'assets/img/main_logo_vertical.svg' | relative_url }}" class="m-2 bg-white p-2 rounded" style="max-height: 6em; vertical-align: middle" alt="IDTk logo condensed" />
+    [<a href="{{ 'assets/img/main_logo_vertical.svg' | relative_url }}">svg</a>]
+    [<a href="{{ 'assets/img/main_logo_vertical.png' | relative_url }}">png</a>]
+</p>
+
+### IDTk logo inverted
+
+<p>
+  <img src="{{ 'assets/img/main_logo_vertical_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-height: 6em; vertical-align: middle" alt="IDTk logo condensed" />
+    [<a href="{{ 'assets/img/main_logo_vertical_inverted.svg' | relative_url }}">svg</a>]
+    [<a href="{{ 'assets/img/main_logo_vertical_inverted.png' | relative_url }}">png</a>]
+</p>
+
 ### IDTk logo condensed
 
 <p>
