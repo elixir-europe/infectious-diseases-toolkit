@@ -30,11 +30,32 @@ main {
     .anchorjs-link {
         margin-left: -2em !important;
     }
+
+    ol li::marker,
+    ul li::marker {
+        font-size: larger;
+    }
 }
 
 /*-----More information tiles-----*/
 
 .info-card {
+    .hover-primary:not(.badge),
+    .btn.py-4.hover-primary {
+        border-left: 6px solid transparent;
+        transition: $btn-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-color: $primary;
+            i {
+                color: $dark !important;
+            }
+        }
+        &.bg-white:hover {
+            background-color: $white !important;
+        }
+    }
+
     .card-header {
         padding-bottom: 0;
         border-bottom: 0;
@@ -95,30 +116,50 @@ main {
 
 /*-----Section navigation tiles-----*/
 
-.navigation-tiles .card {
-    border-left: 6px solid $light;
-    transition: $btn-transition;
-    &:hover {
-        border-left-color: $primary;
+.navigation-tiles {
+    .btn.py-4.hover-primary {
+        border-left: 6px solid transparent;
+        transition: $btn-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-color: $primary;
+            i {
+                color: $dark !important;
+            }
+        }
+        &.bg-light:hover {
+            background-color: $light !important;
+        }
     }
+    .card {
+        border-left: 6px solid $light;
+        transition: $btn-transition;
+        &:hover {
+            border-left-color: $primary;
+        }
 
-    .card-header {
-        padding-bottom: 0;
-        a:hover {
-            text-decoration: none;
+        .card-header {
+            padding-bottom: 0;
+            a:hover {
+                text-decoration: none;
+            }
+            h3 {
+                font-size: 1.2rem;
+            }
         }
-        h3 {
-            font-size: 1.2rem;
+        button {
+            background-color: $white;
         }
-    }
-    button {
-        background-color: $white;
     }
 }
 
 /*-----Contributors tiles -----*/
 
-.contributor-cards .card {
+.contributor-cards,
+.contributor-link {
+    .card-footer {
+        background-color: $blue-x;
+    }
     .badge {
         color: $dark;
         background-color: $blue-x;
@@ -212,7 +253,7 @@ section#search-section {
     }
 }
 
-// Custom coloring
+/*-----News and events-----*/
 
 .events > ul > li .title,
 .news > ul > li .title {
@@ -220,39 +261,11 @@ section#search-section {
     color: $dark;
 }
 
-main ol li::marker,
-main ul li::marker {
-    font-size: larger;
-}
+/*-----Edit-me buttons-----*/
 
 #edit-me a {
     color: $red !important;
     &:hover {
         color: $white !important;
-    }
-}
-
-.card-footer {
-    background-color: $blue-x;
-}
-
-.info-card,
-.navigation-tiles {
-    .hover-primary:not(.badge) {
-        border-left: 6px solid transparent;
-        transition: $btn-transition;
-        &:hover {
-            color: $dark !important;
-            border-left-color: $primary;
-            i {
-                color: $dark !important;
-            }
-        }
-        &.bg-white:hover {
-            background-color: $white !important;
-        }
-        &.bg-light:hover {
-            background-color: $light !important;
-        }
     }
 }
