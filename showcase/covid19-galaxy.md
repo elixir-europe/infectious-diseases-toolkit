@@ -5,7 +5,7 @@ description: An automated, modular system for large-scale FAIR analysis of SARS-
 affiliations: [DE, European Union]
 page_id: covid19_galaxy_project
 related_pages:
-  showcase: [korogenoest]
+#  showcase: [korogenoest]
 training:
   - name: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
     registry: TeSS
