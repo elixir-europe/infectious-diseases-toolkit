@@ -32,7 +32,7 @@ For use in presentations, tutorials and all other IDTk related activities the ID
     [<a href="{{ 'assets/img/main_logo_vertical.png' | relative_url }}">png</a>]
 </p>
 
-### IDTk logo inverted
+### IDTk logo vertical inverted
 
 <p>
   <img src="{{ 'assets/img/main_logo_vertical_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-height: 6em; vertical-align: middle" alt="IDTk logo condensed" />
