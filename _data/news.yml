@@ -22,4 +22,7 @@
   date: 2023-05-02
   linked_pr: 182
   description: We have settled on a new style (including a new logo and new standard colours!) for this website. Go to our [media kit page](about/media-kit) if you want to use our new logo, or see the [style guide](contribute/style-guide) for more information on how the site is styled.
-
+- name: "New page: An automated SARS-CoV-2 genome surveillance system built around Galaxy"
+  date: 2023-05-02
+  linked_pr: 180
+  description: A Showcase page about a Galaxy based modular and scalable system for FAIR analysis of SARS-CoV-2 sequencing data. [Discover the page here](/showcase/covid19-galaxy)
