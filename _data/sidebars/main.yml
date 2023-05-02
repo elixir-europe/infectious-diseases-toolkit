@@ -44,7 +44,7 @@ subitems:
         url: /socioeconomic-data/quality-control
 
   - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-duotone.svg
+    image_url: /assets/img/section-icons/dna-person-duotone.svg
     url: /human-biomolecular-data/
     subitems:
       - title: Attributing credit
