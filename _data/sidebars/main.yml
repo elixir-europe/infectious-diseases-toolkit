@@ -91,8 +91,6 @@ subitems:
     url: /showcase/
     description: Applied examples of handling infectious disease data
     subitems:
-      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
-        url:  /showcase/korogenoest
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
