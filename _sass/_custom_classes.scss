@@ -1,5 +1,7 @@
 /*-----General styling-----*/
 
+$card-slide-transition: border-width .15s ease-in;
+
 main {
     h1 {
         margin-bottom: 0.5em;
@@ -42,11 +44,11 @@ main {
 .info-card {
     .hover-primary:not(.badge),
     .btn.py-4.hover-primary {
-        border-left: 6px solid transparent;
-        transition: $btn-transition;
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
             color: $dark !important;
-            border-left-color: $primary;
+            border-left-width: 6px;
             i {
                 color: $dark !important;
             }
@@ -118,11 +120,11 @@ main {
 
 .navigation-tiles {
     .btn.py-4.hover-primary {
-        border-left: 6px solid transparent;
-        transition: $btn-transition;
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
             color: $dark !important;
-            border-left-color: $primary;
+            border-left-width: 6px;
             i {
                 color: $dark !important;
             }
@@ -132,10 +134,10 @@ main {
         }
     }
     .card {
-        border-left: 6px solid $light;
-        transition: $btn-transition;
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
-            border-left-color: $primary;
+            border-left-width: 6px;
         }
 
         .card-header {
@@ -149,6 +151,9 @@ main {
         }
         button {
             background-color: $white;
+        }
+        .card-footer {
+            padding-top: 0;
         }
     }
 }
@@ -216,11 +221,10 @@ main {
     }
 
     .card {
-        border-left: 6px solid $white;
-        border-right: 6px solid $white;
-        transition: $btn-transition;
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
-            border-left-color: $primary;
+            border-left-width: 6px;
         }
 
         .card-img-top {
