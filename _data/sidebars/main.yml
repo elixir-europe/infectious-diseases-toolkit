@@ -95,6 +95,8 @@ subitems:
         url:  /showcase/korogenoest
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
+      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
+        url:  /showcase/korogenoest
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg
