@@ -1,6 +1,6 @@
 /*-----General styling-----*/
 
-$card-slide-transition: border-width .15s ease-in;
+$card-slide-transition: border-width .15s ease-in, margin-right .15s ease-in;
 
 main {
     h1 {
@@ -49,6 +49,7 @@ main {
         &:hover {
             color: $dark !important;
             border-left-width: 6px;
+            margin-right: -6px;
             i {
                 color: $dark !important;
             }
@@ -125,6 +126,7 @@ main {
         &:hover {
             color: $dark !important;
             border-left-width: 6px;
+            margin-right: -6px;
             i {
                 color: $dark !important;
             }
@@ -138,6 +140,7 @@ main {
         transition: $card-slide-transition;
         &:hover {
             border-left-width: 6px;
+            margin-right: -6px;
         }
 
         .card-header {
@@ -225,6 +228,7 @@ main {
         transition: $card-slide-transition;
         &:hover {
             border-left-width: 6px;
+            margin-right: -6px;
         }
 
         .card-img-top {
