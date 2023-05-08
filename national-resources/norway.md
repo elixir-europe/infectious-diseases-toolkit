@@ -61,7 +61,7 @@ national_resources:
 
   - name: Folkehelseinstituttet (FHI)
     description: Norwegian Institute of Public Health (NIPH) portal for infectious disease information
-    how_to_access: Open Access
+    how_to_access:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
