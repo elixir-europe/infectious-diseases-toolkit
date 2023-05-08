@@ -46,7 +46,7 @@ training:
 national_resources: 
   - name: SARS-CoV-2 Database
     description: Norwegian SARS-CoV-2 database
-    how_to_access: Open for everyone
+    how_to_access:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
