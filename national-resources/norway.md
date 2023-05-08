@@ -205,7 +205,7 @@ national_resources:
 
   - name: Nasjonalt senter for e-helseforskning
     description: Norwegian Centre for e-Health Research
-    how_to_access: Open to everyone
+    how_to_access:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
