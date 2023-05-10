@@ -124,8 +124,7 @@ Katarina Öjefors Stark:
     git: KatarinaOjeforsStark
     affiliation: SciLifeLab / Uppsala University 
 Diana Pilvar:
-#    git: github id
-#    email: email adress
-#    orcid: ocrid id
-#    role: the role of the contributor
-#    affiliation: affiliation
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
