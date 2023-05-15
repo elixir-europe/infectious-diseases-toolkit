@@ -92,7 +92,6 @@ In Galaxy ENA uploader metadata checklist (ERC000033) was marked and the filled-
 
 As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded to ENA. The majority were sequenced during the KoroGeno-EST studies (14 251), complemented by 9978 successfully sequenced samples from ECDC. 
 
-The KoroGeno-EST studies were conducted in cooperation with the University of Tartu, the Estonian Health Board and SYNLAB Eesti OÜ during 2021-2022. The study was approved by Research Ethics Committee of the University of Tartu. The [KoroGeno-EST-3 and KoroGeno-EST-2022 projects](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) were financed by the Republic of Estonia's Ministry of Education and Research.
 
 ## Considerations in Estonia
 
