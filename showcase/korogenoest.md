@@ -61,7 +61,7 @@ The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hos
 
 ## Generating custom reports
 
-Based on the report templates provided by the ECDC, reports were filled in automatically  based on the sequencing results. These reports included variants of concern (VoCs), specific set of mutations or deletions defined by the ECDC that changed over time. Similar reports were also generated for the Health Board to consult the Government.
+Based on the templates provided by the ECDC, reports were filled in automatically  based on the sequencing results. These reports included variants of concern (VoCs), specific set of mutations or deletions defined by the ECDC that changed over time. Similar reports were also generated for the Health Board to inform the Government.
 
 ## Dashboards
 
