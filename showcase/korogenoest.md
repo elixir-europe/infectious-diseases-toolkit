@@ -114,7 +114,10 @@ As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded t
 - [European Nucleotide Archive Quick tour by EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/)
 - [Example metadata template ERC000033](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx )
 
-## Team members of KoroGeno-Est
+## Acknowledgements
+The study was approved by Research Ethics Committee of the University of Tartu. 
+
+### Team members of KoroGeno-Est
 Core team at University of Tartu:
 Virology and epidemiology: Kristi Huik (main coordinator of the project); Aare Abroi, Irja Lutsar, Radko Avi, Merit Pauskar, Taavi Päll, Arina Shablinskaja, Kai Truusalu, Dagmar Hoidmets, Ene-Ly Jõgeda, Eveli Kallas, Katrin Kaarna (project management)
 Sequencing: Tuuli Reisberg (coordinator of sequencing), Mait Metspalu, Lili Milani, Steven Smit
