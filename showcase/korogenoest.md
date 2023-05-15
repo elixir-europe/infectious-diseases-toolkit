@@ -90,7 +90,7 @@ All the sequenced raw reads results were uploaded to the University of Tartu Gal
 
 In Galaxy ENA uploader metadata checklist (ERC000033) was marked and the filled-out template. The runs input format was selected from a paired collection (that was human sequence free), an affiliation center was added, and the ENA upload tool was run.
 
-As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded to ENA. The majority were sequenced during the KoroGeno-EST studies (14 251), complemented by 9978 successfully sequenced samples from ECDC. 
+As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded to ENA. The majority were sequenced during the KoroGeno-EST studies (14251), complemented by 9978 successfully sequenced samples from ECDC. 
 
 
 ## Considerations in Estonia
