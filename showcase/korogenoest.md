@@ -53,7 +53,7 @@ The metadata was semi-automatically cleaned and automatically standardised by cu
 
 Since May 2021 the samples moved from SYNLAB Eesti and hospitals laboratories directly to the University of Tartu Genome Centre Core lab who carried out the sequencing using Illumina NextSeq sequencer. Before, the samples were manually picked out from all the positive tests at the University of Tatu. Based on the sample information and original location on the laboratory plates the automatic pipeline generated the 96-well plate layouts needed to carry out the sequencing.
 
-The sequencing was carried out using [Arctic3](https://www.protocols.io/view/covid-19-artic-v3-illumina-library-construction-an-j8nlke665l5r/v5) and later [Arctic4](https://www.protocols.io/view/covid-19-artic-v4-1-illumina-library-construction-j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://www.protocols.io/view/nebnext-artic-protocols-collection-rm7vz3rxrgx1/v1T) protocols were tested out. 
+The sequencing was carried out using [Arctic3](https://dx.doi.org/10.17504/protocols.io.bibtkann) and later [Arctic4](https://dx.doi.org/10.17504/protocols.io.j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://dx.doi.org/10.17504/protocols.io.bw2apgae) protocols were tested out. 
 
 The raw sequences were initially analysed by the Illumina Dragen pipeline but was moved soon to the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  
 
