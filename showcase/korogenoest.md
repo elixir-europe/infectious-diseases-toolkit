@@ -86,7 +86,7 @@ Out of the three different raw sequencing data uploading ways, Estonia used the 
 " %}
 
 
-All the sequenced raw reads results were uploaded to the University of Tartu Galaxy instance. From there the data manager selected a batch and successfully sequenced samples into a working collection. Forward and reverse sequences were paired up and run through the workflow of dehumanisation of raw sequence reads (uses Metagen-FastQC). 
+All the sequenced raw reads results were uploaded to the University of Tartu Galaxy instance. From there the data manager selected a batch and successfully sequenced samples into a working collection. Forward and reverse sequences were paired up and run through the workflow for removal of traces of human genetic information from the raw sequence reads (uses [Metagen-FastQC](https://github.com/Finn-Lab/Metagen-FastQC)). 
 
 In Galaxy ENA uploader metadata checklist (ERC000033) was marked and the filled-out template. The runs input format was selected from a paired collection (that was human sequence free), an affiliation center was added, and the ENA upload tool was run.
 
