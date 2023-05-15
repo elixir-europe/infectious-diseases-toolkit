@@ -45,7 +45,7 @@ In general, the samples were carefully selected to ensure representation of the 
 
 In addition to sequencing carried out in Estonia, samples were also sent to ECDC. The metadata for these samples followed the same pipeline as above. But the sequences were downloaded from dedicated ECDC websites and bioinformatically processed the same manner as the samples sequenced in Estonia.
 
-### Metadata cleaning and standardised
+### Metadata cleaning and standardisation
 The metadata was semi-automatically cleaned and automatically standardised by custom-developed Python scripts. The following metadata types were cleaned and standardised -  age, age group, county, region of country, symptom onset date, place of infection,  vaccine producer and dose  (all applies to data being available).
 
 
