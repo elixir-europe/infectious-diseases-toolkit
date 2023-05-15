@@ -4,7 +4,7 @@ contributors: [Diana Pilvar, Hedi Peterson]
 description: Full-genomic sequencing and analysis of SARS-CoV-2 strains in Estonia during 2021-2022.
 affiliations: [University of Tartu, Republic of Estonia Health Board, EE]
 related_pages:
-  showcase: [COVID19GalaxyProject]
+  showcase: [covid19_galaxy_project]
 page_id: korogenoest 
 ---
 
