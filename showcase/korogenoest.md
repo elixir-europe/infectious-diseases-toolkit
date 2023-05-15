@@ -33,7 +33,7 @@ In addition, the study identified the prevalence of variants associated with hig
 
 ## Metadata and sample acquisition
 
-Throughout most of the pandemic, SYNLAB Eesti testing sites in Estonia provided free SARS-CoV-2 PCR testing for all individuals living in the country. The free testing stopped for general population in May 2022 and for risk groups in November 2022. Self-paid testing has been available since 2020.
+Throughout most of the pandemic, SYNLAB Eesti testing sites in Estonia provided free SARS-CoV-2 PCR testing for all individuals living in the country. Free testing was discontinued for general population in May 2022 and for risk groups in November 2022. Self-paid testing has been available since 2020.
 
 ### Sample metadata
 Initially, at the beginning of the pandemic, all persons testing positive were contacted by the Health Board authorities and asked to provide details of their recent travels, family and work situation, in addition to more standard metadata of age, gender and place of living. This type of data collection was ongoing till spring 2022, after which only more general metadata was collected (gender, age, county). Once vaccination was made available to the public in spring 2021, also vaccination information was first self-reported, and later data including information on hospitalisation was systematically obtained from the [Health and Welfare Information Systems Centre](https://www.tehik.ee). In addition hospitalisation information was provided by the Health Board who obtained it from TEHIK.
