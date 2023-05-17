@@ -73,7 +73,8 @@ The database included all metadata provided for the samples, sequencing outcomes
 To carry out visual inspections as part of the quality control of the sequencing outcomes, mutation and Ct value plots were included for each sequenced plate. In all the dashboards, users could select if they wanted to include data only sequenced in Estonia, by ECDC or both. 
 
 ### Public dashboards
-In addition to the access restricted dashboards, public data on the clades, percentage of all positive samples in Estonia been sequenced and clade distribution across counties, regions and age groups were made available and regularly updated at the [Estonian COVID19Dataportal](https://covid19dataportal.ee/genomics_transcriptomics/).  In order to illustrate the virus evolution a public [Nextstrain Auspiece](https://auspice.biit.cs.ut.ee/ncov/est) instance was set up. In regular time intervals, all samples were rerun to obtain the latest lineage annotations.
+In addition to the access restricted dashboards, a regularly updated [Estonian COVID19Dataportal](https://covid19dataportal.ee/genomics_transcriptomics/) public dashboard was also deployed. It gave an overview of clade distribution across counties, regions and age groups, alongside the percentage of all positive samples that have been sequenced in Estonia. 
+In order to illustrate the virus evolution a public [Nextstrain Auspiece](https://auspice.biit.cs.ut.ee/ncov/est) instance was set up. In regular time intervals, all existing samples were rerun to obtain the latest lineage annotations.
 
 ## Data brokering to ENA 
 
