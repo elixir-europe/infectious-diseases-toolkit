@@ -55,7 +55,7 @@ Since May 2021 the samples moved from SYNLAB Eesti and hospitals laboratories di
 
 The sequencing was carried out using [Arctic3](https://dx.doi.org/10.17504/protocols.io.bibtkann) and later [Arctic4](https://dx.doi.org/10.17504/protocols.io.j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://dx.doi.org/10.17504/protocols.io.bw2apgae) protocols were tested out. 
 
-The raw sequences were initially analysed by the Illumina Dragen pipeline but was moved soon to the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  
+The raw sequences were initially analysed by the Illumina Dragen pipeline at the University of Tartu Genome Centre Core lab, then in parallel analysed with the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier and eventually only analysed by the Galaxy workflow. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  
 
 The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hosted by the [ETAIS](https://etais.ee/) at the [University of Tartu HPC](https://hpc.ut.ee/). All the identified information on the samples was automatically fetched from the dedicated Galaxy address to the GitLab repository and merged with the rest of the metadata about the samples.
 
