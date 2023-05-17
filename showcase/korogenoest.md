@@ -100,7 +100,7 @@ As of March 2023, over 23 000 Estonian SARS-CoV-2 sequences have been uploaded t
 - e-Estonia and the X-road (e-Identity, e-Health Records, e-Governance) infrastructure allows easy data linking across data sources using the personal identification number.
 - There has been previous studies and cooperation between the Health Board and the University of Tartu in virus monitoring (HIV, Flu)
 - There were no additional local laws restraining the study
-- While the code of the dashboards, data handling is not publicly available the team is happy to consult researchers facing similar situation in the future. The best way is to send an email to [ELIXIR-Estonia](elixir@ut.ee).  The original [Galaxy workflows](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) adapted and used are publicly available. 
+- While the code of the dashboards and data handling is not publicly available, the team is happy to consult researchers facing similar challenges. The best way is to send an email to [ELIXIR-Estonia](elixir@ut.ee).  Estonia adapted and used the original publicly available [Galaxy workflows](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) COVID-19: consensus construction, COVID-19: variation analysis on ARTIC PE data, COVID-19: variation analysis reporting.
 
 ## External links to resources relevant to the KoroGeno-Est showcase
 
