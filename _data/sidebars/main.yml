@@ -101,6 +101,8 @@ subitems:
     subitems:
       - title: Sweden
         url: /national-resources/sweden
+      - title: Switzerland
+        url: /national-resources/switzerland
 
   - title: Tools and resources list
     hr: true
