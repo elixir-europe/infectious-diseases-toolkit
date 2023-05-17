@@ -84,6 +84,7 @@ main {
         margin-top: $spacer;
         li {
             a {
+                margin-bottom: 0!important;
                 border-left: 4px solid $sidebar-bg;
                 &:hover {
                     border-left-color: $primary !important;
