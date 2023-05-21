@@ -1,7 +1,7 @@
 ---
 title: Switzerland
 country_code: CH
-contributors: [Aitana Neves, Patricia M. Palagi] 
+contributors: [Aitana Neves, Patricia Palagi] 
 coordinators: [Aitana Neves]
 ---
 
