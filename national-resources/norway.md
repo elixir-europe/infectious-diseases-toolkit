@@ -162,7 +162,7 @@ There are multiple national research projects focused on pathogenomics to benefi
 * [PathoSeq](https://nofima.com/projects/pathoseq/), a project on sequencing pathogenic bacteria for food safety. More information is available on the [University of Oslo PathoSeq page](https://www.jus.uio.no/ifp/english/research/projects/nrccl/pathoseq/).
 * [Interdisciplinary Forum for Research on Antimicrobial resistance (INFRA)](https://www.med.uio.no/she/english/network/INFRA/index.html), University of Oslo
 * [The Antibiotic Centre for Primary Care](https://www.med.uio.no/helsam/english/research/groups/general-practice-medicine/asp/), University of Oslo
-* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance. [Project indexed on CRIStin](https://app.cristin.no/projects/show.jsf?id=680980)
+* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=680980)
 
 ### Institutional initiatives on epidemic/pandemic research
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
