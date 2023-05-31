@@ -148,7 +148,7 @@ national_resources:
   - name: NeLS
     description: Norwegian e-infrastructure for Life Sciences is a national portal for sharing, analysis, and mid-term storage of non-sensitive molecular life science data.
     how_to_access: Individuals with funding from a Norwegian funder or a project at a university can get access through Feide or through an application (for collaborators).
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    instance_of:
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:
