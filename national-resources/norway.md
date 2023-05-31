@@ -1,7 +1,7 @@
 ---
 title: Norway
 country_code: "NO"
-contributors: [Erin Calhoun, Nazeefa Fatima]
+contributors: [Erin Calhoun, Nazeefa Fatima, Korbinian Bösl]
 coordinators: [Erin Calhoun, Nazeefa Fatima]
 # Link to other pages in the showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website-overview 
@@ -46,7 +46,7 @@ training:
 national_resources: 
   - name: SARS-CoV-2 Database
     description: Norwegian SARS-CoV-2 database
-    how_to_access: Open for everyone
+    how_to_access:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
@@ -61,7 +61,7 @@ national_resources:
 
   - name: Folkehelseinstituttet (FHI)
     description: Norwegian Institute of Public Health (NIPH) portal for infectious disease information
-    how_to_access: Open Access
+    how_to_access:
     instance_of: 
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
@@ -89,7 +89,7 @@ national_resources:
 
   - name: RDMkit’s national resources page for Norway
     description: RDMkit page on Norway’s RDM guidelines and resources for life scientists
-    how_to_access: Open Access
+    how_to_access:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
@@ -119,7 +119,7 @@ national_resources:
   - name: Tjenester for Sensitive Data (TSD)
     description: Services for sensitive data, a platform for researchers to collect, store, and analyze sensitive research data
     how_to_access: Application (registration requires a minID login)
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    instance_of:
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:
@@ -132,8 +132,8 @@ national_resources:
 
   - name: Norway’s Tool Assembly about sensitive data service (TSD)
     description: Tool Assembly RDMkit Page on TSD
-    how_to_access: Open to everyone
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    how_to_access:
+    instance_of:
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:
@@ -148,7 +148,7 @@ national_resources:
   - name: NeLS
     description: Norwegian e-infrastructure for Life Sciences is a national portal for sharing, analysis, and mid-term storage of non-sensitive molecular life science data.
     how_to_access: Individuals with funding from a Norwegian funder or a project at a university can get access through Feide or through an application (for collaborators).
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    instance_of:
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:
@@ -177,8 +177,8 @@ national_resources:
 
   - name: Helsedirektoratet
     description: Norwegian directorate of health
-    how_to_access: Open to everyone
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    how_to_access:
+    instance_of:
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:
@@ -205,7 +205,7 @@ national_resources:
 
   - name: Nasjonalt senter for e-helseforskning
     description: Norwegian Centre for e-Health Research
-    how_to_access: Open to everyone
+    how_to_access:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
@@ -335,17 +335,19 @@ When it comes to scientific research, [Norges Forskningsråd (Research Council o
 * [Norwegian Society for Medical Microbiology (Norsk forening for medisinsk mikrobiologi (NFMM)](https://www.legeforeningen.no/foreningsledd/fagmed/norsk-forening-for-medisinsk-mikrobiologi/) is a national association to bring together experts from medical microbiology fields for knowledge-exchange. NFMM also provides a [database of clinical laboratories that take care of infectious disease, pathogen, and related sampling](https://www.legeforeningen.no/foreningsledd/fagmed/norsk-forening-for-medisinsk-mikrobiologi/fag/kliniske-laboratorier-i-norge/).
 
 ### Institutional initiatives on antimicrobial resistance (AMR)
-There are national research projects focused towards pathogenomics to help improve agriculture, food, public health, environment, and biodiversity in Norway. Also, higher education institutions and industrial organisations have forums and research centres dedicated to addressing the topics of antimicrobial resistance and pandemic preparedness.
+There are multiple national research projects focused on pathogenomics to benefit agriculture, food, public health, environment, and biodiversity in Norway. Also, higher education institutions and industrial organisations have forums and research centres dedicated to addressing the topics of antimicrobial resistance and pandemic preparedness:
 * [PathoSeq](https://nofima.com/projects/pathoseq/), a project on sequencing pathogenic bacteria for food safety. More information is available on the [University of Oslo PathoSeq page](https://www.jus.uio.no/ifp/english/research/projects/nrccl/pathoseq/).
 * [Interdisciplinary Forum for Research on Antimicrobial resistance (INFRA)](https://www.med.uio.no/she/english/network/INFRA/index.html), University of Oslo
 * [The Antibiotic Centre for Primary Care](https://www.med.uio.no/helsam/english/research/groups/general-practice-medicine/asp/), University of Oslo
-* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=680980)
+* The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance. [Project indexed on CRIStin](https://app.cristin.no/projects/show.jsf?id=680980)
 
 ### Institutional initiatives on epidemic/pandemic research
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
 * [Centre for Epidemic Interventions Research (CEIR)](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
 
-In addition to national and municipality-level efforts, Norway has also been involved in international initiatives to help address infectious disease control and contribute to research in the field.
+In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field. This includes:
+* [OneHealth](https://www.fhi.no/en/id/infectious-diseases/smitte-fra-mat-vann-og-dyr/flere-artikler/the-largest-ever-health-project-funded-from-the-eus-horizon-2020/)
+* [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/). 
 * Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
-* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research
+* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research.
