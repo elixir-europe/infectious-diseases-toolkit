@@ -333,4 +333,4 @@ In addition to national and municipality-level efforts, Norway has also been inv
 * [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/). 
 * Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
-* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research
+* [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research.
