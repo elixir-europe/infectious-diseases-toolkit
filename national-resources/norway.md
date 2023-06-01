@@ -71,8 +71,8 @@ Several governmental organisations collaborate with FHI to monitor pathogenic da
 * [The Norwegian Food Safety Authority](https://www.mattilsynet.no/language/english/) (Mattilsynet) works towards ensuring the safety of food and drinking water in Norway.
 * [The Norwegian Medicines Agency](https://legemiddelverket.no/English) (Legemiddelverket) regulates and supervises medicine, medical devices, and clinical trials in Norway.
 In addition to the national-level health authorities and agencies, there are regional/municipality-level efforts taking place across hospitals in Norway to combat infectious diseases:
-* [Norwegian National Advisory Unit on Tropical Infectious Diseases](https://helse-bergen.no/nasjonal-kompetansetjeneste-for-tropiske-infeksjonssykdommer/norwegian-national-advisory-unit-on-tropical-infectious-diseases)
-*  [The Influenza Centre: Research, Prevention, and Control of Influenza](https://www.influensasenteret.no/)
+* The [Norwegian National Advisory Unit on Tropical Infectious Diseases](https://helse-bergen.no/nasjonal-kompetansetjeneste-for-tropiske-infeksjonssykdommer/norwegian-national-advisory-unit-on-tropical-infectious-diseases) contributes to tropical infectious disease research, standards, and training. They are responsible for reporting on and mapping imported tropical infectious diseases as part of a larger European network.
+*  [The Influenza Centre for Western Norway](https://www.influensasenteret.no/) focuses on development and evaluation of influensa vaccines as well as characterisation of immune responses after vaccination and infection. In 2020, they expanded their research to cover the COVID-19 outbreak and vaccine development. The Influenza Centre for Western Norway (Influensasenteret) is a collaboration between FHI, the University of Bergen, and Haukeland University Hospital 
 
 Norway has four regional health authorities:
 * [Helse Nord](https://helse-nord.no/)
