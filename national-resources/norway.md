@@ -106,7 +106,7 @@ You will find information on other surveillance systems and databases under the 
 * [Overview of Norwegian Environment Agency reports on antimicrobial resistance in nature](https://www.miljodirektoratet.no/aktuelt/nyheter/2018/mars-2018/har-kartlagt-antibiotikaresistens-i-norsk-natur/) (in Norwegian)
 * The [NORM/NORM-VET report on antimicrobial use and resistance in Norway (2012)](https://unn.no/Documents/Kompetansetjenester,%20-sentre%20og%20fagr%C3%A5d/NORM%20-%20Norsk%20overv%C3%A5kingssystem%20for%20antibiotikaresistens%20hos%20mikrober/Rapporter/NORM%20NORM-VET%202021.pdf) (in PDF).
 
-## Dashboards and visualization platforms
+## Dashboards and visualisation platforms
 Several national registries, involved in tracking infectious disease cases, have their own dashboards for viewing data. All these platforms are available in Norwegian only:
 
 * Norwegian Immunisation Registry (SYSVAK) for [COVID-19](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=COVID_19&fordeltPaa=maaned) and [influensa](https://statistikk.fhi.no/sysvak/antall-vaksinerte?etter=diagnose&diagnose=INFLUENSA&fordeltPaa=maaned) vaccinations.
