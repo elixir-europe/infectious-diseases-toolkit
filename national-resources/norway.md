@@ -117,21 +117,21 @@ Several national registries involved in tracking infectious disease cases have t
 
 ## National data sources
 <!--- A section to list and provide context to national data sources. In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
-The FHI operates three national electronic reporting systems that are involved in surveillance of infectious diseases. Healthcare providers and laboratories use the following three systems to register cases, allowing health authorities to access data in real-time.
+The FHI operates following national electronic reporting systems that are involved in surveillance of infectious diseases. Healthcare providers and laboratories use these systems to register cases, allowing health authorities to access data in real-time.
 
-### Norwegian Surveillance System for Communicable Diseases (MSIS)
+- **Norwegian Surveillance System for Communicable Diseases (MSIS)** <br>
 [MSIS](https://www.fhi.no/en/hn/health-registries/msis/) collects data on infectious diseases in Norway. The registry provides a comprehensive overview of the incidence, distribution, and trends of infectious diseases. FHI uses the data to monitor disease outbreaks, identify emerging threats, and evaluate the effectiveness of infectious disease control measures.
 
-### Norwegian Surveillance System for Antibiotic Use and Hospital-Acquired Infections (NOIS)
-[NOIS](https://www.fhi.no/hn/helseregistre-og-registre/nois/) (in Norwegian) monitors the occurrence of hospital-acquired infections and tracks the use of antibiotics within Norwegian health services. Public health authorities use the registry to identify areas of concern within infection control measures to limit the spread of infections and the development of antibiotic-resistant bacteria.
+- **Norwegian Surveillance System for Antibiotic Use and Hospital-Acquired Infections (NOIS)** <br>
+[NOIS](https://www.fhi.no/hn/helseregistre-og-registre/nois/) (webpage in Norwegian) monitors the occurrence of hospital-acquired infections and tracks the use of antibiotics within Norwegian health services. Public health authorities use the registry to identify areas of concern within infection control measures to limit the spread of infections and the development of antibiotic-resistant bacteria.
 
-### Norwegian Surveillance System for Viral Resistance (RAVN)
+- **Norwegian Surveillance System for Viral Resistance (RAVN)** <br>
 [RAVN](https://www.fhi.no/en/hn/health-registries/norwegian-surveillance-system-for-virus-resistance-ravn/) tracks antiviral resistance to viruses that present a significant public health concern in Norway. Healthcare providers and local microbiological laboratories submit both suspected and confirmed cases for genotypic analysis and phenotypic resistance testing, typically at national reference laboratories.
 
-### Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM)
+- **Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM)** <br>
 [NORM](https://www.fhi.no/en/hn/health-registries/norm/) monitors antimicrobial resistance (AMR) incidences in humans over time. Its partner project NORM-VET tracks AMR in animals, food, and animal feed.
 
-As the Norwegian node for the European Antimicrobial Resistance Surveillance Network, the University Hospital of North Norway (UNN) operates a national health registry that collects and processes AMR data. FHI manages data handling. To access the data, you need to print out and mail in an [application available on UNN’s website](https://unn.no/fag-og-forskning/norm-norsk-overvakingssystem-for-antibiotikaresistens-hos-mikrober#forskning). Available in Norwegian only.
+As the Norwegian node for the European Antimicrobial Resistance Surveillance Network, the University Hospital of North Norway (UNN) operates a national health registry that collects and processes AMR data. FHI manages data handling. To access the data, you need to print out and mail an [application available on UNN’s website](https://unn.no/fag-og-forskning/norm-norsk-overvakingssystem-for-antibiotikaresistens-hos-mikrober#forskning) - available in Norwegian only.
 
 ### Data Access to the Registries
 Since the registries contain data that can potentially be linked to individuals, you have to apply for access. Applications are free for students (up to master’s level) who want to access anonymous aggregated data. Access to other types of data, including access to personally identifiable data [is subject to a fee](https://helsedata.no/no/priser). The [Health Data Service (Helsedataservice)](https://helsedata.no/en/) at the Norwegian Directorate of e-Health handles the applications.
