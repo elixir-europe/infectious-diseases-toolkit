@@ -1,35 +1,42 @@
 ---
-Title: Data description
-Description: Short description of the page
-Contributors:
+title: Data description
+description: Finding (meta)data standards and documentation
+contributors:
   - Wolmar Nyberg Åkerström
   - Zahra Waheed
   - Liane Hughes
   - Flora D'Anna
+  - Patricia Palagi
+  - Wolfgang Maier
   - Diana Pilvar
-Page_id: pc_data_description
+page_id: pc_data_description
 rdmkit:
   - name: "Your tasks: Documentation and metadata"
     url: https://rdmkit.elixir-europe.org/metadata_management
   - name: Human Pathogen Genomics
     url: https://rdmkit.elixir-europe.org/human_pathogen_genomics
-related_pages:
-showcase: []
-human_biomolecular_data: []
-human_clinical_and_health_data: []
-socioeconomic_data: []
-pathogen_characterisation: []
-Training:
+related_pages: 
+  showcase: []
+  human_biomolecular_data: []
+  human_clinical_and_health_data: []
+  socioeconomic_data: []
+  pathogen_characterisation: []
+training:
   - name:
     registry: 
     url:
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
+<!-- Content has been transferred an revised from the IDTk Contentathon Google Document:  https://docs.google.com/document/d/1fWpj-ti13wYsm1yCzn3Fsj1AbC-k4ePCO0Sk7K-HjuQ/edit -->
+<!-- See also the associated pull request for IDTk:   https://github.com/elixir-europe/infectious-diseases-toolkit/issues/151 -->
+<!-- See also the associated GitHub pages:   https://pari-neic.github.io/infectious-diseases-toolkit/pathogen-characterisation/data-description -->
+
 ## Introduction 
 It is very important that data is adequately described in order for others to be able to make use of it and to promote reproducibility. For general information on the importance of data description, please see [the documentation and metadata section of RDMkit](https://rdmkit.elixir-europe.org/metadata_management).
 
 There are many different types of data that relate to pathogen characterisation. This may include, for example, descriptions of biological specimens, of the protocols used in data collection, and/or genomic data. The information on this page is intended to show you what you should consider when describing different types of data related to pathogen characterisation. It should enable you to understand how to share your data with sufficient description to enable reuse.
 ## Good practices for describing data in general
-You should always plan your study with data sharing in mind. Identifying the information necessary for effective data sharing will allow you to generate documentation that is both well structured and complete.  . Describing the data entails extracting the information, recording it according to existing best practice guidelines and standards, and extending descriptions where needed. 
+You should always plan your study with data sharing in mind. Identifying the information necessary for effective data sharing will allow you to generate documentation that is both well structured and complete. Describing the data entails extracting the information, recording it according to existing best practice guidelines and standards, and extending descriptions where needed. 
 
 ### Considerations
 When defining a general data description strategy, it is important to consult relevant guidelines and adopt accepted standards.
