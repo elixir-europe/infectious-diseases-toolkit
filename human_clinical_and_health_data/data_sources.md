@@ -1,83 +1,142 @@
 ---
 title: Data sources
 description: Finding and sharing data from human clinical and health data related data sources.
-contributors: [Iris Van Dam]
+contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero]
 page_id: hchd_data_sources
-rdmkit:
-  - name: <!---Your domain - Human data--->
-    url: <!---https://rdmkit.elixir-europe.org/human_data--->
+affiliations: Sciensano, European Genome-phenome Archive (EGA) / EMBL-EBI
 related_pages: 
-  showcase: []
-  human_biomolecular_data: []
-  human_clinical_and_health_data: []
-  social_and_economic_impact: []
-  pathogen_characterisation: []
+  human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
+  human_clinical_and_health_data: [hchd_data_analysis]
 training:
   - name:
     registry:
     url:
+rdmkit:
+  - name: Why are the FAIR principles needed?
+    url: https://rdmkit.elixir-europe.org/about#why-are-the-fair-principles-needed
+  - name: Sharing and reusing of human data
+    url: https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data
+  - name: Identifiers
+    url: https://rdmkit.elixir-europe.org/identifiers
+faircookbook:
+  - name:
+    url:
+fairsharing:
+  - name: European Genome-phenome Archive (EGA)
+    url: https://fairsharing.org/FAIRsharing.mya1ff
+  - name: European Nucleotide Archive (ENA)
+    url: https://fairsharing.org/FAIRsharing.dj8nt8
+  - name: European Health Information Portal
+    url: https://doi.org/10.25504/FAIRsharing.8690f1
+
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
 
 ## Introduction
 
-Human clinical and health data comprise all data related to the health of an individual or population. Most often, these data are produced when an individual interacts with the health care system by going to the doctor, being hospitalized or buying medication at the pharmacy. 
-These data are beneficial at individual level, but may also benefit the broader population: 
-* When health data are used to treat the individual of which the data were collected, this is called the primary use of health data. 
-* When health data are used outside the primary care of the individual, the term secondary use of health data is applied. 
+Within the context of infectious diseases, human clinical and health data are often collected in the context of syndromic surveillance. This data is indispensable to make decisions regarding health and management of infectious diseases. As such, it is crucial to know where to find, submit and access it in order to eventually transform the data into usable information and knowledge. 
 
-The latter is especially important for adequate policy responses during (future) infectious disease outbreaks and to take well informed public health measures when and where necessary.
+If this is what you are looking for, look no further!
 
-## What is considered as human clinical and health data?
+## Finding (meta)data
 
-Health data can be defined as ‘Personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status’ ([HealthyCloud Glossary](https://doi.org/10.5281/zenodo.6787119)). Health data include environmental, socioeconomic, and behavioral information that affect the health and wellbeing of an individual as well as clinical data. The latter comprises clinical reports and individual patient data which are collected during the ongoing care of a patient or throughout clinical trial programs ([EMA Europe] (https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/external-guidance-implementation-european-medicines-agency-policy-publication-clinical-data_en-3.pdf); [Data Resources in the Health Sciences](https://guides.lib.uw.edu/hsl/data/findclin)).
+As human clinical and health data encompasses personal data that is potentially sensitive, it requires stringent security measures for its storage, access and distribution. These are often put in place by dedicated controlled access data (CAD) repositories. In many cases, the data cannot leave the original facilities (e.g. hospitals or national institutes of health) due to national requirements that guarantee privacy and security.
 
-Based on how the data are collected, a range of different data sources can be identified, such as:
-* Lab/Biomarkers data 
-* Mortality data
-* Pharmacy data
-* Hospital data
-* Claims data
-* Survey data 
-* Electronic medical and health records
-* Disease registries
-* Consumer data
-
-## Topic 1 
-
-<!--- Subsection related to a specific topic related to the data sources of the category that you selected.--->
-
-Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected.
+The organisation of human clinical and health data can vary across countries due to differences in national laws, regulations, and healthcare systems. This can make it challenging to find and access the data. However, there are some commonalities in how data is organised and managed across Europe.
+* Electronic health records: most European countries have implemented some form of electronic health records to store patient health data. These typically include patient demographics and medical information such as diagnoses, medications, treatment plans, immunisation dates, allergies, radiology images, and laboratory and test results. Electronic health records can be accessed by authorised healthcare professionals and are used to support clinical decision-making and continuity of care. For researchers outside of the health system it can be rather challenging to find and gain access to these records.
+* Health data repositories: in some countries, national or regional health data repositories have been established to aggregate electronic health records across multiple sources. For example, in Sweden, [the National Patient Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-patient-register/) collects data from all healthcare providers in the country; while in the UK, [the National Health Service (NHS) Digital](https://digital.nhs.uk/) collects data from various healthcare settings. However, in many countries these types of registries are not yet in place.
+* Health research databases: in a few countries, national health research databases have been established to support scientific research. These databases typically include de-identified data from large patient populations.
+* Data protection laws: all countries within the European Union are subject to the [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj), which establishes strict standards for data privacy and protection. European countries however have different interpretations of the GDPR and different national regulations on health and research data, adding complexity on how health data can be collected, stored, and shared. For example, across European member states, some countries have sectoral laws concerning the release of patient data for research purposes while others do not (e.g. Romania, Slovakia and Sweden). Countries in turn also have a different legal basis that they rely upon for the secondary use of health data for research by third-party public-sector researchers (e.g. Explicit Consent; Broad consent as defined in national legislation or no specific legislation). Also within a country the different definitions and interpretations can form a barrier. For example, in Germany there are Data Protection Authorities (DPAs) in each region as well as at a national level which have different definitions of the secondary use of health data. An in-depth overview of the country differences can be found in the report on [‘Assessment of the EU Member States’ rules on health data in the light of GDPR’](https://op.europa.eu/s/yLde).
+* Cross-border health data exchange: The European Union is working to establish a common framework for cross-border exchange of health data: [The European Health Data Space (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en). This initiative aims to facilitate the exchange of health data across borders while ensuring data protection and privacy. The EHDS will include a set of technical standards and protocols to enable interoperability of health data across Europe. Currently the European Genome-phenome Archive (EGA) is expanding into a federation of nodes through the [Federated EGA](https://ega-archive.github.io/FEGA-onboarding/). FEGA enables deposition and distribution of health data that cannot be stored outside of the country of origin.
 
 ### Considerations
 
-Using a bullet point style list format as much as possible, describe the considerations for your topic that are specific to infectious diseases within the category (e.g. pathogen characterisation) that you have selected.
+* When selecting data sources for your research, it is important to consider their **reliability, relevance**, and **completeness**. Are the data sources trustworthy? Are they up-to-date and relevant to the infectious disease in question? Are the data sources complete, or are there gaps that need to be taken into account?
+* **Different data holders for different data sources**
+  * Human clinical and health data are collected as:
+      * Electronic health records
+      * Hospital data
+      * Pharmacy data
+      * Laboratory and test result data
+      * Disease registries
+      * Insurance claim data
+      * Mortality data
+      * Survey data
+      * Consumer data
+  * Depending on how the data are collected, the data can be found across different sources and data holders:
+      * National Institutes of Public Health
+      * Electronic health records at hospitals or other healthcare providers
+      * The World Health Organization
+      * Research data networks and consortia
+* The different organisation of human clinical and health data across European countries:
+  * **Digitalisation**: The level of data digitalisation varies across countries. In some countries the health information has been fully digitalised. In other countries digitalisation is in progress and in others the initial data is still being collected on paper and later digitalised. Nonetheless, COVID19 has been a major driver for digitalisation, especially for specific data types such as mortality and vaccination data.  
+  * **Data centralisation**: in some countries the health information has been stored in a more centralised manner (e.g. Estonia, Finland, Hungary, Portugal and Slovenia). In most member states of the European Union the information however remains fragmented across a range of national and regional data holders with decentralised data management (e.g. Belgium, Czech Republic, Germany, Ireland, Netherlands and Sweden). Some examples of different health data management systems across Europe can be found in the report on [Mapping health data management systems through country visits](https://tehdas.eu/results/member-states-readiness-to-benefit-from-the-ehds-regulation-varies/).
+  * **Private field**: in some countries there is limited data sharing from private healthcare providers (e.g. private hospitals, private health insurance or private laboratories). As a consequence this data is often unfindable and thus inaccessible. For example, during the sequence of COVID outbreaks of 2021, private companies often did not report on the number of COVID tests analysed per day.
+* **Metadata catalogues:**
+As human clinical and health data are organised differently across countries and controlled by different institutes, they can be difficult to find if good metadata are not published. Publicly available metadata catalogues can provide a solution by providing a central place where data users can see what data is available, where it is available, and how they can access it.
 
-Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. 
+### Existing approaches - where to find the data
 
-### Standards, schemas, ontologies and vocabularies 
+Metadata catalogues are important tools for promoting data sharing and reuse in research. They can help researchers and other users discover (and access) data that might otherwise be difficult to find. 
+* [European Genome-phenome Archive (EGA)](https://ega-archive.org/): The European Genome-phenome Archive (EGA) is a service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data generated for the purposes of biomedical research projects or in the context of research-focused healthcare systems. It provides access to a variety of datasets from Europe and beyond.
+* [European Medicines Agency (EMA)](https://www.ema.europa.eu/en): EMA is a regulatory agency responsible for evaluating and approving medicines for use in Europe. It provides access to various databases and reports on clinical trials, adverse drug reactions, and other aspects of drug safety and efficacy.
+* [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en): ECDC collects and analyses data on infectious diseases across Europe. It provides access to various databases and reports on disease outbreaks, surveillance data, and risk assessments.
+* [European Health Information Gateway](https://gateway.euro.who.int/en/): The European Health Information Gateway is a platform that provides access to various health information resources and datasets from across Europe, including data on health systems, health determinants, and health outcomes.
+* [European Clinical Research Infrastructure Network (ECRIN)](https://ecrin.org/): ECRIN is a non-profit organisation that aims to support multinational clinical trials in Europe. ECRIN provides a range of services to help researchers design, conduct, and manage clinical trials across multiple countries. 
+* [European Health Information Portal](https://www.healthinformationportal.eu/): The aim of the Health Information Portal is to provide access to population health and healthcare data across Europe. The portal is a gateway for researchers and policy makers to make use of the services of the [Population Health Information Research Infrastructure (PHIRI)](https://www.phiri.eu/). The portal provides access to various resources and datasets, such as data on health determinants, health outcomes and health systems.
+* [Research Data Centre at the BfArM](https://www.bfarm.de/EN/BfArM/Tasks/Research/_node.html).
+* [Research Health Data Gateway](https://www.enindgangtilsundhedsdata.dk/en) in Denmark. 
+* [The Irish Public Service Data Catalogue](https://datacatalogue.gov.ie/).
+* [Portuguese national health service metadata catalogue](https://transparencia.sns.gov.pt/explore/?sort=modified).
+* [Findata](https://findata.fi/en/).
+* [Health Data Hub in France](https://www.health-data-hub.fr/).
+* [Health Research Data UK](https://www.hdruk.ac.uk/). 
+* [Federated EGA](https://ega-archive.github.io/FEGA-onboarding/).
+* The [GA4GH Beacon project](https://beacon-project.io/).
+* The [Covid19 Data Portal](https://www.covid19dataportal.org/).
+* An overview of additional existing international approaches (not necessarily applicable to Europe) for the sharing and reusing of human data can be found at the [RDMkit](https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data).
 
-<!--- (optional) --->
+## Data access
 
-List of standards, schemas, ontologies and/or vocabularies that are relevant to the resources in this category. Consider having links to the "Data description" page.
-When applicable, consider adding the appropriate FAIRsharing entry to the tools and resources spreadsheet so that they can be listed and appropriately tagged at the end of the page
+As human clinical and health data contain sensitive personal information, they are protected under the GDPR within the European Union, as well as national data protection and ethical legislation in different countries. This means that health data are protected by certain legal rules and requirements. 
 
-### Licenses 
+### Considerations
 
-<!--- (optional) --->
+* **Process for access - figuring out the access procedures**
 
-Under what licenses do the data sources work?
+  Generally, access to sensitive data is  granted on a request basis, that is linked to the secondary purposes (a purpose that is different from the original for which the data were collected) of a specific research project. The research protocol of the research project that is requesting data access is generally evaluated by a research ethics committee (REC) or a Data Protection Agency (DPA).
 
-### Related data sources
+  Currently, the process for accessing human clinical and health data varies widely between countries, and even between data holders within countries, as health data are often fragmented between many data controllers. Nonetheless, some countries have moved towards centralised data access bodies (i.e., a single point of entry for health data). This is important as it can reduce the burden on users to get access to sensitive data by having less heterogeneous procedures. Examples include:
+    * [Findata](https://findata.fi/en/) in Finland
+    * [Health Data Hub](https://www.health-data-hub.fr/) in France
+    * [Health Research Data UK](https://www.hdruk.ac.uk/)
+    
+* **How access is provided**
 
-Using bullet point list style as much as possible, describe when, why and for what purpose a specific data source should be used.
+  Across the European Union, three main data access procedures were identified for the secondary use of health data, as described in the [‘Assessment of the EU Member States’ rules on health data in the light of GDPR’](https://op.europa.eu/s/yLde):
+  * Access is granted after authorisation by research ethics committee (REC) or data protection agency (DPA)
+  * The data controller provides direct access without engagement of an ethics committee or DPA being required
+  * Centralised governance body exists in some form
+Nonetheless, the exact procedure will depend on the nature of the research, on how the data are organised within a country  and on the institute that is doing the research. The personal and sensitive nature of health data in turn can impose further requirements when data are reused for research. For example, to ensure that an individual is not re-identified, data are usually pseudonymised (identifiers are replaced with a pseudonym) or anonymised (removing all identifiers so the individual can no longer be identified). Another method to protect sensitive health data is to only allow processing and analysing data within secure processing environments (SPEs), also known as Trusted Research Environments (TREs).
 
-Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here.
+* **Fees**
 
-Avoid making long lists of links to data sources.
+  Sometimes fees are charged to access data. Generally, these fees are charged to cover work required for any necessary data processing prior to providing access to data users (e.g., if data needs to be pseudonymised or aggregated). In addition, if data are provided within a secure processing environment (SPE) or trusted research environment (TRE), fees may be charged to support the running of the environment. 
 
-The data sources inserted in this section do not have to be considered a 'final' or 'perfect' solution, but should be something that is used by the wider community working in this area or topic.
+### Existing approaches
 
-Make sure to add the data sources mentioned in the text in the main "tools and resources" table.
+* **Research infrastructures**
+  
+  Several health-related research infrastructures (RIs) have been established in Europe, the objective of which is to support researchers by providing resources and services for the research community in their field. One of the ways RIs provide support to researchers is in facilitating access to data. 
+Some examples are:
+  * [Health-RI](https://www.health-ri.nl/), which is a Dutch national initiative to facilitate and stimulate an integrated health data infrastructure accessible for researchers, citizens, care providers and industry.
+  * [CESSDA](https://www.cessda.eu/), which provides large-scale, integrated and sustainable data services for the social sciences.
+  * [ELIXIR](https://elixir-europe.org/), which coordinates and develops life science services across Europe within a single infrastructure.
+  * [ECRIN](https://ecrin.org/), which facilitates researchers to set up and conduct multinational clinical trials in Europe.
+    
+* **European Health Data Space (EHDS)**
+  
+  In May 2022, the European Commission published a legislative proposal on the [European Health Data Space (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en), with the aim of facilitating the use and re-use of health data in Europe, to improve patient care as well as research and policymaking. One of the objectives of the EHDS is to facilitate access to health data within and across countries, by streamlining access processes. The EHDS proposal states that data holders have the duty to make certain categories of personal health data available for secondary use.
+There is currently no standard procedure for the data access application process. This is why the EHDS legislation aims to have a coordinated application procedure across the EU to reduce the complexity and as such facilitate data access and research.
 
-## Examples of how this data can be used
+
