@@ -29,7 +29,7 @@ The aim of KoroGeno-EST-3 and KoroGeno-EST-2022 (hereafter, Study) studies was t
 
 Based on the sequenced samples, weekly reports were prepared for the [Republic of Estonia Health Board](https://www.terviseamet.ee/en) (hereafter, Health Board (HB)) and "[European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en)". In collaboration with the HB, SARS-CoV-2 genomic data was used to analyse infection clusters to trace newly infected subjects. 
 
-In addition, the study identified the prevalence of variants associated with higher pathogenicity or infectiousness or corresponding mutations. Based on these data, authorities got a better overview of circulating SARS-CoV-2 strains as well as imported cases. In general, the current study made a significant contribution to the governmental decision-making process and helped more efficiently suppress the spread of the COVID-19 epidemic.
+In addition, the study identified the prevalence of variants associated with higher pathogenicity or infectiousness or corresponding mutations. Based on these data, authorities got a better overview of circulating SARS-CoV-2 strains as well as cases from abroad. In general, the current study made a significant contribution to the governmental decision-making process and helped more efficiently suppress the spread of the COVID-19 epidemic.
 
 ## Metadata and sample acquisition
 
