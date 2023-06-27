@@ -2,8 +2,8 @@
 title: <!---Showcase page title--->
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
-description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
-affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
+description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitations for the audience--->
+affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the _data/affiliations.yaml file in order to work. Add logos to the /images/logos directory and link towards them in the affiliations.yaml file accordingly. --->]
 page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
 related_pages: 
   pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
@@ -51,3 +51,12 @@ fairsharing:
 
 
 <!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
+
+
+## Acknowledgments
+
+<!-- Acknowledge people involved in this showcase (institutions, people..) -->
+
+### Support
+
+<!-- Describe how the showcase is funded or supported. -->

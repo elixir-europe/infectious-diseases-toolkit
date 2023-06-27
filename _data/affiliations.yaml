@@ -1,23 +1,23 @@
 - name: ELIXIR CONVERGE
-  image_url: /images/funders/converge_logo.svg
+  image_url: /images/logos/converge_logo.svg
   pid: https://cordis.europa.eu/project/id/871075
   expose: true
   type: funder
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
 - name: FWO-IRI
-  image_url: /images/funders/FWO-logo.svg
+  image_url: /images/logos/FWO-logo.svg
   pid: http://dx.doi.org/10.13039/501100003130
   expose: true
   type: funder
   url: https://www.fwo.be/
 - name: European Union
-  image_url: /images/funders/Flag_of_Europe.svg
+  image_url: /images/logos/Flag_of_Europe.svg
   pid: http://dx.doi.org/10.13039/501100000780
   expose: true
   type: funder
   url: https://ec.europa.eu/
 - name: ELIXIR Europe
-  image_url: /images/infrastructures/ELIXIR-logo.svg
+  image_url: /images/logos/ELIXIR-logo.svg
   pid: 
   expose: true
   type: infrastructure
