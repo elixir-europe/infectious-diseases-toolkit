@@ -6,6 +6,10 @@ affiliations: [University of Tartu, Republic of Estonia Health Board, EE]
 related_pages:
   showcase: [covid19_galaxy_project]
 page_id: korogenoest 
+training:  
+- name: European Nucleotide Archive Quick tour by EMBL-EBI
+    url: https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/
+
 ---
 
 
