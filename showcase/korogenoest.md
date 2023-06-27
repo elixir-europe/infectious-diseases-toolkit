@@ -51,7 +51,7 @@ The metadata was semi-automatically cleaned and automatically standardised by cu
 
 ## Sequencing and sequence analysis
 
-Since May 2021 the samples moved from SYNLAB Eesti and hospitals laboratories directly to the University of Tartu Genome Centre Core lab who carried out the sequencing using Illumina NextSeq sequencer. Before, the samples were manually picked out from all the positive tests at the University of Tatu. Based on the sample information and original location on the laboratory plates the automatic pipeline generated the 96-well plate layouts needed to carry out the sequencing.
+Since May 2021 the samples were transported from SYNLAB Eesti and hospitals laboratories directly to the University of Tartu Genome Centre Core lab who carried out the sequencing using Illumina NextSeq sequencer. Based on the sample information and original location on the laboratory plates the automatic pipeline generated the 96-well plate layouts needed to carry out the sequencing.
 
 The sequencing was carried out using [Arctic3](https://dx.doi.org/10.17504/protocols.io.bibtkann) and later [Arctic4](https://dx.doi.org/10.17504/protocols.io.j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://dx.doi.org/10.17504/protocols.io.bw2apgae) protocols were tested out. 
 
