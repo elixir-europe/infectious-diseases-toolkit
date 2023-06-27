@@ -43,10 +43,10 @@ The laboratory of  SYNLAB Eesti carried out PCR testing. They captured Ct values
 
 In general, the samples were carefully selected to ensure representation of the Estonian demographic and geographic subgroups, with additional samples taken from outbreaks that occurred at hospitals, elderly homes or work places. The data at individual level was linked at the Health Board and sample IDs from SYNLAB Eesti lab and the matching metadata IDs were created. Both the Health Board and SYNLAB Eesti uploaded the data about the samples to an access restricted GitLab repository. The University of Tartu team received only pseudonymised data. 
 
-In addition to sequencing carried out in Estonia, samples were also sent to ECDC. The metadata for these samples followed the same pipeline as above. But the sequences were downloaded from dedicated ECDC websites and bioinformatically processed the same manner as the samples sequenced in Estonia.
+In addition to sequencing carried out in Estonia, samples were also sent to ECDC. The metadata for these samples followed the same pipeline as above. But the resulting sequences were downloaded from dedicated ECDC websites and bioinformatically processed in the same manner as the samples sequenced in Estonia.
 
 ### Metadata cleaning and standardisation
-The metadata was semi-automatically cleaned and automatically standardised by custom-developed Python scripts. The following metadata types were cleaned and standardised -  age, age group, county, region of country, symptom onset date, place of infection,  vaccine producer and dose  (all applies to data being available).
+The metadata was semi-automatically cleaned and automatically standardised by custom-developed Python scripts. Whenever available, the following metadata fields were cleaned and standardised -  age, age group, county, region of country, symptom onset date, place of infection,  vaccine producer and dose.
 
 
 ## Sequencing and sequence analysis
