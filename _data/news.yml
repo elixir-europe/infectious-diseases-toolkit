@@ -30,3 +30,7 @@
   date: 2023-05-17
   linked_pr: 161
   description: This page gives insight on national resources for infectious diseases in Switzerland. [Discover the page here](/national-resources/switzerland)
+- name: "New page: SARS-CoV-2 sequencing in Estonia 2021-2022"
+  date: 2023-06-27
+  linked_pr: 179
+  description: A Showcase page about the genomic sequencing and analysis of SARS-CoV-2 in Estonia during 2021-2022. [Discover the page here](/showcase/korogenoest)

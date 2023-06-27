@@ -22,3 +22,27 @@
   expose: true
   type: infrastructure
   url: https://elixir-europe.org/
+- name: University of Tartu
+  image_url: /images/institutions/ringlogo_eng_lat_sinine.svg
+  pid: 
+  expose: true
+  type: institution
+  url: https://elixir.ut.ee/
+- name: ELIXIR-Estonia
+  image_url: /images/infrastructures/ELIXIR_ESTONIA_white_background.png
+  pid: 
+  expose: true
+  type: infrastructure
+  url: https://elixir.ut.ee/
+- name: ETAIS
+  image_url: /images/infrastructures/Estonian_scientific_computing_infrastructure.png
+  pid: 
+  expose: true
+  type: infrastructure
+  url: https://etais.ee 
+- name: Republic of Estonia Health Board
+  image_url: /images/institutions/terviseamet_3lovi_eng.png
+  pid: 
+  expose: true
+  type: institution
+  url: https://www.terviseamet.ee/en
