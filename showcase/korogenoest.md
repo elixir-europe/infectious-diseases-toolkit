@@ -57,7 +57,7 @@ The sequencing was carried out using [Arctic3](https://dx.doi.org/10.17504/proto
 
 The raw sequences were initially analysed by the Illumina Dragen pipeline at the University of Tartu Genome Centre Core lab, then in parallel analysed with the Galaxy workflow developed by the Galaxy community led by Wolfgang Maier and eventually only analysed by the Galaxy workflow. The pipeline includes removing the human reads from the raw sequences, mapping the reads to the consensus sequence of SARS-CoV-2, identifying mutations, creating multiple alignments, calling the Pangolin lineages and NextClade clades.  
 
-The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hosted by the [ETAIS](https://etais.ee/) at the [University of Tartu HPC](https://hpc.ut.ee/). All the identified information on the samples was automatically fetched from the dedicated Galaxy address to the GitLab repository and merged with the rest of the metadata about the samples.
+The work was carried out in the [Galaxy instance](https://galaxy.hpc.ut.ee/) hosted by the [ETAIS](https://etais.ee/) at the [University of Tartu HPC](https://hpc.ut.ee/). All the identified information on the samples was automatically fetched from the dedicated Galaxy address to the GitLab repository and merged with the rest of the metadata about the samples.
 
 ## Generating custom reports
 
