@@ -68,7 +68,7 @@ Based on the templates provided by the ECDC, reports were filled in automaticall
 ### Description of the closed dashboard
 The data table of all the samples was made available at the access restricted website for the Health Board employees and project participants to provide epidemiological and virological consultations. 
 
-The database included all metadata provided for the samples, sequencing outcomes and was interactive providing filtering and sorting among other customisation options. In addition data could be downloaded for further custom analysis. The closed website of the project dashboard included also different interactive plots that allowed the users to pick the variables to be plotted (e.g. Ct values against vaccination status, county against lineages), but also lineage overview where individual lineages could be included or dismissed, time frame to be selected. 
+The database included all metadata provided for the samples, sequencing outcomes and was interactive providing filtering and sorting among other customisation options. In addition data could be downloaded for further custom analysis. Also, the closed website of the project dashboard included different interactive plots that allowed the users to pick the variables to be plotted (e.g. Ct values against vaccination status, county against lineages), and also lineage overview where individual lineages could be included or dismissed, and time frame could be selected. 
 
 To carry out visual inspections as part of the quality control of the sequencing outcomes, mutation and Ct value plots were included for each sequenced plate. In all the dashboards, users could select if they wanted to include data only sequenced in Estonia, by ECDC or both. 
 
