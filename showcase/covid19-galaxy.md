@@ -5,7 +5,7 @@ description: An automated, modular system for large-scale FAIR analysis of SARS-
 affiliations: [DE, European Union]
 page_id: covid19_galaxy_project
 related_pages:
-#  showcase: [korogenoest]
+  showcase: [korogenoest]
 training:
   - name: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
     registry: TeSS
@@ -141,7 +141,7 @@ Wolfgang Maier, Simon Bray, Anton Nekrutenko, Björn Grüning, Marius van den Be
 
 Additional people who have helped improve the workflows used for the data analysis: Ulvi Talas (University of Tartu), Peter van Heusden (SANBI)
 
-### Sponsors
+### Support
 
 Galaxy Europe is supported by de.NBI (the German Network for Bioinformatics Infrastructure) and through associated funding via the BMBF (German Federal Ministry of Education and Research) grants 031L0101C de.NBI-epi and 031 A538A de.NBI-RBC.
 
