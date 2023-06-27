@@ -26,3 +26,7 @@
   date: 2023-05-02
   linked_pr: 180
   description: A Showcase page about a Galaxy based modular and scalable system for FAIR analysis of SARS-CoV-2 sequencing data. [Discover the page here](/showcase/covid19-galaxy)
+- name: "New page: National resources Switzerland"
+  date: 2023-05-17
+  linked_pr: 161
+  description: This page gives insight on national resources for infectious diseases in Switzerland. [Discover the page here](/national-resources/switzerland)
