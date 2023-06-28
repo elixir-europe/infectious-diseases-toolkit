@@ -3,7 +3,7 @@ title: <!---Page title--->
 description: <!---Short description of the page--->
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: <!---REPLACE THIS with a shortened page name, with lower case letters and spaces, or an acronym in upper and lower case letters--->
+page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
 related_pages: 
   showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
   human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]

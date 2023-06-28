@@ -30,7 +30,7 @@ title: Title of the page
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
-* `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
+* `custom_editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
 * `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
@@ -38,7 +38,7 @@ title: Title of the page
 
 * `toc`: When set to false, the table of contents in the beginning of the page will not be generated.
 
-* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
+* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title in snake-case: lowercase and underscores. Used to list Related pages.
 
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 

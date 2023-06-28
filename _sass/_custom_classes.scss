@@ -1,49 +1,114 @@
 /*-----General styling-----*/
 
+$card-slide-transition: border-width .15s ease-in, margin-right .15s ease-in;
+
 main {
     h1 {
         margin-bottom: 0.5em;
         font-weight: 600;
     }
-    h2, .h2-like {
-        color: $primary;
-        font-weight: 500;
+    h2,
+    .h2-like {
+        font-weight: 600;
+        &::before {
+            content: "";
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41.055 42.576'%3E%3Cpath style='fill:%23e63a47' d='m18.067 22.793-17.21 10a1.73 1.73 0 0 0-.6 2.4l4 6.56a1.73 1.73 0 0 0 2.34.59l33.59-19.58a1.73 1.73 0 0 0 0-3L6.637.233a1.73 1.73 0 0 0-2.34.59l-4 6.56a1.73 1.73 0 0 0 .6 2.4l17.21 10a1.73 1.73 0 0 1-.04 3.01z'/%3E%3C/svg%3E");
+            display: inline-block;
+            width: 0.5em;
+            height: 0.5em;
+            margin-right: 0.6rem;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+    }
+
+    h3,
+    .h3-like {
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+
+    .anchorjs-link {
+        margin-left: -2em !important;
+    }
+
+    ol li::marker,
+    ul li::marker {
+        font-size: larger;
     }
 }
 
 /*-----More information tiles-----*/
 
 .info-card {
-    border: 1px $card-border-color solid;
+    .hover-primary:not(.badge),
+    .btn.py-4.hover-primary {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-width: 6px;
+            margin-right: -6px;
+            i {
+                color: $dark !important;
+            }
+            .text-muted {
+                color: $text-muted !important;
+            }
+        }
+        &.bg-white:hover {
+            background-color: $white !important;
+        }
+    }
+
     .card-header {
         padding-bottom: 0;
         border-bottom: 0;
     }
 
-    a {
-        border: 1px $card-border-color solid;
-    }
     ul {
         margin-bottom: 0;
     }
 }
 
-/*-----------Social icons----------*/
-
-.social-icons {
-    border: 1px solid $card-border-color;
-}
-
 /*-----Sidebar-----*/
-#side-nav .btn.sidebar-title {
-    border-bottom: 0.25rem solid $primary;
-    font-weight: bold;
-    font-size: 1.3rem;
-    padding-bottom: $input-btn-padding-y - 0.25rem;
+
+#side-nav {
+    .btn.sidebar-title {
+        background-color: $blue-x;
+        // font-weight: bold;
+        font-size: 1.3rem;
+        &.active {
+            border-left: 4px solid $primary;
+        }
+    }
+    > ul {
+        margin-top: $spacer;
+        li {
+            a {
+                margin-bottom: 0!important;
+                border-left: 4px solid $sidebar-bg;
+                &:hover {
+                    border-left-color: $primary !important;
+                    background-color: $primary;
+                }
+            }
+            &.active {
+                &.parent > a {
+                    background-color: $light;
+                    border-left-color: $light;
+                }
+                &:not(.parent) > a {
+                    border-left-color: $primary;
+                }
+            }
+        }
+    }
 }
 
-#side-nav > ul {
-    margin-top: $spacer;
+.sidebar-collapse {
+    background-color: $light;
 }
 
 /*-----Selection color-----*/
@@ -59,50 +124,64 @@ main {
 /*-----Section navigation tiles-----*/
 
 .navigation-tiles {
+    .btn.py-4.hover-primary {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-width: 6px;
+            margin-right: -6px;
+            i {
+                color: $dark !important;
+            }
+        }
+        &.bg-light:hover {
+            background-color: $light !important;
+        }
+    }
     .card {
-        border-width: 1px;
-    }
-    .card:hover {
-        box-shadow: $box-shadow;
-    }
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            border-left-width: 6px;
+            margin-right: -6px;
+        }
 
-    .card-header {
-        padding-bottom: 0;
-        a:hover {
-            text-decoration: none;
+        .card-header {
+            padding-bottom: 0;
+            a:hover {
+                text-decoration: none;
+            }
+            h3 {
+                font-size: 1.2rem;
+            }
         }
-        h3 {
-            font-size: 1.2rem;
+        button {
+            background-color: $white;
         }
-        
-    }
-    .card button {
-        border: 1px $card-border-color solid;
-        background-color: $white;
+        .card-footer {
+            padding-top: 0;
+        }
     }
 }
 
 /*-----Contributors tiles -----*/
 
-.contributor-cards .card {
-    border: 1px $card-border-color solid; 
-}
-
-.page-contributors {
-    border: 1px $card-border-color solid;
-    .contributor-link {
-        border: 1px $card-border-color solid;
+.contributor-cards,
+.contributor-link {
+    .card-footer {
+        background-color: $blue-x;
+    }
+    .badge {
+        color: $dark;
+        background-color: $blue-x;
     }
 }
 
-/*-----Box shadows-----*/
+// Fix carousel height
 
-.navbar,
-#toc,
-#side-nav > ul > li > a,
-.sidebar-collapse,
-#footer {
-    box-shadow: $box-shadow;
+.carousel-item {
+    min-height: 20em;
 }
 
 /*-----Custom primary button-----*/
@@ -113,16 +192,26 @@ main {
     color: $white;
 }
 
+/*-----TOC-----*/
+
+#toc {
+    padding-left: 2 * $spacer !important;
+    li::marker {
+        color: $red;
+    }
+}
+
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a.active {
-    color: $white !important;
-    background-color: $primary;
+    background-color: $blue-x;
     border-radius: $border-radius;
 }
 
-nav .navbar-brand {
-    font-size: calc(1rem + 0.54vw);
+@include media-breakpoint-down(sm) {
+    header .navbar .navbar-brand img {
+        height: 37px;
+    }
 }
 
 /* -----Homepage----- */
@@ -139,8 +228,11 @@ nav .navbar-brand {
     }
 
     .card {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
-            box-shadow: $box-shadow;
+            border-left-width: 6px;
+            margin-right: -6px;
         }
 
         .card-img-top {
@@ -149,20 +241,12 @@ nav .navbar-brand {
         }
     }
 
-    h1 {
-        font-size: 2.2rem;
-        font-weight: 200;
-        text-align: center;
-    }
-
     h2 {
         font-weight: 700;
-        font-family: $font-family-theme;
     }
 
     h3 {
-        font-weight: 600;
-        font-family: $font-family-theme;
+        font-weight: 700;
     }
 }
 
@@ -178,5 +262,22 @@ section#search-section {
     }
     .input-group-text {
         font-size: 1.5rem;
+    }
+}
+
+/*-----News and events-----*/
+
+.events > ul > li .title,
+.news > ul > li .title {
+    background-color: $blue-x;
+    color: $dark;
+}
+
+/*-----Edit-me buttons-----*/
+
+#edit-me a {
+    color: $red !important;
+    &:hover {
+        color: $white !important;
     }
 }

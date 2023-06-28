@@ -4,7 +4,7 @@ search_exclude: true #leave as “true” until the page is complete and ready t
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
 description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
 affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
-page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
 related_pages: 
   pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
   socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
