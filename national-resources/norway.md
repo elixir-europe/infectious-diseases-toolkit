@@ -97,7 +97,7 @@ FHI maintains numerous projects related to infectious diseases both nationally a
 * Consolidation of the HERA-WGS-infrastructure and capacity building at NIPH to enhance microbial surveillance and preparedness. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=2571637) (2022-2025)
 * Infeksjonssykdommers epidemiologi i Østfold analyses registry-based information on infectious diseases in Norway, especially Østfold. [Project index on CRIStin](https://app.cristin.no/projects/show.jsf?id=535246) (2016-2026)
 
-You will find information on other surveillance systems and databases under the sections [Dashboards and visualisation platforms](#disease-surveillance-initiatives) and [National data sources](#national-data-sources).
+You will find information on other surveillance systems and databases in the [disease surveillance initiatives](#disease-surveillance-initiatives) and [National data sources](#national-data-sources) sections.
 
 ### Reports
 * [Weekly reports](https://www.fhi.no/en/publ/2020/weekly-reports-for-coronavirus-og-covid-19/) for COVID-19, influenza, and other respiratory tract infections
