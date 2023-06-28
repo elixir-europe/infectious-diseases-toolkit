@@ -113,7 +113,7 @@ Several national registries involved in tracking infectious disease cases have t
 
 * [Norwegian Surveillance System for Communicable Diseases (MSIS)](https://statistikk.fhi.no/msis/sykdomshendelser?etter=diagnose&fordeltPaa=maaned) shows registered cases of infectious diseases in Norway by month, year, age, region, and more. The data is also available in [table format](https://msis.no/).
 
-* [Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM) atlas](https://norm-atlas.no/) visualizes NORM database entries over time, divided by regions.
+* [Norwegian Surveillance System for Antimicrobial Drug Resistance (NORM) atlas](https://norm-atlas.no/) visualizes NORM database entries from blood, urine, wound and respiratory test samples over time, divided by regions.
 
 ## National data sources
 <!--- A section to list and provide context to national data sources. In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
