@@ -38,9 +38,11 @@ Human biomolecular data refers to information obtained from the analysis of biol
 
 Human clinical data, on the other hand, refers to information obtained from the study of patients, including their medical histories, physical exams, and laboratory tests. This type of data is used to diagnose and treat disease, as well as to evaluate the safety and efficacy of new therapies.
 
-While both types of data are important for understanding human health and disease, they are collected and analysed in different ways and for different purposes.
+While both types of data are important for understanding human health and disease, they are collected and analysed in different ways and for different purposes. 
 
 Human biomolecular data is of great importance in infectious disease research because it plays a critical role in understanding the molecular basis of the disease. By analyzing the biomolecular data, researchers can gain a deeper understanding of the disease's pathogenesis, evolution, and transmission. Personalised medicine is another area where biomolecular data can be applied. By analyzing an individual's biomolecular data, researchers can develop personalised treatment plans that are tailored to the specific needs of the patient. For example, if a patient has a genetic mutation that predisposes them to a particular disease, this information can be used to develop a personalised treatment plan that takes into account the patient's genetic profile.
+
+It is important to mention that most analyses of human biomolecular data are complemented by using the clinical data related to them.
 
 <!-- ## Data deposition and FAIRness -->
 
@@ -96,7 +98,7 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
 - Biosamples: [BioSamples](https://www.ebi.ac.uk/biosamples/) stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The European COVID-19 Data Platform facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
   - [SARS-CoV-2 Data Hubs](https://www.covid19dataportal.org/data-hubs), which organise the flow of SARS-CoV-2 outbreak sequence data and provide comprehensive open data sharing for the European and global research communities.
-  - [Federated European Genome-phenome Archive](https://www.covid19dataportal.org/federated-ega), which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19.
+  - [Federated European Genome-phenome Archive](https://www.covid19dataportal.org/federated-ega), which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19 while complying with stringent privacy national laws.
   - [COVID-19 Data Portal](https://www.covid19dataportal.org/), which brings together and continuously updates relevant COVID-19 datasets and tools, will host sequence data sharing and will facilitate access to other SARS-CoV-2 resources.
 
   You can find further information about the Covid-19 Data Portal in the link [here](https://rdmkit.elixir-europe.org/covid19_data_portal).
@@ -113,7 +115,7 @@ However, the benefits of sharing human biomolecular data outweigh the risks. Acc
 
 When looking for solutions to human biomolecular data access, you should consider the following aspects:
 - Check with your institution that you are following the ethical and legal requirements.
-- Deposit your data in a controlled access repository
+- Choose an adequate repository for your data (e.g. controlled access repository)
 - Ensure that the data use conditions are publicly available to ease the data access process
 - Assemble your Data Access Committee to process data access requests
 
@@ -131,7 +133,7 @@ When looking for solutions to data transfer, you can check [this](https://rdmkit
   - The [GA4GH Data Use Ontology DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
   - The [Automatable Discovery and Access Matrix (ADA-M)](https://github.com/ga4gh/ADA-M) provides a standardised way to unambiguously represent the conditions related to data discovery and access. 
   - By depositing your data to one of the existing controlled access repositories, they will already show the data use conditions (e.g. [EGAD00001007777](https://ega-archive.org/datasets/EGAD00001007777))
-- A data access committee (DAC) is a group responsible for reviewing and approving requests for access to sensitive data, such as human biomolecular data. Its role is to ensure that requests are in compliance with relevant laws and regulations, that data is being used for legitimate scientific purposes, and that privacy and security are being maintained. 
+- A data access committee (DAC) is a group responsible for reviewing and approving requests for access to sensitive data, such as human biomolecular data. Its role is to ensure that requests are in compliance with relevant laws and regulations, that data is being used for legitimate scientific purposes, and that privacy and security are being maintained. To know more about what is a DAC and how to become one, you can check the [European Genome-phenome Archive - Data Access Committee](https://ega-archive.org/submission/data_access_committee) website.
 
 You can find further information about sharing human data [here](https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data).
 
@@ -139,7 +141,7 @@ You can find further information about sharing human data [here](https://rdmkit.
 
 To ensure that researchers can effectively utilise data, it is essential that it be collected and stored in a standardised manner. Using standardised formats and databases facilitates data sharing across research groups, enabling more efficient and effective analysis. This approach not only saves time, but also yields more accurate results.
 
-It is important to note that there are currently no specific standards and schemes for biomolecular data focused on infectious diseases. Nevertheless, thanks to the Sars-CoV-2 outbreak, the scientific community has established standards, schemes, and data models with controlled vocabularies and ontologies explained in detail in the Human Clinical and Health Data section.
+Thanks to the Sars-CoV-2 outbreak, the scientific community has established standards, schemes, and data models with controlled vocabularies and ontologies explained in detail in the Human Clinical and Health Data section. One example could be the [Developing a standardized but extendable framework to increase the findability of infectious disease datasets](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9950378/) paper from February of 2023.
 
 ### Considerations
 
