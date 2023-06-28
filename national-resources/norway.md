@@ -136,6 +136,7 @@ As the Norwegian node for the European Antimicrobial Resistance Surveillance Net
 ### Data Access to the Registries
 Since the registries contain data that can potentially be linked to individuals, you have to apply for access. Applications are free for students (up to master’s level) who want to access anonymous aggregated data. Access to other types of data, including access to personally identifiable data [is subject to a fee](https://helsedata.no/no/priser). The [Health Data Service (Helsedataservice)](https://helsedata.no/en/) at the Norwegian Directorate of e-Health handles the applications.
 
+### Data from biobanks
 In addition to health registries, [Biobank Norway](https://bbmri.no/) serves as a national data source and it is part of the [European biobanking research infrastructure (BBMRI-ERIC)](https://www.bbmri-eric.eu/) that maintains clinical and population-based data including infectious disease data. For a collection of DNA and sample cultures, the [microbiology portal (mikrobiologiportalen)](https://mikrobiologiportalen.no/) provides a [database of various bacterial and viral species, including a collection of methods for antigen-antibody detection methods performed across laboratories](https://mikrobiologiportalen.no/index.php?action=medmikro&filter=metode&object=gsjnZ4gmzy).
 
 ## Regulations
