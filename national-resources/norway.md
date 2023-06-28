@@ -133,7 +133,7 @@ The FHI operates following national electronic reporting systems that are involv
 
 As the Norwegian node for the European Antimicrobial Resistance Surveillance Network, the University Hospital of North Norway (UNN) operates a national health registry that collects and processes AMR data. FHI manages data handling. To access the data, you need to print out and mail an [application available on UNN’s website](https://unn.no/fag-og-forskning/norm-norsk-overvakingssystem-for-antibiotikaresistens-hos-mikrober#forskning) - available in Norwegian only.
 
-### Data Access to the Registries
+### Access to the registries
 Since the registries contain data that can potentially be linked to individuals, you have to apply for access. Applications are free for students (up to master’s level) who want to access anonymous aggregated data. Access to other types of data, including access to personally identifiable data [is subject to a fee](https://helsedata.no/no/priser). The [Health Data Service (Helsedataservice)](https://helsedata.no/en/) at the Norwegian Directorate of e-Health handles the applications.
 
 ### Data from biobanks
