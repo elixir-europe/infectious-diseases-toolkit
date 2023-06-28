@@ -53,6 +53,9 @@ main {
             i {
                 color: $dark !important;
             }
+            .text-muted {
+                color: $text-muted !important;
+            }
         }
         &.bg-white:hover {
             background-color: $white !important;
