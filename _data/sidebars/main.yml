@@ -101,6 +101,8 @@ subitems:
     url: /national-resources/
     description: Country specific examples
     subitems:
+      - title: Norway
+        url: /national-resources/norway
       - title: Sweden
         url: /national-resources/sweden
       - title: Switzerland
