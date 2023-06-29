@@ -27,11 +27,7 @@ training:
 
 ## Introduction
 
-Data analysis, as in Human biomolecular data of infectious diseases, involves exploring collected data to gain an understanding of the messages within a dataset and identifying relationships between variables using mathematical formulas or models. The analysis phase workflow is iterative, with steps repeated several times to explore data and optimise the workflow. Depending on whether the data is quantitative or qualitative, different methods are used for data analysis. The data analysis phase follows the often-automated and batched data processing stage.
-
-As data analysis generates new knowledge and information, it is a critical stage in the research process. To follow best practices for analysing human biomolecular data of infectious diseases, it is important to document all steps taken in the analysis workflow, including data preprocessing, statistical analysis, and the use of tools and algorithms. This documentation should be detailed enough to enable others to reproduce the analysis and results. Additionally, it is crucial to follow the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) to ensure that the data, code, and results are easily discoverable, accessible, and reusable by other researchers.
-
-When looking for more information [here](https://rdmkit.elixir-europe.org/analysing#what-should-be-considered-for-data-analysis).
+Data analysis, as in Human biomolecular data of infectious diseases, involves exploring the data collected to gain an understanding of the messages within a dataset and identifying relationships between variables using mathematical formulas or models. Moreover, it is always crucial to follow the best practices and especially the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) to  enable the collection and flow of information in the best way possible.
 
 ### General considerations
 
@@ -43,29 +39,30 @@ Some considerations for analysing human biomolecular data of infectious diseases
 - Take into account the computing resources needed.
 - Which type of data are you using, e.g. DNAseq, ATACseq, CNV.
 - Integration of different types of data (e.g. RNAseq and DNAseq).
-- Ensure access to the data and tools for all collaborators, for reproducibility.
+- Ensure following the FAIR principles.
+- Guarantee access to the data and tools for all collaborators, for reproducibility.
     - Providing your code 
     - Providing your execution environment
     - Providing your workflows
     - Providing your data analysis execution
 
-When looking for solutions to some of the considerations above, you can check [this](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) documentation.
+When looking for solutions to some of the considerations above, you may have a look at the documentation available on the [RDMkit website](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) documentation.
 
 ### Existing approaches
 
-Here you can find some more general existing approaches in order to help and improve the data analysis pipeline/protocol:
+Below you can find some general existing approaches in order to help with and improve your data analysis pipeline/protocol:
 
 - **Container environments**: As an alternative to package management systems you can consider container environments like [Docker](https://www.docker.com/) or [Singularity](https://sylabs.io/).
 - **Web-based platform**: Provides a centralised location for software developers to store, manage, collaborate, and share their code.- You can use [GitHub](https://github.com/) (widely used), [GitLab](https://about.gitlab.com/) or [Bitbucker](https://bitbucket.org/).
 - **Workflow platforms**: Allows the user to manage your data and provide an interface (web, GUI, APIs) to run complex pipelines and review their results. For instance: [Galaxy](https://rdmkit.elixir-europe.org/galaxy_assembly) and [Arvados](https://arvados.org/) (CWL-based, open source).
-- **Workflow runners**: Allows the user to take a workflow written in a proprietary or standardiSed format (such as the CWL standard) and execute it locally or on a remote computer infrastructure. For instance, [toil-cwl-runner](https://toil.readthedocs.io/en/latest/running/cwl.html), the reference CWL runner ([cwltool](https://pypi.org/project/cwltool/)), [Nextflow](https://www.nextflow.io/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/).
+- **Workflow runners**: Allows you to take a workflow written in a proprietary or standardised format (such as the CWL standard) and execute it locally or on a remote computer infrastructure. For instance, [toil-cwl-runner](https://toil.readthedocs.io/en/latest/running/cwl.html), the reference CWL runner ([cwltool](https://pypi.org/project/cwltool/)), [Nextflow](https://www.nextflow.io/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/).
 - **Integration Pipelines**: These pipelines are used to integrate different types of data, such as genomic, proteomic, and metabolomic data. It involves steps such as data preprocessing, data integration, and functional analysis. Tools like [OmicsIntegrator](https://github.com/fraenkel-lab/OmicsIntegrator) can be used for data integration.
 
 ## Preprocessing
 
 Data preprocessing is the phase in the project where data is converted into a desired format and prepared for analysis. Is a crucial step in data analysis that involves cleaning, transforming, and preparing data for analysis. The goal of preprocessing is to ensure that the data is of high quality and is suitable for the intended analysis. Preprocessing can involve a range of steps, depending on the type of data and the analysis being performed. 
 
-Preprocessing is a critical step in data analysis of HUman biomolecular data of infectious diseases because it can greatly impact the accuracy and reliability of the analysis results. By ensuring that the data is of high quality and suitable for analysis, preprocessing can help researchers obtain more accurate and meaningful insights from this data.
+Preprocessing is a critical step in data analysis of Human biomolecular data of infectious diseases because it can greatly impact the accuracy and reliability of the analysis results. By ensuring that the data is of high quality and suitable for analysis, preprocessing can help researchers obtain more accurate and meaningful insights from this data.
 
 ### Considerations
 
@@ -81,7 +78,7 @@ Here are some common considerations involved in data preprocessing:
 
 ### Existing approaches
 
-Preprocessing could be made using the state of art bioinformatics tools and/or programming languages that have different functions and packages to work and process this kind of data. For example, Python, RStudio or using Command-Line, are different approaches to enable the user performing all the necessary and wanted steps to do the desired preprocessing pipeline/protocol. 
+Preprocessing could be done using the state of art bioinformatics tools and/or programming languages that have different functions and packages to work and process this kind of data. For example, Python, RStudio or using Command-Line, are different approaches to enable the user performing all the necessary and wanted steps to do the desired preprocessing pipeline/protocol. 
 
 When looking for quality control protocols, see [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
 
@@ -89,6 +86,16 @@ When looking for quality control protocols, see [Human biomolecular data - Quali
 
 The analysis of human biomolecular data involves the use of various techniques and approaches to extract meaningful information from biological samples such as DNA, RNA, proteins, and metabolites. 
 
+This stage relies on the previous stages (collection, processing) that will lay the foundations for the generation of new knowledge by providing accurate and trustworthy data.
+
+### Considerations
+
+- **The location of your data**: Proximity to computing resources is crucial due to its impact on data transfer across infrastructures. It is worthwhile to compare the cost of transferring large data volumes versus the transfer of virtual machine images for analysis purposes.
+- **Analysis of the data**: Prior to analyzing the data, it is necessary to evaluate the computing environment and make a decision among various types of computing infrastructures, such as clusters or clouds. Additionally, selecting the suitable work environment, such as command line or web portal, based on individual requirements and expertise, is crucial.
+- **Best tools**: You need to select the tools best suited for the analysis of your data.
+- **Document the steps**: Accurate documentation of the data analysis process is essential, encompassing the precise steps taken, software versions employed, parameters utilized, and the computing environment employed. However, it is important to mention that the "manual" manipulation of the data can potentially complicate this documentation procedure.
+- **Collaborative analysis**: When engaging in collaborative data analysis, it is crucial to ensure that all collaborators have access to the data and tools required. This can be facilitated by establishing virtual research environments that provide a shared platform for seamless collaboration.
+  
 ### Existing approaches
 
 There are several types of analysis that can be performed on human biomolecular data, depending on the specific research question and type of data being analysed. Here are some common types of analysis:
@@ -115,7 +122,7 @@ There are several types of analysis that can be performed on human biomolecular 
 
 ## Postprocessing
 
-The postprocessing part refers to the steps taken after the initial analysis to refine and interpret the results. Post-processing steps are important because they can help to identify biological patterns and relationships that were not apparent in the initial analysis, and to ensure that the results are biologically meaningful and reproducible.
+The postprocessing part refers to the steps taken after the initial analysis to refine and interpret the results. Postprocessing steps are important because they can help to identify biological patterns and relationships that were not apparent in the initial analysis, and to ensure that the results are biologically meaningful and reproducible.
 
 ### Considerations
 
