@@ -48,6 +48,38 @@ Human biomolecular data is of great importance in infectious disease research be
 
 <!-- ### Considerations -->
 
+## Data deposition
+
+For advancing in the understanding of human biomolecular data, data deposition plays a pivotal role. The deposition of this data in publicly accessible databases serves as a valuable resource for scientists and researchers worldwide. It enables the integration and analysis of diverse datasets as well as by sharing and archiving data, researchers can ensure the reproducibility and transparency of their findings, allowing others to validate and build upon their work, encouraging collaboration. 
+In summary, data deposition not only fuels scientific progress but also empowers the global scientific community to unlock the complexities of human biology, ultimately leading to improved health outcomes and advancements in medical research.
+
+### Considerations
+
+- Choose a reliable and established public database or repository for data deposition.
+- Ensure that the data is properly organized, documented, and annotated for easy understanding and interpretation.
+- Adhere to data sharing and privacy regulations to protect sensitive information and maintain data confidentiality.
+- Include metadata, such as experimental protocols, sample characteristics, and data processing methods, to provide context and facilitate reproducibility.
+- Use standardized data formats and ontologies to enhance interoperability and enable integration with other datasets.
+- Include appropriate quality control measures to ensure data accuracy and reliability.
+- Consider data anonymization or de-identification techniques to protect the privacy of individuals involved in the study.
+- Provide sufficient data access and sharing permissions, specifying any restrictions or limitations, while ensuring compliance with legal and ethical requirements.
+- Consider long-term data preservation strategies to ensure the accessibility and availability of the deposited data for future researchers.
+- Promote open and collaborative practices by encouraging data citation and acknowledgement to recognize the contributions of the original data creators.
+
+Please note that these considerations are general in nature and may vary depending on the specific requirements and guidelines of the chosen data repository or database.
+
+### Existing approaches
+
+- **Public databases:** Various publicly accessible databases serve as repositories for human biomolecular data, such as the National Center for Biotechnology Information (NCBI) databases (e.g., GenBank, GEO, SRA), European Bioinformatics Institute (EBI) databases (e.g., ENA, ArrayExpress), and the Cancer Genomics Hub (CGHub).
+- **Controlled access repositories:** Some data deposition platforms, like dbGaP (Database of Genotypes and Phenotypes) and EGA (European Genome-phenome Archive), adopt a controlled access model to protect sensitive human biomolecular data. Researchers interested in accessing the data need to request permission and comply with specific data usage policies.
+- **Data integration platforms:** Platforms like the Global Alliance for Genomics and Health (GA4GH) provide frameworks and standards for federated data access and integration across multiple repositories. These initiatives aim to facilitate the aggregation and analysis of human biomolecular data from diverse sources while maintaining data privacy and security.
+- **Data citation and DOI assignment:** To acknowledge and promote the contributions of researchers who deposit human biomolecular data, many repositories assign unique digital object identifiers (DOIs) to datasets. This enables proper citation and recognition of the deposited data, enhancing its visibility and impact.
+- **Data submission portals:** Some repositories offer user-friendly web portals or submission systems that guide researchers through the process of depositing human biomolecular data. These portals often provide templates, validation checks, and step-by-step instructions to ensure the completeness and quality of the deposited data.
+- **Consortium-specific databases:** Collaborative research initiatives often establish dedicated databases for sharing and depositing human biomolecular data, such as The Cancer Genome Atlas (TCGA) for cancer genomics data or the Genotype-Tissue Expression (GTEx) project for gene expression data across different tissues.
+- **Standardized data formats:** Commonly used data formats like FASTQ, BAM, and VCF facilitate data deposition and sharing by ensuring compatibility and interoperability between different analysis tools and databases.
+- **Data publication:** Journals and publishers increasingly require researchers to deposit their human biomolecular data in public repositories as a prerequisite for publication. This promotes data sharing, reproducibility, and transparency in scientific research.
+- **Data sharing platforms:** Online platforms like Figshare, Zenodo, and Dryad provide researchers with the means to deposit and share their human biomolecular data, ensuring its long-term accessibility and enabling collaboration.
+
 ## Search and discoverability
 
 **Search and discoverability** are crucial for finding and accessing relevant information, resources, and data related to a specific topic or area of interest, particularly in the context of infectious diseases. Infectious diseases can evolve rapidly and have significant impacts on public health, making it necessary to monitor and respond to outbreaks effectively. This requires access to up-to-date information on disease prevalence, transmission patterns, and clinical outcomes, which can come from various sources, such as clinical data, biomolecular data, public health reports, and social media.
