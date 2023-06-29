@@ -56,7 +56,7 @@ national_resources:
 
 ---
 ## Introduction 
-This page discusses infectious disease research in Norway and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control. For resources and guidelines related to RDM in Norway, please visit [Norway's national resources page on RDMkit](https://rdmkit.elixir-europe.org/no_resources).
+This page discusses infectious disease research in Norway and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control. For resources and guidelines related to general research data management in Norway, please visit [Norway's national resources page on RDMkit](https://rdmkit.elixir-europe.org/no_resources).
 
 ## Health Authorities in Norway
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
