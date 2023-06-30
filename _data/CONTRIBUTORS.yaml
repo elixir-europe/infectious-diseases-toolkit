@@ -96,6 +96,18 @@ Martin Cook:
     email: martin.cook@elixir-europe.org
     role: editor
     affiliation: ELIXIR Hub
+Erin Calhoun:
+    orcid: 0009-0003-3752-7156
+    git: erincalhoun
+    email: erin.calhoun@uit.no
+    role: 
+    affiliation: ELIXIR Norway
+Nazeefa Fatima:
+    orcid: 0000-0001-7791-4984
+    git: Nazeeefa
+    email: nazeefaf@uio.no
+    role: 
+    affiliation: ELIXIR Norway
 Aina Jené Cortada:
     git: ainajene
     email: aina.jene@crg.eu
@@ -123,3 +135,8 @@ Katarina Öjefors Stark:
     orcid: 0000-0001-7970-7778
     git: KatarinaOjeforsStark
     affiliation: SciLifeLab / Uppsala University 
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
