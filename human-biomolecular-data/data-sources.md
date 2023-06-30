@@ -125,7 +125,6 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   Example of Beacon v2 with synthetic data:
   - [Synthetic data (CINECA)](https://ega-archive.org/studies/EGAS00001002472)
   - [CINECA Beacon v2 API](https://ega-archive.org/beacon-apis/cineca/)
-  - [CINECA Beacon v2 Training-UI](http://18.169.16.40:9000/)
 
 - Biosamples: [BioSamples](https://www.ebi.ac.uk/biosamples/) stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The European COVID-19 Data Platform facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
