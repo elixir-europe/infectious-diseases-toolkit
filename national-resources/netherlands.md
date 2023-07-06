@@ -16,47 +16,43 @@ related_pages:
   showcase: [<!---REPLACE THIS with the page_id of the showcase pages that you want to list here as related pages--->] 
 training: 
   - name: Workshops on delivering FAIR metadata for COVID-19 data portal 
-	registry: Health-RI 
-	url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data 
+    registry: Health-RI
+    url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data 
 national_resources:  
   - name: COVID-NL clinical data dashboard 
-	description: The Dutch national COVID-19 clinical data dashboard allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The dashboard provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met. 
-	how_to_access: request data through the dashboard 
-	instance_of: <!---GitHub---> 
-	related_pages: 
-  	<!---example_pages: [gp3, gp1, gp2]---> 
-	registry: 
-  	FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
-	url: https://covid19initiatives.health-ri.nl/p/Dashboard 
+    description: The Dutch national COVID-19 clinical data dashboard allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The dashboard provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met.
+    how_to_access: request data through the dashboard
+    related_pages:
+    <!---example_pages: [gp3, gp1, gp2]--->
+    registry:
+    FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
+    url: https://covid19initiatives.health-ri.nl/p/Dashboard 
  
-  - name: COVID-NL metadata portal 
-	description: The Dutch national COVID-19 metadata portal describes the content of the collections and type of data. The underlying data remains at the source, but where possible a link to the data or the data request procedure are provided on the portal. The first health care data sets in the portal are coming from observational studies funded by ZonMw, NFU COVID-19 clinical research data, collaborating top clinical hospitals (STZ), as well as other regional hospitals. However, the portal is open to any health care provider wishing to make their COVID-19 data available for research. 
-	how_to_access: request data through the portal. 
-	instance_of: <!---GitHub---> 
-	related_pages: 
-  	<!---example_pages: [gp3, gp1, gp2]---> 
-	registry: 
-  	FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
-	url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
+  - name: COVID-NL metadata portal
+    description: The Dutch national COVID-19 metadata portal describes the content of the collections and type of data. The underlying data remains at the source, but where possible a link to the data or the data request procedure are provided on the portal. The first health care data sets in the portal are coming from observational studies funded by ZonMw, NFU COVID-19 clinical research data, collaborating top clinical hospitals (STZ), as well as other regional hospitals. However, the portal is open to any health care provider wishing to make their COVID-19 data available for research.
+    how_to_access: request data through the portal.
+    related_pages:
+    <!---example_pages: [gp3, gp1, gp2]--->
+    registry:
+    FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
+    url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
 
  - name: ODISSEI
-	description: The Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI) is the national research infrastructure for the social sciences in the Netherlands.
-	how_to_access: through a link to the data in the portal (if available). 
-	instance_of: <!---GitHub---> 
-	related_pages: 
-  	<!---example_pages: [gp3, gp1, gp2]---> 
-	registry: 
-  	FAIRsharing: https://fairsharing.org/4841
-	url: https://portal.odissei.nl/
+   description: The Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI) is the national research infrastructure for the social sciences in the Netherlands.
+   how_to_access: through a link to the data in the portal (if available).
+   related_pages:
+   <!---example_pages: [gp3, gp1, gp2]--->
+   registry:
+   FAIRsharing: https://fairsharing.org/4841
+   url: https://portal.odissei.nl/
 
  - name: DANS
-	description: The Data Archiving and Networked Services (DANS) is the Dutch national centre of expertise and repository for research data.
-	how_to_access: request data through the dashboard. 
-	instance_of: <!---GitHub---> 
-	related_pages: 
-  	<!---example_pages: [gp3, gp1, gp2]---> 
-	registry: 
-	url: https://dans.knaw.nl/en/
+   description: The Data Archiving and Networked Services (DANS) is the Dutch national centre of expertise and repository for research data.
+   how_to_access: request data through the dashboard.
+   related_pages:
+   <!---example_pages: [gp3, gp1, gp2]--->
+   registry:
+   url: https://dans.knaw.nl/en/
 
   - name: Erasmus MC COVID-19 cohort-associated connected datasets study
     description: As part of a multidisciplinary consortium (https://recodid.eu/), the study aimed at connecting clinical-epidemiological (CE) data with further datasets from research on many other aspects of SARS-CoV-2.
