@@ -12,12 +12,12 @@ keywords: Netherlands, COVID-19, SARS-CoV-2
 sidebar: main 
 toc: true 
 page_id: covid_nl 
-related_pages: 
-  showcase: [<!---REPLACE THIS with the page_id of the showcase pages that you want to list here as related pages--->] 
+
 training: 
   - name: Workshops on delivering FAIR metadata for COVID-19 data portal 
     registry: Health-RI
-    url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data 
+    url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data
+
 national_resources:  
   - name: COVID-NL clinical data dashboard 
     description: The Dutch national COVID-19 clinical data dashboard allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The dashboard provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met.
