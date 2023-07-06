@@ -25,7 +25,7 @@ national_resources:
     related_pages:
     <!---example_pages: [gp3, gp1, gp2]--->
     registry:
-    FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
+       FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
     url: https://covid19initiatives.health-ri.nl/p/Dashboard 
  
   - name: COVID-NL metadata portal
@@ -34,7 +34,7 @@ national_resources:
     related_pages:
     <!---example_pages: [gp3, gp1, gp2]--->
     registry:
-    FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
+       FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
     url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
 
  - name: ODISSEI
@@ -43,7 +43,7 @@ national_resources:
    related_pages:
    <!---example_pages: [gp3, gp1, gp2]--->
    registry:
-   FAIRsharing: https://fairsharing.org/4841
+      FAIRsharing: https://fairsharing.org/4841
    url: https://portal.odissei.nl/
 
  - name: DANS
@@ -52,6 +52,8 @@ national_resources:
    related_pages:
    <!---example_pages: [gp3, gp1, gp2]--->
    registry:
+      <!---biotools: bioconda--->
+      <!---tess: Bioconda--->
    url: https://dans.knaw.nl/en/
 
   - name: Erasmus MC COVID-19 cohort-associated connected datasets study
