@@ -3,7 +3,7 @@ title: Netherlands
 country_code: NL 
 Summary: National resources for infectious disease research in the Netherlands. 
 Description: this page discusses infectious disease research in the Netherlands and provides information on relevant health authorities and initiatives 
-contributors: [Robin Navest, Julia Lischke, Jan-Willem Boiten, Tieneke Schaaij-Visser, Jeroen Belien]  
+contributors: [Robin Navest, Julia Lischke, Jan-Willem Boiten, Jeroen Belien,Clara Amid, Angelica Maineri, Ricarda Braukmann]  
 coordinators: [Robin Navest] 
 search_exclude: true <!---leave as “true” until page is ready to be made public---> 
 no_robots: false <!---by setting this field to true, the page will not end up in the search results of google or any other search engine---> 
@@ -20,28 +20,47 @@ training:
 	url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data 
 national_resources:  
   - name: COVID-NL clinical data dashboard 
-	description: The Dutch national COVID-19 clinical data portal allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The portal provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met. 
+	description: The Dutch national COVID-19 clinical data dashboard allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The dashboard provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met. 
 	how_to_access: request data through the dashboard 
 	instance_of: <!---GitHub---> 
 	related_pages: 
   	<!---example_pages: [gp3, gp1, gp2]---> 
 	registry: 
-  	FAIRsharing: FAIRsharing | COVID-NL clinical data 
+  	FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
 	url: https://covid19initiatives.health-ri.nl/p/Dashboard 
  
   - name: COVID-NL metadata portal 
 	description: The Dutch national COVID-19 metadata portal describes the content of the collections and type of data. The underlying data remains at the source, but where possible a link to the data or the data request procedure are provided on the portal. The first health care data sets in the portal are coming from observational studies funded by ZonMw, NFU COVID-19 clinical research data, collaborating top clinical hospitals (STZ), as well as other regional hospitals. However, the portal is open to any health care provider wishing to make their COVID-19 data available for research. 
+	how_to_access: request data through the portal. 
+	instance_of: <!---GitHub---> 
+	related_pages: 
+  	<!---example_pages: [gp3, gp1, gp2]---> 
+	registry: 
+  	FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
+	url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
+
+ - name: ODISSEI
+	description: The Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI) is the national research infrastructure for the social sciences in the Netherlands.
+	how_to_access: through a link to the data in the portal (if available). 
+	instance_of: <!---GitHub---> 
+	related_pages: 
+  	<!---example_pages: [gp3, gp1, gp2]---> 
+	registry: 
+  	FAIRsharing: https://fairsharing.org/4841
+	url: https://portal.odissei.nl/
+
+ - name: DANS
+	description: The Data Archiving and Networked Services (DANS) is the Dutch national centre of expertise and repository for research data.
 	how_to_access: request data through the dashboard. 
 	instance_of: <!---GitHub---> 
 	related_pages: 
   	<!---example_pages: [gp3, gp1, gp2]---> 
 	registry: 
-  	FAIRsharing: FAIRsharing | COVID-NL metadata
-	url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
+	url: https://dans.knaw.nl/en/
 
-  - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
-    description: Clinical-Epidemiological (CE) data from Erasmus MC cohort of 151 individuals who tested positive on COVID-19 during 2020 and 2021 .
-    how_to_access: request data through the EGA platform
+  - name: Erasmus MC COVID-19 cohort-associated connected datasets study
+    description: As part of a multidisciplinary consortium (https://recodid.eu/), the study aimed at connecting clinical-epidemiological (CE) data with further datasets from research on many other aspects of SARS-CoV-2.
+    how_to_access: Research data sets can be accessed through the [COVID-19 Data Portal](https://www.covid19dataportal.org/) under Cohorts or via the direct link.
     instance_of: <!---GitHub--->
     related_pages:
       <!---example_pages: [gp3, gp1, gp2]--->
@@ -49,6 +68,17 @@ national_resources:
       <!---biotools: bioconda--->
       <!---tess: Bioconda--->
     url: https://www.ebi.ac.uk/ena/pathogens/v2/cohorts
+
+  - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
+    description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort includes 151 PCR-confirmed COVID-19 individuals who were admitted to the hospital with a respiratory infection or respiratory failure in 2020-2021.
+    how_to_access: request data through the EGA platform
+    instance_of: <!---GitHub--->
+    related_pages:
+      <!---example_pages: [gp3, gp1, gp2]--->
+    registry:
+      <!---biotools: bioconda--->
+      <!---tess: Bioconda--->
+    url: https://ega-archive.org/datasets/EGAD00001009748
 
   - name: COVID RADAR app
     description: Over a period of approximately 2 years (starting May 2020 until February 2022), a total of 280.000 Dutch inhabitants filled in a short questionnaire about Corona-related symptoms, behaviour, vaccination status and test result.
@@ -62,6 +92,12 @@ national_resources:
     url: https://doi.org/10.17026%2Fdans-zcd-m9dh 
 
 ---
+<!---All the resources added above will appear on the table at the bottom of the page--->
+
+<!---Following information for the page text--->
+<!---If the information is already in another resource, please include the link instead of duplicating information--->
+<!---Please focus on resources that are relevant for the whole country for infectious diseases--->
+
 ## Introduction 
  
 This page discusses infectious disease research in the Netherlands and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control. While the primary target audience is the scientific community in the Netherlands, you will also find (open-access) resources that could be useful for the wider community. 
@@ -88,20 +124,20 @@ The RIVM performs [SARS-CoV-2 pathogen surveillance](https://www.rivm.nl/en/coro
  
 ### Projects 
  
-An overview of the national RIVM projects on the SARS-CoV-2 virus can be found [here](https://www.rivm.nl/regionale-infectieziektebestrijding/regionale-arts-consulenten-rac/projecten-rac/coronavirus-sars-cov-2). 
-The RIVM participates in the international BY-COVID project to provide a framework for making data on infectious diseases open and accessible to everyone (https://www.rivm.nl/en/international-projects/by-covid). 
+- An overview of the national RIVM projects on the SARS-CoV-2 virus can be found [here](https://www.rivm.nl/regionale-infectieziektebestrijding/regionale-arts-consulenten-rac/projecten-rac/coronavirus-sars-cov-2). 
+- [Lygature](https://www.lygature.org/), [Amsterdam UMC](https://www.amsterdamumc.org/en.htm), [UMC Groningen](https://umcgresearch.org/),  [EATRIS](https://eatris.eu/countries/netherlands/), [Erasmus MC](https://www.erasmusmc.nl/en/), RIVM and [KNAW/DANS](https://dans.knaw.nl/en/) participate in the international BY-COVID project to provide a framework for making data on infectious diseases open and accessible to everyone. 
  
 ### Reports 
  
-[Weekly coronavirus SARS-CoV-2 figures](https://www.rivm.nl/en/coronavirus-covid-19/weekly-figures) 
-[Variants of the coronavirus SARS-CoV-2](https://www.rivm.nl/en/coronavirus-covid-19/virus/variants) 
-The [national SARS-CoV-2 wastewater surveillance](https://data.rivm.nl/meta/srv/eng/catalog.search;jsessionid=5C4F23F31DC8B4F5CF0DFE1849EA5BB3#/metadata/a2960b68-9d3f-4dc3-9485-600570cd52b9) (in Dutch). 
-[NethMap](https://swab.nl/en/nethmap-pvid369) is a report on the consumption of antimicrobial agents and antimicrobial resistance among medically important bacteria in the Netherlands. 
+- [Weekly coronavirus SARS-CoV-2 figures](https://www.rivm.nl/en/coronavirus-covid-19/weekly-figures) 
+- [Variants of the coronavirus SARS-CoV-2](https://www.rivm.nl/en/coronavirus-covid-19/virus/variants) 
+- The [national SARS-CoV-2 wastewater surveillance](https://data.rivm.nl/meta/srv/eng/catalog.search;jsessionid=5C4F23F31DC8B4F5CF0DFE1849EA5BB3#/metadata/a2960b68-9d3f-4dc3-9485-600570cd52b9) (in Dutch). 
+- [NethMap](https://swab.nl/en/nethmap-pvid369) is a report on the consumption of antimicrobial agents and antimicrobial resistance among medically important bacteria in the Netherlands. 
  
 ## Dashboards and visualisation platforms 
  
-The current status of COVID-19 within the Netherlands can be found on https://coronadashboard.government.nl/. 
-The current COVID-19 vaccination status within the Netherlands can be found on https://coronadashboard.government.nl/landelijk/vaccinaties 
+- The current status of COVID-19 within the Netherlands can be found on https://coronadashboard.government.nl/. 
+- The current COVID-19 vaccination status within the Netherlands can be found on https://coronadashboard.government.nl/landelijk/vaccinaties 
  
 ## National data sources 
  
@@ -109,12 +145,23 @@ The current COVID-19 vaccination status within the Netherlands can be found on h
  
 ### Dutch COVID-19 clinical data portal 
  
-Clinical data collected from patients with (suspected) COVID-19 infection can be found on the [COVID-NL Dashboard](https://covid19initiatives.health-ri.nl/p/Dashboard). The data access procedure is described in [this PDF document](https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf). 
+Clinical data collected from patients with (suspected) COVID-19 infection can be found on the [COVID-NL Dashboard](https://covid19initiatives.health-ri.nl/p/Dashboard). The data access procedure is described in [this PDF document](https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf).
+
+
+### DANS Data Station Social Sciences and Humanities 
+
+
+The DANS [Data Station Social Sciences and Humanities](https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/) is a trustworthy digital repository based on Dataverse software with a focus on the domain of the social sciences and humanities (SSH). It allows the deposit and search for various kinds of research data from the SSH domain.
+
+
+### DANS Data Station Life, Health and Medical Sciences 
+
+
+The DANS [Data Station Life, Health and Medical Sciences](https://dans.knaw.nl/en/data-stations/life-health-and-medical-sciences/) is a trustworthy digital repository based on Dataverse software with a focus on the fields of life sciences, health sciences and medical sciences. It allows the deposit and search for various kinds of research data from these fields. 
  
 ### Dutch database on antimicrobial resistance (AMR) 
  
 The Infectieziekten Surveillance Informatie Systeem - Antibiotica Resistentie (ISIS-AR) monitors the presence of antibiotic resistant pathogens. Through the interactive [ISISweb website](https://www.isis-web.nl/) (in Dutch) the surveillance data is publicly accessible. 
- 
  
 ## Regulations 
  
@@ -134,46 +181,60 @@ An overview of implementation guidelines and legislation can be found on the [EL
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom---> 
  
 ### National infrastructures 
- 
+
+
+[Health-RI](https://www.health-ri.nl/) is the Dutch national coordination center for agreements on the reuse of health data, promoting collaboration among all stakeholders, and supporting researchers. One of the provided services is the [Dutch national COVID-19 metadata portal](https://covid19initiatives.health-ri.nl/p/ProjectOverview), that aims to improve reuse of COVID-19 related data.
+
+
+[ODISSEI](https://odissei-data.nl/en/) (Open Data Infrastructure for Social Science and Economic Innovations) is the national research infrastructure for the social sciences in the Netherlands. The [ODISSEI Portal](https://portal.odissei.nl/) combines metadata from a wide variety of research data repositories (including metadata from the microdata catalogue of CBS - Statistics Netherlands) into a single interface, allows advanced semantic queries to support findability, and facilitates data access.
+
+
 The Centre for Infectious Disease Control within the RIVM consists of five specialist centres: 
-[National Coordination Centre for Communicable Diseases Control](https://www.rivm.nl/en/about-rivm/organisation/national-coordination-centre-for-communicable-disease-control), which coordinates the control of infectious diseases and is responsible for rapid and efficient communication about outbreaks nationally and regionally throughout the Netherlands. In the event of an outbreak, the centre is responsible for the scientific advice on outbreak control measures to the government and for implementation by health professionals. 
-[Centre for Infectious Diseases Epidemiology and Surveillance](https://www.rivm.nl/en/about-rivm/organisation/centre-for-infectious-diseases-epidemiology-and-surveillance), which analyses and monitors the occurrence and trends in infectious diseases in the Netherlands and carries out studies on the effectiveness and cost-effectiveness of measures to control such diseases. 
-[Centre for Research Infectious Diseases Diagnostics and Screening](https://www.rivm.nl/en/about-rivm/organisation/centre-for-infectious-diseases-research-diagnostics-and-laboratory-surveillance), which carries out microbiological research, specific patient and epidemiological diagnostics of infectious diseases, and all laboratory analyses on human infectious diseases. 
-[Centre for Zoonoses and Environmental Biology](https://www.rivm.nl/en/about-rivm/organisation/centre-for-zoonoses-and-environmental-microbiology), which is responsible for the early warning and risk assessment of the transmission of pathogenic microorganisms from animals, food and the environment to humans in the Netherlands. 
-[Centre for Immunology of Infectious Diseases and Vaccines](https://www.rivm.nl/en/about-rivm/organisation/centre-for-immunology-of-infectious-diseases-and-vaccines), which advises the Dutch Government on Immunology and Vaccinology and carries out research to generate knowledge and data on the immune response to infectious diseases and to vaccinations offered in the framework of the government’s infectious disease control programme. 
+- [National Coordination Centre for Communicable Diseases Control](https://www.rivm.nl/en/about-rivm/organisation/national-coordination-centre-for-communicable-disease-control), which coordinates the control of infectious diseases and is responsible for rapid and efficient communication about outbreaks nationally and regionally throughout the Netherlands. In the event of an outbreak, the centre is responsible for the scientific advice on outbreak control measures to the government and for implementation by health professionals. 
+- [Centre for Infectious Diseases Epidemiology and Surveillance](https://www.rivm.nl/en/about-rivm/organisation/centre-for-infectious-diseases-epidemiology-and-surveillance), which analyses and monitors the occurrence and trends in infectious diseases in the Netherlands and carries out studies on the effectiveness and cost-effectiveness of measures to control such diseases. 
+- [Centre for Research Infectious Diseases Diagnostics and Screening](https://www.rivm.nl/en/about-rivm/organisation/centre-for-infectious-diseases-research-diagnostics-and-laboratory-surveillance), which carries out microbiological research, specific patient and epidemiological diagnostics of infectious diseases, and all laboratory analyses on human infectious diseases. 
+- [Centre for Zoonoses and Environmental Biology](https://www.rivm.nl/en/about-rivm/organisation/centre-for-zoonoses-and-environmental-microbiology), which is responsible for the early warning and risk assessment of the transmission of pathogenic microorganisms from animals, food and the environment to humans in the Netherlands. 
+- [Centre for Immunology of Infectious Diseases and Vaccines](https://www.rivm.nl/en/about-rivm/organisation/centre-for-immunology-of-infectious-diseases-and-vaccines), which advises the Dutch Government on Immunology and Vaccinology and carries out research to generate knowledge and data on the immune response to infectious diseases and to vaccinations offered in the framework of the government’s infectious disease control programme.
 
 ### Institutional initiatives on antimicrobial resistance (AMR)
 
 There are national research projects focused towards pathogenomics to help improve agriculture, food, public health, environment, and biodiversity in the Netherlands. Also, higher education institutions and industrial organisations have forums and research centres dedicated to addressing the topics of antimicrobial resistance and pandemic preparedness.
-The [Netherlands Antibiotic Development Platform](https://nadp.nl/) (NDAP) facilitates the collaboration between public and private organisations, to enhance the development of new antibiotics and alternative therapies for infectious diseases in humans and animals.
-The [Centre for Antimicrobial Research](https://www.universiteitleiden.nl/cares#:~:text=CARES%20is%20a%20Dutch%20research,antimicrobial%20molecules%20and%20clinical%20development.) (CARES) is a Dutch research initiative for antimicrobial research. They focus on the development of novel antibiotics and antimicrobials.
-The [Center for Sustainable Antimicrobials](http://cesam-nnl.com/) (CeSAM) comprises multidisciplinary research projects and advanced facilities for fundamental research as well as high-throughput (animal) testing and adequate patient-screening facilities.
-The [Netherlands Center for One Health](https://ncoh.nl/research/research-themes/#wf-themes-menu-AMR) aims to decrease the morbidity and mortality of antibiotic-resistant bacterial infections in humans through use-inspired, excellent, fundamental, translational, and applied One Health research on antimicrobial resistance.
+- The [Netherlands Antibiotic Development Platform](https://nadp.nl/) (NDAP) facilitates the collaboration between public and private organisations, to enhance the development of new antibiotics and alternative therapies for infectious diseases in humans and animals.
+- The [Centre for Antimicrobial Research](https://www.universiteitleiden.nl/cares#:~:text=CARES%20is%20a%20Dutch%20research,antimicrobial%20molecules%20and%20clinical%20development.) (CARES) is a Dutch research initiative for antimicrobial research. They focus on the development of novel antibiotics and antimicrobials.
+- The [Center for Sustainable Antimicrobials](http://cesam-nnl.com/) (CeSAM) comprises multidisciplinary research projects and advanced facilities for fundamental research as well as high-throughput (animal) testing and adequate patient-screening facilities.
+- The [Netherlands Center for One Health](https://ncoh.nl/research/research-themes/#wf-themes-menu-AMR) aims to decrease the morbidity and mortality of antibiotic-resistant bacterial infections in humans through use-inspired, excellent, fundamental, translational, and applied One Health research on antimicrobial resistance.
 
 ### Institutional initiatives on epidemic/pandemic research
 
-[The Pandemic and Disaster Preparedness Center](https://convergence.nl/pandemic-disaster-preparedness/) (PDPC) was created by the Erasmus Medical Centre, Delft University of Technology and University Rotterdam. PDPC aims to prepare society for future pandemics and disasters.
-The [Netherlands Center for One Health](https://ncoh.nl/research/research-themes/#wf-themes-menu-EID) aims to improve research and veterinary and public health preparedness for (re-)emerging infectious diseases. It will do so by providing fundamental insights into host, microbial, and environmental factors leading to disease. Moreover, to translate this into improved prediction, detection, prevention, and control strategies in a time frame that is compatible with fast-spreading Emerging Infectious Diseases.
-An overview of COVID working groups, networks and initiatives can be found [here](https://www.health-ri.nl/covid-working-groups-networks-initiatives).
+- [Convergence](https://convergence.nl/) is an alliance between Erasmus MC, Erasmus University, TU Delft to cross boundaries and work on different themes together. The themes include Resilient Delta, Health & Technology, AI, Data & Digitalisation, Pandemic & Disaster Preparedness. [The Pandemic and Disaster Preparedness Center](https://convergence.nl/pandemic-disaster-preparedness/) aims to prepare society for future pandemics and disasters.
+- The [Netherlands Center for One Health](https://ncoh.nl/research/research-themes/#wf-themes-menu-EID) brings together academic research institutes in the Netherlands that are active in One Health research together with other leading parties to take joint responsibility for finding answers to global One Health challenges. The One Health approach aims to improve research and veterinary and public health preparedness for (re-)emerging infectious diseases. It will do so by providing fundamental insights into host, microbial, and environmental factors leading to disease.
+- An overview of COVID working groups, networks and initiatives can be found [here](https://www.health-ri.nl/covid-working-groups-networks-initiatives).
 
 <!---Information below will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
 name: Robin Navest
-orcid: 0000-0002-0152-2092
+orcid: https://orcid.org/0000-0002-0152-2092
 git: https://github.com/rnavest
 affiliation: Lygature
 name: Julia Lischke
-orcid: 0000-0002-5524-2838
+orcid: https://orcid.org/0000-0002-5524-2838
 git: 
 affiliation: Lygature
 name: Jan-Willem Boiten
-orcid: 0000-0003-0327-638X
+orcid: https://orcid.org/0000-0003-0327-638X
 git: 
-affiliation: Lygature
 name: Jeroen Belien
-orcid: 0000-0002-7160-5942
+orcid: https://orcid.org/0000-0002-7160-5942
 git: https://github.com/jambelien
 affiliation: Health-RI
-name: 
-orcid: 
+name: Clara Amid
+orcid: 0000-0001-6534-7425
 git: 
-affiliation: 
+affiliation: Erasmus Medical Center
+name: Angelica Maineri
+orcid: https://orcid.org/0000-0002-6978-5278
+git: https://github.com/AngelicaMaineri
+affiliation: ODISSEI
+name: Ricarda Braukmann
+orcid: https://orcid.org/0000-0001-6383-7148
+git: https://github.com/Ruecue
+affiliation: DANS
