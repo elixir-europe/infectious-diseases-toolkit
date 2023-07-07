@@ -1,93 +1,96 @@
 --- 
-title: Netherlands 
-country_code: NL 
-Summary: National resources for infectious disease research in the Netherlands. 
-Description: this page discusses infectious disease research in the Netherlands and provides information on relevant health authorities and initiatives 
-contributors: [Robin Navest, Julia Lischke, Jan-Willem Boiten, Jeroen Belien,Clara Amid, Angelica Maineri, Ricarda Braukmann]  
-coordinators: [Robin Navest] 
-search_exclude: true <!---leave as “true” until page is ready to be made public---> 
-no_robots: false <!---by setting this field to true, the page will not end up in the search results of google or any other search engine---> 
-hide_sidebar: false 
-keywords: Netherlands, COVID-19, SARS-CoV-2 
-sidebar: main 
-toc: true 
-page_id: covid_nl 
-
-training: 
-  - name: Workshops on delivering FAIR metadata for COVID-19 data portal 
+title: Netherlands
+country_code: NL
+description: this page discusses infectious disease research in the Netherlands
+  and provides information on relevant health authorities and initiatives
+contributors:
+  - Robin Navest
+  - Julia Lischke
+  - Jan-Willem Boiten
+  - Jeroen Belien
+  - Clara Amid
+  - Angelica Maineri
+  - Ricarda Braukmann
+coordinators:
+  - Robin Navest
+training:
+  - name: Workshops on delivering FAIR metadata for COVID-19 data portal
     registry: Health-RI
     url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data
-
-national_resources:  
-  - name: COVID-NL clinical data dashboard 
-    description: The Dutch national COVID-19 clinical data dashboard allows exploration and reuse of clinical data from Dutch university medical centers (UMCs). The dashboard provides researchers with a clear overview of what is available, allows searching for specific data and makes access to such data easier when the necessary ethical and legal conditions have been met.
+national_resources:
+  - name: COVID-NL clinical data dashboard
+    description: The Dutch national COVID-19 clinical data dashboard allows
+      exploration and reuse of clinical data from Dutch university medical
+      centers (UMCs). The dashboard provides researchers with a clear overview
+      of what is available, allows searching for specific data and makes access
+      to such data easier when the necessary ethical and legal conditions have
+      been met.
     how_to_access: request data through the dashboard
-    related_pages:
-    <!---example_pages: [gp3, gp1, gp2]--->
+    related_pages: null
     registry:
-       FAIRsharing: https://doi.org/10.25504/FAIRsharing.71bf06
-    url: https://covid19initiatives.health-ri.nl/p/Dashboard 
- 
+      fairsharing: https://doi.org/10.25504/FAIRsharing.71bf06
+    url: https://covid19initiatives.health-ri.nl/p/Dashboard
   - name: COVID-NL metadata portal
-    description: The Dutch national COVID-19 metadata portal describes the content of the collections and type of data. The underlying data remains at the source, but where possible a link to the data or the data request procedure are provided on the portal. The first health care data sets in the portal are coming from observational studies funded by ZonMw, NFU COVID-19 clinical research data, collaborating top clinical hospitals (STZ), as well as other regional hospitals. However, the portal is open to any health care provider wishing to make their COVID-19 data available for research.
+    description: The Dutch national COVID-19 metadata portal describes the content
+      of the collections and type of data. The underlying data remains at the
+      source, but where possible a link to the data or the data request
+      procedure are provided on the portal. The first health care data sets in
+      the portal are coming from observational studies funded by ZonMw, NFU
+      COVID-19 clinical research data, collaborating top clinical hospitals
+      (STZ), as well as other regional hospitals. However, the portal is open to
+      any health care provider wishing to make their COVID-19 data available for
+      research.
     how_to_access: request data through the portal.
-    related_pages:
-    <!---example_pages: [gp3, gp1, gp2]--->
+    related_pages: null
     registry:
-       FAIRsharing: https://doi.org/10.25504/FAIRsharing.527321
-    url: https://covid19initiatives.health-ri.nl/p/ProjectOverview 
-
- - name: ODISSEI
-   description: The Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI) is the national research infrastructure for the social sciences in the Netherlands.
-   how_to_access: through a link to the data in the portal (if available).
-   related_pages:
-   <!---example_pages: [gp3, gp1, gp2]--->
-   registry:
-      FAIRsharing: https://fairsharing.org/4841
-   url: https://portal.odissei.nl/
-
- - name: DANS
-   description: The Data Archiving and Networked Services (DANS) is the Dutch national centre of expertise and repository for research data.
-   how_to_access: request data through the dashboard.
-   related_pages:
-   <!---example_pages: [gp3, gp1, gp2]--->
-   registry:
-      <!---biotools: bioconda--->
-      <!---tess: Bioconda--->
-   url: https://dans.knaw.nl/en/
-
+      fairsharing: https://doi.org/10.25504/FAIRsharing.527321
+    url: https://covid19initiatives.health-ri.nl/p/ProjectOverview
+  - name: ODISSEI
+    description: The Open Data Infrastructure for Social Science and Economic
+      Innovations (ODISSEI) is the national research infrastructure for the
+      social sciences in the Netherlands.
+    how_to_access: through a link to the data in the portal (if available).
+    related_pages: null
+    registry:
+      fairsharing: https://fairsharing.org/4841
+    url: https://portal.odissei.nl/
+  - name: DANS
+    description: The Data Archiving and Networked Services (DANS) is the Dutch
+      national centre of expertise and repository for research data.
+    how_to_access: request data through the dashboard.
+    related_pages: null
+    registry: null
+    url: https://dans.knaw.nl/en/
   - name: Erasmus MC COVID-19 cohort-associated connected datasets study
-    description: As part of a multidisciplinary consortium (https://recodid.eu/), the study aimed at connecting clinical-epidemiological (CE) data with further datasets from research on many other aspects of SARS-CoV-2.
-    how_to_access: Research data sets can be accessed through the [COVID-19 Data Portal](https://www.covid19dataportal.org/) under Cohorts or via the direct link.
-    instance_of: <!---GitHub--->
-    related_pages:
-      <!---example_pages: [gp3, gp1, gp2]--->
-    registry:
-      <!---biotools: bioconda--->
-      <!---tess: Bioconda--->
+    description: As part of a multidisciplinary consortium (https://recodid.eu/),
+      the study aimed at connecting clinical-epidemiological (CE) data with
+      further datasets from research on many other aspects of SARS-CoV-2.
+    how_to_access: Research data sets can be accessed through the [COVID-19 Data
+      Portal](https://www.covid19dataportal.org/) under Cohorts or via the
+      direct link.
+    instance_of: null
+    related_pages: null
+    registry: null
     url: https://www.ebi.ac.uk/ena/pathogens/v2/cohorts
-
   - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
-    description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort includes 151 PCR-confirmed COVID-19 individuals who were admitted to the hospital with a respiratory infection or respiratory failure in 2020-2021.
+    description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort
+      includes 151 PCR-confirmed COVID-19 individuals who were admitted to the
+      hospital with a respiratory infection or respiratory failure in 2020-2021.
     how_to_access: request data through the EGA platform
-    instance_of: <!---GitHub--->
-    related_pages:
-      <!---example_pages: [gp3, gp1, gp2]--->
-    registry:
-      <!---biotools: bioconda--->
-      <!---tess: Bioconda--->
+    instance_of: null
+    related_pages: null
+    registry: null
     url: https://ega-archive.org/datasets/EGAD00001009748
-
   - name: COVID RADAR app
-    description: Over a period of approximately 2 years (starting May 2020 until February 2022), a total of 280.000 Dutch inhabitants filled in a short questionnaire about Corona-related symptoms, behaviour, vaccination status and test result.
+    description: Over a period of approximately 2 years (starting May 2020 until
+      February 2022), a total of 280.000 Dutch inhabitants filled in a short
+      questionnaire about Corona-related symptoms, behaviour, vaccination status
+      and test result.
     how_to_access: download from link
-    instance_of: <!---GitHub--->
-    related_pages:
-      <!---example_pages: [gp3, gp1, gp2]--->
-    registry:
-      <!---biotools: bioconda--->
-      <!---tess: Bioconda--->
-    url: https://doi.org/10.17026%2Fdans-zcd-m9dh 
+    instance_of: null
+    related_pages: null
+    registry: null
+    url: https://doi.org/10.17026%2Fdans-zcd-m9dh
 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
