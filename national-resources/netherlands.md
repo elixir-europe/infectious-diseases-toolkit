@@ -26,7 +26,7 @@ national_resources:
       to such data easier when the necessary ethical and legal conditions have
       been met.
     how_to_access: request data through the dashboard
-    related_pages: null
+    related_pages:
     registry:
       fairsharing: https://doi.org/10.25504/FAIRsharing.71bf06
     url: https://covid19initiatives.health-ri.nl/p/Dashboard
@@ -41,7 +41,7 @@ national_resources:
       any health care provider wishing to make their COVID-19 data available for
       research.
     how_to_access: request data through the portal.
-    related_pages: null
+    related_pages:
     registry:
       fairsharing: https://doi.org/10.25504/FAIRsharing.527321
     url: https://covid19initiatives.health-ri.nl/p/ProjectOverview
@@ -50,7 +50,7 @@ national_resources:
       Innovations (ODISSEI) is the national research infrastructure for the
       social sciences in the Netherlands.
     how_to_access: through a link to the data in the portal (if available).
-    related_pages: null
+    related_pages:
     registry:
       fairsharing: https://fairsharing.org/4841
     url: https://portal.odissei.nl/
@@ -58,8 +58,8 @@ national_resources:
     description: The Data Archiving and Networked Services (DANS) is the Dutch
       national centre of expertise and repository for research data.
     how_to_access: request data through the dashboard.
-    related_pages: null
-    registry: null
+    related_pages:
+    registry:
     url: https://dans.knaw.nl/en/
   - name: Erasmus MC COVID-19 cohort-associated connected datasets study
     description: As part of a multidisciplinary consortium (https://recodid.eu/),
@@ -68,18 +68,18 @@ national_resources:
     how_to_access: Research data sets can be accessed through the [COVID-19 Data
       Portal](https://www.covid19dataportal.org/) under Cohorts or via the
       direct link.
-    instance_of: null
-    related_pages: null
-    registry: null
+    instance_of:
+    related_pages:
+    registry:
     url: https://www.ebi.ac.uk/ena/pathogens/v2/cohorts
   - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
     description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort
       includes 151 PCR-confirmed COVID-19 individuals who were admitted to the
       hospital with a respiratory infection or respiratory failure in 2020-2021.
     how_to_access: request data through the EGA platform
-    instance_of: null
-    related_pages: null
-    registry: null
+    instance_of:
+    related_pages:
+    registry:
     url: https://ega-archive.org/datasets/EGAD00001009748
   - name: COVID RADAR app
     description: Over a period of approximately 2 years (starting May 2020 until
@@ -87,9 +87,9 @@ national_resources:
       questionnaire about Corona-related symptoms, behaviour, vaccination status
       and test result.
     how_to_access: download from link
-    instance_of: null
-    related_pages: null
-    registry: null
+    instance_of:
+    related_pages:
+    registry:
     url: https://doi.org/10.17026%2Fdans-zcd-m9dh
 
 ---
