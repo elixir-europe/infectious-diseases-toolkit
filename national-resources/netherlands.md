@@ -84,7 +84,7 @@ national_resources:
       February 2022), a total of 280.000 Dutch inhabitants filled in a short
       questionnaire about Corona-related symptoms, behaviour, vaccination status
       and test result.
-    how_to_access: download from link
+    how_to_access: #download from link
     instance_of:
     related_pages:
     registry:
