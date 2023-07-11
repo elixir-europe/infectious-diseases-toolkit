@@ -57,7 +57,7 @@ national_resources:
   - name: DANS
     description: The Data Archiving and Networked Services (DANS) is the Dutch
       national centre of expertise and repository for research data.
-    how_to_access: request data through the dashboard.
+    how_to_access: #request data through the dashboard.
     related_pages:
     registry:
     url: https://dans.knaw.nl/en/
