@@ -65,9 +65,7 @@ national_resources:
     description: As part of a multidisciplinary consortium (https://recodid.eu/),
       the study aimed at connecting clinical-epidemiological (CE) data with
       further datasets from research on many other aspects of SARS-CoV-2.
-    how_to_access: Research data sets can be accessed through the [COVID-19 Data
-      Portal](https://www.covid19dataportal.org/) under Cohorts or via the
-      direct link.
+    how_to_access: Research data sets can be accessed through the Cohort Browser.
     instance_of:
     related_pages:
     registry:
