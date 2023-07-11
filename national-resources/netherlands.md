@@ -49,7 +49,7 @@ national_resources:
     description: The Open Data Infrastructure for Social Science and Economic
       Innovations (ODISSEI) is the national research infrastructure for the
       social sciences in the Netherlands.
-    how_to_access: through a link to the data in the portal (if available).
+    how_to_access: #through a link to the data in the portal (if available).
     related_pages:
     registry:
       fairsharing: https://fairsharing.org/4841
