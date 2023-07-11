@@ -40,7 +40,7 @@ national_resources:
       (STZ), as well as other regional hospitals. However, the portal is open to
       any health care provider wishing to make their COVID-19 data available for
       research.
-    how_to_access: request data through the portal.
+    how_to_access: #request data through the portal.
     related_pages:
     registry:
       fairsharing: https://doi.org/10.25504/FAIRsharing.527321
