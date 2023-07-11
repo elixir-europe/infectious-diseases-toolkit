@@ -71,7 +71,7 @@ national_resources:
     instance_of:
     related_pages:
     registry:
-    url: https://www.ebi.ac.uk/ena/pathogens/v2/cohorts
+    url: https://www.pathogensportal.org/cohorts
   - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
     description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort
       includes 151 PCR-confirmed COVID-19 individuals who were admitted to the
