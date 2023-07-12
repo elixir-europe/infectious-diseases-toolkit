@@ -322,7 +322,7 @@ Text
 
 If you want pages from specific sections to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
-An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](/contribute/website-overview).
+An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](/contribute/website-overview) page.
 
 
 ```yml

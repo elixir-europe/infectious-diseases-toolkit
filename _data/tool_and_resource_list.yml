@@ -7,6 +7,8 @@
     tess: Galaxy
   related_pages:
   - hchd_provenance
+  - covid19_galaxy_project
+  - korogenoest
   url: https://galaxyproject.org
 - description: An open standard for describing workflows that are build from command
     line tools
@@ -46,3 +48,98 @@
   related_pages:
   - hchd_provenance
   url: https://compss-doc.readthedocs.io/en/stable/
+- description: Shiny is an R package that makes it easy to build interactive web apps
+    straight from R.
+  name: R Shiny
+  registry:
+    tess: R Shiny
+  url: https://shiny.rstudio.com/
+- description: R Markdown can help to turn your analyses into high quality documents,
+    reports, presentations and dashboards.
+  name: R Markdown
+  registry:
+    tess: R Markdown
+  url: https://rmarkdown.rstudio.com/
+- description: LimeSurvey is a free and open source advanced online survey system
+    to create online surveys.
+  name: LimeSurvey
+  url: https://www.limesurvey.org/
+- description: DMP online is an online planning tool to help you write an effective
+    DMP based on an institutional or funder template.
+  name: DMP Online
+  registry:
+    tess: DMP Online
+  url: https://dmptool.org/
+- description: A registry for describing, sharing and publishing scientific computational
+    workflows.
+  name: WorkflowHub
+  registry:
+    biotools: workflowhub
+    fairsharing: 07cf72
+    tess: WorkflowHub
+  related_pages:
+  - covid19_galaxy_project
+  url: https://workflowhub.eu
+- description: A platform allowing for browsing SARS-CoV-2 variability at the genome,
+    amino acid, structural, and motif levels
+  name: CRG COVID-19 Viral Beacon
+  related_pages:
+  - covid19_galaxy_project
+  url: https://covid19beacon.crg.eu/
+- description: The European Galaxy server. Provides access to thousands of tools for
+    scalable and reproducible analysis.
+  name: Galaxy Europe
+  related_pages:
+  - covid19_galaxy_project
+  url: https://usegalaxy.eu/
+- description: Provides a record of the nucleotide sequencing information. It includes
+    raw sequencing data, sequence assembly information and functional annotation.
+  name: European Nucleotide Archive (ENA)
+  registry:
+    biotools: ena
+    fairsharing: dj8nt8
+    tess: European Nucleotide Archive (ENA)
+  related_pages:
+  - covid19_galaxy_project
+  - korogenoest
+  url: https://www.ebi.ac.uk/ena/browser/home
+- description: An online tool for analyzing and visualizing genomic data. It allows
+    users to add and share annotations.
+  name: UCSC Genome Browser
+  registry:
+    biotools: ucsc_genome_browser
+    fairsharing: s22qdj
+  related_pages:
+  - covid19_galaxy_project
+  url: https://genome.ucsc.edu/
+- description: The University of Tartu Galaxy instance. Enables local university users
+    to run their analyses in the Galaxy environment. Was heavily used during the KoroGenoEST
+    sequencing studies.
+  name: Galaxy University of Tartu
+  related_pages:
+  - korogenoest
+  url: https://galaxy.hpc.ut.ee/
+- description: Estonian instance of the COVID-19 Data Portal. Among other informaiton,
+    served Estonian SARS-CoV-2 sequencing dashboards.
+  name: Estonian COVID-19 Data Portal
+  related_pages:
+  - korogenoest
+  url: https://covid19dataportal.ee/
+- description: Estonian local instance of the Nextstrain Auspiece application that
+    serves SARS-CoV-2 phylogenetic data
+  name: Nextstrain Auspiece
+  related_pages:
+  - korogenoest
+  url: https://auspice.biit.cs.ut.ee/ncov/est
+- description: Cleans metagenomic reads to remove adapters, low-quality bases and
+    host (e.g. human) contamination.
+  name: Metagen-FastQC
+  related_pages:
+  - korogenoest
+  url: https://github.com/Finn-Lab/Metagen-FastQC
+- description: Submits experimental data and respective metadata to the European Nucleotide
+    Archive (ENA).
+  name: ENA upload tool
+  related_pages:
+  - korogenoest
+  url: https://github.com/usegalaxy-eu/ena-upload-cli
