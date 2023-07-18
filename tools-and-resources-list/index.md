@@ -1,5 +1,6 @@
 ---
 title: Tools and resources list
+datatable: true
 ---
 
 
