@@ -1,26 +1,18 @@
-- description: Asymptomatic COVID-19 in Education (ACE) Cohort
-  name: ACE Cohort
+- description: "The '1+ Million Genomes' (1+MG) initiative aims to enable secure access\
+    \ to genomics and the corresponding clinical data across Europe for better research,\
+    \ personalised healthcare and health policy making. Since the Digital Day 2018,\
+    \ 25 EU countries, the UK and Norway signed Member States\u2019 declaration on\
+    \ stepping up efforts towards creating a European data infrastructure for genomic\
+    \ data and implementing common national rules enabling federated data access.\
+    \ The initiative forms part of the EU\u2019s agenda for the Digital Transformation\
+    \ of Health and Care and is aligned with the goals of the European Health Data\
+    \ Space."
+  name: 1+ Million Genomes (1+MG)
   registry:
-    tess: ACE Cohort
+    tess: 1+ Million Genomes
   related_pages:
-  - hbd_data_sources
-  url: https://co-connect.ac.uk/ace-cohort/
-- description: Responsible sharing of biomedical data and biospecimens via the "Automatable
-    Discovery and Access Matrix" (ADA-M). The Automatable Discovery and Access Matrix
-    (ADA-M) provides a standardized way to unambiguously represent the conditions
-    related to data discovery and access. By adopting ADA-M, data custodians can generally
-    describe what their data are (the Header section), who can access them (the Permissions
-    section), terms related to their use (the Terms section), and special conditions
-    (the Meta-Conditions). By doing so, data custodians can participate in data sharing
-    and collaboration by making meta information about their data computer-readable
-    and hence directly available for digital communication, searching and automation
-    activities.
-  name: ADA-M
-  registry:
-    biotools: ada-m
-  related_pages:
-  - hbd_data_sources
-  url: https://github.com/ga4gh/ADA-M
+  - hchd_data_sources
+  url: https://digital-strategy.ec.europa.eu/en/policies/1-million-genomes
 - description: ANNOVAR is an efficient software tool to utilize update-to-date information
     to functionally annotate genetic variants detected from diverse genomes.
   name: ANNOVAR
@@ -29,19 +21,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/WGLab/doc-ANNOVAR
-- description: ArrayExpress is a database of functional genomics experiments that
-    can be queried and the data downloaded. It includes gene expression data from
-    microarray and high throughput sequencing studies. Data is collected to MIAME
-    and MINSEQE standards. Experiments are submitted directly to ArrayExpress or are
-    imported from the NCBI GEO database.
-  name: ArrayExpress
-  registry:
-    biotools: arrayexpress
-    fairsharing: 6k0kwd
-    tess: ArrayExpress
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ebi.ac.uk/arrayexpress/
 - description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
     developers create biomedical applications, and IT administrators manage large
     compute and storage resources.
@@ -49,22 +28,15 @@
   related_pages:
   - hbd_data_analysis
   url: https://arvados.org/
-- description: Beacon v2 is a protocol/specification established by the Global Alliance
-    for Genomics and Health initiative (GA4GH) that defines an open standard for federated
-    discovery of genomic data and associated information in biomedical research and
-    clinical applications. The Beacon v2 standard - a major update from the original
-    GA4GH Beacon first proposed in 2014 - was accepted by GA4GH in April 2022. Beacon
-    v2 consists of two components, the Framework and the Models. The Framework contains
-    the format for the requests and responses, whereas the Models define the structure
-    of the biological data response.
-  name: Beacon
-  registry:
-    biotools: beacon
-    fairsharing: 6fba91
-    tess: Beacon
+- description: The Beyond 1 Million Genomes (B1MG) project is helping to create a
+    network of genetic and clinical data across Europe. The project provides coordination
+    and support to the 1+ Million Genomes Initiative (1+MG). This initiative is a
+    commitment of 24 EU countries, the UK and Norway to give cross-border access to
+    one million sequenced genomes by 2022.
+  name: Beyond 1 Million Genomes (B1MG)
   related_pages:
-  - hbd_data_sources
-  url: http://docs.genomebeacons.org/
+  - hchd_data_sources
+  url: https://b1mg-project.eu/
 - description: BioGRID is a comprehensive biomedical repository for curated protein,
     genetic and chemical interactions
   name: BioGRID
@@ -74,20 +46,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/BioGRID
-- description: BioSamples stores and supplies descriptions and metadata about biological
-    samples used in research and development by academia and industry. Samples are
-    either 'reference' samples (e.g. from 1000 Genomes, HipSci, FAANG) or have been
-    used in an assay database such as the European Nucleotide Archive (ENA) or ArrayExpress.
-    It provides links to assays and specific samples, and accepts direct submissions
-    of sample information.
-  name: BioSamples
-  registry:
-    biotools: biosamples
-    fairsharing: ewjdq6
-    tess: BioSamples
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ebi.ac.uk/biosamples/
 - description: Bismark is a program to map bisulfite treated sequencing reads to a
     genome of interest and perform methylation calls in a single step.
   name: Bismark
@@ -128,6 +86,19 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/marbl/canu
+- description: CESSDA Vocabulary Service enables users to discover, browse, and download
+    controlled vocabularies in a variety of languages. The service is provided by
+    the Consortium of European Social Science Data Archives (CESSDA). The majority
+    of the source (English) vocabularies included in the service have been created
+    by the DDI Alliance. The Data Documentation Initiative (DDI) is an international
+    standard for describing data produced by surveys and other observational methods
+    in the social, behavioural, economic, and health sciences.
+  name: CESSDA Vocabulary Service
+  registry:
+    fairsharing: 5c7cec
+  related_pages:
+  - sed_data_description
+  url: https://vocabularies.cessda.eu/about
 - description: ClustalW is a progressive multiple sequence alignment tool to align
     a set of sequences by repeatedly aligning pairs of sequences and previously generated
     alignments.
@@ -169,7 +140,7 @@
     fairsharing: f3b7a9
     tess: Covid-19 data portal
   related_pages:
-  - hbd_data_sources
+  - sed_data_sources
   url: https://www.covid19dataportal.org/
 - description: A platform allowing for browsing SARS-CoV-2 variability at the genome,
     amino acid, structural, and motif levels
@@ -207,19 +178,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://david.ncifcrf.gov/
-- description: The Database of Genotypes and Phenotypes (dbGaP) archives and distributes
-    the results of studies that have investigated the interaction of genotype and
-    phenotype. Such studies include genome-wide association studies, medical sequencing,
-    molecular diagnostic assays, as well as association between genotype and non-clinical
-    traits.
-  name: dbGaP
-  registry:
-    biotools: dbgap
-    fairsharing: 88v2k0
-    tess: dbGaP
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ncbi.nlm.nih.gov/gap/
 - description: A comprehensive database of transcript-specific functional predictions
     and annotations for human nonsynonymous and splice-site SNVs
   name: dbNSFP
@@ -257,12 +215,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
-- description: DMP online is an online planning tool to help you write an effective
-    DMP based on an institutional or funder template.
-  name: DMP Online
-  registry:
-    tess: DMP Online
-  url: https://dmptool.org/
 - description: Docker is a software for the execution of applications in virtualized
     environments called containers. It is linked to DockerHub, a library for sharing
     container images
@@ -280,35 +232,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://gatk.broadinstitute.org/hc/en-us/articles/360045944831
-- description: 'Dryad is an open-source, community-led data curation, publishing,
-    and preservation platform for CC0 publicly available research data. Dryad has
-    a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt
-    repository with storage in US and EU at the San Diego Supercomputing Center, DANS,
-    and Zenodo. While data is undergoing peer review, it is embargoed if the related
-    journal requires / allows this. Dryad is an independent non-profit that works
-    directly with: researchers to publish datasets utilising best practices for discovery
-    and reuse; publishers to support the integration of data availability statements
-    and data citations into their workflows; and institutions to enable scalable campus
-    support for research data management best practices at low cost. Costs are covered
-    by institutional, publisher, and funder members, otherwise a one-time fee of $120
-    for authors to cover cost of curation and preservation. Dryad also receives direct
-    funder support through grants.'
-  name: Dryad
-  registry:
-    fairsharing: wkggtx
-  related_pages:
-  - hbd_data_sources
-  url: http://datadryad.org/
-- description: The European Bioinformatics Institute is a bioinformatics research
-    center that is part of the European Molecular Biology Laboratory and is located
-    in Hinxton, England. The institution combines intense research activity with the
-    development and maintenance of a set of bioinformatics lines, services and databases.
-  name: EBI
-  registry:
-    tess: EBI
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ebi.ac.uk/
 - description: Empirical Analysis of Digital Gene Expression Data in R
   name: EdgeR
   registry:
@@ -317,19 +240,23 @@
   related_pages:
   - hbd_data_analysis
   url: https://bioconductor.org/packages/release/bioc/html/edgeR.html
-- description: The European Genome-phenome Archive (EGA) is a service for permanent
-    archiving and sharing of personally identifiable genetic, phenotypic, and clinical
-    data generated for the purposes of biomedical research projects or in the context
-    of research-focused healthcare systems. Access to data must be approved by the
-    specified Data Access Committee (DAC).
-  name: EGA
+- description: 'The European Language Social Science Thesaurus (ELSST) is a broad-based,
+    multilingual thesaurus for the social sciences. It is owned and published by the
+    Consortium of European Social Science Data Archives (CESSDA) and its national
+    Service Providers. The thesaurus consists of over 3,300 concepts and covers the
+    core social science disciplines: politics, sociology, economics, education, law,
+    crime, demography, health, employment, information, communication technology,
+    and environmental science. ELSST is used for data discovery within CESSDA and
+    facilitates access to data resources across Europe, independent of domain, resource,
+    language, or vocabulary. ELSST is currently available in 16 languages: Danish,
+    Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian,
+    Norwegian, Romanian, Slovenian, Spanish, and Swedish'
+  name: European Language Social Science Thesaurus (ELSST)
   registry:
-    biotools: ega
-    fairsharing: mya1ff
-    tess: EGA
+    fairsharing: acd824
   related_pages:
-  - hbd_data_sources
-  url: https://ega-archive.org/
+  - sed_data_description
+  url: https://elsst.cessda.eu/
 - description: Submits experimental data and respective metadata to the European Nucleotide
     Archive (ENA).
   name: ENA upload tool
@@ -343,22 +270,22 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/guokai8/EnrichR
-- description: The Estonian Biobank has established a population-based biobank of
-    Estonia with a current cohort size of more than 200,000 individuals (genotyped
-    with genome-wide arrays), reflecting the age, sex and geographical distribution
-    of the adult Estonian population. Considering the fact that about 20% of Estonia's
-    adult population has joined the programme, it is indeed a database that is very
-    important for the development of medical science both domestically and internationally.
-  name: Estonian Biobank
-  related_pages:
-  - hbd_data_sources
-  url: https://genomics.ut.ee/en/content/estonian-biobank
 - description: Estonian instance of the COVID-19 Data Portal. Among other informaiton,
     served Estonian SARS-CoV-2 sequencing dashboards.
   name: Estonian COVID-19 Data Portal
   related_pages:
   - korogenoest
   url: https://covid19dataportal.ee/
+- description: The EUI COVID-19 SSH Data Portal provides integrated search, discovery,
+    and linking to datasets published on the web relevant for COVID-19-related research
+    in the Social Sciences and Humanities. The COVID-19 SSH Data Portal is an initiative
+    of the European University Institute.
+  name: EUI COVID-19 SSH Data Portal
+  registry:
+    fairsharing: 97367f
+  related_pages:
+  - sed_data_description
+  url: https://covid-19.eui.eu/
 - description: Provides a record of the nucleotide sequencing information. It includes
     raw sequencing data, sequence assembly information and functional annotation.
   name: European Nucleotide Archive (ENA)
@@ -369,42 +296,7 @@
   related_pages:
   - covid19_galaxy_project
   - korogenoest
-  - hbd_data_sources
   url: https://www.ebi.ac.uk/ena/browser/home
-- description: fairsharing is a FAIR-supporting resource that provides an informative
-    and educational registry on data standards, databases, repositories and policy,
-    alongside search and visualization tools and services that interoperate with other
-    FAIR-enabling resources. fairsharing guides consumers to discover, select and
-    use standards, databases, repositories and policy with confidence, and producers
-    to make their resources more discoverable, more widely adopted and cited. Each
-    record in fairsharing is curated in collaboration with the maintainers of the
-    resource themselves, ensuring that the metadata in the fairsharing registry is
-    accurate and timely. Every record is manually reviewed at least once a year. Records
-    can be collated into collections, based on a project, society or organisation,
-    or Recommendations, where they are collated around a policy, such as a journal
-    or funder data policy.
-  name: fairsharing
-  registry:
-    fairsharing: 2abjs5
-    tess: fairsharing
-  related_pages:
-  - hbd_data_sources
-  url: https://fairsharing.org/
-- description: Figshare is a generalist, subject-agnostic repository for many different
-    types of digital objects that can be used without cost to researchers. Data can
-    be submitted to the central figshare repository (described here), or institutional
-    repositories using the figshare software can be installed locally, e.g. by universities
-    and publishers. Metadata in figshare is licenced under is CC0. figshare has also
-    partnered with DuraSpace and Chronopolis to offer further assurances that public
-    data will be archived under the stewardship of Chronopolis. figshare is supported
-    through Institutional, Funder, and Governmental service subscriptions.
-  name: Figshare
-  registry:
-    fairsharing: drtwnh
-    tess: Figshare
-  related_pages:
-  - hbd_data_sources
-  url: http://figshare.com/
 - description: Flye is a de novo assembler for single-molecule sequencing reads, such
     as those produced by PacBio and Oxford Nanopore Technologies.
   name: Flye
@@ -424,17 +316,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/freebayes/freebayes
-- description: The metadata model for GA4GH, an international coalition of both public
-    and private interested parties, formed to enable the sharing of genomic and clinical
-    data.
-  name: GA4GH
-  registry:
-    biotools: ga4gh
-    fairsharing: 2tpx4v
-    tess: GA4GH
-  related_pages:
-  - hbd_data_sources
-  url: https://github.com/ga4gh/schemas
 - description: Open, web-based platform for data intensive biomedical research. Whether
     on the free public server or your own instance, you can perform, reproduce, and
     share complete analyses.
@@ -461,16 +342,6 @@
   related_pages:
   - korogenoest
   url: https://galaxy.hpc.ut.ee/
-- description: GenBank is the NIH genetic sequence database of annotated collections
-    of all publicly available DNA sequences.
-  name: GenBank
-  registry:
-    biotools: genbank
-    fairsharing: 9kahy4
-    tess: GenBank
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ncbi.nlm.nih.gov/genbank/
 - description: GeneMANIA helps you predict the function of your favourite genes and
     gene sets.
   name: GeneMANIA
@@ -480,24 +351,15 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/GeneMANIA/genemania
-- description: The Gene Expression Omnibus (GEO) is a public repository that archives
-    and freely distributes microarray, next-generation sequencing, and other forms
-    of high-throughput functional genomic data submitted by the scientific community.
-    Accepts next generation sequence data that examine quantitative gene expression,
-    gene regulation, epigenomics or other aspects of functional genomics using methods
-    such as RNA-seq, miRNA-seq, ChIP-seq, RIP-seq, HiC-seq, methyl-seq, etc. GEO will
-    process all components of your study, including the samples, project description,
-    processed data files, and will submit the raw data files to the Sequence Read
-    Archive (SRA) on the researchers behalf. In addition to data storage, a collection
-    of web-based interfaces and applications are available to help users query and
-    download the studies and gene expression patterns stored in GEO.
-  name: GEO
-  registry:
-    fairsharing: 5hc8vt
-    tess: GEO
+- description: The Genomic Data Infrastructure (GDI) project is enabling access to
+    genomic and related phenotypic and clinical data across Europe. It is doing this
+    by establishing a federated, sustainable and secure infrastructure to access the
+    data. It builds on the outputs of the Beyond 1 Million Genomes (B1MG) project
+    and is realising the ambition of the 1+Million Genomes (1+MG) initiative.
+  name: Genomic Data Infrastructure (GDI)
   related_pages:
-  - hbd_data_sources
-  url: https://www.ncbi.nlm.nih.gov/geo/
+  - hchd_data_sources
+  url: https://gdi.onemilliongenomes.eu/
 - description: ggplot2 is a system for declaratively creating graphics, based on The
     Grammar of Graphics.
   name: ggplot2
@@ -553,20 +415,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://www.gsea-msigdb.org/gsea/index.jsp
-- description: The Genotype-Tissue Expression (GTEx) project is an ongoing effort
-    to build a comprehensive public resource to study tissue-specific gene expression
-    and regulation. Samples were collected from 53 non-diseased tissue sites across
-    nearly 1000 individuals, primarily for molecular assays including WGS, WES, and
-    RNA-Seq. Remaining samples are available from the GTEx Biobank. The GTEx Portal
-    provides open access to data including gene expression, QTLs, and histology images.
-  name: GTEx
-  registry:
-    biotools: gtex
-    fairsharing: 293c15
-    tess: GTEx
-  related_pages:
-  - hbd_data_sources
-  url: https://gtexportal.org/
 - description: HISAT2 is a fast and sensitive alignment program for mapping next-generation
     sequencing reads (whole-genome, transcriptome, and exome sequencing data) to a
     population of human genomes (as well as to a single reference genome).
@@ -604,10 +452,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://www.bioconductor.org/packages//2.11/data/annotation/html/KEGG.db.html
-- description: LimeSurvey is a free and open source advanced online survey system
-    to create online surveys.
-  name: LimeSurvey
-  url: https://www.limesurvey.org/
 - description: A probabilistic framework for structural variant discovery.
   name: Lumpy
   registry:
@@ -683,16 +527,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://pubmed.ncbi.nlm.nih.gov/21932828/
-- description: MIABIS represents the minimum information required to initiate collaborations
-    between biobanks and to enable the exchange of biological samples and data. The
-    aim is to facilitate the reuse of bio-resources and associated data by harmonizing
-    biobanking and biomedical research.
-  name: MIABIS
-  registry:
-    fairsharing: s0jj2t
-  related_pages:
-  - hbd_data_sources
-  url: http://bbmri-wiki.wikidot.com/en:dataset
 - description: MUSCLE is widely-used software for making multiple alignments of biological
     sequences.
   name: MUSCLE
@@ -710,14 +544,6 @@
   related_pages:
   - hbd_data_analysis
   url: http://mzmine.github.io/
-- description: The National Center for Biotechnology Information advances science
-    and health by providing access to biomedical and genomic information.
-  name: NCBI
-  registry:
-    tess: NCBI
-  related_pages:
-  - hbd_data_sources
-  url: https://www.ncbi.nlm.nih.gov/
 - description: Nextflow is a framework for data analysis workflow execution
   name: Nextflow
   registry:
@@ -748,18 +574,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/OpenMS/OpenMS
-- description: The PANTHER (Protein ANalysis THrough Evolutionary Relationships) Classification
-    System is a unique resource that classifies genes by their functions, using published
-    scientific experimental evidence and evolutionary relationships to predict function
-    even in the absence of direct experimental evidence.
-  name: Panther
-  registry:
-    biotools: panther
-    fairsharing: ty3dqs
-    tess: Panther
-  related_pages:
-  - hbd_data_sources
-  url: http://www.pantherdb.org/
 - description: PhyML is a software package that uses modern statistical approaches
     to analyse alignments of nucleotide or amino acid sequences in a phylogenetic
     framework.
@@ -769,18 +583,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/stephaneguindon/phyml
-- description: R Markdown can help to turn your analyses into high quality documents,
-    reports, presentations and dashboards.
-  name: R Markdown
-  registry:
-    tess: R Markdown
-  url: https://rmarkdown.rstudio.com/
-- description: Shiny is an R package that makes it easy to build interactive web apps
-    straight from R.
-  name: R Shiny
-  registry:
-    tess: R Shiny
-  url: https://shiny.rstudio.com/
 - description: Implementation of Workflow Execution Service (WES) or so-called Workflow-as-a-Service.
   name: Sapporo WES
   registry:
@@ -828,22 +630,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/ablab/spades
-- description: The SRA is NIH's primary archive of high-throughput sequencing data
-    and is part of the International Nucleotide Sequence Database Collaboration (INSDC)
-    that includes at the NCBI Sequence Read Archive (SRA), the European Bioinformatics
-    Institute (EBI), and the DNA Database of Japan (DDBJ). Data submitted to any of
-    the three organizations are shared among them. SRA accepts data from all kinds
-    of sequencing projects including clinically important studies that involve human
-    subjects or their metagenomes, which may contain human sequences. These data often
-    have a controlled access via dbGaP (the database of Genotypes and Phenotypes).
-  name: SRA
-  registry:
-    biotools: sra
-    fairsharing: g7t2hv
-    tess: SRA
-  related_pages:
-  - hbd_data_sources
-  url: http://www.ncbi.nlm.nih.gov/sra
 - description: Spliced Transcripts Alignment to a Reference
   name: STAR
   registry:
@@ -857,31 +643,6 @@
   related_pages:
   - hchd_provenance
   url: https://streamflow.di.unito.it/
-- description: The Cancer Genome Atlas (TCGA) is a comprehensive, collaborative effort
-    led by the National Institutes of Health (NIH) to map the genomic changes associated
-    with specific types of tumors to improve the prevention, diagnosis and treatment
-    of cancer. Its mission is to accelerate the understanding of the molecular basis
-    of cancer through the application of genome analysis and characterization technologies.
-  name: TCGA
-  registry:
-    fairsharing: m8wewa
-    tess: TCGA
-  related_pages:
-  - hbd_data_sources
-  url: https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga
-- description: The Data Use Ontology (DUO) describes data use requirements and limitations.
-    DUO allows to semantically tag datasets with restriction about their usage, making
-    them discoverable automatically based on the authorization level of users, or
-    intended usage. This resource is based on the OBO Foundry principles, and developed
-    using the W3C Web Ontology Language. It is used in production by the European
-    Genome-phenome Archive (EGA) at EMBL-EBI and CRG as well as the Broad Institute
-    for the Data Use Oversight System (DUOS).
-  name: The Data Use Ontology (DUO)
-  registry:
-    fairsharing: 5dnjs2
-  related_pages:
-  - hbd_data_sources
-  url: https://raw.githubusercontent.com/EBISPOT/DUO/master/duo.owl
 - description: The toil-cwl-runner command provides cwl-parsing functionality using
     cwltool, and leverages the job-scheduling and batch system support of Toil.
   name: toil-cwl-runner
@@ -941,41 +702,27 @@
   related_pages:
   - hbd_data_analysis
   url: https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage
-- description: Zenodo is a generalist research data repository built and developed
-    by OpenAIRE and CERN. It was developed to aid Open Science and is built on open
-    source code. Zenodo helps researchers receive credit by making the research results
-    citable and through OpenAIRE integrates them into existing reporting lines to
-    funding agencies like the European Commission. Citation information is also passed
-    to DataCite and onto the scholarly aggregators. Content is available publicly
-    under any one of 400 open licences (from opendefinition.org and spdx.org). Restricted
-    and Closed content is also supported. Free for researchers below 50 GB/dataset.
-    Content is both online on disk and offline on tape as part of a long-term preservation
-    policy. Zenodo supports managed access (with an access request workflow) as well
-    as embargoing generally and during peer review. The base infrastructure of Zenodo
-    is provided by CERN, a non-profit IGO. Projects are funded through grants.
-  name: Zenodo
-  registry:
-    fairsharing: wy4egf
-    tess: Zenodo
+- description: SANE is a virtual container in which the researcher can analyse sensitive
+    data, while the data owner retains full control.
+  name: ODDISEI Secure ANalysis Environment (SANE)
   related_pages:
-  - hbd_data_sources
-  url: https://www.zenodo.org/
-- description: FAIRsharing is a FAIR-supporting resource that provides an informative
-    and educational registry on data standards, databases, repositories and policy,
-    alongside search and visualization tools and services that interoperate with other
-    FAIR-enabling resources. FAIRsharing guides consumers to discover, select and
-    use standards, databases, repositories and policy with confidence, and producers
-    to make their resources more discoverable, more widely adopted and cited. Each
-    record in FAIRsharing is curated in collaboration with the maintainers of the
-    resource themselves, ensuring that the metadata in the FAIRsharing registry is
-    accurate and timely. Every record is manually reviewed at least once a year. Records
-    can be collated into collections, based on a project, society or organisation,
-    or Recommendations, where they are collated around a policy, such as a journal
-    or funder data policy.
-  name: FAIRsharing
+  - sed_data_sources
+  url: https://odissei-data.nl/en/2022/02/secure-analysis-environment-sane-secure-data-for-social-sciences-and-humanities/
+- description: CDC is a one-stop shop for searching and finding European social science
+    data.
+  name: CESSDA Data Catalogue (CDC)
   registry:
-    fairsharing: 2abjs5
-    tess: FAIRsharing
+    biotools: cdc
+    fairsharing: a12316
   related_pages:
-  - hbd_data_sources
-  url: https://fairsharing.org/
+  - sed_data_sources
+  url: https://datacatalogue.cessda.eu/
+- description: The COVID-19 SSH Data Portal provides integrated search, discovery,
+    and linking to datasets published on the web relevant for COVID-19-related research
+    in the Social Sciences and Humanities.
+  name: EUI COVID-19 SSH Data Portal
+  registry:
+    fairsharing: 97367f
+  related_pages:
+  - sed_data_sources
+  url: https://eui-covid-data.cottagelabs.com/
