@@ -1,6 +1,8 @@
 /*-----General styling-----*/
 
-$card-slide-transition: border-width .15s ease-in, margin-right .15s ease-in;
+$card-slide-transition:
+    border-width 0.15s ease-in,
+    margin-right 0.15s ease-in;
 
 main {
     h1 {
@@ -87,7 +89,7 @@ main {
         margin-top: $spacer;
         li {
             a {
-                margin-bottom: 0!important;
+                margin-bottom: 0 !important;
                 border-left: 4px solid $sidebar-bg;
                 &:hover {
                     border-left-color: $primary !important;
@@ -271,6 +273,13 @@ section#search-section {
 .news > ul > li .title {
     background-color: $blue-x;
     color: $dark;
+}
+
+.events > ul > li,
+.news > ul > li {
+    padding: 0px 0px 2px 11px;
+    background-color: #fff;
+    margin-bottom: 11px;
 }
 
 /*-----Edit-me buttons-----*/
