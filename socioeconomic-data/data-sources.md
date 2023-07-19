@@ -1,16 +1,16 @@
 ---
 title: Data sources
-description: Finding and sharing data for social and economic impact related data sources.
-contributors: []
+description: Finding and sharing data for socioeconomic related data sources.
+contributors: [Simon Saldner, Laura Portell Silva]
 page_id: sed_data_sources
 rdmkit:
-  - name:
-    url:
+  - name: Data sensitivity
+    url: https://rdmkit.elixir-europe.org/sensitive_data
 related_pages: 
   showcase: []
-  human_biomolecular_data: []
-  human_clinical_and_health_data: []
-  socioeconomic_data: []
+  human_biomolecular_data: [hbd_data_sources]
+  human_clinical_and_health_data: [hchd_data_sources]
+  socioeconomic_data: [sed_data_description]
   pathogen_characterisation: []
 training:
   - name:
