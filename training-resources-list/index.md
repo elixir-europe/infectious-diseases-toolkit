@@ -1,5 +1,6 @@
 ---
 title: Training resources list
+datatable: true
 ---
 
 
