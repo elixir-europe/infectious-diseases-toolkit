@@ -1,18 +1,3 @@
-- description: "The '1+ Million Genomes' (1+MG) initiative aims to enable secure access\
-    \ to genomics and the corresponding clinical data across Europe for better research,\
-    \ personalised healthcare and health policy making. Since the Digital Day 2018,\
-    \ 25 EU countries, the UK and Norway signed Member States\u2019 declaration on\
-    \ stepping up efforts towards creating a European data infrastructure for genomic\
-    \ data and implementing common national rules enabling federated data access.\
-    \ The initiative forms part of the EU\u2019s agenda for the Digital Transformation\
-    \ of Health and Care and is aligned with the goals of the European Health Data\
-    \ Space."
-  name: 1+ Million Genomes (1+MG)
-  registry:
-    tess: 1+ Million Genomes
-  related_pages:
-  - hchd_data_sources
-  url: https://digital-strategy.ec.europa.eu/en/policies/1-million-genomes
 - description: ANNOVAR is an efficient software tool to utilize update-to-date information
     to functionally annotate genetic variants detected from diverse genomes.
   name: ANNOVAR
@@ -28,15 +13,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://arvados.org/
-- description: The Beyond 1 Million Genomes (B1MG) project is helping to create a
-    network of genetic and clinical data across Europe. The project provides coordination
-    and support to the 1+ Million Genomes Initiative (1+MG). This initiative is a
-    commitment of 24 EU countries, the UK and Norway to give cross-border access to
-    one million sequenced genomes by 2022.
-  name: Beyond 1 Million Genomes (B1MG)
-  related_pages:
-  - hchd_data_sources
-  url: https://b1mg-project.eu/
 - description: BioGRID is a comprehensive biomedical repository for curated protein,
     genetic and chemical interactions
   name: BioGRID
@@ -351,15 +327,6 @@
   related_pages:
   - hbd_data_analysis
   url: https://github.com/GeneMANIA/genemania
-- description: The Genomic Data Infrastructure (GDI) project is enabling access to
-    genomic and related phenotypic and clinical data across Europe. It is doing this
-    by establishing a federated, sustainable and secure infrastructure to access the
-    data. It builds on the outputs of the Beyond 1 Million Genomes (B1MG) project
-    and is realising the ambition of the 1+Million Genomes (1+MG) initiative.
-  name: Genomic Data Infrastructure (GDI)
-  related_pages:
-  - hchd_data_sources
-  url: https://gdi.onemilliongenomes.eu/
 - description: ggplot2 is a system for declaratively creating graphics, based on The
     Grammar of Graphics.
   name: ggplot2
