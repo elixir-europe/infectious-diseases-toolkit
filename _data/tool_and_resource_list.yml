@@ -338,6 +338,7 @@
   url: https://github.com/tidyverse/ggplot2
 - description: GitHub is a versioning system, used for sharing code, as well as for
     sharing of small data.
+  id: github
   name: GitHub
   registry:
     fairsharing: c55d5e

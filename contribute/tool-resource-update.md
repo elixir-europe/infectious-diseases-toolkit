@@ -58,9 +58,9 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
     ```
     {% raw %}
-    {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
+    {% tool "github" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
     {% endraw %}
     ```
     Will give: 
     
-    {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
+    {% tool "github" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
