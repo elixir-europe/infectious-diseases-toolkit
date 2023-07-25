@@ -15,7 +15,7 @@ training:
     url: https://github.com/mhoehle/mt3002-summer2020
 
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 
 national_resources: 
   - name: COVID-19 & Pandemic Preparedness Data Portal Sweden

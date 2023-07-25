@@ -255,12 +255,6 @@
   id: estonian-covid-19-data-portal
   name: Estonian COVID-19 Data Portal
   url: https://covid19dataportal.ee/
-- description: The EUI COVID-19 SSH Data Portal provides integrated search, discovery, and linking to datasets published on the web relevant for COVID-19-related research in the Social Sciences and Humanities. The COVID-19 SSH Data Portal is an initiative of the European University Institute.
-  id: eui-covid-19-ssh-data-portal
-  name: EUI COVID-19 SSH Data Portal
-  registry:
-    fairsharing: 97367f
-  url: https://covid-19.eui.eu/
 - description: Provides a record of the nucleotide sequencing information. It includes raw sequencing data, sequence assembly information and functional annotation.
   id: european-nucleotide-archive
   name: European Nucleotide Archive (ENA)
@@ -697,4 +691,21 @@
   name: EUI COVID-19 SSH Data Portal
   registry:
     fairsharing: 97367f
-  url: https://eui-covid-data.cottagelabs.com/
+  url: https://covid-19.eui.eu/
+- description: RO-Crate is a lightweight approach to packaging research data with their metadata, using schema.org. An RO-Crate is a structured archive of all the items that contributed to the research outcome, including their identifiers, provenance, relations and annotations.
+  id: research-object-crate
+  name: Research Object Crate (RO-Crate)
+  registry:
+    fairsharing: wUoZKE
+  url: https://w3id.org/ro/crate
+- description: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.
+  id: schema-org
+  name: Schema.org
+  registry:
+    fairsharing: hzdzq8
+    tess: Schema.org
+  url: https://schema.org
+- description: Workflow Execution Service Backend (WfExS-backend) is a high-level orchestrator to run scientific workflows reproducibly. 
+  id: wfexs
+  name: WfExS
+  url: https://github.com/inab/WfExS-backend

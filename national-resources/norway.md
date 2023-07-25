@@ -8,7 +8,7 @@ coordinators: [Erin Calhoun, Nazeefa Fatima]
 related_pages:
   showcase: []
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 
 national_resources: 
   - name: SARS-CoV-2 Database
