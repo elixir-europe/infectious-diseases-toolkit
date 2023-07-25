@@ -69,8 +69,8 @@
     tess: Bismark
   url: https://github.com/FelixKrueger/Bismark
 - description: Git based code hosting and collaboration tool, built for teams.
-  id: bitbucker
-  name: Bitbucker
+  id: bitbucket
+  name: Bitbucket
   url: https://bitbucket.org/
 - description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.
   id: bowtie2
@@ -365,7 +365,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 5.3e+63
+    fairsharing: "530e61"
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
