@@ -225,7 +225,7 @@
   url: https://bioconductor.org/packages/release/bioc/html/edgeR.html
 - description: The European Genome-phenome Archive (EGA) is a service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data generated for the purposes of biomedical research projects or in the context of research-focused healthcare systems. Access to data must be approved by the specified Data Access Committee (DAC).
   id: ega
-  name: EGA
+  name: European Genome-phenome Archive (EGA)
   registry:
     biotools: ega
     fairsharing: mya1ff
