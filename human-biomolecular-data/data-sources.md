@@ -29,7 +29,7 @@ training:
 
 This document aims to serve as a comprehensive resource for anyone interested in the data sources platforms of infectious diseases using human biomolecular data, which have become increasingly important in recent years as a result of advancements in technology and the ever-growing threat of global pandemics. 
 
-By providing this overview of the data sources platforms of infectious diseases using human biomolecular data, this document aims to facilitate the development of new research initiatives and collaborations in the field.
+By providing this overview of the data sources platforms of infectious diseases using human biomolecular data, this document aims give the user information on where to find these types of data and how to access them (secondary use of the data) and to facilitate the development of new research initiatives and collaborations in the field.
 
 
 ### What is human biomolecular data, and why is it important for infectious diseases research?
@@ -41,6 +41,8 @@ Human clinical data, on the other hand, refers to information obtained from the 
 While both types of data are important for understanding human health and disease, they are collected and analysed in different ways and for different purposes. 
 
 Human biomolecular data is of great importance in infectious disease research because it plays a critical role in understanding the molecular basis of the disease. By analyzing the biomolecular data, researchers can gain a deeper understanding of the disease's pathogenesis, evolution, and transmission. Personalised medicine is another area where biomolecular data can be applied. By analyzing an individual's biomolecular data, researchers can develop personalised treatment plans that are tailored to the specific needs of the patient. For example, if a patient has a genetic mutation that predisposes them to a particular disease, this information can be used to develop a personalised treatment plan that takes into account the patient's genetic profile.
+
+Furthermore, its significance extends far beyond disease diagnosis and treatment, encompassing a broader scope of applications. For instance, a secondary use of human biomolecular data becomes vital at the population level, facilitating important policy responses during future infectious disease outbreaks. Additionally, investigating the cost-effectiveness of interventions based on these datasets enables optimal resource allocation for the most impactful healthcare strategies. By analyzing this data, we can make well-informed decisions to protect public health in a long term. 
 
 It is important to mention that most analyses of human biomolecular data are complemented by using the clinical data related to them.
 
@@ -62,6 +64,7 @@ In summary, data deposition not only fuels scientific progress but also empowers
 - Adhere to data sharing and privacy regulations to protect sensitive information and maintain data confidentiality.
 - Include metadata, such as experimental protocols, sample characteristics, and data processing methods, to provide context and facilitate reproducibility.
 - Use standardized data formats and ontologies to enhance interoperability and enable integration with other datasets.
+- Use metadata standards (such as [DCAT](https://www.w3.org/TR/vocab-dcat-3/)) to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. 
 - Include appropriate quality control measures to ensure data accuracy and reliability.
 - Consider data anonymization or de-identification techniques to protect the privacy of individuals involved in the study.
 - Provide sufficient data access and sharing permissions, specifying any restrictions or limitations, while ensuring compliance with legal and ethical requirements.
@@ -84,7 +87,7 @@ Please note that these considerations are general in nature and may vary dependi
 
 ## Search and discoverability
 
-**Search and discoverability** are crucial for finding and accessing relevant information, resources, and data related to a specific topic or area of interest, particularly in the context of infectious diseases. Infectious diseases can evolve rapidly and have significant impacts on public health, making it necessary to monitor and respond to outbreaks effectively. This requires access to up-to-date information on disease prevalence, transmission patterns, and clinical outcomes, which can come from various sources, such as clinical data, biomolecular data, public health reports, and social media.
+**Search and discoverability** are crucial for finding and accessing relevant information, resources, and data related to a specific topic or area of interest. Infectious diseases can evolve rapidly and have significant impacts on public health, making it necessary to monitor and respond to outbreaks effectively. This requires access to up-to-date information on disease prevalence, transmission patterns, and clinical outcomes, which can come from various sources, such as clinical data, biomolecular data, public health reports, and social media.
 
 **Standardised terminology and data formats** are also essential for effective search and discoverability in infectious disease surveillance. The use of common disease codes and data structures can facilitate the integration and analysis of data from multiple sources, making it easier to identify trends and patterns. This can improve the ability to identify emerging disease threats and develop effective disease control measures. See [Data harmonisation](#data-harmonisation) section.
 
@@ -98,6 +101,7 @@ Despite the growing amount of infectious disease data stored in various sources,
 
 - **Data sharing platforms**: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the [Covid19 Data Portal](https://www.covid19dataportal.org/).
 - **Data privacy and security**: Privacy and security protocols must be in place to protect sensitive biomolecular data from unauthorised access.
+- **National regulations**: Taking into account the National regulations and the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) rules.
 - **Data quality**: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
 - **Data storage and management**: Proper data storage and management practices must be followed to ensure that biomolecular data is organised and easily accessible to relevant parties.
 - **Metadata**: Metadata should be included with biomolecular data to provide context and facilitate search and discoverability.
@@ -140,15 +144,20 @@ Sharing genetic and molecular information between researchers and institutions i
 
 Of course, sharing this kind of sensitive information comes with challenges. Privacy, security, and ethical considerations must be taken into account. Researchers need to handle this information responsibly and with respect for individuals' rights. Legal and regulatory barriers can also impede data sharing and collaboration.
 
-However, the benefits of sharing human biomolecular data outweigh the risks. Access to this data is crucial for scientific progress and medical advancements. It's important for us to continue finding ways to responsibly and securely share this valuable resource. Let's work together to make sure that we do so while respecting everyone's rights and ensuring that data is kept safe and secure.
+However, the benefits of sharing human biomolecular data outweigh the risks. Access to this data is crucial for scientific progress and medical advancements. It's important for us to continue finding ways to responsibly and securely share this valuable resource. 
 
 ### Considerations
 
 When looking for solutions to human biomolecular data access, you should consider the following aspects:
-- Check with your institution that you are following the ethical and legal requirements.
-- Choose an adequate repository for your data (e.g. controlled access repository)
-- Ensure that the data use conditions are publicly available to ease the data access process
-- Assemble your Data Access Committee to process data access requests
+
+- **Data Security and Privacy:** Prioritize solutions that ensure strict data security and compliance with ethical guidelines, protecting sensitive biomolecular information and adhering to regulatory requirements.
+- **Interoperability and Data Sharing:** Choose solutions that seamlessly integrate with existing biomolecular research platforms and data repositories, facilitating secure data sharing and collaboration among researchers.
+- **Data Reproducibility and Transparency:** Choose solutions that promote data reproducibility by providing transparent methodologies, making it easier for researchers to validate and build upon previous findings.
+- **Data Quality and Standardization:** Verify that the solution provides reliable and accurate data, while supporting data standardization and metadata organization for consistent data exchange and improved research outcomes.
+- **Data Integration Capabilities:** Depending on you study, prioritize solutions that can seamlessly integrate diverse biomolecular data types, such as genomics, proteomics, and metabolomics, for comprehensive analysis and insights.
+- **Data structure:** Choose a database with a defined data structure, enabling homogeneity of the data and facilitating standardized and consistent data storage, retrieval and usability.
+- **Scalability and Performance:** Look for solutions capable of efficiently handling large-scale biomolecular data sets while maintaining optimal performance, supporting advanced analysis tools for meaningful insights.
+- **User-Friendly Interface:** Opt for solutions with intuitive interfaces and flexible access controls, enabling researchers of varying technical backgrounds to access, analyze, and interpret data effectively.
 
 When looking for solutions to data transfer, you can check [this](https://rdmkit.elixir-europe.org/data_transfer) documentation.
 
