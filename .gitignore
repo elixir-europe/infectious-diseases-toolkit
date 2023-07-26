@@ -1,4 +1,5 @@
 _site/
 Gemfile.lock
+.jekyll-cache
 .jekyll-metadata
 .vscode/launch.json
