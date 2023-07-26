@@ -137,6 +137,6 @@ Some considerations to take into account when performing postprocessing on human
 
 - **Visualisation**:
     - Generate plots and heatmaps using tools such as {% tool "ggplot2" %} or {% tool "matplotlib" %}
-    - Visualise data in a genomic context using tools such as {% tool "igv" %} or {tool "ucsc-genome-browser"}
+    - Visualise data in a genomic context using tools such as {% tool "igv" %} or {% tool "ucsc-genome-browser" %}
 
 All these workflows and tools can be adapted and customised based on the specific type of data being analysed and the research question being addressed.
