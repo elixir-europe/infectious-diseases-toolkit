@@ -103,9 +103,9 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
   * Microbiology ([human](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/laboratory-medical-microbiology-lmm) and [veterinary](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/veterinary-bacteriology)): Sciensano is responsible for the  development of expertise in diagnosis and sub-analyses of infectious diseases
   * [Healthdata.be](https://healthdata.sciensano.be/) provides a technical infrastructure for the collection of registries, using a pseudonymised national registry number. The platform also facilitates automated data extraction (e.g., from clinical laboratories) and the linkage of registries. 
 
-* The **Federal Service for Public Health** maintains a registry of [minimal hospital dataset](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) for reimbursement of hospitals. It was also responsible for the hospital surge capacity management plan during the COVID-19 pandemic. The High Council of Health is a group of experts that provide advice (e.g., on vaccination and other health measures such as masks). 
+* The **Federal Service for Public Health** maintains a registry of [minimal hospital dataset](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) for reimbursement of hospitals. It was also responsible for the hospital surge capacity management plan during the COVID-19 pandemic. The [Superior Health Council](https://www.health.belgium.be/en/superior-health-council) is a group of experts that provide advice (e.g., on vaccination and other health measures such as masks). 
 
-* The [Risk Assessment Group (RAG)](https://covid-19.sciensano.be/fr/covid-19-informations-scientifiques) is a permanent group with members from different disease units in Sciensano. It is responsible for continuous health threat detection and assessment in order to provide general management advice to the risk management group. Sciensano coordinates the group and invites external experts to provide input when developing risk assessments. 
+* The [Risk Assessment Group (RAG)](https://covid-19.sciensano.be/fr/covid-19-informations-scientifiques) is a permanent group with members from different disease units in Sciensano. It is responsible for continuous health threat detection and assessment in order to provide general management advice to the Risk Management Group (RMG). Sciensano coordinates the group and invites external experts to provide input when developing risk assessments. 
 
 * The [Risk Management Group (RMG)](https://www.health.belgium.be/nl/node/37374) decides, in the event of a public health threat, the measures to reduce the risk to the Belgian population. It is a permanent group composed of representatives of Belgium’s health authorities and coordinated by the National Focal Point for the International Health Regulations of the Federal Public Health Service.
 
@@ -117,7 +117,7 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
 
 * [RIZIV-INAMI (Institute for Disease and Disability Insurance)](https://www.riziv.fgov.be/fr/Pages/default.aspx) collects reimbursement data on treatments and diagnostics (e.g., Hep C, HIV). This data can be used for epidemiological purposes. 
 
-* The Interministerial Conference (IMC) brings together 9 Ministers of Health and has the final political decision on proposals given by health authorities. A fragmented public health mandate and policy decision-making process undermines collaborative crisis management and long-term action plans for eradication of infectious diseases [1] [2]. 
+* The Interministerial Conference (IMC) on Public Health brings together 9 Ministers of Health and has the final political decision on proposals given by health authorities. A fragmented public health mandate and policy decision-making process undermines collaborative crisis management and long-term action plans for eradication of infectious diseases [1] [2]. 
 
 * The [Health Care Knowledge Centre (KCE)](https://www.kce.fgov.be/en) provides scientific advice on topics related to healthcare. Topics are requested by interested stakeholders, such as public authorities or universities. 
 
@@ -150,7 +150,7 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
 
 * The [**HIV-AIDS Reference Laboratories**](https://www.sciensano.be/en/aids-reference-laboratories-arl) report all new HIV diagnoses and the clinical results of their medical follow-ups. 
 
-* [PediSurv](https://www.sciensano.be/en/projects/network-pediatric-infectious-disease-surveillance) has a **network of pediatricians and general practitioners** that register clinical cases of six pediatric (vaccine-preventable) infectious diseases: acute flaccid paralysis (including poliomyelitis), measles, mumps, rubella, invasive pneumococcal infection, and hospitalized pertussis cases. 
+* [PediSurv](https://www.sciensano.be/en/projects/network-pediatric-infectious-disease-surveillance) has a **network of pediatricians and general practitioners** that register clinical cases of six pediatric (vaccine-preventable) infectious diseases: acute flaccid paralysis (including poliomyelitis), measles, mumps, rubella, invasive pneumococcal infection, and hospitalised pertussis cases. 
 
 * [**TekenNet/TiqueNet**](https://ticksnet.sciensano.be/) is a national citizen science platform for the surveillance of tick-bites and erythema migrans in the general population. 
 
@@ -174,19 +174,19 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
     * Contact tracing 
 
 * Within the healthdata.be infrastructure, it was possible to link these datasets to other national registries.
-    * COBHRA - Common Base Registry for HealthCare Actor. This database provides data on healthcare workers and their healthcare organization, to follow up incidence rates per type of healthcare worker.
+    * Common Base Registry for HealthCare Actor (CoBRHA): This database provides data on healthcare workers and their healthcare organization, to follow up incidence rates per type of healthcare worker.
     * StatBel: national individual-level data on socio-economic status, mortality and cause of death (e.g. infections)
     * IMA-AIM: reimbursement data, allowing to calculate incidence rates among people with comorbidities
 
 ## Dashboards and visualization platforms
-With the available surveillance systems described above, Sciensano provides both regular reports and, for select pathogens, data visualisation through the use of online interactive dashboards:
+With the available surveillance systems described above, Sciensano provides both regular reports and, for selected pathogens, data visualisation through the use of online interactive dashboards:
 
-* [Epistat](https://epistat.sciensano.be/home/): data visualisation dashboard, allowing data explorations and visualisations for different infectious diseases. 
+* [Epistat](https://epistat.sciensano.be/home/): data visualisation dashboard, allowing data explorations and visualisations for different infectious diseases 
 * [COVID Epistat](https://lookerstudio.google.com/embed/u/0/reporting/c14a5cfc-cab7-4812-848c-0369173148ab/page/ZwmOB): data visualisation dashboard, specific for COVID-19 related data. It includes the following sub-topics: vaccination, cases, hospitalisation, deaths, tests, municipalities, nursing homes, seroprevalence, mental health, wastewater, variants 
 * There are also university or media dashboards, which use Sciensano open data. For example: [University of Hasselt COVID-19 Data Dashboard](https://gjbex.github.io/DSI_UHasselt_covid_dashboard/), [VRT news coronavirus figures](https://www.vrt.be/vrtnws/nl/2021/10/23/coronacijfers/) 
 
 ## National data sources
-The data from the [surveillance systems](https://www.sciensano.be/en/data-collection) at Sciensano described above are available for secondary use, for instance:
+The data from the [surveillance systems](https://www.sciensano.be/en/data-collection) at Sciensano described above are available for secondary use through a data request (see below), for instance:
 * Epilabo 
 * Sentinel network of general practitioners (GPs)
 * Sentinel network of hospitals for severe acute respiratory infections (SARI): in case of data request, Sciensano has to obtain permission from all six participating hospitals
@@ -199,13 +199,14 @@ The data from the [surveillance systems](https://www.sciensano.be/en/data-collec
 * National surveillance of healthcare-associated infections 
 * Sentinel nursing home network for influenza-like illness is in the process of being developed for the monitoring of clinical and microbiological cases of ILI. 
 * COVID-19 registries
+
 Although the data are available at Sciensano, note that permission for data sharing might need to be given by another institution or entity. 
 
 [FAIR.healthdata.be](https://fair.healthdata.be/) is a FAIR portal that provides an overview of existing databases with health and health care related data. It aims to steadily make this data discoverable and available to the public to increase public health knowledge. 
 
 Other national data sources can also be reused for monitoring of infectious diseases, or describing the participants in the above registries by linking data at the individual level. These include the following: 
 
-* Socio-demographic data by [Statbel](https://statbel.fgov.be/en) (Belgian statistical office): national individual-level data on socio-economic status, mortality and cause of death (e.g. infections)
+* Socio-demographic data by [Statbel](https://statbel.fgov.be/en) (Belgian statistical office): national individual-level data on socio-economic status, mortality and cause of death (e.g., infections)
 * [Minimal hospital dataset (RHM/MZG)](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) by the Federal Service for Public Health: all non-psychiatric hospitals are obliged to report administrative and medical information related to the reimbursement of hospitals for the care provided to admitted patients
 * Vaccination datasets (Regional level, see below for more information):
     * Federal level: SARS-CoV-2 vaccination
@@ -228,7 +229,7 @@ This limited usability was highlighted during the monkeypox epidemic. Belgium wa
 
 * For access to Sciensano data sources, external investigators with a request for selected data should fill in the [data request form](https://epistat.wiv-isp.be/datarequest). Depending on the type of desired data (anonymised or pseudonymised), the provision of data can be assessed by Sciensano or has to be assessed by the Belgian Information Security Committee based on legal and ethical regulations.
 
-* The [Information Security Committee (ISC)](https://www.ksz-bcss.fgov.be/nl/gegevensbescherming/informatieveiligheidscomite-ivc) was established by [law in September 2018](https://www.ksz-bcss.fgov.be/sites/default/files/assets/veiligheid_en_privacy/ivc_huishoudelijk_reglement.pdf) with the responsibility to protect the privacy of personal data.
+* The Information Security Committee (ISC) was established by [law in September 2018](https://www.ksz-bcss.fgov.be/sites/default/files/assets/veiligheid_en_privacy/ivc_huishoudelijk_reglement.pdf) with the responsibility to protect the privacy of personal data.
 
 * There are four [Royal Decrees](https://etaamb.openjustice.be) establishing the mandatory reporting of notifiable infectious diseases at the regional level. 
 
