@@ -24,8 +24,8 @@ national_resources:
       centers (UMCs). The dashboard provides researchers with a clear overview
       of what is available, allows searching for specific data and makes access
       to such data easier when the necessary ethical and legal conditions have
-      been met.
-    how_to_access: the policy for access to and sharing of clinical COVID-19 is described in https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf
+      been met. The policy for access to and sharing of clinical COVID-19 is described in the [HRI COVID policy document](https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf)
+    how_to_access: #The policy for access to and sharing of clinical COVID-19 is described in https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf
     related_pages:
     registry:
       fairsharing: https://doi.org/10.25504/FAIRsharing.71bf06
@@ -62,7 +62,7 @@ national_resources:
     registry:
     url: https://dans.knaw.nl/en/
   - name: Erasmus MC COVID-19 cohort-associated connected datasets study
-    description: As part of a multidisciplinary consortium (https://recodid.eu/),
+    description: As part of the multidisciplinary [ReCoDID](https://recodid.eu/) consortium,
       the study aimed at connecting clinical-epidemiological (CE) data with
       further datasets from research on many other aspects of SARS-CoV-2.
     how_to_access: Research data sets can be accessed through the Cohort Browser.
@@ -74,7 +74,7 @@ national_resources:
     description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort
       includes 151 PCR-confirmed COVID-19 individuals who were admitted to the
       hospital with a respiratory infection or respiratory failure in 2020-2021.
-    how_to_access: request data through the EGA platform
+    how_to_access: Request data through the EGA platform
     instance_of:
     related_pages:
     registry:
@@ -135,8 +135,8 @@ The RIVM performs [SARS-CoV-2 pathogen surveillance](https://www.rivm.nl/en/coro
  
 ## Dashboards and visualisation platforms 
  
-- The current status of COVID-19 within the Netherlands can be found on https://coronadashboard.government.nl/. 
-- The current COVID-19 vaccination status within the Netherlands can be found on https://coronadashboard.government.nl/landelijk/vaccinaties 
+- The current status of COVID-19 within the Netherlands can be found [here](https://coronadashboard.government.nl/). 
+- The current COVID-19 vaccination status within the Netherlands can be found [here](https://coronadashboard.government.nl/landelijk/vaccinaties).
  
 ## National data sources 
  
@@ -167,7 +167,7 @@ The Infectieziekten Surveillance Informatie Systeem - Antibiotica Resistentie (I
 <!--- Ethical and legal regulations in the country, committees etc ---> 
 The Ministry of VWS oversees the RIVM and emergency preparedness for infectious disease outbreaks. The ministry enacts the [public health regulations](https://wetten.overheid.nl/jci1.3:c:BWBR0024705&z=2022-10-10&g=2022-10-10) (in Dutch) that provide a legal framework for disease outbreak response and other public health emergencies. 
  
-The Netherlands obliges medical doctors and microbiological labs to report certain infectious diseases to the GGD since 2014 to prevent spreading of the disease. You can read the latest version of the act at https://wetten.overheid.nl/jci1.3:c:BWBR0024705&z=2014-03-07&g=2014-03-07 (in Dutch). This act allows the GGD to track down the source of infection and investigate the risk of infection for people who came into contact with the patient. The information on infectious diseases, that should be reported in the Netherlands, is subsequently reported to the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/about-ecdc/what-we-do/ecdc-activities-surveillance), which uses the information to analyse trends in infectious diseases and evaluates policy on a European level. 
+The Netherlands obliges medical doctors and microbiological labs to report certain infectious diseases to the GGD since 2014 to prevent spreading of the disease. You can read the latest version of the act [here](https://wetten.overheid.nl/jci1.3:c:BWBR0024705&z=2014-03-07&g=2014-03-07) (in Dutch). This act allows the GGD to track down the source of infection and investigate the risk of infection for people who came into contact with the patient. The information on infectious diseases, that should be reported in the Netherlands, is subsequently reported to the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/about-ecdc/what-we-do/ecdc-activities-surveillance), which uses the information to analyse trends in infectious diseases and evaluates policy on a European level. 
  
 The [Data Protection Authority](https://autoriteitpersoonsgegevens.nl/en) is an independent body that oversees the processing of personal data in the Netherlands, including data related to public health and infectious disease outbreaks. The Data Protection Authority upholds compliance with Dutch data protection laws and the General Data Protection Regulation (GDPR) of the European Union. The regulations for sensitive/personal research data and clinical data, in the Netherlands, are implemented in the [medical-scientific research on humans](https://wetten.overheid.nl/jci1.3:c:BWBR0009408&z=2022-07-01&g=2022-07-01) (in Dutch) act. 
  
