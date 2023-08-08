@@ -1,7 +1,7 @@
 ---
 title: Belgium 
 country_code: BE 
-contributors: [Koen Blot, Ruben Brondeel, Shona Cosgrove, Miriam Saso, Nina Van Goethem, Patricia Palagi]
+contributors: [Koen Blot, Ruben Brondeel, Shona Cosgrove, Miriam Saso, Nina Van Goethem, Patricia Palagi, Iris Van Dam]
 
 # Link to other pages in showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
