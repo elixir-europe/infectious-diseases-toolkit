@@ -91,16 +91,16 @@ national_resources:
 ## Introduction 
 The responsibility for infectious disease data collection and management in Belgium is divided between several institutes and organizational layers. Belgium is a federated country, with both national and subnational health authorities which have separate responsibilities for infectious diseases. 
 
-The **National Public Health Institute (Sciensano)** is responsible for epidemiology and surveillance of infectious diseases at the national level and transmission of data to the international level (ECDC, WHO). Sciensano coordinates national epidemiological surveillance in collaboration with the **subnational Health Authorities** for Flanders, Brussels, Wallonia and the German-speaking community (see Health Authorities infra). At the subnational level, the federated health authorities are responsible for infection prevention and control. This includes the maintenance of data registries for 1) vaccination and 2) mandatory notification of infectious diseases. This leads to a fragmented system across different communities (Flanders, Wallonia, French-speakers in Brussels, and Dutch-speakers in Brussels), as described below in section ‘National data sources’.
+The **National Public Health Institute (Sciensano)** is responsible for epidemiology and surveillance of infectious diseases at the national level and transmission of data to the international level (ECDC, WHO). Sciensano coordinates national epidemiological surveillance in collaboration with the **subnational Health Authorities** for Flanders, Brussels, Wallonia and the German-speaking community (see Health Authorities below). At the subnational level, the federated health authorities are responsible for infection prevention and control. This includes the maintenance of data registries for 1) vaccination and 2) mandatory notification of infectious diseases. This leads to a fragmented system across different communities (Flanders, Wallonia, French-speakers in Brussels, and Dutch-speakers in Brussels), as described below in section ‘National data sources’.
 
 ## Health authorities
 * **Sciensano (National Public Health Institute)** has several responsibilities for infectious diseases:
   * [Epidemiology of infectious disease](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/epidemiology-infectious-diseases): Sciensano is responsible for the evaluation of epidemiology and public health impact of all infectious diseases in Belgium, including:
     * Providing support to federal entities in case of outbreaks
     * Transmitting infectious disease epidemiology to international institutes (e.g., ECDC, WHO) 
-    * Performing health threat detection through the risk assessment group (RAG)
+    * Performing health threat detection through the Risk Assessment Group (RAG)
     * Making recommendations to the health authorities regarding the implementation of measures to combat and prevent infectious diseases
-  * Microbiology (human and veterinary): Sciensano is responsible for the  development of expertise in diagnosis and sub-analyses of infectious diseases
+  * Microbiology ([human](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/laboratory-medical-microbiology-lmm) and [veterinary](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/veterinary-bacteriology)): Sciensano is responsible for the  development of expertise in diagnosis and sub-analyses of infectious diseases
   * [Healthdata.be](https://healthdata.sciensano.be/) provides a technical infrastructure for the collection of registries, using a pseudonymised national registry number. The platform also facilitates automated data extraction (e.g., from clinical laboratories) and the linkage of registries. 
 
 * The **Federal Service for Public Health** maintains a registry of [minimal hospital dataset](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) for reimbursement of hospitals. It was also responsible for the hospital surge capacity management plan during the COVID-19 pandemic. The High Council of Health is a group of experts that provide advice (e.g., on vaccination and other health measures such as masks). 
@@ -119,11 +119,11 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
 
 * The Interministerial Conference (IMC) brings together 9 Ministers of Health and has the final political decision on proposals given by health authorities. A fragmented public health mandate and policy decision-making process undermines collaborative crisis management and long-term action plans for eradication of infectious diseases [1] [2]. 
 
-* The [Health Care Knowledge Centre (KCE)](https://www.kce.fgov.be/en) provides scientific advice on topics related to healthcare. Topics are generally asked for by public authorities, universities etc. 
+* The [Health Care Knowledge Centre (KCE)](https://www.kce.fgov.be/en) provides scientific advice on topics related to healthcare. Topics are requested by interested stakeholders, such as public authorities or universities. 
 
 * There are approximately 40 [National Reference Centres for Human Microbiology (NRCHMs)](https://www.sciensano.be/nl/nationale-referentiecentra-voor-humane-microbiologie#nrc_nrl-block_1-0) across Belgium, which are reference laboratories with increased expertise and capacity for testing of different pathogens. They usually perform secondary analyses. The network is coordinated by Sciensano. 
 
-* The [Information Security Committee](https://www.ksz-bcss.fgov.be/nl/gegevensbescherming/informatieveiligheidscomite-ivc) has specific tasks in the field of information security, including deliberations for certain types of personal data collection or use. However the ISC is not a supervisory authority under the GDPR (this role is taken by the Data Protection Authority).
+* The [Information Security Committee](https://www.ksz-bcss.fgov.be/nl/page/ivc-in-het-kort) has specific tasks in the field of information security, including making decisions on whether certain types of personal can be collected or used. However, the ISC is not a supervisory authority under the GDPR (this role is taken by the Data Protection Authority).
 
 * A law to establish a [Health Data Agency (HDA)](https://www.lachambre.be/FLWB/PDF/55/3065/55K3065001.pdf) was approved in March 2023 by the Chamber of Representatives. The aim of the HDA is to facilitate access to health data, in particular for secondary use. 
 
@@ -132,7 +132,7 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
 
 * **Sentinel network of clinical laboratories (Epilabo)**: collects diagnostic data as well as basic demographic patient information, date, and type of test for 40+ pathogens across Belgium. 
 
-* **Sentinel network of general practitioners (GP)**: collects clinical and microbiological data among patients presenting with acute respiratory infection or influenza-like illness (ILI) presenting at the GP. Microbiological samples are taken among a subset of patients for multiplex PCR testing (16 respiratory pathogens) at the National Reference Centre for Influenza. These results are coupled with the clinical data. 
+* **Sentinel network of general practitioners (GP)**: collects clinical and microbiological data among patients presenting with acute respiratory infection or influenza-like illness (ILI) at the GP. Microbiological samples are taken among a subset of patients for multiplex PCR testing (16 respiratory pathogens) at the National Reference Centre for Influenza. These results are coupled with the clinical data. 
 
 * **Sentinel network of hospitals for severe acute respiratory infection (SARI)**: collects clinical and microbiological data among all SARI patients admitted among the six participating hospitals. Microbiological samples are taken among a subset of patients for multiplex PCR testing (16 respiratory pathogens) at the National Reference Centre for Influenza. These results are coupled with the clinical data. 
 
@@ -148,21 +148,21 @@ The **National Public Health Institute (Sciensano)** is responsible for epidemio
 
 * **Network of National Reference Centres (NRCs)** for 40+ infectious diseases: Coordinated by Sciensano. Each NRC reports basic demographic patient information and specific microbiological results (antigen, PCR, sequencing, etc) for their respective pathogen. 
 
-* The **HIV-AIDS Reference Laboratories** report all new HIV diagnoses and the clinical results of their medical follow-ups. 
+* The [**HIV-AIDS Reference Laboratories**](https://www.sciensano.be/en/aids-reference-laboratories-arl) report all new HIV diagnoses and the clinical results of their medical follow-ups. 
 
-* PediSurv has a **network of pediatricians and general practitioners** that register clinical cases of six pediatric (vaccine-preventable) infectious diseases: acute flaccid paralysis (including poliomyelitis), measles, mumps, rubella, invasive pneumococcal infection, and hospitalized pertussis cases. 
+* [PediSurv](https://www.sciensano.be/en/projects/network-pediatric-infectious-disease-surveillance) has a **network of pediatricians and general practitioners** that register clinical cases of six pediatric (vaccine-preventable) infectious diseases: acute flaccid paralysis (including poliomyelitis), measles, mumps, rubella, invasive pneumococcal infection, and hospitalized pertussis cases. 
 
-* **TekenNet/TiqueNet** is a national citizen science platform for the surveillance of tick-bites and erythema migrans in the general population. 
+* [**TekenNet/TiqueNet**](https://ticksnet.sciensano.be/) is a national citizen science platform for the surveillance of tick-bites and erythema migrans in the general population. 
 
-* MEMO+ is a national **citizen science platform for monitoring the presence of the exotic tiger mosquito (Aedes albopictus)**. Photos can be uploaded by citizens to be analyzed by experts at the Institute of Tropical Medicine to assess whether the photo is concordant with a tiger mosquito. If positive, further terrain investigations are performed to confirm its presence with mosquito traps. 
+* [MEMO+](https://surveillancemoustiques.be/) is a national **citizen science platform for monitoring the presence of the exotic tiger mosquito (Aedes albopictus)**. Photos can be uploaded by citizens to be analyzed by experts at the Institute of Tropical Medicine to assess whether the photo is concordant with a tiger mosquito. If positive, further terrain investigations are performed to confirm its presence with mosquito traps. 
 
-* **Belgian mortality monitoring (Be-MOMO)** collects weekly information on all-cause mortality from an external national data source Statbel (statistics institute). Using mathematical modeling, it monitors periods of excess mortality during the winter (flu) and summer (heat wave) season. 
+* [**Belgian mortality monitoring (Be-MOMO)**](https://epistat.sciensano.be/momo/) collects weekly information on all-cause mortality from an external national data source Statbel (statistics institute). Using mathematical modeling, it monitors periods of excess mortality during the winter (flu) and summer (heat wave) season.
 
-* A **national surveillance of healthcare-associated infections** monitors bloodstream infections, Clostridiodes difficile, and surgical site infections in the hospital setting. 
+* A [**national surveillance of healthcare-associated infections**](https://www.sciensano.be/en/about-sciensano/sciensanos-organogram/healthcare-associated-infections-and-antimicrobial-resistance) monitors bloodstream infections, Clostridiodes difficile, and surgical site infections in the hospital setting. 
 
 * A **sentinel nursing home network for influenza-like illness (ILI)** is in the process of being developed for the monitoring of clinical and microbiological cases of ILI. 
 
-* During the COVID-19 pandemic, several new surveillance platforms were established to follow the **epidemiology of SARS-CoV-2**. These include: 
+* During the COVID-19 pandemic, several new [surveillance platforms](https://www.sciensano.be/en/node/67023/view#Surveillance_progs) were established to follow the **epidemiology of SARS-CoV-2**. These include: 
     * SARS-CoV-2 laboratory test results (including negative test results, genomic variants)
     * Pharmacy test results
     * Prescription data
@@ -206,14 +206,14 @@ Although the data are available at Sciensano, note that permission for data shar
 Other national data sources can also be reused for monitoring of infectious diseases, or describing the participants in the above registries by linking data at the individual level. These include the following: 
 
 * Socio-demographic data by [Statbel](https://statbel.fgov.be/en) (Belgian statistical office): national individual-level data on socio-economic status, mortality and cause of death (e.g. infections)
-* [Minimal hospital dataset (RHM/MZG)](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) by Federal Service for Public Health: all non-psychiatric hospitals are obligated to report administrative and medical information, related to the reimbursement of hospitals for the care provided to admitted patients
+* [Minimal hospital dataset (RHM/MZG)](https://www.health.belgium.be/fr/sante/organisation-des-soins-de-sante/hopitaux/systemes-denregistrement/rhm) by the Federal Service for Public Health: all non-psychiatric hospitals are obliged to report administrative and medical information related to the reimbursement of hospitals for the care provided to admitted patients
 * Vaccination datasets (Regional level, see below for more information):
     * Federal level: SARS-CoV-2 vaccination
-    * Federated health authority  level: vaccination against other infectious diseases
+    * Federated health authority level: vaccination against other infectious diseases
 * [RIZIV-INAMI](https://www.riziv.fgov.be/nl/Paginas/default.aspx): national database on diagnostics and treatment reimbursement data
 * [IMA-AIM](https://ima-aim.be/): national database on reimbursement data collected by the agency ‘InterMutualistisch Agentschap (IMA) - Agence InterMutualiste (AIM)’ among all Belgian mutuality health insurance funds.
-* [Common Base Registry for HealthCare Actor (COBHRA)](https://www.ehealth.fgov.be/ehealthplatform/nl/service-cobrha-common-base-registry-for-healthcare-actor)	: national database by Federal Service for Public Health combining the data of all institutes responsible with the recognition of healthcare actors in Belgium. 
-* [Absenteeism registry MEDEX](https://www.health.belgium.be/nl/wie-zijn-wij-0#missie): national database  by Federal Service for Public Health on the declared absenteeism
+* [Common Base Registry for HealthCare Actor (COBHRA)](https://www.ehealth.fgov.be/ehealthplatform/nl/service-cobrha-common-base-registry-for-healthcare-actor): national database by Federal Service for Public Health combining the data of all institutes responsible with the recognition of healthcare actors in Belgium. 
+* [Absenteeism registry MEDEX](https://www.health.belgium.be/nl/wie-zijn-wij-0#missie): national database by Federal Service for Public Health on the declared absenteeism
 
 Most above-mentioned data sources are collected by national institutes. However, the federated health authorities (Flanders, Wallonia, French-speakers in Brussels, and Dutch-speakers in Brussels) are responsible for infection prevention and control. The vaccination registries and mandatory notifiable diseases registries are therefore fragmented. This can lead to difficulties in using the registries, as described here. 
 
