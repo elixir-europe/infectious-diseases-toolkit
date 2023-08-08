@@ -24,7 +24,7 @@ national_resources:
       centers (UMCs). The dashboard provides researchers with a clear overview
       of what is available, allows searching for specific data and makes access
       to such data easier when the necessary ethical and legal conditions have
-      been met. The policy for access to and sharing of clinical COVID-19 is described in the [HRI COVID policy document](https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf)
+      been met. The policy for access to and sharing of clinical COVID-19 is described in the [HRI COVID policy document](https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf).
     how_to_access: #The policy for access to and sharing of clinical COVID-19 is described in https://elsi.health-ri.nl/sites/elsi/files/2022-03/HRI_COVID-NL%20policy%20doc%20v2.0%20final.pdf
     related_pages:
     registry:
