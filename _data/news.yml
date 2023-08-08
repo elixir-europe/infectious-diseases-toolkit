@@ -50,3 +50,7 @@
   description: This page gives insight on national resources for infectious diseases in Belgium. [Discover the page here](/national-resources/belgium)
   date: 2023-08-08
   linked_pr: 157
+  - name: "New page: National resources Netherlands"
+  description: This page gives insight on national resources for infectious diseases in the Netherlands. [Discover the page here](/national-resources/netherlands)
+  date: 2023-08-08
+  linked_pr: 209
