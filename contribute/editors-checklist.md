@@ -14,7 +14,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `training`
    * `search_exclude` must be deleted
    * `description`
-   * `affiliation`
+   * `affiliations` (only used in showcase pages to list countries (2 letter iso-code) and funders)
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
 5. Items in the "[Tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/13tqfSbgivokfEkxGXPRFShVhCmO4VuTQRe4uQgJOMbc)" are tagged with already existing (merged) `page_id` from "Pathogen characterisation, Socioeconomic data, Human biomolecular data, Human clinical and health data, Showcase" and that Bert has been informed of the changes.

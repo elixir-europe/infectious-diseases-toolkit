@@ -103,25 +103,25 @@ note can be replaced with tip, warning, important, depending on the type of mess
 
 ## Images
 
-{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" %}
+{% include image.html file="logos/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
+{% include image.html file="logos/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
 ```
 {% endraw %}
 
 or a smaller image
 
-{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
+{% include image.html file="logos/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
+{% include image.html file="logos/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
 ```
 {% endraw %}
 
@@ -138,15 +138,15 @@ Make sure that you add the image to the `images` directory and give it an unders
 or using following markdown syntax:
 {% raw %}
 ```
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg)
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg){: height="200px" width="200px"}
 ```
 {% endraw %}
 
 gives:
 
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg)
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg){: height="200px" width="200px"}
 
 
 
