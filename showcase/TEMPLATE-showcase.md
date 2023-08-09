@@ -55,7 +55,7 @@ fairsharing:
 
 ## Acknowledgments
 
-<!-- Acknowledge people involved in this showcase (institutions, people..) -->
+<!-- Acknowledge people and institutions involved in this showcase. -->
 
 ### Support
 
