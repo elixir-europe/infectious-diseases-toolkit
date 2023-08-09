@@ -14,7 +14,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `training`
    * `search_exclude` must be deleted
    * `description`
-   * `affiliations`
+   * `affiliations` (only used in showcase pages to list countries (2 letter iso-code) and funders)
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
 5. Make sure that listed tools or resources are tagged in the text with the [correct snippet](tool_resource_update) + that its metadata is described in the [tool_and_resource_list.yml](https://github.com/bedroesb/infectious-diseases-toolkit/blob/new-way-tag-tools/_data/tool_and_resource_list.yml) file. 

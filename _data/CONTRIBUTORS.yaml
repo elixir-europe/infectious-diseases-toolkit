@@ -123,6 +123,19 @@ Arnau Soler Costa:
     email: arnau.soler@crg.eu
     orcid: 0000-0002-2853-6742
     affiliation: European Genome-phenome Archive (EGA) / CRG
+Ruben Brondeel:
+    orcid: 0000-0002-9876-4150
+    git: RubenBrondeel
+    affiliation: Sciensano
+Koen Blot:
+    orcid: 0000-0002-0847-0133
+    affiliation: Sciensano
+Nina Van Goethem:
+    orcid: 0000-0001-7316-6990
+    affiliation: Sciensano
+Miriam Saso:
+    orcid: 0000-0002-1888-1913
+    affiliation: Sciensano
 Wolfgang Maier:
     git: wm75
     email: maierw@informatik.uni-freiburg.de
@@ -140,7 +153,45 @@ Diana Pilvar:
     email: diana.pilvar@ut.ee
     orcid: 0000-0002-5788-2687
     affiliation: University of Tartu / ELIXIR-Estonia
+Robin Navest:
+    orcid: 0000-0002-0152-2092
+    git: rnavest
+    affiliation: Lygature
+Julia Lischke:
+    orcid: 0000-0002-5524-2838
+    git: 
+    affiliation: Lygature
+Jan-Willem Boiten:
+    orcid: 0000-0003-0327-638X
+    git: 
+Jeroen Belien:
+    orcid: 0000-0002-7160-5942
+    git: jambelien
+    affiliation: Health-RI
+Clara Amid:
+    orcid: 0000-0001-6534-7425
+    git: 
+    affiliation: Erasmus Medical Center
+Angelica Maineri:
+    orcid: 0000-0002-6978-5278
+    git: AngelicaMaineri
+    affiliation: ODISSEI
+Ricarda Braukmann:
+    orcid: 0000-0001-6383-7148
+    git: Ruecue
+    affiliation: DANS
 Simon Saldner:
     git: ssaldner
     email: simon.saldner@dans.knaw.nl
     affiliation: DANS-KNAW
+    orcid: 0000-0002-1145-7829
+Dimitra Kondyli:
+    email: dkondyli@ekke.gr
+    affiliation: EKKE
+Markus Tuominen:
+    email: markus.tuominen@tuni.fi
+    affiliation: CESSDA ERIC / TAU-FSD
+Vasso Kalaitzi:
+    email: vasso.kalaitzi@dans.knaw.nl
+    affiliation: DANS-KNAW
+    orcid: 0000-0001-8337-120X
