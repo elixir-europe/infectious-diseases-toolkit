@@ -8,7 +8,7 @@ coordinators: [Erin Calhoun, Nazeefa Fatima]
 related_pages:
   showcase: []
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 
 national_resources: 
   - name: SARS-CoV-2 Database
@@ -43,7 +43,7 @@ national_resources:
   - name: FEGA Norway
     description: Federated European Genome-phenome Archive (EGA) node
     how_to_access: Life Science RI Login; intended for data from Norwegian institutions
-    instance_of: The European Genome-phenome Archive (EGA)
+    instance_of: ega
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
         human_biomolecular_data:

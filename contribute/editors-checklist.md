@@ -17,7 +17,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `affiliations` (only used in showcase pages to list countries (2 letter iso-code) and funders)
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
-5. Items in the "[Tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/13tqfSbgivokfEkxGXPRFShVhCmO4VuTQRe4uQgJOMbc)" are tagged with already existing (merged) `page_id` from "Pathogen characterisation, Socioeconomic data, Human biomolecular data, Human clinical and health data, Showcase" and that Bert has been informed of the changes.
+5. Make sure that listed tools or resources are tagged in the text with the [correct snippet](tool_resource_update) + that its metadata is described in the [tool_and_resource_list.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) file. 
 6. The content is within the scope of the Infectious Diseases Toolkit (prevent overlap with the [RDMkit](https://rdmkit.elixir-europe.org/) and link towards it instead), conforms to the appropriate templates and the [style](/contribute/style-guide).
 7. There are no [copyright](/contribute/copyright) issues related to the content of the page.
 8. The contributors implemented the requested changes.

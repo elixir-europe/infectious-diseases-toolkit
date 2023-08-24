@@ -40,7 +40,7 @@ national_resources:
   - name: Sciensano R Shiny Apps
     description: Shiny is an R package that makes it easy to build interactive web apps straight from R. At Sciensano, several Shiny Apps have been developed to process, analyse and visualise data during the COVID-19 crisis. These include the Surge App (monitoring and data quality of COVID-19 hospitalisations), Indicator App (COVID-19 indicators based on test positivity rates per province), Coverage App (coverage of clinical database on hospitalised patients), Hospital Indicators (forecasting and profile of hospitalised patients), and Quality of reporting (quality indicators of reporting by individual hospitals).
     how_to_access: Restricted access to the specific Shiny Apps developed by Sciensano. Sciensano affiliation needed and added permission (login). 
-    instance_of: R Shiny
+    instance_of: r-shiny
     url: http://rshiny.sciensano.be/shiny/
     
   - name: R Markdown
@@ -50,30 +50,26 @@ national_resources:
   - name: Sciensano LimeSurvey
     description: Tool for online surveys. 
     how_to_access: Sciensano affiliation needed. 
-    instance_of: LimeSurvey
+    instance_of: limesurvey
     url: https://surveys.sciensano.be/
       
   - name: DMPonline.be
     description: Tool that provides templates for data management plans.
     how_to_access: Affiliation to one of the listed institutions needed. 
-    instance_of: DMP online
+    instance_of: dmp-online
     url: https://dmponline.be/
       
   - name: Figures on notifiable infectious diseases
     description: Dashboard for notifiable infectious diseases in Flanders. 
-    how_to_access: Open access
     url: https://www.zorg-en-gezondheid.be/cijfers-over-meldingsplichtige-infectieziekten-0
     
   - name: Galaxy Belgium
     description: Belgian Galaxy instance.
-    how_to_access: Open access or registered access through LifeScience Login
-    instance_of: Galaxy
+    instance_of: galaxy
     url: https://usegalaxy.be/
       
   - name: ELIXIR Belgium ENA upload tool
     description: Belgium Galaxy instance
-    how_to_access: Open access or registered access through LifeScience Login
-    instance_of: Galaxy
     url: https://www.elixir-belgium.org/services/ena-data-submission-toolbox
       
       

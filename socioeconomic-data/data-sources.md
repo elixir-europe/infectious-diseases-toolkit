@@ -34,7 +34,7 @@ Social science data can provide important insights for infectious diseases resea
 - how political and psychological factors can affect vaccine uptake;
 - provide the socioeconomic elements on which policies and communication actions should focus and/or adapt in order to be more efficient.
 
-For these reasons, the social sciences are considered a crucial aspect to deal with infectious diseases, including COVID-19. To facilitate this effort, social science data is mobilized via the [COVID-19 Data Portal](https://www.covid19dataportal.org/) to achieve the following objectives:
+For these reasons, the social sciences are considered a crucial aspect to deal with infectious diseases, including COVID-19. To facilitate this effort, social science data is mobilized via the {% tool "covid-19-data-portal" %} to achieve the following objectives:
 
 - Connect it with other sources of data such as clinical or virological data.
 - Standardize social science data.
@@ -43,7 +43,8 @@ For these reasons, the social sciences are considered a crucial aspect to deal w
 ### Considerations
 
 - **Methodologies**: Social sciences methodologies are quite diverse and complex as they try to investigate complex, changeable, and often intangible social phenomena such as trust, ideology, or socioeconomic status. Thus, social sciences use both quantitative and qualitative research methods, often in combination, ranging from large scale quantitative surveys, to interviews or ethnographic research. As such, socioeconomic research methodologies and data often differs significantly from the those typically used in the life sciences. 
-- **Sensitive data and privacy**: due to the prevalence of sensitive and personal data in socioeconomic research, access to such data is often limited by serious data protection and privacy concerns, often making the use and sharing of such data difficult. Solutions such as pseudonymising data, or providing access via secure environments such as the [ODDISEI Secure ANalysis Environment (SANE)](https://odissei-data.nl/en/2022/02/secure-analysis-environment-sane-secure-data-for-social-sciences-and-humanities/) can often provide some level of access to sensitive data, yet much of this data is only available on request, or as aggregated data. 
+
+- **Sensitive data and privacy**: due to the prevalence of sensitive and personal data in socioeconomic research, access to such data is often limited by serious data protection and privacy concerns, often making the use and sharing of such data difficult. Solutions such as pseudonymising data, or providing access via secure environments such as the {% tool "oddisei-secure-analysis-environment" %} can often provide some level of access to sensitive data, yet much of this data is only available on request, or as aggregated data. 
 
 ### Existing approaches
 
@@ -63,9 +64,10 @@ Even industrial advanced societies proved that they were not well-prepared to co
 
 ## Relevant data sources
 
-Currently, the COVID-19 Data Portal contains over 537 metadata records from the [Consortium of European Social Science Data Archives' (CESSDA)](https://www.cessda.eu/) [CESSDA Data Catalogue (CDC)](https://datacatalogue.cessda.eu/), which will soon be joined by data from the [European University Institute's (EUI)](https://www.eui.eu/en/home) [COVID-19 SSH Data Portal](https://eui-covid-data.cottagelabs.com/).
+Currently, the COVID-19 Data Portal contains over 537 metadata records from the [Consortium of European Social Science Data Archives' (CESSDA)](https://www.cessda.eu/) {% tool "cessda-data-catalogue" %}, which will soon be joined by data from the [European University Institute's (EUI)](https://www.eui.eu/en/home) {% tool "eui-covid-19-ssh-data-portal" %}.
 
-For socioeconomics, two primary data sources are considered and are outlined in this section. These data sources provide data that relate to or are relevant for COVID-19 and other infectious disease outbreaks. These data sources are filtered for data relevant to COVID-19, and the resulting metadata is prepared and harmonized via a [harvesting tool](https://t2-4.by-covid.bsc.es/jspui/) before being added to the COVID-19 Data Platform (for more details, see project deliverable [D2.1](https://zenodo.org/record/7017728).
+
+For socioeconomics, two primary data sources are considered and are outlined in this section. These data sources provide data that relate to or are relevant for COVID-19 and other infectious disease outbreaks. These data sources are filtered for data relevant to COVID-19, and the resulting metadata is prepared and harmonized via a [harvesting tool](https://t2-4.by-covid.bsc.es/jspui/) before being added to the COVID-19 Data Platform (for more details, see project deliverable [D2.1](https://zenodo.org/record/7017728)).
 
 ### Considerations
 
@@ -73,5 +75,5 @@ For socioeconomics, two primary data sources are considered and are outlined in 
 
 ### Existing approaches
 
-- [CESSDA Data Catalogue (CDC)](https://datacatalogue.cessda.eu/): As a consortium of Social Science Data Archives with Service Providers (SPs) from [22 member states](https://www.cessda.eu/About/Consortium), CESSDA contains a wealth of social science data from throughout Europe. This data is aggregated through the CDC, which contains descriptors of over 40,000 data collections from CESSDA's SPs.  
-- [EUI COVID-19 SSH Data Portal](https://eui-covid-data.cottagelabs.com/): This portal "*provides integrated search, discovery, and linking to datasets published on the web relevant for COVID-19-related research in the Social Sciences and Humanities.*" The metadata provided by the platform comes from data sources selected by academic staff at EUI through a thorough curation process, and the platform will develop bespoke services such as the ability to merge data from multiple data sources. 
+- {% tool "cessda-data-catalogue" %}: As a consortium of Social Science Data Archives with Service Providers (SPs) from [22 member states](https://www.cessda.eu/About/Consortium), CESSDA contains a wealth of social science data from throughout Europe. This data is aggregated through the CDC, which contains descriptors of over 40,000 data collections from CESSDA's SPs.  
+- {% tool "eui-covid-19-ssh-data-portal" %}: This portal "*provides integrated search, discovery, and linking to datasets published on the web relevant for COVID-19-related research in the Social Sciences and Humanities.*" The metadata provided by the platform comes from data sources selected by academic staff at EUI through a thorough curation process, and the platform will develop bespoke services such as the ability to merge data from multiple data sources. 

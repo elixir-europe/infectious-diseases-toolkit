@@ -52,11 +52,11 @@ When looking for solutions to some of the considerations above, you may have a l
 
 Below you can find some general existing approaches in order to help with and improve your data analysis pipeline/protocol:
 
-- **Container environments**: As an alternative to package management systems you can consider container environments like [Docker](https://www.docker.com/) or [Singularity](https://sylabs.io/).
-- **Web-based platform**: Provides a centralised location for software developers to store, manage, collaborate, and share their code.- You can use [GitHub](https://github.com/) (widely used), [GitLab](https://about.gitlab.com/) or [Bitbucker](https://bitbucket.org/).
-- **Workflow platforms**: Allows the user to manage your data and provide an interface (web, GUI, APIs) to run complex pipelines and review their results. For instance: [Galaxy](https://rdmkit.elixir-europe.org/galaxy_assembly) and [Arvados](https://arvados.org/) (CWL-based, open source).
-- **Workflow runners**: Allows you to take a workflow written in a proprietary or standardised format (such as the CWL standard) and execute it locally or on a remote computer infrastructure. For instance, [toil-cwl-runner](https://toil.readthedocs.io/en/latest/running/cwl.html), the reference CWL runner ([cwltool](https://pypi.org/project/cwltool/)), [Nextflow](https://www.nextflow.io/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/).
-- **Integration Pipelines**: These pipelines are used to integrate different types of data, such as genomic, proteomic, and metabolomic data. It involves steps such as data preprocessing, data integration, and functional analysis. Tools like [OmicsIntegrator](https://github.com/fraenkel-lab/OmicsIntegrator) can be used for data integration.
+- **Container environments**: As an alternative to package management systems you can consider container environments like {% tool "docker" %} or {% tool "singularity" %}.
+- **Web-based platform**: Provides a centralised location for software developers to store, manage, collaborate, and share their code. You can use {% tool "github" %} (widely used), {% tool "gitlab" %} or {% tool "bitbucket" %}.
+- **Workflow platforms**: Allows the user to manage your data and provide an interface (web, GUI, APIs) to run complex pipelines and review their results. For instance: {% tool "galaxy" %} and {% tool "arvados" %} (CWL-based, open source).
+- **Workflow runners**: Allows you to take a workflow written in a proprietary or standardised format (such as the CWL standard) and execute it locally or on a remote computer infrastructure. For instance, {% tool "toil-cwl-runner" %}, the reference CWL runner ({% tool "cwltool" %}), {% tool "nextflow" %}, {% tool "snakemake" %}, {% tool "cromwell" %}.
+- **Integration Pipelines**: These pipelines are used to integrate different types of data, such as genomic, proteomic, and metabolomic data. It involves steps such as data preprocessing, data integration, and functional analysis. Tools like {% tool "omicsgenerator" %} can be used for data integration.
 
 ## Preprocessing
 
@@ -80,7 +80,7 @@ Here are some common considerations involved in data preprocessing:
 
 Preprocessing could be done using the state of art bioinformatics tools and/or programming languages that have different functions and packages to work and process this kind of data. For example, Python, RStudio or using Command-Line, are different approaches to enable the user performing all the necessary and wanted steps to do the desired preprocessing pipeline/protocol. 
 
-When looking for quality control protocols, see [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
+When looking for quality control protocols, see [Human biomolecular data - Quality control](/human-biomolecular-data/quality-control) page.
 
 ## Analysis
 
@@ -101,24 +101,24 @@ This stage relies on the previous stages (collection, processing) that will lay 
 There are several types of analysis that can be performed on human biomolecular data, depending on the specific research question and type of data being analysed. Here are some common types of analysis:
 
 - **Gene expression analysis**: This involves measuring the expression levels of genes in a biological sample and comparing them across different conditions or groups of samples. This can be done using techniques such as microarray analysis or RNA sequencing. 
-    - *Sequence alignment*: [STAR](https://github.com/alexdobin/STAR) and [HISAT2](https://github.com/DaehwanKimLab/hisat2)
-    - *Gene expression analysis*: [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) and [EdgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
+    - *Sequence alignment*: {% tool "star" %} and {% tool "hisat2" %}
+    - *Gene expression analysis*: {% tool "deseq2" %} and {% tool "edger" %}
 - **Genomic analysis**: This involves the interpretation of genetic information encoded in DNA sequences. DNA data analysis can be used for a wide range of applications, such as identifying genetic variants associated with disease, studying the evolution of species, and understanding the molecular mechanisms underlying biological processes.
-    - *Sequence alignment*: [Bowtie2](https://github.com/BenLangmead/bowtie2) and [BWA](https://github.com/lh3/bwa)
-    - *Structural variant detection*: [Delly](https://github.com/dellytools/delly), [Lumpy](https://github.com/arq5x/lumpy-sv), [Manta](https://github.com/Illumina/manta) and [GRIDSS](https://github.com/PapenfussLab/gridss)
-    - *Genome assembly*: [Canu](https://github.com/marbl/canu), [Flye](https://github.com/fenderglass/Flye), [wtdbg2](https://github.com/ruanjue/wtdbg2) and [SPAdes](https://github.com/ablab/spades)
-    - *Phylogenetic analysis*: [ClustalW](https://github.com/coldfunction/CUDA-clustalW), [MUSCLE](https://github.com/rcedgar/muscle), [MAFFT](https://github.com/GSLBiotech/mafft) and [PhyML](https://github.com/stephaneguindon/phyml)
-    - *Variant calling*: [Dragen-GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360045944831), [DeepVariant](https://github.com/google/deepvariant), [FreeBayes](https://github.com/freebayes/freebayes) and [VarScan](https://github.com/dkoboldt/varscan)
-    - *Annotation*: [ANNOVAR](https://github.com/WGLab/doc-ANNOVAR), [SnpEff](https://github.com/pcingola/SnpEff), [VEP](https://github.com/Ensembl/ensembl-vep) and [dbNSFP](https://github.com/shiquan/bcfanno/blob/master/Documentation/database/dbNSFP.md)
+    - *Sequence alignment*: {% tool "bowtie2" %} and {% tool "bwa" %}
+    - *Structural variant detection*: {% tool "delly" %}, {% tool "lumpy" %}, {% tool "manta" %} and {% tool "gridss" %}
+    - *Genome assembly*: {% tool "canu" %}, {% tool "flye" %}, {% tool "wtdbg2" %} and {% tool "spades" %}
+    - *Phylogenetic analysis*: {% tool "clustalw" %}, {% tool "muscle" %}, {% tool "mafft" %} and {% tool "phyml" %}
+    - *Variant calling*: {% tool "dragen-gatk" %}, {% tool "deepvariant" %}, {% tool "freebayes" %} and {% tool "varscan" %}
+    - *Annotation*: {% tool "annovar" %}, {% tool "snpeff" %}, {% tool "vep" %} and {% tool "dbnsfp" %}
 - **Epigenetic analysis**: This involves measuring changes in DNA methylation, histone modifications, or other epigenetic marks in different samples or conditions. This can help to understand how gene expression is regulated and identify potential biomarkers or therapeutic targets.
-    - *DNA methylation analysis*: [Bismark](https://github.com/FelixKrueger/Bismark), [MethylKit](https://github.com/al2na/methylKit) and [methylPipe](https://bioconductor.riken.jp/packages/3.1/bioc/html/methylPipe.html)
-    - *Histone modification analysis*: [MACS](https://github.com/macs3-project/MACS) and [SICER2](https://github.com/zanglab/SICER2)
+    - *DNA methylation analysis*: {% tool "bismark" %}, {% tool "methylkit" %} and {% tool "methylpipe" %}
+    - *Histone modification analysis*: {% tool "macs" %} and {% tool "sicer2" %}
 - **Protein-protein interaction analysis**: This involves identifying proteins that interact with each other and exploring the functional consequences of these interactions. This can help to identify new targets for drug development and understand disease mechanisms.
-    - *Interaction databases*: [BioGRID](https://github.com/BioGRID) and [IntAct](https://github.com/intact-portal)
-    - *Network analysis*: [Cytoscape](https://apps.cytoscape.org/) and [GeneMANIA](https://github.com/GeneMANIA/genemania)
+    - *Interaction databases*: {% tool "biogrid" %} and {% tool "intact" %}
+    - *Network analysis*: {% tool "cytoscape" %} and {% tool "genemania" %}
 - **Metabolomics analysis**: This involves measuring the levels of small molecules (metabolites) in biological samples and comparing them across different conditions or groups of samples. This can help to identify biomarkers of disease or drug response.
-    - *Data processing*: [XCMS](https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage), [MZmine](http://mzmine.github.io/) and [OpenMS](https://github.com/OpenMS/OpenMS)
-    - *Statistical analysis*: [MetaboAnalyst](https://www.metaboanalyst.ca/) and [MetSign](https://pubmed.ncbi.nlm.nih.gov/21932828/)
+    - *Data processing*: {% tool "xcms" %}, {% tool "mzmine" %} and {% tool "openms" %}
+    - *Statistical analysis*: {% tool "metaboanalyst" %} and {% tool "metsign" %}
 
 ## Postprocessing
 
@@ -133,10 +133,10 @@ Some considerations to take into account when performing postprocessing on human
 
 ### Existing approaches
 
-- **Functional Enrichment Analysis**: These analyses are used to identify enriched pathways and biological functions associated with differentially expressed biomolecules. It involves steps such as gene ontology analysis, pathway analysis, and network analysis. Tools like [GSEA](https://www.gsea-msigdb.org/gsea/index.jsp), [GO](http://geneontology.org/docs/go-enrichment-analysis/), [KEGG](https://www.bioconductor.org/packages//2.11/data/annotation/html/KEGG.db.html), [DAVID](https://david.ncifcrf.gov/) and [Enrichr](https://github.com/guokai8/EnrichR) can be used for functional enrichment analysis and/or also annotate the results.
+- **Functional Enrichment Analysis**: These analyses are used to identify enriched pathways and biological functions associated with differentially expressed biomolecules. It involves steps such as gene ontology analysis, pathway analysis, and network analysis. Tools like {% tool "gsea" %}, {% tool "go" %}, {% tool "kegg" %}, {% tool "david" %} and {% tool "cytoscape" %} can be used for functional enrichment analysis and/or also annotate the results.
 
 - **Visualisation**:
-    - Generate plots and heatmaps using tools such as [ggplot2](https://github.com/tidyverse/ggplot2) or [matplotlib](https://github.com/matplotlib/matplotlib)
-    - Visualise data in a genomic context using tools such as [IGV](https://software.broadinstitute.org/software/igv/) or [UCSC Genome Browser](https://genome.ucsc.edu/)
+    - Generate plots and heatmaps using tools such as {% tool "ggplot2" %} or {% tool "matplotlib" %}
+    - Visualise data in a genomic context using tools such as {% tool "igv" %} or {% tool "ucsc-genome-browser" %}
 
 All these workflows and tools can be adapted and customised based on the specific type of data being analysed and the research question being addressed.
