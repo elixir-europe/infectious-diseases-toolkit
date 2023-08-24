@@ -15,7 +15,7 @@ The [all_tools_and_resources](all_tools_and_resources) list is based on the [yam
 
 Each tool or resource mentioned in the text has metadata stored in the [main yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml). The metadata block for each tool consists of 5 attributes:
 - **id**: The ID of a tool, in kebab-case, lowercase with hyphens.
-- **name**: the name of the tool or resource
+- **name**: The name of the tool or resource.
 - **url**: URL to the main page of the tool or resource. Make sure to start the URL with `https://`.
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` .
 - **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon. FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List registries under the `registry` attribute as `key: value pairs`. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
