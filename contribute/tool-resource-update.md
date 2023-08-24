@@ -45,7 +45,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 1. Copy the `tool_id` of the tool or resource
 
-1. Add the right context on Infectious diseases toolkit for the tool by mentioning it somewhere in the text using following syntax:
+1. Add the right context on Infectious Diseases Toolkit for the tool by mentioning it somewhere in the text using the following syntax:
   
   ```
   {% raw %}
