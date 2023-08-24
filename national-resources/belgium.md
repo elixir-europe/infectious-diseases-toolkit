@@ -62,7 +62,7 @@ national_resources:
     url: https://www.zorg-en-gezondheid.be/cijfers-over-meldingsplichtige-infectieziekten-0
     
   - name: Galaxy Belgium
-    description: 	Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
+    description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     instance_of: galaxy
     url: https://usegalaxy.be/
       
