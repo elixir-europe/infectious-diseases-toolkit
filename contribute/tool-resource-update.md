@@ -5,7 +5,7 @@ summary: How to add a tool or resource to Infectious diseases toolkit
 
 ## Way of working
 
-The tools or resources you will find on pages are a selected set from a [bigger list](all_tools_and_resources). This selection is based on the appearance of a tool or resource in the content of the page.
+The tools or resources you find on pages are a set selected from a [bigger list](all_tools_and_resources). This selection is based on the appearance of the tool or resource in the content of the page.
 
 The [all_tools_and_resources](all_tools_and_resources) list is based on the [yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) in the `_data` directory of the  Infectious diseases toolkit repository. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/), but every week we also run a fully automatic check that links tools and resources with the corresponding registries. A GitHub Bot will generate a Pull Request (PR) with the new links added to the main data file of the website.
 
