@@ -41,7 +41,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 1. Make sure the tool you want to add is not yet already described in the [yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml). If so, go to step 3, if not, follow the next step.
 
-1. Click on the pencil icon seen on GitHub of the [main yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) as described in our GitHub Guide. Add your tool or resource at the bottom of the file following the structure described in the [The main yaml file section of this page](#the-main-yaml-file). Make sure the indentation follows the one of the previous listed items. Copy the content of the yaml file and paste in in an online yaml validator in case of doubt.
+1. Click on the pencil icon seen on GitHub of the [main yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) as described in our [GitHub Guide](/contribute/github-way). Add your tool or resource at the bottom of the file following the structure described in the [The main yaml file section of this page](#the-main-yaml-file). Make sure the indentation follows the one of the previous listed items. Copy the content of the yaml file and paste it in an online yaml validator in case of doubt.
 
 1. Copy the `tool_id` of the tool or resource
 
