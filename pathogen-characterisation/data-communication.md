@@ -2,6 +2,7 @@
 title: Data communication
 description: Producing visualisations and reports
 contributors: []
+no_robots: true
 page_id: pc_data_communication
 rdmkit:
   - name:

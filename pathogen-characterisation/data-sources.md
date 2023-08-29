@@ -2,6 +2,7 @@
 title: Data sources
 description: Finding and sharing data for pathogen characterisation related data sources.
 contributors: []
+no_robots: true
 page_id: pc_data_sources
 rdmkit:
   - name:
@@ -47,7 +48,7 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
-Mention existing appreaches related to the topic.
+Mention existing approaches related to the topic.
 
 ## Topic 2 
 
@@ -63,7 +64,7 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
-Mention existing appreaches related to the topic.
+Mention existing approaches related to the topic.
 
 ## Standards, schemas, ontologies and vocabularies 
 
@@ -80,9 +81,9 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
-Mention existing appreaches related to the topic.
+Mention existing approaches related to the topic.
 
-Mention existing appreaches related to the topic.
+Mention existing approaches related to the topic.
 
 ### Licenses
 
@@ -98,7 +99,7 @@ Please avoid replicating 'generic' guidelines, i.e. those not specific to infect
 
 ### Existing approaches
 
-Mention existing appreaches related to the topic.
+Mention existing approaches related to the topic.
 
 ## Existing data sources
 
