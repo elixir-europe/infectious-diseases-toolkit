@@ -4,7 +4,6 @@ description: Finding and sharing data for human clinical and health data related
 contributors: []
 no_robots: true
 page_id: hchd_data_sources
-no_robots: true
 rdmkit:
   - name:
     url:
