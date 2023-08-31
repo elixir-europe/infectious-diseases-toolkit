@@ -1,6 +1,6 @@
 ---
 title: Data analysis
-description: Analising Human biomolecular related data
+description: Analysing Human biomolecular related data
 contributors: [Aina Jené Cortada, Arnau Soler Costa]
 page_id: hbd_data_analysis
 rdmkit:

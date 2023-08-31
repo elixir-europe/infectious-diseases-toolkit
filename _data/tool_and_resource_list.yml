@@ -71,6 +71,8 @@
 - description: Git based code hosting and collaboration tool, built for teams.
   id: bitbucket
   name: Bitbucket
+  registry:
+    fairsharing: fc3431
   url: https://bitbucket.org/
 - description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.
   id: bowtie2
@@ -229,7 +231,7 @@
   registry:
     biotools: ega
     fairsharing: mya1ff
-    tess: EGA
+    tess: European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
 - description: 'The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers. The thesaurus consists of over 3,300 concepts and covers the core social science disciplines: politics, sociology, economics, education, law, crime, demography, health, employment, information, communication technology, and environmental science. ELSST is used for data discovery within CESSDA and facilitates access to data resources across Europe, independent of domain, resource, language, or vocabulary. ELSST is currently available in 16 languages: Danish, Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian, Norwegian, Romanian, Slovenian, Spanish, and Swedish'
   id: european-language-social-science-thesaurus
@@ -359,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: "530e61"
+    fairsharing: '530e61'
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -705,7 +707,7 @@
     fairsharing: hzdzq8
     tess: Schema.org
   url: https://schema.org
-- description: Workflow Execution Service Backend (WfExS-backend) is a high-level orchestrator to run scientific workflows reproducibly. 
+- description: Workflow Execution Service Backend (WfExS-backend) is a high-level orchestrator to run scientific workflows reproducibly.
   id: wfexs
   name: WfExS
   url: https://github.com/inab/WfExS-backend
