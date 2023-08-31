@@ -2,6 +2,7 @@
 title: Attributing credit
 description: Referencing your sources (citations and recognition of contributions)
 contributors: []
+no_robots: true
 page_id: hbd_provenance 
 rdmkit:
   - name:
