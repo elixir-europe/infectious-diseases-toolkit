@@ -22,7 +22,7 @@ training:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
-
+- ena-upload-tool
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: Epidemiology of Infectious Diseases (Epistat)
@@ -62,13 +62,10 @@ national_resources:
     url: https://www.zorg-en-gezondheid.be/cijfers-over-meldingsplichtige-infectieziekten-0
     
   - name: Galaxy Belgium
-    description: Belgian Galaxy instance.
+    description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilises infrastructure provided by the Flemish Supercomputer Center (VSC).
     instance_of: galaxy
     url: https://usegalaxy.be/
       
-  - name: ELIXIR Belgium ENA upload tool
-    description: Belgium Galaxy instance
-    url: https://www.elixir-belgium.org/services/ena-data-submission-toolbox
       
       
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
