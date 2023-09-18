@@ -14,5 +14,48 @@
   date: 2022-10-17
   linked_pr: 77
   description: Content was added to the Provenance page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/provenance)
-
+- name: "New page: National resources Sweden"
+  date: 2023-04-19
+  linked_pr: 150
+  description: This page gives insight on national resources for infectious diseases in Sweden. [Discover the page here](/national-resources/sweden)
+- name: "New logo and website design"
+  date: 2023-05-02
+  linked_pr: 182
+  description: We have settled on a new style (including a new logo and new standard colours!) for this website. Go to our [media kit page](about/media-kit) if you want to use our new logo, or see the [style guide](contribute/style-guide) for more information on how the site is styled.
+- name: "New page: An automated SARS-CoV-2 genome surveillance system built around Galaxy"
+  date: 2023-05-02
+  linked_pr: 180
+  description: A Showcase page about a Galaxy based modular and scalable system for FAIR analysis of SARS-CoV-2 sequencing data. [Discover the page here](/showcase/covid19-galaxy)
+- name: "New page: National resources Switzerland"
+  date: 2023-05-17
+  linked_pr: 161
+  description: This page gives insight on national resources for infectious diseases in Switzerland. [Discover the page here](/national-resources/switzerland)
+- name: "New page: SARS-CoV-2 sequencing in Estonia 2021-2022"
+  date: 2023-06-27
+  linked_pr: 179
+  description: A Showcase page about the genomic sequencing and analysis of SARS-CoV-2 in Estonia during 2021-2022. [Discover the page here](/showcase/korogenoest)
+- name: "New page: National resources Norway"
+  date: 2023-06-28
+  linked_pr: 146
+  description: This page gives insight on national resources for infectious diseases in Norway. [Discover the page here](/national-resources/norway)
+- name: "New page: Analysis of Human biomolecular data"
+  description: Content was added to the Data analysis page in the Human biomolecular data section. [Discover the page here](/human-biomolecular-data/data-analysis)
+  date: 2023-07-19
+  linked_pr: 190
+- name: "New page: Socioeconomic data sources"
+  description: Content was added to the Data sources page in the Socioeconomic data section. [Discover the page here](/socioeconomic-data/data-sources)
+  date: 2023-07-19
+  linked_pr: 210
+- name: "New page: National resources Belgium"
+  description: This page gives insight on national resources for infectious diseases in Belgium. [Discover the page here](/national-resources/belgium)
+  date: 2023-08-08
+  linked_pr: 157
+- name: "New page: National resources Netherlands"
+  description: This page gives insight on national resources for infectious diseases in the Netherlands. [Discover the page here](/national-resources/netherlands)
+  date: 2023-08-08
+  linked_pr: 209
+- name: "All tools and resources are now described in the page text"
+  date: 2023-08-24
+  linked_pr: 214
+  description: "All items in the 'Relevant tools and resources' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](/contribute/tool_resource_update)!"
 

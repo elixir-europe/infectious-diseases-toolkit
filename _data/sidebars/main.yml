@@ -3,7 +3,7 @@ title_url: /index
 subitems:
   - title: Pathogen characterisation
     url: /pathogen-characterisation/
-    image_url: /assets/img/section-icons/disease-thin.svg
+    image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
       - title: Attributing credit
         url: /pathogen-characterisation/attributing-credit
@@ -23,7 +23,7 @@ subitems:
         url: /pathogen-characterisation/quality-control
 
   - title: Socioeconomic data
-    image_url: /assets/img/section-icons/users-viewfinder-thin.svg
+    image_url: /assets/img/section-icons/users-viewfinder-duotone.svg
     url: /socioeconomic-data/
     subitems:
       - title: Attributing credit
@@ -44,7 +44,7 @@ subitems:
         url: /socioeconomic-data/quality-control
 
   - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-person-thin.svg
+    image_url: /assets/img/section-icons/dna-person-duotone.svg
     url: /human-biomolecular-data/
     subitems:
       - title: Attributing credit
@@ -65,7 +65,7 @@ subitems:
         url: /human-biomolecular-data/quality-control
 
   - title: Human clinical and health data
-    image_url: /assets/img/section-icons/hospital-user-thin.svg
+    image_url: /assets/img/section-icons/hospital-user-duotone.svg
     url: /human-clinical-and-health-data/
     subitems:
       - title: Attributing credit
@@ -87,23 +87,39 @@ subitems:
 
   - title: Showcase
     hr: true
-    image_url: /assets/img/section-icons/network-wired-thin.svg
+    image_url: /assets/img/section-icons/network-wired-duotone.svg
     url: /showcase/
     description: Applied examples of handling infectious disease data
+    subitems:
+      - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
+        url:  /showcase/covid19-galaxy
+      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
+        url:  /showcase/korogenoest
   
   - title: National resources
-    image_url: /assets/img/section-icons/flag-thin.svg
+    image_url: /assets/img/section-icons/flag-duotone.svg
     url: /national-resources/
     description: Country specific examples
+    subitems:
+      - title: Belgium
+        url: /national-resources/belgium
+      - title: Netherlands
+        url: /national-resources/netherlands
+      - title: Norway
+        url: /national-resources/norway
+      - title: Sweden
+        url: /national-resources/sweden
+      - title: Switzerland
+        url: /national-resources/switzerland
 
   - title: Tools and resources list
     hr: true
-    image_url: /assets/img/section-icons/gears-thin.svg
+    image_url: /assets/img/section-icons/gears-duotone.svg
     url: /tools-and-resources-list/
     description: Browse all tools and resources mentioned in IDTk
 
   - title: Training resources list
-    image_url: /assets/img/section-icons/graduation-cap-thin.svg
+    image_url: /assets/img/section-icons/graduation-cap-duotone.svg
     url: /training-resources-list/
     description: Browse all training resources mentioned in IDTk
 

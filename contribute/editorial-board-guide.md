@@ -177,7 +177,8 @@ Bert Droesbeke:
 
 ## Adding an institution, infrastructure, project or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The information in this file is used on the support page in the about section, but also for the affiliations in showcase pages. Make sure you make use of the same name in those showcase pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The information in this file is used on the support page in the about section (when `expose: true`), but also for the affiliations in showcase pages (listed in the metadata of the page with the affiliations attribute). Make sure you make use of the same name in those showcase pages. The yaml file has the following syntax:
+
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
@@ -195,9 +196,9 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `url`: url towards the homepage of this association
 
 
-The logos can be added to the [/images/institutions](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/institutions/), [/images/projects](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/funders/) directory.
+The logos can be added to the [logos](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/logos/) directory.
 
-{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scalability and file size, if possible." %}
+{% include callout.html type="important" content="Upload vector images (.svg filetype) of the logo for better quality, scalability and file size, if possible." %}
 
 ## Related pages
 
@@ -205,7 +206,7 @@ The logos can be added to the [/images/institutions](https://github.com/elixir-e
 
 Infectious Diseases Toolkit pages from other sections can be displayed as "Related Infectious Diseases Toolkit pages" in a page, grouped by section. 
 
-An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [Website overview page](/contribute/website-overview).
+An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [List of page IDs](/contribute/website-overview) page.
 
 
 ```yml
@@ -220,5 +221,5 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an Infectious Diseases Toolkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](/contribute/website-overview).
+To find out what the `page_id` of an Infectious Diseases Toolkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [List of page IDs](/contribute/website-overview) page.
 

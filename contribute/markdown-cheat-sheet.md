@@ -103,25 +103,25 @@ note can be replaced with tip, warning, important, depending on the type of mess
 
 ## Images
 
-{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" %}
+{% include image.html file="logos/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
+{% include image.html file="logos/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
 ```
 {% endraw %}
 
 or a smaller image
 
-{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
+{% include image.html file="logos/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="infrastructures/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
+{% include image.html file="logos/ELIXIR-logo.svg" alt="ELIXIR logo" max-width="3em" %}
 ```
 {% endraw %}
 
@@ -138,15 +138,15 @@ Make sure that you add the image to the `images` directory and give it an unders
 or using following markdown syntax:
 {% raw %}
 ```
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg)
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg){: height="200px" width="200px"}
 ```
 {% endraw %}
 
 gives:
 
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
-![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg)
+![ELIXIR logo](/images/logos/ELIXIR-logo.svg){: height="200px" width="200px"}
 
 
 
@@ -322,7 +322,7 @@ Text
 
 If you want pages from specific sections to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
-An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](/contribute/website-overview).
+An overview of all Infectious Diseases Toolkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](/contribute/website-overview) page.
 
 
 ```yml
