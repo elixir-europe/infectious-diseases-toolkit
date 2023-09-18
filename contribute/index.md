@@ -10,7 +10,7 @@ Everyone is welcome to contribute to this site, and we've tried to make it as ea
 * **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](/contribute/github-way) (no technical knowledge required!).
 * **If you are happier using Google Docs**: follow [the Google Doc way](/contribute/google-doc-way).
 * **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](/contribute/working-with-git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below.
+<!-- * **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below. -->
 
 We are also welcoming contributions to our [User Stories spreadsheet](https://docs.google.com/spreadsheets/d/1KTe9Zy9xU9TqhJtNVoBkiLHBXLEqGisitAoxLy6zz58/edit#gid=231577820). Adding your user stories is a good way to help IDTk address your needs.
 
@@ -37,6 +37,7 @@ The content is periodically updated, which means that if you create content in a
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues/new/choose) about it.
 
 
-## Making a quick suggestion
+<!-- ## Making a quick suggestion
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSel-txk2D-c8Uerp5rYTArACsAIVXgKSBCxtgEBrP1XG72nxw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="mt-1 w-100">Loading…</iframe>
+--> 

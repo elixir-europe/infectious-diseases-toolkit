@@ -2,6 +2,7 @@
 title: Quality control
 description: Tools and methods to assess quality
 contributors: []
+no_robots: true
 page_id: hchd_quality_control
 rdmkit:
   - name:

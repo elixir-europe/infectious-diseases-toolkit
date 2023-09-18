@@ -5,7 +5,7 @@ description: An automated, modular system for large-scale FAIR analysis of SARS-
 affiliations: [DE, European Union]
 page_id: covid19_galaxy_project
 related_pages:
-#  showcase: [korogenoest]
+   showcase: [korogenoest]
 training:
   - name: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
     registry: TeSS
@@ -37,7 +37,7 @@ Automated Galaxy workflow runs for viral genome surveillance are of interest for
 
 ### European Nucleotide Archive (ENA)
 
-Many large national SARS-CoV-2 sequencing data providers submit their raw data to the [ENA](https://www.ebi.ac.uk/ena/browser). In the showcase we are using the ENA’s public [API](https://www.ebi.ac.uk/ena/portal/api/doc) to extract links to the raw sequencing data of newly submitted sequenced reads from several large-scale national genome surveillance efforts including (but not limited to):
+Many large national SARS-CoV-2 sequencing data providers submit their raw data to the {% tool "european-nucleotide-archive" %}. In the showcase we are using the ENA’s public [API](https://www.ebi.ac.uk/ena/portal/api/doc) to extract links to the raw sequencing data of newly submitted sequenced reads from several large-scale national genome surveillance efforts including (but not limited to):
   - the [COVID-19 Genomics UK Consortium](https://www.cogconsortium.uk/) (COG-UK; ENA Project accession: PRJEB37886)
   - the [Portuguese network for SARS-CoV-2 genomics](https://insaflu.insa.pt/covid19/) (ENA Project accession: PRJEB47340)
   - the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html))
@@ -46,7 +46,7 @@ In addition, we provide the possibility to request analysis of samples of partic
 
 ### WorkflowHub
 
-The [WorkflowHub registry](https://workflowhub.eu/) for scientific computational workflows provides access to hundreds of workflows with defined releases, among them an evolving set of [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid).
+The {% tool "workflowhub" %} registry for scientific computational workflows provides access to hundreds of workflows with defined releases, among them an evolving set of [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid).
 
 These are provided and/or reviewed by the [IWC](https://github.com/galaxyproject/iwc), a subgroup within the Galaxy Community concerned with maintaining high-quality Galaxy Workflows and who collaborates closely with WorkflowHub on FAIR workflow matters.
 
@@ -56,7 +56,7 @@ This design provides users with the advantage of being able to combine analysis 
 
 ### Galaxy Europe
 
-The [European Galaxy server](https://usegalaxy.eu) provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
+The {% tool "galaxy-europe" %} server provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
 
 In the showcase we download ENA-hosted or user-requested sequencing data to the Galaxy server and process it with the workflows from WorkflowHub.
 
@@ -75,11 +75,11 @@ You can access all the data by logging in to: `ftp://xfer13.crg.eu` as User: `FT
 
 ### Viral Beacon project
 
-In the showcase the [ CRG COVID-19 Viral Beacon](https://covid19beacon.crg.eu/) acts as a consumer of the data and provides visualisations.
+In the showcase the {% tool "crg-covid-19-viral-beacon" %} acts as a consumer of the data and provides visualisations.
 
 ### UCSC genome browser
 
-The genome browser offers a [Galaxy ENA mutations](https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=wuhCor1&c=NC_045512v2&g=galaxyEna)
+The {% tool "ucsc-genome-browser" %} offers a [Galaxy ENA mutations](https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=wuhCor1&c=NC_045512v2&g=galaxyEna)
 track populated from the data on the CRG’s archive.
 
 ## Bringing it all together
@@ -141,7 +141,7 @@ Wolfgang Maier, Simon Bray, Anton Nekrutenko, Björn Grüning, Marius van den Be
 
 Additional people who have helped improve the workflows used for the data analysis: Ulvi Talas (University of Tartu), Peter van Heusden (SANBI)
 
-### Sponsors
+### Support
 
 Galaxy Europe is supported by de.NBI (the German Network for Bioinformatics Infrastructure) and through associated funding via the BMBF (German Federal Ministry of Education and Research) grants 031L0101C de.NBI-epi and 031 A538A de.NBI-RBC.
 

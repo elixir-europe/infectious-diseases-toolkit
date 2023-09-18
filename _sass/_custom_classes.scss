@@ -1,6 +1,8 @@
 /*-----General styling-----*/
 
-$card-slide-transition: border-width .15s ease-in, margin-right .15s ease-in;
+$card-slide-transition:
+    border-width 0.15s ease-in,
+    margin-right 0.15s ease-in;
 
 main {
     h1 {
@@ -53,6 +55,9 @@ main {
             i {
                 color: $dark !important;
             }
+            .text-muted {
+                color: $text-muted !important;
+            }
         }
         &.bg-white:hover {
             background-color: $white !important;
@@ -84,7 +89,7 @@ main {
         margin-top: $spacer;
         li {
             a {
-                margin-bottom: 0!important;
+                margin-bottom: 0 !important;
                 border-left: 4px solid $sidebar-bg;
                 &:hover {
                     border-left-color: $primary !important;
@@ -189,14 +194,6 @@ main {
     color: $white;
 }
 
-/*-----TOC-----*/
-
-#toc {
-    padding-left: 2 * $spacer !important;
-    li::marker {
-        color: $red;
-    }
-}
 
 /*-----Top navigation-----*/
 
@@ -270,11 +267,29 @@ section#search-section {
     color: $dark;
 }
 
+.events > ul > li,
+.news > ul > li {
+    padding: 0px 11px 0.25rem 11px;
+    background-color: #fff;
+    margin-bottom: .5rem
+}
+
 /*-----Edit-me buttons-----*/
 
 #edit-me a {
     color: $red !important;
     &:hover {
         color: $white !important;
+    }
+}
+
+/*-----Sidebar-----*/
+@include media-breakpoint-up(lg) {
+    #sidebar {
+        top: 3rem;
+        z-index: 2;
+        height: calc(100vh - 7rem);
+        overflow-y: auto;
+        position: sticky;
     }
 }

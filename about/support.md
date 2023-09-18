@@ -10,4 +10,4 @@ The Infectious Diseases Toolkit is built based on the experience and ways of wor
 
 Additionally we thank the funders that supported some of our contributors.
 
-{% include affiliation-tiles-selection.html type="funder"%}
+{% include affiliation-tiles-selection.html type="funder" %}

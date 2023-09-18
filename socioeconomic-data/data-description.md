@@ -2,6 +2,7 @@
 title: Data description
 description: Finding (meta)data standards and documentation
 contributors: []
+no_robots: true
 page_id: sed_data_description
 rdmkit:
   - name:

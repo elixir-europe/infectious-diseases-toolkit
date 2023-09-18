@@ -1,12 +1,13 @@
 ---
 title: Data description
-description: Short description of the page
+description: Finding (meta)data standards and documentation
 contributors:
   - Wolmar Nyberg Åkerström
   - Zahra Waheed
   - Liane Hughes
   - Flora D'Anna
   - Diana Pilvar
+no_robots: true
 page_id: pc_data_description
 rdmkit:
   - name: "Your tasks: Documentation and metadata"

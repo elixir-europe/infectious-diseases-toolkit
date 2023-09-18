@@ -1,5 +1,9 @@
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) [![Validation of the tools and page metadata](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/tool_list_conversion.yml/badge.svg)](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/tool_list_conversion.yml) [![Jekyll site CI](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/jekyll.yml/badge.svg)](https://github.com/elixir-europe/infectious-diseases-toolkit/actions/workflows/jekyll.yml)
 
+<img src="https://raw.githubusercontent.com/elixir-europe/infectious-diseases-toolkit/master/assets/img/main_logo.svg" alt="IDTk logo" width="650"/>
+
+
+
 # Infectious Diseases Toolkit (IDTk)
 
 The Infectious Diseases Toolkit (IDTk) is a community effort to detail best practices related to infectious disease data management, and showcase solutions that were developed to deal with outbreaks. It was created as part of the [BeYond COVID (BY-COVID) project]( https://by-covid.org/). More information can be found in the [about](https://www.infectious-diseases-toolkit.org/about/) page.
