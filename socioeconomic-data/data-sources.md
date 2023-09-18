@@ -67,7 +67,7 @@ Even industrial advanced societies proved that they were not well-prepared to co
 
 ## Search and discoverability
 
-Currently, the COVID-19 Data Portal contains metadata records from the [Consortium of European Social Science Data Archives' (CESSDA)](https://www.cessda.eu/) {% tool "cessda-data-catalogue" %} and the [European University Institute's](https://www.eui.eu/en/home) (EUI) [COVID-19 SSH Data Portal](https://eui-covid-data.cottagelabs.com/).
+Currently, the COVID-19 Data Portal contains metadata records from the [Consortium of European Social Science Data Archives' (CESSDA)](https://www.cessda.eu/) {% tool "cessda-data-catalogue" %} and the [European University Institute's](https://www.eui.eu/en/home) (EUI) {% tool "eui-covid-19-ssh-data-portal" %}.
 
 For socioeconomics, two primary data sources are considered and are outlined in this section. These data sources provide data that relate to or are relevant for COVID-19 and other infectious disease outbreaks. These data sources are filtered for data relevant to COVID-19, and the resulting metadata is prepared and harmonized via a [harvesting tool](https://t2-4.by-covid.bsc.es/jspui/) before being added to the COVID-19 Data Platform (for more details, see project deliverable [D2.1](https://zenodo.org/record/7017728)).
 
