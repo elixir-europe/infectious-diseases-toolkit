@@ -709,3 +709,9 @@
   id: wfexs
   name: WfExS
   url: https://github.com/inab/WfExS-backend
+- description: An RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs.
+  id: dcat
+  name: DCAT
+  url: https://www.w3.org/TR/vocab-dcat-2/
+  registry:
+    fairsharing: h4j3qm
