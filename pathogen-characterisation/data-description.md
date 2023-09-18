@@ -1,13 +1,13 @@
 ---
-Title: Data description
-Description: Short description of the page
-Contributors:
+title: Data description
+description: Short description of the page
+contributors:
   - Wolmar Nyberg Åkerström
   - Zahra Waheed
   - Liane Hughes
   - Flora D'Anna
   - Diana Pilvar
-Page_id: pc_data_description
+page_id: pc_data_description
 rdmkit:
   - name: "Your tasks: Documentation and metadata"
     url: https://rdmkit.elixir-europe.org/metadata_management
@@ -19,15 +19,17 @@ human_biomolecular_data: []
 human_clinical_and_health_data: []
 socioeconomic_data: []
 pathogen_characterisation: []
-Training:
+training:
   - name:
     registry: 
     url:
 ---
+
 ## Introduction 
 It is very important that data is adequately described in order for others to be able to make use of it and to promote reproducibility. For general information on the importance of data description, please see [the documentation and metadata section of RDMkit](https://rdmkit.elixir-europe.org/metadata_management).
 
 There are many different types of data that relate to pathogen characterisation. This may include, for example, descriptions of biological specimens, of the protocols used in data collection, and/or genomic data. The information on this page is intended to show you what you should consider when describing different types of data related to pathogen characterisation. It should enable you to understand how to share your data with sufficient description to enable reuse.
+
 ## Good practices for describing data in general
 You should always plan your study with data sharing in mind. Identifying the information necessary for effective data sharing will allow you to generate documentation that is both well structured and complete.  . Describing the data entails extracting the information, recording it according to existing best practice guidelines and standards, and extending descriptions where needed. 
 
@@ -39,6 +41,7 @@ When defining a general data description strategy, it is important to consult re
 * **Share/reference information about cohorts, samples, instruments, protocols, materials & methods.** It is important to retain information about which protocols (including which version) were used at each step of your experiments, as well as which samples were prepared and processed together. This can include, for example, information about the model number of the instruments used, the biobanks samples used, and the suppliers of kits. This can allow users to identify potential issues and artefacts and even generate new data.. 
 * **Share/reference data assets, software versions & computational workflows.** You should include links/references to source data used, and describe analytic workflows (with runtime quality metrics). Other information could include bioinformatics protocols used, and the versions of software and computational workflows used. This is crucial for understanding exactly what was done as well as identifying potential areas for improvement.
 * **Protect the privacy of human research subjects and patients.** Whilst providing complete data descriptions is generally advisable, some data will need to be anonymised before it can be shared. You should describe how and why sensitive data were masked or removed.
+
 ### Existing approaches
 * Outline the data sharing platforms, data description standards, and checklists, including the desired   [data management plan](https://rdmkit.elixir-europe.org/data_management_plan#what-should-you-write-in-a-dmp).
 * Refer to the [data sources page] to identify relevant data sharing platforms and related reporting schemas
@@ -53,6 +56,7 @@ When defining a general data description strategy, it is important to consult re
   * The PHA4GE SARS-CoV-2 Contextual Data Specification for Open Genomic Epidemiology, examples of how to design data collection templates and practices for effective data sharing
   * RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance, 2020. DOI: https://doi.org/10.15497/rda00052 
   * Is the BY-COVID related FAIR Sharing collection relevant here? https://fairsharing.org/3656 
+
 ## Biological samples
 ### Considerations
 Many different sources can be sampled to monitor and identify different pathogens.
@@ -62,6 +66,7 @@ It is important to describe and provide metadata especially about geolocalisatio
 For biological samples from human host, health authorities and communities? Provide both generic and specific guidelines. Usually, national authorities adopt and customise international recommendations. Check the national pages.
 * Describing samples that do not originate from natural environments or hosts, e.g. cultured / lab grown etc.
 * Describing pooled samples
+
 ### Existing approaches
 * Description of biological samples must be provided together with molecular data and metadata. Therefore, repositories such as ENA and GISAID might have specific requirements for description of biological samples.
   * For ENA
@@ -75,14 +80,17 @@ E.g. key information to collect about sequencing for an ENA submission: platform
 * International and community efforts have been made to harmonise or provide unified checklists: 
 Examples of issues in mapping between ENA/GISAID: https://docs.google.com/spreadsheets/d/1gNpdZKOUKPemMUHR107JRSeaWjPczlMIUp5fP5-kR9g/edit#gid=0
 * WHO
+
 ## Protocols and procedures (/workflows) 
 ### Considerations
 * Describe applications of existing protocols
 * Describe study specific procedures
 * Describe computational workflows and tools
+
 ### Existing approaches
 ## Genome data of viral pathogens
 Virus screening and viral genome reconstruction are urgent and crucial for the rapid identification of viral pathogens, i.e., tracing the source and understanding the pathogenesis when a viral outbreak occurs. Analysis of this data is also important to identify mutations and track variation for effective genomic surveillance. 
+
 ### Considerations
 Descriptions for genome data should follow good practices for describing data in general (see paragraph above). When looking for existing approaches to describe your viral genomic data, you should first consider the following aspects.
 * *Provide information aboutthe design of the study/program and experimental variables.* 
@@ -114,6 +122,7 @@ Data sharing:
 * Variants
 * Transition from data description to data sources page?
   * The data collected and described above should be shared in an open access repository for the global scientific community, which repository you should pick and any formatting to these repositories, can be found in the [Data Sources] page
+
 ### Existing approaches
 * Describe your study and experimental variable as in this examples:
   * Examples of studies objectives: Determine the genome of an emerging pathogen, identify emerging variants in a population, phylogenetic analysis for understanding of how pathogens evolve, Genomics and epidemiological surveillance for tracking pathogen transmission and evolution
@@ -140,6 +149,7 @@ Examples of file formats with variations across instruments/tools: FASTA/FASTQ, 
   * GISAID focuses on data sharing related to viruses and the EpiCoV™ database is specifically designed for sharing COVID-19 and SARS-CoV-2 genome data. EpiCoV™ is an important resource for many public health authorities and researchers but the database is currently limited to provide access to consensus sequences and enforces a license that places some restrictions on how and by whom the data can be accessed and reused in downstream analysis.
   * The European COVID-19 Data Portal is also specifically designed for sharing COVID-19 and SARS-CoV-2 data and provides access to a wide range of data including consensus sequences and reads submitted to ENA—or any member of INSDC. Data submitted to ENA is provided under a free and unrestricted access policy that enables further innovations such as public dashboards and analysis pipelines and targeted or local surveillance initiatives. 
   * Contributions and access to national and European surveillance systems is usually administered by national health authorities. Some of the data contained in these systems may not be suitable for widespread or public sharing and the main purpose of the systems is to support policy and public health actions.
+
 ## Concrete topic 1 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
 
 Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected e.g. pathogen characterisation.
