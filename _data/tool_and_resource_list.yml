@@ -715,3 +715,15 @@
   url: https://www.w3.org/TR/vocab-dcat-2/
   registry:
     fairsharing: h4j3qm
+- description: The dutch COVID-19 Data Portal provides researchers with a clear overview of what is available, allow searching for specific data and make access to such data easier when the necessary ethical and legal conditions have been met. 
+  id: dutch-covid19-data-portal
+  url: https://covid19initiatives.health-ri.nl/p/Dashboard
+  name: Dutch COVID-19 Data Portal
+- description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
+  id: fega
+  name: Federated EGA
+  url: https://www.covid19dataportal.org/federated-ega
+- description: Using technology that builds upon existing EMBL-EBI infrastructure, we provide SARS-CoV-2 Data Hubs to those public health agencies and other scientific groups responsible for generating viral sequence data from the outbreak at national or regional levels.
+  id: sars-cov2-data-hubs
+  name: SARS-CoV-2 Data Hubs
+  url: https://www.covid19dataportal.org/data-hubs
