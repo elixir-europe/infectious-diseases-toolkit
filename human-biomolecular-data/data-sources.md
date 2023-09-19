@@ -64,7 +64,7 @@ In summary, data deposition not only fuels scientific progress but also empowers
 - Adhere to data sharing and privacy regulations to protect sensitive information and maintain data confidentiality.
 - Include metadata, such as experimental protocols, sample characteristics, and data processing methods, to provide context and facilitate reproducibility.
 - Use standardized data formats and ontologies to enhance interoperability and enable integration with other datasets.
-- Use metadata standards (such as [DCAT](https://www.w3.org/TR/vocab-dcat-3/)) to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. 
+- Use metadata standards (such as {% tool "dcat" %}) to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. 
 - Include appropriate quality control measures to ensure data accuracy and reliability.
 - Consider data anonymization or de-identification techniques to protect the privacy of individuals involved in the study.
 - Provide sufficient data access and sharing permissions, specifying any restrictions or limitations, while ensuring compliance with legal and ethical requirements.
@@ -75,15 +75,15 @@ Please note that these considerations are general in nature and may vary dependi
 
 ### Existing approaches
 
-- **Public databases:** Various publicly accessible databases serve as repositories for human biomolecular data, such as the National Center for Biotechnology Information ([NCBI](https://www.ncbi.nlm.nih.gov/)) databases (e.g., [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), [GEO](https://www.ncbi.nlm.nih.gov/geo/), [SRA](https://www.ncbi.nlm.nih.gov/sra) and European Bioinformatics Institute ([EBI](https://www.ebi.ac.uk/)) databases (e.g., [ENA](https://www.ebi.ac.uk/ena/browser/home), [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)).
-- **Controlled access repositories:** Some data deposition platforms, like dbGaP ([Database of Genotypes and Phenotypes](https://www.ncbi.nlm.nih.gov/gap/)) and EGA ([European Genome-phenome Archive](https://ega-archive.org/)), adopt a controlled access model to protect sensitive human biomolecular data. Researchers interested in accessing the data need to request permission and comply with specific data usage policies.
+- **Public databases:** Various publicly accessible databases serve as repositories for human biomolecular data, such as the National Center for Biotechnology Information ([NCBI](https://www.ncbi.nlm.nih.gov/)) databases (e.g., {% tool "genbank" %}, {% tool "geo" %}, {% tool "sra" %} and European Bioinformatics Institute ({% tool "ebi" %}) databases (e.g., {% tool "european-nucleotide-archive" %}, {% tool "arrayexpress" %}).
+- **Controlled access repositories:** Some data deposition platforms, like dbGaP ({% tool "dbgap" %}) and EGA ({% tool "ega" %}), adopt a controlled access model to protect sensitive human biomolecular data. Researchers interested in accessing the data need to request permission and comply with specific data usage policies.
 - **Data integration platforms:** Platforms like the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org/)) provide frameworks and standards for federated data access and integration across multiple repositories. These initiatives aim to facilitate the aggregation and analysis of human biomolecular data from diverse sources while maintaining data privacy and security.
 - **Data citation and DOI assignment:** To acknowledge and promote the contributions of researchers who deposit human biomolecular data, many repositories assign unique digital object identifiers (DOIs) to datasets. This enables proper citation and recognition of the deposited data, enhancing its visibility and impact.
 - **Data submission portals:** Some repositories offer user-friendly web portals or submission systems that guide researchers through the process of depositing human biomolecular data. These portals often provide templates, validation checks, and step-by-step instructions to ensure the completeness and quality of the deposited data.
-- **Consortium-specific databases:** Collaborative research initiatives often establish dedicated databases for sharing and depositing human biomolecular data, such as The Cancer Genome Atlas ([TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)) for cancer genomics data or the Genotype-Tissue Expression ([GTEx](https://gtexportal.org/home/)) project for gene expression data across different tissues.
+- **Consortium-specific databases:** Collaborative research initiatives often establish dedicated databases for sharing and depositing human biomolecular data, such as The Cancer Genome Atlas ({% tool "tcga" %}) for cancer genomics data or the Genotype-Tissue Expression ({% tool "gtex" %}) project for gene expression data across different tissues.
 - **Standardized data formats:** Commonly used data formats like FASTQ, BAM, and VCF facilitate data deposition and sharing by ensuring compatibility and interoperability between different analysis tools and databases.
 - **Data publication:** Journals and publishers increasingly require researchers to deposit their human biomolecular data in public repositories as a prerequisite for publication. This promotes data sharing, reproducibility, and transparency in scientific research.
-- **Data sharing platforms:** Online platforms like [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/), and [Dryad](https://datadryad.org/stash) provide researchers with the means to deposit and share their human biomolecular data, ensuring its long-term accessibility and enabling collaboration.
+- **Data sharing platforms:** Online platforms like {% tool "figshare" %}, {% tool "zenodo" %}, and {% tool "dryad" %} provide researchers with the means to deposit and share their human biomolecular data, ensuring its long-term accessibility and enabling collaboration.
 
 ## Search and discoverability
 
@@ -99,7 +99,7 @@ Overall, search and discoverability are essential for effective infectious disea
 
 Despite the growing amount of infectious disease data stored in various sources, finding and analyzing this data can be challenging for the scientific community. There is a clear need for a user-friendly and efficient way to discover and analyse this data.
 
-- **Data sharing platforms**: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the [Covid19 Data Portal](https://www.covid19dataportal.org/).
+- **Data sharing platforms**: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the {% tool "covid-19-data-portal" %}.
 - **Data privacy and security**: Privacy and security protocols must be in place to protect sensitive biomolecular data from unauthorised access.
 - **National regulations**: Taking into account the National regulations and the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) rules.
 - **Data quality**: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
@@ -112,7 +112,7 @@ Despite the growing amount of infectious disease data stored in various sources,
 
 Consequently, we have compiled some of the main tools, portals, and data sharing platforms that allow for searching and discovering biomolecular data related to infectious diseases from various sources with the next considerations.
 
-- Beacon v2: Beacon is an API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
+- Beacon: {% tool "beacon" %} is an API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
   - Query options for biological or technical metadata using filters defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
   - An option to trigger the next step in the data access process (e.g. who to contact or which are the data use conditions).
   - An option to jump to another system where the data could be accessed (e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest).
@@ -130,11 +130,11 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   - [Synthetic data (CINECA)](https://ega-archive.org/studies/EGAS00001002472)
   - [CINECA Beacon v2 API](https://ega-archive.org/beacon-apis/cineca/)
 
-- Biosamples: [BioSamples](https://www.ebi.ac.uk/biosamples/) stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
-- COVID-19 DataPortal: The European COVID-19 Data Platform facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
+- Biosamples: {% tool "biosamples" %} stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
+- COVID-19 DataPortal: The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
   - [SARS-CoV-2 Data Hubs](https://www.covid19dataportal.org/data-hubs), which organise the flow of SARS-CoV-2 outbreak sequence data and provide comprehensive open data sharing for the European and global research communities.
   - [Federated European Genome-phenome Archive](https://www.covid19dataportal.org/federated-ega), which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19 while complying with stringent privacy national laws.
-  - [COVID-19 Data Portal](https://www.covid19dataportal.org/), which brings together and continuously updates relevant COVID-19 datasets and tools, will host sequence data sharing and will facilitate access to other SARS-CoV-2 resources.
+  - {% tool "covid-19-data-portal" %}, which brings together and continuously updates relevant COVID-19 datasets and tools, will host sequence data sharing and will facilitate access to other SARS-CoV-2 resources.
 
   You can find further information about the Covid-19 Data Portal in the link [here](https://rdmkit.elixir-europe.org/covid19_data_portal).
 
@@ -164,14 +164,14 @@ When looking for solutions to data transfer, you can check [this](https://rdmkit
 ### Existing approaches
 
 - You can check a list of existing controlled access repositories:
-  - [European Genome-phenome Archive](https://ega-archive.org/)
-  - [Estonian BioBank](https://genomics.ut.ee/en/content/estonian-biobank)
+  - {% tool "ega" %}
+  - {% tool "estonian-biobank" %}
   - [Dutch Covid-19 Data Portal](https://covid19initiatives.health-ri.nl/p/Dashboard) 
-  - [PANTHER](https://pantherstudy.org.uk/) 
-  - [ACE](https://co-connect.ac.uk/ace-cohort/)
+  - {% tool "panther" %} 
+  - {% tool "ace-cohort" %}
 - You can use one of these standards to make your data use conditions publicly available to possible data requesters.
-  - The [GA4GH Data Use Ontology DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
-  - The [Automatable Discovery and Access Matrix (ADA-M)](https://github.com/ga4gh/ADA-M) provides a standardised way to unambiguously represent the conditions related to data discovery and access. 
+  - The {% tool "the-data-use-ontology" %} is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
+  - The {% tool "ada-m" %} provides a standardised way to unambiguously represent the conditions related to data discovery and access. 
   - By depositing your data to one of the existing controlled access repositories, they will already show the data use conditions (e.g. [EGAD00001007777](https://ega-archive.org/datasets/EGAD00001007777))
 - A data access committee (DAC) is a group responsible for reviewing and approving requests for access to sensitive data, such as human biomolecular data. Its role is to ensure that requests are in compliance with relevant laws and regulations, that data is being used for legitimate scientific purposes, and that privacy and security are being maintained. To know more about what is a DAC and how to become one, you can check the [European Genome-phenome Archive - Data Access Committee](https://ega-archive.org/submission/data_access_committee) website.
 
@@ -185,7 +185,7 @@ Thanks to the Sars-CoV-2 outbreak, the scientific community has established stan
 
 ### Considerations
 
-- Looking for an existing standardised metadata schema for human biomolecular data, like [MIABIS](https://github.com/BBMRI-ERIC/miabis) or [EGA](https://ega-archive.org/submission/sequence/programmatic_submissions) schemas. 
+- Looking for an existing standardised metadata schema for human biomolecular data, like {% tool "miabis" %} or [EGA](https://ega-archive.org/submission/sequence/programmatic_submissions) schemas. 
 - Incorporating key data elements such as patient demographics, clinical features, and laboratory test results in the metadata schema
 - Ensuring interoperability with other existing metadata schemas to facilitate data sharing and integration
 - Including metadata fields for sample collection, processing, and storage information to ensure data quality and reproducibility
@@ -197,5 +197,5 @@ Thanks to the Sars-CoV-2 outbreak, the scientific community has established stan
 ### Existing approaches
 
 * When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
-* [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) is also a good resources to find metadata standards that be useful for your research.
+* {% tool "fairsharing" %} is also a good resources to find metadata standards that be useful for your research.
 
