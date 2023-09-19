@@ -8,6 +8,6 @@ The Infectious Diseases Toolkit  is developed in [BY-COVID](https://by-covid.org
 
 The Infectious Diseases Toolkit is built based on the experience and ways of working of the [RDMkit](https://rdmkit.elixir-europe.org/) and also makes use of the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/) for deployment.
 
-Additionally we thank the funders that supported some of our contributors.
+Additionally we thank the funders that supported the work on the framework used by the Infectious Diseases Toolkit.
 
 {% include affiliation-tiles-selection.html type="funder" %}
