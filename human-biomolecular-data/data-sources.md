@@ -132,8 +132,8 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
 
 - Biosamples: {% tool "biosamples" %} stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
-  - [SARS-CoV-2 Data Hubs](https://www.covid19dataportal.org/data-hubs), which organise the flow of SARS-CoV-2 outbreak sequence data and provide comprehensive open data sharing for the European and global research communities.
-  - [Federated European Genome-phenome Archive](https://www.covid19dataportal.org/federated-ega), which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19 while complying with stringent privacy national laws.
+  - {% tool "sars-cov2-data-hubs" %}, which organise the flow of SARS-CoV-2 outbreak sequence data and provide comprehensive open data sharing for the European and global research communities.
+  - {% tool "fega" %}, which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19 while complying with stringent privacy national laws.
   - {% tool "covid-19-data-portal" %}, which brings together and continuously updates relevant COVID-19 datasets and tools, will host sequence data sharing and will facilitate access to other SARS-CoV-2 resources.
 
   You can find further information about the Covid-19 Data Portal in the link [here](https://rdmkit.elixir-europe.org/covid19_data_portal).
@@ -166,7 +166,7 @@ When looking for solutions to data transfer, you can check [this](https://rdmkit
 - You can check a list of existing controlled access repositories:
   - {% tool "ega" %}
   - {% tool "estonian-biobank" %}
-  - [Dutch Covid-19 Data Portal](https://covid19initiatives.health-ri.nl/p/Dashboard) 
+  - {% tool "dutch-covid19-data-portal" %}
   - {% tool "panther" %} 
   - {% tool "ace-cohort" %}
 - You can use one of these standards to make your data use conditions publicly available to possible data requesters.
