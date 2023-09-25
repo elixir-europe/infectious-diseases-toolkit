@@ -44,7 +44,7 @@ subitems:
         url: /socioeconomic-data/quality-control
 
   - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-duotone.svg
+    image_url: /assets/img/section-icons/dna-person-duotone.svg
     url: /human-biomolecular-data/
     subitems:
       - title: Attributing credit
@@ -90,14 +90,27 @@ subitems:
     image_url: /assets/img/section-icons/network-wired-duotone.svg
     url: /showcase/
     description: Applied examples of handling infectious disease data
+    subitems:
+      - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
+        url:  /showcase/covid19-galaxy
+      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
+        url:  /showcase/korogenoest
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg
     url: /national-resources/
     description: Country specific examples
     subitems:
+      - title: Belgium
+        url: /national-resources/belgium
+      - title: Netherlands
+        url: /national-resources/netherlands
+      - title: Norway
+        url: /national-resources/norway
       - title: Sweden
         url: /national-resources/sweden
+      - title: Switzerland
+        url: /national-resources/switzerland
 
   - title: Tools and resources list
     hr: true

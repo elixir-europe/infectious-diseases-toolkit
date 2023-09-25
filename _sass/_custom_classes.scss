@@ -1,5 +1,9 @@
 /*-----General styling-----*/
 
+$card-slide-transition:
+    border-width 0.15s ease-in,
+    margin-right 0.15s ease-in;
+
 main {
     h1 {
         margin-bottom: 0.5em;
@@ -30,11 +34,36 @@ main {
     .anchorjs-link {
         margin-left: -2em !important;
     }
+
+    ol li::marker,
+    ul li::marker {
+        font-size: larger;
+    }
 }
 
 /*-----More information tiles-----*/
 
 .info-card {
+    .hover-primary:not(.badge),
+    .btn.py-4.hover-primary {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-width: 6px;
+            margin-right: -6px;
+            i {
+                color: $dark !important;
+            }
+            .text-muted {
+                color: $text-muted !important;
+            }
+        }
+        &.bg-white:hover {
+            background-color: $white !important;
+        }
+    }
+
     .card-header {
         padding-bottom: 0;
         border-bottom: 0;
@@ -60,6 +89,7 @@ main {
         margin-top: $spacer;
         li {
             a {
+                margin-bottom: 0 !important;
                 border-left: 4px solid $sidebar-bg;
                 &:hover {
                     border-left-color: $primary !important;
@@ -74,6 +104,11 @@ main {
                 &:not(.parent) > a {
                     border-left-color: $primary;
                 }
+            }
+
+            &.mt-3 {
+                padding-top: $spacer;
+                border-top: $border-width $border-style $border-color;
             }
         }
     }
@@ -95,30 +130,55 @@ main {
 
 /*-----Section navigation tiles-----*/
 
-.navigation-tiles .card {
-    border-left: 6px solid $light;
-    transition: $btn-transition;
-    &:hover {
-        border-left-color: $primary;
+.navigation-tiles {
+    .btn.py-4.hover-primary {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            color: $dark !important;
+            border-left-width: 6px;
+            margin-right: -6px;
+            i {
+                color: $dark !important;
+            }
+        }
+        &.bg-light:hover {
+            background-color: $light !important;
+        }
     }
+    .card {
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
+        &:hover {
+            border-left-width: 6px;
+            margin-right: -6px;
+        }
 
-    .card-header {
-        padding-bottom: 0;
-        a:hover {
-            text-decoration: none;
+        .card-header {
+            padding-bottom: 0;
+            a:hover {
+                text-decoration: none;
+            }
+            h3 {
+                font-size: 1.2rem;
+            }
         }
-        h3 {
-            font-size: 1.2rem;
+        button {
+            background-color: $white;
         }
-    }
-    button {
-        background-color: $white;
+        .card-footer {
+            padding-top: 0;
+        }
     }
 }
 
 /*-----Contributors tiles -----*/
 
-.contributor-cards .card {
+.contributor-cards,
+.contributor-link {
+    .card-footer {
+        background-color: $blue-x;
+    }
     .badge {
         color: $dark;
         background-color: $blue-x;
@@ -139,14 +199,6 @@ main {
     color: $white;
 }
 
-/*-----TOC-----*/
-
-#toc {
-    padding-left: 2 * $spacer !important;
-    li::marker {
-        color: $red;
-    }
-}
 
 /*-----Top navigation-----*/
 
@@ -175,11 +227,11 @@ main {
     }
 
     .card {
-        border-left: 6px solid $white;
-        border-right: 6px solid $white;
-        transition: $btn-transition;
+        border-left: 0px solid $primary;
+        transition: $card-slide-transition;
         &:hover {
-            border-left-color: $primary;
+            border-left-width: 6px;
+            margin-right: -6px;
         }
 
         .card-img-top {
@@ -212,7 +264,7 @@ section#search-section {
     }
 }
 
-// Custom coloring
+/*-----News and events-----*/
 
 .events > ul > li .title,
 .news > ul > li .title {
@@ -220,10 +272,14 @@ section#search-section {
     color: $dark;
 }
 
-main ol li::marker,
-main ul li::marker {
-    font-size: larger;
+.events > ul > li,
+.news > ul > li {
+    padding: 0px 11px 0.25rem 11px;
+    background-color: #fff;
+    margin-bottom: .5rem
 }
+
+/*-----Edit-me buttons-----*/
 
 #edit-me a {
     color: $red !important;
@@ -232,27 +288,13 @@ main ul li::marker {
     }
 }
 
-.card-footer {
-    background-color: $blue-x;
-}
-
-.info-card,
-.navigation-tiles {
-    .hover-primary:not(.badge) {
-        border-left: 6px solid transparent;
-        transition: $btn-transition;
-        &:hover {
-            color: $dark !important;
-            border-left-color: $primary;
-            i {
-                color: $dark !important;
-            }
-        }
-        &.bg-white:hover {
-            background-color: $white !important;
-        }
-        &.bg-light:hover {
-            background-color: $light !important;
-        }
+/*-----Sidebar-----*/
+@include media-breakpoint-up(lg) {
+    #sidebar {
+        top: 3rem;
+        z-index: 2;
+        height: calc(100vh - 7rem);
+        overflow-y: auto;
+        position: sticky;
     }
 }

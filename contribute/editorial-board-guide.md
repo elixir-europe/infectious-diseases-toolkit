@@ -177,7 +177,8 @@ Bert Droesbeke:
 
 ## Adding an institution, infrastructure, project or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The information in this file is used on the support page in the about section, but also for the affiliations in showcase pages. Make sure you make use of the same name in those showcase pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/affiliations.yaml) file. The information in this file is used on the support page in the about section (when `expose: true`), but also for the affiliations in showcase pages (listed in the metadata of the page with the affiliations attribute). Make sure you make use of the same name in those showcase pages. The yaml file has the following syntax:
+
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
@@ -195,9 +196,9 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `url`: url towards the homepage of this association
 
 
-The logos can be added to the [/images/institutions](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/institutions/), [/images/projects](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/funders/) directory.
+The logos can be added to the [logos](https://github.com/elixir-europe/infectious-diseases-toolkit/tree/main/images/logos/) directory.
 
-{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scalability and file size, if possible." %}
+{% include callout.html type="important" content="Upload vector images (.svg filetype) of the logo for better quality, scalability and file size, if possible." %}
 
 ## Related pages
 
