@@ -112,7 +112,7 @@ This includes, for example, the purpose of the study, the variables and observat
 * **Describe how the samples were prepared for sequencing.**
 This includes describing how and where specimens were collected and the process to create the samples containing the genomic material of interest, while referencing protocols, reagent kits, instruments and noting key observations and choices.
 * **Describe how sequencing was performed and configured.**
-This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models and the library preparation protocols selected for the experiment, while noting key choices , such as how multiplexing, software settings related to the samples’ that could influence the quality of the results.
+This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models and the library preparation protocols selected for the experiment, while noting key observations and choices, such as assessment of samples, multiplexing/demultiplexing approach, software settings and other factors that strongly influence the results.
 * **Describe how the data was exported and processed.** 
 Describing what file formats were used, what each file contains, how the different files are related to eachother and if or how a selection was made to mask or discard some of the information. 
 
