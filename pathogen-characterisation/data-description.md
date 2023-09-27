@@ -42,6 +42,8 @@ You should always plan your study with [data sharing](https://rdmkit.elixir-euro
 
 ### Considerations
 When defining a general data description strategy, it is important to consult relevant guidelines and adopt accepted standards.
+* **Include enough detail to inform assessment by your peers and the wider research community.**
+The way you describe and document your data will vary depending on the type of study. The descriptions should include all the information necessary for someone else to be able to understand and process the data that your are sharing but it should also include information that allow an informed assessment of reliability of the data and the competence of those who created them. The descriptions are usually organised following research community guidelines and then structured as metadata to make the data FAIR.
 * **Review the submission guidelines of the repositories you intend to submit data into.** Different repositories will often require different levels/types of metadata, or enable you to restrict access to different extents. This is because different repositories will enable users to search for different aspects of metadata, for example. It is important to check their requested data formats and checklists. We encourage you to go beyond just the minimum data required by the repository, as this will likely increase the reusability of your data in different contexts. Do contact them via helpdesk if you have any questions here.
 * **Adopt shared practices for annotating experiments.** Some research communities (e.g. ECDC) have developed guidelines detailing shared/common practices for describing experiments and how to embed descriptions in the data. By adopting a shared standard, your data are likely to be more accessible and understandable to potential users. At a minimum, it is generally recommended that you describe the design of the study/program, collected specimens, sample preparation steps, experimental protocols and workflow. 
 * **Follow the recommendations from national and international authorities** including e.g. public health authorities, epidemic surveillance programs, and research data communities.
@@ -102,14 +104,18 @@ Which sample metadata must be submitted to ENA, regardless of pathogenic organis
 The screening and genome reconstruction of viruses is crucial in rapidly tracing the source of an outbreak and understanding the pathenogensis of a pathogen.
 
 ### Considerations
-Descriptions for genome data should follow good practices for describing data in general (see paragraph above). When looking for existing approaches to describe your viral genomic data, you should first consider the following aspects:
-* **Provide information about the design of the study/program and experimental variables.**
+Descriptions for genome data should follow good practices for describing data in general (see paragraph above).
+* **Aim for someone else to be able to replicate the experiments.**
+This includes being able to commission the collection and sequencing of additional samples to extend the scope of a study and to adopt common practices to support reliable analysis on data produces across research projects and public health initiatives. You should aim to include or reference the information necessary for someone else to be able to understand and replicate the experiments. 
+* **Describe the design of the study/program and experimental variables.**
 This includes, for example, the purpose of the study, the variables and observations required to reach its goals, and how the genome data fits into this context.
-* **Describe how the genomes were prepared for sequencing.**
-Make sure to describe every step of your genome preparation process in
-detail, so that others can reproduce it.
+* **Describe how the samples were prepared for sequencing.**
+This includes describing how and where specimens were collected and the process to create the samples containing the genomic material of interest, while referencing protocols, reagent kits, instruments and noting key observations and choices.
 * **Describe how sequencing was performed and configured.**
-Describing the sequencing protocol is essential when determining whether results are comparable.
+This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models and the library preparation protocols selected for the experiment, while noting key choices , such as how multiplexing, software settings related to the samples’ that could influence the quality of the results.
+* **Describe how the data was exported and processed.** 
+Describing what file formats were used, what each file contains, how the different files are related to eachother and if or how a selection was made to mask or discard some of the information. 
+
 <!--WOLMAR - CAN YOU PROVIDE ANY LINKS HERE AND CLARIFY THE POINTS?* **Describe the genomic data files and descriptions embedded in genomic data files**
 Refer to the manufacturer’s/tool’s description of how the data were encoded in the
 files—different ways to encode information in free text fields or different scales for
