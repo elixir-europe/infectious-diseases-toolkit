@@ -108,9 +108,9 @@ When it comes to the metadata about the sequenced sample, ENA has put in place s
 
 The metadata describing the sequencing experiment have to be submitted to ENA in an [standardised format](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation). Several file types are accepted by the ENA when it comes to raw sequencing reads. There are different tools available to check their quality during the steps of the sequencing process from raw data to processed data. Examples of those tools widely used in the genomics community are:
 
-* {% tool "FASTQC" %}: Gives a report of the quality of the sequencing data using FASTQ files as input.
-* {% tool "SAMtools" %}: Not specific for quality purposes, it has some functionality that can support quality assessment of SAM, BAM and CRAM files.
-* {% tool "VCFtools" %}: Similarly not limited to quality purposes, but it allows to assess the structural integrity of a VCF file.
+* {% tool "fastqc" %}: Gives a report of the quality of the sequencing data using FASTQ files as input.
+* {% tool "samtools" %}: Not specific for quality purposes, it has some functionality that can support quality assessment of SAM, BAM and CRAM files.
+* {% tool "vcftools" %}: Similarly not limited to quality purposes, but it allows to assess the structural integrity of a VCF file.
 * ISO/IEC 23092-4:2020(en), Information technology — Genomic information representation — Part 4: Reference software elaborates on reference software for genomic information representation
 
 Finally, ENA performs some quality control on some of these files, [mainly on CRAM files](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#cram-file-validation) and [assembled sequences](https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html#validation-rules). Even though these are not specific for SARS-CoV-2 submissions, they do have an additional check for sequence length (max 31kbp) for submissions in the latter format.
@@ -127,7 +127,7 @@ genomic SARS-CoV-2 monitoring](https://www.ecdc.europa.eu/sites/default/files/do
 After the sequence generation stage, the actual analysis of the data takes place. Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
 
 #### 1.4.2 Existing approaches
-For the overall quality (first step of the data analysis), there are some standardised tools (such as {% tool "FASTQC" %}, {% tool "MultiQC" %}) that can offer such an assessment that is domain agnostic. Key considerations are sufficient quality per nucleotide / read and overall mapping across the target pathogens (in case of targeted approaches).
+For the overall quality (first step of the data analysis), there are some standardised tools (such as {% tool "fastqc" %}, {% tool "multiqc" %}) that can offer such an assessment that is domain agnostic. Key considerations are sufficient quality per nucleotide / read and overall mapping across the target pathogens (in case of targeted approaches).
 
 
 Standards from  European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated the use of a common approach to establish a systematic surveillance of SARS-CoV-2 and its variants in wastewaters in the EU ([OJ L 98 19.03.2021, p. 3, CELEX](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021H0472)) document regarding normalisation of wastewater surveillance samples
