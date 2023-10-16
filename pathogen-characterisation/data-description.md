@@ -64,7 +64,7 @@ For biological samples from human hosts, consider that national authorities adop
 * **Describing samples that do not originate from natural environments or hosts**. This includes cultured/lab grown samples.
 * **Describing pooled samples**
 ### Existing approaches
-* Descriptions of biological samples (metadata) must be provided alongside the molecular data. Therefore, repositories such as {% tool "ena" %} and GISAID have specific requirements for the description of biological samples.
+* Descriptions of biological samples (metadata) must be provided alongside the molecular data. Therefore, repositories such as {% tool "ena" %} and {% tool "gisaid" %} have specific requirements for the description of biological samples.
   * Which sample metadata should be submitted to repositories, regardless of pathogenic organism, is often debated. However, important metadata for a pathogen context is below:
     * Taxon id / scientific name of sample.
     * Geographic location.
@@ -104,13 +104,13 @@ This includes describing how and where specimens were collected and the process 
 This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models, and the library preparation protocols selected for the experiment. You should note any key observations and choices, such as the assessment of samples, multiplexing/demultiplexing approach, software settings, and other factors that strongly influence the results.
 * **Describe how the data was exported and processed.** 
 Describing which file formats were used, what each file contains, how the different files are related to each other, and if/how some information was masked or discarded.
-* **The potential differences in policies between the data repositories to which you will submit**. For example, there are differences between GISAID and ENA, with GISAID having a more restrictive licence than ENA.
+* **The potential differences in policies between the data repositories to which you will submit**. For example, there are differences between {% tool "gisaid" %} and {% tool "ena" %}, with {% tool "gisaid" %} having a more restrictive licence than {% tool "ena" %}.
 
 ### Existing approaches
 * State the objective of your study. Examples of study objectives include: 'To determine the genome of an emerging pathogen', and 'phylogenetic analysis for understanding of how pathogens evolve'.
 * State the type(s) of data that you have. This could include: reads, sequences (assembly, variants, consensus), alignments, and annotations.
-* There is guidance on which metadata should be included for submissions to repositories (for example, ENA provides both [general guidelines](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) and [guidelines specific for pathogens](https://ena-docs.readthedocs.io/en/latest/faq/pathogen-subs-guide.html)). Refer to these guidelines to explore which metadata can be included with your submission.
-* In the guidelines associated with submissions to repositories like ENA, some metadata fields will be listed as mandatory, meaning that they must be included with submissions. However, in order to ensure consistency and reproducibility, it is important to include other pieces of metadata that may not be considered mandatory. Below is a list of metadata that you should include with submissions (please refer to [guidance from ENA](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html) to clarify the terms used below):
+* There is guidance on which metadata should be included for submissions to repositories (for example, {% tool "ena" %} provides both [general guidelines](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) and [guidelines specific for pathogens](https://ena-docs.readthedocs.io/en/latest/faq/pathogen-subs-guide.html)). Refer to these guidelines to explore which metadata can be included with your submission.
+* In the guidelines associated with submissions to repositories like {% tool "ena" %}, some metadata fields will be listed as mandatory, meaning that they must be included with submissions. However, in order to ensure consistency and reproducibility, it is important to include other pieces of metadata that may not be considered mandatory. Below is a list of metadata that you should include with submissions (please refer to [guidance from ENA](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html) to clarify the terms used below):
     * Collection protocol used.
     * Information about genome preparation; RNA/DNA extraction protocol, amplification protocols, contaminant, and which samples were prepared together.
     * Information about library preparation.
