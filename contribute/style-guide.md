@@ -1,5 +1,6 @@
 ---
 title: Style guide
+search_exclude: true
 ---
 
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines), and the more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-01/styleguide_english_dgt_en.pdf). Below are the points that you might find most useful, though, and that relate particularly to the Infectious Diseases Toolkit.

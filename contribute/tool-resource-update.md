@@ -1,6 +1,7 @@
 ---
 title: Add new tool or resource
 summary: How to add a tool or resource to Infectious diseases toolkit
+search_exclude: true
 ---
 
 ## Way of working

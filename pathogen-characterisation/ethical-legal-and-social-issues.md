@@ -3,6 +3,7 @@ title: Ethical Legal and Social Issues
 description: Legal and ethical aspects and how to deal with them
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: pc_elsi
 rdmkit:
   - name:

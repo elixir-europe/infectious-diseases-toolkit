@@ -3,6 +3,7 @@ title: Data description
 description: Finding (meta)data standards and documentation
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hbd_data_description
 rdmkit:
   - name:
