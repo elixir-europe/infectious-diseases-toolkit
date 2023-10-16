@@ -1,7 +1,7 @@
 ---
 title: ENA upload toolbox
 contributors: [Bert Droesbeke] 
-description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
+description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
 affiliations: [VIB]
 page_id: "ena-upload"
 related_pages: 
@@ -31,10 +31,20 @@ training:
 <!--- Start with a graphical representation of the showcase, with a caption and an alternative text (alt). The graphical representation should be a diagram showing the different standards, tools, data sources that are used to tackle the challenge. The diagram should show how these different modules connect with one another  --->
 {% include image.html file="" caption="Figure 1. " alt="" %}
 
+ENA submission toolbox is comprised of three tools:
+
+* The ‘[ENA upload CLI](https://github.com/usegalaxy-eu/ena-upload-cli)’: a command line tool to register studies and samples and submit raw read data to the ENA.
+* The ‘[Galaxy ENA upload tool](https://github.com/galaxyproject/tools-iuc/tree/master/tools/ena_upload)’: a Galaxy wrapper of the above (1.) tool. 
+* A Galaxy consensus submission tool: a wrapper of [ENA Webin-CLI](https://github.com/enasequence/webin-cli) (the only ENA tool that allows programmatic submission of consensus sequences for all sample types)
+
+THe Galaxy tools are shipped in a [Docker container]() which deploys a Galaxy instance containing a tool to clean human reads from the raw reads.
+
 
 ## Who is the SHOWCASE intended for?
 
 <!--- In this section you should provide a brief account of the target audience or intended users for the showcase --->
+People who want to submit RAW The tools are designed to be compatible with all ENA sample checklists which cover a brought spectrum within the data life sciences. Find out which sample checklist would apply to your submission on the [ENA website](https://www.ebi.ac.uk/ena/browser/checklists)
+
 
 ## What can you use the SHOWCASE for?
  
