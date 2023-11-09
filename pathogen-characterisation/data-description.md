@@ -8,7 +8,7 @@ page_id: pc_data_description
 rdmkit:
   - name:
     url:
-related_pages: 
+related_pages:
   showcase: []
   human_biomolecular_data: []
   human_clinical_and_health_data: []
