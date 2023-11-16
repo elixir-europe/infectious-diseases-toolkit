@@ -128,7 +128,7 @@ def fairsharing_available(query, token):
         if len(output) >= 1:
             for fairsharing_obj in output:
                 if query.lower() in fairsharing_obj['attributes']['name'].lower() and fairsharing_obj['attributes']['doi']:
-                    return fairsharing_obj['attributes']['url'].split(".")[-1]
+                    return str(fairsharing_obj['attributes']['url'].split(".")[-1])
     except:
         print(response)
         sys.exit("Could not connect to FAIRsharing")
