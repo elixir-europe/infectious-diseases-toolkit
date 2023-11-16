@@ -1,7 +1,7 @@
 ---
 title: Quality control
-description: Quality measures for pathogen characterization procedures.
-contributors: [Clementina, Fotis, Eva, Rudolf, Stian, Hedi, Paul De Geest]
+description: General considerations for pathogen characterization quality control.
+contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest]
 page_id: pc_quality_control
 rdmkit:
   - name:
@@ -19,17 +19,17 @@ training:
 
 ---
 
-## General considerations for pathogen characterization quality control 
+## Introduction
 
 Pathogen characterization encompasses many different features of the organism. In addition, comparison of the same pathogen from different sources is also needed in order to properly describe it. However, results from comparing datasets from different sources are not useful if sample provenance data, standardised methods and quality control procedures are not followed. These procedures concern all steps of the dataset creation, starting from the collection of the samples, to the analysis of the data, which should be further documented by provenance.
 
 Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of the viral samples is essential.
 
-### 1.1 Sample handling: key for data quality 
-#### 1.1.1 Considerations
+## Sample handling: key for data quality 
+### Considerations
 Data quality must be considered and quality measures should be taken since the very beginning of the study and during the different procedures applied. These procedures include sample collection and transport, if needed, to the facilities where the analyses are done. In addition to the procedures, it is key to pay attention to the existing conditions during those moments. Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
 
-#### 1.1.2 Existing approaches
+### Existing approaches
 The information collected regarding these steps really depends on the process and on what metadata is needed for a given project. However, the metadata about sample acquisition, processing and handling should be as rich as possible to enhance reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing viral samples, depending on the type of sample:
 
 * For collection step, the following information should be controlled and documented:
@@ -49,8 +49,8 @@ The information needed heavily depends on the research carried out. For the spec
 * Environmental parameters such as rainfall or other environmental aspects or variables that may affect viral target detection and quantification.
 * Wastewater sample characteristics: sample volume, 24 hrs composite sample characteristics (m3/24 hrs), grab sample collection or other parameters, such as resuspended solids characteristics (mg/L).
 
-### 1.2 Preanalytical and analytical methods
-#### 1.2.1 Considerations
+## Preanalytical and analytical methods
+### Considerations
 During the analysis of the samples, there are several variables that can potentially affect the data resulting from them (some of them listed below). Thus, following guidelines on those topics and keeping track of the chosen procedures are key to get meaningful data from the samples.
 
 * For both, the pre-analytical and analytical methods, it depends on the type of samples but some of the most relevant variables to consider and keep track are:
@@ -65,7 +65,7 @@ During the analysis of the samples, there are several variables that can potenti
     * Enzymes and reagents used;
     * Hardware/instruments used;
 
-#### 1.2.2 Existing approaches
+### Existing approaches
 
 For the analysis part, especially if it is done in different facilities or even countries, standards should be used when available, choosing the ones specific for the domain of study when possible.
 
@@ -93,8 +93,8 @@ European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated 
 * (f) A quantification cycle (Cq) cut-off value for positive samples should be set [at] 5 cycles before the termination of the amplification protocol to avoid misattribution of late fluorescence signals.
 * (g) A negative extraction control should be used to account for any contamination during the RNA extraction.
 
-### 1.3. NGS pathogens data
-#### 1.3.1. Considerations for sequencing data
+## NGS pathogens data
+### Considerations for sequencing data
 
 A systematic approach to metadata standardisation and data harmonisation makes it possible to combine and compare datasets, consequently promoting a more universal use and reuse of the data. The European Nucleotide Archive (ENA) has set up some standards for SARS-CoV-2, listed in the next section. When possible, it is recommended to use topic-specific standards and, for facilitating this good practice, ENA has also standardised checklists for particular use cases, such as water surveillance.
 
@@ -102,7 +102,7 @@ There are no established best practices (at the data analysis level) to effectiv
 
 Metadata standards are lacking; the systematic approach to metadata standardisation and data harmonisation will make it possible to combine and compare datasets, consequently promoting a more universal use and reuse of the data. 
 
-#### 1.3.2 Existing approaches
+### Existing approaches
 
 When it comes to the metadata about the sequenced sample, ENA has put in place some checklists to fill in at data submission for several organism types, an example for pathogen samples can be found [here](https://www.ebi.ac.uk/ena/browser/view/ERC000033). These checklists include some mandatory fields, which are checked upon submission to make sure that they are filled in and contain acceptable values.
 
@@ -121,12 +121,12 @@ Standards from  European Commission Recommendation (EU) 2021/472 of 17 March 202
 genomic SARS-CoV-2 monitoring](https://www.ecdc.europa.eu/sites/default/files/documents/Guidance-for-representative-and-targeted-genomic-SARS-CoV-2-monitoring-updated-with%20erratum-20-May-2021.pdf)).
 * (b) At least 3 genetic markers per variant should be reported for better characterization of mutations for High Throughput Sequencing analysis of wastewater.
 
-### 1.4. NGS data analysis
-#### 1.4.1. Considerations for analysing sequencing data
+## NGS data analysis
+### Considerations for analysing sequencing data
 
 After the sequence generation stage, the actual analysis of the data takes place. Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
 
-#### 1.4.2 Existing approaches
+### Existing approaches
 For the overall quality (first step of the data analysis), there are some standardised tools (such as {% tool "fastqc" %}, {% tool "multiqc" %}) that can offer such an assessment that is domain agnostic. Key considerations are sufficient quality per nucleotide / read and overall mapping across the target pathogens (in case of targeted approaches).
 
 
