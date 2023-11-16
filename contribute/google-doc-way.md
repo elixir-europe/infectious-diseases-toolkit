@@ -1,5 +1,6 @@
 ---
 title: Google doc way
+search_exclude: true
 ---
 
 

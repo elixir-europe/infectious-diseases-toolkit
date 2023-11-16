@@ -11,187 +11,192 @@
 #    image_url: absolute path to image (default image from github)
 
 Rudolf Wittner:
-    git: RudoWittner
-    email: rudolf.wittner@bbmri-eric.eu
-    orcid: 0000-0002-0003-2024
-    role: editor
-    affiliation: BBMRI-ERIC
+  git: RudoWittner
+  email: rudolf.wittner@bbmri-eric.eu
+  orcid: 0000-0002-0003-2024
+  role: editor
+  affiliation: BBMRI-ERIC
 Bert Droesbeke:
-    git: bedroesb
-    email: bedro@psb.ugent.be
-    orcid: 0000-0003-0522-5674
-    role: editor
-    affiliation: VIB-UGent / ELIXIR-BE
+  git: bedroesb
+  email: bedro@psb.ugent.be
+  orcid: 0000-0003-0522-5674
+  role: editor
+  affiliation: VIB-UGent / ELIXIR-BE
 Hedi Peterson:
-    git: hedi-ee
-    email: hedi.peterson@gmail.com
-    orcid: 0000-0001-9951-5116
-    role: editor
-    affiliation: UTARTU / ELIXIR-EE
+  git: hedi-ee
+  email: hedi.peterson@gmail.com
+  orcid: 0000-0001-9951-5116
+  role: editor
+  affiliation: UTARTU / ELIXIR-EE
 Stian Soiland-Reyes:
-    git: stain
-    email: soiland-reyes@manchester.ac.uk
-    orcid: 0000-0001-9842-9718
-    role: editor
-    affiliation: The University of Manchester / ELIXIR-UK
+  git: stain
+  email: soiland-reyes@manchester.ac.uk
+  orcid: 0000-0001-9842-9718
+  role: editor
+  affiliation: The University of Manchester / ELIXIR-UK
 Patricia Palagi:
-    git: ppalagi
-    email: patricia.palagi@sib.swiss
-    orcid: 0000-0001-9062-6303
-    role: editor
-    affiliation: SIB Swiss Institute of Bioinformatics / ELIXIR-CH
+  git: ppalagi
+  email: patricia.palagi@sib.swiss
+  orcid: 0000-0001-9062-6303
+  role: editor
+  affiliation: SIB Swiss Institute of Bioinformatics / ELIXIR-CH
 Liane Hughes:
-    git: LianeHughes
-    email: liane.hughes@scilifelab.uu.se
-    orcid: 0000-0002-4784-5436
-    role: editor
-    affiliation: SciLifeLab / Uppsala University
+  git: LianeHughes
+  email: liane.hughes@scilifelab.uu.se
+  orcid: 0000-0002-4784-5436
+  role: editor
+  affiliation: SciLifeLab / Uppsala University
 Eva Garcia Alvarez:
-    git: EvaGarciaAlvarez
-    email: eva.garcia-alvarez@bbmri-eric.eu
-    orcid: 0000-0002-3522-5088
-    role: editor
-    affiliation: BBMRI-ERIC
+  git: EvaGarciaAlvarez
+  email: eva.garcia-alvarez@bbmri-eric.eu
+  orcid: 0000-0002-3522-5088
+  role: editor
+  affiliation: BBMRI-ERIC
 Laura Portell Silva:
-    git: lauportell
-    email: laura.portell@bsc.es
-    orcid: 0000-0003-0390-3208
-    role: editor
-    affiliation: Barcelona Supercomputing Center / ELIXIR-ES
+  git: lauportell
+  email: laura.portell@bsc.es
+  orcid: 0000-0003-0390-3208
+  role: editor
+  affiliation: Barcelona Supercomputing Center / ELIXIR-ES
 Rafael Andrade Buono:
-    orcid: 0000-0002-6675-3836
-    git: rabuono
-    affiliation: VIB-UGent / ELIXIR-BE
-    role: editor
+  orcid: 0000-0002-6675-3836
+  git: rabuono
+  affiliation: VIB-UGent / ELIXIR-BE
+  role: editor
 Shona Cosgrove:
-    orcid: 0000-0003-3273-9013
-    git: ShonaCosgrove
-    email: shona.cosgrove@sciensano.be
-    affiliation: Sciensano
-    role: editor
+  orcid: 0000-0003-3273-9013
+  git: ShonaCosgrove
+  email: shona.cosgrove@sciensano.be
+  affiliation: Sciensano
+  role: editor
 Iris Van Dam:
-    orcid: 0000-0002-3965-6184
-    git: IrisVanDam
-    email: iris.vandam@sciensano.be
-    affiliation: Sciensano
-    role: editor
+  orcid: 0000-0002-3965-6184
+  git: IrisVanDam
+  email: iris.vandam@sciensano.be
+  affiliation: Sciensano
+  role: editor
 Katharina Lauer:
-    orcid: 0000-0002-4347-7525
-    git: klauer2207
-    email: katharina@airfinity.com
-    affiliation: Airfinity Ltd.
-    role: editor
+  orcid: 0000-0002-4347-7525
+  git: klauer2207
+  email: katharina@airfinity.com
+  affiliation: Airfinity Ltd.
+  role: editor
 Romain David:
-    orcid: 0000-0003-4073-7456
-    git: RomainDavid24
-    email: romain.david@erinha.eu
-    affiliation: ERINHA
-    role: editor
+  orcid: 0000-0003-4073-7456
+  git: RomainDavid24
+  email: romain.david@erinha.eu
+  affiliation: ERINHA
+  role: editor
 Simone Leo:
-    orcid: 0000-0001-8271-5429
-    git: simleo
-    affiliation: CRS4, IT
+  orcid: 0000-0001-8271-5429
+  git: simleo
+  affiliation: CRS4, IT
 Martin Cook:
-    git: martin-nc
-    email: martin.cook@elixir-europe.org
-    role: editor
-    affiliation: ELIXIR Hub
+  git: martin-nc
+  email: martin.cook@elixir-europe.org
+  role: editor
+  affiliation: ELIXIR Hub
 Erin Calhoun:
-    orcid: 0009-0003-3752-7156
-    git: erincalhoun
-    email: erin.calhoun@uit.no
-    role: 
-    affiliation: ELIXIR Norway
+  orcid: 0009-0003-3752-7156
+  git: erincalhoun
+  email: erin.calhoun@uit.no
+  role:
+  affiliation: ELIXIR Norway
 Nazeefa Fatima:
-    orcid: 0000-0001-7791-4984
-    git: Nazeeefa
-    email: nazeefaf@uio.no
-    role: 
-    affiliation: ELIXIR Norway
+  orcid: 0000-0001-7791-4984
+  git: Nazeeefa
+  email: nazeefaf@uio.no
+  role:
+  affiliation: ELIXIR Norway
 Aina Jené Cortada:
-    git: ainajene
-    email: aina.jene@crg.eu
-    orcid: 0000-0001-7721-7097
-    affiliation: European Genome-phenome Archive (EGA) / CRG
+  git: ainajene
+  email: aina.jene@crg.eu
+  orcid: 0000-0001-7721-7097
+  affiliation: European Genome-phenome Archive (EGA) / CRG
 Marcos Casado Barbero:
-    git: M-casado
-    email: mcasado@ebi.ac.uk
-    orcid: 0000-0002-7747-6256
-    affiliation: European Genome-phenome Archive (EGA) / EMBL-EBI
+  git: M-casado
+  email: mcasado@ebi.ac.uk
+  orcid: 0000-0002-7747-6256
+  affiliation: European Genome-phenome Archive (EGA) / EMBL-EBI
 Arnau Soler Costa:
-    git: solcos
-    email: arnau.soler@crg.eu
-    orcid: 0000-0002-2853-6742
-    affiliation: European Genome-phenome Archive (EGA) / CRG
+  git: solcos
+  email: arnau.soler@crg.eu
+  orcid: 0000-0002-2853-6742
+  affiliation: European Genome-phenome Archive (EGA) / CRG
 Ruben Brondeel:
-    orcid: 0000-0002-9876-4150
-    git: RubenBrondeel
-    affiliation: Sciensano
+  orcid: 0000-0002-9876-4150
+  git: RubenBrondeel
+  affiliation: Sciensano
 Koen Blot:
-    orcid: 0000-0002-0847-0133
-    affiliation: Sciensano
+  orcid: 0000-0002-0847-0133
+  affiliation: Sciensano
 Nina Van Goethem:
-    orcid: 0000-0001-7316-6990
-    affiliation: Sciensano
+  orcid: 0000-0001-7316-6990
+  affiliation: Sciensano
 Miriam Saso:
-    orcid: 0000-0002-1888-1913
-    affiliation: Sciensano
+  orcid: 0000-0002-1888-1913
+  affiliation: Sciensano
 Wolfgang Maier:
-    git: wm75
-    email: maierw@informatik.uni-freiburg.de
-    orcid: 0000-0002-9464-6640
-    affiliation: University of Freiburg / ELIXIR-DE
-Anna Asklöf: 
-    git: annaasklof
-    affiliation: SciLifeLab / Uppsala University 
+  git: wm75
+  email: maierw@informatik.uni-freiburg.de
+  orcid: 0000-0002-9464-6640
+  affiliation: University of Freiburg / ELIXIR-DE
+Anna Asklöf:
+  git: annaasklof
+  affiliation: SciLifeLab / Uppsala University
 Katarina Öjefors Stark:
-    orcid: 0000-0001-7970-7778
-    git: KatarinaOjeforsStark
-    affiliation: SciLifeLab / Uppsala University 
+  orcid: 0000-0001-7970-7778
+  git: KatarinaOjeforsStark
+  affiliation: SciLifeLab / Uppsala University
 Diana Pilvar:
-    git: diana-pilvar
-    email: diana.pilvar@ut.ee
-    orcid: 0000-0002-5788-2687
-    affiliation: University of Tartu / ELIXIR-Estonia
+  git: diana-pilvar
+  email: diana.pilvar@ut.ee
+  orcid: 0000-0002-5788-2687
+  affiliation: University of Tartu / ELIXIR-Estonia
 Robin Navest:
-    orcid: 0000-0002-0152-2092
-    git: rnavest
-    affiliation: Lygature
+  orcid: 0000-0002-0152-2092
+  git: rnavest
+  affiliation: Lygature
 Julia Lischke:
-    orcid: 0000-0002-5524-2838
-    git: 
-    affiliation: Lygature
+  orcid: 0000-0002-5524-2838
+  git:
+  affiliation: Lygature
 Jan-Willem Boiten:
-    orcid: 0000-0003-0327-638X
-    git: 
+  orcid: 0000-0003-0327-638X
+  git:
 Jeroen Belien:
-    orcid: 0000-0002-7160-5942
-    git: jambelien
-    affiliation: Health-RI
+  orcid: 0000-0002-7160-5942
+  git: jambelien
+  affiliation: Health-RI
 Clara Amid:
-    orcid: 0000-0001-6534-7425
-    git: 
-    affiliation: Erasmus Medical Center
+  orcid: 0000-0001-6534-7425
+  git:
+  affiliation: Erasmus Medical Center
 Angelica Maineri:
-    orcid: 0000-0002-6978-5278
-    git: AngelicaMaineri
-    affiliation: ODISSEI
+  orcid: 0000-0002-6978-5278
+  git: AngelicaMaineri
+  affiliation: ODISSEI
 Ricarda Braukmann:
-    orcid: 0000-0001-6383-7148
-    git: Ruecue
-    affiliation: DANS
+  orcid: 0000-0001-6383-7148
+  git: Ruecue
+  affiliation: DANS
 Simon Saldner:
-    git: ssaldner
-    email: simon.saldner@dans.knaw.nl
-    affiliation: DANS-KNAW
-    orcid: 0000-0002-1145-7829
+  git: ssaldner
+  email: simon.saldner@dans.knaw.nl
+  affiliation: DANS-KNAW
+  orcid: 0000-0002-1145-7829
 Dimitra Kondyli:
-    email: dkondyli@ekke.gr
-    affiliation: EKKE
+  email: dkondyli@ekke.gr
+  affiliation: EKKE
 Markus Tuominen:
-    email: markus.tuominen@tuni.fi
-    affiliation: CESSDA ERIC / TAU-FSD
+  email: markus.tuominen@tuni.fi
+  affiliation: CESSDA ERIC / TAU-FSD
 Vasso Kalaitzi:
-    email: vasso.kalaitzi@dans.knaw.nl
-    affiliation: DANS-KNAW
-    orcid: 0000-0001-8337-120X
+  email: vasso.kalaitzi@dans.knaw.nl
+  affiliation: DANS-KNAW
+  orcid: 0000-0001-8337-120X
+Wolmar Nyberg Åkerström:
+  git: wna-se
+  email: wolmar.n.akerstrom@nbis.se
+  orcid: 0000-0002-3890-6620
+  affiliation: NBIS / ELIXIR-SE

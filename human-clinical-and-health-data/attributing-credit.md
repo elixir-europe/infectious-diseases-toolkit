@@ -3,6 +3,7 @@ title: Attributing credit
 description: Referencing your sources (citations and recognition of contributions)
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hchd_attributing_credit
 rdmkit:
   - name:

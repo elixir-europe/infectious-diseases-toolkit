@@ -1,8 +1,8 @@
 ---
-Title: Quality control
-Description: Quality measures for pathogen characterization procedures.
-Contributors: [Clementina, Fotis, Eva, Rudolf, Stian, Hedi, Paul De Geest]
-Page_id: pc_quality_control
+title: Quality control
+description: Quality measures for pathogen characterization procedures.
+contributors: [Clementina, Fotis, Eva, Rudolf, Stian, Hedi, Paul De Geest]
+page_id: pc_quality_control
 rdmkit:
   - name:
     url:

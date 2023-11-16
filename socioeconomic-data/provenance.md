@@ -3,6 +3,7 @@ title: Provenance
 description: Tracking data and analysis steps
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: sed_provenance
 rdmkit:
   - name:

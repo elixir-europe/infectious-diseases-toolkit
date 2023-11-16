@@ -1,5 +1,6 @@
 ---
 title: Working with git
+search_exclude: true
 ---
 
 

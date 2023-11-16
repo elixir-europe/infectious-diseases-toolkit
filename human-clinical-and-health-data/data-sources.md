@@ -3,6 +3,7 @@ title: Data sources
 description: Finding and sharing data for human clinical and health data related data sources.
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hchd_data_sources
 rdmkit:
   - name:
