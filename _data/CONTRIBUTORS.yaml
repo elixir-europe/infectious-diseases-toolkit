@@ -21,7 +21,7 @@ Bert Droesbeke:
   email: bedro@psb.ugent.be
   orcid: 0000-0003-0522-5674
   role: editor
-  affiliation: VIB-UGent / ELIXIR-BE
+  affiliation: VIB Data Core / ELIXIR-BE
 Hedi Peterson:
   git: hedi-ee
   email: hedi.peterson@gmail.com
@@ -61,7 +61,7 @@ Laura Portell Silva:
 Rafael Andrade Buono:
   orcid: 0000-0002-6675-3836
   git: rabuono
-  affiliation: VIB-UGent / ELIXIR-BE
+  affiliation: VIB Data Core / ELIXIR-BE
   role: editor
 Shona Cosgrove:
   orcid: 0000-0003-3273-9013
@@ -200,3 +200,12 @@ Wolmar Nyberg Åkerström:
   email: wolmar.n.akerstrom@nbis.se
   orcid: 0000-0002-3890-6620
   affiliation: NBIS / ELIXIR-SE
+Flora D'Anna:
+    git: floradanna
+    orcid: 0000-0003-4665-6673    
+    affiliation: VIB Data Core / ELIXIR-BE
+Zahra Waheed:
+    git: z-w123
+    email: zahra@ebi.ac.uk
+    orcid: 0000-0002-7224-5280    
+    affiliation: EMBL-EBI
