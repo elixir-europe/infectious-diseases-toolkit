@@ -267,7 +267,7 @@
   url: https://www.ebi.ac.uk/ena/browser/home
 - description: fairsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
   id: fairsharing
-  name: fairsharing
+  name: FAIRsharing
   registry:
     fairsharing: 2abjs5
     tess: fairsharing
