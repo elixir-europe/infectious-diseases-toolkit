@@ -103,7 +103,7 @@ This includes describing how and where specimens were collected and the process 
 This includes, for example, describing which sequencing technologoy was used and the corresponding platform, instrument models, and the library preparation protocols selected for the experiment. You should note any key observations and choices, such as the assessment of samples, multiplexing/demultiplexing approach, software settings, and other factors that strongly influence the results.
 * **Describe how the data was exported and processed.** 
 Describing which file formats were used, what each file contains, how the different files are related to each other, and if/how some information was masked or discarded.
-* **The potential differences in policies between the data repositories to which you will submit**. For example, there are differences between {% tool "gisaid" %} and {% tool "european-nucleotide-archive" %}, with {% tool "gisaid" %} having a more restrictive licence than {% tool "european-nucleotide-archive" %}.
+* **The potential differences in policies between the data repositories to which you will submit**. For example, the {% tool "gisaid" %} having a more restrictive licence than the {% tool "european-nucleotide-archive" %}.
 
 ### Existing approaches
 * State the objective of your study. Examples of study objectives include: 'To determine the genome of an emerging pathogen', and 'phylogenetic analysis for understanding of how pathogens evolve'.
