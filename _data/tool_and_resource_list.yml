@@ -136,7 +136,7 @@
   id: cromwell
   name: Cromwell
   url: https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/
-- description: Reference implementatio to provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
+- description: Reference implementation to provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
   id: cwltool
   name: cwltool
   url: https://pypi.org/project/cwltool/
@@ -162,7 +162,7 @@
     fairsharing: 88v2k0
     tess: dbGaP
   url: https://www.ncbi.nlm.nih.gov/gap/
-- description: A comprehensive database of transcript-specific functional predictions and annotations for human nonsynonymous and splice-site SNVs
+- description: A comprehensive database of transcript-specific functional predictions and annotations for human non-synonymous and splice-site SNVs
   id: dbnsfp
   name: dbNSFP
   registry:
@@ -253,7 +253,7 @@
   id: estonian-biobank
   name: Estonian Biobank
   url: https://genomics.ut.ee/en/content/estonian-biobank
-- description: Estonian instance of the COVID-19 Data Portal. Among other informaiton, served Estonian SARS-CoV-2 sequencing dashboards.
+- description: Estonian instance of the COVID-19 Data Portal. Among other information, served Estonian SARS-CoV-2 sequencing dashboards.
   id: estonian-covid-19-data-portal
   name: Estonian COVID-19 Data Portal
   url: https://covid19dataportal.ee/
@@ -265,9 +265,9 @@
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
-- description: fairsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
+- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
   id: fairsharing
-  name: fairsharing
+  name: FAIRsharing
   registry:
     fairsharing: 2abjs5
     tess: fairsharing
