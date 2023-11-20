@@ -270,7 +270,7 @@
   name: FAIRsharing
   registry:
     fairsharing: 2abjs5
-    tess: fairsharing
+    tess: FAIRsharing
   url: https://fairsharing.org/
 - description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers. Metadata in figshare is licenced under is CC0. figshare has also partnered with DuraSpace and Chronopolis to offer further assurances that public data will be archived under the stewardship of Chronopolis. figshare is supported through Institutional, Funder, and Governmental service subscriptions.
   id: figshare
@@ -361,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
