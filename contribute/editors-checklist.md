@@ -1,6 +1,7 @@
 ---
 title: Editors checklist
 summary: Checklist for editors before approving and merging a pull request (PR).
+search_exclude: true
 ---
 
 ## Before approving and merging a pull request (PR), the editors must check that

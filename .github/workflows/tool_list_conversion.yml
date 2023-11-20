@@ -55,10 +55,6 @@ jobs:
         run: | 
           python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
-      - name: Fetch country names with corresponding iso
-        run: |
-          python var/country_list.py
-
       - name: Show differences
         run: |
           git diff --stat
@@ -71,7 +67,7 @@ jobs:
           commit-message: Update tool/resource_list.yaml
           title: 'Automatic tool/resource-list update'
           body: |
-            This PR is automatically generated based on changes in the main_tool_and_resource_list.csv file or based on new links made between the tool table and TeSS.
+            This PR is automatically generated based on new links made between the tools and the registries: TeSS, Bio.tools and FAIRsharing.
 
             Please verify if these changes are valid.
           labels: |

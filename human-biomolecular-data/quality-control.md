@@ -3,6 +3,7 @@ title: Quality control
 description: Tools and methods to assess quality
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hbd_quality_control
 rdmkit:
   - name:

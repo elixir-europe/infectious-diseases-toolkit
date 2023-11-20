@@ -10,7 +10,7 @@
   registry:
     tess: ACE Cohort
   url: https://co-connect.ac.uk/ace-cohort/
-- description: Responsible sharing of biomedical data and biospecimens via the "Automatable Discovery and Access Matrix" (ADA-M). The Automatable Discovery and Access Matrix (ADA-M) provides a standardized way to unambiguously represent the conditions related to data discovery and access. By adopting ADA-M, data custodians can generally describe what their data are (the Header section), who can access them (the Permissions section), terms related to their use (the Terms section), and special conditions (the Meta-Conditions). By doing so, data custodians can participate in data sharing and collaboration by making meta information about their data computer-readable and hence directly available for digital communication, searching and automation activities.
+- description: Responsible sharing of biomedical data and biospecimens via the Automatable Discovery and Access Matrix (ADA-M). The Automatable Discovery and Access Matrix (ADA-M) provides a standardized way to unambiguously represent the conditions related to data discovery and access. By adopting ADA-M, data custodians can generally describe what their data are (the Header section), who can access them (the Permissions section), terms related to their use (the Terms section), and special conditions (the Meta-Conditions). By doing so, data custodians can participate in data sharing and collaboration by making meta information about their data computer-readable and hence directly available for digital communication, searching and automation activities.
   id: ada-m
   name: ADA-M
   registry:
@@ -105,6 +105,7 @@
   name: ClustalW
   registry:
     biotools: clustalw
+    tess: ClustalW
   url: https://github.com/coldfunction/CUDA-clustalW
 - description: An open standard for describing workflows that are build from command line tools
   id: common-workflow-language
@@ -360,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: '530e61'
+    fairsharing: 530e61
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -493,6 +494,7 @@
   name: MUSCLE
   registry:
     biotools: muscle
+    tess: MUSCLE
   url: https://github.com/rcedgar/muscle
 - description: MZmine 3 is an open-source software for mass-spectrometry data processing, with the main focus on LC-MS data.
   id: mzmine
@@ -709,3 +711,29 @@
   id: wfexs
   name: WfExS
   url: https://github.com/inab/WfExS-backend
+- description: An RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs.
+  id: dcat
+  name: DCAT
+  registry:
+    fairsharing: h4j3qm
+  url: https://www.w3.org/TR/vocab-dcat-2/
+- description: The dutch COVID-19 Data Portal provides researchers with a clear overview of what is available, allow searching for specific data and make access to such data easier when the necessary ethical and legal conditions have been met.
+  id: dutch-covid19-data-portal
+  name: Dutch COVID-19 Data Portal
+  url: https://covid19initiatives.health-ri.nl/p/Dashboard
+- description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
+  id: fega
+  name: Federated EGA
+  registry:
+    tess: Federated EGA
+  url: https://www.covid19dataportal.org/federated-ega
+- description: Using technology that builds upon existing EMBL-EBI infrastructure, we provide SARS-CoV-2 Data Hubs to those public health agencies and other scientific groups responsible for generating viral sequence data from the outbreak at national or regional levels.
+  id: sars-cov2-data-hubs
+  name: SARS-CoV-2 Data Hubs
+  url: https://www.covid19dataportal.org/data-hubs
+- description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
+  id: gisaid
+  name: Global Initiative on Sharing All Influenza Data (GISAID)
+  registry:
+    fairsharing: 2f7f9f
+  url: https://gisaid.org

@@ -1,5 +1,6 @@
 ---
 title: GitHub way
+search_exclude: true
 ---
 
 

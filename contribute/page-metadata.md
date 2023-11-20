@@ -1,5 +1,6 @@
 ---
 title: Page metadata
+search_exclude: true
 ---
 
 

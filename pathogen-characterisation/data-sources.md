@@ -3,6 +3,7 @@ title: Data sources
 description: Finding and sharing data for pathogen characterisation related data sources.
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: pc_data_sources
 rdmkit:
   - name:

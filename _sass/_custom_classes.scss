@@ -105,6 +105,11 @@ main {
                     border-left-color: $primary;
                 }
             }
+
+            &.mt-3 {
+                padding-top: $spacer;
+                border-top: $border-width $border-style $border-color;
+            }
         }
     }
 }

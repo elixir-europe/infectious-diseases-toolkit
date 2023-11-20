@@ -8,6 +8,7 @@ contributors:
   - Flora D'Anna
   - Diana Pilvar
 no_robots: true
+search_exclude: true
 page_id: pc_data_description
 rdmkit:
   - name: "Your tasks: Documentation and metadata"
@@ -15,11 +16,11 @@ rdmkit:
   - name: Human Pathogen Genomics
     url: https://rdmkit.elixir-europe.org/human_pathogen_genomics
 related_pages:
-showcase: []
-human_biomolecular_data: []
-human_clinical_and_health_data: []
-socioeconomic_data: []
-pathogen_characterisation: []
+  showcase: []
+  human_biomolecular_data: []
+  human_clinical_and_health_data: []
+  socioeconomic_data: []
+  pathogen_characterisation: []
 training:
   - name:
     registry: 
