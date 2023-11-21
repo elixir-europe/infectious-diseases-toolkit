@@ -20,7 +20,7 @@ A network of national portals, similar to the {% tool "covid-19-data-portal" %},
 
 The {% tool "swedish-pathogens-portal" %} provides information about available datasets, tools, and services related to pandemic preparedness in Sweden. In addition, the {% tool "swedish-pathogens-portal" %} works to accelerate research by providing support for managing data related to pathogens and/or pandemic preparedness. Direct research data management support is also available from the team behind the Portal for anyone affiliated with a Swedish research institution or university.
 
-{% include image.html file="/Swedish_pathogens_portal.png" caption="Figure 1. Information about the groups associated with the {% tool "swedish-pathogens-portal" %} and how data flows. We receive/retrieve data and information from multiple sources ('data and information providers'), the team works to turn this into particular types of content (e.g. data dashboards and data highlights). Our target audience ('data and information consumers') then makes use of that information. We are guided by multiple stakeholders.
+{% include image.html file="/Swedish_pathogens_portal.png" caption="Figure 1. Information about the groups associated with the Swedish Pathogens Portal and how data flows. We receive/retrieve data and information from multiple sources ('data and information providers'), the team works to turn this into particular types of content (e.g. data dashboards and data highlights). Our target audience ('data and information consumers') then makes use of that information. We are guided by multiple stakeholders.
 " %}
 
 ### Portal history and scope
