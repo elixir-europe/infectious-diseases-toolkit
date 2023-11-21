@@ -737,3 +737,15 @@
   registry:
     fairsharing: 2f7f9f
   url: https://gisaid.org
+- description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
+  id: swedish-pathogens-portal
+  name: Swedish Pathogens Portal
+  url: https://pathogens.se
+- description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
+  id: swedish-pathogens-portal
+  name: Swedish Pathogens Portal
+  url: https://pathogens.se
+- description: The Pathogens Portal, launched in July 2023, is an invaluable resource for researchers, clinicians, and policymakers who need access to the latest and most comprehensive datasets on pathogens. The portal is a collaborative effort between the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) and partners.
+  id: pathogens-portal
+  name: Pathogens Portal
+  url: https://www.pathogensportal.org
