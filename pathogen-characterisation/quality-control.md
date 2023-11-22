@@ -21,16 +21,16 @@ training:
 
 ## Introduction
 
-Pathogen characterization encompasses many different features of the organism. In addition, comparison of the same pathogen from different sources is also needed in order to properly describe it. However, results from comparing datasets from different sources are not useful if sample provenance data, standardised methods and quality control procedures are not followed. These procedures concern all steps of the dataset creation, starting from the collection of the samples, to the analysis of the data, which should be further documented by provenance.
+Pathogen characterization encompasses many different features of the organism. In addition, comparison of the same pathogen from different sources is also needed in order to properly describe it. However, results from datasets generated from different sources cannot be pooled and/or compared if sample provenance data, standardised methods and quality control procedures are not followed. These procedures concern all steps of the dataset creation, starting from the collection of the samples, to the analysis of the data, which should be further documented by provenance.
 
-Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of the viral samples is essential.
+Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of samples used for viral detection and characterization is essential.
 
 ## Sample handling: key for data quality 
 ### Considerations
-Data quality must be considered and quality measures should be taken since the very beginning of the study and during the different procedures applied. These procedures include sample collection and transport, if needed, to the facilities where the analyses are done. In addition to the procedures, it is key to pay attention to the existing conditions during those moments. Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
+Data quality must be considered and quality measures should be taken from  the very beginning of the process which lead to pathogen detection and characterization, including all preanalytical and analytical procedures applied. These procedures include sample collection and transport, if needed, to the facilities where the analyses are performed. In addition to the procedures, it is key to pay attention to the existing conditions during the different steps of sample collection and processing. Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
 
 ### Existing approaches
-The information collected regarding these steps really depends on the process and on what metadata is needed for a given project. However, the metadata about sample acquisition, processing and handling should be as rich as possible to enhance reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing viral samples, depending on the type of sample:
+The information collected regarding these steps really depends on the process and on what metadata is needed for a given project. However, the metadata about sample acquisition, processing and handling should be as rich as possible to enhance reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing samples, depending on the type of sample:
 
 * For collection step, the following information should be controlled and documented:
     * Geographical area / site of collection.
@@ -42,8 +42,7 @@ The information collected regarding these steps really depends on the process an
     * Conditions of data transport (refrigerated, room temperature, etc).
     * Time from collection to analysis. 
 
-The information needed heavily depends on the research carried out. For the specific case of wastewater, using samples for pathogen surveillance might need specific information about sample handling for further data analysis, such as:
-
+The information needed heavily depends on the research/the investigations to be carried out. For the specific case of wastewater, using samples for pathogen surveillance might need specific information about sample handling for further data analysis, such as:
 
 * Geographical area / site of collection and population size served by the wastewater plant from which the sample is being collected.
 * Environmental parameters such as rainfall or other environmental aspects or variables that may affect viral target detection and quantification.
@@ -51,39 +50,40 @@ The information needed heavily depends on the research carried out. For the spec
 
 ## Preanalytical and analytical methods
 ### Considerations
-During the analysis of the samples, there are several variables that can potentially affect the data resulting from them (some of them listed below). Thus, following guidelines on those topics and keeping track of the chosen procedures are key to get meaningful data from the samples.
+During the preanalytical and analytical processing of the samples, there are several variables that can potentially affect the data resulting from them (some of them listed below). Thus, following guidelines on the standardisation of methods  and keeping track of the chosen procedures are key to get meaningful data from the samples.
 
-* For both, the pre-analytical and analytical methods, it depends on the type of samples but some of the most relevant variables to consider and keep track are:
+* For both, the pre-analytical and analytical methods, it depends on the type of samples and on the pathogen to be investigated but some of the most relevant variables to consider and keep track are:
     * sample starting volume; 
-    * viral concentration methods / protocols if any;
-    * extraction methods (protein, DNA, RNA, etc), if any. Keep the information about the devices/technology/kits used, starting volume of sample concentrate, etc;
-        * elution volume following extraction.
+    * pathogen concentration methods / protocols if any;
+    * extraction methods (protein, DNA, RNA, etc), if any. Keep the information about the devices/technology/kits used, starting volume of sample concentrate, elution volume following extraction, etc;
+    * hardware/instruments used.
 
 * From the analytical methods:
     * target sequence, if any;
-    * References used as thresholds or for comparing the results;
-    * Enzymes and reagents used;
-    * Hardware/instruments used;
+    * analytical methods (ie PCR, qPCR, etc);
+    * information about the enzymes/reagents/kits used (ie. concentrations, volumes, etc.);
+    * analytical steps and/or conditions (ie. temperatures, time, number of PCR cycles, etc);
+    * hardware/instruments used;
 
 ### Existing approaches
 
-For the analysis part, especially if it is done in different facilities or even countries, standards should be used when available, choosing the ones specific for the domain of study when possible.
+For the analysis part, especially if it is done in different facilities or even countries, reference standards should be used when available, choosing the ones specific for the domain of study when possible.
 
-Quality assurance / quality control (QA/QC) measures should be always in place when performing the analyses, and they are especially relevant when no standards are available or followed. 
+Quality assurance / quality control (QA/QC) measures should be always in place when performing the analyses, and they are especially relevant when no standard operating procedures are available or followed.
 
 * Some quality measures that may be:
-    * Consider the use of any reference material, for instance, samples having known viral material to compare with the samples that are being analysed and document what has been used.
-    * Consider the need of a negative control sample and document which one was used.
+    * Consider the use of any reference material, for instance, samples having quantified pathogen/viral material to compare with the samples that are being analysed and/or procedures that are  used.
+    * Always include a negative and a positive control sample and document the ones that are being used.
     * Consider to follow standardised protocols when possible and also reference it in the metadata.
 
 Using wastewater samples for pathogen surveillance might benefit from the following quality control steps:
 * Quality control of the preanalytical process
-    * Spiking wastewater samples with exogenous calibrated virus reference material, such as mengovirus or murine norovirus, before preanalytical processing in order to evaluate the efficiency of viral concentration and extraction procedures (by evaluating the recovery of exogenous reference material introduced into the sample prior to preanalytical processing). 
+    * Spiking wastewater samples with exogenous calibrated virus reference material, such as mengovirus or murine norovirus, before preanalytical processing in order to evaluate the efficiency of viral concentration and extraction procedures (by evaluating the recovery of the exogenous reference material introduced into the sample prior to preanalytical processing). 
     * Including a negative control sample during the nucleic acid extraction procedure to evaluate for potential cross contamination.
 * Quality control of the quantitative analytical detection
     * Standard calibrated reference material (such as EURM-019 / EURM-014 single stranded RNA provided by the Joint Research Center)
 
-European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated the use of a common approach to establish a systematic surveillance of SARS-CoV-2 and its variants in wastewaters in the EU (OJ L 98 19.03.2021, p. 3, CELEX: Specific Quality Standards are indicated in this Recommendation document: standards for PCR/Digital-PCR (polymerase chain reaction), shortly described below:
+In particular the European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated the use of a common approach to establish a systematic surveillance of SARS-CoV-2 and its variants in wastewaters in the EU (OJ L 98 19.03.2021, p. 3, CELEX: Specific Quality Standards are indicated in this Recommendation document: standards for PCR/Digital-PCR (polymerase chain reaction), shortly described below:
 
 * (a) Threshold cycle value of real-time polymerase chain reaction (RT-qPCR) should be below 40 to report a sample as positive either for qPCR (quantitative polymerase chain reaction) analysis or to use for sequencing.
 * (b) Alternative quantification approaches to RT-qPCR (as digital polymerase chain reaction - dPCR) could be used provided that they achieve results equivalent to RT-qPCR and apply quality requirements equivalent to RT-qPCR.
@@ -124,7 +124,7 @@ genomic SARS-CoV-2 monitoring](https://www.ecdc.europa.eu/sites/default/files/do
 ## NGS data analysis
 ### Considerations for analysing sequencing data
 
-After the sequence generation stage, the actual analysis of the data takes place. Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
+After the sequence generation stage, the actual analysis of the data takes place (see [Pathogen characterisation - Data analysis](/pathogen-characterisation/data-analysis)). Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
 
 ### Existing approaches
 For the overall quality (first step of the data analysis), there are some standardised tools (such as {% tool "fastqc" %}, {% tool "multiqc" %}) that can offer such an assessment that is domain agnostic. Key considerations are sufficient quality per nucleotide / read and overall mapping across the target pathogens (in case of targeted approaches).
