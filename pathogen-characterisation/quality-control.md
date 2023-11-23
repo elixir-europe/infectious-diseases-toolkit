@@ -94,7 +94,7 @@ In particular the European Commission Recommendation (EU) 2021/472 of 17 March 2
 * (g) A negative extraction control should be used to account for any contamination during the RNA extraction.
 
 ## NGS pathogens data
-### Considerations for sequencing data
+### Considerations
 
 A systematic approach to metadata standardisation and data harmonisation makes it possible to combine and compare datasets, consequently promoting a more universal use and reuse of the data. The European Nucleotide Archive (ENA) has set up some standards for SARS-CoV-2, listed in the next section. When possible, it is recommended to use topic-specific standards and, for facilitating this good practice, ENA has also standardised checklists for particular use cases, such as water surveillance.
 
@@ -122,7 +122,7 @@ genomic SARS-CoV-2 monitoring](https://www.ecdc.europa.eu/sites/default/files/do
 * (b) At least 3 genetic markers per variant should be reported for better characterization of mutations for High Throughput Sequencing analysis of wastewater.
 
 ## NGS data analysis
-### Considerations for analysing sequencing data
+### Considerations
 
 After the sequence generation stage, the actual analysis of the data takes place (see [Pathogen characterisation - Data analysis](/pathogen-characterisation/data-analysis)). Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
 
