@@ -1,6 +1,6 @@
 ---
 title: Attributing credit
-description: Referencing your sources (citations and recognition of contributions)
+description: Referencing your sources (citations and recognition of contributions).
 contributors: []
 no_robots: true
 search_exclude: true

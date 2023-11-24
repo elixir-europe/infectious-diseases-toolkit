@@ -1,6 +1,6 @@
 ---
 title: Data description
-description: Finding (meta)data standards and documentation
+description: Finding (meta)data standards and documentation.
 contributors: [Wolmar Nyberg Åkerström, Zahra Waheed, Liane Hughes, Flora D'Anna, Patricia Palagi, Wolfgang Maier, Diana Pilvar, Rafael Andrade Buono]
 page_id: pc_data_description
 rdmkit:
