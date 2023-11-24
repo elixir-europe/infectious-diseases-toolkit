@@ -62,3 +62,7 @@
   description: Content was added to the Data sources page in the Human biomolecular data section. [Discover the page here](/human-biomolecular-data/data-sources)
   date: 2023-09-19
   linked_pr: 155
+- name: "New page: Pathogen Characterisation data description"
+  description: Content was added to the Data Description page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/data-description)
+  date: 2023-11-20
+  linked_pr: 194
