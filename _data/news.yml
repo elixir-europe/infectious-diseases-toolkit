@@ -66,3 +66,7 @@
   description: Content was added to the Data Description page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/data-description)
   date: 2023-11-20
   linked_pr: 194
+- name: "New page: Pathogen Characterisation quality control"
+  description: Content was added to the Quality Control page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/quality-control)
+  date: 2023-11-24
+  linked_pr: 240
