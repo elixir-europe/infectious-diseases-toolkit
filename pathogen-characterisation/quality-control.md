@@ -83,7 +83,7 @@ Using wastewater samples for pathogen surveillance might benefit from the follow
 * Quality control of the quantitative analytical detection
     * Standard calibrated reference material (such as EURM-019 / EURM-014 single stranded RNA provided by the Joint Research Center)
 
-In particular the European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated the use of a common approach to establish a systematic surveillance of SARS-CoV-2 and its variants in wastewaters in the EU (OJ L 98 19.03.2021, p. 3, CELEX: Specific Quality Standards are indicated in this Recommendation document: standards for PCR/Digital-PCR (polymerase chain reaction), shortly described below:
+In particular the European Commission Recommendation (EU) 2021/472 of 17 March 2021 has advocated the use of a common approach to establish a systematic surveillance of SARS-CoV-2 and its variants in wastewaters in the EU (OJ L 98 19.03.2021, p. 3). Standards for PCR/Digital-PCR (polymerase chain reaction) are indicated in this Recommendation document and shortly described below:
 
 * (a) Threshold cycle value of real-time polymerase chain reaction (RT-qPCR) should be below 40 to report a sample as positive either for qPCR (quantitative polymerase chain reaction) analysis or to use for sequencing.
 * (b) Alternative quantification approaches to RT-qPCR (as digital polymerase chain reaction - dPCR) could be used provided that they achieve results equivalent to RT-qPCR and apply quality requirements equivalent to RT-qPCR.
