@@ -731,6 +731,22 @@
   id: sars-cov2-data-hubs
   name: SARS-CoV-2 Data Hubs
   url: https://www.covid19dataportal.org/data-hubs
+- description: A quality control tool for high throughput sequence data.
+  id: fastqc
+  name: FASTQC
+  url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+- description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
+  id: samtools
+  name: SAMtools
+  url: http://www.htslib.org/
+- description: MultiQC searches a given directory for analysis logs and compiles a HTML report.
+  id: multiqc
+  name: MultiQC
+  url: https://multiqc.info/
+- description: VCFtools is a program package designed for working with VCF files.
+  id: vcftools
+  name: VCFtools
+  url: https://vcftools.sourceforge.net/
 - description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)

@@ -1,6 +1,6 @@
 ---
 title: Provenance
-description: Tracking data and analysis steps
+description: Tracking data and analysis steps.
 contributors: [Rudolf Wittner, Stian Soiland-Reyes, Simone Leo]
 page_id: hchd_provenance
 rdmkit:

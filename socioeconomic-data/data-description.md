@@ -1,6 +1,6 @@
 ---
 title: Data description
-description: Finding (meta)data standards and documentation
+description: Finding (meta)data standards and documentation.
 contributors: []
 no_robots: true
 search_exclude: true
