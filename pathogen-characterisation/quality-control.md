@@ -137,4 +137,4 @@ Standards from  European Commission Recommendation (EU) 2021/472 of 17 March 202
 * (c) If data for none of viruses referred to in point (b) can be obtained, alternative parameters could be used provided they deliver equivalent corrections for meteorological or other influences causing fluctuations of the viral load, which are not related to the pandemic such as precipitation or other meteorological effects. 
 
 
-Further information on wastewater quality control can be found in Wastewater QC workflow in GalaxyTrakr (SSQuAWK3) (protocols.io) protocol that has a nice listing of quality indicators that were defined in the context of SARS-CoV-2, but are easily generalizable.
+Further information on wastewater quality control can be found in Wastewater QC workflow in GalaxyTrakr (SSQuAWK3) ([protocols.io](https://www.protocols.io/)) protocol that has a nice listing of quality indicators that were defined in the context of SARS-CoV-2, but are easily generalizable.
