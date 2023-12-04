@@ -361,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -734,18 +734,29 @@
 - description: A quality control tool for high throughput sequence data.
   id: fastqc
   name: FASTQC
+  registry:
+    biotools: fastqc
+    tess: FASTQC
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 - description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
   id: samtools
   name: SAMtools
+  registry:
+    biotools: samtools
+    tess: SAMtools
   url: http://www.htslib.org/
 - description: MultiQC searches a given directory for analysis logs and compiles a HTML report.
   id: multiqc
   name: MultiQC
+  registry:
+    biotools: multiqc
+    tess: MultiQC
   url: https://multiqc.info/
 - description: VCFtools is a program package designed for working with VCF files.
   id: vcftools
   name: VCFtools
+  registry:
+    biotools: vcftools
   url: https://vcftools.sourceforge.net/
 - description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
