@@ -34,11 +34,14 @@ fairsharing:
 
 ## Introduction
 
+This page is dedicated to human clinical and health data, what they are and where to find them. It details how health data are organised across Europe, how to discover existing data and what to consider when you want to access the data. Last but not least, the page shares some existing approaches to get you started.
+So, if this is what you are looking for, look no further! 
+
+### What is considered as human clinical and health data and why is it important for infectious diseases research?
+
   Human clinical and health data are personal data related to the health status of a natural person (e.g., diagnosis, treatment, laboratory test results) [(glossary)](https://doi.org/10.5281/zenodo.6787119). In the context of infectious diseases, human clinical and health data are often collected in the context of surveillance or through the provision of health care services. This data is indispensable to make decisions regarding health and management of infectious diseases. As such, it is crucial to know where to find and access it in order to eventually transform the data into usable information and knowledge. 
 
-  If this is what you are looking for, look no further!
-
-## Organisation of health data
+ ## Organisation of health data
 
   The organisation of human clinical and health data can vary across European member states due to differences in national laws, regulations, and healthcare systems. For example, there are differences in the level of:
   * **Digitalisation**: in some countries the health information has been fully digitalised. In other countries digitalisation is in progress and yet in others the initial data is still being collected on paper and later digitalised. Nonetheless, COVID-19 has been a major driver for digitalisation, especially for specific data types such as mortality and vaccination data.  
@@ -46,18 +49,19 @@ fairsharing:
   * **Private healthcare providers**: in some countries there is limited data sharing from private healthcare providers (e.g. private hospitals, private health insurance or private laboratories). As a consequence this data is often unfindable and thus inaccessible. For example, during the sequence of COVID outbreaks of 2021, private companies often did not report on the number of COVID tests analysed per day.
   * **Data protection laws**: all countries within the European Union are subject to the [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj), which establishes strict standards for data privacy and protection. However, European member states have different interpretations of the GDPR and different national regulations on health and research data, adding complexity on how health data can be collected, stored, and shared. For example, European member states have a different legal basis that they rely upon for the secondary use of health data for research by third-party public-sector researchers (e.g. Explicit Consent; Broad consent as defined in national legislation or no specific legislation). Even within a country the different GDPR definitions and interpretations can form a barrier. For example, in Germany there are Data Protection Authorities (DPAs) in each region as well as at a national level which have different definitions of the secondary use of health data. An in-depth overview of the country differences can be found in the report on [‘Assessment of the EU Member States’ rules on health data in the light of GDPR’](https://op.europa.eu/s/yLde).
 
+### Considerations
   The above can make it challenging to find and access human clinical and health data. Nonetheless, there are also commonalities in how data is organised and managed across Europe, which might help as a starting point to find and access the data:
 * **Electronic health records**: most European countries have implemented some form of electronic health records to store patient health data. These typically include patient demographics and medical information such as diagnoses, medications, treatment plans, immunisation dates, allergies, radiology images, and laboratory and test results. Electronic health records can be accessed by authorised healthcare professionals and are used to support clinical decision-making and continuity of care. For researchers outside of the health system it can be challenging to find and gain access to these records.
 * **Health data repositories**: in some countries, national or regional health data repositories have been established to aggregate electronic health records across multiple sources. For example, in Sweden, [the National Patient Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-patient-register/) collects data from all healthcare providers in the country; while in the UK, [the National Health Service (NHS) Digital](https://digital.nhs.uk/) collects data from various healthcare settings. However, in many countries these types of registries are not yet in place.
 * **Cross-border health data exchange**: the European Union is working to establish a common framework for cross-border exchange of health data: [The European Health Data Space (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en). This initiative aims to facilitate the exchange of health data across borders while ensuring data protection and privacy. The EHDS will include a set of technical standards and protocols to enable interoperability of health data across Europe. Currently the European Genome-phenome Archive (EGA) is expanding into a federation of nodes through the [Federated EGA](https://ega-archive.github.io/FEGA-onboarding/). FEGA enables deposition and distribution of health data that cannot be stored outside of the country of origin.
 
-## Finding (meta)data
+## Search and discoverability
 
 As human clinical and health data encompasses sensitive personal data, it requires stringent security measures for its storage, access and distribution. These are often put in place by dedicated controlled access data (CAD) repositories. In many cases, the data cannot leave the original facilities (e.g. hospitals or national institutes of health) due to national requirements that guarantee privacy and security.
 
 ### Considerations
 
-* When selecting data sources for your research, it is important to consider their **reliability, relevance**, and **completeness**. Are the data sources trustworthy? Are they up-to-date and relevant to the infectious disease in question? Are the data sources complete, or are there gaps that need to be taken into account?
+* When selecting data sources for your research, it is important to consider their **reliability, relevance**, and **completeness**. Are the data sources trustworthy and up-to-date? Are they relevant to the infectious disease in question and do they have the right data to answer your research question? Are the data sources complete, or are there gaps that need to be taken into account?
 * **Different data holders for different data sources**
   * Human clinical and health data can be collected in the form of:
       * Electronic health records
