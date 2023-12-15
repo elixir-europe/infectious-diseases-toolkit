@@ -10,28 +10,28 @@ columns:
     width: 3
     children: 
       - url_text: Contributors
-        url: /contributors
+        url: /about/contributors
       - url_text: Institutes, projects and funders
-        url: /support
+        url: /about/support
   - type: links
     width: 3
     children: 
       - url_text: About
-        url: /about
+        url: /about/
       - url_text: Contact
-        url: /contact
+        url: /about/contact
       - url_text: Accessibility
-        url: /accessibility
+        url: /about/accessibility
       - url_text: Privacy
-        url: /privacy
+        url: /about/privacy
   - type: image
     image_width: 100px
     width: 1
     src: 'assets/img/eu-flag-white.svg'
     alt: European flag
   - type: image
-    image_width: 88px
+    image_width: 80px
     width: 1
-    src: 'assets/img/by-covid-condensed.svg'
+    src: 'assets/img/main_logo_condensed.svg'
     alt: Infectious diseases toolkit condensed
 

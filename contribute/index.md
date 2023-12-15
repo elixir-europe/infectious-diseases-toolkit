@@ -1,5 +1,6 @@
 ---
 title: How to contribute to the Infectious Diseases Toolkit website
+search_exclude: true
 ---
 
 
@@ -7,10 +8,10 @@ title: How to contribute to the Infectious Diseases Toolkit website
 
 Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
 
-* **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](/contribute/github_way) (no technical knowledge required!).
-* **If you are happier using Google Docs**: follow [the Google Doc way](/contribute/google_doc_way).
-* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](/contribute/working_with_git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below.
+* **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](/contribute/github-way) (no technical knowledge required!).
+* **If you are happier using Google Docs**: follow [the Google Doc way](/contribute/google-doc-way).
+* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](/contribute/working-with-git)).
+<!-- * **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below. -->
 
 We are also welcoming contributions to our [User Stories spreadsheet](https://docs.google.com/spreadsheets/d/1KTe9Zy9xU9TqhJtNVoBkiLHBXLEqGisitAoxLy6zz58/edit#gid=231577820). Adding your user stories is a good way to help IDTk address your needs.
 
@@ -18,10 +19,10 @@ We are also welcoming contributions to our [User Stories spreadsheet](https://do
 
 When writing for this website keep in mind the following:
 
-* For the sake of consistency, please follow our [style guide](/contribute/style_guide).
+* For the sake of consistency, please follow our [style guide](/contribute/style-guide).
 * It is your responsibility to make sure that the content you provide respects copyright. Please follow our [Copyright guidelines](/contribute/copyright).
-* Please read our [Markdown cheat sheet](/contribute/markdown_cheat_sheet) in order to be able to fill in the page metadata and to format the layout correctly.
-* To avoid having to resolve many issues during the revision process, please check the [Editors checklist](/contribute/editors_checklist) and make sure you have complied with the requirements.
+* Please read our [Markdown cheat sheet](/contribute/markdown-cheat-sheet) in order to be able to fill in the page metadata and to format the layout correctly.
+* To avoid having to resolve many issues during the revision process, please check the [Editors checklist](/contribute/editors-checklist) and make sure you have complied with the requirements.
 * If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the contributors' section of your page, after receiving their permission.
 
 ## Acknowledgement of contributors
@@ -37,6 +38,7 @@ The content is periodically updated, which means that if you create content in a
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues/new/choose) about it.
 
 
-## Making a quick suggestion
+<!-- ## Making a quick suggestion
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSel-txk2D-c8Uerp5rYTArACsAIVXgKSBCxtgEBrP1XG72nxw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="mt-1 w-100">Loading…</iframe>
+--> 

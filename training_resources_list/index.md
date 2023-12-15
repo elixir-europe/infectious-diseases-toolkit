@@ -1,3 +1,0 @@
----
-title: Training resources list
----

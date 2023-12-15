@@ -21,7 +21,7 @@ BY-COVID project received funding from the European Union’s Horizon Europe Res
 ## How to cite the IDTk
 We have not published the story of IDTk yet. Till then, please refer to:
 
-<div class="card border-1 my-4">
+<div class="card border-1 my-4 bg-light">
   <div class="card-body">
     <p class="card-text"><i>Infectious Diseases Toolkit. A deliverable from the EU-funded BY-COVID project (grant agreement number 101046203). URL: <a href="https://www.infectious-diseases-toolkit.org/">https://www.infectious-diseases-toolkit.org/</a>.</i></p>
   </div>

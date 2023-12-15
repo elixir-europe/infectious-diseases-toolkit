@@ -1,24 +1,26 @@
 title: Infectious Diseases Toolkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Infectious Diseases Toolkit
-# this appears on the top navigation bar next to the home button
-
-description: ""
+description: "Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.21.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@gray-tiles
 
 gtag: G-TNT17YGXQ4
 
 theme_variables:
   privacy_statement_url: /about/privacy
-  theme_color: da366e
+  theme_color: 457B9D
   fonts:
-    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap
+    - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 permalink: /:categories/:year/:month/:day/:title
 
@@ -41,33 +43,38 @@ defaults:
       type: "pages"
     values:
       sidebar: contribute
+      search_exclude: true
   -
     scope:
-      path: "pathogen_characterisation"
+      path: "pathogen-characterisation"
       type: "pages"
     values:
       type: pathogen_characterisation
+      datatable: true
 
   -
     scope:
-      path: "social_and_economic_impact"
+      path: "socioeconomic-data"
       type: "pages"
     values:
-      type: social_and_economic_impact
+      type: socioeconomic_data
+      datatable: true
     
   -
     scope:
-      path: "human_clinical_and_health_data"
+      path: "human-clinical-and-health-data"
       type: "pages"
     values:
       type: human_clinical_and_health_data
+      datatable: true
 
   -
     scope:
-      path: "human_biomolecular_data"
+      path: "human-biomolecular-data"
       type: "pages"
     values:
       type: human_biomolecular_data
+      datatable: true
 
   -
     scope:
@@ -75,15 +82,45 @@ defaults:
       type: "pages"
     values:
       type: showcase
+      datatable: true
 
   -
     scope:
-      path: "national_resources"
+      path: "national-resources"
       type: "pages"
     values:
       type: national_resources
+      datatable: true
 
+  -
+    scope:
+      path: "showcase/TEMPLATE-showcase.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+
+  -
+    scope:
+      path: "TEMPLATE-page.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+
+  -
+    scope:
+      path: "national-resources/TEMPLATE_resources.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
 plugins:
+  - elixir-toolkit-theme-plugins
   - jemoji
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-github-metadata
