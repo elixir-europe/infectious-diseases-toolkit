@@ -764,3 +764,25 @@
   registry:
     fairsharing: 2f7f9f
   url: https://gisaid.org
+- description: The Pathogens Portal enables researchers to share, access and analyse pathogen-related biodata with the aim to support pandemic preparedness.
+  id: pathogens-portal
+  name: Pathogens Portal
+  url: https://www.pathogensportal.org/
+- description: The Pathogens Portal Cohort Browser presents discovery metadata of infectious disease cohort datasets and provides links to the associated datasets within ELIXIR Core Data Resources; search and filtering functionalities enable users to identify cohort studies of interest in a convenient manner.
+  id: pathogens-cohort-browser
+  name: Pathogens Portal Cohort Browser
+  url: https://www.pathogensportal.org/cohorts
+- description: The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured archives at EMBL-EBI. The database can accept a wide range of types of studies described via a simple format. It also enables manuscript authors to submit supplementary information and link to it from the publication.
+  id: biostudies
+  name: BioStudies
+  registry:
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: biostudies
+  url: https://www.ebi.ac.uk/biostudies/
+- description: The ISARIC-WHO Case Report Forms (CRFs) should be used to collect data on individuals presenting with suspected or confirmed COVID-19, with the aim to standardise clinical data to improve patient care and inform the public health response.
+  id: isaric-covid-19-crf
+  name: ISARIC COVID-19 Case Report Form
+  registry:
+    fairsharing: 1ece03
+  url: https://isaric.org/document/covid-19-crf/

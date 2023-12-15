@@ -93,6 +93,8 @@ subitems:
     subitems:
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
+      - title: Linked Cohort Data
+        url: /showcase/linked-cohort-data
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
         url:  /showcase/korogenoest
   
