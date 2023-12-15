@@ -361,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 5.3e+63
+    fairsharing: 530e61
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
