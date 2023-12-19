@@ -1,7 +1,7 @@
 - name: New content structure
   date: 2022-09-08
   linked_pr: 27
-  description: Together with a new landing page, new sections where added to IDTk. 
+  description: Together with a new landing page, new sections where added to IDTk.
 - name: Added link to User Stories spreadsheet
   date: 2022-09-19
   linked_pr: 58
@@ -58,6 +58,10 @@
   date: 2023-08-24
   linked_pr: 214
   description: "All items in the 'Relevant tools and resources' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](/contribute/tool-resource-update)!"
+- name: "Updated page: National Resources Sweden"
+  description: The page providing insight on national resources for infectious diseases in Sweden has been updated. [Discover the page here](/national-resources/sweden)
+  date: 2023-11-09
+  linked_pr: 241
 - name: "New page: Human biomolecular data sources"
   description: Content was added to the Data sources page in the Human biomolecular data section. [Discover the page here](/human-biomolecular-data/data-sources)
   date: 2023-09-19
@@ -70,3 +74,7 @@
   description: Content was added to the Quality Control page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/quality-control)
   date: 2023-11-28
   linked_pr: 240
+- name: "New page: The Swedish Pathogens Portal"
+  description: A Showcase page about the Swedish Pathogens Portal (the first national node of the Pathogens Portal), which is focussed on data and information from Sweden related to infectious disease. [Discover the page here](/showcase/swedish-pathogens-portal)
+  date: 2023-12-19
+  linked_pr: 249

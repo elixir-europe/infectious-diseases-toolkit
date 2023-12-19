@@ -97,6 +97,8 @@ subitems:
         url: /showcase/linked-cohort-data
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
         url:  /showcase/korogenoest
+      - title: The Swedish Pathogens Portal
+        url:  /showcase/swedish-pathogens-portal
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg

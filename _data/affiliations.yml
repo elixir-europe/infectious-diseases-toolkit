@@ -18,31 +18,31 @@
   url: https://ec.europa.eu/
 - name: ELIXIR Europe
   image_url: /images/logos/ELIXIR-logo.svg
-  pid: 
+  pid:
   expose: true
   type: infrastructure
   url: https://elixir-europe.org/
 - name: University of Tartu
   image_url: /images/institutions/ringlogo_eng_lat_sinine.svg
-  pid: 
+  pid:
   expose: true
   type: institution
   url: https://elixir.ut.ee/
 - name: ELIXIR-Estonia
   image_url: /images/infrastructures/ELIXIR_ESTONIA_white_background.png
-  pid: 
+  pid:
   expose: true
   type: infrastructure
   url: https://elixir.ut.ee/
 - name: ETAIS
   image_url: /images/infrastructures/Estonian_scientific_computing_infrastructure.png
-  pid: 
+  pid:
   expose: true
   type: infrastructure
-  url: https://etais.ee 
+  url: https://etais.ee
 - name: Republic of Estonia Health Board
   image_url: /images/institutions/terviseamet_3lovi_eng.png
-  pid: 
+  pid:
   expose: true
   type: institution
   url: https://www.terviseamet.ee/en
@@ -52,3 +52,9 @@
   expose: true
   type: infrastructure
   url: https://www.ebi.ac.uk/
+- name: SciLifeLab
+  image_url: /images/institutions/SciLifeLab_Logotype_Green_POS.png
+  pid:
+  expose: true
+  type: institution
+  url: https://www.scilifelab.se
