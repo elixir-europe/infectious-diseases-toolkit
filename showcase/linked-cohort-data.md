@@ -51,7 +51,7 @@ All sample records for this dataset, together with the appropriate links, can be
 
 ## The Cohort Browser - improving the Findability of Cohort Datasets
 
-While the BioSamples database is key to capturing the linking of data types on a participant level, the {% tool "pathogens-cohort-browser" %} presents a range of study-level information about each cohort. Similar to a shop window, it enhances the findability of the datasets and as an integral part of the Pathogens Portal, serves as the primary entry point into accessing cohort data.
+While the BioSamples database is key to capturing the linking of data types on a participant level, the {% tool "pathogens-cohort-browser" %} presents a range of study-level information about each cohort. Similar to a shop window, it enhances the findability of the datasets and as an integral part of the {% tool "pathogens-portal" %}, serves as the primary entry point into accessing cohort data.
 
 {% include image.html file="/cohort_browser_img.png" caption="Figure 4. The cohort browser brings together study-level information, links to the datasets and provides search and filtering functionality to improve data discoverability." %}
 
