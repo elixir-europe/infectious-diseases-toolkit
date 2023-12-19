@@ -1,6 +1,6 @@
 ---
 title: Provenance
-description: Tracking data and analysis steps
+description: Tracking data and analysis steps.
 contributors: []
 no_robots: true
 search_exclude: true

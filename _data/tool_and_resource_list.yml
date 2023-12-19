@@ -271,7 +271,7 @@
   name: FAIRsharing
   registry:
     fairsharing: 2abjs5
-    tess: fairsharing
+    tess: FAIRsharing
   url: https://fairsharing.org/
 - description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers. Metadata in figshare is licenced under is CC0. figshare has also partnered with DuraSpace and Chronopolis to offer further assurances that public data will be archived under the stewardship of Chronopolis. figshare is supported through Institutional, Funder, and Governmental service subscriptions.
   id: figshare
@@ -732,6 +732,33 @@
   id: sars-cov2-data-hubs
   name: SARS-CoV-2 Data Hubs
   url: https://www.covid19dataportal.org/data-hubs
+- description: A quality control tool for high throughput sequence data.
+  id: fastqc
+  name: FASTQC
+  registry:
+    biotools: fastqc
+    tess: FASTQC
+  url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+- description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
+  id: samtools
+  name: SAMtools
+  registry:
+    biotools: samtools
+    tess: SAMtools
+  url: http://www.htslib.org/
+- description: MultiQC searches a given directory for analysis logs and compiles a HTML report.
+  id: multiqc
+  name: MultiQC
+  registry:
+    biotools: multiqc
+    tess: MultiQC
+  url: https://multiqc.info/
+- description: VCFtools is a program package designed for working with VCF files.
+  id: vcftools
+  name: VCFtools
+  registry:
+    biotools: vcftools
+  url: https://vcftools.sourceforge.net/
 - description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)
