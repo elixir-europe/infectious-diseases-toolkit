@@ -46,6 +46,12 @@
   expose: true
   type: institution
   url: https://www.terviseamet.ee/en
+- name: EMBL-EBI
+  image_url: /images/infrastructures/Ebi_official_logo.png
+  pid: 
+  expose: true
+  type: infrastructure
+  url: https://www.ebi.ac.uk/
 - name: SciLifeLab
   image_url: /images/institutions/SciLifeLab_Logotype_Green_POS.png
   pid:
