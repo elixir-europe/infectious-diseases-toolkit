@@ -78,3 +78,7 @@
   description: A Showcase page about the Swedish Pathogens Portal (the first national node of the Pathogens Portal), which is focussed on data and information from Sweden related to infectious disease. [Discover the page here](/showcase/swedish-pathogens-portal)
   date: 2023-12-19
   linked_pr: 249
+- name: "New page: Linked pathogen and host data across archives - a multi-omics, SARS-CoV-2 cohort case study"
+  description: A Showcase page about the linking and sharing of cohort data, which is focussed on the first example of linking and sharing a COVID-19, multi-omics cohort data set via the EMBL-EBI infrastructure. [Discover the page here](/showcase/linked-cohort-data)
+  date: 2024-01-08
+  linked_pr: 255
