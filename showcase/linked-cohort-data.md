@@ -21,7 +21,7 @@ Here we describe the first example of linking and sharing a multi-omics SARS-CoV
 
 ## Who is the SHOWCASE intended for?
 
-This showcase is intended for any groups who would like to FAIRly share cohort study data, and would like to better understand how this can be performed. More broadly, the linking mechanism described below is applicable to any group whose research involves different types of molecular data being obtained from the same biological sample. 
+This showcase is intended for any group who would like to FAIRly share cohort study data, and would like to better understand how this can be performed. More broadly, the linking mechanism described below is applicable to any group whose research involves different types of molecular data being obtained from the same biological sample. 
 The showcase will also be useful for those wishing to access linked clinical and multi-omics data from cohort studies. 
 
 ## Sharing the linked EMC Pilot Cohort Dataset
