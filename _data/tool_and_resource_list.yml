@@ -205,9 +205,8 @@
   id: dragen-gatk
   name: Dragen-GATK
   url: https://gatk.broadinstitute.org/hc/en-us/articles/360045944831
-- description:
-    "Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data. Dryad has a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt repository with storage in US and EU at the San Diego Supercomputing Center, DANS, and Zenodo. While data is undergoing peer review, it is embargoed if the related journal requires / allows this. Dryad is an independent non-profit that works directly with: researchers to publish datasets utilising best practices for discovery and reuse; publishers to support the integration of data availability statements and data citations into their workflows; and institutions to enable scalable campus support for research data management best practices at low cost. Costs are covered by institutional, publisher, and funder members, otherwise a one-time fee of $120 for authors to cover cost of curation and preservation. Dryad also receives direct funder support through
-    grants."
+- description: 'Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data. Dryad has a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt repository with storage in US and EU at the San Diego Supercomputing Center, DANS, and Zenodo. While data is undergoing peer review, it is embargoed if the related journal requires / allows this. Dryad is an independent non-profit that works directly with: researchers to publish datasets utilising best practices for discovery and reuse; publishers to support the integration of data availability statements and data citations into their workflows; and institutions to enable scalable campus support for research data management best practices at low cost. Costs are covered by institutional, publisher, and funder members, otherwise a one-time fee of $120 for authors to cover cost of curation and preservation. Dryad also receives direct funder support through
+    grants.'
   id: dryad
   name: Dryad
   registry:
@@ -234,7 +233,7 @@
     fairsharing: mya1ff
     tess: European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
-- description: "The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers. The thesaurus consists of over 3,300 concepts and covers the core social science disciplines: politics, sociology, economics, education, law, crime, demography, health, employment, information, communication technology, and environmental science. ELSST is used for data discovery within CESSDA and facilitates access to data resources across Europe, independent of domain, resource, language, or vocabulary. ELSST is currently available in 16 languages: Danish, Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian, Norwegian, Romanian, Slovenian, Spanish, and Swedish"
+- description: 'The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers. The thesaurus consists of over 3,300 concepts and covers the core social science disciplines: politics, sociology, economics, education, law, crime, demography, health, employment, information, communication technology, and environmental science. ELSST is used for data discovery within CESSDA and facilitates access to data resources across Europe, independent of domain, resource, language, or vocabulary. ELSST is currently available in 16 languages: Danish, Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian, Norwegian, Romanian, Slovenian, Spanish, and Swedish'
   id: european-language-social-science-thesaurus
   name: European Language Social Science Thesaurus (ELSST)
   registry:
@@ -362,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -775,7 +774,7 @@
   registry:
     biotools: biostudies
     fairsharing: mtjvme
-    tess: biostudies
+    tess: BioStudies
   url: https://www.ebi.ac.uk/biostudies/
 - description: The ISARIC-WHO Case Report Forms (CRFs) should be used to collect data on individuals presenting with suspected or confirmed COVID-19, with the aim to standardise clinical data to improve patient care and inform the public health response.
   id: isaric-covid-19-crf
