@@ -3,7 +3,6 @@ title: Data sources
 description: Finding and sharing data from human clinical and health data related data sources.
 contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero]
 page_id: hchd_data_sources
-affiliations: [Sciensano, European Genome-phenome Archive (EGA), EMBL-EBI]
 related_pages: 
   human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
   human_clinical_and_health_data: [hchd_data_analysis]
