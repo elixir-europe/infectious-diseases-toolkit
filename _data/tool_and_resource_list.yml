@@ -734,18 +734,29 @@
 - description: A quality control tool for high throughput sequence data.
   id: fastqc
   name: FASTQC
+  registry:
+    biotools: fastqc
+    tess: FASTQC
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 - description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
   id: samtools
   name: SAMtools
+  registry:
+    biotools: samtools
+    tess: SAMtools
   url: http://www.htslib.org/
 - description: MultiQC searches a given directory for analysis logs and compiles a HTML report.
   id: multiqc
   name: MultiQC
+  registry:
+    biotools: multiqc
+    tess: MultiQC
   url: https://multiqc.info/
 - description: VCFtools is a program package designed for working with VCF files.
   id: vcftools
   name: VCFtools
+  registry:
+    biotools: vcftools
   url: https://vcftools.sourceforge.net/
 - description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
@@ -753,3 +764,29 @@
   registry:
     fairsharing: 2f7f9f
   url: https://gisaid.org
+- description: The Pathogens Portal Cohort Browser presents discovery metadata of infectious disease cohort datasets and provides links to the associated datasets within ELIXIR Core Data Resources; search and filtering functionalities enable users to identify cohort studies of interest in a convenient manner.
+  id: pathogens-cohort-browser
+  name: Pathogens Portal Cohort Browser
+  url: https://www.pathogensportal.org/cohorts
+- description: The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured archives at EMBL-EBI. The database can accept a wide range of types of studies described via a simple format. It also enables manuscript authors to submit supplementary information and link to it from the publication.
+  id: biostudies
+  name: BioStudies
+  registry:
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: BioStudies
+  url: https://www.ebi.ac.uk/biostudies/
+- description: The ISARIC-WHO Case Report Forms (CRFs) should be used to collect data on individuals presenting with suspected or confirmed COVID-19, with the aim to standardise clinical data to improve patient care and inform the public health response.
+  id: isaric-covid-19-crf
+  name: ISARIC COVID-19 Case Report Form
+  registry:
+    fairsharing: 1ece03
+  url: https://isaric.org/document/covid-19-crf/
+- description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
+  id: swedish-pathogens-portal
+  name: Swedish Pathogens Portal
+  url: https://pathogens.se
+- description: The Pathogens Portal, launched in July 2023, is an invaluable resource for researchers, clinicians, and policymakers who need access to the latest and most comprehensive datasets on pathogens. The portal is a collaborative effort between the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) and partners.
+  id: pathogens-portal
+  name: Pathogens Portal
+  url: https://www.pathogensportal.org
