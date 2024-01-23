@@ -38,9 +38,9 @@
   id: beyond-1-million-genomes
   name: Beyond 1 Million Genomes (B1MG)
   url: https://b1mg-project.eu/
-- description: Beacon v2 is a protocol/specification established by the Global Alliance for Genomics and Health initiative (GA4GH) that defines an open standard for federated discovery of genomic data and associated information in biomedical research and clinical applications. The Beacon v2 standard - a major update from the original GA4GH Beacon first proposed in 2014 - was accepted by GA4GH in April 2022. Beacon v2 consists of two components, the Framework and the Models. The Framework contains the format for the requests and responses, whereas the Models define the structure of the biological data response.
+- description: Beacon v2 is a protocol/specification established by the Global Alliance for Genomics and Health initiative (GA4GH) that defines an open standard for federated discovery of genomic data and associated information in biomedical research and clinical applications.
   id: beacon
-  name: Beacon
+  name: Beacon v2
   registry:
     biotools: beacon
     fairsharing: 6fba91
@@ -790,3 +790,59 @@
   id: pathogens-portal
   name: Pathogens Portal
   url: https://www.pathogensportal.org
+- description: The European Health Data Space is a health specific ecosystem comprised of rules, common standards and practices, infrastructures and a governance framework that aims at empowering individuals through increased digital access to and control of their electronic personal health data, at national level and EU-wide.
+  id: ehds
+  name: European Health Data Space (EHDS)
+  url: https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en
+- description: The European Medicines Agency (EMA) is a decentralised agency of the European Union (EU). It is responsible for the scientific evaluation, supervision and safety monitoring of medicines.
+  id: ema
+  name: European Medicines Agency (EMA)
+  url: https://www.ema.europa.eu/en
+- description:  It is an EU agency aimed at strengthening Europe's defences against infectious diseases. Their mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.
+  id: ecdc
+  name: European Centre for Disease Prevention and Control (ECDC)
+  url: https://www.ecdc.europa.eu/en
+- description: The European Health Information Gateway is a platform that provides access to various health information resources and datasets from across Europe, including data on health systems, health determinants, and health outcomes.
+  id: info-gateway
+  name: The European Health Information Gateway
+  url: https://gateway.euro.who.int/en/
+- description: ECRIN develops, contributes to, and maintains freely accessible tools that facilitate the identification of clinical trial objects, data sharing, access to regulatory and methodological designs and much more to support researchers looking to conduct multinational clinical research.
+  id: ecrin-tools
+  name: European Clinical Research Infrastructure Network (ECRIN) tools
+  url: https://ecrin.org/tools
+- description: The Health Information Portal provides access to population health and healthcare data across Europe.
+  id: health-portal
+  name: European Health Information Portal
+  url: https://www.healthinformationportal.eu/
+- description: PHIRI is the roll-out of the research infrastructure on population health information that aims to facilitate and generate the best available evidence for research on health and well-being of populations as impacted by COVID-19.
+  id: phiri
+  name: Population Health Information Research Infrastructure (PHIRI)
+  url: https://www.phiri.eu/
+- description: Research at the BfArM concentrates on important and contemporary research focal points with regard to the marketing authorisation of medicinal products and improving the safety thereof as well as concerning the recording and assessment of risks in connection with medical devices. 
+  id: data-bfarm
+  name: Research Data Centre at the BfArM
+  url: https://www.bfarm.de/EN/BfArM/Tasks/Research/_node.html
+- description: Tool that provides the user with an overview of available health data in Denmark and the entire application process, from initial idea to final application.
+  id: danish-gateway
+  name: Danish Research Health Data Gateway
+  url: https://www.enindgangtilsundhedsdata.dk/en
+- description: Tool to discover the Data held by the Irish Public Service
+  id: irish-catalogue
+  name: The Public Service Data Catalogue
+  url: https://datacatalogue.gov.ie/
+- description: Tool to find health data in the metadata catalogue in Portugal.
+  id: portugal-catalogue
+  name: The National health service metadata catalogue
+  url: https://transparencia.sns.gov.pt/explore/?sort=modified
+- description: Findata is the data permit authority for the social and health care sector in Finland.
+  id: findata
+  name: Findata
+  url: https://findata.fi/en/
+- description: French Health Data Hub that guarantees easy and unified, transparent and secure access to health data to improve the quality of care and patient support.
+  id: french-hub
+  name: French Health Data Hub
+  url: https://www.health-data-hub.fr/
+- description: HDR UK is a national institute with the aim to unite the UK’s health and care data to enable discoveries that improve people’s lives. We do this by uniting, improving and using health and care data as one national institute.
+  id: hdr-uk
+  name: Health Research Data UK
+  url: https://www.hdruk.ac.uk/

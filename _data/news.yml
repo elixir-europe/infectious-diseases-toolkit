@@ -82,3 +82,7 @@
   description: A Showcase page about the linking and sharing of cohort data, which is focussed on the first example of linking and sharing a COVID-19, multi-omics cohort data set via the EMBL-EBI infrastructure. [Discover the page here](/showcase/linked-cohort-data)
   date: 2024-01-08
   linked_pr: 255
+- name: "New page: Human clinical and health data sources"
+  description: Content was added to the Data sources page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/data-sources)
+  date: 2024-01-23
+  linked_pr: 93
