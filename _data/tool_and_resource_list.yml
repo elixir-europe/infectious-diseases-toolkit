@@ -38,9 +38,9 @@
   id: beyond-1-million-genomes
   name: Beyond 1 Million Genomes (B1MG)
   url: https://b1mg-project.eu/
-- description: Beacon v2 is a protocol/specification established by the Global Alliance for Genomics and Health initiative (GA4GH) that defines an open standard for federated discovery of genomic data and associated information in biomedical research and clinical applications. The Beacon v2 standard - a major update from the original GA4GH Beacon first proposed in 2014 - was accepted by GA4GH in April 2022. Beacon v2 consists of two components, the Framework and the Models. The Framework contains the format for the requests and responses, whereas the Models define the structure of the biological data response.
+- description: Beacon v2 is a protocol/specification established by the Global Alliance for Genomics and Health initiative (GA4GH) that defines an open standard for federated discovery of genomic data and associated information in biomedical research and clinical applications.
   id: beacon
-  name: Beacon
+  name: Beacon v2
   registry:
     biotools: beacon
     fairsharing: 6fba91
