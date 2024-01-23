@@ -1,5 +1,5 @@
 ---
-title: ENA upload toolbox
+title: ENA data submission toolbox
 contributors: [Bert Droesbeke] 
 description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
 affiliations: [VIB]
