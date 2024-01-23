@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_data_communication
-redirect_from: /socioeconomic-data/data_communication
+redirect_from: /socioeconomic-data/data-communication
 rdmkit:
   - name:
     url:

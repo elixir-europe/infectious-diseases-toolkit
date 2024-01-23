@@ -3,7 +3,7 @@ title: Human biomolecular data
 description: Finding and sharing data for human biomolecular related data sources.
 contributors: [Aina Jené Cortada, Arnau Soler Costa]
 page_id: hbd_data_sources
-redirect_from: /human-biomolecular-data/data_sources
+redirect_from: /human-biomolecular-data/data-sources
 rdmkit:
   - name: Human Data
     url: https://rdmkit.elixir-europe.org/human_data

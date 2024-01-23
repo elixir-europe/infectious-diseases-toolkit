@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: pc_data_communication
-redirect_from: /pathogen-characterisation/data_communication
+redirect_from: /pathogen-characterisation/data-communication
 rdmkit:
   - name:
     url:

@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: pc_data_sources
-redirect_from: /pathogen-characterisation/data_sources
+redirect_from: /pathogen-characterisation/data-sources
 rdmkit:
   - name:
     url:

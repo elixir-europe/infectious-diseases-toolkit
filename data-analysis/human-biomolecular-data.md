@@ -3,7 +3,7 @@ title: Human biomolecular data
 description: Analysing Human biomolecular related data.
 contributors: [Aina Jené Cortada, Arnau Soler Costa]
 page_id: hbd_data_analysis
-redirect_from: /human-biomolecular-data/data_analysis
+redirect_from: /human-biomolecular-data/data-analysis
 rdmkit:
   - name: Human Data
     url: https://rdmkit.elixir-europe.org/human_data

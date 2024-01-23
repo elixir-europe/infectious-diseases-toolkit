@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_data_description
-redirect_from: /socioeconomic-data/data_description
+redirect_from: /socioeconomic-data/data-description
 rdmkit:
   - name:
     url:

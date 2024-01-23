@@ -4,8 +4,8 @@ description: Referencing your sources (citations and recognition of contribution
 contributors: []
 no_robots: true
 search_exclude: true
-page_id: hbd_provenance 
-redirect_from: /human-biomolecular-data/provenance 
+page_id: hbd_attributing_credit
+redirect_from: /human-biomolecular-data/attributing-credit 
 rdmkit:
   - name:
     url:

@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_attributing_credit
-redirect_from: /socioeconomic-data/attributing_credit
+redirect_from: /socioeconomic-data/attributing-credit
 rdmkit:
   - name:
     url:

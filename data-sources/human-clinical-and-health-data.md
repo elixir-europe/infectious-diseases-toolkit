@@ -3,7 +3,7 @@ title: Human clinical and health data
 description: Finding and sharing data from human clinical and health data related data sources.
 contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero, Laura Portell Silva]
 page_id: hchd_data_sources
-redirect_from: /human-clinical-and-health-data/data_sources
+redirect_from: /human-clinical-and-health-data/data-sources
 rdmkit:
   - name:
     url:

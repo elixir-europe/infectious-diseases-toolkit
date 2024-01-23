@@ -3,7 +3,7 @@ title: Pathogen characterisation
 description: General considerations for pathogen characterization quality control.
 contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest]
 page_id: pc_quality_control
-redirect_from: /pathogen-characterisation/quality_control
+redirect_from: /pathogen-characterisation/quality-control
 rdmkit:
   - name:
     url:

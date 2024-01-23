@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_quality_control
-redirect_from: /socioeconomic-data/quality_control
+redirect_from: /socioeconomic-data/quality-control
 rdmkit:
   - name:
     url:

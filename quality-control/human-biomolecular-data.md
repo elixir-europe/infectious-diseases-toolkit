@@ -5,7 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hbd_quality_control
-redirect_from: /human-biomolecular-data/quality_control
+redirect_from: /human-biomolecular-data/quality-control
 rdmkit:
   - name:
     url:
