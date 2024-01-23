@@ -25,11 +25,21 @@ training:
 
 <!--- In this section you should provide a brief overview of the context that makes Showcase necessary. It is useful to mention the projects under which the showcase was created, the involved research infrastructures, and the disease it is meant to tackle --->
 
+As a life-science data Research Infrastructure in Europe, ELIXIR contributes to increasing publicly available COVID-19-related data. This showcase highlights the commitment of ELIXIR Belgium in supporting the submission of SARS-CoV-2 nucleotide sequences to public repositories.
+The (ENA) data submission toolbox simplifies the submission of sequence data, including raw reads and assembled sequences, for researchers. European Nucleotide Archive (ENA) is a fully open repository dedicated to storing raw sequencing data, assemblies, and annotation data.
 ## What is the SHOWCASE?
 
 <!--- In this section you should provide a brief description of what the showcase is i.e. what it comprises of and a general description for it.  --->
 <!--- Start with a graphical representation of the showcase, with a caption and an alternative text (alt). The graphical representation should be a diagram showing the different standards, tools, data sources that are used to tackle the challenge. The diagram should show how these different modules connect with one another  --->
 {% include image.html file="" caption="Figure 1. " alt="" %}
+
+
+ENA submission toolbox is comprised of three tools:
+The ‘ENA upload CLI’: a command line tool to register studies and samples and submit raw read data to the ENA.
+The ‘Galaxy ENA upload tool’: a Galaxy wrapper of the above (1.) tool. 
+A Galaxy consensus submission tool: a wrapper of ENA Webin-CLI (the only ENA tool that allows programmatic submission of consensus sequences for all sample types)
+Together with other tools available in Galaxy, tools 2 and 3 make a one-stop solution for the submission of SARS-CoV-2 (and other species) data and metadata to the ENA using Galaxy. The Galaxy platform has a graphical user interface and includes our tools for raw read submission (based on the command line tool), cleaning of human reads, consensus sequence assembly and the submission of these consensus sequences to ENA.
+
 
 ENA submission toolbox is comprised of three tools:
 
@@ -40,11 +50,40 @@ ENA submission toolbox is comprised of three tools:
 THe Galaxy tools are shipped in a [Docker container]() which deploys a Galaxy instance containing a tool to clean human reads from the raw reads.
 
 
+The ELIXIR Belgium COVID-19 Data Submission Showcase provides tools and workflows for:
+
+Cleaning and Submitting Raw Sequence Reads: Utilize Galaxy tools to remove human traces from SARS-CoV-2 sequences and submit raw reads to ENA.
+
+Genome Analysis Workflows: Access COVID-19 variant discovery and consensus building workflows for Illumina WGS, amplicon, and ONT amplicon data.
+
+Consensus Submission to ENA: Seamlessly submit SARS-CoV-2 consensus data to ENA using the Galaxy ENA consensus submission tool.
+
+The Tools
+Human Reads Cleaning Tool
+Comply with GDPR by removing human genetic information from raw data using the Metagen-FastQC Galaxy tool.
+
+ENA Reads Submission Tool (Command Line)
+Simplify bioinformaticians' submission process with a Python CLI that generates XML files and handles FTP uploading.
+
+Galaxy ENA Reads Submission Tool
+A user-friendly Galaxy tool for researchers without informatics experience to submit sequences to ENA.
+
+COVID-19 Genome Analysis Workflows
+Includes variant discovery and consensus building workflows for diverse sequencing data types.
+
+Galaxy ENA Consensus Submission Tool
+A Galaxy wrapper for the ENA Webin-CLI submission tool, facilitating the submission of SARS-CoV-2 consensus data.
+
+Galaxy Docker Container
+All tools and workflows are included in a custom Galaxy Docker container for easy deployment.
+
+
 ## Who is the SHOWCASE intended for?
 
 <!--- In this section you should provide a brief account of the target audience or intended users for the showcase --->
 People who want to submit RAW The tools are designed to be compatible with all ENA sample checklists which cover a brought spectrum within the data life sciences. Find out which sample checklist would apply to your submission on the [ENA website](https://www.ebi.ac.uk/ena/browser/checklists)
 
+The showcase is intended for researchers, bioinformaticians, and anyone involved in contributing to the global effort against the COVID-19 pandemic. Whether you're an experienced bioinformatician or a researcher with limited informatics background, our tools and workflows cater to your needs.
 
 ## What can you use the SHOWCASE for?
  
