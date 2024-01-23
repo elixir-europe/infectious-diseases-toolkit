@@ -1,13 +1,13 @@
 ---
-title: <!---REPLACE THIS with full country name in English--->
+title: Estonia
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
-country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+country_code: EE
+contributors: [hedi-ee,diana-pilvar]
 
 # Link to other pages in showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
 related_pages:
-  showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
+  showcase: [korogenoest]
 
 training:
   - name: 
@@ -48,20 +48,39 @@ national_resources:
 <!---Please focus on resources that are relevant for the whole country for infectious diseases--->
 
 ## Introduction 
-<!---General Infectious diseases data considerations for your country--->
+In Estonia, the infectious disease data is mostly collected by The Health Board.
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
 
 ## Disease surveillance initiatives
+Wastewater surveillance was set up by the researchers of the University of Tartu (ref Tenson) and taken over by the Health Board by DATE. 
+Prevalence study 
+KorogenoEst
 
 ## Dashboards and visualization platforms
 
+[koroona.ut.ee](https://koroona.ut.ee/)  Data still updated (as of page publication, 25.01.2024)
+[https://www.terviseamet.ee/et/reoveeseire-kaardirakendus](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) Data still updated (as of page publication, 25.01.2024)
+[https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine) Data still updated (as of page publication, 25.01.2024)
+[https://www.terviseamet.ee/et/koroonaviirus/koroonakaart ](https://www.terviseamet.ee/en/coronavirus-dataset) 
+[https://koroonakaart.ee/en ](https://koroonakaart.ee/en) Last data update: 02.05.2023
+[postimees](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu) Last data update 01.05.2023
+[https://covid19dataportal.ee/genomics_transcriptomics/](https://covid19dataportal.ee/genomics_transcriptomics/) Last data update: 20.03.2023
+
+
+
 ## National data sources
 <!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
+[opendata](https://opendata.digilugu.ee/docs/#/)
+Covid-19 vaccination data
+SARS-CoV-2 testing data
+Covid-19 hospitalisation data
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
+[https://ut.ee/en/node/113848](Research Ethics Committee of the University of Tartu)
+[https://en.tai.ee/en/about-us/tallinn-medical-research-ethics-commitee](Research Ethics Committee of the National Institute for Health Development (NIHD REC)) 
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
