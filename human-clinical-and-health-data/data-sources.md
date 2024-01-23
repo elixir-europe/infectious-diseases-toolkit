@@ -82,8 +82,8 @@ Data repositories and catalogues are important tools for promoting data sharing 
 * {% tool "info-gateway" %}: The European Health Information Gateway is a platform that provides access to various health information resources and datasets from across Europe, including data on health systems, health determinants, and health outcomes.
 * {% tool "ecrin-tools" %}: ECRIN is a non-profit organisation that aims to support multinational clinical trials in Europe. ECRIN provides a range of tools and services to help researchers design, conduct, and manage clinical trials across multiple countries. 
 * {% tool "health-portal" %}: The aim of the Health Information Portal is to provide access to population health and healthcare data across Europe. The portal is a gateway for researchers and policy makers to make use of the services of the {% tool "phiri" %}. The portal provides access to various resources and datasets, such as data on health determinants, health outcomes and health systems
-* The {% tool "beacon" %}, as an API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. .
-* The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform.
+* {% tool "beacon" %}: An API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. .
+* {% tool "covid-19-data-portal" %}: Tool that facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform.
 
 In addition to the European resources, there are many resources available at a national level that are very useful as well.
 * {% tool "data-bfarm" %} in Germany.
