@@ -46,7 +46,7 @@ Some considerations for analysing human biomolecular data of infectious diseases
     - Providing your workflows
     - Providing your data analysis execution
 
-When looking for solutions to some of the considerations above, you may have a look at the documentation available on the [RDMkit website](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) documentation.
+When looking for solutions to some of the considerations above, you may have a look at the information available on the [RDMkit website](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis).
 
 ### Existing approaches
 
