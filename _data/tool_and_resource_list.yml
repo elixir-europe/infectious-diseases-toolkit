@@ -808,7 +808,7 @@
   url: https://gateway.euro.who.int/en/
 - description: ECRIN develops, contributes to, and maintains freely accessible tools that facilitate the identification of clinical trial objects, data sharing, access to regulatory and methodological designs and much more to support researchers looking to conduct multinational clinical research.
   id: ecrin-tools
-  name: European Clinical Research Infrastructure Network (ECRIN)
+  name: European Clinical Research Infrastructure Network (ECRIN) tools
   url: https://ecrin.org/
 - description: The Health Information Portal provides access to population health and healthcare data across Europe.
   id: health-portal
