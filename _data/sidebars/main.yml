@@ -1,89 +1,38 @@
 title: Main
 title_url: /index
 subitems:
-  - title: Pathogen characterisation
-    url: /pathogen-characterisation/
+  - title: Attributing credit
+    url: /attributing-credit/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /pathogen-characterisation/attributing-credit
-      - title: Data analysis
-        url: /pathogen-characterisation/data-analysis
-      - title: Data communication
-        url: /pathogen-characterisation/data-communication
-      - title: Data description
-        url: /pathogen-characterisation/data-description
-      - title: Data sources
-        url: /pathogen-characterisation/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /pathogen-characterisation/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /pathogen-characterisation/provenance
-      - title: Quality control
-        url: /pathogen-characterisation/quality-control
-
-  - title: Socioeconomic data
-    image_url: /assets/img/section-icons/users-viewfinder-duotone.svg
-    url: /socioeconomic-data/
+  - title: Data analysis
+    url: /data-analysis/
+    image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /socioeconomic-data/attributing-credit
-      - title: Data analysis
-        url: /socioeconomic-data/data-analysis
-      - title: Data communication
-        url: /socioeconomic-data/data-communication
-      - title: Data description
-        url: /socioeconomic-data/data-description
-      - title: Data sources
-        url: /socioeconomic-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /socioeconomic-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /socioeconomic-data/provenance
-      - title: Quality control
-        url: /socioeconomic-data/quality-control
-
-  - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-person-duotone.svg
-    url: /human-biomolecular-data/
+  - title: Data communication
+    url: /data-communication/
+    image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /human-biomolecular-data/attributing-credit
-      - title: Data analysis
-        url: /human-biomolecular-data/data-analysis
-      - title: Data communication
-        url: /human-biomolecular-data/data-communication
-      - title: Data description
-        url: /human-biomolecular-data/data-description
-      - title: Data sources
-        url: /human-biomolecular-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /human-biomolecular-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /human-biomolecular-data/provenance
-      - title: Quality control
-        url: /human-biomolecular-data/quality-control
-
-  - title: Human clinical and health data
-    image_url: /assets/img/section-icons/hospital-user-duotone.svg
-    url: /human-clinical-and-health-data/
+  - title: Data description
+    url: /data-description/
+    image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /human-clinical-and-health-data/attributing-credit
-      - title: Data analysis
-        url: /human-clinical-and-health-data/data-analysis
-      - title: Data communication
-        url: /human-clinical-and-health-data/data-communication
-      - title: Data description
-        url: /human-clinical-and-health-data/data-description
-      - title: Data sources
-        url: /human-clinical-and-health-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /human-clinical-and-health-data/provenance
-      - title: Quality control
-        url: /human-clinical-and-health-data/quality-control
+  - title: Data sources
+    url: /data-sources/
+    image_url: /assets/img/section-icons/disease-duotone.svg
+    subitems:
+  - title: Ethical Legal and Social Issues
+    url: /ethical-legal-and-social-issues/
+    image_url: /assets/img/section-icons/disease-duotone.svg
+    subitems:
+  - title: Provenance
+    url: /provenance/
+    image_url: /assets/img/section-icons/disease-duotone.svg
+    subitems:
+  - title: Quality control
+    url: /quality-control/
+    image_url: /assets/img/section-icons/disease-duotone.svg
+    subitems:
 
   - title: Showcase
     hr: true
