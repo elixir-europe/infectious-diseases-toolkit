@@ -5,34 +5,98 @@ subitems:
     url: /attributing-credit/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /attributing-credit/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /attributing-credit/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /attributing-credit/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /attributing-credit/socioeconomic-data
   - title: Data analysis
     url: /data-analysis/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /data-analysis/human-biomolecular-data
+      - title: Human clinical and health data
+        url: tools-and-resources-listhuman-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: tools-and-resources-listpathogen-characterisation
+      - title: Socioeconomic data
+        url: tools-and-resources-listsocioeconomic-data
   - title: Data communication
     url: /data-communication/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /data-communication/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /data-communication/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /data-communication/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /data-communication/socioeconomic-data
   - title: Data description
     url: /data-description/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /data-description/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /data-description/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /data-description/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /data-description/socioeconomic-data
   - title: Data sources
     url: /data-sources/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /data-sources/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /data-sources/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /data-sources/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /data-sources/socioeconomic-data
   - title: Ethical Legal and Social Issues
     url: /ethical-legal-and-social-issues/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /ethical-legal-and-social-issues/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /ethical-legal-and-social-issues/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /ethical-legal-and-social-issues/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /ethical-legal-and-social-issues/socioeconomic-data
   - title: Provenance
     url: /provenance/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /provenance/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /provenance/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /provenance/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /provenance/socioeconomic-data
   - title: Quality control
     url: /quality-control/
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
+      - title: Human biomolecular data
+        url: /quality-control/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /quality-control/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /quality-control/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /quality-control/socioeconomic-data
 
   - title: Showcase
     hr: true
