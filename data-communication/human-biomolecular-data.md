@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hbd_data_communication
+redirect_from: /human-biomolecular-data/data_communication
 rdmkit:
   - name:
     url:

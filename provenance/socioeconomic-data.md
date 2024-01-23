@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_provenance
+redirect_from: /socioeconomic-data/provenance
 rdmkit:
   - name:
     url:

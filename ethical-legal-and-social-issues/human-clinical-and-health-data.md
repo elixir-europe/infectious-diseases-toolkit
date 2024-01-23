@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hchd_elsi
+redirect_from: /human-clinical-and-health-data/elsi
 rdmkit:
   - name:
     url:

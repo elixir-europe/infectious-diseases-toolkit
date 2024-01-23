@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: pc_attributing_credit
+redirect_from: /pathogen-characterisation/attributing_credit
 rdmkit:
   - name:
     url:

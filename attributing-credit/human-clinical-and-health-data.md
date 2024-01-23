@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hchd_attributing_credit
+redirect_from: /human-clinical-and-health-data/attributing_credit
 rdmkit:
   - name:
     url:

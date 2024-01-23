@@ -3,6 +3,7 @@ title: Pathogen characterisation
 description: Finding (meta)data standards and documentation.
 contributors: [Wolmar Nyberg Åkerström, Zahra Waheed, Liane Hughes, Flora D'Anna, Patricia Palagi, Wolfgang Maier, Diana Pilvar, Rafael Andrade Buono]
 page_id: pc_data_description
+redirect_from: /pathogen-characterisation/data_description
 rdmkit:
   - name: "Your tasks: Documentation and metadata"
     url: https://rdmkit.elixir-europe.org/metadata_management

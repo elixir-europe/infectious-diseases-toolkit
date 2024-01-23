@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hbd_data_description
+redirect_from: /human-biomolecular-data/data_description
 rdmkit:
   - name:
     url:

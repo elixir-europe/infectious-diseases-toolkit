@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: sed_data_analysis
+redirect_from: /socioeconomic-data/data_analysis
 rdmkit:
   - name:
     url:

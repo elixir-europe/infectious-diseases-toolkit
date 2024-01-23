@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: pc_data_analysis
+redirect_from: /pathogen-characterisation/data_analysis
 rdmkit:
   - name:
     url:

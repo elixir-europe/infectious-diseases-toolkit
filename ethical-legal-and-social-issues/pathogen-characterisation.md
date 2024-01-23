@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: pc_elsi
+redirect_from: /pathogen-characterisation/elsi
 rdmkit:
   - name:
     url:

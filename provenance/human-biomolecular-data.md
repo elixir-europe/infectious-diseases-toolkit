@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hbd_provenance
+redirect_from: /human-biomolecular-data/provenance
 rdmkit:
   - name:
     url:

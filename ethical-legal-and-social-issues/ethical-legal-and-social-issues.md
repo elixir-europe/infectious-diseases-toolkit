@@ -5,6 +5,7 @@ contributors: []
 no_robots: true
 search_exclude: true
 page_id: hbd_elsi
+redirect_from: /human-biomolecular-data/elsi
 rdmkit:
   - name:
     url:
