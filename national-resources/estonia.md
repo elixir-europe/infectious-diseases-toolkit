@@ -63,19 +63,19 @@ Hoia äpp
 ## Dashboards and visualization platforms
 
 [koroona.ut.ee](https://koroona.ut.ee/)  Data still updated (as of page publication, 25.01.2024)
-[https://www.terviseamet.ee/et/reoveeseire-kaardirakendus](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) Data still updated (as of page publication, 25.01.2024)
-[https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine) Data still updated (as of page publication, 25.01.2024)
+[Wastewater map](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) Data still updated (as of page publication, 25.01.2024)
+[SARS-CoV-2 sequencing results](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine) Data still updated (as of page publication, 25.01.2024)
 [https://www.terviseamet.ee/et/koroonaviirus/koroonakaart ](https://www.terviseamet.ee/en/coronavirus-dataset) 
-[https://koroonakaart.ee/en ](https://koroonakaart.ee/en) Last data update: 02.05.2023
-[postimees](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu) Last data update 01.05.2023
-[https://covid19dataportal.ee/genomics_transcriptomics/](https://covid19dataportal.ee/genomics_transcriptomics/) Last data update: 20.03.2023
+[Corona map](https://koroonakaart.ee/en) Last data update: 02.05.2023
+[Corona statistics at the Postimees news site](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu) Last data update 01.05.2023
+[Public dashboard on SARS-CoV-2 sequencing results for 2021-2022](https://covid19dataportal.ee/genomics_transcriptomics/) Last data update: 20.03.2023
 
 
 
 ## National data sources
 <!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
-Estonia started to share SARS-CoV-2 testing data openly from the beginning of pandemics in Estonia in March 2020. The first tests were conducted in Febryary 2020 and as of January 2024 the test statistics is still regularly published on the dedicated [https://opendata.digilugu.ee/docs/#/] (opendata page). The files contain data on:
-* (https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme)[Covid-19 vaccination], shared at different levels of detail (updated once per day):
+Estonia started to share SARS-CoV-2 testing data openly from the beginning of pandemics in Estonia in March 2020. The first tests were conducted in Febryary 2020 and as of January 2024 the test statistics is still regularly published on the dedicated [opendata page](https://opendata.digilugu.ee/docs/#/). The files contain data on:
+* [Covid-19 vaccination](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme), shared at different levels of detail (updated once per day):
   - Nationwide data
   - Coverage by age groups
   -  Coverage by county
@@ -83,13 +83,13 @@ Estonia started to share SARS-CoV-2 testing data openly from the beginning of pa
   -  Coverage by age group by municipality
   -  Coverage by age group by administrative unit
   -  Statistics about institutions which carry out vaccinations
-* (https://opendata.digilugu.ee/docs/#/en/opendata/covid19/test/readme)[SARS-CoV-2 testing], shared at different levels of detail (updated once per day):
+* [SARS-CoV-2 testing](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/test/readme), shared at different levels of detail (updated once per day):
   - Nationwide positive cases
   - Testresults
   - Average age of cases
   - Location-based statistics
   - County total statistics
-* (https://opendata.digilugu.ee/docs/#/en/opendata/covid19/hospitalization/readme)[Covid-19 hospitalisations],  shared at different levels of detail (last data shared on 02.05.2023).
+* [Covid-19 hospitalisations](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/hospitalization/readme),  shared at different levels of detail (last data shared on 02.05.2023).
   - Average age of patients
   - Time of patients hospitalisation
   - Age and gender profile of patients
