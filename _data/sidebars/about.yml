@@ -13,12 +13,8 @@ subitems:
     url: /about/contact
   - title: News
     url: /about/news
-  - title: Events
-    url: /about/events
   - title: Media kit
     url: /about/media-kit
-  - title: Outreach
-    url: /about/outreach
   - title: Accessibility
     url: /about/accessibility
   - title: Privacy
