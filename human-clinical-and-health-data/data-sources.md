@@ -3,7 +3,7 @@ title: Data sources
 description: Finding and sharing data from human clinical and health data related data sources.
 contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero, Laura Portell Silva]
 page_id: hchd_data_sources
-related_pages: 
+related_pages:
 human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
 human_clinical_and_health_data: [hchd_data_analysis]
 training:
@@ -17,6 +17,8 @@ rdmkit:
   url: https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data
 - name: Identifiers
   url: https://rdmkit.elixir-europe.org/identifiers
+- name: GDPR compliance
+  url: https://rdmkit.elixir-europe.org/gdpr_compliance
 faircookbook:
 - name:
   url:
