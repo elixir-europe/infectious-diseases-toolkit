@@ -1,5 +1,5 @@
 ---
-title: Data description
+title: Socioeconomic data
 description: Finding (meta)data standards and documentation.
 contributors: []
 no_robots: true

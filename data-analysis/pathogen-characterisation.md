@@ -1,5 +1,5 @@
 ---
-title: Data analysis
+title: Pathogen characterisation
 description: Generic workflows for different data types.
 contributors: []
 no_robots: true

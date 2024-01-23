@@ -1,5 +1,5 @@
 ---
-title: Provenance
+title: Socioeconomic data
 description: Tracking data and analysis steps.
 contributors: []
 no_robots: true

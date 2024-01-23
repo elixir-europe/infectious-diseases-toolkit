@@ -1,5 +1,5 @@
 ---
-title: Attributing credit
+title: Pathogen characterisation
 description: Referencing your sources (citations and recognition of contributions).
 contributors: []
 no_robots: true

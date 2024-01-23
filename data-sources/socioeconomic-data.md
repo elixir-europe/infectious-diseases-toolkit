@@ -1,5 +1,5 @@
 ---
-title: Data sources
+title: Socioeconomic data
 description: Finding and sharing data for socioeconomic related data sources.
 contributors: [Simon Saldner, Laura Portell Silva, Rafael Andrade Buono, Mari Kleemola, Dimitra Kondyli, Markus Tuominen, Vasso Kalaitzi]
 page_id: sed_data_sources

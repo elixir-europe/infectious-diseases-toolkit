@@ -1,5 +1,5 @@
 ---
-title: Quality control
+title: Socioeconomic data
 description: Tools and methods to assess quality.
 contributors: []
 no_robots: true

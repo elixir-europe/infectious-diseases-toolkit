@@ -1,5 +1,5 @@
 ---
-title: Data sources
+title: Human biomolecular data
 description: Finding and sharing data for human biomolecular related data sources.
 contributors: [Aina Jené Cortada, Arnau Soler Costa]
 page_id: hbd_data_sources

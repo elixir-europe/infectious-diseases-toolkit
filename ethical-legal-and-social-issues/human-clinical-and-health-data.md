@@ -1,5 +1,5 @@
 ---
-title: Ethical Legal and Social Issues
+title: Human clinical and health data
 description: Legal and ethical aspects and how to deal with them.
 contributors: []
 no_robots: true

@@ -1,5 +1,5 @@
 ---
-title: Data sources
+title: Pathogen characterisation
 description: Finding and sharing data for pathogen characterisation related data sources.
 contributors: []
 no_robots: true

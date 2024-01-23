@@ -1,5 +1,5 @@
 ---
-title: Data communication
+title: Pathogen characterisation
 description: Producing visualisations and reports.
 contributors: []
 no_robots: true

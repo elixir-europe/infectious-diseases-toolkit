@@ -1,5 +1,5 @@
 ---
-title: Data analysis
+title: Socioeconomic data
 description: Generic workflows for different data types.
 contributors: []
 no_robots: true

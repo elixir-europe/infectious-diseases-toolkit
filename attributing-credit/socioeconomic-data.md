@@ -1,5 +1,5 @@
 ---
-title: Attributing credit
+title: Socioeconomic data
 description: Referencing your sources (citations and recognition of contributions).
 contributors: []
 no_robots: true

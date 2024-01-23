@@ -1,5 +1,5 @@
 ---
-title: Provenance
+title: Human clinical and health data
 description: Tracking data and analysis steps.
 contributors: [Rudolf Wittner, Stian Soiland-Reyes, Simone Leo]
 page_id: hchd_provenance

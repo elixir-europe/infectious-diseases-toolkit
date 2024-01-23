@@ -1,5 +1,5 @@
 ---
-title: Data communication
+title: Socioeconomic data
 description: Producing visualisations and reports.
 contributors: []
 no_robots: true
