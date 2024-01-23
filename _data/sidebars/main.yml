@@ -13,6 +13,7 @@ subitems:
         url: /attributing-credit/pathogen-characterisation
       - title: Socioeconomic data
         url: /attributing-credit/socioeconomic-data
+
   - title: Data analysis
     url: /data-analysis/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -25,6 +26,7 @@ subitems:
         url: /data-analysis/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-analysis/tsocioeconomic-data
+
   - title: Data communication
     url: /data-communication/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -37,6 +39,7 @@ subitems:
         url: /data-communication/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-communication/socioeconomic-data
+        
   - title: Data description
     url: /data-description/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -49,6 +52,7 @@ subitems:
         url: /data-description/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-description/socioeconomic-data
+
   - title: Data sources
     url: /data-sources/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -61,6 +65,7 @@ subitems:
         url: /data-sources/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-sources/socioeconomic-data
+
   - title: Ethical Legal and Social Issues
     url: /ethical-legal-and-social-issues/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -73,6 +78,7 @@ subitems:
         url: /ethical-legal-and-social-issues/pathogen-characterisation
       - title: Socioeconomic data
         url: /ethical-legal-and-social-issues/socioeconomic-data
+
   - title: Provenance
     url: /provenance/
     image_url: /assets/img/section-icons/disease-duotone.svg
@@ -85,6 +91,7 @@ subitems:
         url: /provenance/pathogen-characterisation
       - title: Socioeconomic data
         url: /provenance/socioeconomic-data
+
   - title: Quality control
     url: /quality-control/
     image_url: /assets/img/section-icons/disease-duotone.svg
