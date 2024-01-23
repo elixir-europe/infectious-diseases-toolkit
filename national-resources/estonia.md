@@ -74,15 +74,15 @@ Hoia äpp
 
 ## National data sources
 <!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
-Estonia started to share SARS-CoV-2 testing data openly from the beginning of pandemics in Estonia in March 2020. The first tests were conducted in Febryary 2020 and as of January 2024 the test statistics is still regularly published on the dedicated [https://opendata.digilugu.ee/docs/#/](opendata page). The files contain data on:
-* Covid-19 vaccination, shared at different levels of detail (updated once per day):
-- Nationwide data
-- Coverage by age groups
--  Coverage by county
--  Coverage by age group and county
--  Coverage by age group by municipality
--  Coverage by age group by administrative unit
--  Statistics about institutions which carry out vaccinations
+Estonia started to share SARS-CoV-2 testing data openly from the beginning of pandemics in Estonia in March 2020. The first tests were conducted in Febryary 2020 and as of January 2024 the test statistics is still regularly published on the dedicated [https://opendata.digilugu.ee/docs/#/] (opendata page). The files contain data on:
+* [https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme] (Covid-19 vaccination), shared at different levels of detail (updated once per day):
+  - Nationwide data
+  - Coverage by age groups
+  -  Coverage by county
+  -  Coverage by age group and county
+  -  Coverage by age group by municipality
+  -  Coverage by age group by administrative unit
+  -  Statistics about institutions which carry out vaccinations
 * SARS-CoV-2 testing, shared at different levels of detail (updated once per day):
 - Nationwide positive cases
 - Testresults
