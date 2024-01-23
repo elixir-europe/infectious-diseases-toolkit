@@ -1,7 +1,7 @@
 ---
 title: Data sources
 description: Finding and sharing data from human clinical and health data related data sources.
-contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero]
+contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero, Laura Portell Silva]
 page_id: hchd_data_sources
 related_pages: 
 human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
