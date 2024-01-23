@@ -31,7 +31,9 @@ So, if this is what you are looking for, look no further!
 
 ### What is considered as human clinical and health data and why is it important for infectious diseases research?
 
-Human clinical and health data are personal data related to the health status of a natural person (e.g., diagnosis, treatment, laboratory test results). In the context of infectious diseases, human clinical and health data are often collected in the context of surveillance or through the provision of health care services. This data is indispensable to make decisions regarding health and management of infectious diseases. As such, it is crucial to know where to find and access it in order to eventually transform the data into usable information and knowledge. 
+Human clinical and health data are personal data related to the health status of a natural person (Figure 1). In the context of infectious diseases, human clinical and health data are often collected in the context of surveillance or through the provision of health care services. This data is indispensable to make decisions regarding health and management of infectious diseases. As such, it is crucial to know where to find and access it in order to eventually transform the data into usable information and knowledge.
+
+{% include image.html file="Different_health_data_sources.png" alt="Health data types" caption="Figure 1. Data types related to the health status of a natural person (e.g., diagnosis, treatment, laboratory test results)" %}
 
 ## Data organisation
 
