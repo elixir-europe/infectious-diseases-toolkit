@@ -25,7 +25,7 @@ subitems:
       - title: Pathogen characterisation
         url: /data-analysis/pathogen-characterisation
       - title: Socioeconomic data
-        url: /data-analysis/tsocioeconomic-data
+        url: /data-analysis/socioeconomic-data
 
   - title: Data communication
     url: /data-communication/
@@ -39,7 +39,7 @@ subitems:
         url: /data-communication/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-communication/socioeconomic-data
-        
+
   - title: Data description
     url: /data-description/
     image_url: /assets/img/section-icons/disease-duotone.svg
