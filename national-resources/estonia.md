@@ -57,8 +57,8 @@ In Estonia, the infectious disease data is mostly collected by [https://www.terv
 ## Disease surveillance initiatives
 Wastewater surveillance was set up by the researchers of the University of Tartu (ref Tenson) and taken over by the Health Board by DATE. 
 Prevalence study 
-KorogenoEst
-Hoia äpp
+* SARS-CoV-2 sequencing was started at the University of Tartu in 2020. The KoroGenoEst projects, also described as a Showcase, led by the University of Tartu, were run till January 2023. During the three years, 8990 samples were analysed all together. Since 2023, the Health Board took over the SARS-CoV-2 sequencing analysis.
+* In August 2020, a COVID-tracking app called Hoia was launched. The app tracked contacts by capturing Bluetooth signals from nearby phones, and if the signal was close and frequent enough, anonymous codes were collected and stored on the phone. If a person with the HOIA app becomes infected, they could alert the app, and those who were considered to have been in close contact with that person were immediately notified. The app was used by 300 000 people but was decommissioned in May 2022.
 
 ## Dashboards and visualization platforms
 
