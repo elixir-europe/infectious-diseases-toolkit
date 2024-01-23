@@ -62,13 +62,15 @@ Prevalence study
 
 ## Dashboards and visualization platforms
 
-[koroona.ut.ee](https://koroona.ut.ee/)  Data still updated (as of page publication, 25.01.2024)
-[Wastewater map](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) Data still updated (as of page publication, 25.01.2024)
-[SARS-CoV-2 sequencing results](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine) Data still updated (as of page publication, 25.01.2024)
-[https://www.terviseamet.ee/et/koroonaviirus/koroonakaart ](https://www.terviseamet.ee/en/coronavirus-dataset) 
-[Corona map](https://koroonakaart.ee/en) Last data update: 02.05.2023
-[Corona statistics at the Postimees news site](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu) Last data update 01.05.2023
+* [koroona.ut.ee](https://koroona.ut.ee/) Multiple dashboards using opendata provided by the Health Board. 
+* [Wastewater map](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus). Weekly updated wastewater surveillance data since August 2021. 
+* [SARS-CoV-2 sequencing results from Health Boaard](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine). Since January 2023, the Health Board has taken over the coronavirus sequencing from the University of Tartu and developed the accompanying interactive dashboards. 
+* [Health Board coronavirus dashboards](https://www.terviseamet.ee/en/coronavirus-dataset). Official dashboards of the Health Board. The page includes several visualisations using infection, infected individual profiles, hospital treatment and vaccination data.
+* [Corona map](https://koroonakaart.ee/en). An interactive dashboard for SARS-CoV-2 testing and vaccination data. Last data update: 02.05.2023
+* [Corona statistics at the Postimees news site](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu). The major newspaper Postimees updated daily the SARS-CoV-2 statistics using the open data from the Health Board. Last data update: 01.05.2023
 [Public dashboard on SARS-CoV-2 sequencing results for 2021-2022](https://covid19dataportal.ee/genomics_transcriptomics/) Last data update: 20.03.2023
+*[Infectious analysis by Krista Fischer](https://www-1.ms.ut.ee/krista/covid/covid_pildid.html) using open data from the Health Board. Last updated on 14.09.2022
+*[Model predictions by Mario Kadastik](https://covid.hep.kbfi.ee/) Using model forecasts, predictive calculations were performed to find the hospitalisation, the intensive care unit and the death toll predictions. All the values are estimated, and if the actual reproduction number (R value) and the model forecast differ, it was expected that the forecast would also be different from reality. The page was last updated on 17.04.2023
 
 
 
