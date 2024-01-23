@@ -1,6 +1,7 @@
 ---
 title: Preview changes
 summary: Use your own fork to preview changes on the website.
+search_exclude: true
 ---
 
 ## Introduction

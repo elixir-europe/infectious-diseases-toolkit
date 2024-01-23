@@ -1,8 +1,9 @@
 ---
 title: Data communication
-description: Producing visualisations and reports
+description: Producing visualisations and reports.
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hchd_data_communication
 rdmkit:
   - name:

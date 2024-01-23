@@ -23,7 +23,7 @@ training:
 
 This page provides an introduction to socioeconomic data for infectious disease research. It details the relevance and use cases of such data, provides an overview of important sources of socioeconomic data, as well as how it can complement other data sources such as human clinical and health data.
 
-## What is socioeconomics data, and why is it important for infectious diseases research?
+### What is socioeconomics data, and why is it important for infectious diseases research?
 
 Social science research is devoted to studying societal phenomena, social changes and the impact on the individuals. The discipline includes branches such as political science, psychology, economics, and sociology, among several others. All disciplines of social sciences have a common ground of producing knowledge around the study of various aspects of human action and cultural interaction.
 

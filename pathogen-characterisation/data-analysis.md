@@ -1,8 +1,9 @@
 ---
 title: Data analysis
-description: Generic workflows for different data types
+description: Generic workflows for different data types.
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: pc_data_analysis
 rdmkit:
   - name:

@@ -1,6 +1,7 @@
 ---
 title: Editorial board guide
 summary: This guide is there to help editors.
+search_exclude: true
 ---
 
 ## All you need to know about this GitHub repository

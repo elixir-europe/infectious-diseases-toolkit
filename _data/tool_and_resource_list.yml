@@ -105,6 +105,7 @@
   name: ClustalW
   registry:
     biotools: clustalw
+    tess: ClustalW
   url: https://github.com/coldfunction/CUDA-clustalW
 - description: An open standard for describing workflows that are build from command line tools
   id: common-workflow-language
@@ -135,7 +136,7 @@
   id: cromwell
   name: Cromwell
   url: https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/
-- description: Reference implementatio to provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
+- description: Reference implementation to provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
   id: cwltool
   name: cwltool
   url: https://pypi.org/project/cwltool/
@@ -161,7 +162,7 @@
     fairsharing: 88v2k0
     tess: dbGaP
   url: https://www.ncbi.nlm.nih.gov/gap/
-- description: A comprehensive database of transcript-specific functional predictions and annotations for human nonsynonymous and splice-site SNVs
+- description: A comprehensive database of transcript-specific functional predictions and annotations for human non-synonymous and splice-site SNVs
   id: dbnsfp
   name: dbNSFP
   registry:
@@ -252,7 +253,7 @@
   id: estonian-biobank
   name: Estonian Biobank
   url: https://genomics.ut.ee/en/content/estonian-biobank
-- description: Estonian instance of the COVID-19 Data Portal. Among other informaiton, served Estonian SARS-CoV-2 sequencing dashboards.
+- description: Estonian instance of the COVID-19 Data Portal. Among other information, served Estonian SARS-CoV-2 sequencing dashboards.
   id: estonian-covid-19-data-portal
   name: Estonian COVID-19 Data Portal
   url: https://covid19dataportal.ee/
@@ -264,12 +265,12 @@
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
-- description: fairsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
+- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
   id: fairsharing
-  name: fairsharing
+  name: FAIRsharing
   registry:
     fairsharing: 2abjs5
-    tess: fairsharing
+    tess: FAIRsharing
   url: https://fairsharing.org/
 - description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers. Metadata in figshare is licenced under is CC0. figshare has also partnered with DuraSpace and Chronopolis to offer further assurances that public data will be archived under the stewardship of Chronopolis. figshare is supported through Institutional, Funder, and Governmental service subscriptions.
   id: figshare
@@ -360,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: '530e61'
+    fairsharing: 530e61
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -493,6 +494,7 @@
   name: MUSCLE
   registry:
     biotools: muscle
+    tess: MUSCLE
   url: https://github.com/rcedgar/muscle
 - description: MZmine 3 is an open-source software for mass-spectrometry data processing, with the main focus on LC-MS data.
   id: mzmine
@@ -729,3 +731,62 @@
   id: sars-cov2-data-hubs
   name: SARS-CoV-2 Data Hubs
   url: https://www.covid19dataportal.org/data-hubs
+- description: A quality control tool for high throughput sequence data.
+  id: fastqc
+  name: FASTQC
+  registry:
+    biotools: fastqc
+    tess: FASTQC
+  url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+- description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
+  id: samtools
+  name: SAMtools
+  registry:
+    biotools: samtools
+    tess: SAMtools
+  url: http://www.htslib.org/
+- description: MultiQC searches a given directory for analysis logs and compiles a HTML report.
+  id: multiqc
+  name: MultiQC
+  registry:
+    biotools: multiqc
+    tess: MultiQC
+  url: https://multiqc.info/
+- description: VCFtools is a program package designed for working with VCF files.
+  id: vcftools
+  name: VCFtools
+  registry:
+    biotools: vcftools
+  url: https://vcftools.sourceforge.net/
+- description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
+  id: gisaid
+  name: Global Initiative on Sharing All Influenza Data (GISAID)
+  registry:
+    fairsharing: 2f7f9f
+  url: https://gisaid.org
+- description: The Pathogens Portal Cohort Browser presents discovery metadata of infectious disease cohort datasets and provides links to the associated datasets within ELIXIR Core Data Resources; search and filtering functionalities enable users to identify cohort studies of interest in a convenient manner.
+  id: pathogens-cohort-browser
+  name: Pathogens Portal Cohort Browser
+  url: https://www.pathogensportal.org/cohorts
+- description: The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured archives at EMBL-EBI. The database can accept a wide range of types of studies described via a simple format. It also enables manuscript authors to submit supplementary information and link to it from the publication.
+  id: biostudies
+  name: BioStudies
+  registry:
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: BioStudies
+  url: https://www.ebi.ac.uk/biostudies/
+- description: The ISARIC-WHO Case Report Forms (CRFs) should be used to collect data on individuals presenting with suspected or confirmed COVID-19, with the aim to standardise clinical data to improve patient care and inform the public health response.
+  id: isaric-covid-19-crf
+  name: ISARIC COVID-19 Case Report Form
+  registry:
+    fairsharing: 1ece03
+  url: https://isaric.org/document/covid-19-crf/
+- description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
+  id: swedish-pathogens-portal
+  name: Swedish Pathogens Portal
+  url: https://pathogens.se
+- description: The Pathogens Portal, launched in July 2023, is an invaluable resource for researchers, clinicians, and policymakers who need access to the latest and most comprehensive datasets on pathogens. The portal is a collaborative effort between the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) and partners.
+  id: pathogens-portal
+  name: Pathogens Portal
+  url: https://www.pathogensportal.org

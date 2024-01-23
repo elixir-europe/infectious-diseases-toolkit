@@ -1,8 +1,9 @@
 ---
 title: Quality control
-description: Tools and methods to assess quality
+description: Tools and methods to assess quality.
 contributors: []
 no_robots: true
+search_exclude: true
 page_id: hchd_quality_control
 rdmkit:
   - name:

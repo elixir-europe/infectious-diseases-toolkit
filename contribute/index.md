@@ -1,5 +1,6 @@
 ---
 title: How to contribute to the Infectious Diseases Toolkit website
+search_exclude: true
 ---
 
 
