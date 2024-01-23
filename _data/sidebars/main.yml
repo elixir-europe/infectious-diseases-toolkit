@@ -3,7 +3,7 @@ title_url: /index
 subitems:
   - title: Attributing credit
     url: /attributing-credit/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/quote-left-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /attributing-credit/human-biomolecular-data
@@ -16,7 +16,7 @@ subitems:
 
   - title: Data analysis
     url: /data-analysis/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/chart-simple-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /data-analysis/human-biomolecular-data
@@ -29,7 +29,7 @@ subitems:
 
   - title: Data communication
     url: /data-communication/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/paper-plane-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /data-communication/human-biomolecular-data
@@ -42,7 +42,7 @@ subitems:
 
   - title: Data description
     url: /data-description/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /data-description/human-biomolecular-data
@@ -55,7 +55,7 @@ subitems:
 
   - title: Data sources
     url: /data-sources/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/magnifying-glass-chart-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /data-sources/human-biomolecular-data
@@ -68,7 +68,7 @@ subitems:
 
   - title: Ethical Legal and Social Issues
     url: /ethical-legal-and-social-issues/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/fingerprint-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /ethical-legal-and-social-issues/human-biomolecular-data
@@ -94,7 +94,7 @@ subitems:
 
   - title: Quality control
     url: /quality-control/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/stars-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /quality-control/human-biomolecular-data
