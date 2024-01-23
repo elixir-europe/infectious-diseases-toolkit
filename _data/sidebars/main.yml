@@ -20,11 +20,11 @@ subitems:
       - title: Human biomolecular data
         url: /data-analysis/human-biomolecular-data
       - title: Human clinical and health data
-        url: tools-and-resources-listhuman-clinical-and-health-data
+        url: /data-analysis/human-clinical-and-health-data
       - title: Pathogen characterisation
-        url: tools-and-resources-listpathogen-characterisation
+        url: /data-analysis/pathogen-characterisation
       - title: Socioeconomic data
-        url: tools-and-resources-listsocioeconomic-data
+        url: /data-analysis/tsocioeconomic-data
   - title: Data communication
     url: /data-communication/
     image_url: /assets/img/section-icons/disease-duotone.svg
