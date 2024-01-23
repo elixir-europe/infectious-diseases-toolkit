@@ -59,19 +59,19 @@ As human clinical and health data encompasses sensitive personal data, it requir
 
 * When selecting data sources for your research, it is important to consider their **reliability, relevance**, and **completeness**. Are the data sources trustworthy and up-to-date? Are they relevant to the infectious disease in question and do they have the right data to answer your research question? Are the data sources complete, or are there gaps that need to be taken into account?
 * Human clinical and health data can be collected in the form of:
-    * electronic health records;
-    * hospital data;
-    * pharmacy data;
-    * laboratory and test result data;
-    * disease registries;
-    * insurance claim data;
-    * mortality data;
-    * survey data;
-    * consumer data.
-* Depending on how the data is collected, the data can be found across different sources and data holders.
-    * National Institutes of Public Health.
-    * Electronic health records at hospitals or other healthcare providers.
-    * International organisations (e.g., ECDC, WHO).
+    * electronic health records
+    * hospital data
+    * pharmacy data
+    * laboratory and test result data
+    * disease registries
+    * insurance claim data
+    * mortality data
+    * survey data
+    * consumer data
+* Depending on how the data is collected, the data can be found across different sources and data holders, for example:
+    * National Institutes of Public Health;
+    * Electronic health records at hospitals or other healthcare providers;
+    * International organisations (e.g., ECDC, WHO);
     * Research data networks and consortia.
 
 * **Metadata catalogues:**
@@ -89,13 +89,13 @@ Data repositories and catalogues are important tools for promoting data sharing 
 * {% tool "beacon" %}: An API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. .
 * {% tool "covid-19-data-portal" %}: Tool that facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform.
 
-In addition to the European resources, there are many resources available at a national level that are very useful as well.
-* {% tool "data-bfarm" %} in Germany.
-* {% tool "danish-gateway" %} in Denmark. 
-* {% tool "irish-catalogue" %} in Ireland.
-* {% tool "portugal-catalogue" %} in Portugal.
-* {% tool "findata" %} in Finland.
-* {% tool "french-hub" %} in France.
+In addition to the European resources, there are many resources available at a national level that are very useful as well, for example:
+* {% tool "data-bfarm" %} in Germany;
+* {% tool "danish-gateway" %} in Denmark; 
+* {% tool "irish-catalogue" %} in Ireland;
+* {% tool "portugal-catalogue" %} in Portugal;
+* {% tool "findata" %} in Finland;
+* {% tool "french-hub" %} in France;
 * {% tool "hdr-uk" %} in the UK. 
 
 An overview of additional existing international approaches (not necessarily applicable to Europe) for the sharing and reusing of human data can be found at the [RDMkit](https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data).
@@ -111,8 +111,8 @@ As human clinical and health data contain sensitive personal information, they a
 The first step to access data is figuring out the access procedures. Generally, access to sensitive data is granted on a request basis, that is linked to the secondary purposes (a purpose that is different from the original for which the data were collected) of a specific research project. The research protocol of the research project that is requesting data access is generally evaluated by a research ethics committee (REC) and/or a Data Protection Agency (DPA).
 
 Currently, the process for accessing human clinical and health data varies widely between countries, and even between data holders within countries, as health data are often fragmented between many data controllers. Nonetheless, some countries have moved towards centralised data access bodies (i.e., a single point of entry for health data). This is important as it can reduce the burden on users to get access to sensitive data by having less heterogeneous procedures. Examples include:
-* {% tool "findata" %} in Finland.
-* {% tool "french-hub" %} in France.
+* {% tool "findata" %} in Finland;
+* {% tool "french-hub" %} in France;
 * {% tool "hdr-uk" %} in the UK. 
   
 #### How access is provided
