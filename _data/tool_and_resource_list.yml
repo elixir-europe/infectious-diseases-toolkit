@@ -804,9 +804,11 @@
   url: https://www.ecdc.europa.eu/en
 - description: The European Health Information Gateway is a platform that provides access to various health information resources and datasets from across Europe, including data on health systems, health determinants, and health outcomes.
   id: info-gateway
+  name: The European Health Information Gateway
   url: https://gateway.euro.who.int/en/
-- description: ECRIN is a non-profit organisation that aims to support multinational clinical trials in Europe.
-  id: ecrin
+- description: ECRIN develops, contributes to, and maintains freely accessible tools that facilitate the identification of clinical trial objects, data sharing, access to regulatory and methodological designs and much more to support researchers looking to conduct multinational clinical research.
+  id: ecrin-tools
+  name: European Clinical Research Infrastructure Network (ECRIN)
   url: https://ecrin.org/
 - description: The Health Information Portal provides access to population health and healthcare data across Europe.
   id: health-portal

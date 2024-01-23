@@ -55,37 +55,37 @@ As human clinical and health data encompasses sensitive personal data, it requir
 
 * When selecting data sources for your research, it is important to consider their **reliability, relevance**, and **completeness**. Are the data sources trustworthy and up-to-date? Are they relevant to the infectious disease in question and do they have the right data to answer your research question? Are the data sources complete, or are there gaps that need to be taken into account?
 * Human clinical and health data can be collected in the form of:
-    * Electronic health records
-    * Hospital data
-    * Pharmacy data
-    * Laboratory and test result data
-    * Disease registries
-    * Insurance claim data
-    * Mortality data
-    * Survey data
-    * Consumer data
-* Depending on how the data is collected, the data can be found across different sources and data holders, for example:
-    * National Institutes of Public Health
-    * Electronic health records at hospitals or other healthcare providers
-    * International organisations (e.g., ECDC, WHO)
-    * Research data networks and consortia
+    * electronic health records;
+    * hospital data;
+    * pharmacy data;
+    * laboratory and test result data;
+    * disease registries;
+    * insurance claim data;
+    * mortality data;
+    * survey data;
+    * consumer data.
+* Depending on how the data is collected, the data can be found across different sources and data holders.
+    * National Institutes of Public Health.
+    * Electronic health records at hospitals or other healthcare providers.
+    * International organisations (e.g., ECDC, WHO).
+    * Research data networks and consortia.
 
 * **Metadata catalogues:**
 As human clinical and health data are organised differently across countries and controlled by different institutes, they can be difficult to find if good metadata are not published. Publicly available metadata catalogues can provide a solution by providing a central place where data users can see what data is available, where it is available, and how they can access it.
 
 ### Existing approaches
 
-Data repositories and catalogues are important tools for promoting data sharing and reuse in research. They can help researchers and other users discover (and access) data that might otherwise be difficult to find. Here are some resources that can be useful for you when looking for a place to deposit your data or looking for data for your researcher:
+Data repositories and catalogues are important tools for promoting data sharing and reuse in research. They can help researchers and other users discover (and access) data that might otherwise be difficult to find. Here are some resources that can be useful for you when looking for a place to deposit your data or looking for data for your researcher.
 * {% tool "ega" %}: The European Genome-phenome Archive (EGA) is a service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data generated for the purposes of biomedical research projects or in the context of research-focused healthcare systems. It provides access to a variety of datasets from Europe and beyond.
 * {% tool "ema" %}: EMA is a regulatory agency responsible for evaluating and approving medicines for use in Europe. It provides access to various databases and reports on clinical trials, adverse drug reactions, and other aspects of drug safety and efficacy.
 * {% tool "ecdc" %}: ECDC collects and analyses data on infectious diseases across Europe. It provides access to various databases and reports on disease outbreaks, surveillance data, and risk assessments.
 * {% tool "info-gateway" %}: The European Health Information Gateway is a platform that provides access to various health information resources and datasets from across Europe, including data on health systems, health determinants, and health outcomes.
-* {% tool "ecrin" %}: ECRIN is a non-profit organisation that aims to support multinational clinical trials in Europe. ECRIN provides a range of services to help researchers design, conduct, and manage clinical trials across multiple countries. 
+* {% tool "ecrin-tools" %}: ECRIN is a non-profit organisation that aims to support multinational clinical trials in Europe. ECRIN provides a range of tools and services to help researchers design, conduct, and manage clinical trials across multiple countries. 
 * {% tool "health-portal" %}: The aim of the Health Information Portal is to provide access to population health and healthcare data across Europe. The portal is a gateway for researchers and policy makers to make use of the services of the {% tool "phiri" %}. The portal provides access to various resources and datasets, such as data on health determinants, health outcomes and health systems
 * The {% tool "beacon" %}, as an API (usually extended with a user interface) that allows for data discovery of phenoclinic and biomolecular data. .
 * The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform.
 
-In addition to the European resources, there are many resources available at a national level that are very useful as well:
+In addition to the European resources, there are many resources available at a national level that are very useful as well.
 * {% tool "data-bfarm" %} in Germany.
 * {% tool "danish-gateway" %} in Denmark. 
 * {% tool "irish-catalogue" %} in Ireland.
@@ -102,28 +102,30 @@ As human clinical and health data contain sensitive personal information, they a
 
 ### Considerations
 
+#### Access procedures
+
 The first step to access data is figuring out the access procedures. Generally, access to sensitive data is granted on a request basis, that is linked to the secondary purposes (a purpose that is different from the original for which the data were collected) of a specific research project. The research protocol of the research project that is requesting data access is generally evaluated by a research ethics committee (REC) and/or a Data Protection Agency (DPA).
 
 Currently, the process for accessing human clinical and health data varies widely between countries, and even between data holders within countries, as health data are often fragmented between many data controllers. Nonetheless, some countries have moved towards centralised data access bodies (i.e., a single point of entry for health data). This is important as it can reduce the burden on users to get access to sensitive data by having less heterogeneous procedures. Examples include:
-  * [Findata](https://findata.fi/en/) in Finland
-  * [Health Data Hub](https://www.health-data-hub.fr/) in France
-  * [Health Research Data UK](https://www.hdruk.ac.uk/)
+* {% tool "findata" %} in Finland.
+* {% tool "french-hub" %} in France.
+* {% tool "hdr-uk" %} in the UK. 
   
-* **How access is provided**
+#### How access is provided
 
-Across the European Union, three main data access procedures were identified for the secondary use of health data, as described in the [‘Assessment of the EU Member States’ rules on health data in the light of GDPR’](https://op.europa.eu/s/yLde):
-* Access is granted after authorisation by research ethics committee (REC) or data protection agency (DPA)
-* The data controller provides direct access without engagement of an ethics committee or DPA being required
+Across the European Union, three main data access procedures were identified for the secondary use of health data, as described in the [‘Assessment of the EU Member States’ rules on health data in the light of GDPR’](https://op.europa.eu/s/yLde).
+* Access is granted after authorisation by research ethics committee (REC) or data protection agency (DPA).
+* The data controller provides direct access without engagement of an ethics committee or DPA being required.
 * Centralised governance body exists in some form
 Nonetheless, the exact procedure will depend on the nature of the research, on how the data are organised within a country  and on the institute that is doing the research. The personal and sensitive nature of health data in turn can impose further requirements when data are reused for research. For example, to ensure that an individual is not re-identified, data are usually pseudonymised (identifiers are replaced with a pseudonym) or anonymised (removing all identifiers so the individual can no longer be identified). Another method to protect sensitive health data is to only allow processing and analysing data within secure processing environments (SPEs), also known as Trusted Research Environments (TREs).
 
-* **Fees**
+#### Fees
 
 Sometimes fees are charged to access data. Generally, these fees are charged to cover work required for any necessary data processing prior to providing access to data users (e.g., if data needs to be pseudonymised or aggregated). In addition, if data are provided within a secure processing environment (SPE) or trusted research environment (TRE), fees may be charged to support the running of the environment. 
 
 ### Existing approaches
 
-* **Research infrastructures**
+#### Research infrastructures
 
 Several health-related research infrastructures (RIs) have been established in Europe, the objective of which is to support researchers by providing resources and services for the research community in their field. One of the ways RIs provide support to researchers is in facilitating access to data. 
 Some examples are:
@@ -132,9 +134,7 @@ Some examples are:
 * [ELIXIR](https://elixir-europe.org/), which coordinates and develops life science services across Europe within a single infrastructure.
 * [ECRIN](https://ecrin.org/), which facilitates researchers to set up and conduct multinational clinical trials in Europe.
   
-* **European Health Data Space (EHDS)**
+#### European Health Data Space (EHDS)
 
-In May 2022, the European Commission published a legislative proposal on the [European Health Data Space (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en), with the aim of facilitating the use and re-use of health data in Europe, to improve patient care as well as research and policymaking. One of the objectives of the EHDS is to facilitate access to health data within and across countries, by streamlining access processes. The EHDS proposal states that data holders have the duty to make certain categories of personal health data available for secondary use.
+In May 2022, the European Commission published a legislative proposal on the {% tool "ehds" %}, with the aim of facilitating the use and re-use of health data in Europe, to improve patient care as well as research and policymaking. One of the objectives of the EHDS is to facilitate access to health data within and across countries, by streamlining access processes. The EHDS proposal states that data holders have the duty to make certain categories of personal health data available for secondary use.
 There is currently no standard procedure for the data access application process. This is why the EHDS legislation aims to have a coordinated application procedure across the EU to reduce the complexity and as such facilitate data access and research.
-
-
