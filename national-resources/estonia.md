@@ -74,8 +74,8 @@ Hoia äpp
 
 ## National data sources
 <!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
-Estonia started to share SARS-CoV-2 testing data openly from the beginning of pandemics in Estonia in March 2020. The first tests were conducted in Febryary 2020 and as of January 2024 the test statistics is still regularly published on the dedicated [opendata page](https://opendata.digilugu.ee/docs/#/). The files contain data on:
-* [Covid-19 vaccination](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme), shared at different levels of detail (updated once per day):
+Estonia started to share SARS-CoV-2 testing data openly from the beginning of the pandemic in Estonia in March 2020. The first tests were conducted in February 2020, and as of January 2024, the test statistics are still regularly published on the dedicated Health and Welfare Information Systems Centre of Estonia [opendata page](https://opendata.digilugu.ee/docs/#/). The files need to be downloaded for further usage and should not be directly integrated into websites. The files contain data on:
+* [Covid-19 vaccination files](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme) (updated once per day):
   - Nationwide data
   - Coverage by age groups
   -  Coverage by county
@@ -83,13 +83,13 @@ Estonia started to share SARS-CoV-2 testing data openly from the beginning of pa
   -  Coverage by age group by municipality
   -  Coverage by age group by administrative unit
   -  Statistics about institutions which carry out vaccinations
-* [SARS-CoV-2 testing](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/test/readme), shared at different levels of detail (updated once per day):
+* [SARS-CoV-2 testing files](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/test/readme) (updated once per day):
   - Nationwide positive cases
   - Testresults
   - Average age of cases
   - Location-based statistics
   - County total statistics
-* [Covid-19 hospitalisations](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/hospitalization/readme),  shared at different levels of detail (last data shared on 02.05.2023).
+* [Covid-19 hospitalisations files](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/hospitalization/readme) (last data shared on 02.05.2023).
   - Average age of patients
   - Time of patients hospitalisation
   - Age and gender profile of patients
@@ -99,8 +99,7 @@ All the data above is shared both in json and csv formats.
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
-[https://ut.ee/en/node/113848](Research Ethics Committee of the University of Tartu)
-[https://en.tai.ee/en/about-us/tallinn-medical-research-ethics-commitee](Research Ethics Committee of the National Institute for Health Development (NIHD REC)) 
+In Estonia, a research plan that involves human subjects needs to be approved by an ethics board. The two general ethics boards that researchers can apply to are [(Research Ethics Committee of the University of Tartu](https://ut.ee/en/node/113848) and [Research Ethics Committee of the National Institute for Health Development](https://en.tai.ee/en/about-us/tallinn-medical-research-ethics-commitee).
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
