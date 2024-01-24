@@ -119,7 +119,7 @@ genomic SARS-CoV-2 monitoring](https://www.ecdc.europa.eu/sites/default/files/do
 ## NGS data analysis
 ### Considerations
 
-After the sequence generation stage, the actual analysis of the data takes place (see [Pathogen characterisation - Data analysis](/pathogen-characterisation/data-analysis)). Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
+After the sequence generation stage, the actual analysis of the data takes place (see [Data analysis - Pathogen characterisation](/data-analysis/pathogen-characterisation)). Depending on the type of approach (targeted vs untargeted) there are slight differences to the main steps. However, regardless of the approach, the first step is always quality assessment of the data, for which there are commonly used tools, as the ones indicated in the following section.
 
 ### Existing approaches
 For the overall quality (first step of the data analysis), there are some standardised tools (such as {% tool "fastqc" %}, {% tool "multiqc" %}) that can offer such an assessment that is domain agnostic. Key considerations are sufficient quality per nucleotide / read and overall mapping across the target pathogens (in case of targeted approaches).

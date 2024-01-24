@@ -97,7 +97,7 @@ Despite the growing amount of infectious disease data stored in various sources,
 - **Data sharing platforms**: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the {% tool "covid-19-data-portal" %}.
 - **Data privacy and security**: Privacy and security protocols must be in place to protect sensitive biomolecular data from unauthorised access.
 - **National regulations**: Taking into account the National regulations and the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) rules.
-- **Data quality**: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Human biomolecular data - Quality control](/human-biomolecular-data/quality-control) page.
+- **Data quality**: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Quality control - Human biomolecular data](/quality-control/human-biomolecular-data) page.
 - **Data storage and management**: Proper data storage and management practices must be followed to ensure that biomolecular data is organised and easily accessible to relevant parties.
 - **Metadata**: Metadata should be included with biomolecular data to provide context and facilitate search and discoverability.
 - **Collaboration**: Collaboration between data producers, curators, and users can promote effective search and discoverability of biomolecular data related to infectious diseases.

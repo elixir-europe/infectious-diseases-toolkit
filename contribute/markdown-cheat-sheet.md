@@ -192,7 +192,7 @@ When linking to an external site, use:
 When linking to internal pages, you can manually link to the pages like this:
 
 ```md
-[Data Analysis](/pathogen-characterisation/data-analysis)
+[Pathogen characterisation](/data-analysis/pathogen-characterisation)
 ```
 Will link to the planning page.
 

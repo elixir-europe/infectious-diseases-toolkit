@@ -75,7 +75,7 @@ Here are some common considerations involved in data preprocessing:
 
 Preprocessing could be done using the state of art bioinformatics tools and/or programming languages that have different functions and packages to work and process this kind of data. For example, Python, RStudio or using Command-Line, are different approaches to enable the user performing all the necessary and wanted steps to do the desired preprocessing pipeline/protocol. 
 
-When looking for quality control protocols, see [Human biomolecular data - Quality control](/human-biomolecular-data/quality-control) page.
+When looking for quality control protocols, see [Quality control - Human biomolecular data ](/quality-control/human-biomolecular-data) page.
 
 ## Analysis
 
