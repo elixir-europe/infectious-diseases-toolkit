@@ -89,3 +89,4 @@
 - name: "New page: National resources Estonia"
   description: A new national resources page for infectious diseases-related data sources and actions in Estonia. [Discover the page here](/national-resources/estonia)
   date: 2024-01-24
+  linked_pr: 270
