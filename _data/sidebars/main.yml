@@ -93,6 +93,8 @@ subitems:
     subitems:
       - title: Belgium
         url: /national-resources/belgium
+      - title: Estonia
+        url: /national-resources/estonia
       - title: Netherlands
         url: /national-resources/netherlands
       - title: Norway
