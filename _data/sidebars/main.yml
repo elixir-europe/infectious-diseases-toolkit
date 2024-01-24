@@ -6,56 +6,28 @@ subitems:
     description: Referencing your sources (citations and recognition of contributions)
     image_url: /assets/img/section-icons/quote-left-duotone.svg
     subitems:
-      - title: Human biomolecular data
-        url: /attributing-credit/human-biomolecular-data
-      - title: Human clinical and health data
-        url: /attributing-credit/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /attributing-credit/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /attributing-credit/socioeconomic-data
 
   - title: Data analysis
     url: /data-analysis/
     description: Generic workflows for different data types
-    image_url: /assets/img/section-icons/chart-simple-duotone.svg
+    image_url: /assets/img/section-icons/chart-line-duotone.svg
     subitems:
       - title: Human biomolecular data
         url: /data-analysis/human-biomolecular-data
-      - title: Human clinical and health data
-        url: /data-analysis/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /data-analysis/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /data-analysis/socioeconomic-data
 
   - title: Data communication
     url: /data-communication/
     description: Producing visualisations and reports
     image_url: /assets/img/section-icons/paper-plane-duotone.svg
     subitems:
-      - title: Human biomolecular data
-        url: /data-communication/human-biomolecular-data
-      - title: Human clinical and health data
-        url: /data-communication/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /data-communication/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /data-communication/socioeconomic-data
 
   - title: Data description
     url: /data-description/
     description: Finding (meta)data standards and documentation
     image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
-      - title: Human biomolecular data
-        url: /data-description/human-biomolecular-data
-      - title: Human clinical and health data
-        url: /data-description/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /data-description/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /data-description/socioeconomic-data
 
   - title: Data sources
     url: /data-sources/
@@ -66,8 +38,6 @@ subitems:
         url: /data-sources/human-biomolecular-data
       - title: Human clinical and health data
         url: /data-sources/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /data-sources/pathogen-characterisation
       - title: Socioeconomic data
         url: /data-sources/socioeconomic-data
 
@@ -78,26 +48,14 @@ subitems:
     subitems:
       - title: Human biomolecular data
         url: /ethical-legal-and-social-issues/human-biomolecular-data
-      - title: Human clinical and health data
-        url: /ethical-legal-and-social-issues/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /ethical-legal-and-social-issues/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /ethical-legal-and-social-issues/socioeconomic-data
 
   - title: Provenance
     url: /provenance/
     description: Tracking data and analysis steps
-    image_url: /assets/img/section-icons/disease-duotone.svg
+    image_url: /assets/img/section-icons/signs-post-duotone.svg
     subitems:
-      - title: Human biomolecular data
-        url: /provenance/human-biomolecular-data
       - title: Human clinical and health data
         url: /provenance/human-clinical-and-health-data
-      - title: Pathogen characterisation
-        url: /provenance/pathogen-characterisation
-      - title: Socioeconomic data
-        url: /provenance/socioeconomic-data
 
   - title: Quality control
     url: /quality-control/
@@ -119,14 +77,8 @@ subitems:
     url: /showcase/
     description: Applied examples of handling infectious disease data
     subitems:
-      - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
-        url:  /showcase/covid19-galaxy
-      - title: Linked Cohort Data
-        url: /showcase/linked-cohort-data
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
         url:  /showcase/korogenoest
-      - title: The Swedish Pathogens Portal
-        url:  /showcase/swedish-pathogens-portal
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg
