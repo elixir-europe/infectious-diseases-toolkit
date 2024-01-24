@@ -92,6 +92,4 @@ Participant nodes: Sciensano (Belgium), IACS (Spain), THL (Finland), and GÖG (A
 We also want to acknowledge the participation and feedback from Vasso Kalaitzi (KNAW/DANS), Claudia Habl (GÖG), Gunter Maier (GÖG), Mirjam Knol (RIVM), Chantal Reusken (RIVM), Mariken Tijhuis (RIVM), Leon Schutte (RIVM), Kati Kristiansson (THL), Pekka Jousilahti (THL), Jostein Starrfelt (NIPH), Hinta Meijerink (NIPH).
 
 
-### Support
-
 <!-- Describe how the showcase is funded or supported. -->
