@@ -19,7 +19,7 @@ Sequencing initiatives in Estonia began in Spring 2020. The KoroGeno-EST-3 and K
 
 This showcase provides a high-level overview of the full workflow that was used to monitor the SARS-CoV-2 situation in Estonia by sequencing a proportion of positive PCR samples in the country. The showcase can be beneficial for a general overview but also trigger contact with research groups or health boards that need to set up their automatic data handling and sequencing pipelines.
 
-## What is the SHOWCASE?
+## What is the showcase?
 
 {% include image.html file="/KoroGenoEst_graphicalabstract.jpeg" caption="The figure illustrates major analysis steps carried out in Estonia to sequence and analyse SARS-CoV-2 PCR positive samples" alt="In Estonia the SARS-CoV-2 sequencing was carried out by University of Tartu in collaboration with the SYNLAB Eesti and Health Board Estonia. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. The central data storage was at GitLab instance at the University of Tartu. The University of Tartu research groups merged the data, created plate information files for sequencing, collecting the sequencing results, generated custom reports, interactive dashboards and brokered data to ENA. In addition to data sequenced in Estonia, also data from ECDC was analysed in similar manner to provide accurate overview of the situation." %}
 
