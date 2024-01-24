@@ -4,6 +4,7 @@ description: Generic workflows for different data types.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: sed_data_analysis
 redirect_from: /socioeconomic-data/data-analysis
 rdmkit:

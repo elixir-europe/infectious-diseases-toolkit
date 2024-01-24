@@ -4,6 +4,7 @@ description: Tools and methods to assess quality.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: hchd_quality_control
 redirect_from: /human-clinical-and-health-data/quality-control
 rdmkit:

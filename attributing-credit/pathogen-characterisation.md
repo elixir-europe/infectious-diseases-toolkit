@@ -4,6 +4,7 @@ description: Referencing your sources (citations and recognition of contribution
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: pc_attributing_credit
 redirect_from: /pathogen-characterisation/attributing-credit
 rdmkit:

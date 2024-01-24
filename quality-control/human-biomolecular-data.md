@@ -4,6 +4,7 @@ description: Tools and methods to assess quality.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: hbd_quality_control
 redirect_from: /human-biomolecular-data/quality-control
 rdmkit:

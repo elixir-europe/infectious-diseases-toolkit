@@ -4,6 +4,7 @@ description: Generic workflows for different data types.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: hchd_data_analysis
 redirect_from: /human-clinical-and-health-data/data-analysis
 rdmkit:

@@ -4,6 +4,7 @@ description: Tracking data and analysis steps.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: pc_provenance
 redirect_from: /pathogen-characterisation/provenance
 rdmkit:

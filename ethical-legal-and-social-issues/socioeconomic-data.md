@@ -4,6 +4,7 @@ description: Legal and ethical aspects and how to deal with them.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: sed_elsi
 redirect_from: /socioeconomic-data/elsi
 rdmkit:

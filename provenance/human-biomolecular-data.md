@@ -4,6 +4,7 @@ description: Tracking data and analysis steps.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: hbd_provenance
 redirect_from: /human-biomolecular-data/provenance
 rdmkit:

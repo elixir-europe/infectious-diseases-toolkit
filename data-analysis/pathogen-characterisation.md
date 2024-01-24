@@ -4,6 +4,7 @@ description: Generic workflows for different data types.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: pc_data_analysis
 redirect_from: /pathogen-characterisation/data-analysis
 rdmkit:

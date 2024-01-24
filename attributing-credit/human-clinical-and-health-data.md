@@ -4,6 +4,7 @@ description: Referencing your sources (citations and recognition of contribution
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: hchd_attributing_credit
 redirect_from: /human-clinical-and-health-data/attributing-credit
 rdmkit:

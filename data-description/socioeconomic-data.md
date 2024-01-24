@@ -4,6 +4,7 @@ description: Finding (meta)data standards and documentation.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: sed_data_description
 redirect_from: /socioeconomic-data/data-description
 rdmkit:

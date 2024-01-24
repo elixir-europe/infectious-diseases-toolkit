@@ -4,6 +4,7 @@ description: Producing visualisations and reports.
 contributors: []
 no_robots: true
 search_exclude: true
+sitemap: false
 page_id: pc_data_communication
 redirect_from: /pathogen-characterisation/data-communication
 rdmkit:
