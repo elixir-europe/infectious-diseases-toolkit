@@ -64,19 +64,19 @@
   expose: true
   type: institution
   url: https://www.iacs.es/
-  - name: THL
+- name: THL
   image_url: /images/institutions/Finnish_Institute_for_Health_and_Welfare_logo.png
   pid:
   expose: true
   type: institution
   url: https://thl.fi/
-  - name: GOG
+- name: GOG
   image_url: /images/institutions/goeg_logo_305x58_0.png
   pid:
   expose: true
   type: institution
   url: https://goeg.at/
-  - name: Sciensano
+- name: Sciensano
   image_url: /images/institutions/sciensano_logo_225w.png
   pid:
   expose: true
