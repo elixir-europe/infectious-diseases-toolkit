@@ -19,7 +19,7 @@ Cohort studies produce invaluable data typically including a range of different 
 Here we describe the first example of linking and sharing a multi-omics SARS-CoV-2 cohort dataset with multiple time points, via the European Molecular Biology Laboratory-European Bioinformatics Institute’s (EMBL-EBI) infrastructure. 
 
 
-## Who is the SHOWCASE intended for?
+## Who is the showcase intended for?
 
 This showcase is intended for any group who would like to FAIRly share cohort study data, and would like to better understand how this can be performed. More broadly, the linking mechanism described below is applicable to any group whose research involves different types of molecular data being obtained from the same biological sample. 
 The showcase will also be useful for those wishing to access linked clinical and multi-omics data from cohort studies. 
@@ -57,7 +57,7 @@ While the BioSamples database is key to capturing the linking of data types on a
 
 The Cohort Browser lists discovery metadata of cohort studies and provides links to the available data types. Where possible, basic aggregate data are also included and future search and filtering functionality will allow users to locate datasets of interest. 
 
-## What can you use the SHOWCASE for?
+## What can you use the showcase for?
 
 - this showcase provides a proof of concept for linking and sharing of entire cohort datasets in line with FAIR principles, with data sharing being as open as possible and as closed as necessary. 
 - this showcase provides the first public, cohort study example of linking different biological data types, at the sample-level, across dedicated archives.
