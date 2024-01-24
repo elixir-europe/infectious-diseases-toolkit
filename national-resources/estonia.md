@@ -53,7 +53,7 @@ This page gathers COVID-19 disease data initiatives, dashboards, and datasets th
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
-In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) (HB) and made publicly available as open data. The Health Board also provides guidelines:
+In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) and made publicly available as open data. The Health Board also provides guidelines:
 * for the health authorities (all guidelines in Estonian)
   * [Monkeypox guidelines for healthcare workers](https://www.terviseamet.ee/et/ahvirougete-juhised-tervishoiutootajatele)
   * [Hospital infections](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/haiglanakkus)
@@ -67,11 +67,11 @@ The Health Board provides further information regarding infectious diseases on i
 
 
 ## Disease surveillance initiatives
-During the COVID-19 pandemic, the need for additional surveillance data became pressing. With scientists being able to ensure rapid development and implementation of new methodologies, the following initiaves were implemented in cooperation with the University of Tartu:
+During the COVID-19 pandemic, the need for additional surveillance data became pressing. With scientists being able to ensure rapid development and implementation of new methodologies, the following initiatives were implemented in cooperation with the University of Tartu:
 
-* [__Wastewater surveillance__](https://ut.ee/en/node/113141) was set up in August 2020 [by the researchers of the University of Tartu](https://ut.ee/en/node/113141) (prof Tanel Tenson and Veljo Kisand) and taken over [by the Health Board](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) in 2022. Based on data from Estonia, it was observed that the viral load in wastewater increased before a rise in the number of infected people was observed. Furthermore, in certain places such as dormitories and prisons, the viral load increase was used to predict outbreaks. In conclusion, wastewater studies had an additional value when infection rates are on the rise or decline, but not during a plateau.
+* [__Wastewater surveillance__](https://ut.ee/en/node/113141) was set up in August 2020 [by the researchers of the University of Tartu](https://ut.ee/en/node/113141) (prof Tanel Tenson and Veljo Kisand) and taken over [by the Health Board](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) in 2022. Based on data from Estonia, it was observed that the viral load in wastewater increased before a rise in the number of infected people was observed. Furthermore, in certain places such as dormitories and prisons, the viral load increase was used to predict outbreaks. In conclusion, wastewater studies had an additional value when infection rates were on the rise or decline, but not during a plateau.
 * [__Prevalence of SARS-CoV-2 IgG antibodies.__](https://covid19dataportal.ee/en/data_types/serology/data/) The determination of antibodies allowed for a retrospective assessment of the outbreak's extent and is an important tool for assessing the extent of population immunity. In Estonia, two seroepidemiological studies were conducted in the spring and late summer of 2020 (Koro-Sero-EST 1 end 2). Moving forward, the determination of antibodies was incorporated into the prevalence study.
-* [__Prevalence study.__](https://ut.ee/en/content/study-prevalence-coronavirus-estonia) The primary objectives of active surveillance were to evaluate the widespread presence of SARS-CoV-2 and the prevalence of antibodies. The first stage of the surveillance study took place from April 22nd to 29th, 2020. Adults from all over Estonia were invited to participate in the study based on a random sampling. In total, 33 stages were carried out, with each stage involving 2000 - 2500 participants. The percentage of infected individuals fluctuated from less than 1% during the first wave to over 10% during the fourth wave. Active surveillance provided the most objective overview of the extent of virus presence in Estonia. First stages of the prevalence study have been published by [Uusküla et al 2022](https://doi.org/10.1016%2Fj.puhe.2022.02.004).
+* [__Prevalence study.__](https://ut.ee/en/content/study-prevalence-coronavirus-estonia) The primary objectives of active surveillance were to evaluate the widespread presence of SARS-CoV-2 and the prevalence of antibodies. The first stage of the surveillance study took place from April 22nd to 29th, 2020. Adults from all over Estonia were invited to participate in the study based on a random sampling. In total, 33 stages were carried out, each involving 2000 - 2500 participants. The percentage of infected individuals fluctuated from less than 1% during the first wave to over 10% during the fourth wave. Active surveillance provided the most objective overview of the extent of virus presence in Estonia. The first stages of the prevalence study have been published by [Uusküla et al 2022](https://doi.org/10.1016%2Fj.puhe.2022.02.004).
 * [__SARS-CoV-2 sequencing__](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) was initiated at the University of Tartu in 2020. The KoroGenoEst projects 1-3, also described as a [Showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest), led by the University of Tartu, continued their operations up until January 2023. Over three years, a total of 8,990 samples were analyzed. From 2023 onwards, the Health Board assumed responsibility for the sequencing analysis of SARS-CoV-2.
 * [__HOIA__](https://e-estonia.com/estonias-coronavirus-app-hoia-the-product-of-a-unique-private-public-partnership/) was a COVID-tracking app launched in August 2020. The app tracked contacts by capturing Bluetooth signals from nearby phones. If the signal was close and frequent enough, anonymous codes were collected and stored on the phone. If a person with the HOIA app became infected, they could alert the app, and those who were considered to have been in close contact with that person were immediately notified. The app was used by 300 000 people but was decommissioned in May 2022.
 
@@ -90,8 +90,8 @@ During the COVID-19 pandemic, the need for additional surveillance data became p
 
 
 ## National data sources
-<!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository which should include at least the metadata and ideally the data, that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and therefore have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
-From the onset of the pandemic in Estonia in March 2020, Estonia began openly sharing data related to SARS-CoV-2 testing. The first tests were conducted in February 2020, and as of January 2024, the test statistics are still regularly published on the dedicated [open data page](https://opendata.digilugu.ee/docs/#/) of the Health and Welfare Information Systems Centre of Estonia. The files need to be downloaded for further use and should not be directly integrated into websites. The files contain data on:
+<!--- A section to list and provide context to national data sources.  In the context of BY-COVID, a data source can be a repository that should include at least the metadata and, ideally, the data that might not be directly available when considering sensitive data. Also, repositories should have the capacity to share this data and, therefore, have a governance model in place on how to do it. It can also include registries of data sources important for the field, with a direct link to the original data sources to be able to request access to the data. --->
+From the onset of the pandemic in Estonia in March 2020, Estonia began openly sharing data related to SARS-CoV-2 testing. The first tests were conducted in February 2020, and as of January 2024, the test statistics are still regularly published on the dedicated [open data page](https://opendata.digilugu.ee/docs/#/) of the Health and Welfare Information Systems Centre of Estonia. The files must be downloaded for further use and should not be directly integrated into websites. The files contain data on:
 * [Covid-19 vaccination files](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/vaccination/readme) (updated once per day):
   - Nationwide data
   - Coverage by age groups
@@ -108,14 +108,14 @@ From the onset of the pandemic in Estonia in March 2020, Estonia began openly sh
   - County total statistics
 * [Covid-19 hospitalisations files](https://opendata.digilugu.ee/docs/#/en/opendata/covid19/hospitalization/readme) (last data shared on 02.05.2023).
   - Average age of patients
-  - Time of patients hospitalisation
+  - Time of patient hospitalisation
   - Age and gender profile of patients
   - Timeline of hospitalisation statistics.
 
-All the data above is shared both in json and csv formats.
+All the data above is shared both in JSON and CSV formats.
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committees etc --->
+<!--- Ethical and legal regulations in the country, committees, etc --->
 In Estonia, a research plan that involves human subjects needs to be approved by an ethics board. The two general ethics boards that researchers can apply to are [(Research Ethics Committee of the University of Tartu](https://ut.ee/en/node/113848) and [Research Ethics Committee of the National Institute for Health Development](https://en.tai.ee/en/about-us/tallinn-medical-research-ethics-commitee).
 
 
