@@ -9,6 +9,8 @@ page_id: korogenoest
 training:
   - name: European Nucleotide Archive Quick tour by EMBL-EBI
     url: https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials/hands-on-for-mutation-calling-viral-genome-reconstruction-and-lineage-clade-assignment-from-sars-cov-2-sequencing-data-tutorial](https://tess.elixir-europe.org/materials/european-nucleotide-archive
 ---
 
 ## Introduction
