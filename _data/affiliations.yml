@@ -4,7 +4,7 @@
   expose: true
   type: funder
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
-- name: FWO-IRI
+- name: FWO
   image_url: /images/logos/FWO-logo.svg
   pid: http://dx.doi.org/10.13039/501100003130
   expose: true
@@ -58,3 +58,27 @@
   expose: true
   type: institution
   url: https://www.scilifelab.se
+- name: IACS
+  image_url: /images/institutions/IACS_Logomarca.png
+  pid:
+  expose: true
+  type: institution
+  url: https://www.iacs.es/
+  - name: THL
+  image_url: /images/institutions/Finnish_Institute_for_Health_and_Welfare_logo.png
+  pid:
+  expose: true
+  type: institution
+  url: https://thl.fi/
+  - name: GOG
+  image_url: /images/institutions/goeg_logo_305x58_0.png
+  pid:
+  expose: true
+  type: institution
+  url: https://goeg.at/
+  - name: Sciensano
+  image_url: /images/institutions/sciensano_logo_225w.png
+  pid:
+  expose: true
+  type: institution
+  url: https://www.sciensano.be/
