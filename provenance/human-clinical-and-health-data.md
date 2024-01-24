@@ -7,12 +7,6 @@ redirect_from: /human-clinical-and-health-data/provenance
 rdmkit:
   - name: Data provenance
     url: https://rdmkit.elixir-europe.org/data_provenance
-related_pages:
-  showcase: []
-  human_biomolecular_data: []
-  human_clinical_and_health_data: []
-  socioeconomic_data: []
-  pathogen_characterisation: []
 training:
   - name:
     registry:

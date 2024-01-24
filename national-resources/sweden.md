@@ -24,10 +24,6 @@ national_resources:
     instance_of:
     related_pages:
       # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview
-      human_biomolecular_data: []
-      human_clinical_and_health_data: []
-      socioeconomic_data: []
-      pathogen_characterisation: []
       showcase: []
     url: http://pandemicpreparednessportal.se/
     registry:

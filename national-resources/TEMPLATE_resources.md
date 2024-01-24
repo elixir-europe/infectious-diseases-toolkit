@@ -26,10 +26,6 @@ national_resources:
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
         # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
-        human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-        human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-        socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-        pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
         showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
     url:
     registry:

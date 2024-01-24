@@ -17,13 +17,13 @@ This process is sketched below.
 
 ### Overview of the file structure in GitHub
 
-The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to the website section (attributing_credit, data_analysis, data_communication, data_description, ...).
+The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to the website section (attributing-credit, data-analysis, data-communication, data-description, ...).
 
 ### Markdown file naming
 
 - Markdown files should be named without capitals and without spaces (replace them with hyphens).
 - Make sure that the markdown file has a unique name.
-- If the markdown file is named *example.md*, and located at in the `human-biomolecular-data` directory, the page will be found at https://www.infectious-diseases-toolkit.org/human-biomolecular-data/example.
+- If the markdown file is named *example.md*, and located at in the `data-analysis` directory, the page will be found at https://www.infectious-diseases-toolkit.org/data-analysis/example.
 - By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
@@ -51,24 +51,6 @@ If contributors make a pull request to make changes, by default the editors that
 When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the PR: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
 For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
-## Adding a new event
-
-Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use the following attributes to define an event:
-
-
-```yml
-- name: Example event
-  startDate: 2021-06-23
-  startTime: '9:00'
-  endDate: 2021-06-24
-  endTime: 13:30 CET
-  description: Example description
-  location: Online
-
-```
-
-Only name and startDate are mandatory attributes.
-
 ## Adding a news item
 
 Add a news item to the landing page by editing the `news.yml` in the `_data` directory in this repository. Use following attributes to define a news item:
@@ -95,7 +77,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file and ren
 
 3. Select and copy all the content.
 
-4. Go to the main section were you want to make the new page (human_biomolecular_data, human_clinical_and_health_data, contribute, socioeconomic_data, ...), in our example this will be in */showcase/*. Click on `Add file` on the right followed up by `Create new file`.
+4. Go to the main section were you want to make the new page (attributing-credit, data-analysis, data-communication, data-description, ...), in our example this will be in */showcase/*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
 5. Paste the copied content from the template.
@@ -113,7 +95,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file and ren
 
 9. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
 
-10. If the markdown file is named *example.md* and located in the subfolder website section `human_biomolecular_data`, the page will be rendered at https://www.infectious-diseases-toolkit.org/human_biomolecular_data/example. This link can be provided to the contributor through the issue.
+10. If the markdown file is named *example.md* and located in the subfolder website section `data-analysis`, the page will be rendered at https://www.infectious-diseases-toolkit.org/data-analysis/example. This link can be provided to the contributor through the issue.
 
 {% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
 
@@ -209,13 +191,10 @@ Infectious Diseases Toolkit pages from other sections can be displayed as "Relat
 
 An overview of all Infectious Diseases Toolkit pages and their `page_id` can be found in the [List of page IDs](/contribute/website-overview) page.
 
+Example:
 
 ```yml
 related_pages: 
-   pathogen_characterisation: [page_id1, page_id2]
-   socioeconomic_data: [page_id1, page_id2]
-   human_biomolecular_data: [page_id1, page_id2]
-   human_clinical_and_health_data: [page_id1, page_id2]
    showcase: [page_id1, page_id2]
   ``` 
 
