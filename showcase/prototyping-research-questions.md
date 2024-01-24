@@ -1,10 +1,10 @@
 ---
-title: Prototyping causal research questions by reusing real-world observational data through a federated analysis approach to tackle a future pandemic
+title: Prototyping federated causal research questions reusing sensitive health data
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
 description: Methodological framework for causal federated research based on real-world observational data sources across national borders
-affiliations: [BE, ES, FI, AT, Sciensano, IACS, THL, GÖG <!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the _data/affiliations.yaml file in order to work. Add logos to the /images/logos directory and link towards them in the affiliations.yaml file accordingly. --->]
-page_id: "prototyping_use_cases_to_tackle_future_pandemic"
+affiliations: [BE, ES, FI, AT, Sciensano, IACS, THL, GÖG]
+page_id: "prototyping_research_questions"
 related_pages: 
   pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
   socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
@@ -33,13 +33,12 @@ The proposed methodology provides step-by-step guidance for researchers assessin
 
 The methodological framework for [federated causal inference based on real-world observational data sources](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-023-02068-3) includes a step-by-step guidance (see Fig. 1), from defining a research question, to establishing a causal model, identifying and specifying data requirements in a common data model, generating synthetic data, and developing an interoperable and reproducible analytical pipeline for distributed deployment. It requires close collaboration between a coordinating research team (also referred to as the ‘Coordination Node’) and institutions hosting or being able to acquire access to the required sensitive individual-level data (also referred to as ‘Participant Nodes’).
 
-<!--- Start with a graphical representation of the showcase, with a caption and an alternative text (alt). The graphical representation should be a diagram showing the different standards, tools, data sources that are used to tackle the challenge. The diagram should show how these different modules connect with one another  --->
 {% include image.html file="/prototyping_use_cases_to_tackle_future_pandemic_Figure-1.png" caption="Figure 1. The methodological framework consists of several consecutive steps. Step 1 to 5 are part of a ‘conceptual and instrumental phase’ within the framework and are conducted by the Coordination Node without access to real-world data. Steps 6 and 7 involve the extraction, transformation and analysis of real-world data within the jurisdiction of each of the Participant Nodes. Step 8 is the final step conducted by the Coordination Node which produces comparable results to inform policy. " alt="Visual representation of the proposed methodological framework." %}
 
 ### Building blocks
 
 #### Defining the research question
-The research question needs to be precisely defined following the [PICO(T) scheme](https://www.physio-pedia.com/PICOT_Research_Question). 
+The research question needs to be precisely defined following the [PICO(T) scheme](https://en.wikipedia.org/wiki/PICO_process). 
 
 #### Establishing a causal model
 Graphical causal models, such as [Directed Acyclic Graphs (DAGs)](https://doi.org/10.1016/j.jclinepi.2021.08.001), enables researchers to explicitly state the underlying assumptions that are made to estimate the causal effect of interest. Thereby, it provides a clear and transparent graphical way to identify confounding bias and other potential sources of bias under the described assumptions and subsequently informs the study design and statistical analysis. The [DAGitty](https://www.dagitty.net/) web application provides an environment for creating, editing, and analysing causal diagrams.
@@ -65,6 +64,11 @@ To integrate results across different populations, the aggregated non-sensitive 
 
 ## What can you use the SHOWCASE for?
  
+The proposed methodology can be applied to any well-defined population health research question and is generalisable to many situations, increasing preparedness for infectious diseases. It was demonstrated within the BY-COVID project by prototyping a workflow to assess the real-world effectiveness of SARS-CoV-2 primary vaccination compared to partial or no vaccination in preventing SARS-CoV-2 infection in populations spanning different countries.
+The research question was defined (step 1) following the PICOT strategy, and a [study protocol](https://zenodo.org/doi/10.5281/zenodo.7551181) was developed to provide a plan of action containing the study objectives and planned methodology. Subsequently, the [Directed Acyclic Graph (DAG), Common Data Model (CDM) and synthetic dataset](https://doi.org/10.5281/zenodo.7572373) (steps 2, 3 and 4), together with all supporting research objects (see Figure 2), were developed and published on Zenodo. 
+
+{% include image.html file="/prototyping_use_cases_to_tackle_future_pandemic_Figure-2.png" caption="Figure 2.  Overview of the executed steps and produced research objects during the implementation of the proposed methodological approach steps 1 to 4." alt="Visual representation of the executed steps." %}
+
 <!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
 
 <!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
