@@ -61,6 +61,10 @@ In Estonia, infectious disease data is mainly collected by [The Estonian Health 
   * [Monkeypox guidelines](https://www.terviseamet.ee/et/ahvirouged)
   * [COVID-19](https://www.terviseamet.ee/et/nakkus-haigused/covid-19-infoleht)
 
+Since 2021, the Health Board has provided weekly [epidemic reviews](https://www.terviseamet.ee/et/koroonaviirus/epiidulevaated) on SARS-CoV-2 and flu situations that capture the infection rates, prevalent strains, hospitalisation, and death statistics. 
+
+The Health Board provides further information regarding infectious diseases on its home page, such as [safety guidelines and recommendations](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/nakkusohutuse-juhendid-ja-soovitused) or [interactive dashboard](https://www.terviseamet.ee/et/nakkus-haigused/tervishoiutootajale/nakkushaigustesse-haigestumine) for the infectious disease history in Estonia but the majority of the information is available only in Estonian.
+
 
 ## Disease surveillance initiatives
 During the COVID-19 pandemic, the need for additional surveillance data became pressing. With scientists being able to ensure rapid development and implementation of new methodologies, the following initiaves were implemented in cooperation with the University of Tartu:
