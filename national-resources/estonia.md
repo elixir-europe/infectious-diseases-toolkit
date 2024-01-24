@@ -114,7 +114,5 @@ All the data above is shared both in json and csv formats.
 <!--- Ethical and legal regulations in the country, committees etc --->
 In Estonia, a research plan that involves human subjects needs to be approved by an ethics board. The two general ethics boards that researchers can apply to are [(Research Ethics Committee of the University of Tartu](https://ut.ee/en/node/113848) and [Research Ethics Committee of the National Institute for Health Development](https://en.tai.ee/en/about-us/tallinn-medical-research-ethics-commitee).
 
-## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
 
 <!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
