@@ -86,3 +86,6 @@
   description: Content was added to the Data sources page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/data-sources)
   date: 2024-01-23
   linked_pr: 93
+- name: "New page: National resources Estonia"
+  description: A new national resources page for infectious diseases-related data sources and actions in Estonia. [Discover the page here](/national-resources/estonia)
+  date: 2024-01-24
