@@ -1,6 +1,5 @@
 ---
 title: Estonia
-search_exclude: true #leave as “true” until the page is complete and ready to be made public
 country_code: EE
 contributors: [Hedi Peterson, Diana Pilvar]
 coordinators: [Diana Pilvar]
