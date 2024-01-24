@@ -4,12 +4,9 @@ description: Finding and sharing data from human clinical and health data relate
 contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero, Laura Portell Silva]
 page_id: hchd_data_sources
 related_pages:
-human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
-human_clinical_and_health_data: [hchd_data_analysis]
-training:
-- name:
-  registry:
-  url:
+  human_biomolecular_data: [hbd_data_sources, hbd_data_analysis]
+  human_clinical_and_health_data: [hchd_data_analysis]
+
 rdmkit:
 - name: Why are the FAIR principles needed?
   url: https://rdmkit.elixir-europe.org/about#why-are-the-fair-principles-needed
@@ -19,9 +16,6 @@ rdmkit:
   url: https://rdmkit.elixir-europe.org/identifiers
 - name: GDPR compliance
   url: https://rdmkit.elixir-europe.org/gdpr_compliance
-faircookbook:
-- name:
-  url:
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page_metadata
 ---
