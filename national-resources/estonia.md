@@ -53,7 +53,7 @@ This page gathers COVID-19 disease data initiatives, dashboards, and datasets th
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
-In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) (HB) and made publicly available as open data. The Health Board also provides guidelines:
+In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) and made publicly available as open data. The Health Board also provides guidelines:
 * for the health authorities (all guidelines in Estonian)
   * [Monkeypox guidelines for healthcare workers](https://www.terviseamet.ee/et/ahvirougete-juhised-tervishoiutootajatele)
   * [Hospital infections](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/haiglanakkus)
