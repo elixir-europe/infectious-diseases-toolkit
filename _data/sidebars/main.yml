@@ -3,6 +3,7 @@ title_url: /index
 subitems:
   - title: Attributing credit
     url: /attributing-credit/
+    description: Referencing your sources (citations and recognition of contributions)
     image_url: /assets/img/section-icons/quote-left-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -16,6 +17,7 @@ subitems:
 
   - title: Data analysis
     url: /data-analysis/
+    description: Generic workflows for different data types
     image_url: /assets/img/section-icons/chart-simple-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -29,6 +31,7 @@ subitems:
 
   - title: Data communication
     url: /data-communication/
+    description: Producing visualisations and reports
     image_url: /assets/img/section-icons/paper-plane-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -42,6 +45,7 @@ subitems:
 
   - title: Data description
     url: /data-description/
+    description: Finding (meta)data standards and documentation
     image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -55,6 +59,7 @@ subitems:
 
   - title: Data sources
     url: /data-sources/
+    description: Finding and sharing data for related data sources
     image_url: /assets/img/section-icons/magnifying-glass-chart-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -68,6 +73,7 @@ subitems:
 
   - title: Ethical Legal and Social Issues
     url: /ethical-legal-and-social-issues/
+    description: Legal and ethical aspects and how to deal with them
     image_url: /assets/img/section-icons/fingerprint-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -81,6 +87,7 @@ subitems:
 
   - title: Provenance
     url: /provenance/
+    description: Tracking data and analysis steps
     image_url: /assets/img/section-icons/disease-duotone.svg
     subitems:
       - title: Human biomolecular data
@@ -94,6 +101,7 @@ subitems:
 
   - title: Quality control
     url: /quality-control/
+    description: Tools and methods to assess quality
     image_url: /assets/img/section-icons/stars-duotone.svg
     subitems:
       - title: Human biomolecular data
