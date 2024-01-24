@@ -69,10 +69,13 @@ The research question was defined (step 1) following the PICOT strategy, and a [
 
 {% include image.html file="/prototyping_use_cases_to_tackle_future_pandemic_Figure-2.png" caption="Figure 2.  Overview of the executed steps and produced research objects during the implementation of the proposed methodological approach steps 1 to 4." alt="Visual representation of the executed steps." %}
 
-<!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
+An analytical pipeline was developed and tested with the support of the synthetic data (step 5) using the R statistical programming language as sequential Quarto documents (.qmd files) reflecting and reporting the outputs of different modules (see Figure 3): thus, (1) Data Quality Assessment (DQA) of the original input data, (2) validation of the original input data to check compliance with the Common Data Model (CDM), (3) imputation of missing data where required, (4) iterative matching of the exposed to unexposed individuals and a balance assessment of the matched population, (5) a descriptive analysis of the matched and unmatched study population, and (6) a survival analysis in the matched study population. A detailed documentation of the statistical methods, as well as a README file guiding users on the script deployment, accompanies the statistical scripts in a [dedicated GitHub repository](https://github.com/by-covid/BY-COVID_WP5_T5.2_baseline-use-case).  
 
-<!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
+{% include image.html file="/prototyping_use_cases_to_tackle_future_pandemic_Figure-3.png" caption="Figure 3.  Graphical overview of the developed analytical pipeline, consisting of different subsequent modules, each producing an interactive report." alt="Graphical overview of the analytical pipeline." %}
 
+A detailed description of the security measures that will be implemented to prevent unauthorised access to personal data within the secured processing environments (SPEs) of each of the Participating Nodes, as well as a description of the anonymisation/pseudonymisation techniques that will be implemented, is provided in the published [Data Management Plan (DMP)](https://zenodo.org/doi/10.5281/zenodo.7625783).
+
+The [preliminary outputs](https://zenodo.org/doi/10.5281/zenodo.7871533), i.e., interactive reports of each main step of the analytical pipeline, have been published for Aragon, Spain. 
 
 <!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
 
