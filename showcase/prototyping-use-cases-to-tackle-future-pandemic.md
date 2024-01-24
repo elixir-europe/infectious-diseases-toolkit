@@ -4,7 +4,7 @@ search_exclude: true #leave as “true” until the page is complete and ready t
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
 description: Methodological framework for causal federated research based on real-world observational data sources across national borders
 affiliations: [BE, ES, FI, AT, Sciensano, IACS, THL, GÖG <!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the _data/affiliations.yaml file in order to work. Add logos to the /images/logos directory and link towards them in the affiliations.yaml file accordingly. --->]
-page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
+page_id: "prototyping_use_cases_to_tackle_future_pandemic"
 related_pages: 
   pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
   socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
