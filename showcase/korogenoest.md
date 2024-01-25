@@ -8,7 +8,8 @@ related_pages:
 page_id: korogenoest
 training:
   - name: European Nucleotide Archive Quick tour by EMBL-EBI
-    url: https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials/european-nucleotide-archive
 ---
 
 ## Introduction
