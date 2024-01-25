@@ -86,7 +86,11 @@
   description: Content was added to the Data sources page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/data-sources)
   date: 2024-01-23
   linked_pr: 93
-- name: "New page: Human clinical and health data sources"
+- name: "New page: National resources Estonia"
+  description: A new national resources page for infectious diseases-related data sources and actions in Estonia. [Discover the page here](/national-resources/estonia)
+  date: 2024-01-24
+  linked_pr: 270
+ - name: "New page: Prototyping federated causal research questions reusing sensitive health data"
   description: A Showcase page about prototyping federated causal research questions reusing sensitive health data. [Discover the page here](/showcase/prototyping-research-questions)
   date: 2024-01-25
   linked_pr: 269
