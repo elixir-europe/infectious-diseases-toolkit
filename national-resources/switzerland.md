@@ -3,6 +3,83 @@ title: Switzerland
 country_code: CH
 contributors: [Aitana Neves, Patricia Palagi] 
 coordinators: [Aitana Neves]
+
+national_resources: 
+  - name: Swiss Pathogen Surveillance Platform (SPSP)
+    description: SPSP is a secure One-health online platform that enables near real-time sharing under controlled access of pathogen genomic data and their associated clinical/epidemiological metadata. During COVID-19, it served as the Swiss SARS-CoV-2 genomic data hub, collecting data, annotating it, communicating reports to the federal public health authorities and openly re-sharing anonymised data on the Covid-19 Data Platform.
+    how_to_access: The resource contains sensitive data and is only accessible to registered users (IP white-listing and two factor authentication). Anonymised data are shared on the ENA.
+    instance_of:
+    related_pages:
+      pathogen_characterisation: [pc_data_sources, pc_provenance, pc_quality_control] 
+    url: https://www.spsp.ch
+    registry:
+      biotools:
+      fairsharing:
+      tess:
+  - name: Research Data Management (RDM) sources in Switzerland
+    description: RDMkit page on Switzerland's RDM guidelines and resources.
+    how_to_access: 
+    instance_of:
+    related_pages:
+      pathogen_characterisation:  
+    url: https://rdmkit.elixir-europe.org/ch_resources
+  - name: COVID-19 Data Portal
+    description: COVID-19 Data Portal aggregation of Swiss COVID-19 data
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: 
+    url: https://rdmkit.elixir-europe.org/ch_resources
+  - name: V-pipe
+    description: V-pipe is the bioinformatics pipeline that integrates various open-source software packages for assessing viral genetic diversity from next-generation sequencing (NGS) data derived from intra-host virus populations
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_analysis] 
+    url: https://cbg-ethz.github.io/V-pipe/
+  - name: ViralZone
+    description: ViralZone is a SIB Swiss Institute of Bioinformatics web-resource for all viral genus and families, providing general molecular and epidemiological information, along with virion and genome figures. Each virus or family page gives an easy access to UniProtKB/Swiss-Prot viral protein entries
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_sources] 
+    url: https://viralzone.expasy.org
+  - name: Nextstrain
+    description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data. It provides a continually-updated view of publicly available data alongside powerful analytic and visualization tools for use by the community. The goal is to aid epidemiological understanding and improve outbreak response 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_analysis] 
+    url: https://nextstrain.org
+  - name: CoV Spectrum
+    description: CoV-Spectrum is an interactive tool to analyze and discover variants of SARS-CoV-2. Main features include a powerful search engine that supports amino acid and nucleotide mutation filtering, the comparison of multiple variants, and a built-in fitness advantage estimation model. 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_sources] 
+    url: https://cov-spectrum.org/explore/Europe/AllSamples/Past6M
+  - name: Covariants
+    description:  
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_sources] 
+    url: https://covariants.org/
+  - name: COVTriage
+    description: COVTriage is a search engine developed as part of SIBiLS (Swiss Institute of Bioinformatics Literature Services), which purpose is to rank the COVID-19 literature (Medline, PMC, Cord-19) according to the 9 axes of the COVoc ontology (controlled vocabulary to support literature triage for COVID-19). This resource supports COVID-19 / SARS-CoV-2 research.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_sources] 
+    url: https://candy.hesge.ch/COVTriage/
+  - name: Computational Linguistics for COVID-19
+    description: To process COVID-19-related scientific publications automatically to detect mentions of domain-specific entities of particular relevance (such as genes, symptoms, drugs, organs, etc.). To enhance accessibility to the literature, for example, simplifying the search of papers dealing with a particular gene or identifying unexpected connections between different entities.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      pathogen_characterisation: [pc_data_analysis] 
+    url: https://covid19.nlp.idsia.ch/
+
 ---
 
 ## Introduction 
