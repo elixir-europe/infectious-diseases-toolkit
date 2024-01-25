@@ -23,13 +23,13 @@ national_resources:
     related_pages:
       pathogen_characterisation:  
     url: https://rdmkit.elixir-europe.org/ch_resources
-  - name: COVID-19 Data Portal
+  - name: COVID-19 Data Portal aggregation of Swiss COVID-19 data
     description: COVID-19 Data Portal aggregation of Swiss COVID-19 data
     how_to_access: 
     instance_of: 
     related_pages:
       pathogen_characterisation: 
-    url: https://rdmkit.elixir-europe.org/ch_resources
+    url: https://www.covid19dataportal.org/search?query=switzerland&requestFrom=searchBox
   - name: V-pipe
     description: V-pipe is the bioinformatics pipeline that integrates various open-source software packages for assessing viral genetic diversity from next-generation sequencing (NGS) data derived from intra-host virus populations
     how_to_access: 
