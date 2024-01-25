@@ -3,7 +3,7 @@ title: Linked pathogen and host data across archives - a multi-omics, SARS-CoV-2
 contributors: [Gabriele Rinck, Zahra Waheed] 
 description: Here we describe the first example of linking and sharing a COVID-19, multi-omics cohort data set via the EMBL-EBI infrastructure. 
 affiliations: [EMBL-EBI]
-page_id: LinkedCohortData
+page_id: linked_cohort_data
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---

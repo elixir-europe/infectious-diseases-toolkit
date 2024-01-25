@@ -3,7 +3,7 @@ title: Prototyping federated causal research questions reusing sensitive health 
 contributors: [Nina Van Goethem, Francisco Estupiñán-Romero, Marjan Meurisse, Enrique Bernal-Delgado] 
 description: "Methodological framework for causal federated research based on real-world observational data sources across national borders"
 affiliations: [BE, ES, FI, AT, Sciensano, IACS, THL, GÖG]
-page_id: "prototyping_research_questions"
+page_id: prototyping_research_questions
 training:
   - name: Learn about DAGs and DAGitty
     registry: Other
