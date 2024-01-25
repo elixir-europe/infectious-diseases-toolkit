@@ -59,7 +59,7 @@ national_resources:
       pathogen_characterisation: [pc_data_sources] 
     url: https://cov-spectrum.org/explore/Europe/AllSamples/Past6M
   - name: Covariants
-    description:  
+    description: CoVariants provides an overview of SARS-CoV-2 variants and mutations that are of interest. It displays what mutations define a variant, what impact they might have (with links to papers and resources), where variants are found, and link the variants in Nextstrain.  
     how_to_access: 
     instance_of: 
     related_pages:
