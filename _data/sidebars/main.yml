@@ -99,8 +99,8 @@ subitems:
         url:  /showcase/korogenoest
       - title: The Swedish Pathogens Portal
         url:  /showcase/swedish-pathogens-portal
-      - title: Prototyping causal research questions by reusing real-world observational data through a federated analysis approach to tackle a future pandemic
-        url:  /showcase/prototyping-use-cases-to-tackle-future-pandemic
+      - title: Prototyping federated causal research questions reusing sensitive health data
+        url:  /showcase/prototyping-research-questions
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg
