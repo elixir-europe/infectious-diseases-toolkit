@@ -90,3 +90,7 @@
   description: A new national resources page for infectious diseases-related data sources and actions in Estonia. [Discover the page here](/national-resources/estonia)
   date: 2024-01-24
   linked_pr: 270
+- name: "New page: Prototyping federated causal research questions reusing sensitive health data"
+  description: A Showcase page about prototyping federated causal research questions reusing sensitive health data. [Discover the page here](/showcase/prototyping-research-questions)
+  date: 2024-01-25
+  linked_pr: 269

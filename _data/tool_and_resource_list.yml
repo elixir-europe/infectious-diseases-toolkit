@@ -846,3 +846,14 @@
   id: hdr-uk
   name: Health Research Data UK
   url: https://www.hdruk.ac.uk/
+- description: DAGitty is a browser-based environment for creating, editing, and analyzing causal diagrams (also known as directed acyclic graphs or causal Bayesian networks).
+  id: dagitty
+  name: DAGitty
+  url: https://www.dagitty.net/
+  registry:
+    biotools: dagitty
+    fairsharing: dagitty
+- description: Quarto is an open-source scientific and technical publishing system that enables the creation of dynamic and reproducible content.
+  id: quarto
+  name: Quarto
+  url: https://quarto.org/
