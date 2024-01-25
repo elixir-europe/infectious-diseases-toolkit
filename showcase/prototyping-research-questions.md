@@ -1,15 +1,9 @@
 ---
-title: "Prototyping federated causal research questions reusing sensitive health data"
-search_exclude: true #leave as “true” until the page is complete and ready to be made public
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
+title: Prototyping federated causal research questions reusing sensitive health data
+contributors: [Nina Van Goethem, Francisco Estupiñán-Romero, Marjan Meurisse, Enrique Bernal-Delgado] 
 description: "Methodological framework for causal federated research based on real-world observational data sources across national borders"
 affiliations: [BE, ES, FI, AT, Sciensano, IACS, THL, GÖG]
 page_id: "prototyping_research_questions"
-related_pages: 
-  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-  socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-  human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-  human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
 training:
   - name: Learn about DAGs and DAGitty
     registry: Other
@@ -17,7 +11,7 @@ training:
   - name:  BY-COVID Spring 23 Use Cases Workshop: Integration of socioeconomic data in observational studies on vaccine effectiveness
     registry: Zenodo
     url: https://zenodo.org/doi/10.5281/zenodo.7985916 
-
+---
 
 ## Introduction 
 
