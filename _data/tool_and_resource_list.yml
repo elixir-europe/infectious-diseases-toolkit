@@ -361,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -785,10 +785,14 @@
 - description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
   id: swedish-pathogens-portal
   name: Swedish Pathogens Portal
+  registry:
+    fairsharing: a085b2
   url: https://pathogens.se
 - description: The Pathogens Portal, launched in July 2023, is an invaluable resource for researchers, clinicians, and policymakers who need access to the latest and most comprehensive datasets on pathogens. The portal is a collaborative effort between the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) and partners.
   id: pathogens-portal
   name: Pathogens Portal
+  registry:
+    fairsharing: a085b2
   url: https://www.pathogensportal.org
 - description: The European Health Data Space is a health specific ecosystem comprised of rules, common standards and practices, infrastructures and a governance framework that aims at empowering individuals through increased digital access to and control of their electronic personal health data, at national level and EU-wide.
   id: ehds
