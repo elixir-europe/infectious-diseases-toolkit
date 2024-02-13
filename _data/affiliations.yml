@@ -48,7 +48,7 @@
   url: https://www.terviseamet.ee/en
 - name: EMBL-EBI
   image_url: /images/infrastructures/Ebi_official_logo.png
-  pid: 
+  pid:
   expose: true
   type: infrastructure
   url: https://www.ebi.ac.uk/
@@ -82,3 +82,15 @@
   expose: true
   type: institution
   url: https://www.sciensano.be/
+- name: EMC
+  image_url: /images/institutions/Erasmus_med_centre.svg
+  pid:
+  expose: true
+  type: institution
+  url: https://www.erasmusmc.nl/en/research/departments/viroscience
+- name: UKHD
+  image_url: /images/institutions/Ukhd_logo.svg
+  pid:
+  expose: true
+  type: institution
+  url: https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/
