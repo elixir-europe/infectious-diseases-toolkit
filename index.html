@@ -10,18 +10,11 @@ layout: none
 <body>
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
-    <section class="container mb-5">
-        <div class="card bg-red text-center text-white">
-            <div class="card-body">
-                <h5 class="card-title fs-3"><b>This website is under construction</h5></b>
-                <p class="card-text">Don't hesitate to <a class="link-body-emphasis" href="https://github.com/elixir-europe/infectious-diseases-toolkit/issues"><b>open an issue</b></a> or to contact us by mail using <a class="link-body-emphasis" href="mailto:idtk-editors@elixir-europe.org"><b>idtk-editors@elixir-europe.org</b></a> to give some early feedback.</p>
-            </div>
-        </div>
-    </section>
     <div class="landingpage">
         <section class="container mb-5">
             <div>
-                <p class="text-center lead">Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks.
+                <h1>Discover tools and best practices for working with infectious disease data</h1>
+                <p class="text-center lead">We provide general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
                 </p>
             </div>
         </section>
@@ -89,9 +82,6 @@ layout: none
                 <div class="row">
                     <div class="col-lg-6">
                     {% include news.html caption=true title=true limit=3 caption_url="/about/news" %}
-                    </div>
-                    <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html caption=true title=true event_type="upcoming_event" caption_url="/about/events" %}
                     </div>
                 </div>
             </div>

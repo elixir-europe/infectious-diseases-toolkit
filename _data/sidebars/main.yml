@@ -1,89 +1,75 @@
 title: Main
 title_url: /index
 subitems:
-  - title: Pathogen characterisation
-    url: /pathogen-characterisation/
-    image_url: /assets/img/section-icons/disease-duotone.svg
+  - title: Attributing credit
+    url: /attributing-credit/
+    description: Referencing your sources (citations and recognition of contributions)
+    image_url: /assets/img/section-icons/quote-left-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /pathogen-characterisation/attributing-credit
-      - title: Data analysis
-        url: /pathogen-characterisation/data-analysis
-      - title: Data communication
-        url: /pathogen-characterisation/data-communication
-      - title: Data description
-        url: /pathogen-characterisation/data-description
-      - title: Data sources
-        url: /pathogen-characterisation/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /pathogen-characterisation/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /pathogen-characterisation/provenance
-      - title: Quality control
-        url: /pathogen-characterisation/quality-control
 
-  - title: Socioeconomic data
-    image_url: /assets/img/section-icons/users-viewfinder-duotone.svg
-    url: /socioeconomic-data/
+  - title: Data analysis
+    url: /data-analysis/
+    description: Generic workflows for different data types
+    image_url: /assets/img/section-icons/chart-line-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /socioeconomic-data/attributing-credit
-      - title: Data analysis
-        url: /socioeconomic-data/data-analysis
-      - title: Data communication
-        url: /socioeconomic-data/data-communication
-      - title: Data description
-        url: /socioeconomic-data/data-description
-      - title: Data sources
-        url: /socioeconomic-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /socioeconomic-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /socioeconomic-data/provenance
-      - title: Quality control
-        url: /socioeconomic-data/quality-control
+      - title: Human biomolecular data
+        url: /data-analysis/human-biomolecular-data
 
-  - title: Human biomolecular data
-    image_url: /assets/img/section-icons/dna-person-duotone.svg
-    url: /human-biomolecular-data/
+  - title: Data communication
+    url: /data-communication/
+    description: Producing visualisations and reports
+    image_url: /assets/img/section-icons/paper-plane-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /human-biomolecular-data/attributing-credit
-      - title: Data analysis
-        url: /human-biomolecular-data/data-analysis
-      - title: Data communication
-        url: /human-biomolecular-data/data-communication
-      - title: Data description
-        url: /human-biomolecular-data/data-description
-      - title: Data sources
-        url: /human-biomolecular-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /human-biomolecular-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /human-biomolecular-data/provenance
-      - title: Quality control
-        url: /human-biomolecular-data/quality-control
 
-  - title: Human clinical and health data
-    image_url: /assets/img/section-icons/hospital-user-duotone.svg
-    url: /human-clinical-and-health-data/
+  - title: Data description
+    url: /data-description/
+    description: Finding (meta)data standards and documentation
+    image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
-      - title: Attributing credit
-        url: /human-clinical-and-health-data/attributing-credit
-      - title: Data analysis
-        url: /human-clinical-and-health-data/data-analysis
-      - title: Data communication
-        url: /human-clinical-and-health-data/data-communication
-      - title: Data description
-        url: /human-clinical-and-health-data/data-description
-      - title: Data sources
-        url: /human-clinical-and-health-data/data-sources
-      - title: Ethical Legal and Social Issues
-        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
-      - title: Provenance
-        url: /human-clinical-and-health-data/provenance
-      - title: Quality control
-        url: /human-clinical-and-health-data/quality-control
+      - title: Pathogen characterisation
+        url: /data-description/pathogen-characterisation
+
+  - title: Data sources
+    url: /data-sources/
+    description: Finding and sharing data for related data sources
+    image_url: /assets/img/section-icons/magnifying-glass-chart-duotone.svg
+    subitems:
+      - title: Human biomolecular data
+        url: /data-sources/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /data-sources/human-clinical-and-health-data
+      - title: Socioeconomic data
+        url: /data-sources/socioeconomic-data
+
+  - title: Ethical Legal and Social Issues
+    url: /ethical-legal-and-social-issues/
+    description: Legal and ethical aspects and how to deal with them
+    image_url: /assets/img/section-icons/fingerprint-duotone.svg
+    subitems:
+      - title: Human biomolecular data
+        url: /ethical-legal-and-social-issues/human-biomolecular-data
+
+  - title: Provenance
+    url: /provenance/
+    description: Tracking data and analysis steps
+    image_url: /assets/img/section-icons/signs-post-duotone.svg
+    subitems:
+      - title: Human clinical and health data
+        url: /provenance/human-clinical-and-health-data
+
+  - title: Quality control
+    url: /quality-control/
+    description: Tools and methods to assess quality
+    image_url: /assets/img/section-icons/stars-duotone.svg
+    subitems:
+      - title: Human biomolecular data
+        url: /quality-control/human-biomolecular-data
+      - title: Human clinical and health data
+        url: /quality-control/human-clinical-and-health-data
+      - title: Pathogen characterisation
+        url: /quality-control/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /quality-control/socioeconomic-data
 
   - title: Showcase
     hr: true

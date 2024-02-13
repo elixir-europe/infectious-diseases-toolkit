@@ -192,7 +192,7 @@ When linking to an external site, use:
 When linking to internal pages, you can manually link to the pages like this:
 
 ```md
-[Data Analysis](/pathogen-characterisation/data-analysis)
+[Pathogen characterisation](/data-analysis/pathogen-characterisation)
 ```
 Will link to the planning page.
 
@@ -327,10 +327,6 @@ An overview of all Infectious Diseases Toolkit pages (belonging to the sections 
 
 ```yml
 related_pages: 
-   pathogen_characterisation: [page_id1, page_id2]
-   socioeconomic_data: [page_id1, page_id2]
-   human_biomolecular_data: [page_id1, page_id2]
-   human_clinical_and_health_data: [page_id1, page_id2]
    showcase: [page_id1, page_id2]
 ```
 

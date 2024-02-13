@@ -4,7 +4,7 @@ title: Infectious Diseases Toolkit
 description: "Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@gray-tiles
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.5.0
 
 gtag: G-TNT17YGXQ4
 
@@ -46,34 +46,66 @@ defaults:
       search_exclude: true
   -
     scope:
-      path: "pathogen-characterisation"
+      path: "attributing-credit"
       type: "pages"
     values:
-      type: pathogen_characterisation
+      type: attributing_credit
       datatable: true
 
   -
     scope:
-      path: "socioeconomic-data"
+      path: "data-analysis"
       type: "pages"
     values:
-      type: socioeconomic_data
+      type: data_analysis
       datatable: true
     
   -
     scope:
-      path: "human-clinical-and-health-data"
+      path: "data-communication"
       type: "pages"
     values:
-      type: human_clinical_and_health_data
+      type: data_communication
       datatable: true
 
   -
     scope:
-      path: "human-biomolecular-data"
+      path: "data-description"
       type: "pages"
     values:
-      type: human_biomolecular_data
+      type: data_description
+      datatable: true
+
+  -
+    scope:
+      path: "data-sources"
+      type: "pages"
+    values:
+      type: data_sources
+      datatable: true
+
+  -
+    scope:
+      path: "ethical-legal-and-social-issues"
+      type: "pages"
+    values:
+      type: ethical_legal_and_social_issues
+      datatable: true
+
+  -
+    scope:
+      path: "provenance"
+      type: "pages"
+    values:
+      type: provenance
+      datatable: true
+
+  -
+    scope:
+      path: "quality-control"
+      type: "pages"
+    values:
+      type: quality_control
       datatable: true
 
   -

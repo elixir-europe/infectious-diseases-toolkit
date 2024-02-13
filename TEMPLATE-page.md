@@ -4,12 +4,6 @@ description: <!---Short description of the page--->
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
-related_pages: 
-  showcase: [<!---REPLACE THIS with the page IDs of the showcase pages that you want to list here as related pages--->]
-  human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-  human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-  socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
 training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
