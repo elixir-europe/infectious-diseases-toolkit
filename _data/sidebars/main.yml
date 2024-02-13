@@ -45,9 +45,6 @@ subitems:
     url: /ethical-legal-and-social-issues/
     description: Legal and ethical aspects and how to deal with them
     image_url: /assets/img/section-icons/fingerprint-duotone.svg
-    subitems:
-      - title: Human biomolecular data
-        url: /ethical-legal-and-social-issues/human-biomolecular-data
 
   - title: Provenance
     url: /provenance/
