@@ -10,7 +10,9 @@ national_resources:
     how_to_access: The resource contains sensitive data and is only accessible to registered users (IP white-listing and two factor authentication). Anonymised data are shared on the ENA.
     instance_of:
     related_pages:
-      pathogen_characterisation: [pc_data_sources, pc_provenance, pc_quality_control] 
+      data_sources: [pc_data_sources]
+      provenance: [pc_provenance]
+      quality_control: [pc_quality_control]
     url: https://www.spsp.ch
     registry:
       biotools:
