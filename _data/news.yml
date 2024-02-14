@@ -94,3 +94,7 @@
   description: A Showcase page about prototyping federated causal research questions reusing sensitive health data. [Discover the page here](/showcase/prototyping-research-questions)
   date: 2024-01-25
   linked_pr: 269
+- name: New website structure
+  date: 2024-02-13
+  linked_pr: 263
+  description: An inversion of the structure took place. Pages with information about specific data types are now subpages within data management topics. This allows for the existence of general pages.
