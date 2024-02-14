@@ -97,4 +97,4 @@
 - name: New website structure
   date: 2024-02-13
   linked_pr: 263
-  description: An inversion of the structure took place where the data type specific pages are now subpages from the main topics, allowing the existance of general pages.
+  description: An inversion of the structure took place. Pages with information about specific data types are now subpages within data management topics. This allows for the existence of general pages.
