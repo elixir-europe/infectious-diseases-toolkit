@@ -3,6 +3,8 @@ title: Human clinical and health data
 description: Finding and sharing data from human clinical and health data related data sources.
 contributors: [Iris Van Dam, Shona Cosgrove, Marcos Casado Barbero, Laura Portell Silva]
 page_id: hchd_data_sources
+related_pages:
+  showcase: [linked_cohort_data]
 rdmkit:
 - name: Why are the FAIR principles needed?
   url: https://rdmkit.elixir-europe.org/about#why-are-the-fair-principles-needed
