@@ -83,7 +83,7 @@ To carry out visual inspections as part of the quality control of the sequencing
 #### Public dashboards
 
 In addition to the access restricted dashboards, a regularly updated {% tool "estonian-covid-19-data-portal" %} public dashboard was also deployed. It gave an overview of clade distribution across counties, regions and age groups, alongside the percentage of all positive samples that have been sequenced in Estonia.
-In order to illustrate the virus evolution a public {% tool "nextstrain-auspiece" %} instance was set up. In regular time intervals, all existing samples were rerun to obtain the latest lineage annotations.
+In order to illustrate the virus evolution a public {% tool "nextstrain-auspice" %} instance was set up. In regular time intervals, all existing samples were rerun to obtain the latest lineage annotations.
 
 ### Data brokering to ENA
 
