@@ -515,9 +515,9 @@
     biotools: nextflow
     tess: Nextflow
   url: https://www.nextflow.io/
-- description: Estonian local instance of the Nextstrain Auspiece application that serves SARS-CoV-2 phylogenetic data
-  id: nextstrain-auspiece
-  name: Nextstrain Auspiece
+- description: Estonian local instance of the Nextstrain Auspice application that serves SARS-CoV-2 phylogenetic data
+  id: nextstrain-auspice
+  name: Nextstrain Auspice
   url: https://auspice.biit.cs.ut.ee/ncov/est
 - description: Omics Integrator is a package designed to integrate proteomic data, gene expression data and/or epigenetic data using a protein-protein interaction network.
   id: omicsgenerator
