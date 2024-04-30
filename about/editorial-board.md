@@ -4,9 +4,9 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke, Eva Garcia Alvarez, Hedi Peterson, Iris Van Dam, Katharina Lauer, Laura Portell Silva, Liane Hughes, Patricia Palagi, Rafael Andrade Buono, Rudolf Wittner, Martin Cook, Shona Cosgrove, Stian Soiland-Reyes, Romain David" %}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke, Eva Garcia Alvarez, Hedi Peterson, Katharina Lauer, Laura Portell Silva, Liane Hughes, Patricia Palagi, Rafael Andrade Buono, Rudolf Wittner, Martin Cook, Stian Soiland-Reyes, Romain David" %}
 
-### Responsibilities
+## Responsibilities
 
 * Careful consideration and examination of topics proposed by contributors, to make sure it is relevant for the Infectious Diseases Toolkit.
 * Work together with contributors how and where their specific contribution fits best in Infectious Diseases Toolkit.
@@ -15,6 +15,13 @@ title: Editorial board
 * Join the editorial meetings.
 * Manage a Github repository.
 
-### Contact
+## Past editorial board members
+
+In this section we would like to thank contributions of our past editorial members.
+
+{% include contributor-tiles-all.html custom="Iris Van Dam, Shona Cosgrove" %}
+
+
+## Contact
 
 Please contact us at idtk-editors@elixir-europe.org.
