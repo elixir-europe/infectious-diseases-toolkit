@@ -69,7 +69,7 @@ The following bioinformatics tools are usually part of a bioinformatics pipeline
 - {% tool "trimmomatic" %}: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data. It uses various filtering and trimming options to improve the quality of the sequencing data and prepare it for downstream analysis.
 - {% tool "fastqc-screen" %}:  FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files). It screens the input data against a database, formed by the genomes of all of the organisms that could have contaminated the sample, along with PhiX, Vectors or other contaminants commonly seen in sequencing experiments.
 - {% tool "graf-pop" %}: GRAF-pop is a software tool that infers the subject ancestry. For the estimation it uses about 100,000 SNPs from genotype datasets, which can be in PLINK and VCF format. 
-- {% tool "graf-sex" %}: Determines subject sexes using the genotypes. It’s used to validate the self-reported sexes in phenotype datasets.
+- {% tool "graf-sex" %}: GRAF-sex determines subject sexes using the genotypes. It’s used to validate the self-reported sexes in phenotype datasets.
 
 #### Diagnostic assays quality control
 
