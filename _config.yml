@@ -4,13 +4,15 @@ title: Infectious Diseases Toolkit
 description: "Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.5.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
 
 gtag: G-TNT17YGXQ4
 
 theme_variables:
   privacy_statement_url: /about/privacy
   theme_color: 457B9D
+  headings:
+    resource-table-all-collapse: true
   fonts:
     - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
 
@@ -51,6 +53,7 @@ defaults:
     values:
       type: attributing_credit
       datatable: true
+      type_img: /assets/img/section-icons/quote-left-duotone.svg
 
   -
     scope:
@@ -59,6 +62,7 @@ defaults:
     values:
       type: data_analysis
       datatable: true
+      type_img: /assets/img/section-icons/chart-line-duotone.svg
     
   -
     scope:
@@ -67,6 +71,7 @@ defaults:
     values:
       type: data_communication
       datatable: true
+      type_img: /assets/img/section-icons/paper-plane-duotone.svg
 
   -
     scope:
@@ -75,6 +80,7 @@ defaults:
     values:
       type: data_description
       datatable: true
+      type_img: /assets/img/section-icons/list-timeline-duotone.svg
 
   -
     scope:
@@ -83,6 +89,7 @@ defaults:
     values:
       type: data_sources
       datatable: true
+      type_img: /assets/img/section-icons/magnifying-glass-chart-duotone.svg
 
   -
     scope:
@@ -91,6 +98,7 @@ defaults:
     values:
       type: ethical_legal_and_social_issues
       datatable: true
+      type_img: /assets/img/section-icons/fingerprint-duotone.svg
 
   -
     scope:
@@ -99,6 +107,7 @@ defaults:
     values:
       type: provenance
       datatable: true
+      type_img: /assets/img/section-icons/signs-post-duotone.svg
 
   -
     scope:
@@ -107,6 +116,7 @@ defaults:
     values:
       type: quality_control
       datatable: true
+      type_img: /assets/img/section-icons/stars-duotone.svg
 
   -
     scope:
@@ -115,6 +125,7 @@ defaults:
     values:
       type: showcase
       datatable: true
+      type_img: /assets/img/section-icons/network-wired-duotone.svg
 
   -
     scope:
@@ -123,6 +134,7 @@ defaults:
     values:
       type: national_resources
       datatable: true
+      type_img: /assets/img/section-icons/
 
   -
     scope:
