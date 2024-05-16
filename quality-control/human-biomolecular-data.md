@@ -1,7 +1,7 @@
 ---
 title: Human biomolecular data
 description: This page explains in detail the importance of quality control for human biomolecular data in the context of infectious diseases, as well as explains the steps to follow.
-contributors: [Aina Jené Cortada, Mireia Marin Ginestar]
+contributors: [Aina Jené Cortada, Mireia Marin Ginestar, Clementina Elvezia Cocuzza, Arnau Soler Costa]
 page_id: hbd_quality_control
 redirect_from: /human-biomolecular-data/quality-control
 related_pages:
