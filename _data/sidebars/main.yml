@@ -63,6 +63,8 @@ subitems:
         url: /quality-control/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /quality-control/pathogen-characterisation
+      - title: Human biomolecular data
+        url: quality-control/human-biomolecular-data
 
   - title: Showcase
     hr: true
