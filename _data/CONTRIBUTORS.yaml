@@ -74,7 +74,6 @@ Iris Van Dam:
   git: IrisVanDam
   email: iris.vandam@sciensano.be
   affiliation: Sciensano
-  role: editor
 Katharina Lauer:
   orcid: 0000-0002-4347-7525
   git: klauer2207
@@ -247,3 +246,9 @@ Mireia Marin Ginestar:
   email: mireia.marin@crg.eu
   orcid: 0009-0000-1868-2917
   affiliation: European Genome-phenome Archive (EGA) / CRG
+Clementina Elvezia Cocuzza:
+  git:
+  email: clementina.cocuzza@unimib.it
+  orcid: 0000-0001-6166-1134
+  affiliation: School of Medicine and Surgery, University of Milano-Bicocca
+

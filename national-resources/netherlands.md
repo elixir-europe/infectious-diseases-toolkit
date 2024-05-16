@@ -54,42 +54,34 @@ national_resources:
     registry:
       fairsharing: https://fairsharing.org/4841
     url: https://portal.odissei.nl/
-  - name: DANS
+  - name: DANS Data Station Life Sciences
     description: The Data Archiving and Networked Services (DANS) is the Dutch
-      national centre of expertise and repository for research data.
+      national centre of expertise and repository for research data. This data
+      station allows you to deposit and search for data within the fields of
+      medical, health and green life sciences.
     how_to_access: #request data through the dashboard.
     related_pages:
     registry:
-    url: https://dans.knaw.nl/en/
-  - name: Erasmus MC COVID-19 cohort-associated connected datasets study
-    description: As part of the multidisciplinary [ReCoDID](https://recodid.eu/) consortium,
-      the study aimed at connecting clinical-epidemiological (CE) data with
-      further datasets from research on many other aspects of SARS-CoV-2.
-    how_to_access: Research data sets can be accessed through the Cohort Browser.
-    instance_of:
+      fairsharing: https://fairsharing.org/5214
+    url: https://dans.knaw.nl/en/life-sciences/
+  - name: DANS Data Station Life Sciences
+    description: The Data Archiving and Networked Services (DANS) is the Dutch
+      national centre of expertise and repository for research data. This data
+      station allows you to deposit and search for data within the social
+      sciences and humanities.
+    how_to_access: #request data through the dashboard.
     related_pages:
     registry:
-    url: https://www.pathogensportal.org/cohorts
-  - name: Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort
-    description: Clinical-Epidemiological (CE) data from the Erasmus MC cohort
-      includes 151 PCR-confirmed COVID-19 individuals who were admitted to the
-      hospital with a respiratory infection or respiratory failure in 2020-2021.
-    how_to_access: Request data through the EGA platform
-    instance_of:
+    url: https://dans.knaw.nl/en/social-sciences-and-humanities/
+  - name: ELSI servicedesk
+    description: The ELSI Servicedesk provides guidance and answers to the ethical,
+      legal and social implications of research on personalised medicine and next
+      generation sequencing that life science professionals, policymakers and
+      patients are faced with. 
     related_pages:
     registry:
-    url: https://ega-archive.org/datasets/EGAD00001009748
-  - name: COVID RADAR app
-    description: Over a period of approximately 2 years (starting May 2020 until
-      February 2022), a total of 280.000 Dutch inhabitants filled in a short
-      questionnaire about Corona-related symptoms, behaviour, vaccination status
-      and test result.
-    how_to_access: #download from link
-    instance_of:
-    related_pages:
-    registry:
-    url: https://doi.org/10.17026%2Fdans-zcd-m9dh
-
+    url: https://www.health-ri.nl/en/services/elsi-servicedesk
+    
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
@@ -153,10 +145,10 @@ Clinical data collected from patients with (suspected) COVID-19 infection can be
 The DANS [Data Station Social Sciences and Humanities](https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/) is a trustworthy digital repository based on Dataverse software with a focus on the domain of the social sciences and humanities (SSH). It allows the deposit and search for various kinds of research data from the SSH domain.
 
 
-### DANS Data Station Life, Health and Medical Sciences 
+### DANS Data Station Life Sciences 
 
 
-The DANS [Data Station Life, Health and Medical Sciences](https://dans.knaw.nl/en/data-stations/life-health-and-medical-sciences/) is a trustworthy digital repository based on Dataverse software with a focus on the fields of life sciences, health sciences and medical sciences. It allows the deposit and search for various kinds of research data from these fields. 
+The DANS [Data Station Life Sciences](https://dans.knaw.nl/en/life-sciences/) is a trustworthy digital repository based on Dataverse software with a focus on the fields of life sciences, health sciences and medical sciences. It allows the deposit and search for various kinds of research data from these fields. 
  
 ### Dutch database on antimicrobial resistance (AMR) 
  
