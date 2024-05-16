@@ -59,6 +59,8 @@ subitems:
     description: Tools and methods to assess quality
     image_url: /assets/img/section-icons/stars-duotone.svg
     subitems:
+      - title: Human clinical and health data
+        url: /quality-control/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /quality-control/pathogen-characterisation
 
