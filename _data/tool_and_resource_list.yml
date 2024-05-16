@@ -865,3 +865,35 @@
   registry:
     tess: Quarto
   url: https://quarto.org/
+- description: Bcftools is a set of tools for working with variant calls in the VCF format. 
+  id: bcftools
+  name: Bcftools
+  url: https://samtools.github.io/bcftools/bcftools.html
+- description: Qualimap is a quality control tool that assesses the quality of the sequencing data at different stages of the analysis pipeline, including read mapping, coverage, and expression analysis.
+  id: qualimap
+  name: Qualimap
+  url: http://qualimap.conesalab.org/
+- description: GATK is a widely used tool for variant calling and genotyping from NGS data.
+  id: gatk
+  name: Genome Analysis Toolkit (GATK)
+  url: https://gatk.broadinstitute.org/hc/en-us
+- description: Picard is a suite of tools that provides quality control and processing of NGS data, including duplicate read removal, format conversion, and alignment.
+  id: picard
+  name: Picard
+  url: https://broadinstitute.github.io/picard/
+- description: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data.
+  id: trimmomatic
+  name: Trimmomatic
+  url: http://www.usadellab.org/cms/?page=trimmomatic
+- description: FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
+  id: fastqc-screen
+  name: fastQC Screen
+  url: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
+- description: GRAF pop is a software tool that infers the subject ancestry. 
+  id: graf-pop
+  name: GRAF pop
+  url: https://pubmed.ncbi.nlm.nih.gov/31151998/
+- description: Tool that determines subject sexes using the genotypes.
+  id: graf-sex
+  name: GRAF sex
+  url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
