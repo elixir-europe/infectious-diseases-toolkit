@@ -5,7 +5,6 @@ contributors: [Aina Jené Cortada, Mireia Marin Ginestar, Clementina Elvezia Coc
 page_id: hbd_quality_control
 redirect_from: /human-biomolecular-data/quality-control
 related_pages:
-  pathogen_characterisation: [pc_attributing_credit]
 rdmkit:
   - name: Data quality
     url: https://rdmkit.elixir-europe.org/data_quality
