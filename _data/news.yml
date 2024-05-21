@@ -98,3 +98,11 @@
   date: 2024-02-13
   linked_pr: 263
   description: An inversion of the structure took place. Pages with information about specific data types are now subpages within data management topics. This allows for the existence of general pages.
+- name: "New page: Quality control of Human clinical and health data"
+  description: Content was added to the Human clinical and health data page in the Quality control section. [Discover the page here](/quality-control/human-clinical-and-health-data)
+  date: 2024-05-07
+  linked_pr: 292
+- name: "New page: Quality control of Human biomolecular data"
+  description: Content was added to the Human biomolecular data page in the Quality control section. [Discover the page here](/quality-control/human-biomolecular-data)
+  date: 2024-05-16
+  linked_pr: 290
