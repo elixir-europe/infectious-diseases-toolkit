@@ -16,9 +16,12 @@ training:
   - name: SARS-CoV-2 data submission to the European Nucleotide Archive
     registry:
     url: https://ena-covid19-docs.readthedocs.io/en/latest/submission_workshop/getting_started.html
-  - name: SARS-CoV-2 Data Analysis
+  - name: SARS-CoV-2 data analysis
     registry:
     url: https://gallantries.github.io/video-library/modules/covid-analysis
+  - name: SARS-CoV-2, viruses and bacteria data analysis
+    registry:
+    url: https://gallantries.github.io/video-library/modules/one-health    
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
