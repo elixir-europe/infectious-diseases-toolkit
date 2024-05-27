@@ -897,3 +897,11 @@
   id: graf-sex
   name: GRAF sex
   url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
+- description: Searchable list of tools available to help you work with DDI, from authoring and editing metadata to data transformations. The tools have been developed independently by a variety of organizations from the global DDI community.
+  id: ddi
+  name: DDI Tools
+  url: https://ddialliance.org/resources/tools
+- description: The NUTS (Nomenclature of territorial units for statistics) classification, developed by eurostat, is a hierarchical system for dividing up the economic territory of the EU and the UK.
+  id: nuts
+  name: NUTS
+  url: https://ec.europa.eu/eurostat/web/nuts/overview
