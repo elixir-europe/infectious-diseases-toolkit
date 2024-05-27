@@ -13,7 +13,7 @@
 - name: New content on the Provenance page
   date: 2022-10-17
   linked_pr: 77
-  description: Content was added to the Provenance page in the Human clinical and health data section. [Discover the page here](/human-clinical-and-health-data/provenance)
+  description: Content was added to the Provenance page in the Human clinical and health data section. [Discover the page here](/provenance/human-clinical-and-health-data)
 - name: "New page: National resources Sweden"
   date: 2023-04-19
   linked_pr: 150
@@ -39,11 +39,11 @@
   linked_pr: 146
   description: This page gives insight on national resources for infectious diseases in Norway. [Discover the page here](/national-resources/norway)
 - name: "New page: Analysis of Human biomolecular data"
-  description: Content was added to the Data analysis page in the Human biomolecular data section. [Discover the page here](/human-biomolecular-data/data-analysis)
+  description: Content was added to the Data analysis page in the Human biomolecular data section. [Discover the page here](/data-analysis/human-biomolecular-data)
   date: 2023-07-19
   linked_pr: 190
 - name: "New page: Socioeconomic data sources"
-  description: Content was added to the Data sources page in the Socioeconomic data section. [Discover the page here](/socioeconomic-data/data-sources)
+  description: Content was added to the Data sources page in the Socioeconomic data section. [Discover the page here](/data-sources/socioeconomic-data)
   date: 2023-07-19
   linked_pr: 210
 - name: "New page: National resources Belgium"
@@ -63,15 +63,15 @@
   date: 2023-11-09
   linked_pr: 241
 - name: "New page: Human biomolecular data sources"
-  description: Content was added to the Data sources page in the Human biomolecular data section. [Discover the page here](/human-biomolecular-data/data-sources)
+  description: Content was added to the Data sources page in the Human biomolecular data section. [Discover the page here](/data-sources/human-biomolecular-data)
   date: 2023-09-19
   linked_pr: 155
 - name: "New page: Pathogen Characterisation data description"
-  description: Content was added to the Data Description page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/data-description)
+  description: Content was added to the Data Description page in the Pathogen characterization section. [Discover the page here](/data-description/pathogen-characterisation)
   date: 2023-11-20
   linked_pr: 194
 - name: "New page: Pathogen Characterisation quality control"
-  description: Content was added to the Quality Control page in the Pathogen characterization section. [Discover the page here](/pathogen-characterisation/quality-control)
+  description: Content was added to the Quality Control page in the Pathogen characterization section. [Discover the page here](/quality-control/pathogen-characterisation)
   date: 2023-11-28
   linked_pr: 240
 - name: "New page: The Swedish Pathogens Portal"
@@ -82,3 +82,27 @@
   description: A Showcase page about the linking and sharing of cohort data, which is focussed on the first example of linking and sharing a COVID-19, multi-omics cohort data set via the EMBL-EBI infrastructure. [Discover the page here](/showcase/linked-cohort-data)
   date: 2024-01-08
   linked_pr: 255
+- name: "New page: Human clinical and health data sources"
+  description: Content was added to the Data sources page in the Human clinical and health data section. [Discover the page here](/data-sources/human-clinical-and-health-data)
+  date: 2024-01-23
+  linked_pr: 93
+- name: "New page: National resources Estonia"
+  description: A new national resources page for infectious diseases-related data sources and actions in Estonia. [Discover the page here](/national-resources/estonia)
+  date: 2024-01-24
+  linked_pr: 270
+- name: "New page: Prototyping federated causal research questions reusing sensitive health data"
+  description: A Showcase page about prototyping federated causal research questions reusing sensitive health data. [Discover the page here](/showcase/prototyping-research-questions)
+  date: 2024-01-25
+  linked_pr: 269
+- name: New website structure
+  date: 2024-02-13
+  linked_pr: 263
+  description: An inversion of the structure took place. Pages with information about specific data types are now subpages within data management topics. This allows for the existence of general pages.
+- name: "New page: Quality control of Human clinical and health data"
+  description: Content was added to the Human clinical and health data page in the Quality control section. [Discover the page here](/quality-control/human-clinical-and-health-data)
+  date: 2024-05-07
+  linked_pr: 292
+- name: "New page: Quality control of Human biomolecular data"
+  description: Content was added to the Human biomolecular data page in the Quality control section. [Discover the page here](/quality-control/human-biomolecular-data)
+  date: 2024-05-16
+  linked_pr: 290

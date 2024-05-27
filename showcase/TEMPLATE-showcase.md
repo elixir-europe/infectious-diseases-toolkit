@@ -5,11 +5,6 @@ contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitations for the audience--->
 affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the _data/affiliations.yaml file in order to work. Add logos to the /images/logos directory and link towards them in the affiliations.yaml file accordingly. --->]
 page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
-related_pages: 
-  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-  socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-  human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-  human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
 training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
@@ -24,7 +19,7 @@ fairsharing:
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
-<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style_guide when writing the content of this page. -->
+<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style-guide when writing the content of this page. -->
 
 <!--- Showcase pages should detail a particular combination of standards and tools from an infrastructural or domain perspective to tackle infectious diseases related data challenges. --->
 

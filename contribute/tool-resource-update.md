@@ -6,9 +6,9 @@ search_exclude: true
 
 ## Way of working
 
-The tools or resources you find on pages are a set selected from a [bigger list](all_tools_and_resources). This selection is based on the appearance of the tool or resource in the content of the page.
+The tools or resources you find on pages are a set selected from a [bigger list](/tools-and-resources-list). This selection is based on the appearance of the tool or resource in the content of the page.
 
-The [all_tools_and_resources](all_tools_and_resources) list is based on the [yaml file](https://github.com/bedroesb/infectious-diseases-toolkit/blob/new-way-tag-tools/_data/tool_and_resource_list.yml) in the `_data` directory of the  Infectious Diseases Toolkit repository. Tools and resources can be manually linked to their entry in [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/). In addition, every week we run an automatic check to identify entries of the tools and resources in these registries and add the appropriate link to the list. A GitHub Bot will generate a Pull Request (PR) with the new links added to the main data file of the website.
+The [all_tools_and_resources](/tools-and-resources-list) list is based on the [yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) in the `_data` directory of the  Infectious Diseases Toolkit repository. Tools and resources can be manually linked to their entry in [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/). In addition, every week we run an automatic check to identify entries of the tools and resources in these registries and add the appropriate link to the list. A GitHub Bot will generate a Pull Request (PR) with the new links added to the main data file of the website.
 
 {% include callout.html type="important" content="The link with FAIRsharing,TeSS and Bio.tools is automatically done using GitHub actions and is weekly updated. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, but there is yet one automatically given (faulty), you can overwrite the automatic linking by adding 'NA' as registry." %}
 
@@ -40,7 +40,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 ## Making changes
 
-1. Make sure the tool you want to add is not yet already described in the [yaml file](https://github.com/bedroesb/infectious-diseases-toolkit/blob/new-way-tag-tools/_data/tool_and_resource_list.yml). If so, go to step 3, if not, follow the next step.
+1. Make sure the tool you want to add is not yet already described in the [yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml). If so, go to step 3, if not, follow the next step.
 
 1. Click on the pencil icon seen on GitHub of the [main yaml file](https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_data/tool_and_resource_list.yml) as described in our [GitHub Guide](/contribute/github-way). Add your tool or resource at the bottom of the file following the structure described in the [The main yaml file section of this page](#the-main-yaml-file). Make sure the indentation follows the one of the previous listed items. Copy the content of the yaml file and paste it in an online yaml validator in case of doubt.
 

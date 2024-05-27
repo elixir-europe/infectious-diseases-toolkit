@@ -16,7 +16,11 @@ Sharing data as openly and FAIRly as possible is key in accelerating research pr
 
 A network of national portals, similar to the {% tool "covid-19-data-portal" %}, was established to facilitate data sharing by individual countries. Sweden was the first country to launch their national portal; the Swedish COVID-19 Data Portal was launched in June 2020. The scope of the national portal has since expanded and shifted in accordance with the needs and interests of the research community. This showcase describes the Portal, now known as the {% tool "swedish-pathogens-portal" %}, and how the content and scope has changed over time. The showcase could enable others to establish national/local portals in a health emergency, like a pandemic, and provides insight as to how the scope of such portals can be changed to ensure preparedness for future emergencies.
 
-## Who is this showcase intended for?
+## Who is the showcase intended for?
+
+The primary target audience for the {% tool "swedish-pathogens-portal" %} is the Swedish research community. The Portal also has multiple secondary audiences, including individuals involved in industry, healthcare, policy making, as well as the general public (primarily in Sweden). The content of the Portal is also often viewed internationally, and can be made use of by those based in other countries.
+
+## What is this showcase intended for?
 
 The {% tool "swedish-pathogens-portal" %} provides information about available datasets, tools, and services related to pandemic preparedness in Sweden. In addition, the {% tool "swedish-pathogens-portal" %} works to accelerate research by providing support for managing data related to pathogens and/or pandemic preparedness. Direct research data management support is also available from the team behind the Portal for anyone affiliated with a Swedish research institution or university.
 
@@ -41,11 +45,7 @@ In 2023, the Portal was rebranded as ‘{% tool "swedish-pathogens-portal" %}’
 - To collaborate with communities at both the national and international levels.
 - To act as a use case for how research communities can be built around common themes.
 
-## Who is the SHOWCASE intended for?
-
-The primary target audience for the {% tool "swedish-pathogens-portal" %} is the Swedish research community. The Portal also has multiple secondary audiences, including individuals involved in industry, healthcare, policy making, as well as the general public (primarily in Sweden). The content of the Portal is also often viewed internationally, and can be made use of by those based in other countries.
-
-## What can you use the SHOWCASE for?
+## What can you use the showcase for?
 
 - To find information about available datasets related to pandemic preparedness in Sweden (e.g. [studies of the effectiveness of vaccines](https://pathogens.se/dashboards/recovac/), or [wastewater data collected to monitor for outbreaks of multiple pathogens](https://pathogens.se/dashboards/wastewater/)).
 - To find information about tools related to pandemic preparedness in Sweden (e.g. the [Register Utilizer Tool (RUT)](https://pathogens.se/register-based-research/), and [pandemic preparedness capabilities](https://pathogens.se/resources/).
