@@ -122,7 +122,7 @@
   url: https://compss-doc.readthedocs.io/en/stable/
 - description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
   id: covid-19-data-portal
-  name: Covid-19 data portal
+  name: COVID-19 Data Portal
   registry:
     biotools: covid-19-data-portal
     fairsharing: f3b7a9
@@ -738,7 +738,7 @@
     biotools: fastqc
     tess: FASTQC
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-- description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
+- description: SAMtools is a suite of programs for interacting with high-throughput sequencing data.
   id: samtools
   name: SAMtools
   registry:
@@ -885,9 +885,9 @@
   id: trimmomatic
   name: Trimmomatic
   url: http://www.usadellab.org/cms/?page=trimmomatic
-- description: FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
+- description: FastQ Screen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
   id: fastqc-screen
-  name: fastQC Screen
+  name: FastQC Screen
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
 - description: GRAF pop is a software tool that infers the subject ancestry. 
   id: graf-pop
