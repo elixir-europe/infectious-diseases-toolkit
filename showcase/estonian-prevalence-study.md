@@ -1,7 +1,7 @@
 ---
 title: Lessons learned from implementing the prevalence study of SARS-CoV-2 in Estonia during 2020-2023
 contributors: [Uku Raudvere, Diana Pilvar]
-description: Insights and practical guidelines from the SARS-CoV-2 prevalence study in Estonia, covering the project's execution, challenges, and key lessons
+description: Insights and practical guidelines from the SARS-CoV-2 prevalence study in Estonia (2020-2023).
 affiliations: [University of Tartu, EE]
 related_pages:
   showcase: [korogenoest]
