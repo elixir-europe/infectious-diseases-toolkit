@@ -62,6 +62,33 @@ The first step in the pipeline analyses,  loading the input data, entails  check
 
 Following this step, a data quality assessment is performed on the input data table to provide direct insights on the original raw data. Contents of this univariate exploratory analysis focuses on a) ‘Dataset statistics’, b) summary statistics and general information for each ‘Variable’, c) a ‘Missing data profile’, d) prespecified ‘Alerts’ at variable level, and e) presence of ‘Duplicate’ registries (see Figure 4).
 
+{% include image.html file="/baselineUseCase_DQA_InteractiveReport.png" caption="Figure 4. Data Quality Assessment (DQA) interactive report %}
+
+The overview of a) ‘Dataset statistics’ focuses on 1) the number of variables, 2) the number of rows (or registries), 3) global number of observations, 4) global number of missing cells, 5) percentage of missing cells (or fields), and 6) file memory usage for the input data file (i.e., input data table).
+
+The univariate exploratory data analysis at b) ‘Variable’ level provides general information on the number of discrete, continuous and complete missing columns in the dataset and on the class of each variable in the input data, and includes additional information on each variable such as an 1) ‘Overview’ with information in the number and percentage of distinct values, and the number and percentage of missing values; 2) a ‘Summary’ with the length, class and mode of the variable for categorical and boolean variables and summary distribution statistics (i.e., min, max, median, mean, 1st and 3rd quartiles) for numeric variables; 3) a list of the existing categories - if the variable is a character or factor variable with under 100 distinct values; and 4) a graphical representation of the distribution of the variable (i.e., histogram or similar) when possible. 
+
+The c) ‘Missing data profile’ includes both a table and figure representing the number of registries with missing values (and the percentage of missing values per variable) for each variable. 
+Further information is provided as d) ‘Alerts’ considering the cardinality of variables (i.e., a variable with a constant value, or all registries with unique values) or specific alerts for variables over a prespecified threshold of missing values. Finally, the data quality assessment provides information about the presence or absence of duplicate registries in the input data. Participants are expected to use this information to correct any possible data inaccuracies or inconsistencies by reviewing the extraction and transformation processes producing the input data, or to gain insights for the interpretation of their outputs from the statistical analyses. 
+
+Next step in the analytical pipeline after the data quality assessment is applying the data validation rules prespecified in the CDM. All registries are systematically tested against the validation rules and results from this validation are summarised in an interactive report (see Figure 5).
+
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 5. Data validation report %}
+
+The data validation process is additive so not to change or delete any of the contents of the input data but to add a ‘flag_violating_val’ boolean variable informing whether a registry violates an essential validation rule. Validation rules imposed on the input data are considered essential when non compliance (or violation) of such rule could disable or negatively impact the subsequent analysis. 
+
+The data validation report contains a validation compliance table and a validation plot informing on the rationale of each validation rule, their name (label), the number of items or registries for which the rule is applied, the number of registries passing and/or failing the rule, the percentage of failed registries within a variable, the number and percentage of missing values (namely ‘NA’s values), and if the rule has triggered any errors or warnings within the analysis. Non-compliance with the CDM is also informed globally as the number of registries failing a validation rule. 
+
+This study is built upon the implementation of a causal model to evaluate the effectiveness of the primary vaccination for COVID-19 at the population level. The methodology to support the analysis required for causal inference, requires establishing  counterfactual risks, achieved in this instance by matching similar individuals who completed the primary vaccination with individuals that did not or partially complete a primary  vaccination schedule, based on a set of assumed measurable confounders. 
+
+Missing values in those variables considered as potential confounders could difficult the matching process and could potentially affect the interpretation of the analyses. That is why, once the data quality and the data validation rules has been assessed, a more detailed analysis is continued on those variables required for the matching process, so considered ‘core’ variables, following a standardised decision tree guiding the imputation process for those variables (see Figure 6 below).
+
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 6. Decision tree for the imputation of missing data according to the variable. MCAR: missing completely at random. %}
+
+Finally, the imputation process produces an interactive report as informative output on the MCAR/MAR/Non-MAR of the missing values in the core variable set in the input data, with a description of the number of registries imputed, the method followed and an overall assessment of the probability density distribution of the imputed variables compared with the original data (see an example in Figure 7 below). 
+
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 7. Imputation of missing values on core variables interactive report. %}
+
 
 #### Comparing and/or pooling the local results
 To integrate results across different populations, the aggregated non-sensitive statistics produced as local outputs of the analytical pipeline are shared and can be compared and/or pooled by the Coordination Node in the form of a meta-analysis. 
