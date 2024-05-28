@@ -74,6 +74,8 @@ subitems:
     subitems:
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
+      - title: ENA data submission toolbox
+        url:  /showcase/ena-data-submission-toolbox
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
