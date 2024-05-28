@@ -78,6 +78,8 @@ subitems:
         url:  /showcase/ena-data-submission-toolbox
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
+      - title: "Prevalence study of SARS-CoV-2 in Estonia: lessons learned"
+        url:  /showcase/estonian-prevalence-study
       - title: SARS-CoV-2 sequencing in Estonia 2021-2022
         url:  /showcase/korogenoest
       - title: The Swedish Pathogens Portal

@@ -106,3 +106,7 @@
   description: Content was added to the Human biomolecular data page in the Quality control section. [Discover the page here](/quality-control/human-biomolecular-data)
   date: 2024-05-16
   linked_pr: 290
+- name: "New page: Prevalence study of SARS-CoV-2 in Estonia: lessons learned"
+  date: 2024-05-28
+  linked_pr: 304
+  description: A showcase page about the critical lessons learned on how to run a prevalence study based on the 4-years experience in Estonia
