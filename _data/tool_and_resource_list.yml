@@ -361,7 +361,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -793,6 +793,7 @@
   name: Pathogens Portal
   registry:
     fairsharing: a085b2
+    tess: Pathogens Portal
   url: https://www.pathogensportal.org
 - description: The European Health Data Space is a health specific ecosystem comprised of rules, common standards and practices, infrastructures and a governance framework that aims at empowering individuals through increased digital access to and control of their electronic personal health data, at national level and EU-wide.
   id: ehds
@@ -865,31 +866,42 @@
   registry:
     tess: Quarto
   url: https://quarto.org/
-- description: Bcftools is a set of tools for working with variant calls in the VCF format. 
+- description: Bcftools is a set of tools for working with variant calls in the VCF format.
   id: bcftools
   name: Bcftools
+  registry:
+    biotools: bcftools
   url: https://samtools.github.io/bcftools/bcftools.html
 - description: Qualimap is a quality control tool that assesses the quality of the sequencing data at different stages of the analysis pipeline, including read mapping, coverage, and expression analysis.
   id: qualimap
   name: Qualimap
+  registry:
+    biotools: qualimap
   url: http://qualimap.conesalab.org/
 - description: GATK is a widely used tool for variant calling and genotyping from NGS data.
   id: gatk
   name: Genome Analysis Toolkit (GATK)
+  registry:
+    biotools: gatk
   url: https://gatk.broadinstitute.org/hc/en-us
 - description: Picard is a suite of tools that provides quality control and processing of NGS data, including duplicate read removal, format conversion, and alignment.
   id: picard
   name: Picard
+  registry:
+    biotools: picard_tools
   url: https://broadinstitute.github.io/picard/
 - description: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data.
   id: trimmomatic
   name: Trimmomatic
+  registry:
+    biotools: trimmomatic
+    tess: Trimmomatic
   url: http://www.usadellab.org/cms/?page=trimmomatic
 - description: FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
   id: fastqc-screen
   name: fastQC Screen
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
-- description: GRAF pop is a software tool that infers the subject ancestry. 
+- description: GRAF pop is a software tool that infers the subject ancestry.
   id: graf-pop
   name: GRAF pop
   url: https://pubmed.ncbi.nlm.nih.gov/31151998/
