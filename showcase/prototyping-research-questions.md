@@ -85,11 +85,11 @@ This study is built upon the implementation of a causal model to evaluate the ef
 
 Missing values in those variables considered as potential confounders could difficult the matching process and could potentially affect the interpretation of the analyses. That is why, once the data quality and the data validation rules has been assessed, a more detailed analysis is continued on those variables required for the matching process, so considered ‘core’ variables, following a standardised decision tree guiding the imputation process for those variables (see Figure 4 below).
 
-{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 4. Decision tree for the imputation of missing data according to the variable. MCAR: missing completely at random." %}
+{% include image.html file="/baselineUseCase_DecisionTree.png" caption="Figure 4. Decision tree for the imputation of missing data according to the variable. MCAR: missing completely at random." %}
 
 Finally, the imputation process produces an interactive report as informative output on the MCAR/MAR/Non-MAR of the missing values in the core variable set in the input data, with a description of the number of registries imputed, the method followed and an overall assessment of the probability density distribution of the imputed variables compared with the original data (see an example in Figure 5 below). 
 
-{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 5. Imputation of missing values on core variables interactive report." %}
+{% include image.html file="/baselineUseCase_ImputationMissingValues.png" caption="Figure 5. Imputation of missing values on core variables interactive report." %}
 
 
 #### Comparing and/or pooling the local results
