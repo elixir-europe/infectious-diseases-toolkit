@@ -62,7 +62,7 @@ The first step in the pipeline analyses,  loading the input data, entails  check
 
 Following this step, a data quality assessment is performed on the input data table to provide direct insights on the original raw data. Contents of this univariate exploratory analysis focuses on a) ‘Dataset statistics’, b) summary statistics and general information for each ‘Variable’, c) a ‘Missing data profile’, d) prespecified ‘Alerts’ at variable level, and e) presence of ‘Duplicate’ registries (see Figure 4).
 
-{% include image.html file="/baselineUseCase_DQA_InteractiveReport.png" caption="Figure 4. Data Quality Assessment (DQA) interactive report %}
+{% include image.html file="/baselineUseCase_DQA_InteractiveReport.png" caption="Figure 4. Data Quality Assessment (DQA) interactive report" %}
 
 The overview of a) ‘Dataset statistics’ focuses on 1) the number of variables, 2) the number of rows (or registries), 3) global number of observations, 4) global number of missing cells, 5) percentage of missing cells (or fields), and 6) file memory usage for the input data file (i.e., input data table).
 
@@ -73,7 +73,7 @@ Further information is provided as d) ‘Alerts’ considering the cardinality o
 
 Next step in the analytical pipeline after the data quality assessment is applying the data validation rules prespecified in the CDM. All registries are systematically tested against the validation rules and results from this validation are summarised in an interactive report (see Figure 5).
 
-{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 5. Data validation report %}
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 5. Data validation report" %}
 
 The data validation process is additive so not to change or delete any of the contents of the input data but to add a ‘flag_violating_val’ boolean variable informing whether a registry violates an essential validation rule. Validation rules imposed on the input data are considered essential when non compliance (or violation) of such rule could disable or negatively impact the subsequent analysis. 
 
@@ -83,11 +83,11 @@ This study is built upon the implementation of a causal model to evaluate the ef
 
 Missing values in those variables considered as potential confounders could difficult the matching process and could potentially affect the interpretation of the analyses. That is why, once the data quality and the data validation rules has been assessed, a more detailed analysis is continued on those variables required for the matching process, so considered ‘core’ variables, following a standardised decision tree guiding the imputation process for those variables (see Figure 6 below).
 
-{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 6. Decision tree for the imputation of missing data according to the variable. MCAR: missing completely at random. %}
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 6. Decision tree for the imputation of missing data according to the variable. MCAR: missing completely at random." %}
 
 Finally, the imputation process produces an interactive report as informative output on the MCAR/MAR/Non-MAR of the missing values in the core variable set in the input data, with a description of the number of registries imputed, the method followed and an overall assessment of the probability density distribution of the imputed variables compared with the original data (see an example in Figure 7 below). 
 
-{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 7. Imputation of missing values on core variables interactive report. %}
+{% include image.html file="/baselineUseCase_DataValidationReport.png" caption="Figure 7. Imputation of missing values on core variables interactive report." %}
 
 
 #### Comparing and/or pooling the local results
