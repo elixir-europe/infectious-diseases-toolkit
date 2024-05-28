@@ -30,6 +30,8 @@ This showcase is intended for researchers, data scientists, policymakers, and ot
 
 The prevalence study in Estonia aimed to identify and track SARS-CoV-2 infections within the population. This involved determining the actual prevalence rates across various demographic groups such as age, sex, county, and nationality, as well as among asymptomatic individuals.
 
+{% include image.html file="/estonian_prevalence_study_design.jpg" caption="Overview of the prevalence study design in Estonia" alt="Overview of the prevalence study design in Estonia" %}
+
 The study also focused on the dynamics of the virus' spread over time. By monitoring how the number and proportion of infected individuals changed, researchers could identify associated factors and assess the effectiveness of public health measures. This dynamic tracking was useful for responding to the pandemic in real-time and evaluating the effect of interventions.
 
 With the introduction of vaccines and antibody tests in 2021, the study's scope expanded to include blood sampling and antibody quantification. This allowed researchers to evaluate the effectiveness of different vaccines and understand the likelihood of repeated COVID-19 infections. By tracking antibody levels, the study provided insights into the immune response within the population, contributing to better-informed public health strategies.
@@ -90,4 +92,3 @@ OÜ Medicum Eriarstiabi
 SYNLAB Eesti OÜ
 
 
-### Support
