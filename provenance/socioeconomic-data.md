@@ -1,7 +1,7 @@
 ---
 title: Socioeconomic data
 description: Tracking socioeconomics data and analysis steps done to them.
-contributors: [Rudolf Wittner, Mari Kleemola, Simone Sacchi, Diana Pilvar, Irena Vipavc Brvar, Robin Navest]
+contributors: [Rudolf Wittner, Mari Kleemola, Simone Sacchi, Diana Pilvar, Irena Vipavc Brvar, Eva Garcia Alvarez, Robin Navest]
 related_pages:
 no_robots: true
 search_exclude: true
@@ -54,5 +54,5 @@ The [Social Sciences and Humanities Open Cloud Reference Ontology (SSHOCro)](htt
 As described in the [official site for the Statistical Data and Metadata eXchange (SDMX) community](https://sdmx.org/?page_id=2555/), SDMX is designed to describe statistical data and metadata, normalise their exchange, and improve their efficient sharing across statistical and similar organisations. It provides an integrated approach to facilitating statistical data and metadata exchange, enabling interoperable implementations within and between systems concerned with the exchange, reporting and dissemination of statistical data and their related meta-information.
 It consists of technical standards (including the Information Model), statistical guidelines and an IT architecture and tools and is an [ISO standard](http://www.iso.org/iso/catalogue_detail.htm?csnumber=52500).
 
-Many IT tools have been developed to support the use and implementation of SDMX, examples of such tools are the SDMX Registry, the Data Structure Wizard (DSW) and the SDMX Reference Infrastructure (SDMX-RI).
+Many IT tools have been developed to support the use and implementation of SDMX, examples of such tools are the {% tool "sdmx-registry" %}, the {% tool "dsw" %} and the {% tool "sdmx-ri" %}.
 
