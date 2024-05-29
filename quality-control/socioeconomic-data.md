@@ -2,9 +2,6 @@
 title: Socioeconomic data
 description: Tools and methods to assess quality of socio-economics data.
 contributors: [Eva Garcia Alvarez]
-no_robots: true
-search_exclude: true
-sitemap: false
 page_id: sed_quality_control
 redirect_from: /socioeconomic-data/quality-control
 rdmkit:
