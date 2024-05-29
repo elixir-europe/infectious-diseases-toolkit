@@ -58,13 +58,24 @@ To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena
 
 ### Galaxy Docker container
 
-If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes additional tools, made available in the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) GitHub repository since February 2020, in an effort published by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. The repository featured workflows for Genomics, Cheminformatics, and Proteomics analyses. This centralization of workflows made it easy for Galaxy administrators to deploy and install the tools and workflows together with the other submission tools and create a one stop shop for processing and submitting SARS-CoV-2 sequencing data. The Docker container allows for the local deployment of a fully functional Galaxy instance. It will ensure that data remains on-premise until submission. More information on how to obtain and deploy the container can be found on the [GitHub repo](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
+If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes additional tools, made available in the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) GitHub repository since February 2020, in an effort published by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. The repository featured workflows for Genomics, Cheminformatics, and Proteomics analyses. This centralization of workflows made it easy for Galaxy administrators to deploy and install the tools and workflows together with the other submission tools and create a one stop shop for processing and submitting SARS-CoV-2 sequencing data. The Docker container allows for the local deployment of a fully functional Galaxy instance. It will ensure that data remains on-premise until submission. More information on how to obtain and deploy the container can be found on the [GitHub repository](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
 
 ## What can you use the ENA data submission toolbox for?
  
+The work described in the showcase can be readily used in different ways.
+
+### Direct use for SARS-CoV-2 sequence submission
+
+The tools and workflows mentioned here are available at the [useGalaxy.be](https://usegalaxy.be/) instance. The submission of raw reads can also be readily performed through [useGalaxy.eu](https://usegalaxy.eu) and [useGalaxy.org.au](https://usegalaxy.org.au/).
+
+The Galaxy Docker container can be used to deploy a functioning instance containing all the tools described.
+Instructions on using the components are described in the [ELIXIR-Belgium RDM Guide](https://rdm.elixir-belgium.org/covid-19/).
+
+### Repurposing o the showcase for other organisms
 
 
-A short summary of the components:
+A [general purpose container](https://github.com/ELIXIR-Belgium/ena-upload-container) for deploying a Galaxy instance capable of submitting both raw sequences and genome assemblies of all [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) is available.
+
 
 
 
