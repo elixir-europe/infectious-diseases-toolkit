@@ -909,3 +909,27 @@
   id: graf-sex
   name: GRAF sex
   url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
+- description: Python data visualization library that provides a high-level interface for drawing attractive and informative statistical graphics.
+  id: seaborn
+  name: seaborn
+  url: https://seaborn.pydata.org/
+- description: Free software environment for statistical computing and graphics.
+  id: r
+  name: R
+  url: https://www.r-project.org/
+- description: Open source data analysis and manipulation tool, built on top of the Python programming language.
+  id: pandas
+  name: pandas
+  url: https://pandas.pydata.org/
+- description: Package for scientific computing with Python.
+  id: numpy
+  name: NumPy
+  url: https://numpy.org/
+- description: Machine learning tools in Python
+  id: scikit-learn
+  name: Scikit-learn
+  url: https://scikit-learn.org/stable/
+- description: Python library that uses machine learning to perform fuzzy matching, deduplication and entity resolution quickly on structured data.
+  id: dedupe
+  name: dedupe
+  url: https://github.com/dedupeio/dedupe
