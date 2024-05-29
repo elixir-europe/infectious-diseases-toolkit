@@ -49,15 +49,9 @@ The Galaxy submission tools have the biggest potential for adoption by many user
 
 <!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
 
-
-
-
-
-
-
 {% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA Data Submission Toolbox components." alt="Overview of ENA upload toolbox" %}
 
-To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "ena" %}, we have collaboratively developed and compiled a command line tool, a set of Galaxy tools and Galaxy workflows essential for cleaning, assembling, and submitting SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Using Galaxy offers numerous advantages, such as a user-friendly graphical interface, access to a wide range of tools and workflows for preprocessing, downstream analysis, and visualization of sequences, including those specific to SARS-CoV-2 (Maier et al., 2021). Additionally, Galaxy provides a platform for sharing data and metadata, facilitating international collaboration, integrating with other public resources, and enabling the publication of FAIR data and analysis workflows.
+To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "european-nucleotide-archive" %}, we have collaboratively developed and compiled a command line tool, a set of Galaxy tools and Galaxy workflows essential for cleaning, assembling, and submitting SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Using Galaxy offers numerous advantages, such as a user-friendly graphical interface, access to a wide range of tools and workflows for preprocessing, downstream analysis, and visualization of sequences, including those specific to SARS-CoV-2 (Maier et al., 2021). Additionally, Galaxy provides a platform for sharing data and metadata, facilitating international collaboration, integrating with other public resources, and enabling the publication of FAIR data and analysis workflows.
 
 
 The ENA data submission toolbox is comprised of multiple tools including:
