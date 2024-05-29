@@ -55,18 +55,17 @@ Outliers (i.e., data points that significantly differ from other observations) m
 
 Some methods for detecting errors and inconsistencies are:
 * Data Visualization Tools:
-  * [Microsoft Power BI](https://powerbi.microsoft.com/)
-  * Python libraries: [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/)
+  * Python libraries: {% tool "matplotlib" %}, {% tool "seaborn" %}
 * Statistical Analysis Software:
-  * [R](https://www.r-project.org/)
-  * Python libraries: [pandas](https://pandas.pydata.org/), [numPy](https://numpy.org/)
+  * {% tool "r" %}
+  * Python libraries: {% tool "pandas" %}, {% tool "numpy" %}
 * Develop Data Quality Assessment Framework (DQAF) or implement already existing ones
 * Cross-Validation Techniques:
-  * [Scikit-learn - Cross-validation (python)](https://scikit-learn.org)
+  * {% tool "scikit-learn" %} - Cross-validation (python)
 
 ### Data cleaning
 Data cleaning procedures are essential for ensuring the accuracy and reliability of socio-economic data. This involves identifying and rectifying errors, inconsistencies, and outliers that may arise during data collection or entry. Cleaning procedures may include deduplication to remove redundant entries, standardization of formats to ensure uniformity, and imputation techniques to address missing values.
-Existing software can be used for data cleaning, such as python libraries (e.g., pandas or [dedupe](https://github.com/dedupeio/dedupe)).
+Existing software can be used for data cleaning, such as python libraries (e.g., {% tool "pandas" %} or {% tool "dedupe" %}).
 
 ### Interoperability
 * Semantic harmonisation: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
