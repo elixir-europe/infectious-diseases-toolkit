@@ -1,7 +1,7 @@
 ---
 title: Socioeconomic data
-description: Tools and methods to assess quality.
-contributors: []
+description: Tools and methods to assess quality of socio-economics data.
+contributors: [Eva Garcia Alvarez]
 no_robots: true
 search_exclude: true
 sitemap: false
@@ -14,7 +14,6 @@ training:
   - name:
     registry:
     url:
-# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
 ## Introduction
@@ -40,12 +39,12 @@ In the following section considerations that have to be taken into account when 
 * **Quality dimension**: Completeness and population coverage
 * Strategies should be applied to address gaps and ensure coverage of all relevant sub-populations.
 
-## Existing Approaches
+## Existing approaches
 
-### Pilot Tests
+### Pilot tests
 Conduct pilot tests or preliminary surveys with a subset of the target population to ensure the survey design works effectively. This helps in identifying potential issues with question clarity, relevance, and respondent understanding before full-scale data collection.
 
-When the data is harvested from existing databases, conduct pilot extractions to verify the data retrieval process. This involves testing the extraction protocols on a small scale to ensure that the data pulled from databases are accurate, relevant, and compatible with the study’s objectives. Pilot testing the data extraction helps identify and address any discrepancies or issues in data format, completeness, and alignment with the research questions.
+When the data are harvested from existing databases, conduct pilot extractions to verify the data retrieval process. This involves testing the extraction protocols on a small scale to ensure that the data pulled from databases are accurate, relevant, and compatible with the study’s objectives. Pilot testing the data extraction helps identify and address any discrepancies or issues in data format, completeness, and alignment with the research questions.
 
 This helps with representativeness, assessing whether data collection methods effectively reach all segments of the population. Examining population coverage helps identify underserved or marginalized groups whose experiences may be underrepresented in the data, thus enabling more equitable decision-making.
 
@@ -57,9 +56,8 @@ Perform regular error detection and data cleaning processes. This includes ident
 
 Outliers (i.e., data points that significantly differ from other observations) must be identified. It is key to make a distinction between these actual but rare events that need careful consideration and errors in data entry or measurement anomalies.
 
-Some methods for detecting errors and inconsistencies are **TODO CHECK LINKS!**:
+Some methods for detecting errors and inconsistencies are:
 * Data Visualization Tools:
-  * [Tableau](https://www.tableau.com/)
   * [Microsoft Power BI](https://powerbi.microsoft.com/)
   * Python libraries: [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/)
 * Statistical Analysis Software:
@@ -67,24 +65,24 @@ Some methods for detecting errors and inconsistencies are **TODO CHECK LINKS!**:
   * Python libraries: [pandas](https://pandas.pydata.org/), [numPy](https://numpy.org/)
 * Develop Data Quality Assessment Framework (DQAF) or implement already existing ones
 * Cross-Validation Techniques:
-  * [Scikit-learn - Cross-validation](https://scikit-learn.org/stable/modules/cross_validation.ht)
+  * [Scikit-learn - Cross-validation (python)](https://scikit-learn.org)
 
-### Data Cleaning
+### Data cleaning
 Data cleaning procedures are essential for ensuring the accuracy and reliability of socio-economic data. This involves identifying and rectifying errors, inconsistencies, and outliers that may arise during data collection or entry. Cleaning procedures may include deduplication to remove redundant entries, standardization of formats to ensure uniformity, and imputation techniques to address missing values.
-Existing software can be used for data cleaning, such as python libraries (e.g., pandas or [dedupe]( https://dedupe.readthedocs.io/en/latest/)).
+Existing software can be used for data cleaning, such as python libraries (e.g., pandas or [dedupe](https://github.com/dedupeio/dedupe)).
 
 ### Interoperability
-* Semantic Harmonization: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
-* Syntactic Harmonization: Adopt standardized data formats to facilitate data integration and comparison across various datasets.
+* Semantic harmonisation: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
+* Syntactic harmonisation: Adopt standardised data formats to facilitate data integration and comparison across various datasets.
 
-### Statistical Tests for Data Quality
-Conduct statistical tests to assess data reliability (e.g., consistency of responses over time) and validity (e.g., the accuracy of the data in measuring what it is intended to measure). Reliability tests assess the consistency of responses over time, ensuring that data trends are dependable and not subject to random fluctuations. Validity tests, on the other hand, examine the accuracy of the data in measuring what they are intended to measure. For instance, in the context of infectious diseases, validity tests might assess whether socio-economic variables accurately reflect the true impact of the disease on different demographics.
+### Statistical tests for Data Quality
+Conduct statistical tests to assess data reliability and validity. Reliability tests assess the consistency of the data over time, ensuring that data trends are dependable and not subject to random fluctuations. Validity tests, on the other hand, examine the accuracy of the data in measuring what they are intended to measure. For instance, in the context of infectious diseases, validity tests might assess whether socio-economic variables accurately reflect the true impact of the disease on different demographics.
 
-### Check Completeness
-o	Completeness is the dimension that takes into account the number of variables in a given data model that have actual values. This involves scrutinizing datasets for missing values, ensuring that all relevant variables are captured
+### Check completeness
+Completeness is the dimension that takes into account the number of variables in a given data model that have actual values. This involves scrutinising datasets for missing values, ensuring that all relevant variables are captured
 
-### Continuous Monitoring
+### Continuous monitoring
 Implement ongoing monitoring mechanisms to continuously assess data quality. This includes tracking data collection processes, identifying and addressing data quality issues promptly, and updating data collection protocols as needed. This entails establishing protocols for ongoing assessment of data collection processes, automated checks for anomalies or inconsistencies, and regular audits to verify adherence to quality control procedures.
 
-### Regular Communication with Data Sources
-Establishing regular communication channels with data sources fosters a collaborative approach to quality control. Maintaining open lines of communication enables swift resolution of any issues or discrepancies identified during quality checks, as stakeholders can promptly provide clarification or rectify errors. Additionally, ongoing dialogue with data sources facilitates mutual understanding of data requirements and collection methodologies, allowing for adjustments to be made in real-time to improve data quality.
+### Regular communication with data sources
+Establishing regular communication channels with data sources fosters a collaborative approach to quality control. This enables swift resolution of any issues or discrepancies identified during quality checks, as stakeholders can promptly provide clarification or rectify errors. Additionally, ongoing dialogue with data sources facilitates mutual understanding of data requirements and collection methodologies, allowing for adjustments to be made in real-time to improve data quality.
