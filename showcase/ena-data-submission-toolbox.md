@@ -22,7 +22,7 @@ training:
 
 The COVID-19 pandemic has highlighted the importance of open and FAIR (Findable, Accessible, Interoperable, Reusable) data. Rapid access to diverse genome sequences of SARS-CoV-2 is identified as crucial for developing tests, vaccines, treatments, policies as well as detecting and monitoring new variants. The {% tool "european-nucleotide-archive" %} and the Global Initiative on Sharing All Influenza Data (GISAID) are primary repositories for SARS-CoV-2 data, with GISAID having stricter limitations on data reuse.
 
-Despite an increase in submissions to both repositories, a significant imbalance between the two repositories was identified, with GISAID having more submissions due to easier submission processes compared to the more complex ENA, which requires command line knowledge. To address this, a new set of tools was developed to simplify the submission of SARS-CoV-2 sequences to ENA by streamlining the process and integrating with platforms like Galaxy, which provides a user-friendly interface and additional tools for preprocessing and analysis.
+Despite an increase in number of submissions to both repositories, the ENA requirement of command line knowledge for bulk submissions was found to be a significant hinderance. To address this, a new set of tools was developed to simplify the submission of SARS-CoV-2 sequences to ENA. This included streamlining the process and integrating with platforms like Galaxy, to provide a user-friendly interface and additional tools for preprocessing and analysis.
 
 To read more in detail how ELIXIR Belgium provided tooling for SARS-CoV-2 sequence submissions to ENA, please visit the [Covid-19 section on the RDM Guide](https://rdm.elixir-belgium.org/covid-19/).  
 
