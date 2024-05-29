@@ -2,7 +2,8 @@
 title: Ethical Legal and Social Issues
 description: <!---Short description of the page--->
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+contributors: [Danaja Fabcic Povse, Liane Hughes, Mihaela Matei, Sarah Morgan, Gabriele Rinck, Patricia Palagi, Hedi Peterson, Carola Schulz, ]
+coordinators: [Liane Hughes]
 page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
 training:
   - name:
@@ -25,9 +26,7 @@ fairsharing:
 
 ## Introduction 
 
-Provide first a short introduction to the subject covered on this page (up to 3 sentences). This could be, for example, data analysis methods relevant to pathogen characterisation. This would be the key sentences for the readers to capture the main idea of the page.
-
-If needed be, add a further introduction to the topic that is general. Concrete topic introductions should go below.
+Before initiating your research, it is imperative to evaluate the ethical, legal, and social implications (ELSI)—also known as ethical, legal, and social aspects (ELSA). Ethical and social considerations relate to whether the study *should* be done, whilst legal considerations relate to whether the study *can* be done. This page offers guidance on how to comprehensively assess the ELSI aspects of your work throughout all stages of data management, from study planning and data collection to processing, analysis, sharing, and archiving. This guide focuses specifically on human-related research. While infectious disease studies involving animals also involve their own ethical and legal issues, these are not covered in this guide. If you are interested in reading more about it, a starting point can be this European Commission [guide](https://environment.ec.europa.eu/topics/chemicals/animals-science_en). 
 
 
 ## Concrete topic 1 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
