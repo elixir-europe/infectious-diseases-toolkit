@@ -29,6 +29,7 @@ To read more in detail how ELIXIR Belgium provided tooling for SARS-CoV-2 sequen
 
 ## Who is the showcase intended for?
 
+The main targets of the ENA data submission toolbox are researchers, institutions, and support facilities that need to make data submissions to the {% tool "european-nucleotide-archive" %}.
 Because the tools can be used to submit any sample type to the ENA, the potential user community is large and relates to the user community of ENA itself. Both the command line and Galaxy submission tools are appealing for labs/researchers sequencing medium to large numbers of samples.
 
 The Galaxy submission tools have the biggest potential for adoption by many users, since they allow bulk sequence submissions for researchers with no command line or programming skills. Additionally, these can be integrated in existing Galaxy sequence analysis workflows. These characteristics make them convenient for both frequent and sporadic use
