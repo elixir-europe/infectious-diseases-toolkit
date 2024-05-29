@@ -1,10 +1,10 @@
 ---
 title: Ethical Legal and Social Issues
-description: <!---Short description of the page--->
+description: This page offers guidance on how to comprehensively assess the ELSI aspects of your work throughout all stages of data management, from study planning and data collection to processing, analysis, sharing, and archiving.
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [Danaja Fabcic Povse, Liane Hughes, Mihaela Matei, Sarah Morgan, Gabriele Rinck, Patricia Palagi, Hedi Peterson, Carola Schulz, ]
 coordinators: [Liane Hughes]
-page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
+page_id: ethical-legal-and-social-issues
 training:
   - name:
     registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
