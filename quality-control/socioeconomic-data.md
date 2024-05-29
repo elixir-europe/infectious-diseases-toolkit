@@ -57,21 +57,21 @@ Perform regular error detection and data cleaning processes. This includes ident
 
 Outliers (i.e., data points that significantly differ from other observations) must be identified. It is key to make a distinction between these actual but rare events that need careful consideration and errors in data entry or measurement anomalies.
 
-Some methods for detecting errors and inconsistencies are **TODO ADD LINKS!**:
+Some methods for detecting errors and inconsistencies are **TODO CHECK LINKS!**:
 * Data Visualization Tools:
-  * Tableau
-  * Microsoft Power BI
-  * Python libraries: matplotlib, seaborn
+  * [Tableau](https://www.tableau.com/)
+  * [Microsoft Power BI](https://powerbi.microsoft.com/)
+  * Python libraries: [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/)
 * Statistical Analysis Software:
-  * R
-  * Python libraries: pandas, numPy
+  * [R](https://www.r-project.org/)
+  * Python libraries: [pandas](https://pandas.pydata.org/), [numPy](https://numpy.org/)
 * Develop Data Quality Assessment Framework (DQAF) or implement already existing ones
 * Cross-Validation Techniques:
-  * Scikit-learn - Cross-validation
+  * [Scikit-learn - Cross-validation](https://scikit-learn.org/stable/modules/cross_validation.ht)
 
 ### Data Cleaning
 Data cleaning procedures are essential for ensuring the accuracy and reliability of socio-economic data. This involves identifying and rectifying errors, inconsistencies, and outliers that may arise during data collection or entry. Cleaning procedures may include deduplication to remove redundant entries, standardization of formats to ensure uniformity, and imputation techniques to address missing values.
-Existing software can be used for data cleaning, such as python libraries (e.g., pandas or dedupe, https://dedupe.readthedocs.io/en/latest/).
+Existing software can be used for data cleaning, such as python libraries (e.g., pandas or [dedupe]( https://dedupe.readthedocs.io/en/latest/)).
 
 ### Interoperability
 * Semantic Harmonization: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
