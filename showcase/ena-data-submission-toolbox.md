@@ -1,5 +1,5 @@
 ---
-title: ENA data submission toolbox
+title: Using the ENA data submission toolbox for SARS-CoV-2 data
 contributors: [Bert Droesbeke] 
 description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
 affiliations: [VIB,BE]
@@ -31,16 +31,16 @@ To read more in detail how ELIXIR Belgium provided tooling for SARS-CoV-2 sequen
 
 Because the tools can be used to submit any sample type to the ENA, the potential user community is large and relates to the user community of ENA itself. Both the command line and Galaxy submission tools are appealing for labs/researchers sequencing medium to large numbers of samples.
 
-The Galaxy submission tools have the biggest potential for adoption by many users, since they allow bulk sequence submissions for researchers with no command line or programming skills. Additionally, these can be integrated in existing Galaxy sequence analysis workflows. These characteristics make them convenient for both frequent and sporadic us
+The Galaxy submission tools have the biggest potential for adoption by many users, since they allow bulk sequence submissions for researchers with no command line or programming skills. Additionally, these can be integrated in existing Galaxy sequence analysis workflows. These characteristics make them convenient for both frequent and sporadic use
 
-## What can you use the ENA data submission toolbox for?
- 
+## What is the showcase?
+
+The components described below allows for a single-step submission process, a graphical user interface, secure credential handling, tabular-formatted metadata and the possibility to remove human reads prior to submission.
+
 {% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA data submission toolbox components." alt="Overview of ENA upload toolbox" %}
 
 To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "european-nucleotide-archive" %}, we have collaboratively developed and compiled a command line tool, a set of Galaxy tools and Galaxy workflows essential for cleaning, assembling, and submitting SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Using Galaxy offers numerous advantages, such as a user-friendly graphical interface, access to a wide range of tools and workflows for preprocessing, downstream analysis, and visualization of sequences, including those specific to SARS-CoV-2 (Maier et al., 2021). Additionally, Galaxy provides a platform for sharing data and metadata, facilitating international collaboration, integrating with other public resources, and enabling the publication of FAIR data and analysis workflows.
 
-
-A short summary of the components:
 
 ### Human Reads Cleaning Tool
 To comply with Europe’s General Data Protection Regulation (GDPR), human genetic information must be removed from raw data before submission to ENA. We have integrated {% tool "metagen-fastqc" %} into Galaxy for this purpose. BY wrapping the complex into one simple tools, users can easily perform a filtering. Detailed instructions can be found on our Submission of SARS-CoV-2 raw reads page.
@@ -64,6 +64,14 @@ In February 2020 the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) 
 ### Galaxy Docker container
 
 If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes the previously mentioned Galaxy tools and workflows and deploys a fully functional Galaxy instance locally. It will ensure that data remains on-premise until submission. More information on how to deploy the container can be found on the [GitHub repo](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
+
+## What can you use the ENA data submission toolbox for?
+ 
+
+
+A short summary of the components:
+
+
 
 ## Publications
 
