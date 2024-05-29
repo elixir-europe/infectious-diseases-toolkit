@@ -35,7 +35,7 @@ The Galaxy submission tools have the biggest potential for adoption by many user
 
 ## What is the showcase?
 
-The components described below allows for a single-step submission process, a graphical user interface, secure credential handling, tabular-formatted metadata and the possibility to remove human reads prior to submission.
+The components described below allow for a single-step submission process, a graphical user interface, secure credential handling, tabular-formatted metadata and the possibility to remove human reads prior to submission.
 
 {% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA data submission toolbox components." alt="Overview of ENA upload toolbox" %}
 
@@ -43,27 +43,22 @@ To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "europea
 
 
 ### Human Reads Cleaning Tool
-To comply with Europe’s General Data Protection Regulation (GDPR), human genetic information must be removed from raw data before submission to ENA. We have integrated {% tool "metagen-fastqc" %} into Galaxy for this purpose. BY wrapping the complex into one simple tools, users can easily perform a filtering. Detailed instructions can be found on our Submission of SARS-CoV-2 raw reads page.
+To comply with Europe’s General Data Protection Regulation (GDPR), human genetic information must be removed from raw data before submission to ENA. We have integrated {% tool "metagen-fastqc" %} into Galaxy for this purpose. A series of steps were wrapped into a single Galaxy tool, allowing users to filter human data from the data.
 
 ### ENA upload cli 
-Submitting raw reads to ENA can be done via the website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatic expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates (see previously) into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing study, sample, experiment, and run objects without the need to login into Webin portal.
+Submitting raw reads to ENA can be done via the website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatics expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates (see previously) into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing study, sample, experiment, and run ENA objects without the need to login into Webin portal.
 
 The Python package {% tool "ena-upload-cli" %} is available on pipy and bioconda.
 
 ### The Galaxy ENA upload tool
-To make the process accessible to researchers without informatics expertise, we wrapped the ENA upload tool as a {% tool "ena-upload-tool" %}. It is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. Administrators can find installation details, and users can find usage instructions on our Submission of SARS-CoV-2 raw reads page.
+To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a {% tool "ena-upload-tool" %}. It is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. Galaxy instance administrators can find installation details, and users can find usage instructions on our Submission of SARS-CoV-2 raw reads page.
 
 ### The Galaxy ENA consensus submission tool
-A Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created to submit SARS-CoV-2 consensus data to ENA. The tool wrapper simplified the creation of the mandatory manifest file by allowing users to interactively fill in the assembly metadata.
-
-
-### COVID-19 Genome Analysis Workflows
-In February 2020 the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) repo was created by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. It featured three different types of analyses: Genomics, Cheminformatics, and Proteomics. This centralization of these Galaxy workflows made it easy for Galaxy administrators to deploy and install the tools and workflows together with the other submission tools to create a one stop shop for processing and submitting SARS-CoV-2 sequencing data.
-
+To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created. The tool wrapper simplified the creation of the mandatory manifest file by allowing users to interactively fill in the assembly metadata and submit SARS-CoV-2 consensus data to ENA.
 
 ### Galaxy Docker container
 
-If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes the previously mentioned Galaxy tools and workflows and deploys a fully functional Galaxy instance locally. It will ensure that data remains on-premise until submission. More information on how to deploy the container can be found on the [GitHub repo](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
+If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes additional tools, made available in the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) GitHub repository since February 2020, in an effort published by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. The repository featured workflows for Genomics, Cheminformatics, and Proteomics analyses. This centralization of workflows made it easy for Galaxy administrators to deploy and install the tools and workflows together with the other submission tools and create a one stop shop for processing and submitting SARS-CoV-2 sequencing data. The Docker container allows for the local deployment of a fully functional Galaxy instance. It will ensure that data remains on-premise until submission. More information on how to obtain and deploy the container can be found on the [GitHub repo](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
 
 ## What can you use the ENA data submission toolbox for?
  
