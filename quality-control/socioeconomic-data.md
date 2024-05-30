@@ -43,7 +43,7 @@ Conduct pilot tests or preliminary surveys with a subset of the target populatio
 
 When the data are harvested from existing databases, conduct pilot extractions to verify the data retrieval process. This involves testing the extraction protocols on a small scale to ensure that the data pulled from databases are accurate, relevant, and compatible with the study’s objectives. Pilot testing the data extraction helps to identify and address any discrepancies or issues in data format, completeness, and alignment with the research questions.
 
-This helps with representativeness, assessing whether data collection methods effectively reach all segments of the population. Examining population coverage helps identify underserved or marginalized groups whose experiences may be underrepresented in the data, thus enabling more equitable decision-making.
+Ensuring that you extract the correct data from the database(s) in question helps with representativeness, as you can assess whether data collection methods effectively reach all segments of the population. Examining population coverage helps to identify under-served or marginalised groups whose experiences may be underrepresented in the data, thus enabling more equitable decision-making.
 
 ### Timeliness
 Implement efficient data collection protocols that ensure rapid access to and sharing of data. Real-time or near-real-time data collection and processing systems are critical for monitoring the socio-economic impacts of infectious diseases and for timely decision-making.
