@@ -33,9 +33,17 @@ fairsharing:
 
 ## Introduction 
 
-Provide first a short introduction to the subject covered on this page (up to 3 sentences). This could be, for example, data analysis methods relevant to pathogen characterisation. This would be the key sentences for the readers to capture the main idea of the page.
+Data analysis for pathogen characterization allows us to understand the evolution of pathogens, and the relationship among different strains and provides insights on host-pathogen interactions and drug resistance. The tasks can involve processing data collected from a diverse spectrum of sources, from both clinical and environmental samples. As in every data analysis procedure, the general workflow involves:
 
-If needed be, add a further introduction to the topic that is general. Concrete topic introductions should go below.
+- Preprocessing: Includes the initial steps required to prepare data, genomics and not, for further analysis. 
+
+- Analysis: Is the core stage where the actual detection and characterization of pathogens occur. This stage employs many techniques for pathogen characterization, such as Next-Generation Sequencing (NGS).
+
+- Postprocessing: Includes interpreting and validating the data obtained from the analysis stage, as well as integrating it into broader contexts. Moreover, this is often followed by reporting and communication, and archiving and data management. 
+
+
+Each stage is crucial for the accurate and comprehensive characterisation of pathogens, from the initial handling of samples to the final reporting and data management, and will be detailed below. 
+Scalable and reproducible data analysis activities enable rapid surveillance of infectious epidemics of emerging and re-emerging pathogens in foodborne, hospital settings, and local community outbreaks. Ensuring reproducibility is critical for the usability of the analysis results. Following community-recognised best practices and the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) is fundamental for guaranteeing the trustworthiness of the results and enabling collaboration and sharing of information. 
 
 
 ## Concrete topic 1 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
