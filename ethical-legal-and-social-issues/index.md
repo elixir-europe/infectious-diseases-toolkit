@@ -103,9 +103,9 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
 
 - Refer to Data Management Guide [DMGE](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Informed-consent) for the methods and examples on how to obtain informed consent, right to withdraw, etc.
 - Refer to the following IDTk sessions for data harmonisation:
-  - [Human biomolecular data](https://www.infectious-diseases-toolkit.org/data-sources/human-biomolecular-data#data-harmonisation)
-  - [Socioeconomic data](https://www.infectious-diseases-toolkit.org/data-sources/socioeconomic-data#search-and-discoverability)
-  - [Pathogen data](https://www.infectious-diseases-toolkit.org/quality-control/pathogen-characterisation#ngs-pathogens-data) 
+  - [Human biomolecular data](/data-sources/human-biomolecular-data#data-harmonisation)
+  - [Socioeconomic data](/data-sources/socioeconomic-data#search-and-discoverability)
+  - [Pathogen data](/quality-control/pathogen-characterisation#ngs-pathogens-data) 
 - When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
 - {% tool "fairsharing" %} is also a good resource to find metadata standards that can be useful for your research.
 
