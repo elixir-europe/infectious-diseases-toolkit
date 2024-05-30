@@ -2,7 +2,7 @@
 title: Using the ENA data submission toolbox for SARS-CoV-2 data
 contributors: [Bert Droesbeke, Rafael Andrade Buono] 
 description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
-affiliations: [VIB,BE,DE]
+affiliations: [VIB,BE,DE, Albert-Ludwigs-Universität Freiburg]
 page_id: ena_upload
 related_pages:
   showcase: [covid19_galaxy_project, korogenoest]
@@ -48,7 +48,7 @@ The templates are made available through [a GitHub repository](https://github.co
 The Python package {% tool "ena-upload-cli" %} is available on pipy and bioconda.
 
 ### The Galaxy ENA upload tool
-To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a Galaxy tool. It is part of the Intergalactic Utilities Commission (IUC) list of curated Galaxy tools, allowing instance administrators to install the tool from the Galaxy ToolShed at {% ena-upload-tool %}.
+To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a Galaxy tool. It is part of the Intergalactic Utilities Commission (IUC) list of curated Galaxy tools, allowing instance administrators to install the tool from the Galaxy ToolShed at {% tool "ena-upload-tool" %}.
 
 ### The Galaxy ENA consensus submission tool
 To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created. The tool wrapper simplified the creation of the mandatory manifest file required for submission by allowing users to interactively fill in the assembly metadata and submit SARS-CoV-2 consensus data to ENA.

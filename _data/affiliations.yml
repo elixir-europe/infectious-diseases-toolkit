@@ -100,4 +100,9 @@
   expose: true
   type: institution
   url: https://www.vib.be/
-
+- name: Albert-Ludwigs-Universität Freiburg
+  image_url: /images/institutions/Albert-Ludwigs-Universität_Freiburg_2009_logo.svg
+  pid: 
+  expose: true
+  type: institution
+  url: https://uni-freiburg.de/
