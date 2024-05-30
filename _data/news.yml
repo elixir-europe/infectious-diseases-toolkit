@@ -109,4 +109,12 @@
 - name: "New page: Prevalence study of SARS-CoV-2 in Estonia: lessons learned"
   date: 2024-05-28
   linked_pr: 304
-  description: A showcase page about the critical lessons learned on how to run a prevalence study based on the 4-years experience in Estonia
+  description: A showcase page about the critical lessons learned on how to run a prevalence study based on the 4-years experience in Estonia, in the Showcase section. [Discover the page here](/showcase/estonian-prevalence-study)
+- name: "New page: Data Communication"
+  date: 2024-05-30
+  linked_pr: 314
+  description: A page with general information about best practices in communicating data, specifically using data visualisations. [Discover the page here](/data-communication)
+- name: "New page: Using the ENA data submission toolbox for SARS-CoV-2 data"
+  date: 2024-05-30
+  linked_pr: 309
+  description: A showcase page about Using the ENA data submission toolbox for SARS-CoV-2 data, in the Showcase section. [Discover the page here](/showcase/ena-data-submission-toolbox)

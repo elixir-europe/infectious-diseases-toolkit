@@ -94,3 +94,15 @@
   expose: true
   type: institution
   url: https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/
+- name: VIB
+  image_url: /images/institutions/VIB-notagline-pos.svg
+  pid: https://ror.org/03xrhmk39
+  expose: true
+  type: institution
+  url: https://www.vib.be/
+- name: Albert-Ludwigs-Universität Freiburg
+  image_url: /images/institutions/Albert-Ludwigs-Universität_Freiburg_2009_logo.svg
+  pid: 
+  expose: true
+  type: institution
+  url: https://uni-freiburg.de/
