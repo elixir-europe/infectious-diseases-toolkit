@@ -7,7 +7,7 @@ coordinators: [Diana Pilvar]
 # Link to other pages in showcase section on the IDTk by listing the page_id.
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
 related_pages:
-  showcase: [korogenoest]
+  showcase: [korogenoest, prevalence_est]
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---

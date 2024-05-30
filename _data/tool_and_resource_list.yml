@@ -239,10 +239,18 @@
   registry:
     fairsharing: acd824
   url: https://elsst.cessda.eu/
-- description: Submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
+- description: Galaxy tool wrapper of the ENA upload CLI to submit experimental data and respective metadata to the European Nucleotide Archive (ENA). 
   id: ena-upload-tool
-  name: ENA upload tool
+  name: ENA upload Galaxy tool
+  url: https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8
+- description:  Command line tool (CLI) allowing easy submission of data and respective metadata to the European Nucleotide Archive (ENA) using tabular files or an excel spreadsheet. The tool allows programatic submission of all ENA objects (study, sample, run and experiment) without the need of logging in to the Webin interface. This also includes client side validation using ENA checklists and releasing the ENA objects.
+  id: ena-upload-cli
+  name: ENA upload CLI
   url: https://github.com/usegalaxy-eu/ena-upload-cli
+- description:  Galaxy wrapper to submit consensus sequences to ENA in an interactive way. The tool has the Webin-CLI script of ENA at its core and supports all sample checklists.
+  id: ena-webin-cli
+  name: ENA Webin CLI
+  url: https://toolshed.g2.bx.psu.edu/repository?repository_id=dfa4f0fc31027b52
 - description: Functional Enrichment Analysis and Network Construction
   id: enrichr
   name: Enrichr
@@ -909,3 +917,31 @@
   id: graf-sex
   name: GRAF sex
   url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
+- description: Python data visualization library that provides a high-level interface for drawing attractive and informative statistical graphics.
+  id: seaborn
+  name: seaborn
+  url: https://seaborn.pydata.org/
+- description: Free software environment for statistical computing and graphics.
+  id: r
+  name: R
+  url: https://www.r-project.org/
+- description: Open source data analysis and manipulation tool, built on top of the Python programming language.
+  id: pandas
+  name: pandas
+  url: https://pandas.pydata.org/
+- description: Python library for scientific computing.
+  id: numpy
+  name: NumPy
+  url: https://numpy.org/
+- description: Machine learning tools in Python
+  id: scikit-learn
+  name: Scikit-learn
+  url: https://scikit-learn.org/stable/
+- description: Python library that uses machine learning to perform fuzzy matching, deduplication, and entity resolution quickly on structured data.
+  id: dedupe
+  name: dedupe
+  url: https://github.com/dedupeio/dedupe
+- description: Command line application to submit assemblies and transcriptomes to ENA.
+  id: webin-cli
+  name: Webin-CLI
+  url: https://github.com/enasequence/webin-cli
