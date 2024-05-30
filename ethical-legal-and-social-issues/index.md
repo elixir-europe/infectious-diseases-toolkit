@@ -153,7 +153,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
 
 ### Existing approaches 
 
-- Consent forms provided at the point of data collection should make clear permissions related to the primary and secondary use of the data. Whilst there are exceptions within GDPR for use for research purposes, it is possible that particular funders/institutes/countries require that one asks for explicit consent. The researchers  should check with the local Data Compliance Office (DPO) to confirm the requirements. 
+- Consent forms provided at the point of data collection should make clear permissions related to the primary and secondary use of the data. Whilst there are exceptions within GDPR for use for research purposes, it is possible that particular funders/institutes/countries require that one asks for explicit consent. The researchers should check with the local Data Compliance Office (DPO) to confirm the requirements. 
 - If the data is held in various places, one should verify consent for any data movement, look for solutions that enable data use without relocation, and formalise agreements.
 - Check the EDPB for more information on how to deal with [data breaches](https://www.edpb.europa.eu/sme-data-protection-guide/data-breaches_en#:~:text=According%20to%20Art.,provide%20all%20the%20required%20information)
 - Information about how to appropriately store personal data is available on the [RDMkit](https://rdmkit.elixir-europe.org/data_security).
