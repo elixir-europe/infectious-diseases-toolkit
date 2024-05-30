@@ -50,7 +50,7 @@ Data can be illustrated in various ways, each way conveying a different message 
 - The date on which the data was last updated should be clearly indicated close to the visualisation.
 - The date can be given in a figure legend, particularly when the visualisation is static. This is most often seen in reports intended for print, e.g. [WHO’s monthly situation reports for COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 - On web-based, dynamic data dashboards, the date should be provided within a box/alert above/beside a visualisation. For examples, see the [COVID-19 Risk event tool](https://covid19risk.biosci.gatech.edu/), and [Data dashboards on the Swedish Pathogens Portal](https://www.pathogens.se/dashboards/).
-- There are multiple ways in which visualisations can be made responsive to different screen sizes. In the event that the visualisation cannot be viewed clearly on smaller screens, it might be possible to present the information in a different format. For example, [this map](https://elixir-europe.org/industry#what-doing) from ELIXIR can be viewed in text format on smaller screens.
+- There are multiple ways in which visualisations can be made responsive to different screen sizes. In the event that the visualisation cannot be viewed clearly on smaller screens, it might be possible to present the information in a different format. For example, this [map from ELIXIR](https://elixir-europe.org/industry#what-doing) can be viewed in text format on smaller screens.
 - The European Centre for Disease Prevention and Control (ECDC) has written [Guidelines for Presentation of Surveillance](https://www.ecdc.europa.eu/en/publications-data/guidelines-presentation-surveillance-data) to assist with understanding how to present surveillance data.
 - There are multiple approaches to preventing the exposure of sensitive data, dependent on the situation:
   - When visualising data on the number of cases for a given disease, it may be necessary to to aggregate data (e.g. by location or time) to prevent the identification of individuals;
@@ -59,7 +59,7 @@ Data can be illustrated in various ways, each way conveying a different message 
 - The data should be [processed](https://rdmkit.elixir-europe.org/processing#what-is-data-processing) ahead of visualisation to ensure that outlying data points do not skew the overall data trend,
 - Ensure that the type of visualisation selected is appropriate for the data type.
   - In the remainder of this page, you will find advice about which types of visualisations are suitable for investigating different aspects of data (e.g. the distribution of data) and different data types (e.g. count, geospatial).
-  - The [decision tree](https://www.data-to-viz.com/) guide can help with choosing between different visualisation options.
+  - The [decision tree guide](https://www.data-to-viz.com/) can help with choosing between different visualisation options.
   - The [‘Friends don’t let friends make bad graphs’ GitHub repository](https://github.com/cxli233/FriendsDontLetFriends) provides general advice about visualising data.
   - Course material e.g. [Pilvar (2024)](https://zenodo.org/records/10988551) can provide insight into appropriately visualising research data.
   - Accepted standards for data visualisations exist in multiple research communities. Refer to publications and tools that visualise similar data to determine whether there is an existing standard for your data type.
