@@ -2,7 +2,7 @@
 title: Data communication
 description:  Producing visualisations and reports
 contributors: [Liane Hughes, Hedi Peterson, Diana Pilvar]
-page_id: data-communication
+page_id: data_communication
 training:
   - name: Data visualisation
     registry: Zenodo

@@ -1,23 +1,18 @@
 ---
 title: Ethical Legal and Social Issues
 description: This page offers guidance on how to comprehensively assess the ELSI aspects of your work throughout all stages of data management, from study planning and data collection to processing, analysis, sharing, and archiving.
-search_exclude: true #leave as “true” until the page is complete and ready to be made public
 contributors: [Danaja Fabcic Povse, Liane Hughes, Mihaela Matei, Sarah Morgan, Gabriele Rinck, Patricia Palagi, Hedi Peterson, Carola Schulz, ]
-coordinators: [Liane Hughes]
-page_id: ethical-legal-and-social-issues
-training:
-  - name:
-    registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
-    url:
+page_id: ethical_legal_and_social_issues
 rdmkit:
-  - name: <!---the title of the RDMkit page--->
-    url: <!---the full URL of the RDMkit page--->
-faircookbook:
-  - name: <!---the title of the FAIR Cookbook recipe--->
-    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
-fairsharing:
-  - name: <!---the title of the FAIR Sharing entry--->
-    url: <!---the full URL of the FAIR Sharing entry--->
+  - name: Data security
+    url: https://rdmkit.elixir-europe.org/data_security)
+  - name: Data management plan
+    url: https://rdmkit.elixir-europe.org/data_management_plan
+  - name: GDPR compliance
+    url: https://rdmkit.elixir-europe.org/gdpr_compliance
+  - name: Data sensitivity
+    url: https://rdmkit.elixir-europe.org/data_sensitivity
+
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
@@ -53,7 +48,7 @@ ELSI has implications for all the steps in the data lifecycle. This session brie
   - [GDPR compliance](https://rdmkit.elixir-europe.org/gdpr_compliance) when working with personal data
   - [Data sensitivity](https://rdmkit.elixir-europe.org/data_sensitivity) to assess the sensitivity of your data
   - [Data security](https://rdmkit.elixir-europe.org/data_security) to gain an understanding of how to handle data securely
-- Develop a Data Management Plan. You can find examples in [RDMkit]( https://rdmkit.elixir-europe.org/data_management_plan or [DMEG](https://dmeg.cessda.eu/Data-Management-Expert-Guide).
+- Develop a Data Management Plan. You can find examples in [RDMkit](https://rdmkit.elixir-europe.org/data_management_plan) or [DMEG](https://dmeg.cessda.eu/Data-Management-Expert-Guide).
 
 ## Planning a study 
 
@@ -93,7 +88,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
   - The [European Health Emergency Response Authority](https://health.ec.europa.eu/health-emergency-preparedness-and-response-hera_en) (HERA) is responsible for improving preparedness and establishing countermeasures for cross-border threats. Created after the COVID pandemic, its mandate includes ensuring the availability of and access to key medical countermeasures.
 - Ensuring that any restrictions have been considered on e.g. genomic data due to intellectual property, which can restrict the access to the data access and sharing, and complied with these requirements.
 - Implementing a continuous monitoring system is imperative to ensure adherence to all relevant protocols and regulations. This includes regularly reviewing the terms of your grant agreement, consulting with your institution’s designated ethics authority or advisor, coordinating with legal partners to stay abreast of any changes, and verifying compliance with the rules set forth by your institution. They can advise you on harmonising legal needs and requirements across jurisdictions.
-- Emergency response protocols - processing of data for the public interest.  Early in the COVID-19 pandemic, the European Data Protection Board (EDPB) released a (statement)[https://www.edpb.europa.eu/our-work-tools/our-documents/other-guidance/statement-processing-personal-data-context-covid-19_en] with a framework and regulations to ensure data protection in data access, processing, and distribution and recommending regulations. In summary, *although the fight against infectious diseases should be supported in the best way possible, personal data must be protected even in times of crisis*.
+- Emergency response protocols - processing of data for the public interest.  Early in the COVID-19 pandemic, the European Data Protection Board (EDPB) released a [statement](https://www.edpb.europa.eu/our-work-tools/our-documents/other-guidance/statement-processing-personal-data-context-covid-19_en) with a framework and regulations to ensure data protection in data access, processing, and distribution and recommending regulations. In summary, *although the fight against infectious diseases should be supported in the best way possible, personal data must be protected even in times of crisis*.
 
 ## Data Collection 
 
