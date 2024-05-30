@@ -34,7 +34,7 @@ Below are considerations that must be taken into account when working with socio
 
 ### Missing values
 * **Quality dimension**: Completeness and population coverage
-* Strategies should be applied to address gaps and ensure coverage of all relevant sub-populations.
+* Strategies should be applied to address any gaps in data, and to ensure coverage of all relevant sub-populations.
 
 ## Existing approaches
 
