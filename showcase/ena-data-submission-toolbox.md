@@ -14,10 +14,6 @@ training:
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
-<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style_guide when writing the content of this page. -->
-
-<!--- Showcase pages should detail a particular combination of standards and tools from an infrastructural or domain perspective to tackle infectious diseases related data challenges. --->
-
 ## Introduction 
 
 The COVID-19 pandemic has highlighted the importance of open and FAIR (Findable, Accessible, Interoperable, Reusable) data. Rapid access to diverse genome sequences of SARS-CoV-2 is identified as crucial for developing tests, vaccines, treatments, policies as well as detecting and monitoring new variants. The {% tool "european-nucleotide-archive" %} and the Global Initiative on Sharing All Influenza Data (GISAID) are primary repositories for SARS-CoV-2 data, with GISAID having stricter limitations on data reuse.
@@ -47,7 +43,9 @@ To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "europea
 To comply with Europe’s General Data Protection Regulation (GDPR), human genetic information must be removed from raw data before submission to ENA. We have integrated {% tool "metagen-fastqc" %} into Galaxy for this purpose. A series of steps were wrapped into a single Galaxy tool, allowing users to filter human data from the data.
 
 ### ENA upload cli 
-Submitting raw reads to ENA can be done via the website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatics expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates (see previously) into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing study, sample, experiment, and run ENA objects without the need to login into Webin portal.
+Submitting raw reads to ENA can be done via the website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatics expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing study, sample, experiment, and run ENA objects without the need to login into Webin portal.
+
+The templates are made available through [a GitHub repository](https://github.com/ELIXIR-Belgium/ENA-metadata-templates).
 
 The Python package {% tool "ena-upload-cli" %} is available on pipy and bioconda.
 
@@ -74,10 +72,12 @@ Instructions on using the components are described in the [ELIXIR-Belgium RDM Gu
 
 ### Repurposing o the showcase for other organisms
 
-
+Since the beginning of the response to SARS-CoV-2, the tools described here have been expanded to allow the submission of data for any of the [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) available, and thus any organism supported by ENA. The tools can be reused in multiple contexts, being amenable for integration integration into different types of data brokering systems or used as is.
 A [general purpose container](https://github.com/ELIXIR-Belgium/ena-upload-container) for deploying a Galaxy instance capable of submitting both raw sequences and genome assemblies of all [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) is available.
-
-
+The Galaxy ENA upload tool is available at [useGalaxy.be](https://usegalaxy.be/), [useGalaxy.eu](https://usegalaxy.eu) and [useGalaxy.org.au](https://usegalaxy.org.au/), allowing researchers direct access without the need to setup their own infrastructure.
+The ENA upload CLI can, if necessary, be integrated in existing bioinformatics workflows by more advanced bioinformatics groups.
+The metadata templates are available through [a GitHub repository](https://github.com/ELIXIR-Belgium/ENA-metadata-templates) and can be integrated in other workflows.
+Further instructions on accessing and making use of the different components of the toolbox can be found in [our documentation](https://rdm.elixir-belgium.org/ena-submission).
 
 
 ## Publications
