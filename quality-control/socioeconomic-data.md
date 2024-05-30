@@ -54,7 +54,7 @@ Perform regular error detection and data cleaning processes. This includes ident
 Outliers (i.e., data points that significantly differ from other observations) must be identified. It is key to make a distinction between these actual but rare events that need careful consideration and errors in data entry or measurement anomalies.
 
 Some methods for detecting errors and inconsistencies are:
-* Data Visualization Tools:
+* Data Visualisation Tools:
   * Python libraries: {% tool "matplotlib" %}, {% tool "seaborn" %}
 * Statistical Analysis Software:
   * {% tool "r" %}
