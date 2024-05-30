@@ -112,5 +112,5 @@
   description: A showcase page about the critical lessons learned on how to run a prevalence study based on the 4-years experience in Estonia
 - name: "New page: Data Communication"
   date: 2024-05-30
-  linked_pr: 307
+  linked_pr: 314
   description: A page with general information about best practices in communicating data, specifically using data visualisations.
