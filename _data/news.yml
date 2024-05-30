@@ -114,4 +114,7 @@
   date: 2024-05-30
   linked_pr: 309
   description: A showcase page about Using the ENA data submission toolbox for SARS-CoV-2 data, in the Showcase section. [Discover the page here](/showcase/ena-data-submission-toolbox)
-
+- name: "New page: Data Communication"
+  date: 2024-05-30
+  linked_pr: 314
+  description: A page with general information about best practices in communicating data, specifically using data visualisations. [Discover the page here](/data-communication)

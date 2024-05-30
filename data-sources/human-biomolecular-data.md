@@ -192,5 +192,5 @@ Thanks to the Sars-CoV-2 outbreak, the scientific community has established stan
 ### Existing approaches
 
 * When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
-* {% tool "fairsharing" %} is also a good resources to find metadata standards that be useful for your research.
+* {% tool "fairsharing" %} is also a good resource to find metadata standards that can be useful for your research.
 
