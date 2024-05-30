@@ -85,7 +85,7 @@ Proper metadata, adhering to the FAIR principles, significantly enhances the ove
 
 To ensure the correct  and standard collection of metadata the definition of a metadata schema, beforehand, in an excel or spreadsheet, is a core decision. An interoperable, but yet, customizable metadata scheme can be found in this [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9950378/). 
 
-The mandatory and optional variables must be selected depending on the aim of the study and should include any relevant clinical data such as vaccination state, age, gender, or hospitalisation. More considerations about metadata can be found in the [Data resources page](https://www.infectious-diseases-toolkit.org/data-sources/human-biomolecular-data). 
+The mandatory and optional variables must be selected depending on the aim of the study and should include any relevant clinical data such as vaccination state, age, gender, or hospitalisation. More considerations about metadata can be found in the [Data resources page](/data-sources/human-biomolecular-data). 
 
 While completing the forms, the use of ontologies is highly recommended: 
 - Infectious Disease Ontology (IDO), a suite of interoperable ontology modules aiming to provide coverage of all aspects of the infectious disease domain. Further details about IDO can be found in this [paper](https://pubmed.ncbi.nlm.nih.gov/34275487/).
