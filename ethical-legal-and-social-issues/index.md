@@ -73,7 +73,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
   - Non-maleficence – the duty to 'not do bad' 
   - Justice – to treat all people equally and equitably 
 - Creating a Data Management Plan that lists all the ELSI bodies that need approval. This can be used as a checklist to determine whether everything that is needed is considered, including how to collect consent. In any case, the institution’s Data Protection - Officer (DPO) is the person to refer to when considering the ethical and legal aspects of data management.
-- Checking the restrictions related to data movement (e.g. between entities, universities, and countries).This can be done by consulting the institution/institutions that hold the data. 
+- Checking the restrictions related to data movement (e.g. between entities, universities, and countries). This can be done by consulting the institution/institutions that hold the data. 
 - Checklists and information related to ethics from different entities:
   - For Ethical Principles for Medical Research Involving Human Subjects (includes human disease), see [WMA Declaration of Helsinki](https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/)
   - For EU funded projects - consult the [EU commission ethics checklist](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
