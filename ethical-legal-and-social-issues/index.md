@@ -1,5 +1,5 @@
 ---
-title: Ethical Legal and Social Issues
+title: Ethical, Legal, and Social Issues
 description: This page offers guidance on how to comprehensively assess the ELSI aspects of your work throughout all stages of data management, from study planning and data collection to processing, analysis, sharing, and archiving.
 contributors: [Danaja Fabcic Povse, Liane Hughes, Mihaela Matei, Sarah Morgan, Gabriele Rinck, Patricia Palagi,  Carola Schulz ]
 page_id: ethical_legal_and_social_issues

@@ -96,7 +96,7 @@ defaults:
       path: "ethical-legal-and-social-issues"
       type: "pages"
     values:
-      type: ethical_legal_and_social_issues
+      type: "ethical,_legal,_and_social_issues"
       datatable: true
       type_img: /assets/img/section-icons/fingerprint-duotone.svg
 
