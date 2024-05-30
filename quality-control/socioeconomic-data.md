@@ -65,7 +65,7 @@ Some methods for detecting errors and inconsistencies are:
 
 ### Data cleaning
 Data cleaning procedures are essential for ensuring the accuracy and reliability of socioeconomic data. This involves identifying and rectifying errors, inconsistencies, and outliers that may arise during data collection or entry. Cleaning procedures may include de-duplication to remove redundant entries, standardisation of formats to ensure uniformity, and imputation techniques to address missing values.
-Existing software can be used for data cleaning, such as python libraries (e.g., {% tool "pandas" %} or {% tool "dedupe" %}).
+Existing software, such as python libraries (e.g., {% tool "pandas" %} or {% tool "dedupe" %}), can be used for data cleaning.
 
 ### Interoperability
 * Semantic harmonisation: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
