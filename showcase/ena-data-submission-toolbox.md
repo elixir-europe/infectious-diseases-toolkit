@@ -88,6 +88,8 @@ Because the tools can be used to submit any sample type to the ENA and can be in
 
 - Baker D, van den Beek M, Blankenberg D, Bouvier D, Chilton J, et al. (2020) No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics. PLOS Pathogens 16(8): e1008643. [https://doi.org/10.1371/journal.ppat.1008643](https://doi.org/10.1371/journal.ppat.1008643)
 
+- Maier, W., Bray, S., van den Beek, M. et al. Ready-to-use public infrastructure for global SARS-CoV-2 monitoring. Nat Biotechnol 39, 1178–1179 (2021). [https://doi.org/10.1038/s41587-021-01069-1](https://doi.org/10.1038/s41587-021-01069-1)
+
 ## Acknowledgments
 
 We thank the valuable feedback from Ulvi Talas, Heleri Inno (University of Tartu) during the SARS-CoV-2 response.
