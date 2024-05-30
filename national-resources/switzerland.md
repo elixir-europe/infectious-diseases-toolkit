@@ -10,7 +10,9 @@ national_resources:
     how_to_access: The resource contains sensitive data and is only accessible to registered users (IP white-listing and two factor authentication). Anonymised data are shared on the ENA.
     instance_of:
     related_pages:
-      pathogen_characterisation: [pc_data_sources, pc_provenance, pc_quality_control] 
+      data_sources: [pc_data_sources]
+      provenance: [pc_provenance]
+      quality_control: [pc_quality_control]
     url: https://www.spsp.ch
     registry:
       biotools:
@@ -59,7 +61,7 @@ national_resources:
       pathogen_characterisation: [pc_data_sources] 
     url: https://cov-spectrum.org/explore/Europe/AllSamples/Past6M
   - name: Covariants
-    description:  
+    description: CoVariants provides an overview of SARS-CoV-2 variants and mutations that are of interest. It displays what mutations define a variant, what impact they might have (with links to papers and resources), where variants are found, and link the variants in Nextstrain.  
     how_to_access: 
     instance_of: 
     related_pages:
@@ -79,7 +81,19 @@ national_resources:
     related_pages:
       pathogen_characterisation: [pc_data_analysis] 
     url: https://covid19.nlp.idsia.ch/
-
+training:
+  - name: Master of Science in Epidemiology 
+    registry:
+    url: https://www.swisstph.ch/en/study-with-us/bachelor-and-master/msc-in-epidemiology
+  - name: Infectious Diseases Training Sites in Switzerland
+    registry:
+    url: https://www.sginf.ch/education/infectious-diseases-training-sites-in-switzerland.html
+  - name: Infectious Diseases Training Sites in Switzerland
+    registry:
+    url: https://www.safe-id.ch/events/meetings.html
+  - name: Swiss Tropical and Public Health Institute
+    registry:
+    url: https://www.swisstph.ch/en/study-with-us
 ---
 
 ## Introduction 

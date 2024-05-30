@@ -8,12 +8,14 @@
 /contribute        @rabuono
 
 # Different Sections
-/human-biomolecular-data        @elixir-europe/idtk-editors
-/human-clinical-and-health-data        @elixir-europe/idtk-editors
-/pathogen-characterisation        @elixir-europe/idtk-editors
-/socioeconomic-data        @elixir-europe/idtk-editors
-/national-resources        @elixir-europe/idtk-editors
-/showcase        @elixir-europe/idtk-editors
+/attributing-credit        @elixir-europe/idtk-editors
+/data-analysis        @elixir-europe/idtk-editors
+/data-communication        @elixir-europe/idtk-editors
+/data-description        @elixir-europe/idtk-editors
+/data-sources        @elixir-europe/idtk-editors
+/ethical-legal-and-social-issues        @elixir-europe/idtk-editors
+/provenance        @elixir-europe/idtk-editors
+/quality-control        @elixir-europe/idtk-editors
 
 #About
 /about        @rabuono @elixir-europe/idtk-editors

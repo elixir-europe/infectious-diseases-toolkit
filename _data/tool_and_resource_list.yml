@@ -44,7 +44,7 @@
   registry:
     biotools: beacon
     fairsharing: 6fba91
-    tess: Beacon
+    tess: Beacon v2
   url: http://docs.genomebeacons.org/
 - description: BioGRID is a comprehensive biomedical repository for curated protein, genetic and chemical interactions
   id: biogrid
@@ -122,7 +122,7 @@
   url: https://compss-doc.readthedocs.io/en/stable/
 - description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
   id: covid-19-data-portal
-  name: Covid-19 data portal
+  name: COVID-19 Data Portal
   registry:
     biotools: covid-19-data-portal
     fairsharing: f3b7a9
@@ -515,9 +515,9 @@
     biotools: nextflow
     tess: Nextflow
   url: https://www.nextflow.io/
-- description: Estonian local instance of the Nextstrain Auspiece application that serves SARS-CoV-2 phylogenetic data
-  id: nextstrain-auspiece
-  name: Nextstrain Auspiece
+- description: Estonian local instance of the Nextstrain Auspice application that serves SARS-CoV-2 phylogenetic data
+  id: nextstrain-auspice
+  name: Nextstrain Auspice
   url: https://auspice.biit.cs.ut.ee/ncov/est
 - description: Omics Integrator is a package designed to integrate proteomic data, gene expression data and/or epigenetic data using a protein-protein interaction network.
   id: omicsgenerator
@@ -738,7 +738,7 @@
     biotools: fastqc
     tess: FASTQC
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-- description: Samtools is a suite of programs for interacting with high-throughput sequencing data.
+- description: SAMtools is a suite of programs for interacting with high-throughput sequencing data.
   id: samtools
   name: SAMtools
   registry:
@@ -785,10 +785,15 @@
 - description: The Swedish Pathogens Portal was previously known as the Swedish COVID-19 Data Portal. It is the Swedish national node of the Pathogens Portal, aimed at facilitating the sharing of data related to pathogens and pandemic preparedness.
   id: swedish-pathogens-portal
   name: Swedish Pathogens Portal
+  registry:
+    fairsharing: a085b2
   url: https://pathogens.se
 - description: The Pathogens Portal, launched in July 2023, is an invaluable resource for researchers, clinicians, and policymakers who need access to the latest and most comprehensive datasets on pathogens. The portal is a collaborative effort between the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) and partners.
   id: pathogens-portal
   name: Pathogens Portal
+  registry:
+    fairsharing: a085b2
+    tess: Pathogens Portal
   url: https://www.pathogensportal.org
 - description: The European Health Data Space is a health specific ecosystem comprised of rules, common standards and practices, infrastructures and a governance framework that aims at empowering individuals through increased digital access to and control of their electronic personal health data, at national level and EU-wide.
   id: ehds
@@ -798,7 +803,7 @@
   id: ema
   name: European Medicines Agency (EMA)
   url: https://www.ema.europa.eu/en
-- description:  It is an EU agency aimed at strengthening Europe's defences against infectious diseases. Their mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.
+- description: It is an EU agency aimed at strengthening Europe's defences against infectious diseases. Their mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.
   id: ecdc
   name: European Centre for Disease Prevention and Control (ECDC)
   url: https://www.ecdc.europa.eu/en
@@ -813,12 +818,14 @@
 - description: The Health Information Portal provides access to population health and healthcare data across Europe.
   id: health-portal
   name: European Health Information Portal
+  registry:
+    fairsharing: 8690f1
   url: https://www.healthinformationportal.eu/
 - description: PHIRI is the roll-out of the research infrastructure on population health information that aims to facilitate and generate the best available evidence for research on health and well-being of populations as impacted by COVID-19.
   id: phiri
   name: Population Health Information Research Infrastructure (PHIRI)
   url: https://www.phiri.eu/
-- description: Research at the BfArM concentrates on important and contemporary research focal points with regard to the marketing authorisation of medicinal products and improving the safety thereof as well as concerning the recording and assessment of risks in connection with medical devices. 
+- description: Research at the BfArM concentrates on important and contemporary research focal points with regard to the marketing authorisation of medicinal products and improving the safety thereof as well as concerning the recording and assessment of risks in connection with medical devices.
   id: data-bfarm
   name: Research Data Centre at the BfArM
   url: https://www.bfarm.de/EN/BfArM/Tasks/Research/_node.html
@@ -846,3 +853,59 @@
   id: hdr-uk
   name: Health Research Data UK
   url: https://www.hdruk.ac.uk/
+- description: DAGitty is a browser-based environment for creating, editing, and analyzing causal diagrams (also known as directed acyclic graphs or causal Bayesian networks).
+  id: dagitty
+  name: DAGitty
+  registry:
+    biotools: dagitty
+    fairsharing: dagitty
+  url: https://www.dagitty.net/
+- description: Quarto is an open-source scientific and technical publishing system that enables the creation of dynamic and reproducible content.
+  id: quarto
+  name: Quarto
+  registry:
+    tess: Quarto
+  url: https://quarto.org/
+- description: Bcftools is a set of tools for working with variant calls in the VCF format.
+  id: bcftools
+  name: Bcftools
+  registry:
+    biotools: bcftools
+  url: https://samtools.github.io/bcftools/bcftools.html
+- description: Qualimap is a quality control tool that assesses the quality of the sequencing data at different stages of the analysis pipeline, including read mapping, coverage, and expression analysis.
+  id: qualimap
+  name: Qualimap
+  registry:
+    biotools: qualimap
+  url: http://qualimap.conesalab.org/
+- description: GATK is a widely used tool for variant calling and genotyping from NGS data.
+  id: gatk
+  name: Genome Analysis Toolkit (GATK)
+  registry:
+    biotools: gatk
+  url: https://gatk.broadinstitute.org/hc/en-us
+- description: Picard is a suite of tools that provides quality control and processing of NGS data, including duplicate read removal, format conversion, and alignment.
+  id: picard
+  name: Picard
+  registry:
+    biotools: picard_tools
+  url: https://broadinstitute.github.io/picard/
+- description: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data.
+  id: trimmomatic
+  name: Trimmomatic
+  registry:
+    biotools: trimmomatic
+    tess: Trimmomatic
+  url: http://www.usadellab.org/cms/?page=trimmomatic
+- description: FastQ Screen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
+  id: fastqc-screen
+  name: FastQC Screen
+  url: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
+- description: GRAF pop is a software tool that infers the subject ancestry.
+  id: graf-pop
+  name: GRAF pop
+  url: https://pubmed.ncbi.nlm.nih.gov/31151998/
+- description: Tool that determines subject sexes using the genotypes.
+  id: graf-sex
+  name: GRAF sex
+  url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html

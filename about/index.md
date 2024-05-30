@@ -10,7 +10,7 @@ The IDTk provides a platform for knowledge exchange to enable data mobilisation,
 By providing a compilation of past and present efforts, collecting country specific strategies and distilling contextualised best practices from previous responses, IDTk aims to enhance infectious diseases outbreak preparedness.
 
 ## What does the IDTk offer?
- * General guidelines for data handling, analysis and visualisations in the context of infectious diseases. The guidelines are divided in categories and represent the contribution of communities from each domain.
+ * General guidelines for data handling, analysis and visualisations in the context of infectious diseases. Where needed, additional guidelines are given for different categories of data.
  * Tools, standards and overall resources that are contextually presented, including considerations for their need and use. 
  * A collection of showcases. These are examples that combine and apply multiple resources (e.g. standards, tools, workflows) in the response to one or more infectious diseases.
  * National resources pages in which country specific experiences, examples and resources are shared.

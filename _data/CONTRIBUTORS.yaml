@@ -18,7 +18,7 @@ Rudolf Wittner:
   affiliation: BBMRI-ERIC
 Bert Droesbeke:
   git: bedroesb
-  email: bedro@psb.ugent.be
+  email: bert.droesbeke@vib.be
   orcid: 0000-0003-0522-5674
   role: editor
   affiliation: VIB-UGent / ELIXIR-BE
@@ -74,7 +74,6 @@ Iris Van Dam:
   git: IrisVanDam
   email: iris.vandam@sciensano.be
   affiliation: Sciensano
-  role: editor
 Katharina Lauer:
   orcid: 0000-0002-4347-7525
   git: klauer2207
@@ -227,3 +226,33 @@ Elisabeth Sundström:
   email: elisabeth.sundstrom@scilifelab.uu.se
   orcid: 0000-0001-9526-8541
   affiliation: SciLifeLab / Uppsala University
+Francisco Estupiñán-Romero:
+  git: pacoramon
+  email: 
+  orcid: 0000-0002-6285-8120
+  affiliation: IACS
+Marjan Meurisse:
+  git: 
+  email: 
+  orcid: 0000-0002-4409-0664
+  affiliation: Sciensano
+Enrique Bernal-Delgado:
+  git: 
+  email: 
+  orcid: 0000-0002-0961-3298
+  affiliation: IACS
+Mireia Marin Ginestar:
+  git: mirgin01
+  email: mireia.marin@crg.eu
+  orcid: 0009-0000-1868-2917
+  affiliation: European Genome-phenome Archive (EGA) / CRG
+Clementina Elvezia Cocuzza:
+  git:
+  email: clementina.cocuzza@unimib.it
+  orcid: 0000-0001-6166-1134
+  affiliation: School of Medicine and Surgery, University of Milano-Bicocca
+Uku Raudvere:
+  git: urdvr
+  email: uku.raudvere@ut.ee
+  orcid: 0000-0001-7243-8595
+  affiliation: University of Tartu / ELIXIR-Estonia
