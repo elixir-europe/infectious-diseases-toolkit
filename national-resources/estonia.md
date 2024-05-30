@@ -8,6 +8,7 @@ coordinators: [Diana Pilvar]
 # More information on which page_id you can use can be found at https://www.infectious-diseases-toolkit.org/contribute/website_overview 
 related_pages:
   showcase: [korogenoest]
+  showcase: [estonian-prevalence-study]
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
