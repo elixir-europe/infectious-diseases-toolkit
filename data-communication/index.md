@@ -73,32 +73,32 @@ Amounts can be measured as counts (i.e. integer values), or percentages/proporti
 
 It is recommended that data representing amounts is depicted in one of three types of visualisation: bar charts (column charts), scatter plots (dot plots), and heatmaps. Below are some considerations when using these plot types with count/proportion/percentage data.
 
-- <b>Bar charts:</b> Multiple formats of bar charts exist. Which you choose will depend on the exact nature of your data.
+- **Bar charts:** Multiple formats of bar charts exist. Which you choose will depend on the exact nature of your data.
   - ‘Simple’ bar charts comprise a single bar for each category, so can be used when there is one amount for each category. They are useful for seeing the differences between categories. For example, when considering the results of a survey of mitigating measures in a given country.
   - Grouped/clustered bar charts include multiple bars for each category, with the bars placed beside one another. They are recommended when the aim is to show the differences in size between categories when multiple measurements have been recorded for each category. For example, when analysing the number of vaccine doses taken by different age ranges or risk groups.
   - Stacked bar charts, as with groups bar charts, show multiple entries for a given category stacked on top of each other to form a single bar. Stacked bar charts are more useful when the aim is to show the overall value for a given category, rather than specifically the differences between each category.
-- <b>Scatter plots:</b> used to show the numerical relationship between two variables. They are not recommended when there are too many data points (when a heatmap should be considered) or too few (when a bar chart could better represent the data). For example, scatter plots could be used to show the relationship between the incidence of new cases and the number of hospitalisations.
-- <b>Heatmaps:</b> like scatter plots, these are primarily used to show relationships between two variables. Heatmaps are recommended to minimise the issue of overplotting the data, which is a common criticism of scatterplots, as data in heatmaps is more aggregated than in scatter plots. Heatmaps can replace bar charts when there are too many categories to interpret the graph clearly. For example, they can be used to measure vaccine coverage according to dose number and age category.
+- **Scatter plots:** used to show the numerical relationship between two variables. They are not recommended when there are too many data points (when a heatmap should be considered) or too few (when a bar chart could better represent the data). For example, scatter plots could be used to show the relationship between the incidence of new cases and the number of hospitalisations.
+- **Heatmaps:** like scatter plots, these are primarily used to show relationships between two variables. Heatmaps are recommended to minimise the issue of overplotting the data, which is a common criticism of scatterplots, as data in heatmaps is more aggregated than in scatter plots. Heatmaps can replace bar charts when there are too many categories to interpret the graph clearly. For example, they can be used to measure vaccine coverage according to dose number and age category.
 
 ### Existing approaches
 
-- <b>Simple bar charts:</b> [Johns Hopkins University’s COVID-19 dashboard](https://gisanddata.maps.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6) shows how a single bar per week can be used to represent the numbers of cases, hospitalisations, and vaccine doses associated with COVID-19 over time.
+- **Simple bar charts:** [Johns Hopkins University’s COVID-19 dashboard](https://gisanddata.maps.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6) shows how a single bar per week can be used to represent the numbers of cases, hospitalisations, and vaccine doses associated with COVID-19 over time.
 
 {% include image.html file="data-communication/JHU_barcharts.png" caption="Bar chart from Johns Hopkins University" alt="Bar chart from Johns Hopkins University showing the number of daily COVID-19 cases" max-width="10" %}
 
-- <b>Grouped/clustered bar charts:</b> [The vaccines dashboard from the Swedish Pathogens Portal](https://www.pathogens.se/dashboards/vaccines/), which is based on data from Folkhälsomyndigheten, shows how clustered bar charts can be used to compare different methods of measuring COVID-19 vaccine coverage.
+- **Grouped/clustered bar charts:** [The vaccines dashboard from the Swedish Pathogens Portal](https://www.pathogens.se/dashboards/vaccines/), which is based on data from Folkhälsomyndigheten, shows how clustered bar charts can be used to compare different methods of measuring COVID-19 vaccine coverage.
 
 {% include image.html file="data-communication/grouped_bar_chart.png" caption="Grouped bar chart from the Swedish Pathogens Portal." alt="Grouped bar chart from the Swedish Pathogens Portal showing two methods of calculation related to vaccination coverage" max-width="10" %}
 
-- <b>Stacked bar charts:</b> [The CoVEO app](https://www.covid19dataportal.org/coveo) (developed by Eötvös Loránd University, Erasmus Medical Center, and Technical University of Denmark) shows how stacked bar plots can be used to illustrate how many samples showed different strains of SARS-CoV-2, whilst enabling readers to easily see the total number of samples tested.
+- **Stacked bar charts:** [The CoVEO app](https://www.covid19dataportal.org/coveo) (developed by Eötvös Loránd University, Erasmus Medical Center, and Technical University of Denmark) shows how stacked bar plots can be used to illustrate how many samples showed different strains of SARS-CoV-2, whilst enabling readers to easily see the total number of samples tested.
 
 {% include image.html file="data-communication/stacked_barcharts.png" caption="Stacked bar chart from the CoVEO app." alt="Stacked bar chart from the CoVEO app of the European COVID-19 Data Portal showing the number pf COVID-19 cases each week in the Netherlands." max-width="10" %}
 
-- <b>Scatter plots:</b> [MOOD’s COVID-19 scatterplots visualisation tool](https://mood-h2020.eu/mood-case-studies/covid-19-disease-x-case/covid-19-materials/covid-19-scatterplots/) was used to graphically compare 7-day incidences, and the change in the number of cases, in different regions of Germany.
+- **Scatter plots:** [MOOD’s COVID-19 scatterplots visualisation tool](https://mood-h2020.eu/mood-case-studies/covid-19-disease-x-case/covid-19-materials/covid-19-scatterplots/) was used to graphically compare 7-day incidences, and the change in the number of cases, in different regions of Germany.
 
 {% include image.html file="data-communication/scatterplot.png" caption="Scatterplot from MOOD" alt="Scatterplot from MOOD showing 7 day incidences and the respective change in case number for different regions of Germany." max-width="10" %}
 
-- <b>Heatmaps:</b> The [Swedish Pathogens Portal’s vaccines dashboard ](https://www.pathogens.se/dashboards/vaccines/) shows how the amount of vaccine coverage in the population differs according to vaccine dose and patient age.
+- **Heatmaps:** The [Swedish Pathogens Portal’s vaccines dashboard ](https://www.pathogens.se/dashboards/vaccines/) shows how the amount of vaccine coverage in the population differs according to vaccine dose and patient age.
 
 {% include image.html file="data-communication/vaccine_heatmap.png" caption="Heatmap of vaccination data from The Swedish Pathogens Portal." alt="Heatmap of vaccination data from Sweden showing the percentage of the population vaccination according to age group and the number of doses received." max-width="10" %}
 
@@ -110,31 +110,31 @@ It can often be useful to consider the distribution of the data collected. For e
 
 Multiple types of visualisations are recommended to evaluate the distribution of data. These include histograms, density plots, box plots, violin plots, and population pyramids. All enable you to determine whether the data is skewed, and where the peaks in the data lie.
 
-- <b>Histograms:</b> used when investigating the frequency of occurrences within a single dataset.
-- <b>Density plots:</b> provide relatively ‘smoothed’ data distributions compared to histograms. They are useful when there are large amounts of data that cannot be clearly interpreted on a histogram.
-- <b>Box plots:</b> most useful when comparing data distributions across multiple groups.
-- <b>Violin plots:</b> enable comparisons of the data across multiple groups, but with much more granularity than box plots. They provide a better representation of the raw data, as they show changes over the whole range, rather than the most ‘dense’ part of it. See [this animation](https://i.sstatic.net/XtUDXPcg.gif) from [Autodesk](https://www.research.autodesk.com/publications/same-stats-different-graphs/) for a greater understanding of why. Please note that, whilst useful, violin plots may be rarely used in some fields, so some users might find them more difficult to interpret.
-- <b>Population pyramids:</b> considered a better option when comparing populations based on categorical data, as it is inappropriate to show these in a ‘smoother’ format, such as a violin plot.
+- **Histograms:** used when investigating the frequency of occurrences within a single dataset.
+- **Density plots:** provide relatively ‘smoothed’ data distributions compared to histograms. They are useful when there are large amounts of data that cannot be clearly interpreted on a histogram.
+- **Box plots:** most useful when comparing data distributions across multiple groups.
+- **Violin plots:** enable comparisons of the data across multiple groups, but with much more granularity than box plots. They provide a better representation of the raw data, as they show changes over the whole range, rather than the most ‘dense’ part of it. See [this animation](https://i.sstatic.net/XtUDXPcg.gif) from [Autodesk](https://www.research.autodesk.com/publications/same-stats-different-graphs/) for a greater understanding of why. Please note that, whilst useful, violin plots may be rarely used in some fields, so some users might find them more difficult to interpret.
+- **Population pyramids:** considered a better option when comparing populations based on categorical data, as it is inappropriate to show these in a ‘smoother’ format, such as a violin plot.
 
 ### Existing approaches
 
-- <b>Histograms:</b> [This histogram of COVID-19 infections in Germany](https://www.eurekalert.org/multimedia/564119) by Joseph Lee McCauley allows users to see the frequency of infections over time. Plots such as this can be used to determine, for example, the type of source behind an outbreak (e.g. whether it is continuous or intermittent), and whether certain events improved/worsened an outbreak.
+- **Histograms:** [This histogram of COVID-19 infections in Germany](https://www.eurekalert.org/multimedia/564119) by Joseph Lee McCauley allows users to see the frequency of infections over time. Plots such as this can be used to determine, for example, the type of source behind an outbreak (e.g. whether it is continuous or intermittent), and whether certain events improved/worsened an outbreak.
 
 {% include image.html file="data-communication/histogram.png" caption="Histogram showing the number of active COVID-19 infections in Germany over time." alt="istogram showing the number of active COVID-19 infections in Germany over time." max-width="10" %}
 
-- <b>Density plots:</b> Our World in Data have used a [density plot to show COVID-19 vaccine doses administered by manufacturer in the European Union](https://ourworldindata.org/grapher/covid-vaccine-doses-by-manufacturer)
+- **Density plots:** Our World in Data have used a [density plot to show COVID-19 vaccine doses administered by manufacturer in the European Union](https://ourworldindata.org/grapher/covid-vaccine-doses-by-manufacturer)
 
 {% include image.html file="data-communication/stacked_roc.png" caption="Density plot showing the number COVID-19 vaccine doses administered in the European Union by different manufacturers." alt="Density plot showing the number COVID-19 vaccine doses administered in the European Union by different manufacturers" max-width="10" %}
 
-- <b>Box plots:</b> This box plot by the [European Centre for Disease Control (ECDC)](https://www.ecdc.europa.eu/sites/default/files/documents/Guidelines%20for%20presentation%20of%20surveillance%20data-final-with-cover-for-we....pdf) compares the distribution of MERS-CoV cases in 2016 according to patient age in multiple case categories. This allows users to compare the distribution of age in different case categories.
+- **Box plots:** This box plot by the [European Centre for Disease Control (ECDC)](https://www.ecdc.europa.eu/sites/default/files/documents/Guidelines%20for%20presentation%20of%20surveillance%20data-final-with-cover-for-we....pdf) compares the distribution of MERS-CoV cases in 2016 according to patient age in multiple case categories. This allows users to compare the distribution of age in different case categories.
 
 {% include image.html file="data-communication/ecdc_boxplot.png" caption="Box plot from ECDC showing the distribution of MERS-CoV cases in 2016." alt="Box plot from ECDC showing the distribution of MERS-CoV cases in 2016" max-width="10" %}
 
-- <b>Violin plots:</b>The figure 3 from [Amirthalingam et al](https://doi.org/10.1038%2Fs41467-021-27410-5) illustrates the S-antibody responses at 14–34 days following the second dose of COVID-19 vaccine.
+- **Violin plots:**The figure 3 from [Amirthalingam et al](https://doi.org/10.1038%2Fs41467-021-27410-5) illustrates the S-antibody responses at 14–34 days following the second dose of COVID-19 vaccine.
 
 {% include image.html file="data-communication/violinplots.jpeg" caption="Violin plots showing the S-antibody responses at 14-34 data after a second dose of COVID-19 vaccine." alt="Violin plots showing the S-antibody responses at 14-34 data after a second dose of COVID-19 vaccine." max-width="10" %}
 
-- <b>Population pyramid:</b> In the [University of Tartu’s COVID-19 dashboards](https://biit.cs.ut.ee/covid/#/rahvastik/maakonniti) population pyramids were used to examine whether males (light blue) or females (pink) were over- or under-tested in different Estonian counties by comparing the number of tests conducted and the population density.
+- **Population pyramid:** In the [University of Tartu’s COVID-19 dashboards](https://biit.cs.ut.ee/covid/#/rahvastik/maakonniti) population pyramids were used to examine whether males (light blue) or females (pink) were over- or under-tested in different Estonian counties by comparing the number of tests conducted and the population density.
 
 {% include image.html file="data-communication/distribution_population_pyramid.png" caption="Population pyramid from The University of Tartu examining levels of testing in different Estonian counties." alt="Population pyramid from The University of Tartu examining levels of testing in different Estonian counties." max-width="10" %}
 
@@ -180,12 +180,12 @@ Using maps to display geospatial data allows you to show how a virus spreads acr
 
 When creating maps for infectious disease data, consider:
 
-- <b>Scalability:</b> when possible, design maps to handle different levels of detail, from local outbreaks to global pandemics;
-- <b>Interactivity:</b> incorporates interactive features that allow users to explore data at different geographic levels and over time;
-- <b>Integration of multiple data sources:</b> combine various data layers, such as population density or age groups, to provide a comprehensive view. This can enable the rapid identification of areas at higher risk and in need of more support, which is crucial to mitigate the impacts of an outbreak;
-- <b>Contextual Information:</b> Provide contextual explanations and annotations to help users understand the significance of the data presented. Annotations can be used to highlight areas with high infection rates, or regions experiencing rapid increases in case numbers. Annotations can also explain key events, such as the introduction of containment measures or identification of a new variant, helping viewers correlate these events with changes in disease spread patterns;
-- <b>Identifying hotspots:</b> maps highlight areas with high infection rates, enabling targeted interventions and resource allocation;
-- <b>Temporal analysis:</b> dynamic maps showing changes over time help track the progression of outbreaks and, for example, help evaluate public health measures;
+- **Scalability:** when possible, design maps to handle different levels of detail, from local outbreaks to global pandemics;
+- **Interactivity:** incorporates interactive features that allow users to explore data at different geographic levels and over time;
+- **Integration of multiple data sources:** combine various data layers, such as population density or age groups, to provide a comprehensive view. This can enable the rapid identification of areas at higher risk and in need of more support, which is crucial to mitigate the impacts of an outbreak;
+- **Contextual Information:** Provide contextual explanations and annotations to help users understand the significance of the data presented. Annotations can be used to highlight areas with high infection rates, or regions experiencing rapid increases in case numbers. Annotations can also explain key events, such as the introduction of containment measures or identification of a new variant, helping viewers correlate these events with changes in disease spread patterns;
+- **Identifying hotspots:** maps highlight areas with high infection rates, enabling targeted interventions and resource allocation;
+- **Temporal analysis:** dynamic maps showing changes over time help track the progression of outbreaks and, for example, help evaluate public health measures;
 - It is important to select the correct type of map for your data. Two of the most common types of map are choropleth maps and ‘dot’ maps.
   - Choropleth maps typically use colouring or sharing to indicate differences between predefined areas (e.g. local municipalities).
   - Symbol/dot maps typically include dots of varying size placed in particular areas to represent differences in amount (usually indicated by the size of the dot), and perhaps one other variable (typically shown using the colour of the dot).
@@ -194,19 +194,19 @@ When creating maps for infectious disease data, consider:
 
 ### Existing approaches
 
-- This [choropleth map from the University of Tartu](https://biit.cs.ut.ee/covid/kaart/?lang=en) shows the rate of booster vaccination update in the elderly across Estonia, with darker colours indicating higher vaccination rates. The map includes multiple <b>interactive features</b> to allow users to view the data on two different <b>geographic scales</b> (county and municipality) and over time.
+- This [choropleth map from the University of Tartu](https://biit.cs.ut.ee/covid/kaart/?lang=en) shows the rate of booster vaccination update in the elderly across Estonia, with darker colours indicating higher vaccination rates. The map includes multiple **interactive features** to allow users to view the data on two different **geographic scales** (county and municipality) and over time.
 
 {% include image.html file="data-communication/maps_koroonakaart.png" caption="Choropleth map from the University of Tartu showing booster vaccination rates among the elderly in different regions of Estonia." alt="Choropleth map from the University of Tartu showing booster vaccination rates among the elderly in different regions of Estonia. The map has buttons that can be used to change the grographic scale from county to municipality." max-width="10" %}
 
-- The [choropleth map from the COVID-19 Event Risk Tool](https://covid19risk.biosci.gatech.edu/) <b>integrates multiple data sources</b> to indicate the risk level of attending an event, given the event size and location that the user can set as a parameter.
+- The [choropleth map from the COVID-19 Event Risk Tool](https://covid19risk.biosci.gatech.edu/) **integrates multiple data sources** to indicate the risk level of attending an event, given the event size and location that the user can set as a parameter.
 
 {% include image.html file="data-communication/maps_gatech_riskestimates.png" caption="Choropleth map from the COVID-19 Event Risk Tool showing the level of risk associated with attending an event in different areas of the United States." alt="Choropleth map from the COVID-19 Event Risk Tool showing the level of risk associated with attending an event in different areas of the United States." max-width="10" %}
 
-- Maps can <b>identify and highlight hotspots</b> e.g. areas with high infection rates. On this [symbol/dot map from Johns Hopkins University](https://gisanddata.maps.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6) (last updated March 2023), each red circle illustrates the number of cases in a particular time period for a region, with larger circles indicating more cases. The dots may represent whole countries (e.g. Poland) or smaller areas within a country (e.g. Germany), and may be either absolute or normalised by population size.
+- Maps can **identify and highlight hotspots** e.g. areas with high infection rates. On this [symbol/dot map from Johns Hopkins University](https://gisanddata.maps.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6) (last updated March 2023), each red circle illustrates the number of cases in a particular time period for a region, with larger circles indicating more cases. The dots may represent whole countries (e.g. Poland) or smaller areas within a country (e.g. Germany), and may be either absolute or normalised by population size.
 
 {% include image.html file="data-communication/maps_gisanddata.png" caption="Dot map from Johns Hopkins University." alt="Dot map from Johns Hopkins University showing the number of COVID-19 cases in different countries/regions worldwide." max-width="10" %}
 
-- Maps can enable <b>temporal analysis</b> of the progression of an outbreak by incorporating interactive features. This can include, for example, how a pathogen spread in a region, or how quickly mitigation measures took effect. This helps to evaluate the effectiveness of public health interventions, and enables strategies to be adjusted accordingly. The [map from University of Virginia](https://nssac.bii.virginia.edu/covid-19/dashboard/) allows the user to investigate the active cases across the world. Time slider, continent selector and normalisation per capacity allow further customisation of the visualisation.
+- Maps can enable **temporal analysis** of the progression of an outbreak by incorporating interactive features. This can include, for example, how a pathogen spread in a region, or how quickly mitigation measures took effect. This helps to evaluate the effectiveness of public health interventions, and enables strategies to be adjusted accordingly. The [map from University of Virginia](https://nssac.bii.virginia.edu/covid-19/dashboard/) allows the user to investigate the active cases across the world. Time slider, continent selector and normalisation per capacity allow further customisation of the visualisation.
 
 {% include image.html file="data-communication/maps_virginia_active.png" caption="Choropleth map from the University of Virginia showing the number of active COVID-19 cases over time." alt="Choropleth map from the University of Virginia showing the number of active COVID-19 cases over time." max-width="10" %}
 
@@ -216,11 +216,11 @@ Whilst many different types of plot have been covered in the above sections of t
 
 ### Considerations
 
-- <b>Pie charts:</b> Often used to show proportion/percentage data that adds up to 1 or 100%, respectively, and to allow comparisons between groups. However, it is considered [more difficult to compare between groups in a pie chart than in other types of visualisation](https://github.com/cxli233/FriendsDontLetFriends#10-friends-dont-let-friends-make-pie-chart), as humans are more able to compare lengths than angles.
-- <b>Word clouds:</b> The overinterpretation of word clouds is extremely common, and they are easily manipulated to highlight certain words and phrases. Word clouds should thus be avoided in the vast majority of cases, and interpreted with caution. It is important to, for example, to remember that they do not represent a quantitative assessment of text content. However, there are some use cases where they can be useful e.g. to provide a quick overview of text data.
-- <b>Tables:</b> allow users to easily view the data on a row or column basis, to find the data points that are of interest and make one-to-one comparisons. However, other types of visualisation (e.g. scatterplots) are recommended to facilitate broader comparisons.
-- <b>Phylogenetic trees:</b> the recommended visualisation type for showing relatedness between species/strains is a phylogenetic tree. However, it is important to avoid overcrowding to ensure that the tree remains readable and easy to interpret.
-- <b>Indicator values:</b> it can be useful to provide a quick, easy to interpret daily snapshot of an emerging outbreak. This can include, for example, the number of cases, hospitalisations, vaccine doses, deaths, and recoveries occurring. Indicator values present a single value, potentially alongside an arrow or other representation to show how the value has changed relative to the previous day. They are not useful in showing overall trends, and can be misleading (e.g. where the general trend is declining, but the rate increases on a given day).
+- **Pie charts:** Often used to show proportion/percentage data that adds up to 1 or 100%, respectively, and to allow comparisons between groups. However, it is considered [more difficult to compare between groups in a pie chart than in other types of visualisation](https://github.com/cxli233/FriendsDontLetFriends#10-friends-dont-let-friends-make-pie-chart), as humans are more able to compare lengths than angles.
+- **Word clouds:** The overinterpretation of word clouds is extremely common, and they are easily manipulated to highlight certain words and phrases. Word clouds should thus be avoided in the vast majority of cases, and interpreted with caution. It is important to, for example, to remember that they do not represent a quantitative assessment of text content. However, there are some use cases where they can be useful e.g. to provide a quick overview of text data.
+- **Tables:** allow users to easily view the data on a row or column basis, to find the data points that are of interest and make one-to-one comparisons. However, other types of visualisation (e.g. scatterplots) are recommended to facilitate broader comparisons.
+- **Phylogenetic trees:** the recommended visualisation type for showing relatedness between species/strains is a phylogenetic tree. However, it is important to avoid overcrowding to ensure that the tree remains readable and easy to interpret.
+- **Indicator values:** it can be useful to provide a quick, easy to interpret daily snapshot of an emerging outbreak. This can include, for example, the number of cases, hospitalisations, vaccine doses, deaths, and recoveries occurring. Indicator values present a single value, potentially alongside an arrow or other representation to show how the value has changed relative to the previous day. They are not useful in showing overall trends, and can be misleading (e.g. where the general trend is declining, but the rate increases on a given day).
 
 ### Existing approaches
 
@@ -249,15 +249,15 @@ While a single plot can provide a good overview of the data at hand, combining d
 
 When developing dashboards, it is worth keeping in mind the following:
 
-- <b>Consistent colouring</b> is crucial for avoiding confusion and enhancing readability, as it ensures that the same colour scheme is used for specific data types, like infection or recovery rates;
-- <b>Avoid overcrowding</b> by prioritising key metrics, and presenting data clearly and concisely. This will ensure that the dashboard remains user-friendly;
-- <b>Complementary plot types</b>, such as line charts, bar charts, and heat maps, can be used in combination to provide a comprehensive view of the data without redundancy, making it easier to understand different aspects of the data;
-- <b>Easy-to-use controls</b> are essential for allowing users to filter and interact with the data, making the dashboard more functional and adaptable to user needs;
-- <b>Clear and informative legends and labels</b> help users to quickly understand the visualisations, enhancing their ability to interpret the data accurately;
-- <b>Real-time data updates</b> ensure that the dashboard provides the most current information, which is crucial for managing infectious disease outbreaks effectively. It is important that users are able to see when the last update was made;
-- <b>Responsive design</b> is important for accessibility across different devices, ensuring users can access and interact with the data on desktops, tablets, and smartphones;
-- <b>Providing contextual information</b> and explanations for the presented data helps users understand the significance of the metrics and trends, making the data more meaningful and actionable;
-- <b>Use a logical layout</b> to guide users through the data efficiently, improving the overall user experience and ensuring that the dashboard serves as a powerful tool for monitoring and managing infectious disease outbreaks.
+- **Consistent colouring** is crucial for avoiding confusion and enhancing readability, as it ensures that the same colour scheme is used for specific data types, like infection or recovery rates;
+- **Avoid overcrowding** by prioritising key metrics, and presenting data clearly and concisely. This will ensure that the dashboard remains user-friendly;
+- **Complementary plot types**, such as line charts, bar charts, and heat maps, can be used in combination to provide a comprehensive view of the data without redundancy, making it easier to understand different aspects of the data;
+- **Easy-to-use controls** are essential for allowing users to filter and interact with the data, making the dashboard more functional and adaptable to user needs;
+- **Clear and informative legends and labels** help users to quickly understand the visualisations, enhancing their ability to interpret the data accurately;
+- **Real-time data updates** ensure that the dashboard provides the most current information, which is crucial for managing infectious disease outbreaks effectively. It is important that users are able to see when the last update was made;
+- **Responsive design** is important for accessibility across different devices, ensuring users can access and interact with the data on desktops, tablets, and smartphones;
+- **Providing contextual information** and explanations for the presented data helps users understand the significance of the metrics and trends, making the data more meaningful and actionable;
+- **Use a logical layout** to guide users through the data efficiently, improving the overall user experience and ensuring that the dashboard serves as a powerful tool for monitoring and managing infectious disease outbreaks.
 
 ### Existing approaches
 
@@ -281,23 +281,23 @@ Flexible plotting libraries such as Vega via Altair provide powerful tools for v
 
 When selecting software libraries for plotting infectious disease data, researchers should ensure the tools they choose are capable of producing accurate, clear, and informative visualisations. Below are some key considerations and recommendations for software libraries.
 
-- <b>User-friendly:</b> the library should be easy to use, even for those who may not have extensive programming experience. It should offer straightforward functions for common plotting tasks.
-- <b>Comprehensive documentation:</b> good documentation and tutorials can significantly reduce the learning curve and help users make the most of the library’s features.
-- <b>Range of plot types:</b> the library should support a wide range of plot types, including line charts, bar charts, histograms, scatter plots, and more advanced visualisations like heatmaps and geographical maps.
-- <b>Customisation options:</b> the ability to customise plots (e.g., colours, labels, axes, legends) is essential for creating clear and informative visualisations.
-- <b>Handling large datasets:</b> the library should be capable of handling large datasets efficiently, without significant performance degradation.
-- <b>Interactivity:</b> for more in-depth analysis, the library should support interactive features, such as zooming, panning, tooltips, and clickable elements.
-- <b>Data integration:</b> the library should easily integrate with common data formats and sources (e.g., CSV, JSON, databases) and work well with other data processing libraries.
-- <b>Cross-platform compatibility:</b> The library should be compatible with multiple operating systems and work seamlessly across different platforms.
-- <b>Active community:</b> an active user community can be a valuable resource for troubleshooting issues, sharing tips, and finding inspiration.
-- <b>Regular updates:</b> libraries that are regularly updated are more likely to have fewer bugs and offer new features and improvements.
+- **User-friendly:** the library should be easy to use, even for those who may not have extensive programming experience. It should offer straightforward functions for common plotting tasks.
+- **Comprehensive documentation:** good documentation and tutorials can significantly reduce the learning curve and help users make the most of the library’s features.
+- **Range of plot types:** the library should support a wide range of plot types, including line charts, bar charts, histograms, scatter plots, and more advanced visualisations like heatmaps and geographical maps.
+- **Customisation options:** the ability to customise plots (e.g., colours, labels, axes, legends) is essential for creating clear and informative visualisations.
+- **Handling large datasets:** the library should be capable of handling large datasets efficiently, without significant performance degradation.
+- **Interactivity:** for more in-depth analysis, the library should support interactive features, such as zooming, panning, tooltips, and clickable elements.
+- **Data integration:** the library should easily integrate with common data formats and sources (e.g., CSV, JSON, databases) and work well with other data processing libraries.
+- **Cross-platform compatibility:** The library should be compatible with multiple operating systems and work seamlessly across different platforms.
+- **Active community:** an active user community can be a valuable resource for troubleshooting issues, sharing tips, and finding inspiration.
+- **Regular updates:** libraries that are regularly updated are more likely to have fewer bugs and offer new features and improvements.
 
 In addition to technical capabilities, it’s important to consider libraries and tools that empower data producers (such as epidemiologists, public health officials, and researchers) to create and modify visualisations independently, without needing extensive help from software developers. These tools should prioritise user-friendliness and accessibility. For example, low-code or no-code environments enable users to create complex visualisations through minimal programming, often using a visual interface.
 
 ### Existing approaches
 
-- <b>Vega</b> is a declarative language designed for creating, sharing, and exploring interactive visualisation designs. It uses a JSON syntax, making the specifications both human-readable and machine-readable.
-- <b>[Altair](https://altair-viz.github.io/)</b> is a Python library built on top of Vega, offering a high-level interface for creating a wide range of visualisations with a few lines of code. It offers exploratory data analysis: interactive charts allow users to explore their data dynamically. Features such as tooltips, zooming, and filtering enable deeper insights into the data. Once the columns of data that are available for plotting are defined, different plot types such as circles, bars, grids can be drawn by the user. All column combinations are theoretically possible to visualise.
+- **Vega** is a declarative language designed for creating, sharing, and exploring interactive visualisation designs. It uses a JSON syntax, making the specifications both human-readable and machine-readable.
+- **[Altair](https://altair-viz.github.io/)** is a Python library built on top of Vega, offering a high-level interface for creating a wide range of visualisations with a few lines of code. It offers exploratory data analysis: interactive charts allow users to explore their data dynamically. Features such as tooltips, zooming, and filtering enable deeper insights into the data. Once the columns of data that are available for plotting are defined, different plot types such as circles, bars, grids can be drawn by the user. All column combinations are theoretically possible to visualise.
 
 The two plots below depict the exact same data on SARS-CoV-2 clades across various Estonian counties. One uses circles to represent the number of samples per clade and county, while the other employs heatmaps to visualise values.
 
