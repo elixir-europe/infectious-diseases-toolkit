@@ -51,7 +51,7 @@ Implement efficient data collection protocols that ensure rapid access to, and s
 ### Error and inconsistency detection
 Perform regular error detection and data cleaning processes. This includes identifying outliers, inconsistencies, and missing data, and then applying corrections accordingly, to improve the overall quality and reliability of the data.
 
-Outliers (i.e., data points that significantly differ from other observations) must be identified. It is key to make a distinction between these actual but rare events that need careful consideration and errors in data entry or measurement anomalies.
+Outliers (i.e. data points that significantly differ from other observations) must be identified. It is key to make a distinction between outliers caused by erroneous data (e.g. due to errors in data entry or measurement), and those caused by real, but perhaps rare, events, as they must be handled differently.
 
 Some methods for detecting errors and inconsistencies are:
 * Data Visualisation Tools:
