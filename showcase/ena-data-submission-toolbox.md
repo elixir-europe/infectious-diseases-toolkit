@@ -26,7 +26,7 @@ To read more in detail how ELIXIR, in special the Belgian and German nodes, prov
 ## Who is the showcase intended for?
 
 The main targets of the ENA data submission toolbox are researchers, institutions, and support facilities that need to make data submissions to the {% tool "european-nucleotide-archive" %}.
-The toolbox offers solutions for both users with little to no programming skills and researchers with advanced bioinformatics knowledge.
+The toolbox offers solutions for both users with little to no programming skills and ones with advanced bioinformatics knowledge.
 
 ## What is the showcase?
 
@@ -34,21 +34,21 @@ The components described below allow for a single-step submission process, a gra
 
 {% include image.html file="ena-submission-toolbox.svg" caption="<b>Figure 1.</b> Overview of the ENA data submission toolbox components." alt="Overview of ENA upload toolbox" %}
 
-To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "european-nucleotide-archive" %}, we have collaboratively developed and compiled a command line tool, a set of Galaxy tools and Galaxy workflows essential for cleaning, assembling, and submitting SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Using Galaxy offers numerous advantages, such as a user-friendly graphical interface, access to a wide range of tools and workflows for preprocessing, downstream analysis, and visualization of sequences, including those specific to SARS-CoV-2 (Maier et al., 2021). Additionally, {% tool "galaxy" %} provides a platform for sharing data and metadata, facilitating international collaboration, integrating with other public resources, and enabling the publication of FAIR data and analysis workflows.
+To improve the submission of SARS-CoV-2 nucleotide sequences to {% tool "european-nucleotide-archive" %}, we have collaboratively developed and compiled a command line tool, a set of Galaxy tools and Galaxy workflows essential for cleaning, assembling, and submitting SARS-CoV-2 sequences to the European Nucleotide Archive (ENA). Using Galaxy offers numerous advantages, such as a user-friendly graphical interface, access to a wide range of tools and workflows for preprocessing, downstream analysis, and visualization of sequences, including those specific to SARS-CoV-2 [(Maier et al., 2021)](https://doi.org/10.1101/2021.03.25.437046). Additionally, {% tool "galaxy" %} provides a platform for sharing data and metadata, facilitating international collaboration, integrating with other public resources, and enabling the publication of FAIR data and analysis workflows.
 
 
 ### Human Reads Cleaning Tool
 To comply with Europe’s General Data Protection Regulation (GDPR), human genetic information must be removed from raw data before submission to ENA. We have integrated {% tool "metagen-fastqc" %} into Galaxy for this purpose. A series of steps were wrapped into a single Galaxy tool, allowing users to filter human data from the data.
 
 ### ENA upload cli 
-Submitting raw reads to ENA can be done via the website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatics expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing study, sample, experiment, and run ENA objects without the need to login into Webin portal.
+Submitting raw reads to ENA can be done via the ENA website, Webin-CLI, or programmatically using curl commands. Programmatic submissions are preferable for bulk uploads but require bioinformatics expertise to generate XML metadata files and upload data via FTP. To simplify this, a Python command line interface (CLI), {% tool "ena-upload-cli" %}, was created. This CLI eases submission for bioinformaticians by converting user-friendly TSV files or Excel templates into the required XML files. It manages FTPS uploads, validates metadata before submission, and allows for adding, modifying, canceling, and releasing Study, Sample, Experiment, and Run ENA objects without the need to login into Webin portal.
 
 The templates are made available through [a GitHub repository](https://github.com/ELIXIR-Belgium/ENA-metadata-templates).
 
 The Python package {% tool "ena-upload-cli" %} is available on pipy and bioconda.
 
 ### The Galaxy ENA upload tool
-To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a {% tool "ena-upload-tool" %}. It is part of the Intergalactic Utilities Commission (IUC), a curated collection of Galaxy tools. Galaxy instance administrators can find installation details, and users can find usage instructions on our Submission of SARS-CoV-2 raw reads page.
+To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a {% tool "ena-upload-tool" %}. It is part of the Intergalactic Utilities Commission (IUC) list of curated Galaxy tools. Galaxy instance administrators can install the tool from the Galaxy ToolShed, and users can find usage instructions on our Submission of SARS-CoV-2 raw reads page.
 
 ### The Galaxy ENA consensus submission tool
 To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created. The tool wrapper simplified the creation of the mandatory manifest file by allowing users to interactively fill in the assembly metadata and submit SARS-CoV-2 consensus data to ENA.
@@ -88,7 +88,7 @@ Because the tools can be used to submit any sample type to the ENA and can be in
 
 ## Acknowledgments
 
-We thank the valuable feedback from Ulvi Talas, Heleri Inno (University of Tartu).
+We thank the valuable feedback from Ulvi Talas, Heleri Inno (University of Tartu) during the SARS-CoV-2 response.
 
 ## Support
 
