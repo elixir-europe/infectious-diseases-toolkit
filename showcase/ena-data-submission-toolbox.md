@@ -20,15 +20,13 @@ The COVID-19 pandemic has highlighted the importance of open and FAIR (Findable,
 
 Despite an increase in number of submissions to both repositories, the ENA requirement of command line knowledge for bulk submissions was found to be a significant hinderance. To address this, a new set of tools was developed to simplify the submission of SARS-CoV-2 sequences to ENA. This included streamlining the process and integrating with platforms like {% tool "galaxy" %}, to provide a user-friendly interface and additional tools for preprocessing and analysis.
 
-To read more in detail how ELIXIR Belgium provided tooling for SARS-CoV-2 sequence submissions to ENA, please visit the [Covid-19 section on the RDM Guide](https://rdm.elixir-belgium.org/covid-19/).  
+To read more in detail how ELIXIR, in special the Belgian and German nodes, provided tooling for SARS-CoV-2 sequence submissions to ENA, please visit the [Covid-19 section on the RDM Guide](https://rdm.elixir-belgium.org/covid-19/).  
 
 
 ## Who is the showcase intended for?
 
 The main targets of the ENA data submission toolbox are researchers, institutions, and support facilities that need to make data submissions to the {% tool "european-nucleotide-archive" %}.
-Because the tools can be used to submit any sample type to the ENA, the potential user community is large and relates to the user community of ENA itself. Both the command line and Galaxy submission tools are appealing for labs/researchers sequencing medium to large numbers of samples.
-
-The Galaxy submission tools have the biggest potential for adoption by many users, since they allow bulk sequence submissions for researchers with no command line or programming skills. Additionally, these can be integrated in existing Galaxy sequence analysis workflows. These characteristics make them convenient for both frequent and sporadic use
+The toolbox offers solutions for both users with little to no programming skills and researchers with advanced bioinformatics knowledge.
 
 ## What is the showcase?
 
@@ -79,6 +77,8 @@ The ENA upload CLI can, if necessary, be integrated in existing bioinformatics w
 The metadata templates are available through [a GitHub repository](https://github.com/ELIXIR-Belgium/ENA-metadata-templates) and can be integrated in other workflows.
 Further instructions on accessing and making use of the different components of the toolbox can be found in [our documentation](https://rdm.elixir-belgium.org/ena-submission).
 
+Because the tools can be used to submit any sample type to the ENA and can be integrated in existing sequence analysis workflows, the potential user community is large and relates to the user community of ENA itself.
+
 
 ## Publications
 
@@ -86,6 +86,9 @@ Further instructions on accessing and making use of the different components of 
 
 - Baker D, van den Beek M, Blankenberg D, Bouvier D, Chilton J, et al. (2020) No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics. PLOS Pathogens 16(8): e1008643. [https://doi.org/10.1371/journal.ppat.1008643](https://doi.org/10.1371/journal.ppat.1008643)
 
+## Acknowledgments
+
+We thank the valuable feedback from Ulvi Talas, Heleri Inno (University of Tartu).
 
 ## Support
 
