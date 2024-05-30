@@ -28,7 +28,7 @@ Data can be illustrated in various ways, each way conveying a different message 
   - Consider that some colours may be indistinguishable to users with colour blindness;
   - The contrast between two colours must be enough to enable people to distinguish them. For example, black text can be seen clearly on a white background because there is sufficient contrast between black and white;
   - Interactive features must be built such that users with motility issues can use them with ease (e.g. by using the keyboard rather than a mouse);
-  - Consider how screen readers interact with visualisations on the web. Perhaps there a text equivalent to images that can be heard by blind and partially-sighted users;
+  - Consider how screen readers interact with visualisations on the web. Perhaps there a text equivalent to images that can be heard by blind and partially-sighted users.
 - Data shown in visualisations may not be up to date, and is therefore not representative of the current situation. Thus, it is good practice to add the latest data update date next to the visualisation.
 - Consider whether your visualisation will be dynamic (e.g. including interactive features in a plot within a webpage) or static (e.g. shown in a printed report).
 - Visualisations that are shown on a screen should be responsive, so that they can be read and used on different screen sizes (e.g. mobiles and laptop screens).
@@ -37,7 +37,7 @@ Data can be illustrated in various ways, each way conveying a different message 
 - Consider that there is likely a best way to visualise your data, taking into account:
   - The main message that you’re trying to give;
   - The level of expertise of your audience;
-  - The type of data that you’re visualising;
+  - The type of data that you’re visualising.
 - Where plots are shown together in the same report/dashboard/page, there should be consistency in how data types are shown.
 - Where available, it may be beneficial to consult an experienced graphic designer for advice on how to clearly present information to the broader public before creating visualisations.
 
@@ -46,7 +46,7 @@ Data can be illustrated in various ways, each way conveying a different message 
 - Multiple standards exist to assess accessibility, primarily for web-based interfaces:
   - The [European accessibility act](https://ec.europa.eu/social/main.jsp?catId=1202#:~:text=The%20European%20accessibility%20act%20is,EU%20leading%20to%20costs%20reduction) applies within the European Union;
   - The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are a set of international standards for accessibility;
-  - Multiple tools can be used to assess accessibility on the web, e.g. [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org), but it is important to check the associated legislation carefully;
+  - Multiple tools can be used to assess accessibility on the web, e.g. [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org), but it is important to check the associated legislation carefully.
 - The date on which the data was last updated should be clearly indicated close to the visualisation.
 - The date can be given in a figure legend, particularly when the visualisation is static. This is most often seen in reports intended for print, e.g. [WHO’s monthly situation reports for COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 - On web-based, dynamic data dashboards, the date should be provided within a box/alert above/beside a visualisation. For examples, see the [COVID-19 Risk event tool](https://covid19risk.biosci.gatech.edu/), and [Data dashboards on the Swedish Pathogens Portal](https://www.pathogens.se/dashboards/).
@@ -54,12 +54,12 @@ Data can be illustrated in various ways, each way conveying a different message 
 - The European Centre for Disease Prevention and Control (ECDC) has written [Guidelines for Presentation of Surveillance](https://www.ecdc.europa.eu/en/publications-data/guidelines-presentation-surveillance-data) to assist with understanding how to present surveillance data.
 - There are multiple approaches to preventing the exposure of sensitive data, dependent on the situation:
   - When visualising data on the number of cases for a given disease, it may be necessary to to aggregate data (e.g. by location or time) to prevent the identification of individuals;
-  - Plots can be presented in a static picture format (e.g. .png, .jpeg), rather than in an interactive format (e.g. an app, or json file) to prevent users from web-scraping or otherwise inferring the underlying data;
+  - Plots can be presented in a static picture format (e.g. .png, .jpeg), rather than in an interactive format (e.g. an app, or json file) to prevent users from web-scraping or otherwise inferring the underlying data.
 - Sliding windows of time can be useful in exposing an overall trend, or trend over a given period.
 - The data should be [processed](https://rdmkit.elixir-europe.org/processing#what-is-data-processing) ahead of visualisation to ensure that outlying data points do not skew the overall data trend,
 - Ensure that the type of visualisation selected is appropriate for the data type.
   - In the remainder of this page, you will find advice about which types of visualisations are suitable for investigating different aspects of data (e.g. the distribution of data) and different data types (e.g. count, geospatial).
-  - See also the [decision tree](https://www.data-to-viz.com/) guide for different visualisation options.
+  - The [decision tree](https://www.data-to-viz.com/) guide can help with choosing between different visualisation options.
   - The [‘Friends don’t let friends make bad graphs’ GitHub repository](https://github.com/cxli233/FriendsDontLetFriends) provides general advice about visualising data.
   - Course material e.g. [Pilvar (2024)](https://zenodo.org/records/10988551) can provide insight into appropriately visualising research data.
   - Accepted standards for data visualisations exist in multiple research communities. Refer to publications and tools that visualise similar data to determine whether there is an existing standard for your data type.
@@ -163,7 +163,7 @@ Time series data allows researchers to identify trends, cycles, and anomalies. T
 
 {% include image.html file="data-communication/wastewater_line.png" caption="Line plot from the Swedish COVID-19 Portal showing changes in the levels of SARS-CoV-2 virus sequences in wastewater over time." alt="Line plot from the Swedish COVID-19 Portal showing changes in the levels of SARS-CoV-2 virus sequences in wastewater in Kalmar and Uppsala over time." max-width="10" %}
 
-    - Interactive features can also enable users to perform more granular analyses by zooming into particular time periods or events. For example, [OurWorldInData provides a line plot of time series data on COVID-19 cases](https://ourworldindata.org/covid-cases), and users can select a given time period or play a time lapse visualisation.
+  - Interactive features can also enable users to perform more granular analyses by zooming into particular time periods or events. For example, [OurWorldInData provides a line plot of time series data on COVID-19 cases](https://ourworldindata.org/covid-cases), and users can select a given time period or play a time lapse visualisation.
 
 {% include image.html file="data-communication/owid_time.png" caption="Line plot from OurWorldInData showing changes in the number of COVID-19 cases over time" alt="Line plot from OurWorldInData showing changes in the number of daily COVID-19 cases over time in the US, France, the UK, Canada, Germany, and India." max-width="10" %}
 
@@ -218,7 +218,7 @@ Whilst many different types of plot have been covered in the above sections of t
 
 - <b>Pie charts:</b> Often used to show proportion/percentage data that adds up to 1 or 100%, respectively, and to allow comparisons between groups. However, it is considered [more difficult to compare between groups in a pie chart than in other types of visualisation](https://github.com/cxli233/FriendsDontLetFriends#10-friends-dont-let-friends-make-pie-chart), as humans are more able to compare lengths than angles.
 - <b>Word clouds:</b> The overinterpretation of word clouds is extremely common, and they are easily manipulated to highlight certain words and phrases. Word clouds should thus be avoided in the vast majority of cases, and interpreted with caution. It is important to, for example, to remember that they do not represent a quantitative assessment of text content. However, there are some use cases where they can be useful e.g. to provide a quick overview of text data.
-- <b>Tables:<b> allow users to easily view the data on a row or column basis, to find the data points that are of interest and make one-to-one comparisons. However, other types of visualisation (e.g. scatterplots) are recommended to facilitate broader comparisons.
+- <b>Tables:</b> allow users to easily view the data on a row or column basis, to find the data points that are of interest and make one-to-one comparisons. However, other types of visualisation (e.g. scatterplots) are recommended to facilitate broader comparisons.
 - <b>Phylogenetic trees:</b> the recommended visualisation type for showing relatedness between species/strains is a phylogenetic tree. However, it is important to avoid overcrowding to ensure that the tree remains readable and easy to interpret.
 - <b>Indicator values:</b> it can be useful to provide a quick, easy to interpret daily snapshot of an emerging outbreak. This can include, for example, the number of cases, hospitalisations, vaccine doses, deaths, and recoveries occurring. Indicator values present a single value, potentially alongside an arrow or other representation to show how the value has changed relative to the previous day. They are not useful in showing overall trends, and can be misleading (e.g. where the general trend is declining, but the rate increases on a given day).
 
@@ -296,7 +296,8 @@ In addition to technical capabilities, it’s important to consider libraries an
 
 ### Existing approaches
 
-- <strong>Vega</strong> is a declarative language designed for creating, sharing, and exploring interactive visualisation designs. It uses a JSON syntax, making the specifications both human-readable and machine-readable. -<strong>[Altair](https://altair-viz.github.io/)</strong> is a Python library built on top of Vega, offering a high-level interface for creating a wide range of visualisations with a few lines of code. It offers exploratory data analysis: interactive charts allow users to explore their data dynamically. Features such as tooltips, zooming, and filtering enable deeper insights into the data. Once the columns of data that are available for plotting are defined, different plot types such as circles, bars, grids can be drawn by the user. All column combinations are theoretically possible to visualise.
+- <b>Vega</b> is a declarative language designed for creating, sharing, and exploring interactive visualisation designs. It uses a JSON syntax, making the specifications both human-readable and machine-readable.
+- <b>[Altair](https://altair-viz.github.io/)</b> is a Python library built on top of Vega, offering a high-level interface for creating a wide range of visualisations with a few lines of code. It offers exploratory data analysis: interactive charts allow users to explore their data dynamically. Features such as tooltips, zooming, and filtering enable deeper insights into the data. Once the columns of data that are available for plotting are defined, different plot types such as circles, bars, grids can be drawn by the user. All column combinations are theoretically possible to visualise.
 
 The two plots below depict the exact same data on SARS-CoV-2 clades across various Estonian counties. One uses circles to represent the number of samples per clade and county, while the other employs heatmaps to visualise values.
 
