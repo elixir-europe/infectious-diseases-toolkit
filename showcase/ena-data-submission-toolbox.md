@@ -2,7 +2,7 @@
 title: Using the ENA data submission toolbox for SARS-CoV-2 data
 contributors: [Bert Droesbeke, Rafael Andrade Buono] 
 description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
-affiliations: [VIB,BE,DE,]
+affiliations: [VIB,BE,DE]
 page_id: ena_upload
 related_pages:
   showcase: [covid19_galaxy_project, korogenoest]
