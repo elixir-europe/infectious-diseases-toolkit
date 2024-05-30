@@ -102,7 +102,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
 ### Existing approaches 
 
 - Refer to Data Management Guide [DMGE](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Informed-consent) for the methods and examples on how to obtain informed consent, right to withdraw, etc.
-- Refer to the following IDTk sessions for data harmonisation:
+- Refer to the following IDTk paragraphs for data harmonisation:
   - [Human biomolecular data](/data-sources/human-biomolecular-data#data-harmonisation)
   - [Socioeconomic data](/data-sources/socioeconomic-data#search-and-discoverability)
   - [Pathogen data](/quality-control/pathogen-characterisation#ngs-pathogens-data) 
