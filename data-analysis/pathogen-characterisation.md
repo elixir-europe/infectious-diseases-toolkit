@@ -46,6 +46,25 @@ Each stage is crucial for the accurate and comprehensive characterisation of pat
 Scalable and reproducible data analysis activities enable rapid surveillance of infectious epidemics of emerging and re-emerging pathogens in foodborne, hospital settings, and local community outbreaks. Ensuring reproducibility is critical for the usability of the analysis results. Following community-recognised best practices and the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) is fundamental for guaranteeing the trustworthiness of the results and enabling collaboration and sharing of information. 
 
 
+### General considerations
+
+When analysing pathogen data involved in a health emergency or epidemic outbreak are:
+- Define the pathogen and specific aspects to be investigated, e.g. genomic features of interest
+- Collect the suitable reference data about the pathogen of interest, preferentially from community-accepted repositories, e.g. ENA, GISAID. It is worth noting that the right reference should be chosen taking into account mutation features, time of isolation, classification, phenotype, and genomic structure.
+- Before analysing the data, define which specific aspect of the pathogen’s variability will be investigated. For example, if your aim is to describe the whole variability along the genome, the data should be compared with the whole reference genome.  
+- Define the type of data you are using, e.g. DNA or RNAseq for viral genome characterisation
+- Select the tools best suited for the analysis of your data
+- Estimate the computing resources needed
+- Define which computing infrastructure is most suitable, e.g. cluster or cloud
+- Ensure to follow the FAIR principles when handling data
+- Guarantee findability of the data and tools for all collaborators for reproducibility by providing your:
+  - Code
+  - Execution environment
+  - Workflows
+  - Data analysis execution, including parameters used
+  - Accompanied by documentation that lists all parameters and other relevant information to reproduce the findings
+
+
 ## Concrete topic 1 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
 
 Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected e.g. pathogen characterisation.
