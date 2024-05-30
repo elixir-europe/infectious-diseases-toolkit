@@ -25,7 +25,7 @@ Below are considerations that must be taken into account when working with socio
 * It is essential that the sampling population accurately represents the demographics most affected by the disease. This includes accounting for age, gender, socioeconomic status, geographical location, and other relevant factors, to ensure that the findings can be generalised to the wider population at risk.
 
 ### Define the collection strategy
-*	**Quality dimension**: Clarity and Relevance
+* **Quality dimension**: Clarity and Relevance
 *	When data are collected through surveys, it is vital to design questions that are relevant and clearly understood by participants. The questions should be straightforward, culturally appropriate, and tailored to capture the necessary socio-economic variables that impact or are impacted by the infectious disease in question. Additionally, when harvesting data from existing databases, it is crucial to ensure that the data extracted are pertinent and clearly defined. This involves understanding the database schema, ensuring compatibility with the research objectives, and verifying the accuracy and relevance of the socio-economic variables included. The data extraction process should be well-documented and consistent, ensuring that the harvested data maintain their integrity and usefulness for the intended analysis.
 
 ### Timeliness
