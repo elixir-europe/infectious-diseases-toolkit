@@ -14,7 +14,7 @@ training:
 ---
 
 ## Introduction
-Quality control of socio-economic data in the context of infectious diseases is crucial for ensuring that such data can be reliably used for research and policymaking. Quality control measures should be implemented throughout the entire data lifecycle, from data collection (or generation) to their final use. This requires a comprehensive and systematic approach throughout the data lifecycle focusing, among others, on representativeness, clarity, timeliness, error detection, interoperability and continuous monitoring.
+The quality control of socioeconomic data in the context of infectious diseases is crucial for ensuring that such data can be reliably used for research and policymaking. Quality control measures should be implemented throughout the entire data lifecycle, from data collection (or generation) to storage. This requires that a comprehensive and systematic approach is applied throughout the data lifecycle. The approach must focus on, among other things, representativeness, clarity, timeliness, error detection, interoperability, and continuous monitoring.
 
 In the following section considerations that have to be taken into account when working with socioeconomics data are gathered, along with the quality dimensions they are related to.
 
