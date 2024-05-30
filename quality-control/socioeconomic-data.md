@@ -22,7 +22,7 @@ Below are considerations that must be taken into account when working with socio
 
 ### Define the target population
 * **Quality dimension**: Representativeness
-* It is essential that the sampling population accurately represents the demographics most affected by the disease. This includes considerations of age, gender, socioeconomic status, geographical location, and other relevant factors to ensure that the findings can be generalized to the entire population at risk.
+* It is essential that the sampling population accurately represents the demographics most affected by the disease. This includes accounting for age, gender, socioeconomic status, geographical location, and other relevant factors, to ensure that the findings can be generalised to the wider population at risk.
 
 ### Define the collection strategy
 *	**Quality dimension**: Clarity and Relevance
