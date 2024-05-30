@@ -115,7 +115,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
 
 - Determining whether the data needs to be anonymised and, if so, to what level (e.g. pseudonymised vs fully anonymised).
   - Anonymisation means a complete and irreversible removal of direct and indirect identifiers of data subjects.
-  - Achieving absolute complete anonymisation—where there is no potential for future re-identification—is basically impossible. Even data that was initially anonymised may become susceptible to re-identification over time due to possible evolutions of the technology or through integration with other datasets.
+  - Achieving absolute complete anonymisation — where there is no potential for future re-identification—is basically impossible. Even data that was initially anonymised may become susceptible to re-identification over time due to possible evolutions of the technology or through integration with other datasets.
   - Pseudonymisation involves assigning alternative identifiers to data subjects, with the original linking key securely stored and inaccessible to data users. While this method reduces the risk of direct identification, the possibility of re-linkage remains, presenting a latent risk of subject identification.
   - Considering also the  European Health Data Space Regulation, which refers to anonymisation and pseudonymisation for secondary use of health data. It foresees that health data should only be shared for research in anonymised format (though directed primarily at Health Data Access Bodies). 
   - Synthetic data (i.e. artificially generated data that is based on actual data) can be used as an alternative in some cases: 
