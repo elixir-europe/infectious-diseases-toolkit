@@ -1,15 +1,15 @@
 ---
 title: Data communication
-Description:  Producing visualisations and reports
-Contributors: [Liane Hughes, Hedi Peterson, Diana Pilvar]
-Page_id: data-communication
-Training:
-name:Data visualisation
-registry:Zenodo
-Url:https://zenodo.org/records/10988551
+description:  Producing visualisations and reports
+contributors: [Liane Hughes, Hedi Peterson, Diana Pilvar]
+page_id: data-communication
+training:
+  - name: Data visualisation
+    registry: Zenodo
+    url: https://zenodo.org/records/10988551
 rdmkit:
-name:Data processing
-url:https://rdmkit.elixir-europe.org/processing#what-is-data-processing
+  - name: Data processing
+    url: https://rdmkit.elixir-europe.org/processing#what-is-data-processing
 ---
 
 {% include section-navigation-tiles.html type="data_communication" except="index.md" %}
