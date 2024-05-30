@@ -30,7 +30,7 @@ Below are considerations that must be taken into account when working with socio
 
 ### Timeliness
 * **Quality dimension**: Currency and Relevance
-* Socio-economic data related to infectious diseases must be current and promptly collected to reflect the rapidly changing dynamics of disease spread and its socio-economic impacts, especially during an outbreak. Timely data enables timely intervention and policy response.
+* Socio-economic data related to infectious diseases must be current and collected promptly to reflect the rapidly changing dynamics of disease spread and its socioeconomic impacts, especially during an outbreak. Timely data collection enables timely intervention and policy response.
 
 ### Missing values
 * **Quality dimension**: Completeness and population coverage
