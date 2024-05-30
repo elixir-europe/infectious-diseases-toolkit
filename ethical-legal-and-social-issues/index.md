@@ -78,7 +78,7 @@ Some data (e.g. genomic data) may be subject to intellectual property, which may
   - For Ethical Principles for Medical Research Involving Human Subjects (includes human disease), see [WMA Declaration of Helsinki](https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/)
   - For EU funded projects - consult the [EU commission ethics checklist](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
   - For information related to access for genetic resources for biotechnology research, see the [Nagoya Protocol](https://www.cbd.int/abs/default.shtml)
-  - For information related to health research related to humans, see the [CIOMS (Council for International Organizations of Medical Sciences) guidance](https://cioms.ch/wp-content/uploads/2017/01/WEB-CIOMS-EthicalGuidelines.pdf)
+  - For information related to health research related to humans, see the [Council for International Organizations of Medical Sciences (CIOMS) guidance](https://cioms.ch/wp-content/uploads/2017/01/WEB-CIOMS-EthicalGuidelines.pdf)
   - For information on issues pertaining to work data on indigenous populations, see the [CARE principles](https://www.gida-global.org/care)
   - For information on data sequence information, see [Hartman Scholz et al. (2022)](https://www.nature.com/articles/s41467-022-28594-0)
   - Institutional rules, institutional review boards, and ethics committees should be consulted for regulations related to ethics, and also for gaining additional consents. e.g. for secondary use, non-disclosure agreements (NDAs), and dual use (i.e. both military and civilian use), and other safeguards
