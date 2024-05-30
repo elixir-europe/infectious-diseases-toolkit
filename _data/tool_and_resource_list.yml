@@ -921,7 +921,7 @@
   id: pandas
   name: pandas
   url: https://pandas.pydata.org/
-- description: Package for scientific computing with Python.
+- description: Python library for scientific computing.
   id: numpy
   name: NumPy
   url: https://numpy.org/
