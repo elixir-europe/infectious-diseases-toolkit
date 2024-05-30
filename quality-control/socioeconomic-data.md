@@ -71,7 +71,7 @@ Existing software, such as python libraries (e.g., {% tool "pandas" %} or {% too
 * Semantic harmonisation: Use standard codes and terminologies for variables to ensure consistency across different data sources and studies.
 * Syntactic harmonisation: Adopt standardised data formats to facilitate data integration and comparability across various datasets.
 
-### Statistical tests for Data Quality
+### Statistical tests for data quality
 Conduct statistical tests to assess data reliability and validity. Reliability tests assess the consistency of the data over time, ensuring that data trends are dependable and not subject to random fluctuations. Validity tests, on the other hand, examine the accuracy of the data in measuring what they are intended to measure. For instance, in the context of infectious diseases, validity tests might assess whether socio-economic variables accurately reflect the true impact of the disease on different demographics.
 
 ### Check completeness
