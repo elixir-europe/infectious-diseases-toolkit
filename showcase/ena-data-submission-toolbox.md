@@ -2,7 +2,7 @@
 title: Using the ENA data submission toolbox for SARS-CoV-2 data
 contributors: [Bert Droesbeke, Rafael Andrade Buono] 
 description: High scale publishing of infectious diseases data to ENA using easy to use metadata templates. 
-affiliations: [VIB,BE]
+affiliations: [VIB,BE,DE,]
 page_id: ena_upload
 related_pages:
   showcase: [covid19_galaxy_project, korogenoest]
@@ -51,26 +51,28 @@ The Python package {% tool "ena-upload-cli" %} is available on pipy and bioconda
 To make the process accessible to researchers with limited bioinformatics expertise, we wrapped the ENA upload tool as a Galaxy tool. It is part of the Intergalactic Utilities Commission (IUC) list of curated Galaxy tools, allowing instance administrators to install the tool from the Galaxy ToolShed at {% ena-upload-tool %}.
 
 ### The Galaxy ENA consensus submission tool
-To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created. The tool wrapper simplified the creation of the mandatory manifest file by allowing users to interactively fill in the assembly metadata and submit SARS-CoV-2 consensus data to ENA.
+To facilitate the submission of genome assemblies, a Galaxy wrapper {% tool "ena-webin-cli" %} of the ENA {% tool "webin-cli" %} was created. The tool wrapper simplified the creation of the mandatory manifest file required for submission by allowing users to interactively fill in the assembly metadata and submit SARS-CoV-2 consensus data to ENA.
 
 ### Galaxy Docker container
 
-If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR reasons, a ready-to-use Docker container is made available. This container includes additional tools, made available in the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) GitHub repository since February 2020, in an effort published by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. The repository featured workflows for Genomics, Cheminformatics, and Proteomics analyses. This centralization of workflows made it easy for Galaxy administrators to deploy and install the tools and workflows together with the other submission tools and create a one stop shop for processing and submitting SARS-CoV-2 sequencing data. The Docker container allows for the local deployment of a fully functional Galaxy instance. It will ensure that data remains on-premise until submission. More information on how to obtain and deploy the container can be found on the [GitHub repository](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
+If you cannot use the Galaxy instances at useGalaxy.eu, .be, or .au, possibly due to GDPR, a ready-to-use Docker container is made available. This container includes additional tools. It and can be found in the [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2/) GitHub repository since February 2020, in an effort published by Maier et al. (2021) to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. The repository featured workflows for Genomics, Cheminformatics, and Proteomics analyses. This centralization of workflows made it easy for Galaxy administrators to deploy and install tools and workflows together with the other submission tools and create a one stop shop for processing and submitting SARS-CoV-2 sequencing data.
+
+The Docker container allows for the local deployment of a fully functional Galaxy instance. It will ensure that data remains on-premise until submission. More information on how to obtain and deploy the container can be found on the [GitHub repository](https://github.com/ELIXIR-Belgium/Galaxy-SARS-CoV-2-sequence-upload).
 
 ## What can you use the ENA data submission toolbox for?
  
-The work described in the showcase can be readily used in different ways.
+The work described in the showcase can be readily used or its modules adapted and integrated into new workflows.
 
 ### Direct use for SARS-CoV-2 sequence submission
 
 The tools and workflows mentioned here are available at the [useGalaxy.be](https://usegalaxy.be/) instance. The submission of raw reads can also be readily performed through [useGalaxy.eu](https://usegalaxy.eu) and [useGalaxy.org.au](https://usegalaxy.org.au/).
 
-The Galaxy Docker container can be used to deploy a functioning instance containing all the tools described.
+The Galaxy Docker container can be used to deploy an instance containing all the tools described.
 Instructions on using the components are described in the [ELIXIR-Belgium RDM Guide](https://rdm.elixir-belgium.org/covid-19/).
 
-### Repurposing o the showcase for other organisms
+### Repurposing of the showcase for other organisms
 
-Since the beginning of the response to SARS-CoV-2, the tools described here have been expanded to allow the submission of data for any of the [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) available, and thus any organism supported by ENA. The tools can be reused in multiple contexts, being amenable for integration integration into different types of data brokering systems or used as is.
+Since the beginning of the response to SARS-CoV-2, the tools described here have been expanded to allow the submission of data for any of the [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) available, and thus any organism supported by ENA. The tools can be reused in multiple contexts, being amenable for integration into different types of data brokering systems or used as is.
 A [general purpose container](https://github.com/ELIXIR-Belgium/ena-upload-container) for deploying a Galaxy instance capable of submitting both raw sequences and genome assemblies of all [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) is available.
 The Galaxy ENA upload tool is available at [useGalaxy.be](https://usegalaxy.be/), [useGalaxy.eu](https://usegalaxy.eu) and [useGalaxy.org.au](https://usegalaxy.org.au/), allowing researchers direct access without the need to setup their own infrastructure.
 The ENA upload CLI can, if necessary, be integrated in existing bioinformatics workflows by more advanced bioinformatics groups.
