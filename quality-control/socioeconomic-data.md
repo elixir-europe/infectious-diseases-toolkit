@@ -46,7 +46,7 @@ When the data are harvested from existing databases, conduct pilot extractions t
 Ensuring that you extract the correct data from the database(s) in question helps with representativeness, as you can assess whether data collection methods effectively reach all segments of the population. Examining population coverage helps to identify under-served or marginalised groups whose experiences may be underrepresented in the data, thus enabling more equitable decision-making.
 
 ### Timeliness
-Implement efficient data collection protocols that ensure rapid access to and sharing of data. Real-time or near-real-time data collection and processing systems are critical for monitoring the socio-economic impacts of infectious diseases and for timely decision-making.
+Implement efficient data collection protocols that ensure rapid access to, and sharing of, data. Real-time or near-real-time data collection and processing systems are critical for monitoring the socioeconomic impacts of infectious diseases and for timely decision making.
 
 ### Error and inconsistency detection
 Perform regular error detection and data cleaning processes. This includes identifying and correcting outliers, inconsistencies, and missing data to improve the overall quality and reliability of the data.
