@@ -49,7 +49,7 @@ Ensuring that you extract the correct data from the database(s) in question help
 Implement efficient data collection protocols that ensure rapid access to, and sharing of, data. Real-time or near-real-time data collection and processing systems are critical for monitoring the socioeconomic impacts of infectious diseases and for timely decision making.
 
 ### Error and inconsistency detection
-Perform regular error detection and data cleaning processes. This includes identifying and correcting outliers, inconsistencies, and missing data to improve the overall quality and reliability of the data.
+Perform regular error detection and data cleaning processes. This includes identifying outliers, inconsistencies, and missing data, and then applying corrections accordingly, to improve the overall quality and reliability of the data.
 
 Outliers (i.e., data points that significantly differ from other observations) must be identified. It is key to make a distinction between these actual but rare events that need careful consideration and errors in data entry or measurement anomalies.
 
