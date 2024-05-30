@@ -39,7 +39,7 @@ Below are considerations that must be taken into account when working with socio
 ## Existing approaches
 
 ### Pilot tests
-Conduct pilot tests or preliminary surveys with a subset of the target population to ensure the survey design works effectively. This helps in identifying potential issues with question clarity, relevance, and respondent understanding before full-scale data collection.
+Conduct pilot tests or preliminary surveys with a subset of the target population to ensure that the survey design works effectively. This helps to identify potential issues with the clarity, relevance, and understanding of the questions before full-scale data collection.
 
 When the data are harvested from existing databases, conduct pilot extractions to verify the data retrieval process. This involves testing the extraction protocols on a small scale to ensure that the data pulled from databases are accurate, relevant, and compatible with the study’s objectives. Pilot testing the data extraction helps identify and address any discrepancies or issues in data format, completeness, and alignment with the research questions.
 
