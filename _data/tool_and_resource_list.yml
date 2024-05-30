@@ -286,12 +286,12 @@
     biotools: Flye
     tess: Flye
   url: https://github.com/fenderglass/Flye
-- description: FreeBayes is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs, indels, MNPs, and complex events smaller than the length of a short-read sequencing alignment.
+- description: freebayes is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs, indels, MNPs, and complex events smaller than the length of a short-read sequencing alignment.
   id: freebayes
-  name: FreeBayes
+  name: freebayes
   registry:
     biotools: freebayes
-    tess: FreeBayes
+    tess: freebayes
   url: https://github.com/freebayes/freebayes
 - description: The metadata model for GA4GH, an international coalition of both public and private interested parties, formed to enable the sharing of genomic and clinical data.
   id: ga4gh
@@ -909,3 +909,55 @@
   id: graf-sex
   name: GRAF sex
   url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
+- description: Velvet is an algorithm package that has been designed to deal with de novo genome assembly and short read sequencing alignments.  
+  id: velvet
+  name: Velvet
+  url: https://github.com/dzerbino/velvet
+- description: A tool for Phylogenetic Analysis and Post-Analysis of Large Phylogenies
+  id: raxml
+  name: RAxML
+  url: https://github.com/stamatak/standard-RAxML
+- description: IQ-TREE is designed to efficiently handle large phylogenomic datasets, utilize multicore and distributed parallel computing for faster analysis, and automatically resume interrupted analyses through checkpointing.
+  id: iqtree
+  name: IQtree
+  url: https://github.com/iqtree/iqtree2
+- description: MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.
+  id: mrbayes
+  name: MrBayes
+  url: https://nbisweden.github.io/MrBayes/
+- description: BEAST is a cross-platform program for Bayesian phylogenetic analysis, estimating rooted, time-measured phylogenies using strict or relaxed molecular clock models. It uses Markov chain Monte Carlo (MCMC) to average over tree space and includes a graphical user interface for setting up analyses and tools for result analysis.
+  id: beast
+  name: BEAST
+  url: https://www.beast2.org/
+- description: Rapid haploid variant calling and core genome alignment.
+  id: snippy
+  name: SNippy
+  url: https://github.com/tseemann/snippy
+- description: Convert ThermoFinningan RAW mass spectrometry files to the mzXML format.
+  id: readw
+  name: ReAdW
+  url: https://github.com/PedrioliLab/ReAdW
+- description: X! Tandem open source is software that can match tandem mass spectra with peptide sequences, in a process that has come to be known as protein identification.
+  id: x-tandem
+  name: X! Tandem
+  url: https://www.thegpm.org/TANDEM/
+- description: OMSSA (Open Mass Spectrometry Search Algorithm) is a tool to identify peptides in tandem mass spectrometry (MS/MS) data. The OMSSA algorithm uses a classic probability score to compute specificity. See also The NCBI C++ Toolkit and The NCBI C++ Toolkit Book.
+  id: omssa
+  name: OMSSA
+  url: https://ftp.ncbi.nlm.nih.gov/pub/lewisg/omssa/
+- description: MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data.
+  id: maxquant
+  name: MAXQUANT
+  url:  https://www.maxquant.org/
+- description: 
+  id: 
+  name: 
+  url:  
+- description: 
+  id: 
+  name: 
+  url:  
+- description: 
+  id: 
+  name: 
+  url:  
