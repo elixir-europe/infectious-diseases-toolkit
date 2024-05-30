@@ -75,7 +75,7 @@ Existing software, such as python libraries (e.g., {% tool "pandas" %} or {% too
 Conduct statistical tests to assess data reliability and validity. Reliability tests assess the consistency of the data over time, ensuring that data trends are dependable and not subject to random fluctuations. Validity tests, on the other hand, examine the accuracy of the data in measuring what they are intended to measure. For instance, in the context of infectious diseases, validity tests might assess whether socio-economic variables accurately reflect the true impact of the disease on different demographics.
 
 ### Check completeness
-Completeness is the dimension that takes into account the number of variables in a given data model that have actual values. This involves scrutinising datasets for missing values, ensuring that all relevant variables are captured
+Completeness is the dimension that takes into account the number of variables in a given data model that have actual values. This involves scrutinising datasets for missing values, ensuring that all relevant variables are captured.
 
 ### Continuous monitoring
 Implement ongoing monitoring mechanisms to continuously assess data quality. This includes tracking data collection processes, identifying and addressing data quality issues promptly, and updating data collection protocols as needed. This entails establishing protocols for ongoing assessment of data collection processes, automated checks for anomalies or inconsistencies, and regular audits to verify adherence to quality control procedures.
