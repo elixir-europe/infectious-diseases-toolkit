@@ -94,7 +94,7 @@ Because the tools can be used to submit any sample type to the ENA and can be in
 
 We thank the valuable feedback from Ulvi Talas, Heleri Inno (University of Tartu) during the SARS-CoV-2 response.
 
-## Support
+### Support
 
 <!-- Describe how the showcase is funded or supported. -->
 This work was supported by Fonds Wetenschappelijk Onderzoek [I002819N] and Sonderforschungsbereich/TRR [167/2 Z01].
