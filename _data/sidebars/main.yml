@@ -41,7 +41,7 @@ subitems:
       - title: Socioeconomic data
         url: /data-sources/socioeconomic-data
 
-  - title: Ethical Legal and Social Issues
+  - title: Ethical, Legal, and Social Issues
     url: /ethical-legal-and-social-issues/
     description: Legal and ethical aspects and how to deal with them
     image_url: /assets/img/section-icons/fingerprint-duotone.svg
@@ -65,6 +65,8 @@ subitems:
         url: /quality-control/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /quality-control/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /quality-control/socioeconomic-data
 
   - title: Showcase
     hr: true
@@ -84,6 +86,8 @@ subitems:
         url:  /showcase/swedish-pathogens-portal
       - title: Prototyping federated causal research questions reusing sensitive health data
         url:  /showcase/prototyping-research-questions
+      - title: Using the ENA data submission toolbox for SARS-CoV-2 data
+        url:  /showcase/ena-data-submission-toolbox
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg

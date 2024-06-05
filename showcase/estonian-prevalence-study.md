@@ -40,7 +40,7 @@ Each survey wave (33 in total) included approximately 2500 respondents. After th
 
 The population prevalence of SARS-CoV-2 and changes in the prevalence in the adult general population in Estonia during the 1st year of COVID-19 epidemic have been published in an [article](https://doi.org/10.1016/j.puhe.2022.02.004).
 
-A subset of the positive samples were sequenced as part of the [KoroGeno-Est project](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html).
+A subset of the positive samples were sequenced as part of the [KoroGeno-Est project](/showcase/korogenoest.html).
 
 
 ### Dashboards
