@@ -205,8 +205,7 @@
   id: dragen-gatk
   name: Dragen-GATK
   url: https://gatk.broadinstitute.org/hc/en-us/articles/360045944831
-- description: 'Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data. Dryad has a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt repository with storage in US and EU at the San Diego Supercomputing Center, DANS, and Zenodo. While data is undergoing peer review, it is embargoed if the related journal requires / allows this. Dryad is an independent non-profit that works directly with: researchers to publish datasets utilising best practices for discovery and reuse; publishers to support the integration of data availability statements and data citations into their workflows; and institutions to enable scalable campus support for research data management best practices at low cost. Costs are covered by institutional, publisher, and funder members, otherwise a one-time fee of $120 for authors to cover cost of curation and preservation. Dryad also receives direct funder support through
-    grants.'
+- description: Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data.
   id: dryad
   name: Dryad
   registry:
@@ -233,7 +232,7 @@
     fairsharing: mya1ff
     tess: European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
-- description: 'The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers. The thesaurus consists of over 3,300 concepts and covers the core social science disciplines: politics, sociology, economics, education, law, crime, demography, health, employment, information, communication technology, and environmental science. ELSST is used for data discovery within CESSDA and facilitates access to data resources across Europe, independent of domain, resource, language, or vocabulary. ELSST is currently available in 16 languages: Danish, Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian, Norwegian, Romanian, Slovenian, Spanish, and Swedish'
+- description: The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers.
   id: european-language-social-science-thesaurus
   name: European Language Social Science Thesaurus (ELSST)
   registry:
@@ -273,14 +272,14 @@
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
-- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
+- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. FAIRsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely.
   id: fairsharing
   name: FAIRsharing
   registry:
     fairsharing: 2abjs5
     tess: FAIRsharing
   url: https://fairsharing.org/
-- description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers. Metadata in figshare is licenced under is CC0. figshare has also partnered with DuraSpace and Chronopolis to offer further assurances that public data will be archived under the stewardship of Chronopolis. figshare is supported through Institutional, Funder, and Governmental service subscriptions.
+- description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers.
   id: figshare
   name: Figshare
   registry:
@@ -671,14 +670,13 @@
   registry:
     biotools: wtdbg2
   url: https://github.com/ruanjue/wtdbg2
-- description: Metabolomic and lipidomic platform
-  id: xcms
-  name: XCMS
+- description: A systems biology tool for analyzing metabolomic data. It automatically superimposes raw metabolomic data onto metabolic pathways and integrates it with transcriptomic and proteomic data.
+  id: xcms-online
+  name: XCMS Online
   registry:
-    biotools: xcms
-    tess: XCMS
+    biotools: xcms_online
   url: https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage
-- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN. It was developed to aid Open Science and is built on open source code. Zenodo helps researchers receive credit by making the research results citable and through OpenAIRE integrates them into existing reporting lines to funding agencies like the European Commission. Citation information is also passed to DataCite and onto the scholarly aggregators. Content is available publicly under any one of 400 open licences (from opendefinition.org and spdx.org). Restricted and Closed content is also supported. Free for researchers below 50 GB/dataset. Content is both online on disk and offline on tape as part of a long-term preservation policy. Zenodo supports managed access (with an access request workflow) as well as embargoing generally and during peer review. The base infrastructure of Zenodo is provided by CERN, a non-profit IGO. Projects are funded through grants.
+- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN. 
   id: zenodo
   name: Zenodo
   registry:
@@ -985,3 +983,55 @@
   id: maxquant
   name: MAXQUANT
   url:  https://www.maxquant.org/
+- description: Absolute protein expression Quantitative Proteomics Tool, is a free and open source Java implementation of the APEX technique for the quantitation of proteins based on standard LC- MS/MS proteomics data. 
+  id: apex
+  name: apex
+  url: http://sourceforge.net/projects/apexqpt/
+  regsitry:
+    biotools: apex
+- description: Framework for processing and visualization of chromatographically separated and single-spectra mass spectral data. 
+  id: xcms
+  name: xcms
+  url: http://bioconductor.org/packages/release/bioc/html/xcms.html
+  regsitry:
+    biotools: xcms
+- description: A Meta-Search Peptide Identification Platform for Tandem Mass Spectra
+  id: peparml
+  name: PepArMl
+  url: https://peparml.sourceforge.net/
+  regsitry:
+    biotools: peparml
+- description: A commercial software package for NMR spectral processing that offers a semi-automated tool for spectral deconvolution, enabling interactive fitting of metabolite peaks to reference spectra and quantifying their concentrations.
+  id: chenomx
+  name: Chenomx
+  url: https://www.chenomx.com/
+- description: ResFinder identifies acquired genes and/or finds chromosomal mutations mediating antimicrobial resistance in total or partial DNA sequence of bacteria.
+  id: resfinder
+  name: ResFinder
+  url: http://genepi.food.dtu.dk/resfinder
+  regsitry:
+    biotools: resfinder
+- description: Pathogenwatch provides species and taxonomy prediction for over 60,000 variants of bacteria, viruses, and fungi.
+  id: pathogenwatch
+  name: Pathogenwatch
+  url: https://pathogen.watch/
+- description: CellDesigner is a structured diagram editor for drawing gene-regulatory and biochemical networks. 
+  id: celldesigner
+  name: CellDesigner
+  url: https://www.celldesigner.org/
+- description: "A curated database containing nearly all published HIV RT and protease sequences: a resource designed for researchers studying evolutionary and drug-related variation in the molecular targets of anti-HIV therapy."
+  id: hivdb-stanford
+  name: Stanford HIV Drug Resistance Database (HIVDB)
+  url: https://hivdb.stanford.edu/ 
+- description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data. 
+  id: nextstrain
+  name: Nextstrain
+  url: http://nextstrain.org
+  regsitry:
+    biotools: nextstrain.org
+- description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list. 
+  id: g-profiler
+  name: g:Profiler
+  url: https://biit.cs.ut.ee/gprofiler/gost
+  regsitry:
+    biotools: gprofiler
