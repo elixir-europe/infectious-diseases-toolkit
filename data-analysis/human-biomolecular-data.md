@@ -112,7 +112,7 @@ There are several types of analysis that can be performed on human biomolecular 
     - *Interaction databases*: {% tool "biogrid" %} and {% tool "intact" %}
     - *Network analysis*: {% tool "cytoscape" %} and {% tool "genemania" %}
 - **Metabolomics analysis**: This involves measuring the levels of small molecules (metabolites) in biological samples and comparing them across different conditions or groups of samples. This can help to identify biomarkers of disease or drug response.
-    - *Data processing*: {% tool "xcms" %}, {% tool "mzmine" %} and {% tool "openms" %}
+    - *Data processing*: {% tool "xcms-online" %}, {% tool "mzmine" %} and {% tool "openms" %}
     - *Statistical analysis*: {% tool "metaboanalyst" %} and {% tool "metsign" %}
 
 ## Postprocessing
