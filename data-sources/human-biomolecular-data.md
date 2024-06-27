@@ -124,6 +124,18 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   Example of Beacon v2 with synthetic data:
   - [Synthetic data (CINECA)](https://ega-archive.org/studies/EGAS00001002472)
   - [CINECA Beacon v2 API](https://ega-archive.org/beacon-apis/cineca/)
+ 
+ Beacon v2 implementations with COVID-19 data:
+| Beacons       | Viral genomes | Patient basic data | Patient rich data | Patient genomics | Epidemiological data |
+| ------------ | ------------- | ------------------ | ----------------- | ---------------- | -------------------- |
+| [viralBeacon](https://covid19beacon.crg.eu/)  | X             | X                  | –                 | –                | –                    |
+| [EGA (HGI)](https://beacon.ega-archive.org/)    | –             | X                  | X                 | X                | –                    |
+| COVID-19 NL  | –             | X                  | X                 | –                | –                    |
+| [University of Nottingham Beacon](https://beacon.nottingham.ac.uk) | –             | X                  | X                 | –                | –                    |
+| [BQC19 Bento](https://bqc19.bento.sd4h.ca/#/en/)        | X             | X                  | X                 | X                | –                    |
+| [SARS-CoV-2 whole genome sequencing circuit of Andalusia](https://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest)    | X             | X                  | X                 | –                | –                    |
+| [PathsBeacon](https://d2eqg84un4jpac.cloudfront.net/)  | X             | X                  | –                 | –                | X                    |
+| [DNAStack Viral AI](https://viral.ai/collections)     | X             | –                  | –                 | –                | –                    |
 
 - Biosamples: {% tool "biosamples" %} stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
