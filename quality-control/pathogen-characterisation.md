@@ -16,16 +16,18 @@ training:
 
 ## Introduction
 
-Pathogen characterization encompasses many different features of the organism. In addition, comparison of the same pathogen from different sources is also needed in order to properly describe it. However, results from datasets generated from different sources cannot be pooled and/or compared if sample provenance data, standardised methods and quality control procedures are not followed. These procedures concern all steps of the dataset creation, starting from the collection of the samples, to the analysis of the data, which should be further documented by provenance.
+Pathogen characterization and description encompasses many different methodologies, including the study of the same pathogen isolated from different sources. However, results from datasets generated from different sources should not be pooled and/or compared directly if sample provenance data, standardised methods and quality control procedures have not been followed or are available at all. These procedures concern all steps of the data creation, starting from the collection of the samples, to the analysis of the data.
 
-Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of samples used for viral detection and characterization is essential.
+Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of samples used for viral detection and characterization, as well as drawing conclusions to inform policy decisions, is essential.
 
 ## Sample handling: key for data quality 
 ### Considerations
-Data quality must be considered and quality measures should be taken from  the very beginning of the process which lead to pathogen detection and characterization, including all preanalytical and analytical procedures applied. These procedures include sample collection and transport, if needed, to the facilities where the analyses are performed. In addition to the procedures, it is key to pay attention to the existing conditions during the different steps of sample collection and processing. Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
+Standardised and re-usable processes must be considered to generate high-quality (meta)data. These procedures include sample collection and transport, if needed, to the facilities where the analyses are performed. In addition to the procedures, it is key to pay attention to the existing conditions during the different steps of sample collection and processing (such as room temperature or processing time). Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
+
+If data are not de-novo generated but aggregated from a source, it is important to consider the trustworthiness of the source before re-use.
 
 ### Existing approaches
-The information collected regarding these steps really depends on the process and on what metadata is needed for a given project. However, the metadata about sample acquisition, processing and handling should be as rich as possible to enhance reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing samples, depending on the type of sample:
+The information (including metadata) collected are determined by the needs of a given project. However, metadata concerning sample acquisition, processing and handling should be as rich as possible to increase reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing samples, depending on the type of sample:
 
 * For collection step, the following information should be controlled and documented:
     * Geographical area / site of collection.
