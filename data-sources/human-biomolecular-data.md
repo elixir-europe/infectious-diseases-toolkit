@@ -124,6 +124,18 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   Example of Beacon v2 with synthetic data:
   - [Synthetic data (CINECA)](https://ega-archive.org/studies/EGAS00001002472)
   - [CINECA Beacon v2 API](https://ega-archive.org/beacon-apis/cineca/)
+ 
+ Beacon v2 implementations with COVID-19 data:
+| Beacons       | Viral genomes | Patient basic data | Patient rich data | Patient genomics | Epidemiological data |
+| ------------ | ------------- | ------------------ | ----------------- | ---------------- | -------------------- |
+| {% tool "crg-covid-19-viral-beacon" %} | X             | X                  | –                 | –                | –                    |
+| {% tool "ega-beacon" %} | –             | X                  | X                 | X                | –                    |
+| COVID-19 NL  | –             | X                  | X                 | –                | –                    |
+| {% tool "unott-beacon" %}  | –             | X                  | X                 | –                | –                    |
+| {% tool "bento-platform" %}  | X             | X                  | X                 | X                | –                    |
+| {% tool "andalusia-beacon" %}  | X             | X                  | X                 | –                | –                    |
+| {% tool "covid19-beacon" %} | X             | X                  | –                 | –                | X                    |
+| {% tool "viral-ai" %}  | X             | –                  | –                 | –                | –                    |
 
 - Biosamples: {% tool "biosamples" %} stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
