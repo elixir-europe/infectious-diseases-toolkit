@@ -132,7 +132,7 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
 | {% tool "ega-beacon"} | –             | X                  | X                 | X                | –                    |
 | COVID-19 NL  | –             | X                  | X                 | –                | –                    |
 | {% tool "unott-beacon"}  | –             | X                  | X                 | –                | –                    |
-| {% tool "bento-patform"}  | X             | X                  | X                 | X                | –                    |
+| {% tool "bento-platform"}  | X             | X                  | X                 | X                | –                    |
 | {% tool "andalusia-beacon"}  | X             | X                  | X                 | –                | –                    |
 | {% tool "covid19-beacon"} | X             | X                  | –                 | –                | X                    |
 | {% tool "viral-ai"}  | X             | –                  | –                 | –                | –                    |
