@@ -961,10 +961,6 @@
   registry:
     tess: Webin-CLI
   url: https://github.com/enasequence/webin-cli
-- description: CRG Covid Viral Beacon is a tool to find SARS-CoV-2 variability at genomic, amino acid and motif level. 
-  id: viral-beacon
-  name: Viral Beacon
-  url: https://covid19beacon.crg.eu/
 - description: Interface to query on the EGA data through Beacon v2
   id: ega-beacon
   name: EGA Beacon
