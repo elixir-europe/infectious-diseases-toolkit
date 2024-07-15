@@ -128,7 +128,7 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
  Beacon v2 implementations with COVID-19 data:
 | Beacons       | Viral genomes | Patient basic data | Patient rich data | Patient genomics | Epidemiological data |
 | ------------ | ------------- | ------------------ | ----------------- | ---------------- | -------------------- |
-| {% tool "viral-beacon" %} | X             | X                  | –                 | –                | –                    |
+| {% tool "crg-covid-19-viral-beacon" %} | X             | X                  | –                 | –                | –                    |
 | {% tool "ega-beacon" %} | –             | X                  | X                 | X                | –                    |
 | COVID-19 NL  | –             | X                  | X                 | –                | –                    |
 | {% tool "unott-beacon" %}  | –             | X                  | X                 | –                | –                    |
