@@ -126,16 +126,81 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   - [CINECA Beacon v2 API](https://ega-archive.org/beacon-apis/cineca/)
  
  Beacon v2 implementations with COVID-19 data:
-| Beacons       | Viral genomes | Patient basic data | Patient rich data | Patient genomics | Epidemiological data |
-| ------------ | ------------- | ------------------ | ----------------- | ---------------- | -------------------- |
-| {% tool "crg-covid-19-viral-beacon" %} | X             | X                  | –                 | –                | –                    |
-| {% tool "ega-beacon" %} | –             | X                  | X                 | X                | –                    |
-| COVID-19 NL  | –             | X                  | X                 | –                | –                    |
-| {% tool "unott-beacon" %}  | –             | X                  | X                 | –                | –                    |
-| {% tool "bento-platform" %}  | X             | X                  | X                 | X                | –                    |
-| {% tool "andalusia-beacon" %}  | X             | X                  | X                 | –                | –                    |
-| {% tool "covid19-beacon" %} | X             | X                  | –                 | –                | X                    |
-| {% tool "viral-ai" %}  | X             | –                  | –                 | –                | –                    |
+<table><thead>
+  <tr>
+    <th>Beacons</th>
+    <th>Viral genomes</th>
+    <th>Patient basic data</th>
+    <th>Patient rich data</th>
+    <th>Patient genomics</th>
+    <th>Epidemiological data</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>{% tool "crg-covid-19-viral-beacon" %}</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>{% tool "ega-beacon" %}</td>
+    <td>–</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>COVID-19 NL</td>
+    <td>–</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>{% tool "unott-beacon" %}</td>
+    <td>–</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>{% tool "bento-platform" %}</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>{% tool "andalusia-beacon" %}</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+  </tr>
+  <tr>
+    <td>{% tool "covid19-beacon" %}</td>
+    <td>X</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>{% tool "viral-ai" %}</td>
+    <td>X</td>
+    <td>–</td>
+    <td>–</td>
+    <td>–</td>
+    <td>–</td>
+  </tr>
+</tbody></table>
 
 - Biosamples: {% tool "biosamples" %} stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry. For example it stores data from infectious diseases such as COVID-19.
 - COVID-19 DataPortal: The {% tool "covid-19-data-portal" %} facilitates data sharing and analysis in order to accelerate coronavirus research and acts as a Data sharing platform. The European COVID-19 Data Platform consists of three connected components:
