@@ -1,57 +1,57 @@
 ---
-title: <!---Showcase page title--->
+title: Measuring COVID-19 induced neuroinflammation -  an automated pipeline for analysing brain autoradiography images
 search_exclude: true #leave as “true” until the page is complete and ready to be made public
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
-description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitations for the audience--->
-affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the _data/affiliations.yaml file in order to work. Add logos to the /images/logos directory and link towards them in the affiliations.yaml file accordingly. --->]
-page_id: "<!---REPLACE THIS with a shortened page name in snake-case: lowercase and underscores--->"
-training:
-  - name:
-    registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
-    url:
-faircookbook:
-  - name: <!---the title of the FAIR Cookbook recipe--->
-    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
-fairsharing:
-  - name: <!---the title of the FAIR Sharing entry--->
-    url: <!---the full URL of the FAIR Sharing entry--->
+contributors: [Isabel Kemmer] 
+description: Development of an open source, semi-automated processing pipeline for aligning autoradiography images from mouse brain tissue to study infection-induced neuroinflammation funded by the ISIDORe project. 
+affiliations: [European Union, Euro-BioImaging, ISIDORe]
+page_id: image_anaylsis_isidore
 
-# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
-
-<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style-guide when writing the content of this page. -->
-
-<!--- Showcase pages should detail a particular combination of standards and tools from an infrastructural or domain perspective to tackle infectious diseases related data challenges. --->
 
 ## Introduction 
 
-<!--- In this section you should provide a brief overview of the context that makes Showcase necessary. It is useful to mention the projects under which the showcase was created, the involved research infrastructures, and the disease it is meant to tackle --->
-
-## What is the SHOWCASE?
-
-<!--- In this section you should provide a brief description of what the showcase is i.e. what it comprises of and a general description for it.  --->
-<!--- Start with a graphical representation of the showcase, with a caption and an alternative text (alt). The graphical representation should be a diagram showing the different standards, tools, data sources that are used to tackle the challenge. The diagram should show how these different modules connect with one another  --->
-{% include image.html file="" caption="Figure 1. " alt="" %}
+Coronavirus disease 2019 (Covid-19) has been linked to a range of neurological conditions, including neuroinflammation and impaired energy metabolism in the brain. In the field of neuroscience, a variety of tracers are frequently employed to investigate diverse aspects of brain health and dysfunction. Indeed, recent articles have demonstrated the presence of pronounced inflammatory processes in the brains of long COVID patients, by the use of inflammatory and metabolic tracers in positron emission tomography (PET) imaging (1, 2) and Autoradiography (ARG).
+This showcase details the development, of an open-source, user-friendly, automated analysis pipeline for aligning and processing autoradiography images from mouse brain. Funded by the [ISIDORe project](https://isidore-project.eu/), his so called Mouse Brain Alignment Tool (MBAT) facilitates enhanced efficiency, accuracy, and reproducibility in the registration and analysis of images in studies aiming to elucidate the characteristics and underlying mechanisms of neuroinflammation due to infection or other causes.
 
 
-## Who is the SHOWCASE intended for?
+## Who is the showcase intended for?
 
-<!--- In this section you should provide a brief account of the target audience or intended users for the showcase --->
+The MBAT tool is important for life science researchers working with autoradiographic data of the mouse brain. Thematically, this analysis has been specifically designed to study neuronal changes and neuroinflammation due to (viral) infection, but is also broadly applicable to all other neuroscience topics.
+Since the tool is built to be user-friendly, researchers with minimal knowledge of scientific programming can use and greatly benefit from the tool. Being open source, the pipeline can be easily adapted to individual research projects by researchers with more in-depth, advanced bioinformatics skills. The analyzed brain regions from the pipeline can be also of interest to AI and computer scientists.
 
-## What can you use the SHOWCASE for?
+
+## What is the showcase?
+
+{% include image.html file="XXXXXXXXXXXX" caption="Figure 1. Development of an open source, semi-automated processing pipeline for aligning autoradiography images from mouse brain tissue to study infection-induced neuroinflammation. The python-based pipeline takes input from data generated through Euro-BioImaging and is itself developed by funding from the ISIDORe project and allows users to align the images in a Napari-based user interface to the Allen Brain Atlas. The full code is open source available on GitHub. " alt="Image with a central symbolic computer screen with the program "Mouse Brain Aligment Tool". Arrows flowing in and out of the screen denoting inputs (data generated trough Euro-Bioimaging, Funding from ISIDORe project, Tool development wiht Python and Napari) and outputs (Analyzed data and Code deposition on GitHub) of the software.  %}
+
+Neuroinflammation, such as that associated with SARS-CoV-2 or other infectious diseases, can be studied using autoradiography (ARG). With higher resolution than PET, this method visualizes the anatomical distribution of a protein of interest in (animal) tissue to quantify the photostimulated intensity per unit area in brain regions of interest. Depending on the specific marker used, one can study brain inflammation or measure synaptic degeneration. Since inflammation does not occur to the same extent in all areas, it is necessary to examine specific regions of interest. Traditionally, this image analysis is quite laborious, as individual brain regions of interest have to be drawn manually each time, which leads to high heterogeneity between researchers and is additionally very time consuming.
+To solve this problem, researcher Zusanna Cocova (Charles University) and Junel Solis, an image analyst at Turku BioImaging, part of the Euro-BioImaging Finnish Advanced Microscopy Node, developed an automatic pipeline for brain autoradiography image analysis, the Mouse Brain Alignment Tool, MBAT. This image analysis pipeline was initially designed and applied to mouse brain ARG images acquired at the Turku PET Center, part of the Euro-BioImaging Finnish Biomedical Imaging Node, to investigate brain damage caused by COVID-19.
+MBAT is a Python-based software tool that automates the ARG image analysis process, enabling researchers to focus on specific sub-regions of the brain. It includes a  Napari-based user interface that allows ARG slides of mouse brain tissue to be preprocessed and registered to topographical data from Allen Brain Atlas regions. This allows researchers to preprocess their ARG sections using different layout schemes contained in whole-slide images and automatically convert these sections into single images. The included user interface allows the user to match brain sections with the atlas and calculate mean background intensity. MBAT converts data from the Allen Institute’s Mouse Brain Atlas and stores the topographical information of various brain regions in a local database as regions of interest (ROIs), which can then be overlaid onto the ARG image. The user can translate, rotate, scale, and even edit brain region ROIs. The ARG signal for each ROI can be quantified and stored in a data file, enabling the user to process sections in smaller batches and resume the workflow later, rendering the workflow particularly user-friendly. The pipeline is availale for anyone to reuse on {% tool "github"}.
+
+
+## What can you use the tool for?
  
-<!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
+The Mouse Brain Alignment Tool provides an automated pipeline for analyzing brain autoradiography images. MBAT allows end-users to focus on image analysis without technical interruption, thereby increasing the reliability and reproducibility of results, thus expanding the possibilities of neurobiology research. The software is open source and packaged so that anyone, even without administrator access, can download and readily use the tool.
+The current iteration of MBAT is only applicable to ARG images of mouse brain, as it relies on the Mouse Brain Atlas. However, by incorporating additional standardized brain atlases, such as those for the rat animal model, it could be made more widely applicable to other brain analyses. Currently, it is only compatible with ARG scans; however, with minor modifications, ARG images set up on whole slides could be accommodated. With a few minor modifications, the tool can also be applied to a range of different image file types. In essence, the tool is useful for any application that aims to measure signals in coronal slices of the brain, whether through autoradiography or alternative staining methods, including fluorescent staining. Thus, the tool can greatly facilitate neuroinflammation research, whether induced through infectious diseases or other causes.
 
-<!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
+## Resources
 
+1: Guedj, E et al. “18F-FDG brain PET hypometabolism in patients with long COVID.” European journal of nuclear medicine and molecular imaging vol. 48,9 (2021): 2823-2833. doi:10.1007/s00259-021-05215-4
+2: https://www.medrxiv.org/content/10.1101/2022.06.02.22275916v1 
 
-<!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
+News-article: https://www.eurobioimaging.eu/news/an-open-source-image-analysis-tool-for-studying-neuroinflammation-linked-to-covid-19/
+
+MBAT on Github: https://github.com/Turku-BioImaging/mouse-brain-alignment-tool 
 
 
 ## Acknowledgments
 
-<!-- Acknowledge people and institutions involved in this showcase. -->
+Data collection: Data from Turku PET center
+
+Tool Development: Zusanna Cocova (Charles University),  Junel Solis (image analyst at Turku BioImaging, part of Euro-BioImaging Finnish Advanced Microscopy Node)
+
+Additional help: Arina Rybina (Scientific project manager, Euro-BioImaging), Isabel Kemmer (FAIR Image Data Steward, Euro-BioImaging)
 
 ### Support
 
-<!-- Describe how the showcase is funded or supported. -->
+This showcase was funded by the [ISIDORe project](https://isidore-project.eu/) funded by the European Commission (Grant number 101046133). 
