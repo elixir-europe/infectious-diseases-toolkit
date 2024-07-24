@@ -2,9 +2,6 @@
 title: Human clinical and health data
 description: Guidance in describing human clinical and health data.
 contributors: [Miriam Saso, Pierluca Piselli, Shona Cosgrove, Iris Van Dam, Romain David, Hedi Peterson, Diana Pilvar]
-no_robots: false
-search_exclude: false
-sitemap: true
 page_id: hchd_data_description
 redirect_from: /human-clinical-and-health-data/data-description
 rdmkit:
