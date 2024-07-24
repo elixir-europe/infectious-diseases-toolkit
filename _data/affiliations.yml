@@ -106,3 +106,9 @@
   expose: true
   type: institution
   url: https://uni-freiburg.de/
+- name: Euro-BioImaging
+  image_url: /images/institutions/Euro-BioImaging.png
+  pid: https://ror.org/05d78xc36
+  expose: true
+  type: institution
+  url: https://www.eurobioimaging.eu/
