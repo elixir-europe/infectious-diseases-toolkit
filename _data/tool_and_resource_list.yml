@@ -961,3 +961,7 @@
   registry:
     tess: Webin-CLI
   url: https://github.com/enasequence/webin-cli
+- description: Semi-automated processing of autoradiography (ARG) images from mouse brain tissue. This project includes a Napari-based user interface where ARG slides can be preprocessed and registered to Allen Brain Atlas regions.
+  id: mbat
+  name: Mouse Brain Alignment Tool (MBAT)
+  url: https://github.com/Turku-BioImaging/mouse-brain-alignment-tool
