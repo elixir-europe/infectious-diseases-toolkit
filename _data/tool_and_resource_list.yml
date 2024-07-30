@@ -961,6 +961,30 @@
   registry:
     tess: Webin-CLI
   url: https://github.com/enasequence/webin-cli
+- description: Interface to query on the EGA data through Beacon v2
+  id: ega-beacon
+  name: EGA Beacon
+  url: https://beacon.ega-archive.org/
+- description: Beacon from UNottingham to query a backend OMOP database of synthetic COVID-19 patient EHRs (electronic health records).
+  id: unott-beacon
+  name: UNottingham Beacon
+  url: https://beacon.nottingham.ac.uk
+- description: The Bento platform enables the research community to explore the BQC19 cohort aggregate data.
+  id: bento-platform
+  name: Bento platform
+  url: https://bqc19.bento.sd4h.ca/#/en/
+- description: SARS-CoV-2 whole genome sequencing circuit of Andalusia
+  id: andalusia-beacon
+  name: SARS-COV-2 outbreak in Andalucia
+  url: https://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest
+- description: The COVID-19 Beacon is a searchable platform for SARS-CoV-2 genomic variants conforming to the Beacon specifications of the Global Alliance for Genomics and Health but adjusted for viral genome searches.
+  id: covid19-beacon
+  name: COVID-19 BEACON
+  url: https://d2eqg84un4jpac.cloudfront.net/
+- description: A global network for genomic surveillance and infectious disease research
+  id: viral-ai
+  name: Viral AI
+  url: https://viral.ai/collections
 - description: Semi-automated processing of autoradiography (ARG) images from mouse brain tissue. This project includes a Napari-based user interface where ARG slides can be preprocessed and registered to Allen Brain Atlas regions.
   id: mbat
   name: Mouse Brain Alignment Tool (MBAT)
