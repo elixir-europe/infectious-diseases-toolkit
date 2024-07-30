@@ -977,7 +977,7 @@
   id: andalusia-beacon
   name: SARS-COV-2 outbreak in Andalucia
   url: https://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest
-- description: The COVID-19 Beacon is a searchable platform for SARS-CoV-2 genomic variants conforming to the Beacon specifications of the Global Alliance for Genomics and Health but adjusted for viral genome searches. 
+- description: The COVID-19 Beacon is a searchable platform for SARS-CoV-2 genomic variants conforming to the Beacon specifications of the Global Alliance for Genomics and Health but adjusted for viral genome searches.
   id: covid19-beacon
   name: COVID-19 BEACON
   url: https://d2eqg84un4jpac.cloudfront.net/
