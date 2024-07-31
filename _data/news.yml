@@ -126,3 +126,7 @@
   date: 2024-05-30
   linked_pr: 317
   description: A page with general information about Ethical, Legal, and Social Issues was added. [Discover the page here](/ethical-legal-and-social-issues/)
+- name: "New page: Measuring COVID-19 induced neuroinflammation - an automated pipeline for analysing brain autoradiography images"
+  date: 2024-07-31
+  linked_pr: 329
+  description: A showcase page about measuring COVID-19 induced neuroinflammation - an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/image-analysis)
