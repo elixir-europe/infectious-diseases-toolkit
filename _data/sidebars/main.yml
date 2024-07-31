@@ -88,6 +88,8 @@ subitems:
         url:  /showcase/prototyping-research-questions
       - title: Using the ENA data submission toolbox for SARS-CoV-2 data
         url:  /showcase/ena-data-submission-toolbox
+      - title: Measuring COVID-19 induced neuroinflammation -  an automated pipeline for analysing brain autoradiography images
+        url:  /showcase/image-analysis
   
   - title: National resources
     image_url: /assets/img/section-icons/flag-duotone.svg
