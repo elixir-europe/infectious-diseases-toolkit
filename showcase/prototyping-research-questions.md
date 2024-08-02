@@ -109,7 +109,7 @@ An analytical pipeline was developed and tested with the support of the syntheti
 
 A detailed description of the security measures that will be implemented to prevent unauthorised access to personal data within the secured processing environments (SPEs) of each of the Participating Nodes, as well as a description of the anonymisation/pseudonymisation techniques that will be implemented, is provided in the published [Data Management Plan (DMP)](https://zenodo.org/doi/10.5281/zenodo.7625783).
 
-The [preliminary outputs](https://zenodo.org/doi/10.5281/zenodo.7871533), i.e., interactive reports of each main step of the analytical pipeline, have been published for Aragon, Spain. 
+The [local outputs produced by each Participant Node and the comparative analysis](https://zenodo.org/doi/10.5281/zenodo.12731611), i.e., interactive reports of each main step of the analytical pipeline within each site as well as the SARS-CoV-2 vaccine effectiveness comparative analysis results across sites, have been published. 
 
 <!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
 
