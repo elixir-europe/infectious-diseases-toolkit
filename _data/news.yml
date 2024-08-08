@@ -126,3 +126,7 @@
   date: 2024-05-30
   linked_pr: 317
   description: A page with general information about Ethical, Legal, and Social Issues was added. [Discover the page here](/ethical-legal-and-social-issues/)
+- name: "New page: Human clinical health data data description"
+  description: Content was added to the Human clinical health data page in the Data Description section. [Discover the page here](/data-description/human-clinical-and-health-data)
+  date: 2024-08-08
+  linked_pr: 327
