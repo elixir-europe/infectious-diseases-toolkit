@@ -986,7 +986,7 @@
   name: Viral AI
   url: https://viral.ai/collections
 - description: EMBL-EBI's web portal for finding ontologies
-  id: ontology-lookup-service
+  id: ols
   name: Ontology Lookup Service
   registry:
     biotools: ols
