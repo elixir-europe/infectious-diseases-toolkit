@@ -22,7 +22,7 @@ faircookbook:
 
 ## Introduction 
 
-Human clinical and health data are personal data related to the health status of a natural person (e.g. diagnosis, treatment, laboratory test results)[(glossary)](https://doi.org/10.5281/zenodo.6787119 )). As this includes a wide variety of data, it is essential to precisely describe which type of data researchers use in their work and for which purpose.
+Human clinical and health data are personal data related to the health status of a natural person (e.g. diagnosis, treatment, laboratory test results [(glossary)](https://doi.org/10.5281/zenodo.6787119)). As this includes a wide variety of data, it is essential to precisely describe which type of data researchers use in their work and for which purpose.
 
 In this regard, a data management plan and metadata records play a key role. Data description is also key to helping one find the data needed, for instance, in metadata catalogues.
 
