@@ -107,8 +107,8 @@
   type: institution
   url: https://uni-freiburg.de/
 - name: Euro-BioImaging
-  image_url: /images/institutions/Euro-BioImaging.png
+  image_url: /images/infrastructures/eurobioimaging-logo.svg
   pid: https://ror.org/05d78xc36
   expose: true
-  type: institution
+  type: infrastructure
   url: https://www.eurobioimaging.eu/
