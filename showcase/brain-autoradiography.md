@@ -1,9 +1,9 @@
 ---
-title: Measuring COVID-19 induced neuroinflammation -  an automated pipeline for analysing brain autoradiography images
+title: An automated pipeline for analysing brain autoradiography images
 contributors: [Isabel Kemmer] 
 description: Development of an open source, semi-automated processing pipeline for aligning autoradiography images from mouse brain tissue to study infection-induced neuroinflammation funded by the ISIDORe project. 
 affiliations: [European Union, Euro-BioImaging, ISIDORe]
-page_id: image_analysis_isidore
+page_id: brain-autoradiography
 
 ---
 
