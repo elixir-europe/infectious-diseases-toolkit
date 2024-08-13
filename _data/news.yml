@@ -129,4 +129,4 @@
 - name: "New page: Measuring COVID-19 induced neuroinflammation - an automated pipeline for analysing brain autoradiography images"
   date: 2024-07-31
   linked_pr: 329
-  description: A showcase page about measuring COVID-19 induced neuroinflammation - an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/image-analysis)
+  description: A showcase page about an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/image-analysis)
