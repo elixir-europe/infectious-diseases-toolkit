@@ -113,7 +113,7 @@
   type: infrastructure
   url: https://www.eurobioimaging.eu/
 - name: ISIDORe
-  image_url: /images/infrastructures/ididore-logo.png
+  image_url: /images/infrastructures/isidore-logo.png
   pid: https://cordis.europa.eu/project/id/101046133
   expose: true
   type: funder
