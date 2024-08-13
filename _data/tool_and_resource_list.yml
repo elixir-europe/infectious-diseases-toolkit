@@ -985,6 +985,28 @@
   id: viral-ai
   name: Viral AI
   url: https://viral.ai/collections
+- description: EMBL-EBI's web portal for finding ontologies
+  id: ols
+  name: Ontology Lookup Service
+  registry:
+    biotools: ols
+    fairsharing: Mkl9RR
+    tess: Ontology Lookup Service
+  url: https://www.ebi.ac.uk/ols/index
+- description: A comprehensive repository of biomedical ontologies
+  id: bioportal
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  url: https://bioportal.bioontology.org
+- description: Collaborative effort to develob interoperable ontologies for the biological sciences
+  id: the-open-biological-and-biomedical-ontology-foundry
+  name: The Open Biological and Biomedical Ontology (OBO) Foundry
+  registry:
+    fairsharing-coll: bsg-d001083
+  url: http://obofoundry.org
 - description: Semi-automated processing of autoradiography (ARG) images from mouse brain tissue. This project includes a Napari-based user interface where ARG slides can be preprocessed and registered to Allen Brain Atlas regions.
   id: mbat
   name: Mouse Brain Alignment Tool (MBAT)

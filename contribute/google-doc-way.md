@@ -10,7 +10,11 @@ Infectious Diseases Toolkit is hosted on GitHub. We understand, however, that ma
 
 The steps are as follows:
 * Email the editorial team at [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org) to propose a new page or a new section in an existing page. Make sure you keep other contributors in the CC of your email. The editors will create an issue in our GitHub repository to announce your contribution to others.  
-* Use [our google doc template](https://docs.google.com/document/d/1kAYZaimOG6UR9wvTUn2Tzi-0pSO8eOarO-Kxpmg2HRM/edit?usp=sharing) to write the page and notify the editorial team when you are finished.
+* Use our section specifc Google Doc templates to write your page:
+  * [General guideline template](https://docs.google.com/document/d/1Jd71fAKdJBax0ZVg2IkQUJ8e21jRoHjl48jytOGT5_c/edit?usp=sharing)
+  * [Showcase template](https://docs.google.com/document/d/1uS5inLcy2UA0casGR1cYABq8xqAjgm6j_POI4ylOM0o/edit?usp=sharing)
+  * [National resources template](https://docs.google.com/document/d/165-r9VzCu-ZfhJlKy-7QWabkMMp9KIEzEBRvQcmijmA/edit?usp=sharing)
+* Notify the editorial team when you are finished.
 * The editors will assign reviewers to your page, who will provide feedback as comments on the shared google doc.
 * Address the reviewers' comments and let the editorial team know, again by mail, that you're finished with revisions.
 * The editors will transfer your page to GitHub and let you know when it is published on the website.

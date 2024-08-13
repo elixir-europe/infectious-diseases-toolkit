@@ -26,6 +26,8 @@ subitems:
     description: Finding (meta)data standards and documentation
     image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
+      - title: Human clinical and health data
+        url: /data-description/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /data-description/pathogen-characterisation
 
