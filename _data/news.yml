@@ -130,3 +130,7 @@
   description: Content was added to the Human clinical health data page in the Data Description section. [Discover the page here](/data-description/human-clinical-and-health-data)
   date: 2024-08-08
   linked_pr: 327
+- name: "New page: An automated pipeline for analysing brain autoradiography images"
+  date: 2024-08-13
+  linked_pr: 329
+  description: A showcase page was added about an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/brain-autoradiography)
