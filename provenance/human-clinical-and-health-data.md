@@ -8,9 +8,9 @@ rdmkit:
   - name: Data provenance
     url: https://rdmkit.elixir-europe.org/data_provenance
 training:
-  - name:
+  - name: FAIR data and provenance with RO-Crate and Galaxy
     registry:
-    url:
+    url: https://gallantries.github.io/video-library/modules/ro-crate
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 

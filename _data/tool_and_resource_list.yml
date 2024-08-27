@@ -126,7 +126,7 @@
   registry:
     biotools: covid-19-data-portal
     fairsharing: f3b7a9
-    tess: Covid-19 data portal
+    tess: COVID-19 Data Portal
   url: https://www.covid19dataportal.org/
 - description: A platform allowing for browsing SARS-CoV-2 variability at the genome, amino acid, structural, and motif levels
   id: crg-covid-19-viral-beacon
@@ -239,10 +239,18 @@
   registry:
     fairsharing: acd824
   url: https://elsst.cessda.eu/
-- description: Submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
+- description: Galaxy tool wrapper of the ENA upload CLI to submit experimental data and respective metadata to the European Nucleotide Archive (ENA).
   id: ena-upload-tool
-  name: ENA upload tool
+  name: ENA upload Galaxy tool
+  url: https://toolshed.g2.bx.psu.edu/repository?repository_id=0db04aa13ef9d2f8
+- description: Command line tool (CLI) allowing easy submission of data and respective metadata to the European Nucleotide Archive (ENA) using tabular files or an excel spreadsheet. The tool allows programatic submission of all ENA objects (study, sample, run and experiment) without the need of logging in to the Webin interface. This also includes client side validation using ENA checklists and releasing the ENA objects.
+  id: ena-upload-cli
+  name: ENA upload CLI
   url: https://github.com/usegalaxy-eu/ena-upload-cli
+- description: Galaxy wrapper to submit consensus sequences to ENA in an interactive way. The tool has the Webin-CLI script of ENA at its core and supports all sample checklists.
+  id: ena-webin-cli
+  name: ENA Webin CLI
+  url: https://toolshed.g2.bx.psu.edu/repository?repository_id=dfa4f0fc31027b52
 - description: Functional Enrichment Analysis and Network Construction
   id: enrichr
   name: Enrichr
@@ -793,6 +801,7 @@
   name: Pathogens Portal
   registry:
     fairsharing: a085b2
+    tess: Pathogens Portal
   url: https://www.pathogensportal.org
 - description: The European Health Data Space is a health specific ecosystem comprised of rules, common standards and practices, infrastructures and a governance framework that aims at empowering individuals through increased digital access to and control of their electronic personal health data, at national level and EU-wide.
   id: ehds
@@ -865,31 +874,42 @@
   registry:
     tess: Quarto
   url: https://quarto.org/
-- description: Bcftools is a set of tools for working with variant calls in the VCF format. 
+- description: Bcftools is a set of tools for working with variant calls in the VCF format.
   id: bcftools
   name: Bcftools
+  registry:
+    biotools: bcftools
   url: https://samtools.github.io/bcftools/bcftools.html
 - description: Qualimap is a quality control tool that assesses the quality of the sequencing data at different stages of the analysis pipeline, including read mapping, coverage, and expression analysis.
   id: qualimap
   name: Qualimap
+  registry:
+    biotools: qualimap
   url: http://qualimap.conesalab.org/
 - description: GATK is a widely used tool for variant calling and genotyping from NGS data.
   id: gatk
   name: Genome Analysis Toolkit (GATK)
+  registry:
+    biotools: gatk
   url: https://gatk.broadinstitute.org/hc/en-us
 - description: Picard is a suite of tools that provides quality control and processing of NGS data, including duplicate read removal, format conversion, and alignment.
   id: picard
   name: Picard
+  registry:
+    biotools: picard_tools
   url: https://broadinstitute.github.io/picard/
 - description: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data.
   id: trimmomatic
   name: Trimmomatic
+  registry:
+    biotools: trimmomatic
+    tess: Trimmomatic
   url: http://www.usadellab.org/cms/?page=trimmomatic
 - description: FastQ Screen is a quality control tool used to detect contamination in sequencing data (FASTQ files).
   id: fastqc-screen
   name: FastQC Screen
   url: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
-- description: GRAF pop is a software tool that infers the subject ancestry. 
+- description: GRAF pop is a software tool that infers the subject ancestry.
   id: graf-pop
   name: GRAF pop
   url: https://pubmed.ncbi.nlm.nih.gov/31151998/
@@ -897,6 +917,100 @@
   id: graf-sex
   name: GRAF sex
   url: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF_README.html
+- description: Python data visualization library that provides a high-level interface for drawing attractive and informative statistical graphics.
+  id: seaborn
+  name: seaborn
+  registry:
+    tess: seaborn
+  url: https://seaborn.pydata.org/
+- description: Free software environment for statistical computing and graphics.
+  id: r
+  name: R
+  registry:
+    biotools: r
+    tess: R
+  url: https://www.r-project.org/
+- description: Open source data analysis and manipulation tool, built on top of the Python programming language.
+  id: pandas
+  name: pandas
+  registry:
+    biotools: pandas
+    tess: pandas
+  url: https://pandas.pydata.org/
+- description: Python library for scientific computing.
+  id: numpy
+  name: NumPy
+  registry:
+    biotools: numpy
+    tess: NumPy
+  url: https://numpy.org/
+- description: Machine learning tools in Python
+  id: scikit-learn
+  name: Scikit-learn
+  registry:
+    biotools: scikit-learn
+    tess: Scikit-learn
+  url: https://scikit-learn.org/stable/
+- description: Python library that uses machine learning to perform fuzzy matching, deduplication, and entity resolution quickly on structured data.
+  id: dedupe
+  name: dedupe
+  url: https://github.com/dedupeio/dedupe
+- description: Command line application to submit assemblies and transcriptomes to ENA.
+  id: webin-cli
+  name: Webin-CLI
+  registry:
+    tess: Webin-CLI
+  url: https://github.com/enasequence/webin-cli
+- description: Interface to query on the EGA data through Beacon v2
+  id: ega-beacon
+  name: EGA Beacon
+  url: https://beacon.ega-archive.org/
+- description: Beacon from UNottingham to query a backend OMOP database of synthetic COVID-19 patient EHRs (electronic health records).
+  id: unott-beacon
+  name: UNottingham Beacon
+  url: https://beacon.nottingham.ac.uk
+- description: The Bento platform enables the research community to explore the BQC19 cohort aggregate data.
+  id: bento-platform
+  name: Bento platform
+  url: https://bqc19.bento.sd4h.ca/#/en/
+- description: SARS-CoV-2 whole genome sequencing circuit of Andalusia
+  id: andalusia-beacon
+  name: SARS-COV-2 outbreak in Andalucia
+  url: https://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest
+- description: The COVID-19 Beacon is a searchable platform for SARS-CoV-2 genomic variants conforming to the Beacon specifications of the Global Alliance for Genomics and Health but adjusted for viral genome searches.
+  id: covid19-beacon
+  name: COVID-19 BEACON
+  url: https://d2eqg84un4jpac.cloudfront.net/
+- description: A global network for genomic surveillance and infectious disease research
+  id: viral-ai
+  name: Viral AI
+  url: https://viral.ai/collections
+- description: EMBL-EBI's web portal for finding ontologies
+  id: ols
+  name: Ontology Lookup Service
+  registry:
+    biotools: ols
+    fairsharing: Mkl9RR
+    tess: Ontology Lookup Service
+  url: https://www.ebi.ac.uk/ols/index
+- description: A comprehensive repository of biomedical ontologies
+  id: bioportal
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  url: https://bioportal.bioontology.org
+- description: Collaborative effort to develob interoperable ontologies for the biological sciences
+  id: the-open-biological-and-biomedical-ontology-foundry
+  name: The Open Biological and Biomedical Ontology (OBO) Foundry
+  registry:
+    fairsharing-coll: bsg-d001083
+  url: http://obofoundry.org
+- description: Semi-automated processing of autoradiography (ARG) images from mouse brain tissue. This project includes a Napari-based user interface where ARG slides can be preprocessed and registered to Allen Brain Atlas regions.
+  id: mbat
+  name: Mouse Brain Alignment Tool (MBAT)
+  url: https://github.com/Turku-BioImaging/mouse-brain-alignment-tool
 - description: Searchable list of tools available to help you work with DDI, from authoring and editing metadata to data transformations. The tools have been developed independently by a variety of organizations from the global DDI community.
   id: ddi
   name: DDI Tools

@@ -39,7 +39,7 @@ Many large national SARS-CoV-2 sequencing data providers submit their raw data t
 
 - the [COVID-19 Genomics UK Consortium](https://www.cogconsortium.uk/) (COG-UK; ENA Project accession: PRJEB37886)
 - the [Portuguese network for SARS-CoV-2 genomics](https://insaflu.insa.pt/covid19/) (ENA Project accession: PRJEB47340)
-- the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html))
+- the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](/showcase/korogenoest.html))
 
 In addition, we provide the possibility to request analysis of samples of particular interest via pull requests against a dedicated [GitHub repository](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
 

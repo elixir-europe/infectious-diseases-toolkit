@@ -172,6 +172,10 @@ main {
     }
 }
 
+p + .navigation-tiles {
+    margin-top: 1.5rem;
+}
+
 /*-----Contributors tiles -----*/
 
 .contributor-cards,
@@ -305,24 +309,3 @@ section#search-section {
     }
 }
 
-/*-----Accordion styles-----*/
-
-// Add a bottom border to the last accordion.
-a.info-collapse[aria-expanded="false"]:last-of-type, 
-a.info-collapse[aria-expanded="true"]:last-of-type + .show {
-    border-bottom: 1px solid $border-color;
-}
-
-// Remove border hover effect.
-.info-collapse:hover, .info-collapse[aria-expanded="true"] {
-    border-color: $border-color !important;
-}
-
-// Add hover effect to accordion header text.
-a.info-collapse h3 {
-    transition: color .2s ease-in-out;
-}
-
-a.info-collapse:hover h3 {
-    color: rgba($link-color, .8) !important;
-}

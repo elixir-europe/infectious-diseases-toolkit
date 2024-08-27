@@ -94,3 +94,27 @@
   expose: true
   type: institution
   url: https://www.klinikum.uni-heidelberg.de/heidelberger-institut-fuer-global-health/
+- name: VIB
+  image_url: /images/institutions/VIB-notagline-pos.svg
+  pid: https://ror.org/03xrhmk39
+  expose: true
+  type: institution
+  url: https://www.vib.be/
+- name: Albert-Ludwigs-Universität Freiburg
+  image_url: /images/institutions/Albert-Ludwigs-Universität_Freiburg_2009_logo.svg
+  pid: 
+  expose: true
+  type: institution
+  url: https://uni-freiburg.de/
+- name: Euro-BioImaging
+  image_url: /images/infrastructures/eurobioimaging-logo.svg
+  pid: https://ror.org/05d78xc36
+  expose: true
+  type: infrastructure
+  url: https://www.eurobioimaging.eu/
+- name: ISIDORe
+  image_url: /images/infrastructures/isidore-logo.png
+  pid: https://cordis.europa.eu/project/id/101046133
+  expose: true
+  type: funder
+  url: https://isidore-project.eu/

@@ -106,3 +106,31 @@
   description: Content was added to the Human biomolecular data page in the Quality control section. [Discover the page here](/quality-control/human-biomolecular-data)
   date: 2024-05-16
   linked_pr: 290
+- name: "New page: Prevalence study of SARS-CoV-2 in Estonia: lessons learned"
+  date: 2024-05-28
+  linked_pr: 304
+  description: A showcase page about the critical lessons learned on how to run a prevalence study based on the 4-years experience in Estonia, in the Showcase section. [Discover the page here](/showcase/estonian-prevalence-study)
+- name: "New page: Data Communication"
+  date: 2024-05-30
+  linked_pr: 314
+  description: A page with general information about best practices in communicating data, specifically using data visualisations. [Discover the page here](/data-communication)
+- name: "New page: Using the ENA data submission toolbox for SARS-CoV-2 data"
+  date: 2024-05-30
+  linked_pr: 309
+  description: A showcase page about Using the ENA data submission toolbox for SARS-CoV-2 data, in the Showcase section. [Discover the page here](/showcase/ena-data-submission-toolbox)
+- name: "New page: Quality control of Socioeconomic data"
+  date: 2024-05-30
+  linked_pr: 311
+  description: Content was added to the Socioeconomic data page in the Quality control section. [Discover the page here](/quality-control/socioeconomic-data)
+- name: "New page: Ethical, Legal, and Social Issues"
+  date: 2024-05-30
+  linked_pr: 317
+  description: A page with general information about Ethical, Legal, and Social Issues was added. [Discover the page here](/ethical-legal-and-social-issues/)
+- name: "New page: Data description of Human clinical health data"
+  description: Content was added to the Human clinical health data page in the Data Description section. [Discover the page here](/data-description/human-clinical-and-health-data)
+  date: 2024-08-08
+  linked_pr: 327
+- name: "New page: An automated pipeline for analysing brain autoradiography images"
+  date: 2024-08-13
+  linked_pr: 329
+  description: A showcase page was added about an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/brain-autoradiography)

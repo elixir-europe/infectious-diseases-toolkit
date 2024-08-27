@@ -10,9 +10,18 @@ rdmkit:
   - name: "Human Pathogen Genomics"
     url: https://rdmkit.elixir-europe.org/human_pathogen_genomics
 training:
-  - name:
+  - name: European Nucleotide Archive - Quick Tour
     registry:
-    url:
+    url: https://trainingcontent.embl.org/ena-quick-tour
+  - name: SARS-CoV-2 data submission to the European Nucleotide Archive
+    registry:
+    url: https://ena-covid19-docs.readthedocs.io/en/latest/submission_workshop/getting_started.html
+  - name: SARS-CoV-2 data analysis
+    registry: Carpentries
+    url: https://gallantries.github.io/video-library/modules/covid-analysis
+  - name: SARS-CoV-2, viruses and bacteria data analysis
+    registry: Carpentries
+    url: https://gallantries.github.io/video-library/modules/one-health    
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
