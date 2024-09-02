@@ -80,7 +80,7 @@ subitems:
         url:  /showcase/covid19-galaxy
       - title: An automated pipeline for analysing brain autoradiography images
         url:  /showcase/brain-autoradiography
-      - title: Knowledge Graph Generator
+      - title: Knowledge Graph Generator (KGG)
         url: /showcase/knowledge-graph-generator
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
