@@ -120,7 +120,7 @@
   url: https://isidore-project.eu/
 - name: Fraunhofer ITMP
   type: institution
-  image_url: /images/institutions/fraunhofer_logo.png
+  image_url: /images/institutions/fraunhofer_institute_logo.svg
   expose: true
   url: https://www.itmp.fraunhofer.de/en.html
 - name: EU-OpenScreen
