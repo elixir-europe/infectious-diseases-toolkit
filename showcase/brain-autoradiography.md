@@ -29,13 +29,13 @@ MBAT is a Python-based software tool that automates the ARG image analysis proce
 ## What can you use the tool for?
  
 The Mouse Brain Alignment Tool provides an automated pipeline for analyzing brain autoradiography images. MBAT allows end-users to focus on image analysis without technical interruption, thereby increasing the reliability and reproducibility of results, thus expanding the possibilities of neurobiology research. The software is open source and packaged so that anyone, even without administrator access, can download and readily use the tool.
-The current iteration of MBAT is only applicable to ARG images of mouse brain, as it relies on the Mouse Brain Atlas. However, by incorporating additional standardized brain atlases, such as those for the rat animal model, it could be made more widely applicable to other brain analyses. Currently, it is only compatible with ARG scans; however, with minor modifications, ARG images set up on whole slides could be accommodated. With a few minor modifications, the tool can also be applied to a range of different image file types. In essence, the tool is useful for any application that aims to measure signals in coronal slices of the brain, whether through autoradiography or alternative staining methods, including fluorescent staining. Thus, the tool can greatly facilitate neuroinflammation research, whether induced through infectious diseases or other causes.
+The current iteration of MBAT is only applicable to ARG images of mouse brain, as it relies on the Mouse Brain Atlas. However, by incorporating additional standardized brain atlases, such as those for the rat animal model, it could be made more widely applicable to other brain analyses. With a few minor modifications, the tool can also be applied to a range of different image file types. In essence, the tool is useful for any application that aims to measure signals in coronal slices of the brain, whether through autoradiography or alternative staining methods, including fluorescent staining. Thus, the tool can greatly facilitate neuroinflammation research, whether induced through infectious diseases or other causes.
 
 ## Acknowledgments
 
-Data collection: Data from Turku PET center
+Data collection: Turku PET Centre
 
-Tool Development: Zusanna Cocova (Charles University),  Junel Solis (image analyst at Turku BioImaging, part of Euro-BioImaging Finnish Advanced Microscopy Node)
+Tool Development: Zuzana Cockova (Charles University),  Junel Solis (image analyst at Turku BioImaging, part of Euro-BioImaging Finnish Advanced Microscopy Node)
 
 Additional help: Arina Rybina (Scientific project manager, Euro-BioImaging), Isabel Kemmer (FAIR Image Data Steward, Euro-BioImaging)
 
