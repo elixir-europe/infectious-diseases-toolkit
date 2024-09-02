@@ -78,6 +78,8 @@ subitems:
     subitems:
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
+      - title: An automated pipeline for analysing brain autoradiography images
+        url:  /showcase/brain-autoradiography
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
       - title: "Prevalence study of SARS-CoV-2 in Estonia: lessons learned"

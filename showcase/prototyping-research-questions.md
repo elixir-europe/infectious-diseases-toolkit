@@ -113,6 +113,9 @@ The [local outputs produced by each Participant Node and the comparative analysi
 
 <!---Information about affiliations below will be added to the affiliations.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-an-institution-infrastructure-project-or-funder  --->
 
+## Publication
+
+- Meurisse, M., Estupiñán-Romero, F., González-Galindo, J. et al. (2023) Federated causal inference based on real-world observational data sources: application to a SARS-CoV-2 vaccine effectiveness assessment. BMC Med Res Methodol 23, 248. [https://doi.org/10.1186/s12874-023-02068-3](https://doi.org/10.1186/s12874-023-02068-3)
 
 ## Acknowledgments
 

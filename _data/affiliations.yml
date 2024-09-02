@@ -107,8 +107,14 @@
   type: institution
   url: https://uni-freiburg.de/
 - name: Euro-BioImaging
-  image_url: /images/institutions/Euro-BioImaging.png
+  image_url: /images/infrastructures/eurobioimaging-logo.svg
   pid: https://ror.org/05d78xc36
   expose: true
-  type: institution
+  type: infrastructure
   url: https://www.eurobioimaging.eu/
+- name: ISIDORe
+  image_url: /images/infrastructures/isidore-logo.png
+  pid: https://cordis.europa.eu/project/id/101046133
+  expose: true
+  type: funder
+  url: https://isidore-project.eu/
