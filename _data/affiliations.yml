@@ -118,8 +118,13 @@
   expose: true
   type: funder
   url: https://isidore-project.eu/
-- name: Fraunhofer ITMP/EU-OpenScreen
+- name: Fraunhofer ITMP
   type: institution
-  image_url: 
+  image_url: /images/institutions/fraunhofer_logo.png
   expose: true
-  pid: https://www.itmp.fraunhofer.de/en.html
+  url: https://www.itmp.fraunhofer.de/en.html
+- name: EU-OpenScreen
+  type: institution
+  image_url: /images/infrastructures/eu-openscreen.png
+  expose: true
+  url: https://www.eu-openscreen.eu/

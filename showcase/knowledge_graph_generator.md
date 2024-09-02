@@ -1,10 +1,9 @@
 ---
-title: Knowledge Graph Generator (KGG): A fully automated workflow for creating disease-specific KGs
+title: Knowledge Graph Generator (KGG) - A fully automated workflow for creating disease-specific KGs
 contributors: [Reagon Karki] 
 description: Open source workflow integrating biological databases for FAIR data compliant Knowledge Graphs
 affiliations: [Fraunhofer ITMP, EU-OpenScreen]
 page_id: kgg
-
 ---
 
 ## Introduction 
@@ -19,7 +18,7 @@ The KGG is developed for a broad spectrum of researchers and scientists, especia
 
 ## What is the showcase?
 
-{% include image.html file="/kgg.png" caption="Figure 1. A schematic representation of the KGG workflow depicting its three phases. The python-based workflow fetches real-time knowledge from curated databases and uses ([OpenBEL](https://doi.org/10.1016/j.drudis.2013.12.011)) framework to systematically encode the knowledge and relevant metadata." %}
+{% include image.html file="/kgg_showcase_overview.png" caption="Figure 1. A schematic representation of the KGG workflow depicting its three phases. The python-based workflow fetches real-time knowledge from curated databases and uses ([OpenBEL](https://doi.org/10.1016/j.drudis.2013.12.011)) framework to systematically encode the knowledge and relevant metadata." %}
 
 The automated workflow creating disease-specific KGs is subdivided into three phases and are described below:
 
