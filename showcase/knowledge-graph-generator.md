@@ -3,7 +3,7 @@ title: Knowledge Graph Generator (KGG) - A fully automated workflow for creating
 contributors: [Reagon Karki] 
 description: Open source workflow integrating biological databases for FAIR data compliant Knowledge Graphs
 affiliations: [Fraunhofer ITMP, EU-OpenScreen]
-page_id: kgg
+page_id: knowledge-graph-generator
 ---
 
 ## Introduction 
