@@ -134,3 +134,7 @@
   date: 2024-08-13
   linked_pr: 329
   description: A showcase page was added about an automated pipeline for analysing brain autoradiography images, in the Showcase section. [Discover the page here](/showcase/brain-autoradiography)
+- name: "New page: Knowledge Graph Generator (KGG) - A fully automated workflow for creating disease-specific KGs"
+  date: 2024-09-05
+  linked_pr: 339
+  description: A showcase page was added about an open source workflow, integrating biological databases for FAIR data compliant Knowledge Graphs, in the Showcase section. [Discover the page here](/showcase/knowledge-graph-generator)
