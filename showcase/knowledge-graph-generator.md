@@ -18,7 +18,6 @@ The KGG is developed for a broad spectrum of researchers and scientists, especia
 
 ## What is the showcase?
 
-
 {% include image.html file="/kgg_showcase_overview.png" caption="Figure 1. A schematic representation of the KGG workflow depicting its three phases. The python-based workflow fetches real-time knowledge from curated databases and uses the OpenBEL framework ([Slater, T](https://doi.org/10.1016/j.drudis.2013.12.011)) to systematically encode the knowledge and relevant metadata." %}
 
 The automated workflow creating disease-specific KGs is subdivided into three phases and are described below:
