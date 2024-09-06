@@ -1011,3 +1011,11 @@
   id: mbat
   name: Mouse Brain Alignment Tool (MBAT)
   url: https://github.com/Turku-BioImaging/mouse-brain-alignment-tool
+- description: Pure Python package for parsing and handling biological networks encoded in the Biological Expression Language (BEL).
+  id: pybel
+  name: PyBEL
+  url: https://github.com/pybel/pybel
+- description: The OpenBEL Framework is an open-platform technology for managing, publishing, and using biological knowledge represented using the Biological Expression Language (BEL).
+  id: openbel
+  name: OpenBEL
+  url: https://github.com/OpenBEL/openbel-framework
