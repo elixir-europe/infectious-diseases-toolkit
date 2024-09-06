@@ -463,6 +463,7 @@
   name: matplotlib
   registry:
     biotools: matplotlib
+    tess: matplotlib
   url: https://github.com/matplotlib/matplotlib
 - description: MetaboAnalyst is a comprehensive platform dedicated for metabolomics data analysis via user-friendly, web-based interface.
   id: metaboanalyst
