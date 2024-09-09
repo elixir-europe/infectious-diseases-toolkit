@@ -10,6 +10,7 @@ gtag: G-TNT17YGXQ4
 
 theme_variables:
   privacy_statement_url: /about/privacy
+  dev-info-banner: true
   theme_color: 457B9D
   headings:
     resource-table-all-collapse: true
