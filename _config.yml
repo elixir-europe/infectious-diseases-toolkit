@@ -46,14 +46,6 @@ defaults:
     values:
       sidebar: contribute
       search_exclude: true
-  -
-    scope:
-      path: "attributing-credit"
-      type: "pages"
-    values:
-      type: attributing_credit
-      datatable: true
-      type_img: /assets/img/section-icons/quote-left-duotone.svg
 
   -
     scope:

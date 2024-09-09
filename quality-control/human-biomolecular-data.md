@@ -4,8 +4,6 @@ description: This page explains in detail the importance of quality control for 
 contributors: [Aina Jené Cortada, Mireia Marin Ginestar, Clementina Elvezia Cocuzza, Arnau Soler Costa]
 page_id: hbd_quality_control
 redirect_from: /human-biomolecular-data/quality-control
-related_pages:
-  attributing_credit: [pc_attributing_credit]
 rdmkit:
   - name: Data quality
     url: https://rdmkit.elixir-europe.org/data_quality

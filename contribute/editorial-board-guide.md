@@ -17,7 +17,7 @@ This process is sketched below.
 
 ### Overview of the file structure in GitHub
 
-The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to the website section (attributing-credit, data-analysis, data-communication, data-description, ...).
+The content of the website is built up using markdown files found in the [root](https://github.com/elixir-europe/infectious-diseases-toolkit) of the repository, spread in subdirectories according to the website section (data-analysis, data-communication, data-description, ...).
 
 ### Markdown file naming
 
@@ -77,7 +77,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file and ren
 
 3. Select and copy all the content.
 
-4. Go to the main section were you want to make the new page (attributing-credit, data-analysis, data-communication, data-description, ...), in our example this will be in */showcase/*. Click on `Add file` on the right followed up by `Create new file`.
+4. Go to the main section were you want to make the new page (data-analysis, data-communication, data-description, ...), in our example this will be in */showcase/*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
 5. Paste the copied content from the template.

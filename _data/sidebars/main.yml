@@ -1,12 +1,6 @@
 title: Main
 title_url: /index
 subitems:
-  - title: Attributing credit
-    url: /attributing-credit/
-    description: Referencing your sources (citations and recognition of contributions)
-    image_url: /assets/img/section-icons/quote-left-duotone.svg
-    subitems:
-
   - title: Data analysis
     url: /data-analysis/
     description: Generic workflows for different data types
