@@ -17,4 +17,4 @@ training:
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
 
-Provenance information for pathogen characterization is described in the context of quality control in the [Pathogen Characterization Quality Control page](/quality-control/pathogen-characterisation) page.
+Provenance information for pathogen characterization is described in the context of quality control in the [Pathogen Characterization Quality Control page](/quality-control/pathogen-characterisation).
