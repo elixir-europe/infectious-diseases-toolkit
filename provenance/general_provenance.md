@@ -1,3 +1,18 @@
+---
+title: General considerations and approaches
+description: General considerations and approaches related to provenance
+contributors: [Rudolf Wittner, Stian Soiland-Reyes, Simone Leo]
+page_id: general_provenance
+redirect_from: /human-clinical-and-health-data/provenance
+rdmkit:
+  - name: Data provenance
+    url: https://rdmkit.elixir-europe.org/data_provenance
+training:
+  - name: FAIR data and provenance with RO-Crate and Galaxy
+    registry:
+    url: https://gallantries.github.io/video-library/modules/ro-crate
+# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
+---
 ## Introduction
 “Provenance is a record that describes the people, institutions, entities, and activities involved in producing, influencing, or delivering a piece of data or a thing". Depending on the actual content of provenance, it can be used for various purposes, such as to reproduce documented processes, or to assess the quality or fitness-for-purpose of documented objects, which may include, for example, biological samples or data. Examples of provenance may include information about how the data was produced, where, when, and by whom the data was collected, and how the data has been processed. Provenance information can be modelled and encoded according to different schemas [see existing approaches].
 
