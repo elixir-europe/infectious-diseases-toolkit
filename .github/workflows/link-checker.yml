@@ -42,28 +42,11 @@ jobs:
             # Don't fail action on broken links
             fail: false
 
-      # Find if the issue already exists
-      - name: Find existing Link Checker issue
-        id: issue
-        uses: peter-evans/find-issue@v3
+      # Create or Update the issue based on the link check result
+      - name: Update Comment From File
+        uses: create-or-update-comment@v4
         with:
-          title: Link Checker Report
-
-      # Create a new issue if it doesn't exist and link check failed
-      - name: Create new Link Checker issue
-        if: steps.issue.outputs.number == ''
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: Link Checker Report
-          content-filepath: ./lychee/out.md
-          labels: report, automated issue
-        env:
-          lychee_exit_code: ${{ steps.lychee.outputs.exit_code }}
-
-      # Update the existing issue if found and link check failed
-      - name: Update existing Link Checker issue
-        if: steps.issue.outputs.number != ''
-        uses: peter-evans/update-issue-from-file@v3
-        with:
-          issue-number: ${{ steps.issue.outputs.number }}
-          content-filepath: ./lychee/out.md
+            comment-id: 2531398005
+            title: Link Checker Report
+            body-path: ./lychee/out.md
+            labels: report, automated issue
