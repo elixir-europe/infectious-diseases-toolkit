@@ -17,7 +17,7 @@ training:
     registry: Other
     url: https://gxy.io/GTN:T00437
 rdmkit:
-  - name: “Your tasks: Data Analysis”
+  - name: Data Analysis
     url: https://rdmkit.elixir-europe.org/data_analysis
 faircookbook:
   - name: <!---the title of the FAIR Cookbook recipe--->
