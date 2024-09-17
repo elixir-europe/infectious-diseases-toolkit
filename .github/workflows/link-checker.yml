@@ -1,0 +1,69 @@
+name: Link Checker
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 18 * * *"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+            bundle install
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Build with Jekyll
+          # Outputs to the './_site' directory by default
+        run: |
+            bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+            PAGES_REPO_NWO: ${{ github.repository }}
+            JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+            JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+            # Check all markdown, html and reStructuredText files in repo (default)
+            args: --fallback-extensions .html  _site/
+            # Don't fail action on broken links
+            fail: false
+
+      # Find if the issue already exists
+      - name: Find existing Link Checker issue
+        id: issue
+        uses: peter-evans/find-issue@v3
+        with:
+          title: Link Checker Report
+
+      # Create a new issue if it doesn't exist and link check failed
+      - name: Create new Link Checker issue
+        if: steps.issue.outputs.number == ''
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
+        env:
+          lychee_exit_code: ${{ steps.lychee.outputs.exit_code }}
+
+      # Update the existing issue if found and link check failed
+      - name: Update existing Link Checker issue
+        if: steps.issue.outputs.number != ''
+        uses: peter-evans/update-issue-from-file@v3
+        with:
+          issue-number: ${{ steps.issue.outputs.number }}
+          content-filepath: ./lychee/out.md
