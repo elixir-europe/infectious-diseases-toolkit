@@ -94,7 +94,7 @@ Some typical considerations involved in this step:
 Preprocessing steps may depend on the technology used and the pathogen being studied and thus should be adjusted accordingly. Some common approaches in genomics studies include:
 
 - Raw sequences quality check: {% tool "fastqc" %}
-- Trimming out adapters and low-quality sequences: {% "trimmomatic" %}
+- Trimming out adapters and low-quality sequences: {% tool "trimmomatic" %}
 - Quality checks: further information can be found on the [Quality control - Pathogen characterisation](/quality-control/pathogen-characterisation) page.
 
 ## Analysis
