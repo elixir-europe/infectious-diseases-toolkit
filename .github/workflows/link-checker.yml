@@ -12,9 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-            bundle install
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -22,6 +19,11 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           cache-version: 0
+
+
+      - name: Install dependencies
+        run: |
+            bundle install
 
       - name: Build with Jekyll
           # Outputs to the './_site' directory by default
