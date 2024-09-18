@@ -1051,3 +1051,13 @@
   url: https://biit.cs.ut.ee/gprofiler/gost
   regsitry:
     biotools: gprofiler
+- description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe. 
+  id: eurohpc
+  name: EuroHPC
+  url: https://eurohpc-ju.europa.eu/
+  regsitry:
+- description: BEAUti is a graphical user-interface (GUI) application for generating BEAST XML files. 
+  id: beauti
+  name: BEAUti
+  url: https://beast.community/beauti.html
+  regsitry:
