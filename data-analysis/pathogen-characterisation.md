@@ -142,41 +142,83 @@ There are several types of analysis that can be performed on pathogen-related da
     - {% tool "dbnsfp" %}
   - All-in-one Bioinformatic Tools
     - {% tool "snippy" %}
-## Concrete topic 1 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
 
-Short explanation of what this topic is about and why it is important, with an emphasis on infectious diseases and the category that you selected e.g. pathogen characterisation.
+- **Metagenomics analysis**: Sequencing all genetic material in a sample can provide comprehensive data about the composition of the microbial community. In the context of infectious diseases, it can aid in identifying multiple pathogens simultaneously in clinical, as well as environmental samples. Examples of tools in this type of analysis are:
+  - 16S rRNA sequencing
+    - {% tool "qiime2" %}
+  - Shotgun sequencing
+    - {% tool "spades" %}
+    - {% tool "megahit" %}
+  - Assigning taxonomic labels
+    - {% tool "kraken2" %}
 
-### Considerations <!---This should not be replaced as these are considerations about concrete topic 1--->
+- **Proteomics analysis**: Proteomics, primarily utilising mass spectrometry techniques, offers a powerful tools for examining proteins and their interplay. This can provide valuable insights into irregularities associated with infectious diseases and potentially uncover mechanisms of drug resistance. Examples of tools in this type of analysis are:
+  - Mass Spectrometry Data Extraction Software
+   - {% tool "readw" %}
+  - Search Algorithms
+   - {% tool "x-tandem" %}
+   - {% tool "omssa" %}
+   - {% tool "maxquant" %}
+  - Statistical Validation
+   - {% tool "peparml" %}
+  - Quantitative Tools
+   - {% tool "apex" %}
+   - {% tool "maxquant" %}
 
-Using a bullet point style list format as much as possible, describe what should be taken into account (i.e. what considerations you should have) for the topic being covered on this page, specifically with regard to infectious diseases in the broader category selected (e.g. pathogen characterisation). This could be, for example; which features are important to consider when selecting data sources?  What capabilities are important when defining tools to be used for quality control? What are general characteristics that you should look for in data standards for human biomolecular data. The considerations provided here should help to justify the existing approaches/solutions described in the next section. 
+- **Metabolomics analysis**: This involves measuring the levels of small molecules (metabolites) produced by specific pathogens in biological samples, comparing them across different conditions or groups of samples. Examples of tools in this type of analysis are:
+  - Mass Spectrometry Software:
+   - {% tool "xcms" %}
+   - {% tool "metaboanalyst" %}
+  - NMR Spectroscopy Software:
+   - {% tool "chenomx" %}
+  - Data Processing:
+   - {% tool "xcms" %}
+   - {% tool "mzmine" %}
+   - {% tool "openms" %}
 
-Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases, here. Add links to RDMkit in the metadata above, if any are needed. Links to other sources can also be provided in text as needed.
+## Postprocessing
+In pathogen characterisation, the postprocessing steps are crucial to evaluate and interpret the results. These steps are important to identify strain relationships and specific molecular variation patterns linked to peculiar phenotypes of pathogens (e.g. drug resistance, virulence, and transmission rate). Such results must be biologically meaningful and reproducible, considering also the clinical aspects and treatment implications.
 
-### Existing approaches <!---This should not be replaced as these are existing approaches for concrete topic 1--->
+### Considerations
 
-Using a bullet point list style as much as possible, describe when, why and for what purpose a specific tool or resource should be used.
+Some considerations about postprocessing steps in pathogen characterization include:
+- **Interpretation**: it is important to interpret them in a biologically meaningful context. This should consider the following aspects: report the variability of specific pathogens; find out new strains that could become concerning; identify specific genes or mutations associated with pathogenic variation.
+- **Transformation**: Consider having postprocessing steps to ensure that outputs are transformed or converted into interoperable and open formats. This ensures that subsequent pipelines and collaborators can readily make use of the results. 
+- **Visualisation**: To allow a clear interpretation of the clinical practice, it is important to visualise the results clearly, to make the results clear also to all professionals involved.
 
-Please avoid replicating 'generic' guidelines, i.e. those not specific to infectious diseases.
+### Existing approaches
 
-Avoid making long lists of links to tools and resources. The IDTk does not aim to list all possible approaches and solutions. The focus is on contextualised best practices approaches.
+- **Spatial-temporal analysis and visualisation**: using a combined approach of phylogenetic, spatial distribution, and molecular clock, this approach aids in designing strategies to control and prevent the spread of infectious diseases, as well as in the development of effective treatments, and vaccines.
+  - Spatial distribution of strain: {% tool "nextstrain" %}
+- **Drug resistance characterisation**: genomic analysis can be used to characterise pathogens for specific resistance against drugs and help develop strategies to fight the spread of drug-resistant strains.
+  - Antimicrobial resistance (AMR):
+    - {% tool "resfinder" %}
+    - {% tool "pathogenwatch" %}
+  - Viral drug resistance:
+    - {% tool "hivdb-stanford" %} 
+- **Interaction analysis and functional enrichment analysis**: placing the identified protein interactions and regulatory networks in the context of the affected biological pathways allows for a better understanding of disease mechanisms and potential drug targets.
+  - Network analysis:
+    - {% tool "cytoscape" %}
+    - {% tool "celldesigner" %}
+  - Gene enrichment analysis:
+    - {% tool "enrichr" %}
+    - {% tool "go" %}
+    - {% tool "g-profiler" %}
+  - Interaction Databases:
+    - {% tool "biogrid" %}
+    - {% tool "intact" %}
+  - Integrative diagrams:
+    -  A [disease map](https://disease-maps.org/) can be used to represent a conceptual model of the molecular mechanisms of a disease. An example is the {% tool "covid19map" %}.
 
-The tools or resources inserted in this section do not have to be considered a 'final' or 'perfect' solution, but should be something that is used by the wider community working in this area or topic. The existing approaches should also reflect the considerations mentioned in the “Considerations” subheading.
+## Data analysis of wastewater surveillance for infectious diseases
 
-Make sure to add to the Tools and resources list table all of the tools and resources mentioned in the text
+Wastewater surveillance has emerged as a valuable tool for monitoring infectious diseases, providing a non-invasive method to track the spread of pathogens within communities. This approach has gained significant attention during the COVID-19 pandemic, particularly for detecting and analysing SARS-CoV-2 variants. By analysing wastewater samples, researchers can identify the presence and prevalence of infectious agents, offering insights into public health trends. Here we focus on the analysis of wastewater with an emphasis on SARS-CoV-2. 
 
-## Concrete topic 2 <!---REPLACE THIS with the name of the topic. Example: Metadata harmonisation--->
+### Considerations
 
-Follow the same guidelines as in Concrete topic 1
+Even though the considerations for this specific field are very similar to the ones described in the previous paragraphs, there are some approaches that are used in the context of wastewater surveillance.
 
-### Considerations <!---This should not be replaced as these are considerations about concrete topic 1--->
+### Existing approaches
 
-Follow the same guidelines as in Concrete topic 1
-
-### Existing approaches <!---This should not be replaced as these are existing approaches for concrete topic 1--->
-
-Follow the same guidelines as in Concrete topic 1
-
-<!---add as many topics as need, following the same structure of topic title, Considerations, Existing approaches--->
-
-<!---Information about contributors will be added to the CONTRIBUTORS.yaml . Further instructions can be found at https://www.infectious-diseases-toolkit.org/contribute/editorial-board-guide#adding-extra-info-to-the-contributors --->
-
+Several tools and workflows have been developed or adapted for the analysis of wastewater data, especially in the context of SARS-CoV-2 surveillance:
+ - Specific Tools for SARS-CoV-2

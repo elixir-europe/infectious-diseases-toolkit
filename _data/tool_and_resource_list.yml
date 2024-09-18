@@ -1120,3 +1120,25 @@
   name: BEAUti
   url: https://beast.community/beauti.html
   regsitry:
+- description: QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package with a focus on data and analysis transparency.
+  id: qiime2
+  name: QIIME 2
+  url: https://docs.qiime2.org/
+  regsitry:
+- description: MEGAHIT is an ultra-fast and memory-efficient NGS assembler optimized for metagenomes.
+  id: megahit
+  name: MEGAHIT
+  url: https://github.com/voutcn/megahit
+  regsitry:
+    biotools: megahit
+- description: A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds.
+  id: kraken2
+  name: Kraken 2
+  url: https://ccb.jhu.edu/software/kraken2/
+  regsitry:
+    biotools: kraken2
+- description: The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence.
+  id: covid19map
+  name: COVID19 Disease Map
+  url: https://covid19map.elixir-luxembourg.org/
+  regsitry:
