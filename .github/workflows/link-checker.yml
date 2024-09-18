@@ -28,19 +28,18 @@ jobs:
       - name: Build with Jekyll
           # Outputs to the './_site' directory by default
         run: |
-            bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+            bundle exec jekyll build
         env:
             PAGES_REPO_NWO: ${{ github.repository }}
             JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
             JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v1
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
-            args: --fallback-extensions .html  _site/
+            args: _site/
             # Don't fail action on broken links
             fail: false
 
