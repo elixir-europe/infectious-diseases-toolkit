@@ -111,7 +111,7 @@ The analysis of data to characterise a pathogen of interest can involve methodol
 ### Existing approaches
 
 There are several types of analysis that can be performed on pathogen-related data, depending on the specific research question and type of data being analysed. Here are some solutions:
-- Consider using the available computational infrastructure to scale up your analysis capabilities. This may include applying for access to large computing cluster resources with e.g. {% tool ëurohpc"%} or making use of public Galaxy servers such as {% tool "galaxy-europe" %}.
+- Consider using the available computational infrastructure to scale up your analysis capabilities. This may include applying for access to large computing cluster resources with e.g. {% tool "eurohpc"%} or making use of public Galaxy servers such as {% tool "galaxy-europe" %}.
 - **Genomic analysis**: Including whole genome sequencing (WGS), this analysis allows the interpretation of genetic information encoded along the genome (DNA or RNA). Genomic analysis can be used for a wide range of applications to characterise many aspects of pathogen variability, such as Variants of Concern (VOC) and antimicrobial resistance profiles in bacteria (AMR). Examples of tools that allow us to take into account the genomic characteristics of pathogens (e.g. genomic structure and size, gene annotations, mobile genetic elements) are:
   - Sequence Alignment
     - {% tool "bowtie2" %}
