@@ -44,9 +44,7 @@ jobs:
 
       # Create or Update the issue based on the link check result
       - name: Update Comment From File
-        uses: create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@v4
         with:
             comment-id: 2531398005
-            title: Link Checker Report
             body-path: ./lychee/out.md
-            labels: report, automated issue
