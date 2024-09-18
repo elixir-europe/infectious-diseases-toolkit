@@ -1,5 +1,6 @@
 ---
 title: National resources
+toc: false
 ---
 
 The national resources pages provide a general overview of resources, tools, and information related to the management of infectious disease data in a given country. The aim of these pages is ultimately to promote greater information exchange between countries so that all can benefit from each other's experiences. In particular, we hope that the descriptions of initiatives and resources developed in one country can provide valuable insights for others looking to create similar solutions for their own needs.

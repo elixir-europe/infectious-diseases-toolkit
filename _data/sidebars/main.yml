@@ -26,6 +26,8 @@ subitems:
     description: Finding (meta)data standards and documentation
     image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
+      - title: Human clinical and health data
+        url: /data-description/human-clinical-and-health-data
       - title: Pathogen characterisation
         url: /data-description/pathogen-characterisation
 
@@ -76,6 +78,10 @@ subitems:
     subitems:
       - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
         url:  /showcase/covid19-galaxy
+      - title: An automated pipeline for analysing brain autoradiography images
+        url:  /showcase/brain-autoradiography
+      - title: Knowledge Graph Generator
+        url: /showcase/knowledge-graph-generator
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
       - title: "Prevalence study of SARS-CoV-2 in Estonia: lessons learned"
