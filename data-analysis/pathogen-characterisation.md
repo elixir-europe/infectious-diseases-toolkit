@@ -26,11 +26,8 @@ fairsharing:
   - name: <!---the title of the FAIR Sharing entry--->
     url: <!---the full URL of the FAIR Sharing entry--->
 
-# More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
+
 ---
-
-<!-- Please take in mind our style guide https://www.infectious-diseases-toolkit.org/contribute/style-guide when writing the content of this page. -->
-
 ## Introduction 
 
 Data analysis for pathogen characterization allows us to understand the evolution of pathogens, and the relationship among different strains and provides insights on host-pathogen interactions and drug resistance. The tasks can involve processing data collected from a diverse spectrum of sources, from both clinical and environmental samples. As in every data analysis procedure, the general workflow involves:
@@ -50,7 +47,7 @@ Scalable and reproducible data analysis activities enable rapid surveillance of 
 
 When analysing pathogen data involved in a health emergency or epidemic outbreak are:
 - Define the pathogen and specific aspects to be investigated, e.g. genomic features of interest
-- Collect the suitable reference data about the pathogen of interest, preferentially from community-accepted repositories, e.g. ENA, GISAID. It is worth noting that the right reference should be chosen taking into account mutation features, time of isolation, classification, phenotype, and genomic structure.
+- Collect the suitable reference data about the pathogen of interest, preferentially from community-accepted repositories, e.g. {% tool "european-nucleotide-archive" %} and {% tool "gisaid" %}. It is worth noting that the right reference should be chosen taking into account mutation features, time of isolation, classification, phenotype, and genomic structure.
 - Before analysing the data, define which specific aspect of the pathogen’s variability will be investigated. For example, if your aim is to describe the whole variability along the genome, the data should be compared with the whole reference genome.  
 - Define the type of data you are using, e.g. DNA or RNAseq for viral genome characterisation
 - Select the tools best suited for the analysis of your data
@@ -113,68 +110,29 @@ The analysis of data to characterise a pathogen of interest can involve methodol
 There are several types of analysis that can be performed on pathogen-related data, depending on the specific research question and type of data being analysed. Here are some solutions:
 - Consider using the available computational infrastructure to scale up your analysis capabilities. This may include applying for access to large computing cluster resources with e.g. {% tool "eurohpc"%} or making use of public Galaxy servers such as {% tool "galaxy-europe" %}.
 - **Genomic analysis**: Including whole genome sequencing (WGS), this analysis allows the interpretation of genetic information encoded along the genome (DNA or RNA). Genomic analysis can be used for a wide range of applications to characterise many aspects of pathogen variability, such as Variants of Concern (VOC) and antimicrobial resistance profiles in bacteria (AMR). Examples of tools that allow us to take into account the genomic characteristics of pathogens (e.g. genomic structure and size, gene annotations, mobile genetic elements) are:
-  - Sequence Alignment
-    - {% tool "bowtie2" %}
-    - {% tool "bwa" %}
-    - {% tool "samtools" %}
-  - Genome Assembly
-    - {% tool "canu"%}
-    - {% tool "velvet" %}
-    - {% tool "spades" %}
-  - Phylogenetic Analysis
-    - {% tool "clustalw" %}
-    - {% tool "muscle" %}
-    - {% tool "mafft" %}
-    - {% tool "raxml" %}
-    - {% tool "iqtree" %}
-  - Molecular Clock
-    - {% tool "mrbayes" %}
-    - {% tool "beast" %}
-    - {% tool "beauti" %}
-  - Variant calling
-    - {% tool "dragen-gatk" %}
-    - {% tool "freebayes" %}
-    - {% tool "varscan" %}
-  - Annotation
-    - {% tool "annovar" %}
-    - {% tool "snpeff" %}
-    - {% tool "vep" %}
-    - {% tool "dbnsfp" %}
-  - All-in-one Bioinformatic Tools
-    - {% tool "snippy" %}
+  - Sequence Alignment: {% tool "bowtie2" %}, {% tool "bwa" %} and {% tool "samtools" %}
+  - Genome Assembly: {% tool "canu"%}, {% tool "velvet" %} and {% tool "spades" %}
+  - Phylogenetic Analysis: {% tool "clustalw" %}, {% tool "muscle" %}, {% tool "mafft" %}, {% tool "raxml" %} and {% tool "iqtree" %}
+  - Molecular Clock: {% tool "mrbayes" %}, {% tool "beast" %} and {% tool "beauti" %}
+  - Variant calling: {% tool "dragen-gatk" %}, {% tool "freebayes" %} and {% tool "varscan" %}
+  - Annotation: {% tool "annovar" %}, {% tool "snpeff" %}, {% tool "vep" %} and {% tool "dbnsfp" %}
+  - All-in-one Bioinformatic Tools: {% tool "snippy" %}
 
 - **Metagenomics analysis**: Sequencing all genetic material in a sample can provide comprehensive data about the composition of the microbial community. In the context of infectious diseases, it can aid in identifying multiple pathogens simultaneously in clinical, as well as environmental samples. Examples of tools in this type of analysis are:
-  - 16S rRNA sequencing
-    - {% tool "qiime2" %}
-  - Shotgun sequencing
-    - {% tool "spades" %}
-    - {% tool "megahit" %}
-  - Assigning taxonomic labels
-    - {% tool "kraken2" %}
+  - 16S rRNA sequencing: {% tool "qiime2" %}
+  - Shotgun sequencing: {% tool "spades" %}, and {% tool "megahit" %}
+  - Assigning taxonomic labels: {% tool "kraken2" %}
 
 - **Proteomics analysis**: Proteomics, primarily utilising mass spectrometry techniques, offers a powerful tools for examining proteins and their interplay. This can provide valuable insights into irregularities associated with infectious diseases and potentially uncover mechanisms of drug resistance. Examples of tools in this type of analysis are:
-  - Mass Spectrometry Data Extraction Software
-   - {% tool "readw" %}
-  - Search Algorithms
-   - {% tool "x-tandem" %}
-   - {% tool "omssa" %}
-   - {% tool "maxquant" %}
-  - Statistical Validation
-   - {% tool "peparml" %}
-  - Quantitative Tools
-   - {% tool "apex" %}
-   - {% tool "maxquant" %}
+  - Mass Spectrometry Data Extraction Software: {% tool "readw" %}
+  - Search Algorithms: {% tool "x-tandem" %}, {% tool "omssa" %} and {% tool "maxquant" %}
+  - Statistical Validation: {% tool "peparml" %}
+  - Quantitative Tools: {% tool "apex" %} and {% tool "maxquant" %}
 
 - **Metabolomics analysis**: This involves measuring the levels of small molecules (metabolites) produced by specific pathogens in biological samples, comparing them across different conditions or groups of samples. Examples of tools in this type of analysis are:
-  - Mass Spectrometry Software:
-   - {% tool "xcms" %}
-   - {% tool "metaboanalyst" %}
-  - NMR Spectroscopy Software:
-   - {% tool "chenomx" %}
-  - Data Processing:
-   - {% tool "xcms" %}
-   - {% tool "mzmine" %}
-   - {% tool "openms" %}
+  - Mass Spectrometry Software: {% tool "xcms" %} and {% tool "metaboanalyst" %}
+  - NMR Spectroscopy Software: {% tool "chenomx" %}
+  - Data Processing: {% tool "xcms" %}, {% tool "mzmine" %} and {% tool "openms" %}
 
 ## Postprocessing
 In pathogen characterisation, the postprocessing steps are crucial to evaluate and interpret the results. These steps are important to identify strain relationships and specific molecular variation patterns linked to peculiar phenotypes of pathogens (e.g. drug resistance, virulence, and transmission rate). Such results must be biologically meaningful and reproducible, considering also the clinical aspects and treatment implications.
@@ -191,22 +149,12 @@ Some considerations about postprocessing steps in pathogen characterization incl
 - **Spatial-temporal analysis and visualisation**: using a combined approach of phylogenetic, spatial distribution, and molecular clock, this approach aids in designing strategies to control and prevent the spread of infectious diseases, as well as in the development of effective treatments, and vaccines.
   - Spatial distribution of strain: {% tool "nextstrain" %}
 - **Drug resistance characterisation**: genomic analysis can be used to characterise pathogens for specific resistance against drugs and help develop strategies to fight the spread of drug-resistant strains.
-  - Antimicrobial resistance (AMR):
-    - {% tool "resfinder" %}
-    - {% tool "pathogenwatch" %}
-  - Viral drug resistance:
-    - {% tool "hivdb-stanford" %} 
+  - Antimicrobial resistance (AMR): {% tool "resfinder" %} and {% tool "pathogenwatch" %}
+  - Viral drug resistance: {% tool "hivdb-stanford" %} 
 - **Interaction analysis and functional enrichment analysis**: placing the identified protein interactions and regulatory networks in the context of the affected biological pathways allows for a better understanding of disease mechanisms and potential drug targets.
-  - Network analysis:
-    - {% tool "cytoscape" %}
-    - {% tool "celldesigner" %}
-  - Gene enrichment analysis:
-    - {% tool "enrichr" %}
-    - {% tool "go" %}
-    - {% tool "g-profiler" %}
-  - Interaction Databases:
-    - {% tool "biogrid" %}
-    - {% tool "intact" %}
+  - Network analysis: {% tool "cytoscape" %} and {% tool "celldesigner" %}
+  - Gene enrichment analysis: {% tool "enrichr" %}, {% tool "go" %} and {% tool "g-profiler" %}
+  - Interaction Databases: {% tool "biogrid" %} and {% tool "intact" %}
   - Integrative diagrams:
     -  A [disease map](https://disease-maps.org/) can be used to represent a conceptual model of the molecular mechanisms of a disease. An example is the {% tool "covid19map" %}.
 
@@ -221,16 +169,15 @@ Even though the considerations for this specific field are very similar to the o
 ### Existing approaches
 
 Several tools and workflows have been developed or adapted for the analysis of wastewater data, especially in the context of SARS-CoV-2 surveillance:
- - Specific Tools for SARS-CoV-2: Certain tools (such as {% tool "freyja"%}, {% tool "cojac"%}, and {% tool "lineagespot" %}) are specifically designed for analysing SARS-CoV-2 data, providing capabilities such as variant detection and lineage tracking.
- - Repurposed Tools: Originally developed for other types of genomic data, tools like {% tool "kallisto" %} or {% tool "kraken2" %}, have been successfully applied to wastewater data analysis, offering high performance in read alignment and taxonomic classification.
-- In addition, here are several bioinformatics protocols and solutions that could be used in the context of wastewater NGS data analysis.
-  - Tools and repositories:
-    - {% tool "pigxs" %}: provides a comprehensive solution for sequencing and analysing SARS-CoV-2 in wastewater.
-    - Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples [medRxiv](https://www.medrxiv.org/content/10.1101/2021.01.08.21249379v2): COWWID: A GitHub repository from the CBG-ETHZ group offering tools for detecting SARS-CoV-2 variants in Switzerland
-    - [CDC Module 2.7](https://www.cdc.gov/amd/training/covid-toolkit/module2-7.html): Wastewater based variant tracking for SARS-CoV-2
-    - The Public Health Alliance for Genomic Epidemiology GitHub organization makes available a mapping to the {% tool "european-nucleotide-archive" %}: {% tool "sars-pha4ge" %}
-    - {% tool "phes-odm" %} as an open data model for wastewater surveillance
-    - Viral Lineage Quantification (VLQ), Kallisto-Approach: [Lineage abundance estimation for SARS-CoV-2 in wastewater using transcriptome quantification techniques](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02805-9) and corresponding repository at {% tool "vlq" %}
+ - **Specific Tools for SARS-CoV-2**: Certain tools (such as {% tool "freyja"%}, {% tool "cojac"%}, and {% tool "lineagespot" %}) are specifically designed for analysing SARS-CoV-2 data, providing capabilities such as variant detection and lineage tracking.
+ - **Repurposed Tools**: Originally developed for other types of genomic data, tools like {% tool "kallisto" %} or {% tool "kraken2" %}, have been successfully applied to wastewater data analysis, offering high performance in read alignment and taxonomic classification.
+- In addition, here are **several bioinformatics protocols and solutions** that could be used in the context of wastewater next-generation sequencing (NGS) data analysis.
+  - {% tool "pigxs" %}: provides a comprehensive solution for sequencing and analysing SARS-CoV-2 in wastewater.
+  - Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples [medRxiv](https://www.medrxiv.org/content/10.1101/2021.01.08.21249379v2): COWWID: A GitHub repository from the CBG-ETHZ group offering tools for detecting SARS-CoV-2 variants in Switzerland
+  - [CDC Module 2.7](https://www.cdc.gov/amd/training/covid-toolkit/module2-7.html): Wastewater based variant tracking for SARS-CoV-2
+  - The Public Health Alliance for Genomic Epidemiology GitHub organization makes available a mapping to the {% tool "european-nucleotide-archive" %}: {% tool "sars-pha4ge" %}
+  - {% tool "phes-odm" %} as an open data model for wastewater surveillance
+  - Viral Lineage Quantification (VLQ), Kallisto-Approach: [Lineage abundance estimation for SARS-CoV-2 in wastewater using transcriptome quantification techniques](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02805-9) and corresponding repository at {% tool "vlq" %}
   - [Performance benchmark of tools](https://peerj.com/articles/14596/), evaluating tools like Kraken2, Kallisto, Freyja, implemented in C-WAP pipeline. , implemented in {% tool "c-wap" %}
   - Wastewater quality control workflow in GalaxyTrakr [(SSquAWK4)](dx.doi.org/10.17504/protocols.io.kxygxzk5dv8j/v9). Further quality control aspects are discussed in the [Quality Control - Pathogen Characterisation page](/quality-control/pathogen-characterisation)
   - ECDC [Guidance document](https://www.ecdc.europa.eu/sites/default/files/documents/Guidance-for-representative-and-targeted-genomic-SARS-CoV-2-monitoring-updated-with%20erratum-20-May-2021.pdf) for representative and targeted genomic SARS-CoV-2 monitoring
