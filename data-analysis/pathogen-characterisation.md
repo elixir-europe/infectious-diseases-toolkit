@@ -19,14 +19,6 @@ training:
 rdmkit:
   - name: Data Analysis
     url: https://rdmkit.elixir-europe.org/data_analysis
-faircookbook:
-  - name: <!---the title of the FAIR Cookbook recipe--->
-    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
-fairsharing:
-  - name: <!---the title of the FAIR Sharing entry--->
-    url: <!---the full URL of the FAIR Sharing entry--->
-
-
 ---
 ## Introduction 
 
