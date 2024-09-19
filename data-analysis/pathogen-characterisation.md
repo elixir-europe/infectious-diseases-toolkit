@@ -178,7 +178,7 @@ Several tools and workflows have been developed or adapted for the analysis of w
   - The Public Health Alliance for Genomic Epidemiology GitHub organization makes available a mapping to the {% tool "european-nucleotide-archive" %}: {% tool "sars-pha4ge" %}
   - {% tool "phes-odm" %} as an open data model for wastewater surveillance
   - Viral Lineage Quantification (VLQ), Kallisto-Approach: [Lineage abundance estimation for SARS-CoV-2 in wastewater using transcriptome quantification techniques](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02805-9) and corresponding repository at {% tool "vlq" %}
-  - [Performance benchmark of tools](https://peerj.com/articles/14596/), evaluating tools like Kraken2, Kallisto, Freyja, implemented in C-WAP pipeline. , implemented in {% tool "c-wap" %}
+  - [Performance benchmark of tools](https://peerj.com/articles/14596/), evaluating tools like Kraken2, Kallisto, Freyja, implemented in {% tool "c-wap" %} 
   - Wastewater quality control workflow in GalaxyTrakr [(SSquAWK4)](dx.doi.org/10.17504/protocols.io.kxygxzk5dv8j/v9). Further quality control aspects are discussed in the [Quality Control - Pathogen Characterisation page](/quality-control/pathogen-characterisation)
   - ECDC [Guidance document](https://www.ecdc.europa.eu/sites/default/files/documents/Guidance-for-representative-and-targeted-genomic-SARS-CoV-2-monitoring-updated-with%20erratum-20-May-2021.pdf) for representative and targeted genomic SARS-CoV-2 monitoring
 
