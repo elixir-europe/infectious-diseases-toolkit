@@ -1142,3 +1142,57 @@
   name: COVID19 Disease Map
   url: https://covid19map.elixir-luxembourg.org/
   regsitry:
+- description: Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).
+  id: freyja
+  name: Freyja
+  url: https://github.com/andersen-lab/Freyja
+  regsitry:
+    biotools: freyja
+- description: The cojac package comprises a set of command-line tools to analyse co-occurrence of mutations on amplicons.
+  id: cojac
+  name: COJAC
+  url: https://github.com/cbg-ethz/cojac
+  regsitry:
+    biotools: cojac
+- description: Lineagespot is a framework written in R, and aims to identify SARS-CoV-2 related mutations based on a single (or a list) of variant(s) file(s).
+  id: lineagespot
+  name: Lineagespot
+  url: https://github.com/BiodataAnalysisGroup/lineagespot
+  regsitry:
+    biotools: lineagespot
+- description: Kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
+  id: kallisto
+  name: Kallisto
+  url: https://pachterlab.github.io/kallisto/about.html
+  regsitry:
+    biotools: kallisto
+- description: PiGx SARS-CoV-2 is a pipeline for analysing data from sequenced wastewater samples and identifying given lineages of SARS-CoV-2.
+  id: pigxs
+  name: PiGx SARS-CoV-2 Wastewater Sequencing Pipeline
+  url: https://github.com/BIMSBbioinfo/pigx_sars-cov-2
+  regsitry:
+- description: A GitHub repository from the CBG-ETHZ group offering tools for detecting SARS-CoV-2 variants in Switzerland.
+  id: cowwid
+  name: COWWID
+  url: https://github.com/cbg-ethz/cowwid
+  regsitry:
+- description: A SARS-CoV-2 Contextual Data Specification from PHA4GE.
+  id: sars-pha4ge
+  name: SARS-CoV-2 Contextual Data Specification
+  url: https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification
+  regsitry:
+- description: A data model to improve wastewater surveillance through interoperable data.
+  id: phes-odm
+  name: PHES-ODM
+  url: https://github.com/Big-Life-Lab/PHES-ODM
+  regsitry:
+- description: A pipeline for lineage abundance estimation from wastewater sequencing data.
+  id: vlq
+  name: VLQ
+  url: https://github.com/baymlab/wastewater_analysis
+  regsitry:
+- description: CFSAN Wastewater Analysis Pipeline to estimate the percentage of SARS-CoV-2 variants in a sample.
+  id: c-wap
+  name: C-WAP
+  url: https://github.com/CFSAN-Biostatistics/C-WAP
+  regsitry:

@@ -221,4 +221,24 @@ Even though the considerations for this specific field are very similar to the o
 ### Existing approaches
 
 Several tools and workflows have been developed or adapted for the analysis of wastewater data, especially in the context of SARS-CoV-2 surveillance:
- - Specific Tools for SARS-CoV-2
+ - Specific Tools for SARS-CoV-2: Certain tools (such as {% tool "freyja"%}, {% tool "cojac"%}, and {% tool "lineagespot" %}) are specifically designed for analysing SARS-CoV-2 data, providing capabilities such as variant detection and lineage tracking.
+ - Repurposed Tools: Originally developed for other types of genomic data, tools like {% tool "kallisto" %} or {% tool "kraken2" %}, have been successfully applied to wastewater data analysis, offering high performance in read alignment and taxonomic classification.
+- In addition, here are several bioinformatics protocols and solutions that could be used in the context of wastewater NGS data analysis.
+  - Tools and repositories:
+    - {% tool "pigxs" %}: provides a comprehensive solution for sequencing and analysing SARS-CoV-2 in wastewater.
+    - Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples [medRxiv](https://www.medrxiv.org/content/10.1101/2021.01.08.21249379v2): COWWID: A GitHub repository from the CBG-ETHZ group offering tools for detecting SARS-CoV-2 variants in Switzerland
+    - [CDC Module 2.7](https://www.cdc.gov/amd/training/covid-toolkit/module2-7.html): Wastewater based variant tracking for SARS-CoV-2
+    - The Public Health Alliance for Genomic Epidemiology GitHub organization makes available a mapping to the {% tool "european-nucleotide-archive" %}: {% tool "sars-pha4ge" %}
+    - {% tool "phes-odm" %} as an open data model for wastewater surveillance
+    - Viral Lineage Quantification (VLQ), Kallisto-Approach: [Lineage abundance estimation for SARS-CoV-2 in wastewater using transcriptome quantification techniques](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02805-9) and corresponding repository at {% tool "vlq" %}
+  - [Performance benchmark of tools](https://peerj.com/articles/14596/), evaluating tools like Kraken2, Kallisto, Freyja, implemented in C-WAP pipeline. , implemented in {% tool "c-wap" %}
+  - Wastewater quality control workflow in GalaxyTrakr [(SSquAWK4)](dx.doi.org/10.17504/protocols.io.kxygxzk5dv8j/v9). Further quality control aspects are discussed in the [Quality Control - Pathogen Characterisation page](/quality-control/pathogen-characterisation)
+  - ECDC [Guidance document](https://www.ecdc.europa.eu/sites/default/files/documents/Guidance-for-representative-and-targeted-genomic-SARS-CoV-2-monitoring-updated-with%20erratum-20-May-2021.pdf) for representative and targeted genomic SARS-CoV-2 monitoring
+
+
+
+
+
+
+
+
