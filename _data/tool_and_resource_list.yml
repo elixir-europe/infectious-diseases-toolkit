@@ -187,12 +187,6 @@
     biotools: deseq2
     tess: DESeq2
   url: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
-- description: DMP online is an online planning tool to help you write an effective DMP based on an institutional or funder template.
-  id: dmp-online
-  name: DMP Online
-  registry:
-    tess: DMP Online
-  url: https://dmptool.org/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -250,12 +244,6 @@
   id: ena-webin-cli
   name: ENA Webin CLI
   url: https://toolshed.g2.bx.psu.edu/repository?repository_id=dfa4f0fc31027b52
-- description: Functional Enrichment Analysis and Network Construction
-  id: enrichr
-  name: Enrichr
-  registry:
-    biotools: enrichr
-  url: https://github.com/guokai8/EnrichR
 - description: The Estonian Biobank has established a population-based biobank of Estonia with a current cohort size of more than 200,000 individuals (genotyped with genome-wide arrays), reflecting the age, sex and geographical distribution of the adult Estonian population. Considering the fact that about 20% of Estonia's adult population has joined the programme, it is indeed a database that is very important for the development of medical science both domestically and internationally.
   id: estonian-biobank
   name: Estonian Biobank
@@ -302,7 +290,7 @@
   url: https://github.com/freebayes/freebayes
 - description: The metadata model for GA4GH, an international coalition of both public and private interested parties, formed to enable the sharing of genomic and clinical data.
   id: ga4gh
-  name: GA4GH
+  name: Global Alliance for Genomics and Health (GA4GH)
   registry:
     biotools: ga4gh
     fairsharing: 2tpx4v
@@ -512,7 +500,7 @@
   url: http://mzmine.github.io/
 - description: The National Center for Biotechnology Information advances science and health by providing access to biomedical and genomic information.
   id: ncbi
-  name: NCBI
+  name: National Center for Biotechnology Information (NCBI)
   registry:
     tess: NCBI
   url: https://www.ncbi.nlm.nih.gov/
