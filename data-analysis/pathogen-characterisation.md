@@ -1,6 +1,6 @@
 ---
 title: Pathogen characterisation
-description: Generic workflows for different data types.
+description: Analysing Pathogen related data.
 contributors: [Eva Garcia Alvarez, Francesco Messina, Fotis Psomopoulos, Rafael Andrade Buono]
 page_id: pc_data_analysis
 redirect_from: /pathogen-characterisation/data-analysis
