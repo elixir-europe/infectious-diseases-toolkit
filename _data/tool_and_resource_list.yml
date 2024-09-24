@@ -294,7 +294,7 @@
   registry:
     biotools: ga4gh
     fairsharing: 2tpx4v
-    tess: GA4GH
+    tess: Global Alliance for Genomics and Health (GA4GH)
   url: https://github.com/ga4gh/schemas
 - description: Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
   id: galaxy
@@ -501,8 +501,6 @@
 - description: The National Center for Biotechnology Information advances science and health by providing access to biomedical and genomic information.
   id: ncbi
   name: National Center for Biotechnology Information (NCBI)
-  registry:
-    tess: NCBI
   url: https://www.ncbi.nlm.nih.gov/
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
@@ -665,7 +663,7 @@
   registry:
     biotools: xcms_online
   url: https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage
-- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN. 
+- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN.
   id: zenodo
   name: Zenodo
   registry:
@@ -1001,38 +999,55 @@
 - description: Pure Python package for parsing and handling biological networks encoded in the Biological Expression Language (BEL).
   id: pybel
   name: PyBEL
+  registry:
+    biotools: pybel
   url: https://github.com/pybel/pybel
 - description: The OpenBEL Framework is an open-platform technology for managing, publishing, and using biological knowledge represented using the Biological Expression Language (BEL).
   id: openbel
   name: OpenBEL
   url: https://github.com/OpenBEL/openbel-framework
-- description: Velvet is an algorithm package that has been designed to deal with de novo genome assembly and short read sequencing alignments.  
+- description: Velvet is an algorithm package that has been designed to deal with de novo genome assembly and short read sequencing alignments.
   id: velvet
   name: Velvet
+  registry:
+    biotools: velvet
+    tess: Velvet
   url: https://github.com/dzerbino/velvet
 - description: A tool for Phylogenetic Analysis and Post-Analysis of Large Phylogenies
   id: raxml
   name: RAxML
+  registry:
+    biotools: raxml
   url: https://github.com/stamatak/standard-RAxML
 - description: IQ-TREE is designed to efficiently handle large phylogenomic datasets, utilize multicore and distributed parallel computing for faster analysis, and automatically resume interrupted analyses through checkpointing.
   id: iqtree
   name: IQtree
+  registry:
+    biotools: iqtree
   url: https://github.com/iqtree/iqtree2
 - description: MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.
   id: mrbayes
   name: MrBayes
+  registry:
+    biotools: mrbayes
   url: https://nbisweden.github.io/MrBayes/
 - description: BEAST is a cross-platform program for Bayesian phylogenetic analysis, estimating rooted, time-measured phylogenies using strict or relaxed molecular clock models. It uses Markov chain Monte Carlo (MCMC) to average over tree space and includes a graphical user interface for setting up analyses and tools for result analysis.
   id: beast
   name: BEAST
+  registry:
+    biotools: beast
   url: https://www.beast2.org/
 - description: Rapid haploid variant calling and core genome alignment.
   id: snippy
   name: SNippy
+  registry:
+    biotools: snippy
   url: https://github.com/tseemann/snippy
 - description: Convert ThermoFinningan RAW mass spectrometry files to the mzXML format.
   id: readw
   name: ReAdW
+  registry:
+    biotools: readw
   url: https://github.com/PedrioliLab/ReAdW
 - description: X! Tandem open source is software that can match tandem mass spectra with peptide sequences, in a process that has come to be known as protein identification.
   id: x-tandem
@@ -1041,29 +1056,35 @@
 - description: OMSSA (Open Mass Spectrometry Search Algorithm) is a tool to identify peptides in tandem mass spectrometry (MS/MS) data. The OMSSA algorithm uses a classic probability score to compute specificity. See also The NCBI C++ Toolkit and The NCBI C++ Toolkit Book.
   id: omssa
   name: OMSSA
+  registry:
+    biotools: omssa
   url: https://ftp.ncbi.nlm.nih.gov/pub/lewisg/omssa/
 - description: MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data.
   id: maxquant
   name: MAXQUANT
-  url:  https://www.maxquant.org/
-- description: Absolute protein expression Quantitative Proteomics Tool, is a free and open source Java implementation of the APEX technique for the quantitation of proteins based on standard LC- MS/MS proteomics data. 
+  registry:
+    biotools: maxquant
+    tess: MAXQUANT
+  url: https://www.maxquant.org/
+- description: Absolute protein expression Quantitative Proteomics Tool, is a free and open source Java implementation of the APEX technique for the quantitation of proteins based on standard LC- MS/MS proteomics data.
   id: apex
   name: apex
-  url: http://sourceforge.net/projects/apexqpt/
-  regsitry:
+  registry:
     biotools: apex
-- description: Framework for processing and visualization of chromatographically separated and single-spectra mass spectral data. 
+  url: http://sourceforge.net/projects/apexqpt/
+- description: Framework for processing and visualization of chromatographically separated and single-spectra mass spectral data.
   id: xcms
   name: xcms
-  url: http://bioconductor.org/packages/release/bioc/html/xcms.html
-  regsitry:
+  registry:
     biotools: xcms
+    tess: xcms
+  url: http://bioconductor.org/packages/release/bioc/html/xcms.html
 - description: A Meta-Search Peptide Identification Platform for Tandem Mass Spectra
   id: peparml
   name: PepArMl
-  url: https://peparml.sourceforge.net/
-  regsitry:
+  registry:
     biotools: peparml
+  url: https://peparml.sourceforge.net/
 - description: A commercial software package for NMR spectral processing that offers a semi-automated tool for spectral deconvolution, enabling interactive fitting of metabolite peaks to reference spectra and quantifying their concentrations.
   id: chenomx
   name: Chenomx
@@ -1071,59 +1092,61 @@
 - description: ResFinder identifies acquired genes and/or finds chromosomal mutations mediating antimicrobial resistance in total or partial DNA sequence of bacteria.
   id: resfinder
   name: ResFinder
-  url: http://genepi.food.dtu.dk/resfinder
-  regsitry:
+  registry:
     biotools: resfinder
+  url: http://genepi.food.dtu.dk/resfinder
 - description: Pathogenwatch provides species and taxonomy prediction for over 60,000 variants of bacteria, viruses, and fungi.
   id: pathogenwatch
   name: Pathogenwatch
   url: https://pathogen.watch/
-- description: CellDesigner is a structured diagram editor for drawing gene-regulatory and biochemical networks. 
+- description: CellDesigner is a structured diagram editor for drawing gene-regulatory and biochemical networks.
   id: celldesigner
   name: CellDesigner
   url: https://www.celldesigner.org/
-- description: "A curated database containing nearly all published HIV RT and protease sequences: a resource designed for researchers studying evolutionary and drug-related variation in the molecular targets of anti-HIV therapy."
+- description: 'A curated database containing nearly all published HIV RT and protease sequences: a resource designed for researchers studying evolutionary and drug-related variation in the molecular targets of anti-HIV therapy.'
   id: hivdb-stanford
   name: Stanford HIV Drug Resistance Database (HIVDB)
-  url: https://hivdb.stanford.edu/ 
-- description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data. 
+  url: https://hivdb.stanford.edu/
+- description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data.
   id: nextstrain
   name: Nextstrain
-  url: http://nextstrain.org
-  regsitry:
+  registry:
+    tess: Nextstrain
     biotools: nextstrain.org
-- description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list. 
+  url: http://nextstrain.org
+- description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list.
   id: g-profiler
   name: g:Profiler
-  url: https://biit.cs.ut.ee/gprofiler/gost
-  regsitry:
+  registry:
     biotools: gprofiler
-- description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe. 
+    tess: g:Profiler
+  url: https://biit.cs.ut.ee/gprofiler/gost
+- description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe.
   id: eurohpc
   name: EuroHPC
+  regsitry: 
   url: https://eurohpc-ju.europa.eu/
-  regsitry:
-- description: BEAUti is a graphical user-interface (GUI) application for generating BEAST XML files. 
+- description: BEAUti is a graphical user-interface (GUI) application for generating BEAST XML files.
   id: beauti
   name: BEAUti
   url: https://beast.community/beauti.html
 - description: QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package with a focus on data and analysis transparency.
   id: qiime2
   name: QIIME 2
+  registry:
+    biotools: qiime2
+  regsitry: 
   url: https://docs.qiime2.org/
-  regsitry:
 - description: MEGAHIT is an ultra-fast and memory-efficient NGS assembler optimized for metagenomes.
   id: megahit
   name: MEGAHIT
-  url: https://github.com/voutcn/megahit
-  regsitry:
+  registry:
     biotools: megahit
+  url: https://github.com/voutcn/megahit
 - description: A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds.
   id: kraken2
   name: Kraken 2
   url: https://ccb.jhu.edu/software/kraken2/
-  regsitry:
-    biotools: kraken2
 - description: The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence.
   id: covid19map
   name: COVID19 Disease Map
@@ -1131,27 +1154,27 @@
 - description: Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).
   id: freyja
   name: Freyja
-  url: https://github.com/andersen-lab/Freyja
-  regsitry:
+  registry:
     biotools: freyja
+  url: https://github.com/andersen-lab/Freyja
 - description: The cojac package comprises a set of command-line tools to analyse co-occurrence of mutations on amplicons.
   id: cojac
   name: COJAC
-  url: https://github.com/cbg-ethz/cojac
-  regsitry:
+  registry:
     biotools: cojac
+  url: https://github.com/cbg-ethz/cojac
 - description: Lineagespot is a framework written in R, and aims to identify SARS-CoV-2 related mutations based on a single (or a list) of variant(s) file(s).
   id: lineagespot
   name: Lineagespot
-  url: https://github.com/BiodataAnalysisGroup/lineagespot
-  regsitry:
+  registry:
     biotools: lineagespot
+  url: https://github.com/BiodataAnalysisGroup/lineagespot
 - description: Kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
   id: kallisto
   name: Kallisto
-  url: https://pachterlab.github.io/kallisto/about.html
-  regsitry:
+  registry:
     biotools: kallisto
+  url: https://pachterlab.github.io/kallisto/about.html
 - description: PiGx SARS-CoV-2 is a pipeline for analysing data from sequenced wastewater samples and identifying given lineages of SARS-CoV-2.
   id: pigxs
   name: PiGx SARS-CoV-2 Wastewater Sequencing Pipeline
