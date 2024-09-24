@@ -1071,8 +1071,6 @@
   name: apex
   registry:
     biotools: apex
-  regsitry:
-    biotools: apex
   url: http://sourceforge.net/projects/apexqpt/
 - description: Framework for processing and visualization of chromatographically separated and single-spectra mass spectral data.
   id: xcms
@@ -1080,15 +1078,11 @@
   registry:
     biotools: xcms
     tess: xcms
-  regsitry:
-    biotools: xcms
   url: http://bioconductor.org/packages/release/bioc/html/xcms.html
 - description: A Meta-Search Peptide Identification Platform for Tandem Mass Spectra
   id: peparml
   name: PepArMl
   registry:
-    biotools: peparml
-  regsitry:
     biotools: peparml
   url: https://peparml.sourceforge.net/
 - description: A commercial software package for NMR spectral processing that offers a semi-automated tool for spectral deconvolution, enabling interactive fitting of metabolite peaks to reference spectra and quantifying their concentrations.
@@ -1099,8 +1093,6 @@
   id: resfinder
   name: ResFinder
   registry:
-    biotools: resfinder
-  regsitry:
     biotools: resfinder
   url: http://genepi.food.dtu.dk/resfinder
 - description: Pathogenwatch provides species and taxonomy prediction for over 60,000 variants of bacteria, viruses, and fungi.
@@ -1120,7 +1112,6 @@
   name: Nextstrain
   registry:
     tess: Nextstrain
-  regsitry:
     biotools: nextstrain.org
   url: http://nextstrain.org
 - description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list.
@@ -1129,8 +1120,6 @@
   registry:
     biotools: gprofiler
     tess: g:Profiler
-  regsitry:
-    biotools: gprofiler
   url: https://biit.cs.ut.ee/gprofiler/gost
 - description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe.
   id: eurohpc
@@ -1153,14 +1142,10 @@
   name: MEGAHIT
   registry:
     biotools: megahit
-  regsitry:
-    biotools: megahit
   url: https://github.com/voutcn/megahit
 - description: A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds.
   id: kraken2
   name: Kraken 2
-  regsitry:
-    biotools: kraken2
   url: https://ccb.jhu.edu/software/kraken2/
 - description: The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence.
   id: covid19map
@@ -1171,15 +1156,11 @@
   name: Freyja
   registry:
     biotools: freyja
-  regsitry:
-    biotools: freyja
   url: https://github.com/andersen-lab/Freyja
 - description: The cojac package comprises a set of command-line tools to analyse co-occurrence of mutations on amplicons.
   id: cojac
   name: COJAC
   registry:
-    biotools: cojac
-  regsitry:
     biotools: cojac
   url: https://github.com/cbg-ethz/cojac
 - description: Lineagespot is a framework written in R, and aims to identify SARS-CoV-2 related mutations based on a single (or a list) of variant(s) file(s).
@@ -1187,15 +1168,11 @@
   name: Lineagespot
   registry:
     biotools: lineagespot
-  regsitry:
-    biotools: lineagespot
   url: https://github.com/BiodataAnalysisGroup/lineagespot
 - description: Kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
   id: kallisto
   name: Kallisto
   registry:
-    biotools: kallisto
-  regsitry:
     biotools: kallisto
   url: https://pachterlab.github.io/kallisto/about.html
 - description: PiGx SARS-CoV-2 is a pipeline for analysing data from sequenced wastewater samples and identifying given lineages of SARS-CoV-2.
