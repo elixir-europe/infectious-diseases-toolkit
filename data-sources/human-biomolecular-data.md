@@ -70,9 +70,9 @@ Please note that these considerations are general in nature and may vary dependi
 
 ### Existing approaches
 
-- **Public databases:** Various publicly accessible databases serve as repositories for human biomolecular data, such as the National Center for Biotechnology Information ([NCBI](https://www.ncbi.nlm.nih.gov/)) databases (e.g., {% tool "genbank" %}, {% tool "geo" %}, {% tool "sra" %} and European Bioinformatics Institute ({% tool "ebi" %}) databases (e.g., {% tool "european-nucleotide-archive" %}, {% tool "arrayexpress" %}).
+- **Public databases:** Various publicly accessible databases serve as repositories for human biomolecular data, such as the {% tool "ncbi" %} databases (e.g., {% tool "genbank" %}, {% tool "geo" %}, {% tool "sra" %}) and European Bioinformatics Institute ({% tool "ebi" %}) databases (e.g., {% tool "european-nucleotide-archive" %}, {% tool "arrayexpress" %}).
 - **Controlled access repositories:** Some data deposition platforms, like dbGaP ({% tool "dbgap" %}) and EGA ({% tool "ega" %}), adopt a controlled access model to protect sensitive human biomolecular data. Researchers interested in accessing the data need to request permission and comply with specific data usage policies.
-- **Data integration platforms:** Platforms like the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org/)) provide frameworks and standards for federated data access and integration across multiple repositories. These initiatives aim to facilitate the aggregation and analysis of human biomolecular data from diverse sources while maintaining data privacy and security.
+- **Data integration platforms:** Platforms like the {% tool "ga4gh" %} provide frameworks and standards for federated data access and integration across multiple repositories. These initiatives aim to facilitate the aggregation and analysis of human biomolecular data from diverse sources while maintaining data privacy and security.
 - **Data citation and DOI assignment:** To acknowledge and promote the contributions of researchers who deposit human biomolecular data, many repositories assign unique digital object identifiers (DOIs) to datasets. This enables proper citation and recognition of the deposited data, enhancing its visibility and impact.
 - **Data submission portals:** Some repositories offer user-friendly web portals or submission systems that guide researchers through the process of depositing human biomolecular data. These portals often provide templates, validation checks, and step-by-step instructions to ensure the completeness and quality of the deposited data.
 - **Consortium-specific databases:** Collaborative research initiatives often establish dedicated databases for sharing and depositing human biomolecular data, such as The Cancer Genome Atlas ({% tool "tcga" %}) for cancer genomics data or the Genotype-Tissue Expression ({% tool "gtex" %}) project for gene expression data across different tissues.
@@ -208,7 +208,7 @@ Consequently, we have compiled some of the main tools, portals, and data sharing
   - {% tool "fega" %}, which provides secure controlled access sharing of sensitive patient and research subject data sets relating to COVID-19 while complying with stringent privacy national laws.
   - {% tool "covid-19-data-portal" %}, which brings together and continuously updates relevant COVID-19 datasets and tools, will host sequence data sharing and will facilitate access to other SARS-CoV-2 resources.
 
-  You can find further information about the Covid-19 Data Portal in the link [here](https://rdmkit.elixir-europe.org/covid19_data_portal).
+  You can find further information about the Covid-19 Data Portal on [RDMkit](https://rdmkit.elixir-europe.org/covid19_data_portal).
 
 ## Data access and transfer
 
@@ -231,7 +231,7 @@ When looking for solutions to human biomolecular data access, you should conside
 - **Scalability and Performance:** Look for solutions capable of efficiently handling large-scale biomolecular data sets while maintaining optimal performance, supporting advanced analysis tools for meaningful insights.
 - **User-Friendly Interface:** Opt for solutions with intuitive interfaces and flexible access controls, enabling researchers of varying technical backgrounds to access, analyze, and interpret data effectively.
 
-When looking for solutions to data transfer, you can check [this](https://rdmkit.elixir-europe.org/data_transfer) documentation.
+When looking for solutions to data transfer, you can check [RDMkit](https://rdmkit.elixir-europe.org/data_transfer).
 
 ### Existing approaches
 
@@ -247,7 +247,7 @@ When looking for solutions to data transfer, you can check [this](https://rdmkit
   - By depositing your data to one of the existing controlled access repositories, they will already show the data use conditions (e.g. [EGAD00001007777](https://ega-archive.org/datasets/EGAD00001007777))
 - A data access committee (DAC) is a group responsible for reviewing and approving requests for access to sensitive data, such as human biomolecular data. Its role is to ensure that requests are in compliance with relevant laws and regulations, that data is being used for legitimate scientific purposes, and that privacy and security are being maintained. To know more about what is a DAC and how to become one, you can check the [European Genome-phenome Archive - Data Access Committee](https://ega-archive.org/submission/data_access_committee) website.
 
-You can find further information about sharing human data [here](https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data).
+You can find further information about sharing human data on [RDMkit](https://rdmkit.elixir-europe.org/human_data#sharing-and-reusing-of-human-data).
 
 ## Data harmonisation
 
@@ -268,6 +268,6 @@ Thanks to the Sars-CoV-2 outbreak, the scientific community has established stan
 
 ### Existing approaches
 
-* When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
+* When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [the RDMkit](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) for documentation.
 * {% tool "fairsharing" %} is also a good resource to find metadata standards that can be useful for your research.
 

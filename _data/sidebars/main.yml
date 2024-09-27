@@ -14,6 +14,8 @@ subitems:
     subitems:
       - title: Human biomolecular data
         url: /data-analysis/human-biomolecular-data
+      - title: Pathogen characterisation
+        url: /data-analysis/pathogen-characterisation
 
   - title: Data communication
     url: /data-communication/
@@ -82,6 +84,8 @@ subitems:
         url:  /showcase/covid19-galaxy
       - title: An automated pipeline for analysing brain autoradiography images
         url:  /showcase/brain-autoradiography
+      - title: Knowledge Graph Generator
+        url: /showcase/knowledge-graph-generator
       - title: Linked Cohort Data
         url: /showcase/linked-cohort-data
       - title: "Prevalence study of SARS-CoV-2 in Estonia: lessons learned"

@@ -4,12 +4,13 @@ title: Infectious Diseases Toolkit
 description: "Find tools and guidelines to help you access, analyse and share infectious disease data, and respond quickly to disease outbreaks."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.1.1
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.2.0
 
 gtag: G-TNT17YGXQ4
 
 theme_variables:
   privacy_statement_url: /about/privacy
+  dev-info-banner: true
   theme_color: 457B9D
   headings:
     resource-table-all-collapse: true
