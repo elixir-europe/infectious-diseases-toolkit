@@ -1222,7 +1222,7 @@
   id: tidyr
   name: tidyr
   url: https://tidyr.tidyverse.org/
-- description: Trifacta is designed for analysts to explore, transform, and enrich raw data into clean and structured formats
+- description: Trifacta is designed for analysts to explore, transform, and enrich raw data into clean and structured formats.
   id: trifacta
   name: Trifacta
   url: https://www.trifacta.com/
