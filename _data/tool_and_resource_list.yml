@@ -187,12 +187,6 @@
     biotools: deseq2
     tess: DESeq2
   url: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
-- description: DMP online is an online planning tool to help you write an effective DMP based on an institutional or funder template.
-  id: dmp-online
-  name: DMP Online
-  registry:
-    tess: DMP Online
-  url: https://dmptool.org/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -205,8 +199,7 @@
   id: dragen-gatk
   name: Dragen-GATK
   url: https://gatk.broadinstitute.org/hc/en-us/articles/360045944831
-- description: 'Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data. Dryad has a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt repository with storage in US and EU at the San Diego Supercomputing Center, DANS, and Zenodo. While data is undergoing peer review, it is embargoed if the related journal requires / allows this. Dryad is an independent non-profit that works directly with: researchers to publish datasets utilising best practices for discovery and reuse; publishers to support the integration of data availability statements and data citations into their workflows; and institutions to enable scalable campus support for research data management best practices at low cost. Costs are covered by institutional, publisher, and funder members, otherwise a one-time fee of $120 for authors to cover cost of curation and preservation. Dryad also receives direct funder support through
-    grants.'
+- description: Dryad is an open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data.
   id: dryad
   name: Dryad
   registry:
@@ -233,7 +226,7 @@
     fairsharing: mya1ff
     tess: European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
-- description: 'The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers. The thesaurus consists of over 3,300 concepts and covers the core social science disciplines: politics, sociology, economics, education, law, crime, demography, health, employment, information, communication technology, and environmental science. ELSST is used for data discovery within CESSDA and facilitates access to data resources across Europe, independent of domain, resource, language, or vocabulary. ELSST is currently available in 16 languages: Danish, Dutch, Czech, English, Finnish, French, German, Greek, Hungarian, Icelandic, Lithuanian, Norwegian, Romanian, Slovenian, Spanish, and Swedish'
+- description: The European Language Social Science Thesaurus (ELSST) is a broad-based, multilingual thesaurus for the social sciences. It is owned and published by the Consortium of European Social Science Data Archives (CESSDA) and its national Service Providers.
   id: european-language-social-science-thesaurus
   name: European Language Social Science Thesaurus (ELSST)
   registry:
@@ -251,12 +244,6 @@
   id: ena-webin-cli
   name: ENA Webin CLI
   url: https://toolshed.g2.bx.psu.edu/repository?repository_id=dfa4f0fc31027b52
-- description: Functional Enrichment Analysis and Network Construction
-  id: enrichr
-  name: Enrichr
-  registry:
-    biotools: enrichr
-  url: https://github.com/guokai8/EnrichR
 - description: The Estonian Biobank has established a population-based biobank of Estonia with a current cohort size of more than 200,000 individuals (genotyped with genome-wide arrays), reflecting the age, sex and geographical distribution of the adult Estonian population. Considering the fact that about 20% of Estonia's adult population has joined the programme, it is indeed a database that is very important for the development of medical science both domestically and internationally.
   id: estonian-biobank
   name: Estonian Biobank
@@ -273,14 +260,14 @@
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
-- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. fairsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely. Every record is manually reviewed at least once a year. Records can be collated into collections, based on a project, society or organisation, or Recommendations, where they are collated around a policy, such as a journal or funder data policy.
+- description: FAIRsharing is a FAIR-supporting resource that provides an informative and educational registry on data standards, databases, repositories and policy, alongside search and visualization tools and services that interoperate with other FAIR-enabling resources. FAIRsharing guides consumers to discover, select and use standards, databases, repositories and policy with confidence, and producers to make their resources more discoverable, more widely adopted and cited. Each record in fairsharing is curated in collaboration with the maintainers of the resource themselves, ensuring that the metadata in the fairsharing registry is accurate and timely.
   id: fairsharing
   name: FAIRsharing
   registry:
     fairsharing: 2abjs5
     tess: FAIRsharing
   url: https://fairsharing.org/
-- description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers. Metadata in figshare is licenced under is CC0. figshare has also partnered with DuraSpace and Chronopolis to offer further assurances that public data will be archived under the stewardship of Chronopolis. figshare is supported through Institutional, Funder, and Governmental service subscriptions.
+- description: Figshare is a generalist, subject-agnostic repository for many different types of digital objects that can be used without cost to researchers. Data can be submitted to the central figshare repository (described here), or institutional repositories using the figshare software can be installed locally, e.g. by universities and publishers.
   id: figshare
   name: Figshare
   registry:
@@ -294,20 +281,20 @@
     biotools: Flye
     tess: Flye
   url: https://github.com/fenderglass/Flye
-- description: FreeBayes is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs, indels, MNPs, and complex events smaller than the length of a short-read sequencing alignment.
+- description: freebayes is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs, indels, MNPs, and complex events smaller than the length of a short-read sequencing alignment.
   id: freebayes
-  name: FreeBayes
+  name: freebayes
   registry:
     biotools: freebayes
-    tess: FreeBayes
+    tess: freebayes
   url: https://github.com/freebayes/freebayes
 - description: The metadata model for GA4GH, an international coalition of both public and private interested parties, formed to enable the sharing of genomic and clinical data.
   id: ga4gh
-  name: GA4GH
+  name: Global Alliance for Genomics and Health (GA4GH)
   registry:
     biotools: ga4gh
     fairsharing: 2tpx4v
-    tess: GA4GH
+    tess: Global Alliance for Genomics and Health (GA4GH)
   url: https://github.com/ga4gh/schemas
 - description: Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
   id: galaxy
@@ -319,6 +306,8 @@
 - description: The European Galaxy server. Provides access to thousands of tools for scalable and reproducible analysis.
   id: galaxy-europe
   name: Galaxy Europe
+  registry:
+    tess: Galaxy Europe
   url: https://usegalaxy.eu/
 - description: The University of Tartu Galaxy instance. Enables local university users to run their analyses in the Galaxy environment. Was heavily used during the KoroGenoEST sequencing studies.
   id: galaxy-university-of-tartu
@@ -369,7 +358,7 @@
   id: gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
+    fairsharing: 5.3e+63
     tess: GitLab
   url: https://about.gitlab.com/
 - description: GO is to perform enrichment analysis on gene sets.
@@ -513,9 +502,9 @@
   url: http://mzmine.github.io/
 - description: The National Center for Biotechnology Information advances science and health by providing access to biomedical and genomic information.
   id: ncbi
-  name: NCBI
+  name: National Center for Biotechnology Information (NCBI)
   registry:
-    tess: NCBI
+    tess: National Center for Biotechnology Information (NCBI)
   url: https://www.ncbi.nlm.nih.gov/
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
@@ -672,14 +661,13 @@
   registry:
     biotools: wtdbg2
   url: https://github.com/ruanjue/wtdbg2
-- description: Metabolomic and lipidomic platform
-  id: xcms
-  name: XCMS
+- description: A systems biology tool for analyzing metabolomic data. It automatically superimposes raw metabolomic data onto metabolic pathways and integrates it with transcriptomic and proteomic data.
+  id: xcms-online
+  name: XCMS Online
   registry:
-    biotools: xcms
-    tess: XCMS
+    biotools: xcms_online
   url: https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage
-- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN. It was developed to aid Open Science and is built on open source code. Zenodo helps researchers receive credit by making the research results citable and through OpenAIRE integrates them into existing reporting lines to funding agencies like the European Commission. Citation information is also passed to DataCite and onto the scholarly aggregators. Content is available publicly under any one of 400 open licences (from opendefinition.org and spdx.org). Restricted and Closed content is also supported. Free for researchers below 50 GB/dataset. Content is both online on disk and offline on tape as part of a long-term preservation policy. Zenodo supports managed access (with an access request workflow) as well as embargoing generally and during peer review. The base infrastructure of Zenodo is provided by CERN, a non-profit IGO. Projects are funded through grants.
+- description: Zenodo is a generalist research data repository built and developed by OpenAIRE and CERN.
   id: zenodo
   name: Zenodo
   registry:
@@ -1012,3 +1000,213 @@
   id: mbat
   name: Mouse Brain Alignment Tool (MBAT)
   url: https://github.com/Turku-BioImaging/mouse-brain-alignment-tool
+- description: Pure Python package for parsing and handling biological networks encoded in the Biological Expression Language (BEL).
+  id: pybel
+  name: PyBEL
+  registry:
+    biotools: pybel
+  url: https://github.com/pybel/pybel
+- description: The OpenBEL Framework is an open-platform technology for managing, publishing, and using biological knowledge represented using the Biological Expression Language (BEL).
+  id: openbel
+  name: OpenBEL
+  url: https://github.com/OpenBEL/openbel-framework
+- description: Velvet is an algorithm package that has been designed to deal with de novo genome assembly and short read sequencing alignments.
+  id: velvet
+  name: Velvet
+  registry:
+    biotools: velvet
+    tess: Velvet
+  url: https://github.com/dzerbino/velvet
+- description: A tool for Phylogenetic Analysis and Post-Analysis of Large Phylogenies
+  id: raxml
+  name: RAxML
+  registry:
+    biotools: raxml
+  url: https://github.com/stamatak/standard-RAxML
+- description: IQ-TREE is designed to efficiently handle large phylogenomic datasets, utilize multicore and distributed parallel computing for faster analysis, and automatically resume interrupted analyses through checkpointing.
+  id: iqtree
+  name: IQtree
+  registry:
+    biotools: iqtree
+  url: https://github.com/iqtree/iqtree2
+- description: MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.
+  id: mrbayes
+  name: MrBayes
+  registry:
+    biotools: mrbayes
+  url: https://nbisweden.github.io/MrBayes/
+- description: BEAST is a cross-platform program for Bayesian phylogenetic analysis, estimating rooted, time-measured phylogenies using strict or relaxed molecular clock models. It uses Markov chain Monte Carlo (MCMC) to average over tree space and includes a graphical user interface for setting up analyses and tools for result analysis.
+  id: beast
+  name: BEAST
+  registry:
+    biotools: beast
+  url: https://www.beast2.org/
+- description: Rapid haploid variant calling and core genome alignment.
+  id: snippy
+  name: SNippy
+  registry:
+    biotools: snippy
+  url: https://github.com/tseemann/snippy
+- description: Convert ThermoFinningan RAW mass spectrometry files to the mzXML format.
+  id: readw
+  name: ReAdW
+  registry:
+    biotools: readw
+  url: https://github.com/PedrioliLab/ReAdW
+- description: X! Tandem open source is software that can match tandem mass spectra with peptide sequences, in a process that has come to be known as protein identification.
+  id: x-tandem
+  name: X! Tandem
+  url: https://www.thegpm.org/TANDEM/
+- description: OMSSA (Open Mass Spectrometry Search Algorithm) is a tool to identify peptides in tandem mass spectrometry (MS/MS) data. The OMSSA algorithm uses a classic probability score to compute specificity. See also The NCBI C++ Toolkit and The NCBI C++ Toolkit Book.
+  id: omssa
+  name: OMSSA
+  registry:
+    biotools: omssa
+  url: https://ftp.ncbi.nlm.nih.gov/pub/lewisg/omssa/
+- description: MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data.
+  id: maxquant
+  name: MAXQUANT
+  registry:
+    biotools: maxquant
+    tess: MAXQUANT
+  url: https://www.maxquant.org/
+- description: Absolute protein expression Quantitative Proteomics Tool, is a free and open source Java implementation of the APEX technique for the quantitation of proteins based on standard LC- MS/MS proteomics data.
+  id: apex
+  name: apex
+  registry:
+    biotools: apex
+  url: http://sourceforge.net/projects/apexqpt/
+- description: Framework for processing and visualization of chromatographically separated and single-spectra mass spectral data.
+  id: xcms
+  name: xcms
+  registry:
+    biotools: xcms
+    tess: xcms
+  url: http://bioconductor.org/packages/release/bioc/html/xcms.html
+- description: A Meta-Search Peptide Identification Platform for Tandem Mass Spectra
+  id: peparml
+  name: PepArMl
+  registry:
+    biotools: peparml
+  url: https://peparml.sourceforge.net/
+- description: A commercial software package for NMR spectral processing that offers a semi-automated tool for spectral deconvolution, enabling interactive fitting of metabolite peaks to reference spectra and quantifying their concentrations.
+  id: chenomx
+  name: Chenomx
+  url: https://www.chenomx.com/
+- description: ResFinder identifies acquired genes and/or finds chromosomal mutations mediating antimicrobial resistance in total or partial DNA sequence of bacteria.
+  id: resfinder
+  name: ResFinder
+  registry:
+    biotools: resfinder
+  url: http://genepi.food.dtu.dk/resfinder
+- description: Pathogenwatch provides species and taxonomy prediction for over 60,000 variants of bacteria, viruses, and fungi.
+  id: pathogenwatch
+  name: Pathogenwatch
+  url: https://pathogen.watch/
+- description: CellDesigner is a structured diagram editor for drawing gene-regulatory and biochemical networks.
+  id: celldesigner
+  name: CellDesigner
+  url: https://www.celldesigner.org/
+- description: 'A curated database containing nearly all published HIV RT and protease sequences: a resource designed for researchers studying evolutionary and drug-related variation in the molecular targets of anti-HIV therapy.'
+  id: hivdb-stanford
+  name: Stanford HIV Drug Resistance Database (HIVDB)
+  url: https://hivdb.stanford.edu/
+- description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data.
+  id: nextstrain
+  name: Nextstrain
+  registry:
+    biotools: nextstrain.org
+    tess: Nextstrain
+  url: http://nextstrain.org
+- description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list.
+  id: g-profiler
+  name: g:Profiler
+  registry:
+    biotools: gprofiler
+    tess: g:Profiler
+  url: https://biit.cs.ut.ee/gprofiler/gost
+- description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe.
+  id: eurohpc
+  name: EuroHPC
+  regsitry: 
+  url: https://eurohpc-ju.europa.eu/
+- description: BEAUti is a graphical user-interface (GUI) application for generating BEAST XML files.
+  id: beauti
+  name: BEAUti
+  url: https://beast.community/beauti.html
+- description: QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package with a focus on data and analysis transparency.
+  id: qiime2
+  name: QIIME 2
+  registry:
+    biotools: qiime2
+    tess: QIIME 2
+  regsitry: 
+  url: https://docs.qiime2.org/
+- description: MEGAHIT is an ultra-fast and memory-efficient NGS assembler optimized for metagenomes.
+  id: megahit
+  name: MEGAHIT
+  registry:
+    biotools: megahit
+  url: https://github.com/voutcn/megahit
+- description: A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds.
+  id: kraken2
+  name: Kraken 2
+  url: https://ccb.jhu.edu/software/kraken2/
+- description: The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence.
+  id: covid19map
+  name: COVID19 Disease Map
+  url: https://covid19map.elixir-luxembourg.org/
+- description: Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).
+  id: freyja
+  name: Freyja
+  registry:
+    biotools: freyja
+  url: https://github.com/andersen-lab/Freyja
+- description: The cojac package comprises a set of command-line tools to analyse co-occurrence of mutations on amplicons.
+  id: cojac
+  name: COJAC
+  registry:
+    biotools: cojac
+  url: https://github.com/cbg-ethz/cojac
+- description: Lineagespot is a framework written in R, and aims to identify SARS-CoV-2 related mutations based on a single (or a list) of variant(s) file(s).
+  id: lineagespot
+  name: Lineagespot
+  registry:
+    biotools: lineagespot
+  url: https://github.com/BiodataAnalysisGroup/lineagespot
+- description: Kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
+  id: kallisto
+  name: Kallisto
+  registry:
+    biotools: kallisto
+  url: https://pachterlab.github.io/kallisto/about.html
+- description: PiGx SARS-CoV-2 is a pipeline for analysing data from sequenced wastewater samples and identifying given lineages of SARS-CoV-2.
+  id: pigxs
+  name: PiGx SARS-CoV-2 Wastewater Sequencing Pipeline
+  url: https://github.com/BIMSBbioinfo/pigx_sars-cov-2
+- description: A GitHub repository from the CBG-ETHZ group offering tools for detecting SARS-CoV-2 variants in Switzerland.
+  id: cowwid
+  name: COWWID
+  url: https://github.com/cbg-ethz/cowwid
+- description: A SARS-CoV-2 Contextual Data Specification from PHA4GE.
+  id: sars-pha4ge
+  name: SARS-CoV-2 Contextual Data Specification
+  url: https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification
+- description: A data model to improve wastewater surveillance through interoperable data.
+  id: phes-odm
+  name: PHES-ODM
+  url: https://github.com/Big-Life-Lab/PHES-ODM
+- description: A pipeline for lineage abundance estimation from wastewater sequencing data.
+  id: vlq
+  name: VLQ
+  url: https://github.com/baymlab/wastewater_analysis
+- description: CFSAN Wastewater Analysis Pipeline to estimate the percentage of SARS-CoV-2 variants in a sample.
+  id: c-wap
+  name: C-WAP
+  url: https://github.com/CFSAN-Biostatistics/C-WAP
+- description: Functional Enrichment Analysis and Network Construction
+  id: enrichr
+  name: Enrichr
+  registry:
+    biotools: enrichr
+  url: https://github.com/guokai8/EnrichR
