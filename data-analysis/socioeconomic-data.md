@@ -1,12 +1,12 @@
 ---
 title: Socioeconomic data
 description: Generic workflows for different data types.
-contributors: [Simon Saldner, Diana Pilvar, Rafael Buono, Hedi Peterson, Patricia Palagi, Dimitra Kondyli]
+contributors: [Simon Saldner, Diana Pilvar, Rafael Andrade Buono, Hedi Peterson, Patricia Palagi, Dimitra Kondyli]
 page_id: sed_data_analysis
 redirect_from: /socioeconomic-data/data-analysis
 rdmkit:
-  - name:
-    url:
+  - name: Data Analysis
+    url: https://rdmkit.elixir-europe.org/data_analysis
 training:
   - name: CESSDA
     registry:
