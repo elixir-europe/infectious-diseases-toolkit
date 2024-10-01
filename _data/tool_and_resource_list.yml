@@ -1210,3 +1210,19 @@
   registry:
     biotools: enrichr
   url: https://github.com/guokai8/EnrichR
+- description: "Powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."
+  id: openrefine
+  name: OpenRefine
+  url: https://openrefine.org/
+- description: dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges.
+  id: dplyr
+  name: dplyr
+  url: https://dplyr.tidyverse.org/
+- description: Tidy data describes a standard way of storing data that is used wherever possible throughout the [tidyverse](https://www.tidyverse.org/). 
+  id: tidyr
+  name: tidyr
+  url: https://tidyr.tidyverse.org/
+- description: Trifacta is designed for analysts to explore, transform, and enrich raw data into clean and structured formats.
+  id: trifacta
+  name: Trifacta
+  url: https://www.trifacta.com/

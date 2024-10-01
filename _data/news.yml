@@ -142,3 +142,8 @@
   date: 2024-09-19
   linked_pr: 308
   description: Content was added to the Pathogen Characterisation page on Data Analysis. [Discover the page here](/data-analysis/pathogen-characterisation)
+- name: "New page: Data Analysis of Socioeconomic data"
+  date: 2024-10-01
+  linked_pr: 357
+  description: Content was added to the Socioeconomic data page on Data Analysis. [Discover the page here](/data-analysis/socioeconomic-data)
+  
