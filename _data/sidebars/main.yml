@@ -16,6 +16,8 @@ subitems:
         url: /data-analysis/human-biomolecular-data
       - title: Pathogen characterisation
         url: /data-analysis/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /data-analysis/socioeconomic-data
 
   - title: Data communication
     url: /data-communication/
