@@ -26,39 +26,30 @@ The COVID-19 pandemic highlighted the crucial role of socioeconomic data in tack
 
 Some important considerations for analysing socioeconomic data in the context of infectious disease research are:
 
-Contextual Understanding:
+* **Contextual Understanding**:
+  *   Understand how the cultural, economic, and political context of the population under study affects how diseases spread and are prevented. For example, how people's travel patterns, willingness to get vaccinated, and trust in political leaders, affect the effectiveness of disease prevention. 
+  *   Acknowledge the global and local variations in socioeconomic determinants and their impact on infectious diseases. Socioeconomic status (e.g. influenced by education, income, and neighbourhood), is a commonly used socioeconomic indicator. The [Baseline Use Case report](https://zenodo.org/doi/10.5281/zenodo.12771702), describes this indicator and its relevance for health research in detail, including a list of important area-level indicators in table S2.
+      
 
-*   Understand how the cultural, economic, and political context of the population under study affects how diseases spread and are prevented. For example, how people's travel patterns, willingness to get vaccinated, and trust in political leaders, affect the effectiveness of disease prevention. 
-    
-*   Acknowledge the global and local variations in socioeconomic determinants and their impact on infectious diseases. Socioeconomic status (e.g. influenced by education, income, and neighbourhood), is a commonly used socioeconomic indicator. The [Baseline Use Case report](https://zenodo.org/doi/10.5281/zenodo.12771702), describes this indicator and its relevance for health research in detail, including a list of important area-level indicators in table S2.
-    
+* **Interdisciplinary Collaboration**:
+  *   Encourage collaboration between epidemiologists, social scientists, and healthcare professionals.
+  *   Integrate insights from various disciplines to form a comprehensive understanding of the issue.
+      
 
-Interdisciplinary Collaboration:
+* **Longitudinal Analysis**:
+  *   Conduct longitudinal studies to capture changes in socioeconomic conditions over time.
+  *   Recognize that the impact of socioeconomic factors on infectious diseases may evolve.
+      
 
-*   Encourage collaboration between epidemiologists, social scientists, and healthcare professionals.
-    
-*   Integrate insights from various disciplines to form a comprehensive understanding of the issue.
-    
+* **Ethical Considerations**:
+  *   Prioritise ethical considerations, ensuring participant confidentiality and informed consent.
+  *   Mitigate potential harm and consider the implications of research findings on vulnerable populations.
+      
 
-Longitudinal Analysis:
+* **Intersectionality**:
 
-*   Conduct longitudinal studies to capture changes in socioeconomic conditions over time.
-    
-*   Recognize that the impact of socioeconomic factors on infectious diseases may evolve.
-    
-
-Ethical Considerations:
-
-*   Prioritise ethical considerations, ensuring participant confidentiality and informed consent.
-    
-*   Mitigate potential harm and consider the implications of research findings on vulnerable populations.
-    
-
-Intersectionality:
-
-*   Recognize that individuals may experience multiple intersecting social identities, which can impact health outcomes.
-    
-*   Consider how factors such as race, gender, and socioeconomic status interact and influence disease risk.
+  *   Recognize that individuals may experience multiple intersecting social identities, which can impact health outcomes.
+  *   Consider how factors such as race, gender, and socioeconomic status interact and influence disease risk.
     
 
 ### Existing approaches
@@ -105,15 +96,15 @@ Here are some common considerations involved in data preprocessing:
 Use some of these available tools for socioeconomic data preprocessing:
     
 
-*   Python Libraries: [Pandas](https://pandas.pydata.org/) for data manipulation and cleaning, \[NumPy\](https://numpy.org/) for numerical operations and transformations, [Scikit-learn](https://scikit-learn.org/stable/) for preprocessing tasks like normalisation, encoding, and combining data from multiple sources.
+*   Python Libraries: {% tool "pandas" %} for data manipulation and cleaning, {% tool "numpy" %} for numerical operations and transformations, {% tool "scikit-learn" %} for preprocessing tasks like normalisation, encoding, and combining data from multiple sources.
     
-*   R Programming: Data cleaning and manipulation using packages such as [dplyr](https://dplyr.tidyverse.org/) and [tidyr](https://tidyr.tidyverse.org/).
+*   R Programming: Data cleaning and manipulation using packages such as {% tool "dplyr" %} and {% tool "tidyr" %}.
     
 *   Excel and Google Sheets: Basic data cleaning and transformation using built-in functions. Suitable for smaller datasets and quick exploratory analyses.
     
-*   [OpenRefine](https://openrefine.org/): A powerful open-source tool for cleaning and transforming messy data. [Tutorial by Pilvar, D.](https://doi.org/10.5281/zenodo.10224703) could help you get started.
+*   {% tool "openrefine" %}: A powerful open-source tool for cleaning and transforming messy data. [Tutorial by Pilvar, D.](https://doi.org/10.5281/zenodo.10224703) could help you get started.
     
-*   Trifacta: A data wrangling tool with a user-friendly interface for cleaning and transforming diverse datasets.
+*   {% tool "trifacta" %}: A data wrangling tool with a user-friendly interface for cleaning and transforming diverse datasets.
     
 *   SQL: Database queries and manipulations for preprocessing data stored in relational databases.
     
@@ -136,7 +127,7 @@ Socioeconomic analysis and associated methodologies are quite diverse and often 
     
 *   Health literacy: Assess health literacy levels to understand how well communities comprehend and act upon health information.
     
-*   Institutional and interpersonal Trust: Trust in political institutions, media, science, and fellow citizens may affect the spread of diseases and the effectiveness of e.g. COVID-19 measures (see e.g.[Cohen, Péron, & Algan 2022](https://cepr.org/voxeu/columns/trust-other-factor-covid-19-crisis)).  
+*   Institutional and interpersonal Trust: Trust in political institutions, media, science, and fellow citizens may affect the spread of diseases and the effectiveness of e.g. COVID-19 measures (see e.g. [Cohen, Péron, & Algan 2022](https://cepr.org/voxeu/columns/trust-other-factor-covid-19-crisis)).  
     
 *   Occupational risks: Explore occupational factors that may contribute to disease transmission and susceptibility in specific sectors, e.g. jobs involving lots of human contact.   
 *   Healthcare infrastructure: Assess the availability and quality of healthcare infrastructure, identifying areas with limited access.
@@ -167,7 +158,7 @@ Epidemiological Trend Analysis is vital to understanding and managing infectious
 
 ### Existing approaches
 
-*   Tracking and Modeling Disease Spread: Utilising data from [WHO](https://data.who.int/dashboards/covid19/cases?n=c) and [IHME](https://www.healthdata.org/data-tools-practices/interactive-visuals/covid-19-projections), analysts tracked COVID-19 infection rates, reproduction numbers, and case fatality rates. Sophisticated models incorporating factors like population density and mobility data were developed to predict virus transmission and assess the potential impact of public health measures ([Institute for Health Metrics and Evaluation projections](https://covid19.healthdata.org/global?view=cumulative-deaths&tab=trend), [World Health Organization dashboard](https://data.who.int/dashboards/covid19/cases).
+*   Tracking and Modeling Disease Spread: Utilising data from [WHO](https://data.who.int/dashboards/covid19/cases?n=c) and [IHME](https://www.healthdata.org/data-tools-practices/interactive-visuals/covid-19-projections), analysts tracked COVID-19 infection rates, reproduction numbers, and case fatality rates. Sophisticated models incorporating factors like population density and mobility data were developed to predict virus transmission and assess the potential impact of public health measures ([Institute for Health Metrics and Evaluation projections](https://covid19.healthdata.org/global?view=cumulative-deaths&tab=trend), [World Health Organization dashboard](https://data.who.int/dashboards/covid19/cases)).
     
 
 *  Evaluating Public Health Interventions: Time-series analyses were crucial in determining the effectiveness of interventions such as social distancing, lockdowns, and vaccination campaigns. These studies helped understand changes in infection rates following these measures, guiding future public health strategies [Our World in Data. Our World in Data Website](https://ourworldindata.org/coronavirus).
