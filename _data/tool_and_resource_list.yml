@@ -306,6 +306,8 @@
 - description: The European Galaxy server. Provides access to thousands of tools for scalable and reproducible analysis.
   id: galaxy-europe
   name: Galaxy Europe
+  registry:
+    tess: Galaxy Europe
   url: https://usegalaxy.eu/
 - description: The University of Tartu Galaxy instance. Enables local university users to run their analyses in the Galaxy environment. Was heavily used during the KoroGenoEST sequencing studies.
   id: galaxy-university-of-tartu
@@ -501,6 +503,8 @@
 - description: The National Center for Biotechnology Information advances science and health by providing access to biomedical and genomic information.
   id: ncbi
   name: National Center for Biotechnology Information (NCBI)
+  registry:
+    tess: National Center for Biotechnology Information (NCBI)
   url: https://www.ncbi.nlm.nih.gov/
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
@@ -1131,8 +1135,8 @@
   id: nextstrain
   name: Nextstrain
   registry:
-    tess: Nextstrain
     biotools: nextstrain.org
+    tess: Nextstrain
   url: http://nextstrain.org
 - description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list.
   id: g-profiler
@@ -1155,6 +1159,7 @@
   name: QIIME 2
   registry:
     biotools: qiime2
+    tess: QIIME 2
   regsitry: 
   url: https://docs.qiime2.org/
 - description: MEGAHIT is an ultra-fast and memory-efficient NGS assembler optimized for metagenomes.
@@ -1225,3 +1230,20 @@
   registry:
     biotools: enrichr
   url: https://github.com/guokai8/EnrichR
+- description: "Powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."
+  id: openrefine
+  name: OpenRefine
+  url: https://openrefine.org/
+- description: dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges.
+  id: dplyr
+  name: dplyr
+  url: https://dplyr.tidyverse.org/
+- description: Tidy data describes a standard way of storing data that is used wherever possible throughout the [tidyverse](https://www.tidyverse.org/). 
+  id: tidyr
+  name: tidyr
+  url: https://tidyr.tidyverse.org/
+- description: Trifacta is designed for analysts to explore, transform, and enrich raw data into clean and structured formats.
+  id: trifacta
+  name: Trifacta
+  url: https://www.trifacta.com/
+
