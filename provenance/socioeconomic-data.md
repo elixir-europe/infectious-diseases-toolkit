@@ -2,16 +2,9 @@
 title: Socioeconomic data
 description: Tracking socioeconomics data and analysis steps done to them.
 contributors: [Rudolf Wittner, Mari Kleemola, Simone Sacchi, Diana Pilvar, Irena Vipavc Brvar, Eva Garcia Alvarez, Robin Navest]
-related_pages:
 page_id: sed_provenance
 redirect_from: /socioeconomic-data/provenance
-rdmkit:
-  - name:
-    url:
-training:
-  - name:
-    registry:
-    url:
+
 ---
 
 ## Introduction
