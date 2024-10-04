@@ -59,6 +59,8 @@ subitems:
     subitems:
       - title: Human clinical and health data
         url: /provenance/human-clinical-and-health-data
+      - title: Socioeconomic data
+        url: /provenance/socioeconomic-data
 
   - title: Quality control
     url: /quality-control/

@@ -1226,3 +1226,23 @@
   id: trifacta
   name: Trifacta
   url: https://www.trifacta.com/
+- description: Searchable list of tools available to help you work with DDI, from authoring and editing metadata to data transformations. The tools have been developed independently by a variety of organizations from the global DDI community.
+  id: ddi
+  name: DDI Tools
+  url: https://ddialliance.org/resources/tools
+- description: The NUTS (Nomenclature of territorial units for statistics) classification, developed by eurostat, is a hierarchical system for dividing up the economic territory of the EU and the UK.
+  id: nuts
+  name: NUTS
+  url: https://ec.europa.eu/eurostat/web/nuts/overview
+- description: SDMX Fusion Metadata Registry
+  id: sdmx-registry
+  name: SDMX Registry
+  url: https://registry.sdmx.org/overview.html
+- description: The Data Structure Wizard (DSW) is a Java standalone desktop application that supports version 2.0 & 2.1 of the SDMX standard.
+  id: dsw
+  name: Data Structure Wizard (DSW)
+  url: https://sdmx.org/?page_id=4524
+- description: The SDMX-Reference Infrastructure (SDMX-RI) is a set of pick-and-choose building blocks and tools that allow data to be exposed to the external world through access rights by using web services.
+  id: sdmx-ri
+  name: SDMX-Reference Infrastructure (SDMX-RI)
+  url: https://sdmx.org/?page_id=4666

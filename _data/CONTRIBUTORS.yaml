@@ -284,6 +284,21 @@ Pierluca Piselli:
 Isabel Kemmer:
   orcid: https://orcid.org/0000-0002-8799-4671
   affiliation: EuroBioImaging
+Mari Kleemola:
+  git: mari-k
+  email: mari.kleemola@tuni.fi
+  orcid: 0000-0001-8855-5075
+  affiliation: Finnish Social Science Data Archive, Tampere University and CESSDA
+Simone Sacchi:
+  git: simosacchi
+  email: simone.sacchi@eui.eu
+  orcid: 0000-0002-6635-7059
+  affiliation: European University Institute
+Irena Vipavc Brvar:
+  git:
+  email: irena.vipavc@fdv.uni-lj.si
+  orcid: 0000-0001-6068-0210
+  affiliation: University of Ljubljana, Faculty of Social Sciences, Slovenian Social Science Data Archives  
 Reagon Karki:
   git: jrkarki
   email: reagon.karki@itmp.fraunhofer.de
@@ -294,5 +309,3 @@ Francesco Messina:
   git: INMIbioinfo
   affiliation: IRCCS (INMI)
   Email: francesco.messina@inmi.it
-
-

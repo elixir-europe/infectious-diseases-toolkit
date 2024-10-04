@@ -146,4 +146,7 @@
   date: 2024-10-01
   linked_pr: 357
   description: Content was added to the Socioeconomic data page on Data Analysis. [Discover the page here](/data-analysis/socioeconomic-data)
-  
+- name: "New page: Provenance of Socioeconomic data"
+  date: 2024-10-02
+  linked_pr: 303
+  description: Content was added to the Socioeconomic data page on Provenance. [Discover the page here](/provenance/socioeconomic-data)
