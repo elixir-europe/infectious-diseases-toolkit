@@ -43,7 +43,7 @@ jobs:
             # Don't fail action on broken links
             fail: false
             # Lychee version
-            lycheeVersion: v0.16.1
+            lycheeVersion: 0.16.1
 
       # Create or Update the issue based on the link check result
       - name: Update Comment From File
