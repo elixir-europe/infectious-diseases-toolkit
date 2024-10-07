@@ -1210,15 +1210,19 @@
   registry:
     biotools: enrichr
   url: https://github.com/guokai8/EnrichR
-- description: "Powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."
+- description: 'Powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.'
   id: openrefine
   name: OpenRefine
+  registry:
+    tess: OpenRefine
   url: https://openrefine.org/
 - description: dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges.
   id: dplyr
   name: dplyr
+  registry:
+    tess: dplyr
   url: https://dplyr.tidyverse.org/
-- description: Tidy data describes a standard way of storing data that is used wherever possible throughout the [tidyverse](https://www.tidyverse.org/). 
+- description: Tidy data describes a standard way of storing data that is used wherever possible throughout the [tidyverse](https://www.tidyverse.org/).
   id: tidyr
   name: tidyr
   url: https://tidyr.tidyverse.org/
@@ -1233,6 +1237,8 @@
 - description: The NUTS (Nomenclature of territorial units for statistics) classification, developed by eurostat, is a hierarchical system for dividing up the economic territory of the EU and the UK.
   id: nuts
   name: NUTS
+  registry:
+    tess: NUTS
   url: https://ec.europa.eu/eurostat/web/nuts/overview
 - description: SDMX Fusion Metadata Registry
   id: sdmx-registry
