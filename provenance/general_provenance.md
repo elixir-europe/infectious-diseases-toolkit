@@ -2,8 +2,8 @@
 title: General Guidelines - Provenance
 description: General considerations and approaches related to provenance
 contributors: [Rudolf Wittner, Stian Soiland-Reyes, Simone Leo, Mari Kleemola, Simone Sacchi, Diana Pilvar, Irena Vipavc Brvar, Robin Navest]
-page_id: <!---TODO--->
-redirect_from: <!---TODO--->
+page_id: general_provenance
+redirect_from: /general/provenance
 rdmkit:
   - name: Data provenance
     url: https://rdmkit.elixir-europe.org/data_provenance
