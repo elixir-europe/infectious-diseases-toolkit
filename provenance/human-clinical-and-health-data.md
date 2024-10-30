@@ -1,7 +1,7 @@
 ---
 title: Human clinical and health data
 description: Tracking data and analysis steps.
-contributors: [Rudolf Wittner]
+contributors: [Rudolf Wittner, Simone Leo, Stian Soiland-Reyes]
 page_id: hchd_provenance
 redirect_from: /human-clinical-and-health-data/provenance
 rdmkit:
