@@ -57,6 +57,8 @@ subitems:
     description: Tracking data and analysis steps
     image_url: /assets/img/section-icons/signs-post-duotone.svg
     subitems:
+      - title: General guidelines
+        url: /provenance/general-guidelines
       - title: Human clinical and health data
         url: /provenance/human-clinical-and-health-data
       - title: Socioeconomic data
