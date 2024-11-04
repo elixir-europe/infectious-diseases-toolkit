@@ -1259,6 +1259,8 @@
 - description: Python implementation of the PROV data model.
   id: provpython
   name: Prov python
+  registry:
+    tess: Prov python
   url: https://pypi.org/project/prov/
 - description: Set of user-friendly web applications for storing, validating, and translating W3C PROV-based provenance representations.
   id: openprovenance
