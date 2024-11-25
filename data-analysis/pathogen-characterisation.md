@@ -53,6 +53,7 @@ When analysing pathogen data involved in a health emergency or epidemic outbreak
   - Data analysis execution, including parameters used
   - Accompanied by documentation that lists all parameters and other relevant information to reproduce the findings
 
+ADD TEXT HERE
 
 ### Existing approaches
 - **Container and environments**: Consider using containers and environments to collect and isolate dependencies for tools and pipelines. Environment management systems, such as Conda, help with reproducibility but are not inherently portable across platforms. Containers provide a higher level of portability, being able to encapsulate both the software and its dependencies.
