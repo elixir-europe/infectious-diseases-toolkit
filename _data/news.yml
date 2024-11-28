@@ -156,5 +156,5 @@
   description: Content was added to the General guidelines page on Provenance. [Discover the page here](/provenance/general-guidelines)
 - name: "New page: FAIR data"
   description: Content was added to the FAIR data page in the Data Description section. [Discover the page here](/data-description/fair-data)
-  date: 2024-08-08
-  linked_pr: 327
+  date: 2024-11-28
+  linked_pr: 374
