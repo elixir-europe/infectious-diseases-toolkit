@@ -53,12 +53,12 @@ Moreover, by making infectious disease data more findable, researchers promote t
 * Use (globally) unique and persistent [identifiers](https://rdmkit.elixir-europe.org/identifiers) (e.g. [biosample:SAMEA6864906](https://www.ebi.ac.uk/biosamples/samples/SAMEA6864906)) for each of your records, asserting they are unambiguously resolvable from anywhere in the world.
 * Use standard naming conventions for human and disease data (e.g. [Brill-Zinsser](https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0007182) disease), as well as for taxonomic classifications (e.g. [taxonomy:9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606) for humans or [taxonomy:2697049](https://identifiers.org/taxonomy:2697049) for COVID-19). 
 * Describe your data with clear variable names with possible searchable keywords and comprehensive descriptions: choose field standards if possible. Prioritise primary and usual users' standards, but do not forget that metadata may be used by novel users to the field, to which you can cater with generic and understandable. Metadata must be sufficient and appropriate.
-* Register your data as open and accessible as possible through repositories and data portals (e.g. [EGA](https://ega-archive.org/), [dbGaP](https://www.ncbi.nlm.nih.gov/gap/), [Health Information Portal](https://www.healthinformationportal.eu/)…). 
+* Register your data as open and accessible as possible through repositories and data portals (e.g. {% tool "ega" %}, {% tool "dbgap" %}, {% tool "health-portal" %}…). 
 * Make your webpage machine accessible and readable, especially for search engines. You can always check the findability of the data you submitted (e.g. using a new session on a web browser), adjust and correct it if needed.
 
 ### Existing approaches
 
-* It is vital that the data you produce gets archived in a permanent archive that allows for controlled distribution, not just for the set of years your project is active. Some examples of human archives are the [EGA](https://ega-archive.org/) and [dbGaP](https://www.ncbi.nlm.nih.gov/gap/), also encompassed by other major frameworks like [BioStudies](https://www.ebi.ac.uk/biostudies/) or the [COVID-19 data portal](https://www.covid19dataportal.org/).
+* It is vital that the data you produce gets archived in a permanent archive that allows for controlled distribution, not just for the set of years your project is active. Some examples of human archives are the {% tool "ega" %} and {% tool "dbgap" %}, also encompassed by other major frameworks like {% tool "biostudies" %} or the {% tool "covid-19-data-portal" %}.
 * Take a look at other approaches at the [Finding metadata](/data-sources/human-clinical-and-health-data) section.
 
 
@@ -77,7 +77,7 @@ Accessibility in infectious diseases research is crucial to ensure quick, secure
 
 ### Existing approaches 
 
-* There are multiple archives with secure procedures already in place for the distribution of sensitive human information through authentication and granted access. For example, the EGA has a [request-and-grant](https://ega-archive.org/access/data-access) method to provide secure ad-hoc access to human datasets.
+* There are multiple archives with secure procedures already in place for the distribution of sensitive human information through authentication and granted access. For example, the {% tool "ega" %} has a request and grant method to provide secure ad-hoc access to human datasets.
 * Check other use-cases and examples at the [Data access]((/human-clinical-and-health-data/data-sources)) section.
 
 
@@ -99,7 +99,7 @@ Without interoperability, data silos may emerge, restricting researchers' abilit
 
 ### Existing approaches
 
-* For controlled vocabularies and ontologies you can use the Ontology Look-up Service ([OLS](https://www.ebi.ac.uk/ols/index)). This handy service compiles multiple ontologies through which you can search at once. 
+* For controlled vocabularies and ontologies you can use the {% tool "ols" %}. This handy service compiles multiple ontologies through which you can search at once. 
 Examples of ontologies related to infectious diseases and human data and diseases are EFO (Experimental Factor Ontology), MONDO (Mondo Disease Ontology), HP (Human Phenotype Ontology), CIDO (Ontology of Coronavirus Infectious Disease), IDO (Infectious Disease Ontology), IDO-COVID-19 (The COVID-19 Infectious Disease Ontology), VIDO (The Virus Infectious Disease Ontology), DOID (Human Disease Ontology), the OBI (Ontology for Biomedical Investigations), and VO (Vaccine Ontology).
 * It is possible to disseminate any recommendation on how to choose “good” ontologies, participating in the better understanding of well used and better recognized terminologies in related fields. To do it, some ideas can be found in: [Identifying, naming and interoperating data in a Phenotyping platform network : the good, the bad and the ugly.](https://doi.org/10.5281/zenodo.3539259) 
 * To aid with the taxonomy classification of your samples (human source, xenografts, tissue cultures, viral agents, etc.) you can make use of the [NCBI's taxonomybrowser](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi).
@@ -120,9 +120,9 @@ Infectious disease research heavily relies on the reusability of human clinical 
 
 ### Existing approaches 
 
-* Redacting and interpreting data reuse policies is a complex and tedious task, especially when time is the main bottleneck of the research. For this reason, Data Use Conditions ([DUO](https://github.com/EBISPOT/DUO#what-is-duo)) were created (search for yours at [OLS](https://www.ebi.ac.uk/ols/ontologies/duo)). These allow to annotate datasets with usage restrictions, enabling: 
+* Redacting and interpreting data reuse policies is a complex and tedious task, especially when time is the main bottleneck of the research. For this reason, Data Use Conditions ({% tool "the-data-use-ontology" %}) were created (search for yours at {% tool "ols" %}). These allow to annotate datasets with usage restrictions, enabling: 
     * Automatic discovery of the data based on user authorization level or intended use.
-    * A quick and easy interpretation, from the perspective of the users, of the conditions to be met for data usage.  (e.g. use very well and open licences like [Creative Commons](https://creativecommons.org/) and repositories that permit public licences and embargos like [Zenodo](https://zenodo.org/))
+    * A quick and easy interpretation, from the perspective of the users, of the conditions to be met for data usage.  (e.g. use very well and open licences like [Creative Commons](https://creativecommons.org/) and repositories that permit public licences and embargos like {% tool "zenodo" %})
 * Make these controls in an iterative way and publish your metadata!
 * Keep track of data o reuses, and if publicly available, give a perspective of what was done with your dataset
 * Make your dataset citable! 
