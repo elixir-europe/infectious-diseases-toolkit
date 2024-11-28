@@ -383,7 +383,7 @@
   url: https://www.gsea-msigdb.org/gsea/index.jsp
 - description: The Genotype-Tissue Expression (GTEx) project is an ongoing effort to build a comprehensive public resource to study tissue-specific gene expression and regulation. Samples were collected from 53 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WES, and RNA-Seq. Remaining samples are available from the GTEx Biobank. The GTEx Portal provides open access to data including gene expression, QTLs, and histology images.
   id: gtex
-  name: GTEx
+  name: Genotype-Tissue Expression (GTEx)
   registry:
     biotools: gtex
     fairsharing: 293c15
@@ -612,7 +612,7 @@
   url: https://streamflow.di.unito.it/
 - description: The Cancer Genome Atlas (TCGA) is a comprehensive, collaborative effort led by the National Institutes of Health (NIH) to map the genomic changes associated with specific types of tumors to improve the prevention, diagnosis and treatment of cancer. Its mission is to accelerate the understanding of the molecular basis of cancer through the application of genome analysis and characterization technologies.
   id: tcga
-  name: TCGA
+  name: The Cancer Genome Atlas (TCGA)
   registry:
     fairsharing: m8wewa
     tess: TCGA
@@ -976,7 +976,7 @@
   url: https://viral.ai/collections
 - description: EMBL-EBI's web portal for finding ontologies
   id: ols
-  name: Ontology Lookup Service
+  name: Ontology Lookup Service (OLS)
   registry:
     biotools: ols
     fairsharing: Mkl9RR
