@@ -46,8 +46,8 @@ jobs:
             lycheeVersion: 0.16.1
 
       # Create or Update the issue based on the link check result
-      - name: Update Comment From File
-        uses: peter-evans/create-or-update-comment@v4
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v5
         with:
-            comment-id: 2531398005
-            body-path: ./lychee/out.md
+          title: Broken links
+          content-filepath: ./lychee/out.md
