@@ -41,7 +41,7 @@ By ensuring maximal data usability, FAIRness increases the efficiency and impact
 
 ## Findability
 
-Findability is a crucial aspect of infectious diseases research, as it ensures that relevant data and resources can be easily located and accessed by researchers and other stakeholders. 
+Findability is a crucial aspect of infectious diseases research, as it ensures that relevant data and resources can be easily discovered and located by researchers and other stakeholders. 
 
 This is particularly important in the context of infectious diseases, where **rapid access to accurate, comprehensive and purpose-specific data is essential** for effective outbreak response and disease management. 
 
@@ -91,7 +91,7 @@ Without interoperability, data silos may emerge, restricting researchers' abilit
 
 * Provide detailed metadata for infectious disease datasets, including the source, collection date, location, and any performed protocols (e.g. nasal swab being the method of isolation: [EFO:0010741](http://www.ebi.ac.uk/efo/EFO_0010741)). Even when the granularity of the (meta)data varies, you should always use descriptive fields with broadly understandable values. 
 * Use controlled vocabularies and ontologies to describe human data and infectious diseases (e.g. [EFO:0007182](http://www.ebi.ac.uk/efo/EFO_0007182) for Brill-Zinsser disease). Furthermore, do not forget contextual data that must meet intercommunity standards, for example: time, temperature, pressure, chemical components… 
-* Controlled vocabulary refers to a set of terms, standardised by the field community,  used to describe and categorise concepts, ensuring consistency and accuracy in data organisation and retrieval. For example, when a disease (e.g. Alport syndrome) has multiple used names (e.g. Alport deafness-nephropathy), it is recommended to use the designated one in the ontologies, so the redundancy is kept to a minimum.
+* Controlled vocabulary refers to a set of terms, standardised by the field community,  used to describe and categorise concepts, ensuring consistency and accuracy in data organisation and retrieval. For example, when an infectious disease (e.g., malaria) has multiple names (e.g., Plasmodium infection, jungle fever), it is recommended to use the designated one in the ontologies to minimise redundancy and improve data integration.
 * Make use of existing metadata standards, such as Data Catalog Vocabularies (DCATs) or the Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea ([Bowers et al., 2017](https://www.nature.com/articles/nbt.3893)).
 * Structure your data so that it is [machine-actionable](https://rdmkit.elixir-europe.org/machine_actionability#what-does-machine-readable-machine-actionable-or-machine-interpretable-mean-for-data-and-metadata-in-rdm).
 * Your data should include qualified references to other data sources and metadata, which would increase the traceability and context of your dataset. This may ultimately be needed for necessary meta analyses in pandemic situations. References in fields like the source of patient data (e.g. [UBERON:0001707](http://purl.obolibrary.org/obo/UBERON_0001707)), the laboratory that performed the analysis (e.g. including the name of the laboratory, the name of the institution, and its location), or the specific protocol (e.g. [sample collection](https://journals.asm.org/doi/full/10.1128/JCM.40.11.3956-3963.2002)) used, greatly enhance the quality and transparency of the data. 
@@ -103,7 +103,7 @@ Without interoperability, data silos may emerge, restricting researchers' abilit
 Examples of ontologies related to infectious diseases and human data and diseases are EFO (Experimental Factor Ontology), MONDO (Mondo Disease Ontology), HP (Human Phenotype Ontology), CIDO (Ontology of Coronavirus Infectious Disease), IDO (Infectious Disease Ontology), IDO-COVID-19 (The COVID-19 Infectious Disease Ontology), VIDO (The Virus Infectious Disease Ontology), DOID (Human Disease Ontology), the OBI (Ontology for Biomedical Investigations), and VO (Vaccine Ontology).
 * It is possible to disseminate any recommendation on how to choose “good” ontologies, participating in the better understanding of well used and better recognized terminologies in related fields. To do it, some ideas can be found in: [Identifying, naming and interoperating data in a Phenotyping platform network : the good, the bad and the ugly.](https://doi.org/10.5281/zenodo.3539259) 
 * To aid with the taxonomy classification of your samples (human source, xenografts, tissue cultures, viral agents, etc.) you can make use of the [NCBI's taxonomybrowser](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi).
-* Please refer to RDA covid19 recommendation (and others) to help you to use most recognized terminologies adapted to your case: RDA COVID-19 Working Group. (2020). [RDA COVID-19 Recommendations and Guidelines on Data Sharing (1.0)](https://doi.org/10.15497/rda00052)
+* Please refer to RDA COVID-19 recommendation (and others) to help you to use most recognized terminologies adapted to your case: RDA COVID-19 Working Group. (2020). [RDA COVID-19 Recommendations and Guidelines on Data Sharing (1.0)](https://doi.org/10.15497/rda00052)
 
 
 ## Reusability
@@ -122,7 +122,7 @@ Infectious disease research heavily relies on the reusability of human clinical 
 
 * Redacting and interpreting data reuse policies is a complex and tedious task, especially when time is the main bottleneck of the research. For this reason, Data Use Conditions ({% tool "the-data-use-ontology" %}) were created (search for yours at {% tool "ols" %}). These allow to annotate datasets with usage restrictions, enabling: 
     * Automatic discovery of the data based on user authorization level or intended use.
-    * A quick and easy interpretation, from the perspective of the users, of the conditions to be met for data usage.  (e.g. use very well and open licences like [Creative Commons](https://creativecommons.org/) and repositories that permit public licences and embargos like {% tool "zenodo" %})
+    * A quick and easy interpretation, from the perspective of the users, of the conditions to be met for data usage.  (e.g. use very well known and open licences like [Creative Commons](https://creativecommons.org/) and repositories that permit public licences and embargos like {% tool "zenodo" %})
 * Make these controls in an iterative way and publish your metadata!
-* Keep track of data o reuses, and if publicly available, give a perspective of what was done with your dataset
-* Make your dataset citable! 
+* Keep track of data reuses, and if publicly available, give a perspective of what was done with your dataset
+* Make your dataset citable by uploading it to a well-established data repository that provides DOI or another stable identifier! 
