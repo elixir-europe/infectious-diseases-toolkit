@@ -11,7 +11,7 @@ layout: none
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
-        <section class="container mb-5">
+        <section class="container g-lg-5 mb-5">
             <div>
                 <h1>Discover tools and best practices for working with infectious disease data</h1>
                 <p class="text-center lead">We provide general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
@@ -19,7 +19,7 @@ layout: none
             </div>
         </section>
         <section id="search-section" class="bg-light py-5">
-            <div class="container">
+            <div class="container g-lg-5">
                 <div class="row">
                     <h2 class="no-anchor text-center mb-3">What can we help you find?</h2>
                     <div class="position-relative">
@@ -36,7 +36,7 @@ layout: none
             </div>
         </section>
         <section class="bg-light pb-5">
-            <div class="container">
+            <div class="container g-lg-5">
                 <h2 class="no-anchor text-center mb-3">Browse all topics by</h2>
                 {%- assign sidebar = site.data.sidebars[page.sidebar] %}
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
@@ -60,7 +60,7 @@ layout: none
             </div>
         </section>
         <section class="py-5">
-            <div class="container">
+            <div class="container g-lg-5">
                 <div class="row">
                     <div class="col-lg-2 my-auto">
                         <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-duotone.svg' | relative_url }}" alt="Contributors icon">
@@ -78,7 +78,7 @@ layout: none
             </div>
         </section>
         <section class="py-5 bg-light">
-            <div class="container">
+            <div class="container g-lg-5">
                 <div class="row">
                     <div class="col-lg-6">
                     {% include news.html caption=true title=true limit=3 caption_url="/about/news" %}
