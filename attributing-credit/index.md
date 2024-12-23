@@ -4,10 +4,6 @@ toc: false
 ---
 
 
-
-{% include section-navigation-tiles.html type="attributing_credit" except="index.md" %}
-
-
 **We are still working on the content for this page.** If you are interested in adding to the page, then:
 
 [Feel free to contribute](/contribute/){: class="btn btn-primary btn-lg rounded-pill"}

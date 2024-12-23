@@ -12,8 +12,6 @@ rdmkit:
     url: https://rdmkit.elixir-europe.org/processing#what-is-data-processing
 ---
 
-{% include section-navigation-tiles.html type="data_communication" except="index.md" %}
-
 ## Introduction
 
 Data can only reach its full potential when communicated well to the audience. In a crisis situation, people are thirsty for information, and clear data communication becomes especially crucial. Communicating data as tables might be the easiest for data providers, but the trends and effects associated with infectious diseases are best shown using data visualisations.

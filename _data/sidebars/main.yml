@@ -14,6 +14,10 @@ subitems:
     subitems:
       - title: Human biomolecular data
         url: /data-analysis/human-biomolecular-data
+      - title: Pathogen characterisation
+        url: /data-analysis/pathogen-characterisation
+      - title: Socioeconomic data
+        url: /data-analysis/socioeconomic-data
 
   - title: Data communication
     url: /data-communication/
@@ -26,6 +30,8 @@ subitems:
     description: Finding (meta)data standards and documentation
     image_url: /assets/img/section-icons/list-timeline-duotone.svg
     subitems:
+      - title: FAIR data
+        url: /data-description/fair-data
       - title: Human clinical and health data
         url: /data-description/human-clinical-and-health-data
       - title: Pathogen characterisation
@@ -53,8 +59,12 @@ subitems:
     description: Tracking data and analysis steps
     image_url: /assets/img/section-icons/signs-post-duotone.svg
     subitems:
+      - title: General guidelines
+        url: /provenance/general-guidelines
       - title: Human clinical and health data
         url: /provenance/human-clinical-and-health-data
+      - title: Socioeconomic data
+        url: /provenance/socioeconomic-data
 
   - title: Quality control
     url: /quality-control/
