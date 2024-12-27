@@ -1,6 +1,13 @@
 ---
 title: Attributing credit
-toc: true
+toc: false
+description: General overview of attributing credit
+contributors: [Diana Pilvar, Hedi Peterson]
+rdmkit:
+  - name: Sharing
+    url: https://rdmkit.elixir-europe.org/sharing
+    name: Licensing
+    url: https://rdmkit.elixir-europe.org/licensing
 ---
 
 ## Attribution and Citation
