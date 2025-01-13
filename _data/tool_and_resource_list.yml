@@ -947,6 +947,8 @@
 - description: Python library that uses machine learning to perform fuzzy matching, deduplication, and entity resolution quickly on structured data.
   id: dedupe
   name: dedupe
+  registry:
+    tess: dedupe
   url: https://github.com/dedupeio/dedupe
 - description: Command line application to submit assemblies and transcriptomes to ENA.
   id: webin-cli
