@@ -1290,7 +1290,7 @@
   id: camflow
   name: camflow
   url: https://camflow.org/
-  - description: The R package will perform data quality checks against an OMOP CDM instance.
+- description: The R package will perform data quality checks against an OMOP CDM instance.
   id: ohdsi
   name: OHDSI
   url: https://github.com/OHDSI/DataQualityDashboard
@@ -1358,4 +1358,51 @@
   id: missmethods
   name: missMethods
   url: https://cran.r-project.org/web/packages/missMethods/missMethods.pdf
-  
+  - description: A tool designed to provide ultrafast all-in-one preprocessing and quality control for FastQ data.
+  id: fastp
+  name: fastp
+  url: https://github.com/OpenGene/fastp
+- description: Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.
+  id: cutadapt 
+  name: Cutadapt
+  url: https://cutadapt.readthedocs.io/en/stable/
+- description: A novel analysis tool developed for quality control and preprocessing of FASTQ and SAM/BAM data.
+  id: soapnuke 
+  name: SOAPnuke
+  url: https://github.com/BGI-flexlab/SOAPnuke
+- description: Guppy is a bioinformatics toolkit that enables real-time basecalling and several post-processing features that works on Oxford Nanopore Technologies™ sequencing platforms.
+  id: guppy
+  name: Guppy
+  url: https://nanoporetech.com/es/document/Guppy-protocol
+- description: Dorado is a high-performance, easy-to-use, open source basecaller for Oxford Nanopore reads.
+  id: dorado
+  name: Dorado
+  url: https://github.com/nanoporetech/dorado
+- description: NanoPlot is a plotting tool for long read sequencing data and alignments.
+  id: nanoplot
+  name: NanoPlot
+  url: https://github.com/wdecoster/NanoPlot
+- description: nanoq is an ultra-fast quality control and summary reports for nanopore reads
+  id: nanoq
+  name: nanoq
+  url: https://github.com/esteinig/nanoq
+- description: PycoQC computes metrics and generates interactive QC plots for Oxford Nanopore technologies sequencing data
+  id: pycoqc
+  name: PycoQC
+  url: https://a-slide.github.io/pycoQC/
+- description: LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc.
+  id: longqc
+  name: LongQC
+  url: https://github.com/yfukasawa/LongQC
+- description: Fast and effective quality control for MinION and PromethION sequencing data
+  id: minionqc
+  name: MinIONQC
+  url: https://github.com/roblanf/minion_qc
+- description: Porechop is a tool for finding and removing adapters from Oxford Nanopore reads.
+  id: porechop
+  name: Porechop
+  url: https://github.com/rrwick/Porechop
+- description: Filtering and trimming of long read sequencing data.
+  id: nanofilt
+  name: Nanofilt
+  url: https://github.com/wdecoster/nanofilt

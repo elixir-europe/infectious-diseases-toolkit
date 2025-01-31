@@ -89,8 +89,13 @@ Some typical considerations involved in this step:
 
 Preprocessing steps may depend on the technology used and the pathogen being studied and thus should be adjusted accordingly. Some common approaches in genomics studies include:
 
-- Raw sequences quality check: {% tool "fastqc" %}
-- Trimming out adapters and low-quality sequences: {% tool "trimmomatic" %}
+- Short reads:
+  - Raw sequences quality check: {% tool "fastqc" %}
+  - Trimming out adapters and low-quality sequences: {% tool "trimmomatic" %}, {% tool "fastp" %}, {% tool "cutadapt" %}, {% tool "SOAPnuke" %}
+- Long reads:
+  - basecalling softwares: {% tool "guppy" %}, {% tool "dorado" %}
+  - Raw sequences quality check: {% tool "nanoplot" %}, {% tool "nanoq" %}, {% tool "pycoqc" %}, {% tool "longqc" %}, {% tool "minionqc" %}
+  - Trimming out adapters and low-quality sequences: {% tool "porechop" %}, {% tool "nanofilt" %}
 - Quality checks: further information can be found on the [Quality control - Pathogen characterisation](/quality-control/pathogen-characterisation) page.
 
 ## Analysis
