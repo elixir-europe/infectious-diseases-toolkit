@@ -112,20 +112,42 @@ The analysis of data to characterise a pathogen of interest can involve methodol
 ### Existing approaches
 
 There are several types of analysis that can be performed on pathogen-related data, depending on the specific research question and type of data being analysed. Here are some solutions:
+
 - Consider using the available computational infrastructure to scale up your analysis capabilities. This may include applying for access to large computing cluster resources with e.g. {% tool "eurohpc"%} or making use of public Galaxy servers such as {% tool "galaxy-europe" %}.
 - **Genomic analysis**: Including whole genome sequencing (WGS), this analysis allows the interpretation of genetic information encoded along the genome (DNA or RNA). Genomic analysis can be used for a wide range of applications to characterise many aspects of pathogen variability, such as Variants of Concern (VOC) and antimicrobial resistance profiles in bacteria (AMR). Examples of tools that allow us to take into account the genomic characteristics of pathogens (e.g. genomic structure and size, gene annotations, mobile genetic elements) are:
-  - Sequence Alignment: {% tool "bowtie2" %}, {% tool "bwa" %} and {% tool "samtools" %}
-  - Genome Assembly: {% tool "canu"%}, {% tool "velvet" %} and {% tool "spades" %}
-  - Phylogenetic Analysis: {% tool "clustalw" %}, {% tool "muscle" %}, {% tool "mafft" %}, {% tool "raxml" %} and {% tool "iqtree" %}
-  - Molecular Clock: {% tool "mrbayes" %}, {% tool "beast" %} and {% tool "beauti" %}
-  - Variant calling: {% tool "dragen-gatk" %}, {% tool "freebayes" %} and {% tool "varscan" %}
-  - Annotation: {% tool "annovar" %}, {% tool "snpeff" %}, {% tool "vep" %} and {% tool "dbnsfp" %}
-  - All-in-one Bioinformatic Tools: {% tool "snippy" %}
+  - Short reads:
+    - All-in-one Bioinformatic Tools: {% tool "snippy" %}, {% tool "dragen-gatk" %}
+    - Sequence Alignment: {% tool "bowtie2" %}, {% tool "bwa" %} and {% tool "samtools" %}
+    - Genome Assembly: {% tool "canu"%}, {% tool "velvet" %} and {% tool "spades" %}
+    - Phylogenetic Analysis: {% tool "clustalw" %}, {% tool "muscle" %}, {% tool "mafft" %}, {% tool "raxml" %}, {% tool "fasttree" %} and {% tool "iqtree" %}
+    - Molecular Clock: {% tool "mrbayes" %}, {% tool "beast" %} and {% tool "beauti" %}
+    - Variant calling: {% tool "dragen-gatk" %}, {% tool "freebayes" %}, {% tool "bcftools" %} and {% tool "ivar" %}
+    - Varoant annotation: {% tool "annovar" %}, {% tool "snpeff" %}, {% tool "vep" %} and {% tool "dbnsfp" %}
+    - Genome annotation: {% tool "prokka" %}, {% tool "bakta" %} or {% tool "dfast" %}
+    - Consensus genome generation: {% tool "bcftools" %}, {% tool "samtools" %}
+  - Long reads:
+    - All-in-one Bioinformatic Tools: {% tool "artic" %}
+    - Sequence Alignment: {% tool "minimap2" %}  
+    - Genome Assembly: {% tool "canu" %}, {% tool "flye" %}, {% tool "raven" %}, {% tool "miniasm" %}, {% tool "dragonflye" %}  
+    - Assembly Polishing: {% tool "racon" %}  
+    - Phylogenetic Analysis: {% tool "clustalw" %}, {% tool "muscle" %}, {% tool "mafft" %}, {% tool "raxml" %}, {% tool "fasttree" %}, {% tool "iqtree" %}  
+    - Molecular Clock: {% tool "mrbayes" %}, {% tool "beast" %} and {% tool "beauti" %}
+    - Variant Calling: {% tool "medaka" %}, {% tool "nanopolish" %}, {% tool "nanocaller" %}  
+    - Variant Annotation: {% tool "snpeff" %}  
+    - Genome annotation: {% tool "prokka" %}, {% tool "bakta" %} or {% tool "dfast" %}
+  - Hybrid:  
+    - Genome Assembly: {% tool "dragonFlye" %}, {% tool "unicycler" %}  
+    - Polishing: {% tool "pilon" %}, {% tool "polypolish" %}
+- **Expression analysis** (fungal genomes):
+  - Sequence Alignment: {% tool "star" %}, {% tool "hisat2" %}, {% tool "kallisto" %}  
+  - Quantification: {% tool "salmon" %}, {% tool "rsem" %}  
+  - Removal of ribosomal RNA: {% tool "sortmerna" %}  
+  - Differential expression analysis: {% tool "deseq2" %}
 
 - **Metagenomics analysis**: Sequencing all genetic material in a sample can provide comprehensive data about the composition of the microbial community. In the context of infectious diseases, it can aid in identifying multiple pathogens simultaneously in clinical, as well as environmental samples. Examples of tools in this type of analysis are:
   - 16S rRNA sequencing: {% tool "qiime2" %}
   - Shotgun sequencing: {% tool "spades" %}, and {% tool "megahit" %}
-  - Assigning taxonomic labels: {% tool "kraken2" %}
+- Assigning taxonomic labels: {% tool "kraken2" %}, {% tool "kaiju" %}, {% tool "diamond" %}, {% tool "megan" %}, {% tool "metaphlan" %}, {% tool "centrifuge" %}, {% tool "motus" %}, {% tool "krakenuniq" %}, {% tool "kmcp" %}, {% tool "ganon" %}, {% tool "clark" %}
 
 - **Proteomics analysis**: Proteomics, primarily utilising mass spectrometry techniques, offers a powerful tools for examining proteins and their interplay. This can provide valuable insights into irregularities associated with infectious diseases and potentially uncover mechanisms of drug resistance. Examples of tools in this type of analysis are:
   - Mass Spectrometry Data Extraction Software: {% tool "readw" %}
