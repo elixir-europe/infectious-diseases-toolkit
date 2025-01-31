@@ -23,7 +23,7 @@ The management of human clinical and health data entails several steps that are 
 
   To ensure quality assurance of the clinical as well as biomolecular data and proper labelling and sample identification, CovIT software was developed by the Institute of Molecular and Translational Medicine (IMTM), Palacky University in Olomouc, Czech Republic. CovIT system has several modules. First module is designed for collection points. It controls the personal identification number, contact address, correct format of the phone number of the tested person and communicates with the ISIN register.
 
-  The R package “OHDSI” provides tools for a systematic-based approach to running data quality checks on OMOP tables, fields, and concepts.
+  The R package {% tool "ohdsi" %} provides tools for a systematic-based approach to running data quality checks on OMOP tables, fields, and concepts.
 
 * Data linkage: Ensuring data quality is again key in this step, especially paying attention to data quality dimensions such as completeness, accuracy, timeliness or consistency among the different datasets to be linked. One approach is to use standards, specifically on the semantic and syntactic levels, as they facilitate the linkage of databases, especially if they come from different sources. It is also important to assess the [quality of data linkages](https://academic.oup.com/ije/article/46/5/1699/4107250), considering potential data linkage errors, which can be especially detrimental in [medical research](https://bmjmedicine.bmj.com/content/1/1/e000087).
 
