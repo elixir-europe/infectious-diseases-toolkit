@@ -1586,3 +1586,95 @@
   id: hamronization
   name: hAMRonization
   url: https://github.com/pha4ge/hAMRonization
+- description: KmerFinder is a bioinformatics tool designed for the rapid identification of bacterial species and strains from whole genome sequencing (WGS) data.
+  id: kmerfinder
+  name: KmerFinder 
+  url: https://bitbucket.org/genomicepidemiology/kmerfinder/src/master/
+- description: PlasmidID is a mapping-based, assembly-assisted plasmid identification tool that analyzes and gives graphic solution for plasmid identification.
+  id: plasmidid
+  name: PlasmidID
+  url: https://github.com/BU-ISCIII/plasmidID
+- description: chewBBACA is a software suite for the creation and evaluation of core genome and whole genome MultiLocus Sequence Typing (cg/wgMLST) schemas and results.
+  id: chewbbaca
+  name: chewBBACA
+  url: https://github.com/B-UMMI/chewBBACA
+- description: ECTyper is a standalone versatile serotyping module for Escherichia coli. It supports both fasta (assembled) and fastq (raw reads) file formats.
+  id: ectyper
+  name: ECTyper
+  url: https://github.com/phac-nml/ecoli_serotyping
+- description: ShigaTyper is a quick and easy tool designed to determine Shigella serotype using Illumina (single or paired-end) or Oxford Nanopore reads with low computation requirement.
+  id: shigatyper
+  name: ShigaTyper
+  url: https://github.com/CFSAN-Biostatistics/shigatyper
+- description: This is a tool that is used to identify differentiate Shigella/EIEC using cluster-specific genes and identify the serotype using O-antigen/H-antigen genes.
+  id: shigeifinder
+  name: ShigEiFinder
+  url: https://github.com/LanLab/ShigEiFinder
+- description: The cap locus of H. influenzae are categorised into 6 different groups based on serology (a-f). 
+  id: hicap
+  name: hicap
+  url: https://github.com/scwatts/hicap
+- description: This pipeline is designed to rapidly infer Streptococcus suis serotype from Oxford Nanopore data by first assemblying a draft genome using Flye followed by genome polishing with racon and medaka.
+  id: ssuissero
+  name: SsuisSero
+  url: https://github.com/jimmyliu1326/SsuisSero
+- description: Kleborate was primarily developed to screen genome assemblies of Klebsiella pneumoniae and the Klebsiella pneumoniae species complex (KpSC).
+  id: kleborate
+  name: Kleborate
+  url: https://github.com/klebgenomics/Kleborate
+- description: In silico Legionella pneumophila Sequence Based Typing (SBT).
+  id: legsta
+  name: legsta
+  url: https://github.com/tseemann/legsta
+- description: In silico serogroup typing prediction for Listeria monocytogenes
+  id: lissero
+  name: LisSero
+  url: https://github.com/MDU-PHL/LisSero
+- description: TBProfiler can rapidly and accurately predict anti-TB drug resistance profiles across large numbers of samples with WGS data.
+  id: tbprofiler
+  name: TBProfiler
+  url: https://github.com/jodyphelan/TBProfiler
+- description: MTBseq is an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from Illumina whole genome sequence data of Mycobacterium tuberculosis complex isolates.
+  id: mtbseq
+  name: MTBseq
+  url: https://github.com/ngs-fzb/MTBseq_source
+- description: In silico typing of Neisseria meningitidis contigs.
+  id: meningotype
+  name: meningotype
+  url: https://github.com/MDU-PHL/meningotype
+- description: In silico multi-antigen sequence typing for Neisseria gonorrhoeae (NG-MAST) and Neisseria gonorrhoeae sequence typing for antimicrobial resistance (NG-STAR).
+  id: ngmaster
+  name: ngmaster
+  url: https://github.com/MDU-PHL/ngmaster
+- description: A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates.
+  id: pasty
+  name: pasty
+  url: https://github.com/rpetit3/pasty
+- description: Salmonella serotype prediction from genome sequencing data.
+  id: seqsero
+  name: SeqSero2
+  url: https://github.com/denglab/SeqSero2
+- description: Salmonella serovar predictions from whole-genome sequence assemblies by determination of antigen gene and cgMLST gene alleles using BLAST.
+  id: sistr
+  name: SISTR
+  url: https://github.com/phac-nml/sistr_cmd
+- description: AgrVATE is a tool for rapid identification of Staphylococcus aureus agr locus type and also reports possible variants in the agr operon.
+  id: agrvate
+  name: AgrVATE
+  url: https://github.com/VishnuRaghuram94/AgrVATE
+- description: Given a fasta file or multiple fasta files, identifies the repeats and the order and generates a spa type.
+  id: spatyper
+  name: spaTyper
+  url: https://github.com/HCGB-IGTP/spaTyper
+- description: sccmec is a tool for typing SCCmec cassettes in assemblies.
+  id: sccmec
+  name: sccmec
+  url: https://github.com/rpetit3/sccmec
+- description: emmtyper is a command line tool for emm-typing of Streptococcus pyogenes using a de novo or complete assembly.
+  id: emmtyper
+  name: emmtyper
+  url: https://github.com/MDU-PHL/emmtyper
+- description: In silico Penicillin Binding Protein (PBP) typer for Streptococcus pneumoniae assemblies
+  id: pbptyper
+  name: pbptyper
+  url: https://github.com/rpetit3/pbptyper
