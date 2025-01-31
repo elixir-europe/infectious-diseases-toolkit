@@ -92,6 +92,39 @@ It is important to check if the repository where pathogen data is being deposite
 
 The following bioinformatics tools are usually part of a bioinformatics pipeline that is used for the identification of a specific variant of a known pathogen. Therefore, they can be used for infectious diseases but also in other scientific domains.
 
+1. **Sequencing quality**  
+   There are several features in a sequencing file (*fastq*) that indicate the quality of sequencing:  
+   - Base sequence quality  
+   - Base sequence content
+   - Sequence GC content
+   - Base N content
+   - Sequence Duplication Levels
+   - Overrepresented sequences
+   - Adapter Content
+   - Read length
+
+   These metrics can be estimated using FastQC, which also provides graphic reports to help the user identify any issues.  
+
+2. **Alignment quality**  
+   Once the reads have been aligned to the respective reference genome, a number of additional quality metrics can be calculated for another layer of quality control. These include:  
+   - Insert size  
+   - Base coverage  
+   - Mapping quality  
+   - Percentage mapped  
+   - Number of uniquely mapped reads  
+   - Contamination  
+
+   Tools such as SAMtools and QualiMap can measure these metrics, and FastQ-Screen measures contamination with other species.  
+
+3. **Variant call quality**  
+   Upon identifying (calling) genetic variants using an appropriate tool (e.g., *GATK*), further quality checks need to be made:  
+   - Ratio transition/transversion (ti/tv) outside the expected range  
+   - Ratio het/hom  
+   - Call rate  
+   - Singletons**  
+
+   Tools vcftools, bcftools, and plink can calculate these metrics.
+
 - {% tool "fastqc" %}: FastQC is a widely used quality control tool for next-generation sequencing (NGS) data. It provides a comprehensive analysis of the sequence quality, including per base sequence quality, sequence length distribution, adapter content, and GC content. FastQC generates graphical reports that allow users to identify potential issues and assess the overall quality of the sequencing data.
 - {% tool "samtools" %}: Samtools is a widely used suite of tools for working with sequencing data in the SAM/BAM format. It can be used for a variety of tasks, including sorting, merging, indexing, and filtering SAM/BAM files. Samtools also includes a quality control tool called "samtools flagstat," which generates statistics on the number and proportion of reads that pass various quality filters, such as mapping quality, read length, and base quality.
 - {% tool "bcftools" %}: Bcftools is a set of tools for working with variant calls in the VCF format. It can be used for tasks such as filtering, merging, and comparing VCF files. Bcftools includes several quality control tools, such as "bcftools stats," which generates summary statistics on the quality of variant calls, such as the number of variants called, the proportion of variants passing quality filters, and the distribution of variant quality scores.
@@ -99,8 +132,8 @@ The following bioinformatics tools are usually part of a bioinformatics pipeline
 - {% tool "gatk" %}: GATK is a widely used tool for variant calling and genotyping from NGS data. It uses various filtering and quality control options to identify high-quality variants and reduce false positives in the analysis.
 - {% tool "picard" %}: Picard is a suite of tools that provides quality control and processing of NGS data, including duplicate read removal, format conversion, and alignment. It is widely used in sequencing data analysis pipelines to improve the quality and reliability of the data.
 - {% tool "trimmomatic" %}: Trimmomatic is a tool used for the removal of adapter sequences, low-quality reads, and sequences with ambiguous bases from NGS data. It uses various filtering and trimming options to improve the quality of the sequencing data and prepare it for downstream analysis.
-- {% tool "fastqc-screen" %}:  FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files). It screens the input data against a database, formed by the genomes of all of the organisms that could have contaminated the sample, along with PhiX, Vectors or other contaminants commonly seen in sequencing experiments.
-- {% tool "graf-pop" %}: GRAF-pop is a software tool that infers the subject ancestry. For the estimation it uses about 100,000 SNPs from genotype datasets, which can be in PLINK and VCF format. 
+- {% tool "fastqc-screen" %}: FastQScreen is a quality control tool used to detect contamination in sequencing data (FASTQ files). It screens the input data against a database, formed by the genomes of all of the organisms that could have contaminated the sample, along with PhiX, Vectors or other contaminants commonly seen in sequencing experiments.
+- {% tool "graf-pop" %}: GRAF-pop is a software tool that infers the subject ancestry. For the estimation it uses about 100,000 SNPs from genotype datasets, which can be in PLINK and VCF format.
 - {% tool "graf-sex" %}: GRAF-sex determines subject sexes using the genotypes. It’s used to validate the self-reported sexes in phenotype datasets.
 
 #### Diagnostic assays quality control
