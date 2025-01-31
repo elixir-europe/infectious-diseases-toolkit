@@ -72,6 +72,20 @@ After assessing data quality, the next step is data preprocessing. Data preproce
 - **Benchmarking studies**: To obtain comparative quality assessment of the applied laboratory and analytical procedure, the participation in benchmarking studies is advised. Benchmarking studies can be performed in different ways, depending on the scientific discipline. The quality of sample processing results of aliquots from the same sample across several laboratories can be compared and reasons for quality deviations can possibly be identified. Benchmarking bioinformatics workflows can be done e.g. by providing mock genomes to the study participants and identifying those workflows that perform best in in silico identification or discovery of the respective trait in question (e.g. a variant, deletion of certain length, etc.). In the field of COVID-19, several benchmarking studies have been performed, e.g. for the sequencing  of viral genomes (https://pubmed.ncbi.nlm.nih.gov/34308277/), or for benchmarking bioinformatics approaches for virus identification workflows (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03236-4; https://www.nature.com/articles/s41598-023-31368-3; https://www.biorxiv.org/content/10.1101/2023.08.07.552334v2.full; https://www.sciencedirect.com/science/article/pii/S138665322100175X).
 - More broader, benchmarking studies for the identification of pathogens in human tissue have been published earlier (e.g. https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1819-8; or antimicrobial resistance using sequencing https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9243550/).
 
+### Human data removal from pathogen sequencing
+
+When sequencing pathogen samples, generated data is often contaminated with host genetic material. Since a human genome is much larger than most pathogens, the sequencers usually provide much more human data than pathogen data.
+
+Even traces of human genetic material in pathogen sequencing data could potentially identify individuals. The identifiability risk arises because human genome sequences are unique and classified as a special category of human data under GDPR. To ensure the ethical and legal handling of genomic data, removing human reads minimizes the risk of re-identification and ensures compliance with human data protection regulations.
+
+Usually, the human reads are removed from pathogen sequencing data using two classes of methods: 1) ones that map all reads to the human genome (and discard those that do) or 2) ones that use a taxonomic classifier to predict the origin of each read.
+
+Methods that use the first approach include [CS-SCORE](https://www.sciencedirect.com/science/article/pii/S0888754315000750?via%3Dihub), [DeconSeq](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017288), [GenCoF](https://github.com/MattCzajkowski/GenCoF) and [MetaGeniE](https://github.com/ngsclinical/metagenie). Methods that predict the origin of the reads include [Centrifuge](https://bio.tools/centrifuge) or [Kraken](https://bio.tools/kraken).
+
+It is noteworthy that both categories result in false negative calls - reads that are human but fail to be classified (or aligned) as such and, therefore, could be found in open repositories. [Bush et al.](https://pubmed.ncbi.nlm.nih.gov/32558637/) were able to extract a sufficient number of reads to call known human SNPs in 6 % of the samples they analyzed from SRA BioProject. They developed a two-stage approach to remove human reads from pathogen sequencing experiments: first  using Bowtie2 followed by SNAP. The benchmark was made in short read sequences from bacterial samples. Other types of sequencing (e.g. long read sequencing) might require other combinations of tools to provide pathogen data free from human reads.
+
+It is important to check if the repository where pathogen data is being deposited recommends the use of a specific tool for quality control and to adhere to this prior or during the data upload step.
+
 ### Existing approaches
 
 #### Bioinformatics tools for quality control
