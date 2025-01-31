@@ -24,7 +24,7 @@ Quality control (QC) is an essential step in the analysis of human biomolecular 
 
 The first step in QC for human biomolecular data is ensuring the safe proper collection and processing of samples. The Centers for Disease Control have published guidelines for safe handling of infectious agents, which can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK218635/). This includes collecting all clinical information that will be relevant for the analysis. For guidance and considerations related to the sample collection and processing specific to SARS-CoV, plese visit [this documentation](https://www.cdc.gov/covid/hcp/clinical-care/clinical-specimen-guidelines.html?CDC_AAref_Val=https://www.cdc.gov/coronavirus/2019-ncov/lab/guidelines-clinical-specimens.html).
 
-### Considerations
+### General Considerations
 
 - **Rapid and Efficient Sample Collection**: During an infectious disease outbreak, it is crucial to collect samples as quickly and efficiently as possible to identify and contain the spread of the disease. A well-organised sampling plan should be implemented, including guidelines for sample collection, transport, and storage, and appropriate training should be provided to personnel.
 - **Safety Precautions**: Safety precautions are crucial during an infectious disease outbreak to prevent the spread of the disease among the sample collection team and laboratory personnel. Appropriate protective equipment, such as gloves, masks, and gowns, should be provided to personnel, and guidelines for handling infectious samples should be strictly followed.
