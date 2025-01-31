@@ -166,23 +166,34 @@ In pathogen characterisation, the postprocessing steps are crucial to evaluate a
 ### Considerations
 
 Some considerations about postprocessing steps in pathogen characterization include:
+
 - **Interpretation**: it is important to interpret them in a biologically meaningful context. This should consider the following aspects: report the variability of specific pathogens; find out new strains that could become concerning; identify specific genes or mutations associated with pathogenic variation.
 - **Transformation**: Consider having postprocessing steps to ensure that outputs are transformed or converted into interoperable and open formats. This ensures that subsequent pipelines and collaborators can readily make use of the results. 
 - **Visualisation**: To allow a clear interpretation of the clinical practice, it is important to visualise the results clearly, to make the results clear also to all professionals involved.
+- **Quality metrics**: It is important to obtain different quality metrics to evaluate the accuracy or quality of the data generated during the analysis. Depending on the analysis performed, the metrics and tools may vary significantly.
 
 ### Existing approaches
 
 - **Spatial-temporal analysis and visualisation**: using a combined approach of phylogenetic, spatial distribution, and molecular clock, this approach aids in designing strategies to control and prevent the spread of infectious diseases, as well as in the development of effective treatments, and vaccines.
   - Spatial distribution of strain: {% tool "nextstrain" %}
-- **Drug resistance characterisation**: genomic analysis can be used to characterise pathogens for specific resistance against drugs and help develop strategies to fight the spread of drug-resistant strains.
-  - Antimicrobial resistance (AMR): {% tool "resfinder" %} and {% tool "pathogenwatch" %}
-  - Viral drug resistance: {% tool "hivdb-stanford" %} 
+- **Lineage, subtyping or clade assignment**: {% tool "pangolin" %}, {% tool "nextclade" %}, {% tool "irma" %}, {% tool "fluserver" %}, {% tool "genome-detective" %}, {% tool "hcv-glue" %}
+- **Drug resistance and virulence factor characterisation**: genomic analysis can be used to characterise pathogens for specific resistance against drugs and help develop strategies to fight the spread of drug-resistant strains.
+  - Antimicrobial resistance (AMR) and virulence factors: {% tool "resfinder" %}, {% tool "amrfinderplus" %}, {% tool "ariba" %}, {% tool "abricate" %} and {% tool "pathogenwatch" %}
+  - Viral drug resistance: {% tool "hivdb-stanford" %} and {% tool "fluserver" %}
+  - Hepatitis C and B resistance profilers: Geno2pheno, {% tool "hcv-glue" %}
 - **Interaction analysis and functional enrichment analysis**: placing the identified protein interactions and regulatory networks in the context of the affected biological pathways allows for a better understanding of disease mechanisms and potential drug targets.
   - Network analysis: {% tool "cytoscape" %} and {% tool "celldesigner" %}
   - Gene enrichment analysis: {% tool "enrichr" %}, {% tool "go" %} and {% tool "g-profiler" %}
   - Interaction Databases: {% tool "biogrid" %} and {% tool "intact" %}
   - Integrative diagrams:
-    -  A [disease map](https://disease-maps.org/) can be used to represent a conceptual model of the molecular mechanisms of a disease. An example is the {% tool "covid19map" %}.
+    - A [disease map](https://disease-maps.org/) can be used to represent a conceptual model of the molecular mechanisms of a disease. An example is the {% tool "covid19map" %}.
+- **Analysis metrics**:
+  - Genome alignment metrics: {% tool "samtools" %}, {% tool "picard" %}
+  - De novo assembly metrics: {% tool "quast" %}
+  - Expression analysis quality metrics: {% tool "rseqc" %}, {% tool "qualimap" %}, {% tool "dupradar" %}, {% tool "preseq" %}
+- **General results aggregation**:
+  - General metrics: {% tool "multiqc" %}
+  - Antibiotic Resistance Genes: {% tool "hamronization" %}
 
 ## Data analysis of wastewater surveillance for infectious diseases
 
