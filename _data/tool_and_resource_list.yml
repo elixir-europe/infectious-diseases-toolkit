@@ -1290,3 +1290,7 @@
   id: camflow
   name: camflow
   url: https://camflow.org/
+  - description: The R package will perform data quality checks against an OMOP CDM instance.
+  id: ohdsi
+  name: OHDSI
+  url: https://github.com/OHDSI/DataQualityDashboard
