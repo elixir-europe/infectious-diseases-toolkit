@@ -40,9 +40,25 @@ When looking for solutions to sample collection and processing, you can check [t
 
 Pre-analytical errors, such as wrong labelling of the specimen, the incorrect specimen collection device, incorrect specimen type are the most frequently reported sources of error (between 48% and 62%) within the clinical laboratory, as stated in this 2021 [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7917444/#s0120), Quality Assurance in the Clinical Virology Laboratory.
 
-Conducting quality control is an essential step to avoid these kinds of errors. Quality metrics such as read depth, coverage, and base quality scores can help identify errors, artifacts, and biases in the data. Tools such as FastQC, Qualimap, and Picard can be used to assess data quality and generate summary reports. On the other hand, tools such as the FastQScreen and GRAF-pop and GRAF-sex, can be used to ensure the correct labelling of the samples. Further details on these tools are outlined below.
+### Pre-analytical testing (proficiency testing):
 
-It’s also important to notice the need for international standards, reference materials, and external quality assessment to support quality assurance. Although it can be a challenging and a complex process, verifying and validating assay methods, monitoring assay performance over time, and ensuring traceability to international standards for calibration are key points for high quality results. 
+Biospecimen Proficiency Testing program is an external quality assessment tool to verify the precision and accuracy of biospecimen testing methods, and the efficiency of laboratory sample processing methods. At the end of the program, each participant will receive a performance report, a certificate of participation, and a label of participation (e.g. https://www.isber.org/page/PTGI/Proficiency-Testing-General-Information.htm). Proficiency testing schemes and providers can be found from e.g. https://www.eptis.org/.
+
+Conducting quality control is an essential step to avoid these kinds of errors The use of a laboratory information management system (LIMS) streamlines the management of sample processing, data and laboratory workflows. These types of software increase the traceability of samples, ensuring data accuracy from sample collection to analysis.  There are several commercially available LIMS systems and it is also possible to develop such software with open source and freely available solutions like REDCap (doi: https://doi.org/10.1101/2022.05.09.22274599). Regardless of the LIMS software choice, analytical laboratories must always enforce the use of standardized procedures and audit trails, in order to maintain high levels of data integrity, compliance, and operational efficiency.
+
+### Positive and negative controls:
+
+In analytical procedures it is important to select and use proper controls, such as negative or positive controls to ensure the accuracy and validity of the results. Positive controls are samples known to produce an expected outcome, ensuring that the analytical system is working property. Negative controls are samples that should not produce the result expected for positive samples. It helps establish the background noise or non-specific responses within the system. Laboratories should develop and validate a routine of analytical procedures using these types of controls with the aim of maintaining high quality results.
+
+For samples that would be sequenced using NGS, some quality controls will assess sample mislabeling and contamination.  For example, tools such as ​[​CHARR](https://github.com/atgu/CHARR) will detect sample contamination. [GRAF-sex](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/Software.cgi) will detect sample sex ensuring that it matches the labeled sex. [PEDDY](https://github.com/brentp/peddy) will infer family connections thus revealing any sample mixup during sample collection from families. Further details on these tools are outlined below.
+
+It’s also important to notice the need for international standards, reference materials, and external quality assessment to support quality assurance. Although it can be a challenging and a complex process, verifying and validating assay methods, monitoring assay performance over time, and ensuring traceability to international standards for calibration are key points for high quality results.
+
+### Reference material:
+
+The use of reference material is advised. Reference material is used to validate the quality and traceability of a sample and to validate the methods used to analyze these materials. Reference materials are often used in analytical chemistry to perform these validations, and most analytical instruments gather comparative data. Several standards are available from commercial vendors.
+
+Reference material needs to be fit-for-purpose, i.e. it needs to address the nature of the study (clinical, research), and the technologies used in the analysis. To obtain credibility, reference material should be accepted by the scientific community, e.g. via publications, and public use. Self-made reference material which possibly cannot be shared across laboratories should not be used.
 
 After assessing data quality, the next step is data preprocessing. Data preprocessing involves cleaning and filtering the data to remove errors, artifacts, and biases that may affect downstream analysis. Common preprocessing steps include read trimming, adapter removal, quality filtering, and read alignment. Tools such as Trimmomatic, Cutadapt, and BWA can be used for data preprocessing.
 
