@@ -1,7 +1,7 @@
 ---
 title: Human clinical and health data
 description: General considerations for human clinical and health data quality control.
-contributors: [Vladimira Koudelakova, Eva Garcia Alvarez, Maria A. Rujano, Maria Panagiotopoulou, Bert Droesbeke]
+contributors: [Vladimira Koudelakova, Eva Garcia Alvarez, Maria A. Rujano, Maria Panagiotopoulou, Bert Droesbeke, Andreas Scherer, Dilza Campos, Abeer Fadda, Marjan Meurisse, Jaime Ozáez, Isabel Cuesta]
 page_id: hchd_quality_control
 redirect_from: /human-clinical-and-health-data/quality-control
 ---
