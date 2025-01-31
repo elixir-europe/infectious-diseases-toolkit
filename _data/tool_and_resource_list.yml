@@ -1678,3 +1678,15 @@
   id: pbptyper
   name: pbptyper
   url: https://github.com/rpetit3/pbptyper
+- description: Krona Tools is a set of scripts to create Krona charts from several Bioinformatics tools as well as from text and XML files.
+  id: krona
+  name: Krona Tools
+  url: https://github.com/marbl/Krona
+- description: LoFreq* (i.e. LoFreq version 2) is a fast and sensitive variant-caller for inferring SNVs and indels from next-generation sequencing data
+  id: lofreq
+  name: LoFreq*
+  url: https://csb5.github.io/lofreq/
+- description: SnpSift annotates genomic variants using databases, filters, and manipulates genomic annotated variants.
+  id: snpsift
+  name: SnpSift
+  url: https://pcingola.github.io/SnpEff/#snpsift

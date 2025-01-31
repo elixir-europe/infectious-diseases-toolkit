@@ -138,6 +138,7 @@ There are several types of analysis that can be performed on pathogen-related da
   - Hybrid:  
     - Genome Assembly: {% tool "dragonFlye" %}, {% tool "unicycler" %}  
     - Polishing: {% tool "pilon" %}, {% tool "polypolish" %}
+
 - **Expression analysis** (fungal genomes):
   - Sequence Alignment: {% tool "star" %}, {% tool "hisat2" %}, {% tool "kallisto" %}  
   - Quantification: {% tool "salmon" %}, {% tool "rsem" %}  
@@ -189,7 +190,7 @@ Some considerations about postprocessing steps in pathogen characterization incl
     - A [disease map](https://disease-maps.org/) can be used to represent a conceptual model of the molecular mechanisms of a disease. An example is the {% tool "covid19map" %}.
 - **Analysis metrics**:
   - Genome alignment metrics: {% tool "samtools" %}, {% tool "picard" %}
-  - De novo assembly metrics: {% tool "quast" %}
+  - _de novo_  assembly metrics: {% tool "quast" %}
   - Expression analysis quality metrics: {% tool "rseqc" %}, {% tool "qualimap" %}, {% tool "dupradar" %}, {% tool "preseq" %}
 - **General results aggregation**:
   - General metrics: {% tool "multiqc" %}
@@ -239,7 +240,7 @@ wgMLST analyzes the entire genome, considering all the genes present in the geno
 
 cgMLST focuses specifically on the set of genes that are present in all strains of a species, the core genome. This excludes accessory genes, genes not necessary for organism survival or reproduction under standard conditions, (i.e. virulence genes) that may vary among strains.
 
-## Existing approaches
+### Existing approaches
 
 There are different tools available for bacterial outbreak analysis. Here they are classified based on the stage of the analysis.
 
@@ -265,17 +266,17 @@ There are different tools available for bacterial outbreak analysis. Here they a
       - [PubMLST](https://pubmlst.org/)
       - [Enterobase](https://enterobase.warwick.ac.uk/)
   - **Pathogen-specific typing tools**: MLST is not always enough to characterize a certain species. Some species have their unique typing methods. Here are species-specific tools:  
-    - _Escherichia / Shigella_: {% tool "ectyper" %}, {% tool "shigatyper" %}, {% tool "shigeifinder" %}
-    - _Haemophilus_: {% tool "hicap" %}, {% tool "ssuissero" %}
+    - _Escherichia / Shigella_: {% tool "ectyper" %}, {% tool "shigatyper" %} or {% tool "shigeifinder" %}
+    - _Haemophilus_: {% tool "hicap" %} or {% tool "ssuissero" %}
     - _Klebsiella_: {% tool "kleborate" %}
     - _Legionella_: {% tool "legsta" %}
     - _Listeria_: {% tool "lissero" %}
-    - _Mycobacterium_: {% tool "tbprofiler" %}, {% tool "mtbseq" %}
-    - _Neisseria_: {% tool "meningotype" %}, {% tool "ngmaster" %}
+    - _Mycobacterium_: {% tool "tbprofiler" %} and {% tool "mtbseq" %}
+    - _Neisseria_: {% tool "meningotype" %} or {% tool "ngmaster" %}
     - _Pseudomonas_: {% tool "pasty" %}
-    - _Salmonella_: {% tool "seqsero" %}, {% tool "sistr" %}
-    - _Staphylococcus_: {% tool "agrvate" %}, {% tool "spatyper" %}, {% tool "sccmec" %}
-    - _Streptococcus_: {% tool "emmtyper" %}, {% tool "pbptyper" %}, {% tool "ssuissero" %}  
+    - _Salmonella_: {% tool "seqsero" %} and {% tool "sistr" %}
+    - _Staphylococcus_: {% tool "agrvate" %}, {% tool "spatyper" %} and {% tool "sccmec" %}
+    - _Streptococcus_: {% tool "emmtyper" %}, {% tool "pbptyper" %} or {% tool "ssuissero" %}  
     - Source: [Bactopia Merlin](https://bactopia.github.io/v3.0.0/bactopia/merlin/)
 
 - Available pipelines: These pipelines synthesize some of the previous steps into a single workflow, making bioinformatics analysis easier:
@@ -288,5 +289,40 @@ There are different tools available for bacterial outbreak analysis. Here they a
   - **Complete analysis of bacterial genomes:**  
     - [Bactopia](https://bactopia.github.io/latest/)
 
+## Viral outbreak
 
+### General considerations
+
+Analysis of outbreaks when a virus is suspected to be the responsible for constitutes an important tool for disease control.
+
+A proper identification of the virus is needed to find whether there are already measures described for its prevention and contention so that the spread of the infection can be managed in order to avoid new potential cases.  In certain scenarios, molecular diagnostic methods, such as PCR, do not achieve the viral identification and the application of other protocols, such as deep sequencing (i.e. metagenomics) is needed to correctly identify the pathogen.
+
+Further analyses that can be performed are phylogenetic analysis and genome characterisation The former is useful to identify the links between different samples from the same outbreak and track the spread of the infection as well as locate its potential origin, in case additional control measures are needed. The latter is based on genome analysis in order to find specific biological characteristics of that virus that can help to identify potential effective treatments or the application of more extreme control measures (i.e. mutations related to antiviral resistance or high pathogenicity).
+
+### Existing approaches
+
+There are different tools available for bacterial outbreak analysis. Here they are classified based on the stage of the analysis.
+
+- **Pre-processing**: Data preprocessing is a crucial initial step prior to data analysis that involves reads quality check, low-quality cleaning and trimming, removal of adapters, primers or unwanted sequences from raw sequencing reads. Some of the tools to perform this process are:  
+  - Short-reads: {% tool "fastqc" %}, {% tool "fastp" %}, {% tool "cutadapt" %} or {% tool "ivar" %}
+  - Long-reads: {% tool "nanoplot" %} and {% tool "nanofilt" %}  
+- **Viral species identification**: Accurately identifying the viral species present in samples is essential for responding to viral outbreaks, especially when the causative agent is unknown. This step involves classifying the sample's reads into various viral taxonomic species, using tools such as: {% tool "kraken2" %} / {% tool "krona" %} or {% tool "diamond" %} / {% tool "megan" %}  
+- **Reference-genome mapping**: This approach is particularly useful when the viral species causing the outbreak is known, a reference genome is available, and the viral genome does not exhibit significant variability. It involves aligning sequencing reads to the reference genome, which is a crucial step for accurate variant calling and in-depth genetic analysis. Widely used tools are:
+  - Short-reads: {% tool "bowtie2" %} and {% tool "bwa" %}  
+  - Long-reads: {% tool "minimap2" %}  
+- **Variant calling**: This step involves identifying genetic variations, such as single nucleotide polymorphisms (SNPs), insertions, deletions, and structural variants within a sample by comparing its sequencing data to a reference genome. Some useful tools are: {% tool "ivar" %}, {% tool "bcftools" %} and {% tool "lofreq" %}
+- **Variant annotation**: Variant annotation is a step following variant calling that involves assigning biological and clinical significance to identified genetic variants. This step typically involves mapping variants to genes, determining their potential impact on protein function, and assessing their association with known phenotypes, diseases, or traits. Available tools are: {% tool "snpeff" %} and {% tool "snpsift" %}  
+- **Consensus genome reconstruction**: Once we know the differences (variants) between the sample and the reference genome, we can change the positions in the reference genome to obtain a consensus genome `.fasta` file that can serve as the sample's assembled genome. Tools: {% tool "bcftools" %}  
+- **_de novo_ assembly**: When the viral reference genome is not known or is highly variable, _de novo_  assembly is a better approach than reference genome mapping. _de novo_ assembly reconstructs a viral genome’s reads without the need of a reference genome into longer contiguous sequences (contigs) and scaffolds. These can be compared to a database (using any of the tools for taxonomic classification mentioned above) to identify the pathogen. Some of the widely used tools are:  
+  - Short-reads: {% tool "spades" %} and {% tool "unicycler" %}
+  - Long-reads: {% tool "canu" %}, {% tool "flye" %}, {% tool "raven" %}, {% tool "miniasm" %} and {% tool "dragonflye" %}
+  - Hybrid: {% tool "dragonflye" %} and {% tool "unicycler" %}
+- **Phylogeny**: In the context of addressing a viral outbreak, phylogenetic studies can help in tracing the origins and transmission pathways of the infection. Generating phylogenetic trees visually represents the connections between organisms, illustrating how they have diverged over time. The process of performing phylogenetic analysis involves several steps:  
+  - Sequence alignment of the generated genomes. Tools: {% tool "mafft" %}, {% tool "muscle" %} or {% tool "clustalw" %}
+  - Core genome SNPs: The core genome consists of the genes that are shared among all the samples/strains in the analysis, providing a stable genetic framework for comparative analysis. Tools: {% tool "snippy" %}  
+  - Phylogenetic trees: With the multiple sequence alignment or the core SNPs, researchers can perform phylogenetic analysis. The choice of algorithm and evolutionary model will influence the results, with commonly used tools including: {% tool "iqtree" %} and {% tool "nextstrain" %}  
+- **Lineage/clade/type**: When the virus causing the outbreak has been typed with different lineages, clades, or types/subtypes, it is essential to characterize this aspect of the samples. The information generated from both the phylogenetic tree, combined with lineage data, can help determine the connections between samples involved in the outbreak. Tools: {% tool "pangolin" %} or {% tool "nextclade" %}.
+- **Available pipelines**:  
+  - [nf-core/viralrecon](https://wonder.cdc.gov/amd/flu/irma/irma.html): is a bioinformatics analysis pipeline used to perform assembly and intra-host/low-frequency variant calling for viral samples.  
+  - {% tool "irma" %}: was designed for the robust assembly, variant calling, and phasing of highly variable RNA viruses. Currently, IRMA is deployed with modules for influenza, ebolavirus, and coronavirus.
 
