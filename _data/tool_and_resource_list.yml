@@ -1321,4 +1321,40 @@
 - description: Sample quality control. Infer family connections thus revealing any sample mixup during sample collection from families.
   id: peddy
   name: PEDDY
-  url: https://github.com/brentp/peddy
+  url: https://github.com/brentp/peddy- description: The package naniar is used for exploring missing data structures with minimal deviation from the common workflows of ggplot and tidy data (Wickham, 2014, Wickham, 2009).
+  id: naniar
+  name: naniar
+  url: https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html
+- description: missingno provides a small toolset of flexible and easy-to-use missing data visualizations and utilities that allows you to get a quick visual summary of the completeness (or lack thereof) of your dataset.
+  id: missingno
+  name: missingno
+  url: https://github.com/ResidentMario/missingno
+- description: A collection of tools that support data diagnosis, exploration, and transformation.
+  id: dlookr
+  name: dlookr
+  url: https://cran.r-project.org/web/packages/dlookr/dlookr.pdf
+- description: Declare data validation rules and data quality indicators; confront data with them and analyze or visualize the results.
+  id: validate
+  name: validate
+  url: https://cran.r-project.org/web/packages/validate/validate.pdf
+- description: Validate dataset by columns and rows using convenient predicates inspired by 'assertr' package.
+  id: data.validator
+  name: data.validator
+  url: https://cran.r-project.org/web/packages/data.validator/data.validator.pdf
+- description: A collection of some tests commonly used for identifying outliers.
+  id: outliers
+  name: outliers
+  url: https://cran.r-project.org/web/packages/outliers/outliers.pdf
+- description: A comprehensive but easy-to-use Python library for detecting anomalies in multivariate data.
+  id: pyod
+  name: pyod
+  url: https://pyod.readthedocs.io/en/latest/
+- description: Multiple imputation using Fully Conditional Specification (FCS) implemented by the MICE algorithm as described in Van Buuren and Groothuis-Oudshoorn (2011) <doi:10.18637/jss.v045.i03>.
+  id: mice
+  name: mice
+  url: https://cran.r-project.org/web/packages/mice/mice.pdf
+- description: Supply functions for the creation and handling of missing data as well as tools to evaluate missing data methods
+  id: missmethods
+  name: missMethods
+  url: https://cran.r-project.org/web/packages/missMethods/missMethods.pdf
+  
