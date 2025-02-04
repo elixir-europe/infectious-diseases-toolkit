@@ -224,21 +224,21 @@ Several tools and workflows have been developed or adapted for the analysis of w
 
 ### General considerations
 
-An outbreak in infectious diseases is defined as the increase in the number of cases of a disease above what is typically expected in a specific area or among a particular population over a certain period of time. Outbreak can occur in localized regions, such as a community, or they can spread across wider areas. They can involve new infectious or re-emergence of previously controlled diseases. Common examples include outbreaks of Influenza, SARS-CoV2, or Foodborne illnesses like caused by Listeria monocytogenes among others.
+An **outbreak in infectious diseases** is defined as the increase in the number of cases of a disease above what is typically expected in a specific area or among a particular population over a certain period of time. Outbreak can occur in localized regions, such as a community, or they can spread across wider areas. They can involve new infectious or re-emergence of previously controlled diseases. Common examples include outbreaks of Influenza, SARS-CoV2, or Foodborne illnesses like caused by Listeria monocytogenes among others.
 
-In order to know if an outbreak is caused by the same pathogen, it is necessary to isolate and characterize the pathogen using  phenotypic or genotypic techniques, which is known as a typification process or Microbial typing. It is used to differentiate between strains or species of microorganisms for various purposes, such as epidemiological studies, infection tracking, and outbreak investigations to pinpoint the source of foodborne outbreaks. It can also be used to identify which microorganisms are most virulent and cause serious diseases, resistant to antimicrobial drugs, or able to survive and multiply.
+In order to know if an outbreak is caused by the same pathogen, it is necessary to isolate and characterize the pathogen using  phenotypic or genotypic techniques, which is known as a typification process or **Microbial typing** ([Shelby R. et al., 2021](https://journals.lww.com/co-infectiousdiseases/fulltext/2021/08000/techniques_in_bacterial_strain_typing__past,.10.aspx)). It is used to differentiate between strains or species of microorganisms for various purposes, such as epidemiological studies, infection tracking, and outbreak investigations to pinpoint the source of foodborne outbreaks. It can also be used to identify which microorganisms are most virulent and cause serious diseases, resistant to antimicrobial drugs, or able to survive and multiply.
 
 Techniques for microbial typing include traditional methods, like serotyping, fragment based methods and sequence based methods.
 
-The gold standard for bacterial typing is pulsed-field gel electrophoresis (PFGE) and has been widely used for tacking outbreaks of foodborne pathogens, such as E.coli and Salmonella. However, technologies like Whole Genome Sequencing (WGS) have replaced PFGE due to their higher precision and resolution.
+The gold standard for bacterial typing is pulsed-field gel electrophoresis (PFGE) and has been widely used for tacking outbreaks of foodborne pathogens, such as E.coli and Salmonella. However, technologies like **Whole Genome Sequencing (WGS)** have replaced PFGE due to their higher precision and resolution.
 
 Different levels of sequence information can be associated with different  taxonomic levels. A single locus (i.e. 16S rRNA) is enough to distinguish from phylum to genus and, in some cases, species, while subspeciation requires incorporating  more genes, such as the 7 from MLST or the 53 loci from ribosomal MLST. The highest resolution power comes from incorporating the whole genome sequencing (WGS).
 
-One of the significant advantages of whole genome sequencing (WGS) is its application in comparative genomics, enabling the determination of the phylogenetic relationships among a group of bacterial strains. There are several methods to assess the similarity between different genomes (i.e. gen-by-gen approaches: Multi-Locus Sequence Typing -wgMLST, Core Genome Multi-Locus Sequence Typing -cgMLST, or Single Nucleotide Polymorphisms -SNPs approach).
+One of the significant advantages of whole genome sequencing (WGS) is its application in comparative genomics, enabling the determination of the phylogenetic relationships among a group of bacterial strains. There are several methods to assess the similarity between different genomes (i.e. gen-by-gen approaches: Multi-Locus Sequence Typing -wgMLST, Core Genome Multi-Locus Sequence Typing -cgMLST, or Single Nucleotide Polymorphisms -SNPs approach) ([Uelze et al., 2020](https://onehealthoutlook.biomedcentral.com/articles/10.1186/s42522-020-0010-1)).
 
-wgMLST analyzes the entire genome, considering all the genes present in the genome. This method allows for a comprehensive understanding of the genetic variation within and between species.
+**wgMLST** analyzes the entire genome, considering all the genes present in the genome. This method allows for a comprehensive understanding of the genetic variation within and between species.
 
-cgMLST focuses specifically on the set of genes that are present in all strains of a species, the core genome. This excludes accessory genes, genes not necessary for organism survival or reproduction under standard conditions, (i.e. virulence genes) that may vary among strains.
+**cgMLST** focuses specifically on the set of genes that are present in all strains of a species, the core genome. This excludes accessory genes, genes not necessary for organism survival or reproduction under standard conditions, (i.e. virulence genes) that may vary among strains.
 
 ### Existing approaches
 
@@ -255,9 +255,9 @@ There are different tools available for bacterial outbreak analysis. Here they a
     - Databases: [VFDB for virulence factors](http://www.mgc.ac.cn/VFs/), [CARD for antibiotic resistance genes](https://card.mcmaster.ca/), [NCBI RefGene Pathogen Database: VF and AMR](https://www.ncbi.nlm.nih.gov/pathogens/refgene/)
   - **Plasmid identification**: Sometimes the previously mentioned genes are found inside plasmids, which might restrain the previous tools from finding them. Not only that, but plasmids are quite relevant as they can be the source of horizontal gene transfer. These tools are used to find and characterize these plasmids: {% tool "ariba" %}, {% tool "plasmidid" %}
   - **MLST characterization**: MLST (Multi-Locus Sequence Typing) is an unambiguous procedure for characterizing isolates of bacterial species using the sequences of internal fragments of (usually) seven housekeeping genes. The aim is to obtain a profile based on the alleles for each gene, which can be used to establish relationships between the samples and the possible source of the outbreak. Tools: {% tool "ariba" %} used along with the [PubMLST database](https://pubmlst.org/).
-    - Note: Different species may have different MLST schemes, so it is crucial to use the appropriate schema for each one.
-  - **SNP calling and Core-SNPs matrix**: To find relationships between the samples and a possible source, phylogenetic distance can be a good measure. This distance is calculated by counting all the different pairwise SNP positions among samples. However, since the number of SNPs increases exponentially with the number of samples, a good approach is to use only the SNPs that are common to all samples (Core SNPs). These values are represented in a distance matrix, which is then used to create a phylogenetic tree. Tools: {% tool "snippy" %}
-  - **Phylogenetic tree**: Using the previously obtained distance matrix, it is possible to create a phylogenetic tree, which is a visual representation of the genetic relationships between the samples, based on clustering algorithms. This is useful to group similar samples together and infer potential outbreak sources.  
+    - **Note**: Different species may have different MLST schemes, so it is crucial to use the appropriate schema for each one.
+  - **SNP calling and Core-SNPs matrix**: To find relationships between the samples and a possible source, **phylogenetic distance** can be a good measure. This distance is calculated by counting all the different pairwise SNP positions among samples. However, since the number of SNPs increases exponentially with the number of samples, a good approach is to use only the SNPs that are common to all samples (**Core SNPs**). These values are represented in a **distance matrix**, which is then used to create a phylogenetic tree. Tools: {% tool "snippy" %}
+  - **Phylogenetic tree**: Using the previously obtained distance matrix, it is possible to create a phylogenetic tree, which is a visual representation of the **genetic relationships** between the samples, based on clustering algorithms. This is useful to group similar samples together and infer potential outbreak sources.  
     Tools: {% tool "iqtree" %}
   - **wgMLST and cgMLST**: These are both gene-by-gene approaches. Genome assembly data is aligned to a scheme consisting of a set of loci and their corresponding allele sequences to perform allele calling. Each isolate is then characterized by its allele profile, and comparing multiple samples generates an allele distance matrix. Tools: {% tool "chewbbaca" %}
     - Schema resources:  
@@ -279,14 +279,14 @@ There are different tools available for bacterial outbreak analysis. Here they a
     - _Streptococcus_: {% tool "emmtyper" %}, {% tool "pbptyper" %} or {% tool "ssuissero" %}  
     - Source: [Bactopia Merlin](https://bactopia.github.io/v3.0.0/bactopia/merlin/)
 
-- Available pipelines: These pipelines synthesize some of the previous steps into a single workflow, making bioinformatics analysis easier:
-  - **Bacterial assembly and annotation (short reads, long reads, hybrid):**  
+- **Available pipelines**: These pipelines synthesize some of the previous steps into a single workflow, making bioinformatics analysis easier:
+  - Bacterial assembly and annotation (short reads, long reads, hybrid):
     - [nf-core/bacass](https://nf-co.re/bacass/)
-  - **Screening of functional genes:**  
+  - Screening of functional genes:
     - [nf-core/funcscan](https://nf-co.re/funcscan/)
-  - **Taxonomy classification (short and long metagenomic reads):**  
+  - Taxonomy classification (short and long metagenomic reads):
     - [nf-core/taxprofiler](https://nf-co.re/taxprofiler/)
-  - **Complete analysis of bacterial genomes:**  
+  - Complete analysis of bacterial genomes:
     - [Bactopia](https://bactopia.github.io/latest/)
 
 ## Viral outbreak
