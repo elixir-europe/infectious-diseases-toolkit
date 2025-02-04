@@ -1690,3 +1690,7 @@
   id: snpsift
   name: SnpSift
   url: https://pcingola.github.io/SnpEff/#snpsift
+- description: A workflow using contig coverage and composition for binning a metagenomic sample with high precision
+  id: comet
+  name: CoMet
+  url: https://github.com/damayanthiHerath/comet

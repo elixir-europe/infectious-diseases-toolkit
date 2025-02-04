@@ -177,11 +177,17 @@ Some considerations about postprocessing steps in pathogen characterization incl
 
 - **Spatial-temporal analysis and visualisation**: using a combined approach of phylogenetic, spatial distribution, and molecular clock, this approach aids in designing strategies to control and prevent the spread of infectious diseases, as well as in the development of effective treatments, and vaccines.
   - Spatial distribution of strain: {% tool "nextstrain" %}
-- **Lineage, subtyping or clade assignment**: {% tool "pangolin" %}, {% tool "nextclade" %}, {% tool "irma" %}, {% tool "fluserver" %}, {% tool "genome-detective" %}, {% tool "hcv-glue" %}
+- **Lineage, subtyping or clade assignment**: 
+  - {% tool "pangolin" %}
+  - {% tool "nextclade" %}
+  - {% tool "irma" %}
+  - {% tool "fluserver" %}
+  - HIV subtyping tools: {% tool "comet" %}, [rega/scueal](https://doi.org/10.1016/j.meegid.2013.04.032) or {% tool "genome-detective" %}
+  - {% tool "hcv-glue" %}
 - **Drug resistance and virulence factor characterisation**: genomic analysis can be used to characterise pathogens for specific resistance against drugs and help develop strategies to fight the spread of drug-resistant strains.
   - Antimicrobial resistance (AMR) and virulence factors: {% tool "resfinder" %}, {% tool "amrfinderplus" %}, {% tool "ariba" %}, {% tool "abricate" %} and {% tool "pathogenwatch" %}
   - Viral drug resistance: {% tool "hivdb-stanford" %} and {% tool "fluserver" %}
-  - Hepatitis C and B resistance profilers: Geno2pheno, {% tool "hcv-glue" %}
+  - Hepatitis C and B resistance profilers: {% tool "geno2pheno" %}, {% tool "hcv-glue" %}
 - **Interaction analysis and functional enrichment analysis**: placing the identified protein interactions and regulatory networks in the context of the affected biological pathways allows for a better understanding of disease mechanisms and potential drug targets.
   - Network analysis: {% tool "cytoscape" %} and {% tool "celldesigner" %}
   - Gene enrichment analysis: {% tool "enrichr" %}, {% tool "go" %} and {% tool "g-profiler" %}
@@ -321,7 +327,7 @@ There are different tools available for bacterial outbreak analysis. Here they a
   - Sequence alignment of the generated genomes. Tools: {% tool "mafft" %}, {% tool "muscle" %} or {% tool "clustalw" %}
   - Core genome SNPs: The core genome consists of the genes that are shared among all the samples/strains in the analysis, providing a stable genetic framework for comparative analysis. Tools: {% tool "snippy" %}  
   - Phylogenetic trees: With the multiple sequence alignment or the core SNPs, researchers can perform phylogenetic analysis. The choice of algorithm and evolutionary model will influence the results, with commonly used tools including: {% tool "iqtree" %} and {% tool "nextstrain" %}  
-- **Lineage/clade/type**: When the virus causing the outbreak has been typed with different lineages, clades, or types/subtypes, it is essential to characterize this aspect of the samples. The information generated from both the phylogenetic tree, combined with lineage data, can help determine the connections between samples involved in the outbreak. Tools: {% tool "pangolin" %} or {% tool "nextclade" %}.
+- **Lineage/clade/type**: When the virus causing the outbreak has been typed with different lineages, clades, or types/subtypes, it is essential to characterize this aspect of the samples. The information generated from both the phylogenetic tree, combined with lineage data, can help determine the connections between samples involved in the outbreak. Tools: {% tool "pangolin" %}, {% tool "nextclade" %} or HIV subtyping tools such as {% tool "comet" %} or [rega/scueal](https://doi.org/10.1016/j.meegid.2013.04.032)
 - **Available pipelines**:  
   - [nf-core/viralrecon](https://wonder.cdc.gov/amd/flu/irma/irma.html): is a bioinformatics analysis pipeline used to perform assembly and intra-host/low-frequency variant calling for viral samples.  
   - {% tool "irma" %}: was designed for the robust assembly, variant calling, and phasing of highly variable RNA viruses. Currently, IRMA is deployed with modules for influenza, ebolavirus, and coronavirus.
