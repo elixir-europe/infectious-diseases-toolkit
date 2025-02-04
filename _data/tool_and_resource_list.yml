@@ -1321,7 +1321,8 @@
 - description: Sample quality control. Infer family connections thus revealing any sample mixup during sample collection from families.
   id: peddy
   name: PEDDY
-  url: https://github.com/brentp/peddy- description: The package naniar is used for exploring missing data structures with minimal deviation from the common workflows of ggplot and tidy data (Wickham, 2014, Wickham, 2009).
+  url: https://github.com/brentp/peddy
+- description: The package naniar is used for exploring missing data structures with minimal deviation from the common workflows of ggplot and tidy data (Wickham, 2014, Wickham, 2009).
   id: naniar
   name: naniar
   url: https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html
