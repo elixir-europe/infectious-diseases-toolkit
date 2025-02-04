@@ -1294,3 +1294,31 @@
   id: ohdsi
   name: OHDSI
   url: https://github.com/OHDSI/DataQualityDashboard
+- description: Tool to classify the taxonomic origin of a read in pathogen sequencing data
+  id: centrifuge
+  name: Centrifuge
+  url: https://bio.tools/centrifuge
+- description: R package for cell-type-specific co-expression inference from single cell RNA-sequencing data.
+  id: cs_score
+  name: CS_Score
+  url: https://github.com/ChangSuBiostats/CS-CORE
+- description: Tool to remove human reads from pathogen sequencing data.
+  id: deconseq
+  name: DeconSeq
+  url: https://bio.tools/deconseq
+- description: Tool to remove human reads from pathogen sequencing data
+  id: gencof
+  name: GenCoF
+  url: https://github.com/MattCzajkowski/GenCoF
+- description: Tool to classify the taxonomic origin of a read in pathogen sequencing data.
+  id: kraken
+  name: Kraken
+  url: https://bio.tools/kraken
+- description: Tool to remove human reads from pathogen sequencing data.
+  id: metagenie
+  name: MetaGeniE
+  url: https://github.com/ngsclinical/metagenie
+- description: Sample quality control. Infer family connections thus revealing any sample mixup during sample collection from families.
+  id: peddy
+  name: PEDDY
+  url: https://github.com/brentp/peddy
