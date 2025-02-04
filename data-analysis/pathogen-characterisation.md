@@ -1,7 +1,7 @@
 ---
 title: Pathogen characterisation
 description: Analysing Pathogen related data.
-contributors: [Eva Garcia Alvarez, Francesco Messina, Fotis Psomopoulos, Rafael Andrade Buono, Romain David, Andreas Scherer, Isabel Cuesta, Sarai Varona, Emilia Arjona, Juan Ledesma, Pablo Mata, Daniel Valle]
+contributors: [Eva Garcia Alvarez, Francesco Messina, Fotis Psomopoulos, Rafael Andrade Buono, Romain David, Andreas Scherer, Isabel Cuesta, Sarai Varona, Emilia Arjona, Juan Ledesma, Pablo Mata, Daniel Valle, Jaime Ozáez]
 page_id: pc_data_analysis
 redirect_from: /pathogen-characterisation/data-analysis
 related_pages:
