@@ -1390,7 +1390,7 @@
   id: pycoqc
   name: PycoQC
   url: https://a-slide.github.io/pycoQC/
-- description: LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc.
+- description: "LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc."
   id: longqc
   name: LongQC
   url: https://github.com/yfukasawa/LongQC
