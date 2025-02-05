@@ -1299,7 +1299,7 @@
   name: Centrifuge
   url: https://bio.tools/centrifuge
 - description: R package for cell-type-specific co-expression inference from single cell RNA-sequencing data.
-  id: cs_score
+  id: cs-score
   name: CS_Score
   url: https://github.com/ChangSuBiostats/CS-CORE
 - description: Tool to remove human reads from pathogen sequencing data.
@@ -1339,7 +1339,7 @@
   name: validate
   url: https://cran.r-project.org/web/packages/validate/validate.pdf
 - description: Validate dataset by columns and rows using convenient predicates inspired by 'assertr' package.
-  id: data.validator
+  id: data-validator
   name: data.validator
   url: https://cran.r-project.org/web/packages/data.validator/data.validator.pdf
 - description: A collection of some tests commonly used for identifying outliers.
@@ -1363,11 +1363,11 @@
   name: fastp
   url: https://github.com/OpenGene/fastp
 - description: Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.
-  id: cutadapt 
+  id: cutadapt
   name: Cutadapt
   url: https://cutadapt.readthedocs.io/en/stable/
 - description: A novel analysis tool developed for quality control and preprocessing of FASTQ and SAM/BAM data.
-  id: soapnuke 
+  id: soapnuke
   name: SOAPnuke
   url: https://github.com/BGI-flexlab/SOAPnuke
 - description: Guppy is a bioinformatics toolkit that enables real-time basecalling and several post-processing features that works on Oxford Nanopore Technologies™ sequencing platforms.
@@ -1390,7 +1390,7 @@
   id: pycoqc
   name: PycoQC
   url: https://a-slide.github.io/pycoQC/
-- description: "LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc."
+- description: 'LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc.'
   id: longqc
   name: LongQC
   url: https://github.com/yfukasawa/LongQC
@@ -1446,7 +1446,7 @@
   id: racon
   name: Racon
   url: https://github.com/isovic/racon
-- description: medaka is a tool to create consensus sequences and variant calls from nanopore sequencing data. 
+- description: medaka is a tool to create consensus sequences and variant calls from nanopore sequencing data.
   id: medaka
   name: Medaka
   url: https://github.com/nanoporetech/medaka
@@ -1478,7 +1478,7 @@
   id: salmon
   name: Salmon
   url: https://github.com/COMBINE-lab/salmon
-- description: RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. 
+- description: RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.
   id: rsem
   name: RSEM
   url: https://github.com/deweylab/RSEM
@@ -1518,7 +1518,7 @@
   id: kmcp
   name: KMCP
   url: https://github.com/shenwei356/kmcp
-- description: ganon2 classifies DNA sequences against large sets of genomic reference sequences efficiently. 
+- description: ganon2 classifies DNA sequences against large sets of genomic reference sequences efficiently.
   id: ganon
   name: Ganon
   url: https://github.com/pirovc/ganon
@@ -1558,7 +1558,7 @@
   id: ariba
   name: ARIBA
   url: https://github.com/sanger-pathogens/ariba
-- description: ABRicate is used for mass screening of contigs for antimicrobial resistance or virulence genes. 
+- description: ABRicate is used for mass screening of contigs for antimicrobial resistance or virulence genes.
   id: abricate
   name: ABRicate
   url: https://github.com/tseemann/abricate
@@ -1578,7 +1578,7 @@
   id: dupradar
   name: dupRadar
   url: https://github.com/ssayols/dupRadar
-- description:  The preseq package is aimed at predicting the yield of distinct reads from a genomic library from an initial sequencing experiment. 
+- description: The preseq package is aimed at predicting the yield of distinct reads from a genomic library from an initial sequencing experiment.
   id: preseq
   name: preseq
   url: https://github.com/smithlabcode/preseq
@@ -1588,7 +1588,7 @@
   url: https://github.com/pha4ge/hAMRonization
 - description: KmerFinder is a bioinformatics tool designed for the rapid identification of bacterial species and strains from whole genome sequencing (WGS) data.
   id: kmerfinder
-  name: KmerFinder 
+  name: KmerFinder
   url: https://bitbucket.org/genomicepidemiology/kmerfinder/src/master/
 - description: PlasmidID is a mapping-based, assembly-assisted plasmid identification tool that analyzes and gives graphic solution for plasmid identification.
   id: plasmidid
@@ -1610,7 +1610,7 @@
   id: shigeifinder
   name: ShigEiFinder
   url: https://github.com/LanLab/ShigEiFinder
-- description: The cap locus of H. influenzae are categorised into 6 different groups based on serology (a-f). 
+- description: The cap locus of H. influenzae are categorised into 6 different groups based on serology (a-f).
   id: hicap
   name: hicap
   url: https://github.com/scwatts/hicap

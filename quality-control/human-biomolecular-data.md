@@ -80,7 +80,7 @@ Even traces of human genetic material in pathogen sequencing data could potentia
 
 Usually, the human reads are removed from pathogen sequencing data using two classes of methods: 1) ones that map all reads to the human genome (and discard those that do) or 2) ones that use a taxonomic classifier to predict the origin of each read.
 
-Methods that use the first approach include {% tool "cs_score" %}, {% tool "deconseq" %}, {% tool "gencof" %} and {% tool "metagenie" %}. Methods that predict the origin of the reads include {% tool "centrifuge" %} or {% tool "kraken" %}.
+Methods that use the first approach include {% tool "cs-score" %}, {% tool "deconseq" %}, {% tool "gencof" %} and {% tool "metagenie" %}. Methods that predict the origin of the reads include {% tool "centrifuge" %} or {% tool "kraken" %}.
 
 It is noteworthy that both categories result in false negative calls - reads that are human but fail to be classified (or aligned) as such and, therefore, could be found in open repositories. [Bush et al.](https://pubmed.ncbi.nlm.nih.gov/32558637/) were able to extract a sufficient number of reads to call known human SNPs in 6 % of the samples they analyzed from SRA BioProject. They developed a two-stage approach to remove human reads from pathogen sequencing experiments: first  using Bowtie2 followed by SNAP. The benchmark was made in short read sequences from bacterial samples. Other types of sequencing (e.g. long read sequencing) might require other combinations of tools to provide pathogen data free from human reads.
 
