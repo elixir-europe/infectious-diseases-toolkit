@@ -1358,7 +1358,7 @@
   id: missmethods
   name: missMethods
   url: https://cran.r-project.org/web/packages/missMethods/missMethods.pdf
-  - description: A tool designed to provide ultrafast all-in-one preprocessing and quality control for FastQ data.
+- description: A tool designed to provide ultrafast all-in-one preprocessing and quality control for FastQ data.
   id: fastp
   name: fastp
   url: https://github.com/OpenGene/fastp
