@@ -1562,10 +1562,6 @@
   registry:
     biotools: metaphlan
   url: https://github.com/biobakery/MetaPhlAn
-- description: Centrifuge is a novel microbial classification engine that enables rapid, accurate and sensitive labeling of reads and quantification of species on desktop computers.
-  id: centrifuge
-  name: Centrifuge
-  url: https://github.com/DaehwanKimLab/centrifuge
 - description: The mOTU profiler is a computational tool that estimates relative taxonomic abundance of known and currently unknown microbial community members using metagenomic shotgun sequencing data.
   id: motus
   name: mOTUs
