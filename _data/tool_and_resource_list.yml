@@ -1565,10 +1565,14 @@
 - description: The mOTU profiler is a computational tool that estimates relative taxonomic abundance of known and currently unknown microbial community members using metagenomic shotgun sequencing data.
   id: motus
   name: mOTUs
+  registry:
+    biotools: motus
   url: https://github.com/motu-tool/mOTUs
 - description: False-positive identifications are a significant problem in metagenomics classification.
   id: krakenuniq
   name: KrakenUniq
+  registry:
+    biotools: krakenuniq
   url: https://github.com/fbreitwieser/krakenuniq
 - description: KMCP is an accurate metagenomic profiling of both prokaryotic and viral populations by pseudo-mapping
   id: kmcp
@@ -1577,6 +1581,8 @@
 - description: ganon2 classifies DNA sequences against large sets of genomic reference sequences efficiently.
   id: ganon
   name: Ganon
+  registry:
+    biotools: ganon
   url: https://github.com/pirovc/ganon
 - description: Clark is a fast, versatile and accurate tool for sequence classification system
   id: clark
@@ -1589,11 +1595,13 @@
 - description: Nextclade is a tool for viral genome clade assignment, mutation calling, and sequence quality checks.
   id: nextclade
   name: Nextclade
+  registry:
+    biotools: nextclade
   url: https://github.com/nextstrain/nextclade
 - description: IRMA (Iterative Refinement Meta-Assembler) was designed for the robust assembly, variant calling, and phasing of highly variable RNA viruses.
   id: irma
   name: IRMA
-  url: https://wonder.cdc.gov/amd/flu/irma/
+  url: https://github.com/peterk87/irma
 - description: The main application scenario for FluSurver is to highlight phenotypically or epidemiologically interesting candidate mutations for further research and should ideally be combined with experimental testing and verification of any predicted phenotypes.
   id: fluserver
   name: FluServer
