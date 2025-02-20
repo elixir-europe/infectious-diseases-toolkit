@@ -1341,7 +1341,7 @@
 - description: Validate dataset by columns and rows using convenient predicates inspired by 'assertr' package.
   id: data-validator
   name: data.validator
-  url: https://cran.r-project.org/web/packages/data.validator/data.validator.pdf
+  url: https://github.com/Appsilon/data.validator/
 - description: A collection of some tests commonly used for identifying outliers.
   id: outliers
   name: outliers
