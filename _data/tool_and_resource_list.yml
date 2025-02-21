@@ -1601,7 +1601,7 @@
 - description: IRMA (Iterative Refinement Meta-Assembler) was designed for the robust assembly, variant calling, and phasing of highly variable RNA viruses.
   id: irma
   name: IRMA
-  url: https://github.com/peterk87/irma
+  url: https://wonder.cdc.gov/amd/flu/irma/
 - description: The main application scenario for FluSurver is to highlight phenotypically or epidemiologically interesting candidate mutations for further research and should ideally be combined with experimental testing and verification of any predicted phenotypes.
   id: fluserver
   name: FluServer
