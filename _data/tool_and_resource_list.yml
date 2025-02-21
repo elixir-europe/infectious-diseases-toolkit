@@ -1647,7 +1647,7 @@
   name: RSeQC
   registry:
     biotools: rseqc
-  url: https://github.com/MonashBioinformaticsPlatform/RSeQC
+  url:  https://rseqc.sourceforge.net/
 - description: dupRadar is used for the assessment of duplication rates in RNA-Seq datasets.
   id: dupradar
   name: dupRadar
