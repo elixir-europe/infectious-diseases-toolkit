@@ -1341,11 +1341,11 @@
   name: dlookr
   url: https://github.com/choonghyunryu/dlookr
 - description: Declare data validation rules and data quality indicators; confront data with them and analyze or visualize the results.
-  id: validate
+  id: validate-r-package
   name: validate R package
   url: https://github.com/data-cleaning/validate
 - description: Validate dataset by columns and rows using convenient predicates inspired by 'assertr' package.
-  id: data-validator
+  id: data-validator-r-package
   name: data.validator R package
   url: https://github.com/Appsilon/data.validator/
 - description: A collection of some tests commonly used for identifying outliers.

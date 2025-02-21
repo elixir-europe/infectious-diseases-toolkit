@@ -127,8 +127,8 @@ Some methods/tools for detecting errors and inconsistencies are:
   * Data diagnosis:
     * R package {% tool "dlookrr" %}
   * Data validation:
-    * R package {% tool "validate" %}
-    * R package {% tool "data-validator" %}
+    * R package {% tool "validate-r-package" %}
+    * R package {% tool "data-validator-r-package" %}
   * Identify duplicates:
     * R package {% tool "dplyr" %}
     * Python library {% tool "pandas" %}
