@@ -91,7 +91,7 @@ Preprocessing steps may depend on the technology used and the pathogen being stu
 
 - Short reads:
   - Raw sequences quality check: {% tool "fastqc" %}
-  - Trimming out adapters and low-quality sequences: {% tool "trimmomatic" %}, {% tool "fastp" %}, {% tool "cutadapt" %}, {% tool "SOAPnuke" %}
+  - Trimming out adapters and low-quality sequences: {% tool "trimmomatic" %}, {% tool "fastp" %}, {% tool "cutadapt" %}, {% tool "soapnuke" %}
 - Long reads:
   - basecalling softwares: {% tool "guppy" %}, {% tool "dorado" %}
   - Raw sequences quality check: {% tool "nanoplot" %}, {% tool "nanoq" %}, {% tool "pycoqc" %}, {% tool "longqc" %}, {% tool "minionqc" %}
