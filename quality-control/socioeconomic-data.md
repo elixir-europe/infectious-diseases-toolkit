@@ -125,7 +125,7 @@ Some methods/tools for detecting errors and inconsistencies are:
   * Python libraries: {% tool "matplotlib" %}, {% tool "seaborn" %}, {% tool "missingno" %}
 * Statistical Analysis Software:
   * Data diagnosis:
-    * R package {% tool "dlookrr" %}
+    * R package {% tool "dlookr" %}
   * Data validation:
     * R package {% tool "validate-r-package" %}
     * R package {% tool "data-validator-r-package" %}
