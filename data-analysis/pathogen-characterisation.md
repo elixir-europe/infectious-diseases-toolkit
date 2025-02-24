@@ -136,7 +136,7 @@ There are several types of analysis that can be performed on pathogen-related da
     - Variant Annotation: {% tool "snpeff" %}  
     - Genome annotation: {% tool "prokka" %}, {% tool "bakta" %} or {% tool "dfast" %}
   - Hybrid:  
-    - Genome Assembly: {% tool "dragonFlye" %}, {% tool "unicycler" %}  
+    - Genome Assembly: {% tool "dragonflye" %}, {% tool "unicycler" %}  
     - Polishing: {% tool "pilon" %}, {% tool "polypolish" %}
 
 - **Expression analysis** (fungal genomes):
