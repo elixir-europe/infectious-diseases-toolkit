@@ -231,10 +231,10 @@ Francisco Estupiñán-Romero:
   orcid: 0000-0002-6285-8120
   affiliation: IACS
 Marjan Meurisse:
-  git: 
-  email: 
+  git: MarjanMeurisse
+  email: marjan.meurisse@uclouvain.be
   orcid: 0000-0002-4409-0664
-  affiliation: Sciensano
+  affiliation: UCLouvain
 Enrique Bernal-Delgado:
   git: 
   email: 
@@ -308,3 +308,66 @@ Francesco Messina:
   git: INMIbioinfo
   affiliation: IRCCS (INMI)
   Email: francesco.messina@inmi.it
+Andreas Scherer:
+  git: schererFIMM
+  email: Andreas.Scherer@Helsinki.fi
+  orcid: 0000-0002-4254-7122
+  affiliation: University of Helsinki, Finland
+Dilza Campos:
+  orcid: 0009-0005-0193-5224  
+  git: dilzacampos
+  email: Dilza.campos@vib.be
+  affiliation: Vlaams Instituut voor Biotechnologie (VIB)
+Abeer Fadda:
+  orcid: 0000-0002-8489-1335
+  git: afadda91
+  email: Abeer.fadda@crg.eu
+  affiliation: EGA-CRG
+Sarai Varona:
+  git: svarona
+  email: s.varona@isciii.es
+  orcid: 0000-0002-2245-210X
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Jaime Ozáez:
+  git: jaimeozaez
+  email: jaime.ozaez@isciii.es
+  orcid: 0009-0006-9314-9921
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Isabel Cuesta:
+  git: icuesta
+  email: isabel.cuesta@isciii.es
+  orcid: 0000-0002-7911-9041
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Sara Monzón:
+  git: saramonzon
+  email: smonzon@isciii.es
+  orcid: 0000-0002-0740-6324
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Emi Arjona:
+  git: emiarbol
+  email: eiarjona@isciii.es
+  orcid: 0000-0002-0753-3657
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Juan Ledesma:
+  git: juanledesma78
+  email: juan.ledesma@isciii.es
+  orcid: 0000-0002-0871-5065
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
+Daniel Valle-Millares:
+  git: Daniel-VM
+  email: da.valle@ciberisciii.es
+  orcid: 0000-0002-5205-855X
+  role: editor
+  affiliation: CIBERINFEC
+Pablo Mata:
+  git: Shettland
+  email: pmata@externos.isciii.es
+  orcid: 0009-0001-6887-0382
+  role: editor
+  affiliation: ISCIII / ELIXIR-ES
