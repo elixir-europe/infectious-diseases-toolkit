@@ -1303,6 +1303,8 @@
 - description: The R package will perform data quality checks against an OMOP CDM instance.
   id: ohdsi
   name: OHDSI
+  registry:
+    biotools: ohdsi
   url: https://github.com/OHDSI/DataQualityDashboard
 - description: Tool to classify the taxonomic origin of a read in pathogen sequencing data
   id: centrifuge
@@ -1329,6 +1331,7 @@
   name: Kraken
   registry:
     biotools: kraken
+    tess: Kraken
   url: https://github.com/DerrickWood/kraken
 - description: Tool to remove human reads from pathogen sequencing data.
   id: metagenie
@@ -1361,6 +1364,8 @@
 - description: A collection of some tests commonly used for identifying outliers.
   id: outliers
   name: outliers
+  registry:
+    tess: outliers
   url: https://cran.r-project.org/web/packages/outliers/outliers.pdf
 - description: A comprehensive but easy-to-use Python library for detecting anomalies in multivariate data.
   id: pyod
@@ -1369,6 +1374,8 @@
 - description: Multiple imputation using Fully Conditional Specification (FCS) implemented by the MICE algorithm as described in Van Buuren and Groothuis-Oudshoorn (2011) <doi:10.18637/jss.v045.i03>.
   id: mice
   name: mice
+  registry:
+    tess: mice
   url: https://github.com/amices/mice
 - description: Supply functions for the creation and handling of missing data as well as tools to evaluate missing data methods
   id: missmethods
@@ -1379,12 +1386,14 @@
   name: fastp
   registry:
     biotools: fastp
+    tess: fastp
   url: https://github.com/OpenGene/fastp
 - description: Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.
   id: cutadapt
   name: Cutadapt
   registry:
     biotools: cutadapt
+    tess: Cutadapt
   url: https://github.com/marcelm/cutadapt
 - description: A novel analysis tool developed for quality control and preprocessing of FASTQ and SAM/BAM data.
   id: soapnuke
@@ -1395,6 +1404,8 @@
 - description: Guppy is a bioinformatics toolkit that enables real-time basecalling and several post-processing features that works on Oxford Nanopore Technologies™ sequencing platforms.
   id: guppy
   name: Guppy
+  registry:
+    biotools: guppy
   url: https://nanoporetech.com/es/document/Guppy-protocol
 - description: Dorado is a high-performance, easy-to-use, open source basecaller for Oxford Nanopore reads.
   id: dorado
@@ -1407,16 +1418,20 @@
   name: NanoPlot
   registry:
     biotools: nanoplot
+    tess: NanoPlot
   url: https://github.com/wdecoster/NanoPlot
 - description: nanoq is an ultra-fast quality control and summary reports for nanopore reads
   id: nanoq
   name: nanoq
+  registry:
+    tess: nanoq
   url: https://github.com/esteinig/nanoq
 - description: PycoQC computes metrics and generates interactive QC plots for Oxford Nanopore technologies sequencing data
   id: pycoqc
   name: PycoQC
   registry:
     biotools: pycoQC
+    tess: PycoQC
   url: https://github.com/a-slide/pycoQC
 - description: 'LongQC is a tool for the data quality control of the PacBio and ONT long reads, and it has two functionalities: sample qc and platform qc.'
   id: longqc
@@ -1439,22 +1454,28 @@
   name: FastTree
   registry:
     biotools: fasttree
+    tess: FastTree
   url: https://github.com/morgannprice/fasttree
 - description: iVar is a computational package that contains functions broadly useful for viral amplicon-based sequencing.
   id: ivar
   name: iVar
+  registry:
+    biotools: ivar
+    tess: iVar
   url: https://github.com/andersen-lab/ivar
 - description: Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files.
   id: prokka
   name: Prokka
   registry:
     biotools: prokka
+    tess: Prokka
   url: https://github.com/tseemann/prokka
 - description: Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs.
   id: bakta
   name: Bakta
   registry:
     biotools: bakta
+    tess: Bakta
   url: https://github.com/oschwengers/bakta
 - description: DFAST is a flexible and customizable pipeline for prokaryotic genome annotation as well as data submission to the INSDC
   id: dfast
@@ -1467,6 +1488,7 @@
   name: Minimap2
   registry:
     biotools: minimap2
+    tess: Minimap2
   url: https://github.com/lh3/minimap2
 - description: Raven is a de novo genome assembler for long uncorrected reads.
   id: raven
@@ -1479,6 +1501,7 @@
   name: Miniasm
   registry:
     biotools: miniasm
+    tess: Miniasm
   url: https://github.com/lh3/miniasm
 - description: Dragonflye is a pipeline that aims to make assembling Oxford Nanopore reads quick and easy.
   id: dragonflye
@@ -1489,12 +1512,15 @@
   name: Racon
   registry:
     biotools: racon
+    tess: Racon
   url: https://github.com/isovic/racon
 - description: medaka is a tool to create consensus sequences and variant calls from nanopore sequencing data.
   id: medaka
   name: Medaka
   registry:
     biotools: medaka
+    fairsharing: c86z66
+    tess: Medaka
   url: https://github.com/nanoporetech/medaka
 - description: Software package for signal-level analysis of Oxford Nanopore sequencing data.
   id: nanopolish
@@ -1513,28 +1539,36 @@
   name: artic
   registry:
     biotools: artic
+    fairsharing: 8h2a6z
+    tess: artic
   url: https://github.com/artic-network/fieldbioinformatics
 - description: Unicycler is an assembly pipeline for bacterial genomes. For the best possible assemblies, give it both Illumina reads and long reads, and it will conduct a short-read-first hybrid assembly.
   id: unicycler
   name: Unicycler
   registry:
     biotools: unicycler
+    tess: Unicycler
   url: https://github.com/rrwick/Unicycler
 - description: Pilon is a software tool which can be used to automatically improve draft assemblies and find variation among strains, including large event detection.
   id: pilon
   name: Pilon
+  registry:
+    biotools: pilon
+    tess: Pilon
   url: https://github.com/broadinstitute/pilon
 - description: Polypolish is a tool for polishing genome assemblies with short reads.
   id: polypolish
   name: Polypolish
   registry:
     biotools: polypolish
+    tess: Polypolish
   url: https://github.com/rrwick/Polypolish
 - description: Salmon is a wicked-fast program to produce a highly-accurate, transcript-level quantification estimates from RNA-seq data
   id: salmon
   name: Salmon
   registry:
     biotools: salmon
+    tess: Salmon
   url: https://github.com/COMBINE-lab/salmon
 - description: RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.
   id: rsem
@@ -1547,6 +1581,7 @@
   name: SortMeRNA
   registry:
     biotools: sortmerna
+    tess: SortMeRNA
   url: https://github.com/sortmerna/sortmerna
 - description: Kaiju is a program for the taxonomic classification of high-throughput sequencing reads, e.g., Illumina or Roche/454, from whole-genome sequencing of metagenomic DNA.
   id: kaiju
@@ -1559,6 +1594,7 @@
   name: DIAMOND
   registry:
     biotools: diamond
+    tess: DIAMOND
   url: https://github.com/bbuchfink/diamond
 - description: MEGAN is used fot the interactive exploration and analysis of large-scale microbiome sequencing data.
   id: megan
@@ -1571,12 +1607,14 @@
   name: MetaPhlAn
   registry:
     biotools: metaphlan
+    tess: MetaPhlAn
   url: https://github.com/biobakery/MetaPhlAn
 - description: The mOTU profiler is a computational tool that estimates relative taxonomic abundance of known and currently unknown microbial community members using metagenomic shotgun sequencing data.
   id: motus
   name: mOTUs
   registry:
     biotools: motus
+    tess: mOTUs
   url: https://github.com/motu-tool/mOTUs
 - description: False-positive identifications are a significant problem in metagenomics classification.
   id: krakenuniq
@@ -1597,20 +1635,29 @@
 - description: Clark is a fast, versatile and accurate tool for sequence classification system
   id: clark
   name: Clark
+  registry:
+    biotools: clark
+    tess: Clark
   url: http://clark.cs.ucr.edu/
 - description: Pangolin is a tool for the Phylogenetic Assignment of Named Global Outbreak LINeages
   id: pangolin
   name: Pangolin
+  registry:
+    biotools: pangolin
+    tess: Pangolin
   url: https://github.com/cov-lineages/pangolin
 - description: Nextclade is a tool for viral genome clade assignment, mutation calling, and sequence quality checks.
   id: nextclade
   name: Nextclade
   registry:
     biotools: nextclade
+    tess: Nextclade
   url: https://github.com/nextstrain/nextclade
 - description: IRMA (Iterative Refinement Meta-Assembler) was designed for the robust assembly, variant calling, and phasing of highly variable RNA viruses.
   id: irma
   name: IRMA
+  registry:
+    biotools: irma
   url: https://wonder.cdc.gov/amd/flu/irma/irma.html
 - description: The main application scenario for FluSurver is to highlight phenotypically or epidemiologically interesting candidate mutations for further research and should ideally be combined with experimental testing and verification of any predicted phenotypes.
   id: fluserver
@@ -1639,6 +1686,7 @@
   name: ABRicate
   registry:
     biotools: abricate
+    tess: ABRicate
   url: https://github.com/tseemann/abricate
 - description: Estimating phenotypic drug resistance from HIV-1 genotypes associated with resistance to PRO and RT inhibitors
   id: geno2pheno
@@ -1651,13 +1699,15 @@
   name: Quast
   registry:
     biotools: quast
+    tess: Quast
   url: https://github.com/ablab/quast
 - description: RSeQC package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data.
   id: rseqc
   name: RSeQC
   registry:
     biotools: rseqc
-  url:  https://rseqc.sourceforge.net/
+    tess: RSeQC
+  url: https://rseqc.sourceforge.net/
 - description: dupRadar is used for the assessment of duplication rates in RNA-Seq datasets.
   id: dupradar
   name: dupRadar
@@ -1797,6 +1847,8 @@
 - description: LoFreq* (i.e. LoFreq version 2) is a fast and sensitive variant-caller for inferring SNVs and indels from next-generation sequencing data
   id: lofreq
   name: LoFreq*
+  registry:
+    tess: LoFreq*
   url: https://github.com/CSB5/lofreq
 - description: SnpSift annotates genomic variants using databases, filters, and manipulates genomic annotated variants.
   id: snpsift
@@ -1807,4 +1859,6 @@
 - description: A workflow using contig coverage and composition for binning a metagenomic sample with high precision
   id: comet
   name: CoMet
+  registry:
+    biotools: comet
   url: https://github.com/damayanthiHerath/comet
