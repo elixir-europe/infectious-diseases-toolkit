@@ -1741,6 +1741,8 @@
 - description: chewBBACA is a software suite for the creation and evaluation of core genome and whole genome MultiLocus Sequence Typing (cg/wgMLST) schemas and results.
   id: chewbbaca
   name: chewBBACA
+  registry:
+    biotools: chewbbaca
   url: https://github.com/B-UMMI/chewBBACA
 - description: ECTyper is a standalone versatile serotyping module for Escherichia coli. It supports both fasta (assembled) and fastq (raw reads) file formats.
   id: ectyper
@@ -1833,6 +1835,8 @@
 - description: emmtyper is a command line tool for emm-typing of Streptococcus pyogenes using a de novo or complete assembly.
   id: emmtyper
   name: emmtyper
+  registry:
+    biotools: emmtyper
   url: https://github.com/MDU-PHL/emmtyper
 - description: In silico Penicillin Binding Protein (PBP) typer for Streptococcus pneumoniae assemblies
   id: pbptyper
