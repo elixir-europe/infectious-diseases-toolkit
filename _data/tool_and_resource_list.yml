@@ -1125,6 +1125,7 @@
   name: Nextstrain
   registry:
     biotools: nextstrain.org
+    fairsharing: dba7ba
     tess: Nextstrain
   url: http://nextstrain.org
 - description: g:GOSt performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list.
