@@ -1956,3 +1956,35 @@
   id: epipulse
   name: EpiPulse - The European Surveillance Portal for Infectious Diseases
   url: (https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
+- description: The Systematized Nomenclature of Medicine Clinical Terms is a reference terminology that can be used to cross-map standardized healthcare languages across healthcare disciplines.
+  id: snomed-ct
+  name: SNOMED-CT
+  registry:
+    fairsharing: d88s6e
+  url: https://www.snomed.org/
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations. This includes descriptions of the genomics, laboratory, clinical and epidemiological contextual information required to support data sharing and integration for food-borne infectious disease surveillance and outbreak investigations.
+  id: genepio
+  name: Genomic Epidemiology Ontology (GenEpiO)
+  registry:
+    fairsharing: y1mmbv
+  url: https://genepio.org/
+- description: "NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities. NCIt features: stable, unique codes for biomedical concepts; preferred terms, synonyms, research codes, external source codes, and other information; over 100,000 textual definitions; links to NCI Metathesaurus and other information sources; and over 400,000 cross-links between concepts, providing formal logic-based definition of many concepts. NCIt is a widely recognized standard for biomedical coding and reference, used by a broad variety of public and private partners both nationally and internationally including the Clinical Data Interchange Standards Consortium Terminology (CDISC), the U.S. Food and Drug Administration (FDA), the Federal Medication Terminologies (FMT), and the National Council for Prescription Drug Programs (NCPDP)."
+  id: ncit
+  name: NCI Thesaurus (NCIt)
+  registry:
+    fairsharing: 4cvwxa
+  url: https://ncit.nci.nih.gov/
+- description: "The Experimental Factor Ontology (EFO) is an application focused ontology modelling the experimental variables in multiple resources at the EBI and the Centre for Therapeutic Target Validation. The ontology has been developed to increase the richness of the annotations that are currently made in resources and to promote consistent annotation, to facilitate automatic annotation and to integrate external data. The ontology pulls together classes from reference ontologies such as disease, cell line, cell type and anatomy and adds axiomatisation as necessary to connect areas such as disease to phenotype."
+  id: efo
+  name: Experimental Factor Ontology (EFO)
+  registry:
+    fairsharing: 1gr4tz
+  url: https://www.ebi.ac.uk/efo/
