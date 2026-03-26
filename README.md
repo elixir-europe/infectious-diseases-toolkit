@@ -23,7 +23,7 @@ IDTk is an open [community](https://www.infectious-diseases-toolkit.org/about/co
 
 **Have a suggestion or spotted an error?**
 * Feel free to open a [GitHub issue](https://github.com/elixir-europe/infectious-diseases-toolkit/issues)
-* Or email the IDTk editors at [idtk-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
+* Or email the IDTk editors at [idtk-editors@elixir-europe.org](mailto:idtk-editors@elixir-europe.org )
 
 
 ## IDTk is a BY-COVID project
