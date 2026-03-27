@@ -1,7 +1,7 @@
 ---
 title: Human clinical and health data
 description: Guidance in describing human clinical and health data.
-contributors: [Miriam Saso, Pierluca Piselli, Shona Cosgrove, Iris Van Dam, Romain David, Hedi Peterson, Diana Pilvar]
+contributors: [Miriam Saso, Pierluca Piselli, Shona Cosgrove, Iris Van Dam, Romain David, Hedi Peterson, Diana Pilvar, Paula Mölling, Abeer Fadda, Dilza Campos, Aída Moure, Andreas Scherer, Alejandro Bernabéu]
 page_id: hchd_data_description
 redirect_from: /human-clinical-and-health-data/data-description
 rdmkit:
@@ -45,7 +45,7 @@ In general, [four main types of metadata can be encountered](https://faircookboo
  1. **Descriptive metadata** in human health data includes patient demographic information such as name, age, gender, and medical history. This helps in identifying and discovering data.
  2. **Structural metadata** refers to the organisation of a patient's electronic health record (EHR), detailing how different data fields, such as lab results, medications, and visit notes, are interrelated.
  3. **Administrative metadata** covers data access controls, data ownership, and the timing of data collection, all of which facilitate data management.
- 4. **Quality metadata** includes indicators such as the accuracy, completeness, reliability, and validity of lab test results. This ensures data reliability for analysis and decision-making.
+ 4. **Quality metadata** includes indicators such as the accuracy, completeness, reliability, and validity of lab test results. This ensures data reliability for analysis and decision-making. For more information please refer to the [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html), the [EU Health Information Portal](https://www.healthinformationportal.eu/data-services/data-quality), and the [Elixir RDMkit](https://rdmkit.elixir-europe.org/data_quality).
 
 Metadata in health data is essential for:
 
@@ -113,18 +113,18 @@ By adhering to these standards and ontologies, healthcare providers and research
 Human clinical and health data can contain personal information about individuals, therefore it is considered sensitive. To protect the privacy of those to whom the data belong, the [General Data Protection Regulation](https://gdpr.eu/what-is-gdpr/#:~:text=The%20General%20Data%20Protection%20Regulation,to%20people%20in%20the%20EU.) is in place at the European level to safeguard the privacy of European citizens. 
 
 ### Considerations 
-Handling health data, especially in the context of infectious diseases, requires careful consideration due to the sensitive nature of the information and the potential for widespread public health implications. Here are the main considerations to keep in mind:
+Handling health data, especially in the context of infectious diseases, requires careful consideration due to the sensitive nature of the information and the potential for widespread public health implications. Regulations may differ from country to country ([case studies](https://tehdas.eu/app/uploads/2021/09/tehdas-annex-a-case-studies-different-governance-and-health-data-systems-in-europe-2021-09-28.pdf)). Here are the main considerations to keep in mind:
 
 
  * **Privacy and confidentiality:** ensuring the privacy and confidentiality of patient data is paramount. This involves complying with legal and ethical standards.
  * **Data security:** implement robust security measures to protect health data from unauthorised access, breaches, and other cybersecurity threats. This includes using encryption, secure data storage solutions, and secure communication channels for transmitting data.
  * **Data accuracy and integrity:** accurate data is crucial in managing infectious diseases. Errors in data can lead to incorrect assessments and interventions.
- * **Data sharing and accessibility:** facilitating the appropriate sharing of health data among healthcare providers, researchers, and public health officials is essential for effective infectious disease management and research. However, it must be balanced with privacy concerns. Agreements and protocols should be in place to guide safe and ethical data sharing.
+ * **Data sharing and accessibility:** facilitating the appropriate sharing of health data among healthcare providers, researchers, and public health officials is essential for effective infectious disease management and research. However, it must be balanced with privacy concerns. Agreements and protocols should be in place to guide safe and ethical data sharing ([TEHDAS guidance](https://tehdas.eu/app/uploads/2023/10/tehdas-advancing-data-sharing-to-improve-health-for-all-in-europe.pdf)).
  * **Compliance with regulations:** adhering to national and international laws and guidelines concerning the handling of health data is crucial. Different countries may have different regulations and understanding these is necessary to ensure compliance.
- * **Ethical considerations:** ethical issues must be considered, especially when handling data related to infectious diseases, which can often lead to stigma and discrimination against certain populations. Ethical use of data should promote fairness, respect, and justice.
+ * **Ethical considerations:** ethical issues must be considered, especially when handling data related to infectious diseases, which can often lead to stigma and discrimination against certain populations. Ethical use of data should promote fairness, respect, and justice ([ELSIhub collection](https://elsihub.org/news/elsihub-collections-ethical-legal-and-social-implications-elsi-intersection-genomics-and-infectious-diseases)).
  * **Data minimisation:** collect only the data that is necessary for health purposes to minimise potential harm. This practice helps in reducing the risk of unnecessary exposure of sensitive information.
  * **Public trust and transparency:** maintaining public trust in how health data is handled is vital, especially during outbreaks. Transparent practices about what data is collected, how it is used, and who it is shared with can help in maintaining public trust.
- * **Interoperability:** ensuring that systems used for recording and storing health data are interoperable can greatly enhance the efficiency and effectiveness of disease surveillance and management. This means systems should be able to exchange data seamlessly and use shared standards.
+ * **Interoperability:** ensuring that systems used for recording and storing health data are interoperable can greatly enhance the efficiency and effectiveness of disease surveillance and management. This means systems should be able to exchange data seamlessly and use shared standards ([ELIXIR RIRS](https://elixir-europe.org/platforms/interoperability/rirs)).
  * **Real-time surveillance and reporting:** for infectious diseases, the ability to monitor and report data in real-time can be essential in controlling outbreaks. Systems should be designed to support timely and accurate reporting.
 
 ### Existing approaches 
@@ -132,7 +132,7 @@ Handling health data, especially in the context of infectious diseases, requires
  * During the COVID-19 pandemic, many countries implemented [contact tracing apps](https://commission.europa.eu/strategy-and-policy/coronavirus-response/travel-during-coronavirus-pandemic/contact-tracing-and-warning-apps-during-covid-19_en ) that anonymised user data to protect individual privacy. 
  * The use of [blockchain technology in Estonia’s digital healthcare](https://e-estonia.com/blockchain-healthcare-estonian-experience/) system enhances the security of health data by creating tamper-proof records for every patient encounter.
  * [The WHO’s Global Influenza Surveillance and Response System (GISRS)](https://www.who.int/initiatives/global-influenza-surveillance-and-response-system) provides standardised testing procedures and reagents to laboratories worldwide, ensuring the accuracy and reliability of influenza data globally.
- * Data should be shared as openly and as rapidly as possible, for example by uploading SARS-CoV-2 sequence to {% tool "european-nucleotide-archive" %}. ENA  is an open, supported platform for the management, sharing, integration, archiving and dissemination of sequence data. 
+ * Data should be shared as openly and as rapidly as possible, for example by uploading SARS-CoV-2 sequence to {% tool "european-nucleotide-archive" %}. ENA is an open, supported platform for the management, sharing, integration, archiving and dissemination of sequence data. 
  * {% tool "gisaid"%} Data Science Initiative platform promotes the rapid sharing of data, from priority pathogens including influenza, hCoV-19, respiratory syncytial virus (RSV), hMpxV as well as arboviruses including chikungunya, dengue and zika. It includes genetic sequence and related clinical and epidemiological data associated with human viruses, and geographical as well as species-specific data associated with avian and other animal viruses. However, GISAID is much more restrictive on data reuse compared to ENA, for example. 
  * The European Union’s General Data Protection Regulation (GDPR) includes specific provisions for processing health data, such as requiring explicit consent from individuals and allowing data processing when necessary for reasons of public interest. Please also take into account local laws and regulations.
  * During the Ebola outbreak in West Africa, [ethical guidelines](https://bioethics.jhu.edu/wp-content/uploads/2019/03/Ethics20Guidance20for20Public20Health20Containment20Lessons20from20Ebola_April2019.pdf ) for data sharing were established that balanced the need for rapid data sharing with the need to protect communities and individuals from harm, addressing issues like consent and the potential for stigmatization.
