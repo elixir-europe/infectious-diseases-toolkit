@@ -160,7 +160,6 @@
   registry:
     biotools: dbgap
     fairsharing: 88v2k0
-    tess: dbGaP
   url: https://www.ncbi.nlm.nih.gov/gap/
 - description: A comprehensive database of transcript-specific functional predictions and annotations for human non-synonymous and splice-site SNVs
   id: dbnsfp
@@ -204,6 +203,7 @@
   name: Dryad
   registry:
     fairsharing: wkggtx
+    tess: Dryad
   url: http://datadryad.org/
 - description: The European Bioinformatics Institute is a bioinformatics research center that is part of the European Molecular Biology Laboratory and is located in Hinxton, England. The institution combines intense research activity with the development and maintenance of a set of bioinformatics lines, services and databases.
   id: ebi
@@ -326,6 +326,7 @@
   name: GeneMANIA
   registry:
     biotools: genemania
+    fairsharing: 8140ae
     tess: GeneMANIA
   url: https://github.com/GeneMANIA/genemania
 - description: The Genomic Data Infrastructure (GDI) project is enabling access to genomic and related phenotypic and clinical data across Europe. It is doing this by establishing a federated, sustainable and secure infrastructure to access the data. It builds on the outputs of the Beyond 1 Million Genomes (B1MG) project and is realising the ambition of the 1+Million Genomes (1+MG) initiative.
@@ -459,7 +460,6 @@
   name: MetaboAnalyst
   registry:
     biotools: metaboanalyst
-    tess: MetaboAnalyst
   url: https://www.metaboanalyst.ca/
 - description: Cleans metagenomic reads to remove adapters, low-quality bases and host (e.g. human) contamination.
   id: metagen-fastqc
@@ -614,6 +614,7 @@
   id: tcga
   name: The Cancer Genome Atlas (TCGA)
   registry:
+    biotools: tcga
     fairsharing: m8wewa
     tess: The Cancer Genome Atlas (TCGA)
   url: https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga
@@ -704,6 +705,7 @@
   id: schema-org
   name: Schema.org
   registry:
+    biotools: schema.org
     fairsharing: hzdzq8
     tess: Schema.org
   url: https://schema.org
@@ -762,6 +764,7 @@
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
+    biotools: gisaid
     fairsharing: 2f7f9f
   url: https://gisaid.org
 - description: The Pathogens Portal Cohort Browser presents discovery metadata of infectious disease cohort datasets and provides links to the associated datasets within ELIXIR Core Data Resources; search and filtering functionalities enable users to identify cohort studies of interest in a convenient manner.
@@ -1139,11 +1142,13 @@
 - description: EuroHPC Joint Undertaking is a joint initiative between the EU, European countries and private partners to develop a World Class Supercomputing Ecosystem in Europe.
   id: eurohpc
   name: EuroHPC
-  regsitry: 
+  regsitry:
   url: https://eurohpc-ju.europa.eu/
 - description: BEAUti is a graphical user-interface (GUI) application for generating BEAST XML files.
   id: beauti
   name: BEAUti
+  registry:
+    tess: BEAUti
   url: https://beast.community/beauti.html
 - description: QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package with a focus on data and analysis transparency.
   id: qiime2
@@ -1151,7 +1156,7 @@
   registry:
     biotools: qiime2
     tess: QIIME 2
-  regsitry: 
+  regsitry:
   url: https://docs.qiime2.org/
 - description: MEGAHIT is an ultra-fast and memory-efficient NGS assembler optimized for metagenomes.
   id: megahit
@@ -1221,6 +1226,7 @@
   name: Enrichr
   registry:
     biotools: enrichr
+    tess: Enrichr
   url: https://github.com/guokai8/EnrichR
 - description: 'Powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.'
   id: openrefine
@@ -1377,6 +1383,7 @@
   id: mice
   name: mice
   registry:
+    biotools: mice
     tess: mice
   url: https://github.com/amices/mice
 - description: Supply functions for the creation and handling of missing data as well as tools to evaluate missing data methods
@@ -1596,6 +1603,7 @@
   name: DIAMOND
   registry:
     biotools: diamond
+    fairsharing: 594c47
     tess: DIAMOND
   url: https://github.com/bbuchfink/diamond
 - description: MEGAN is used fot the interactive exploration and analysis of large-scale microbiome sequencing data.
@@ -1616,6 +1624,7 @@
   name: mOTUs
   registry:
     biotools: motus
+    fairsharing: f28976
     tess: mOTUs
   url: https://github.com/motu-tool/mOTUs
 - description: False-positive identifications are a significant problem in metagenomics classification.
@@ -1627,6 +1636,8 @@
 - description: KMCP is an accurate metagenomic profiling of both prokaryotic and viral populations by pseudo-mapping
   id: kmcp
   name: KMCP
+  registry:
+    biotools: kmcp
   url: https://github.com/shenwei356/kmcp
 - description: ganon2 classifies DNA sequences against large sets of genomic reference sequences efficiently.
   id: ganon
@@ -1765,6 +1776,8 @@
 - description: The cap locus of H. influenzae are categorised into 6 different groups based on serology (a-f).
   id: hicap
   name: hicap
+  registry:
+    biotools: hicap
   url: https://github.com/scwatts/hicap
 - description: This pipeline is designed to rapidly infer Streptococcus suis serotype from Oxford Nanopore data by first assemblying a draft genome using Flye followed by genome polishing with racon and medaka.
   id: ssuissero
