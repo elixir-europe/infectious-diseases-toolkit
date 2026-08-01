@@ -1,7 +1,7 @@
 ---
 title: Human biomolecular data
 description: Finding and sharing data for human biomolecular related data sources.
-contributors: [Aina Jené Cortada, Arnau Soler Costa]
+contributors: [Aina Jené Cortada, Arnau Soler Costa, Cillian De Gascun, Isabel Cuesta, Paula Mölling, Abeer Fadda, Dilza Campos, Aída Moure Fernández, Andreas Scherer, Carmen Iborra]
 page_id: hbd_data_sources
 redirect_from: /human-biomolecular-data/data-sources
 rdmkit:
@@ -24,7 +24,7 @@ training:
 
 This document aims to serve as a comprehensive resource for anyone interested in the data sources platforms of infectious diseases using human biomolecular data, which have become increasingly important in recent years as a result of advancements in technology and the ever-growing threat of global pandemics. 
 
-By providing this overview of the data sources platforms of infectious diseases using human biomolecular data, this document aims give the user information on where to find these types of data and how to access them (secondary use of the data) and to facilitate the development of new research initiatives and collaborations in the field.
+By providing this overview of the data sources platforms of infectious diseases using human biomolecular data, this document aims to give the user information on where to find these types of data and how to access them (secondary use of the data) and to facilitate the development of new research initiatives and collaborations in the field.
 
 
 ### What is human biomolecular data, and why is it important for infectious diseases research?

@@ -1,7 +1,7 @@
 ---
 title: Pathogen characterisation
 description: General considerations for pathogen characterization quality control.
-contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest]
+contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest, Enrique Sapena Ventura, Isabel Cuesta]
 page_id: pc_quality_control
 redirect_from: /pathogen-characterisation/quality-control
 rdmkit:
@@ -20,13 +20,42 @@ Pathogen characterization and description encompasses many different methodologi
 
 Viral analysis in a pandemic scenario, concerning different geographic areas and/or communities is dependent on the possibility of analysing standardised data and metadata. Thus, the standardisation of sample collection, transport, preanalytical and analytical processing of samples used for viral detection and characterization, as well as drawing conclusions to inform policy decisions, is essential.
 
+## Data and metadata annotation
+### Considerations
+
+During the process encompassing sample generation and analysis, there are several steps that must be taken into consideration to ensure the quality of the data and metadata is FAIR. Amongst these, a task of reflecting on the current landscape and reliance on previous expertise is advised.
+
+Before sample collection, scientists should first determine which fields and values should be expected, planning ahead. This job should include comparison with well-stablished projects and definition of the own project's needs, and ultimately result in both the fields wanted and their expected values.
+
+Usage of unique identifiers such as accessions and ontologies to annotate is highly recommended, as they are already publicly available tools to enhance interoperability and findability.
+
+Taking into consideration how to annotate the metadata and the results makes for a long-term, sustainable data environment, enabling cross-project collaborations without intensive resource allocation.
+
+### Existing approaches
+
+Ontologies should be considered while defining the metadata and how the samples will be annotated. There are several available resources, with different use cases and sometimes overlaps amongst them. Examples of existing approaches include RELECOV, who have leveraged several ontologies, both for standardizing the field names and annotate the data. Examples of ontologies used by RELECOV standards are:
+
+- {% tool "snomed-ct" %}: Clinical-Terms ontology, used by many projects to define the clinical data.
+- {% tool "genepio" %}: GEnomic EPIdemiology Ontology, used to describe the fields necessary to collect epidemiology data and annotate it.
+- {% tool "ncit" %}: NCI Thesaurus, a resource dedicated mostly to terminology on the biomedical fields.
+- {% tool "efo" %}: Experimental Factor Ontology, a well-stablished EBI resource dedicated to cross-reference different ontologies to 
+
+Each project should determine which ontologies to use depending on their own sample collection/data analysis needs, taking into account existing guidelines (e.g. The Spanish government's `Semantic Interoperability` guidelines)
+
+Generation and/or collection of unique IDs should be defined by their use:
+
+- Internal,short term use: For internal, short term usage within a project, a unique ID can be defined by their own means; usually, this involves well-known libraries such as python's `uuid` or unique hashes based on sample metadata (e.g. in the case of {% tool "relecov-tools" %}, combining 4 fields and hashing the value)
+- Long term: Archiving in public or Managed access repositories is, at all times, desirable. Archiving is a costly process to set up, but usually is the desirable outcome for long term, as public archives often offer data persistence, not relying on project funding to maintain themselves. Examples of genomic archives include the INSDC (Open, non-managed access data) and EGA (Managed access data, which include federated nodes in several countries). 
+
 ## Sample handling: key for data quality 
 ### Considerations
+
 Standardised and re-usable processes must be considered to generate high-quality (meta)data. These procedures include sample collection and transport, if needed, to the facilities where the analyses are performed. In addition to the procedures, it is key to pay attention to the existing conditions during the different steps of sample collection and processing (such as room temperature or processing time). Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
 
 If data are not de-novo generated but aggregated from a source, it is important to consider the trustworthiness of the source before re-use.
 
 ### Existing approaches
+
 The information (including metadata) collected are determined by the needs of a given project. However, metadata concerning sample acquisition, processing and handling should be as rich as possible to increase reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing samples, depending on the type of sample:
 
 * For collection step, the following information should be controlled and documented:
@@ -47,13 +76,15 @@ The information needed heavily depends on the research/the investigations to be 
 
 ## Preanalytical and analytical methods
 ### Considerations
+
 During the preanalytical and analytical processing of the samples, there are several variables that can potentially affect the data resulting from them (some of them listed below). Thus, following guidelines on the standardisation of methods  and keeping track of the chosen procedures are key to get meaningful data from the samples.
 
 * For both, the pre-analytical and analytical methods, it depends on the type of samples and on the pathogen to be investigated but some of the most relevant variables to consider and keep track are:
     * sample starting volume; 
     * pathogen concentration methods / protocols if any;
     * extraction methods (protein, DNA, RNA, etc), if any. Keep the information about the devices/technology/kits used, starting volume of sample concentrate, elution volume following extraction, etc;
-    * hardware/instruments used.
+    * hardware/instruments used;
+    * Instution processing the samples.
 
 * From the analytical methods:
     * target sequence, if any;
@@ -89,6 +120,27 @@ In particular the European Commission Recommendation (EU) 2021/472 of 17 March 2
 * (e) Each run should include appropriate standards (at least 3 point serial dilutions in triplicate employing synthetic SARS-CoV-2 RNA) and positive and negative controls to determine if the PCR/qPCR run produced reliable results.
 * (f) A quantification cycle (Cq) cut-off value for positive samples should be set [at] 5 cycles before the termination of the amplification protocol to avoid misattribution of late fluorescence signals.
 * (g) A negative extraction control should be used to account for any contamination during the RNA extraction.
+
+## Metada processing: Validation
+### Considerations
+Validation is a key step in the metadata lifecycle, ensuring that the necessary fields for the project have been collected and that they have been filled accordingly to the project's needs.
+
+Multiple levels of validation can be considered: 
+- Pre-ingestion validation: Pre-ingested metadata should be lightly validated by providing either the scientists or the data curators of the project with the means (Tools, scripts, guidelines). This validation's goal is set up as a baseline for the metadata quality, and further validation downstream could return errors that were not detected at this stage.
+- Ingestion: During ingestion, metadata should be validated, ensuring it contains the expected values. At this step, metadata should be scrutinized to ensure [FAIRness](https://www.nature.com/articles/sdata201618) and the project goals.
+- Post-ingestion: Data hardly lives in an isolated environment, oftentimes co-habiting with many other studies that get additioned over the years and having to interact with each other to make sense of the project as a whole. At this stage, data should be validated against each other, and questioned based on the project needs. Post-ingestion validation, while not essential, is desirable to ensure re-usability of the data, both in and outside the project context.
+
+Successfully designing and maintaining validation leads to projects that are maintainable long-term, greatly incresing re-usability.
+
+### Existing approaches
+
+Format should always be taken in consideration when defining the tools for validation, since not only most tools are exclusively tied to a format, but also some formats are limited in their capabilities (e.g. JSON schema can only validate single documents, not relationships between them).
+
+Examples of data validation tools and processes include:
+
+- Pre-ingestion: Examples of pre-ingestion validation can be seen in {% tool "relecov-tools" %} validate module in the form of a python package, or in {% tool "biosamples" %}'s API validate endpoint as a pre-submission endpoint they provide to users. In both cases, it acts as a barrier of entry, both guiding and deciding which data and metadata can continue with the submission process
+- Ingestion: The rules to validate data and metadata should be made available, if not publicly (e.g. projects that deal with highly-sensible data), openly within the project. Tools commonly used for this purpose are JSON schema and their validators, since JSON is a well stablished format with lots of external support, including schema validation, or other tools usually tied to the projects themselves.
+- Post-ingestion: An example of a post-ingestion pipeline is Curami-v2, used by biosamples to harmonise and curate their sample data. Data in archives such as Biosamples tends to get messy over time, with analysis showing that most of the non-harmonisable data tends to consist of small typos and slight changes in the fields names (e.g. "sample name", "Sample_name", "sampl name"). A curation pipeline was designed to pick up on these errors, curating them and offering a more harmonised data environment.
 
 ## NGS pathogens data
 ### Considerations

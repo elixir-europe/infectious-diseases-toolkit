@@ -1868,3 +1868,123 @@
   registry:
     biotools: comet
   url: https://github.com/damayanthiHerath/comet
+- description: AI/ML-powered tool to pseudonymize text/log files in order to meet Personally Identifiable Information (PII) regulation laws (e.g. European GDPR, US CCPA).
+  id: orion-pseudonymization-tool
+  name: Orion Pseudonymization Tool
+  url: https://www.orioninc.com/products/pseudonymization-tool/
+- description: AI-powered service to anonymize sensitive health data into high-quality, privacy-compliant assets.
+  id: veil-ai
+  name: Veil.AI
+  url: https://veil.ai/
+- description: Brings together experts in pathogen genomics to support global coordination, best practices, and innovation in sequencing-based surveillance.
+  id: ispn
+  name: ISPN – International Society for Pathogen Genomics
+  url: https://www.pathogengenomics.org/
+- description: Promotes global collaboration for sharing genomic and metadata from pathogens to improve outbreak detection and response.
+  id: gmi
+  name: GMI – Global Microbial Identifier
+  url: https://www.globalmicrobialidentifier.org/
+- description: A European collaboration to enhance interoperability and integration of pathogen data across sectors, with a focus on One Health.
+  id: pdn
+  name: PDN – Pathogens Data Network
+  url: https://pdn-pathogens.org/
+- description: Supports surveillance of pathogens through wastewater, providing early-warning indicators for public health threats.
+  id: eu-wish
+  name: EU-WISH – EU Wastewater Surveillance for Public Health
+  url: https://wastewater-observatory.jrc.ec.europa.eu/#/
+- description: Coordinates efforts across ELIXIR nodes to enhance bioinformatics services and standards for pathogen data in Europe.
+  id: elixir-pathogen-fg
+  name: ELIXIR Pathogen Focus Group
+  url: https://elixir-europe.org/focus-groups/pathogens
+- description: Developed tools for accessing and integrating COVID-19-related data across domains during the pandemic.
+  id: by-covid
+  name: BY-COVID
+  url: https://by-covid.org/
+- description: Contributed to building FAIR data infrastructure, including components for infectious disease research.
+  id: elixir-converge
+  name: ELIXIR CONVERGE
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/elixir-converge
+- description: Focused on developing data integration and analytical pipelines for emerging viral threats.
+  id: veo-aurora
+  name: VEO-AURORA
+  url: https://www.veo-europe.eu/
+- description: Delivered large-scale sequencing and analysis of SARS-CoV-2 in the UK, and informed real-time public health actions.
+  id: cog-uk
+  name: COG-UK – COVID-19 Genomics UK Consortium
+  url: https://www.cogconsortium.uk/
+- description: Access point for pathogen data from the European COVID-19 Data Platform.
+  id: pathogen-data-portal
+  name: Pathogen Data Portal (EMBL-EBI)
+  url: https://www.covid19dataportal.org/pathogens
+- description: Resource integrating tools and curated pathogen genomic datasets.
+  id: bv-brc
+  name: BV-BRC – Bacterial and Viral Bioinformatics Resource Center
+  url: https://www.bv-brc.org/
+- description: Curated multilocus sequence typing databases for multiple pathogens.
+  id: pubmlst
+  name: PubMLST
+  url: https://pubmlst.org/
+- description: Bacterial Isolate Genome Sequence Database for microbial population structure and typing
+  id: bigsdb
+  name: BIGSdb-Pasteur
+  url: https://bigsdb.pasteur.fr/
+- description: Platform for genome-based analyses of enteric bacteria like Salmonella, Escherichia, and Clostridioides.
+  id: enterobase
+  name: EnteroBase
+  registry:
+    biotools: EnteroBase
+  url: https://enterobase.warwick.ac.uk
+- description: COVID-19-focused dashboard combining genomic, epidemiological, and variant data.
+  id: outbreak-info
+  name: outbreak.info
+  registry:
+    biotools: outbreak_info
+  url: https://outbreak.info
+- description: Curated resource of resistance genes, their molecular mechanisms, and associated antibiotics. Widely used for annotation and predictive bioinformatics.
+  id: card
+  name: The Comprehensive Antibiotic Resistance Database (CARD)
+  registry:
+    biotools: CARD
+  url: https://card.mcmaster.ca
+- description: A deep learning based approach to predict Antibiotic Resistance Genes (ARGs) from metagenomes.
+  id: deeparg
+  name: DeepARG
+  registry:
+    biotools: deeparg
+  url: https://github.com/gaarangoa/deeparg
+- description: An online portal for European public health authorities and partner organisations to collect, analyse, share, and discuss infectious disease data for threat detection, monitoring, risk assessment and outbreak response.
+  id: epipulse
+  name: EpiPulse - The European Surveillance Portal for Infectious Diseases
+  url: (https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
+- description: The Systematized Nomenclature of Medicine Clinical Terms is a reference terminology that can be used to cross-map standardized healthcare languages across healthcare disciplines.
+  id: snomed-ct
+  name: SNOMED-CT
+  registry:
+    fairsharing: d88s6e
+  url: https://www.snomed.org/
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations. This includes descriptions of the genomics, laboratory, clinical and epidemiological contextual information required to support data sharing and integration for food-borne infectious disease surveillance and outbreak investigations.
+  id: genepio
+  name: Genomic Epidemiology Ontology (GenEpiO)
+  registry:
+    fairsharing: y1mmbv
+  url: https://genepio.org/
+- description: "NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities. NCIt features: stable, unique codes for biomedical concepts; preferred terms, synonyms, research codes, external source codes, and other information; over 100,000 textual definitions; links to NCI Metathesaurus and other information sources; and over 400,000 cross-links between concepts, providing formal logic-based definition of many concepts. NCIt is a widely recognized standard for biomedical coding and reference, used by a broad variety of public and private partners both nationally and internationally including the Clinical Data Interchange Standards Consortium Terminology (CDISC), the U.S. Food and Drug Administration (FDA), the Federal Medication Terminologies (FMT), and the National Council for Prescription Drug Programs (NCPDP)."
+  id: ncit
+  name: NCI Thesaurus (NCIt)
+  registry:
+    fairsharing: 4cvwxa
+  url: https://ncit.nci.nih.gov/
+- description: "The Experimental Factor Ontology (EFO) is an application focused ontology modelling the experimental variables in multiple resources at the EBI and the Centre for Therapeutic Target Validation. The ontology has been developed to increase the richness of the annotations that are currently made in resources and to promote consistent annotation, to facilitate automatic annotation and to integrate external data. The ontology pulls together classes from reference ontologies such as disease, cell line, cell type and anatomy and adds axiomatisation as necessary to connect areas such as disease to phenotype."
+  id: efo
+  name: Experimental Factor Ontology (EFO)
+  registry:
+    fairsharing: 1gr4tz
+  url: https://www.ebi.ac.uk/efo/
